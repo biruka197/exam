@@ -1,0 +1,332 @@
+[
+    {
+      "question_number": 1,
+      "question": "What is a riventer used for in aircraft structures?",
+      "options": {
+        "a": "Driving rivets to secure materials",
+        "b": "Cutting aluminum sheets",
+        "c": "Measuring material thickness"
+      },
+      "correct_answer": "a",
+      "explanation": "A riventer is a tool or device used to drive rivets, securing materials together in aircraft structures, ensuring strong and reliable joints."
+    },
+    {
+      "question_number": 2,
+      "question": "What does 'racing' refer to in the context of aircraft bearings or gears?",
+      "options": {
+        "a": "A competition between components",
+        "b": "Excessive wear due to improper fit or lubrication",
+        "c": "A method to increase speed"
+      },
+      "correct_answer": "b",
+      "explanation": "'Racing' in the context of bearings or gears refers to excessive wear or movement due to improper fit or lubrication, which can lead to failure in aircraft systems."
+    },
+    {
+      "question_number": 3,
+      "question": "What does brittleness mean in the context of aircraft materials?",
+      "options": {
+        "a": "The ability to deform without breaking",
+        "b": "The tendency to fracture without significant deformation",
+        "c": "The ability to resist corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Brittleness is the property of a material that causes it to fracture without significant plastic deformation, which is undesirable in aircraft structures due to the need for toughness."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the purpose of tempering in heat treatment of steel?",
+      "options": {
+        "a": "To increase hardness",
+        "b": "To reduce brittleness and improve toughness",
+        "c": "To make the steel more corrosion-resistant"
+      },
+      "correct_answer": "b",
+      "explanation": "Tempering is a heat treatment process that reduces brittleness in hardened steel, improving toughness while maintaining strength, which is critical for aircraft components."
+    },
+    {
+      "question_number": 5,
+      "question": "What might the term 'Abel' refer to in the context of aircraft materials?",
+      "options": {
+        "a": "A type of aluminum alloy",
+        "b": "A material's ability to withstand conditions",
+        "c": "A specific type of fastener"
+      },
+      "correct_answer": "b",
+      "explanation": "'Abel' is likely a misspelling of 'able,' referring to a material's ability to withstand certain conditions, such as stress or corrosion, in aircraft applications."
+    },
+    {
+      "question_number": 6,
+      "question": "What might 'Gwer @ 1234' refer to in the context of aircraft materials?",
+      "options": {
+        "a": "A type of steel grade, possibly SAE 1234",
+        "b": "A tool for riveting",
+        "c": "A type of composite material"
+      },
+      "correct_answer": "a",
+      "explanation": "'Gwer @ 1234' might be a shorthand for a steel grade, possibly SAE 1234, where '1234' indicates a specific alloy composition, though this requires clarification."
+    },
+    {
+      "question_number": 7,
+      "question": "What is direct chemical attack in the context of aircraft materials?",
+      "options": {
+        "a": "A method of bonding materials",
+        "b": "A form of corrosion caused by chemicals",
+        "c": "A process to strengthen metals"
+      },
+      "correct_answer": "b",
+      "explanation": "Direct chemical attack is a form of corrosion where a material is directly attacked by chemicals, such as acids or salts, leading to degradation in aircraft components."
+    },
+    {
+      "question_number": 8,
+      "question": "What is uniform surface corrosion in aircraft materials?",
+      "options": {
+        "a": "Corrosion that occurs only at grain boundaries",
+        "b": "Corrosion that occurs evenly across the surface",
+        "c": "Corrosion caused by mechanical stress"
+      },
+      "correct_answer": "b",
+      "explanation": "Uniform surface corrosion is a type of corrosion that occurs evenly across the surface of a material, often seen in metals exposed to corrosive environments in aircraft."
+    },
+    {
+      "question_number": 9,
+      "question": "What does anodizing help prevent in aircraft materials?",
+      "options": {
+        "a": "Brittleness",
+        "b": "Corrosion",
+        "c": "Deformation"
+      },
+      "correct_answer": "b",
+      "explanation": "Anodizing creates a protective oxide layer on metals like aluminum to prevent corrosion, enhancing the durability of aircraft components."
+    },
+    {
+      "question_number": 10,
+      "question": "What does 'strength of wood + glue' refer to in early aircraft construction?",
+      "options": {
+        "a": "The weight of wooden structures",
+        "b": "The combined strength of wood and adhesive in composite structures",
+        "c": "The corrosion resistance of wood"
+      },
+      "correct_answer": "b",
+      "explanation": "'Strength of wood + glue' refers to the combined strength of wood and adhesive in composite structures, historically used in early aircraft construction for lightweight frameworks."
+    },
+    {
+      "question_number": 11,
+      "question": "Which of the following is NOT a type of bonding mentioned in the notes?",
+      "options": {
+        "a": "Adhesive bonding",
+        "b": "Chemical bonding",
+        "c": "Thermal bonding"
+      },
+      "correct_answer": "c",
+      "explanation": "The notes mention adhesive (using glue), chemical (via reactions), and mechanical (via physical interlocking) bonding, but not thermal bonding, which involves heat fusion."
+    },
+    {
+      "question_number": 12,
+      "question": "What is a characteristic of 1000H aluminum?",
+      "options": {
+        "a": "High strength",
+        "b": "Nearly pure aluminum with excellent corrosion resistance",
+        "c": "High carbon content"
+      },
+      "correct_answer": "b",
+      "explanation": "1000H aluminum refers to 1000-series aluminum, which is nearly pure (99% or higher) and known for excellent corrosion resistance but low strength."
+    },
+    {
+      "question_number": 13,
+      "question": "Which element is NOT typically a primary component of bronze?",
+      "options": {
+        "a": "Copper",
+        "b": "Tin",
+        "c": "Zinc"
+      },
+      "correct_answer": "c",
+      "explanation": "Bronze is primarily an alloy of copper and tin, sometimes with aluminum. Zinc is more commonly found in brass, not bronze."
+    },
+    {
+      "question_number": 14,
+      "question": "What does 'better deformation' refer to in aircraft materials?",
+      "options": {
+        "a": "The ability to resist corrosion",
+        "b": "The ability to deform without breaking",
+        "c": "The ability to increase hardness"
+      },
+      "correct_answer": "b",
+      "explanation": "'Better deformation' refers to a material's ability to deform without breaking, often associated with ductility or malleability, which is desirable for forming aircraft parts."
+    },
+    {
+      "question_number": 15,
+      "question": "What is the elastic limit of a material?",
+      "options": {
+        "a": "The point where the material fractures",
+        "b": "The maximum stress before permanent deformation",
+        "c": "The point where the material becomes brittle"
+      },
+      "correct_answer": "b",
+      "explanation": "The elastic limit is the maximum stress a material can withstand without undergoing permanent deformation, critical for ensuring aircraft components return to their original shape."
+    },
+    {
+      "question_number": 16,
+      "question": "What is the critical point in metallurgy?",
+      "options": {
+        "a": "The point where a material melts",
+        "b": "The temperature where a phase change occurs",
+        "c": "The point where a material becomes ductile"
+      },
+      "correct_answer": "b",
+      "explanation": "The critical point is the temperature at which a material undergoes a phase change (e.g., austenite to ferrite in steel), just before structural transformation occurs."
+    },
+    {
+      "question_number": 17,
+      "question": "What might 'confidence bearing' refer to in aircraft components?",
+      "options": {
+        "a": "A bearing designed for high speed",
+        "b": "A bearing designed with reliability",
+        "c": "A bearing made of composite materials"
+      },
+      "correct_answer": "b",
+      "explanation": "'Confidence bearing' likely refers to a bearing designed with reliability, ensuring consistent performance under load in aircraft systems."
+    },
+    {
+      "question_number": 18,
+      "question": "What does 'soft & bend + work when' likely describe in the context of aircraft materials?",
+      "options": {
+        "a": "The process of work hardening",
+        "b": "The process of annealing to soften for bending",
+        "c": "The process of increasing brittleness"
+      },
+      "correct_answer": "b",
+      "explanation": "'Soft & bend + work when' likely describes annealing, a process that softens a material to make it easier to bend or work, often used in aircraft manufacturing."
+    },
+    {
+      "question_number": 19,
+      "question": "What is the purpose of softening and annealing in aircraft materials?",
+      "options": {
+        "a": "To increase hardness",
+        "b": "To reduce internal stresses and increase ductility",
+        "c": "To improve corrosion resistance"
+      },
+      "correct_answer": "b",
+      "explanation": "Annealing softens a material, reducing internal stresses and increasing ductility, making it easier to form aircraft components like aluminum parts."
+    },
+    {
+      "question_number": 20,
+      "question": "What distinguishes cast iron from other irons?",
+      "options": {
+        "a": "Low carbon content",
+        "b": "High carbon content and graphite flakes",
+        "c": "High corrosion resistance"
+      },
+      "correct_answer": "b",
+      "explanation": "Cast iron differs from other irons due to its high carbon content (2-4%) and graphite flakes, making it brittle but excellent for casting."
+    },
+    {
+      "question_number": 21,
+      "question": "Why is aluminum the most used metal in aircraft?",
+      "options": {
+        "a": "High corrosion resistance",
+        "b": "High strength-to-weight ratio",
+        "c": "Low cost"
+      },
+      "correct_answer": "b",
+      "explanation": "Aluminum is the most used metal in aircraft due to its high strength-to-weight ratio, making it ideal for structural components while keeping weight low."
+    },
+    {
+      "question_number": 22,
+      "question": "Which standards are usually used for rivets in aircraft?",
+      "options": {
+        "a": "ISO and DIN",
+        "b": "AN and MS",
+        "c": "SAE and ASTM"
+      },
+      "correct_answer": "b",
+      "explanation": "AN (Airforce-Navy) and MS (Military Standard) are standard specifications for rivets and other fasteners used in aircraft for consistency and reliability."
+    },
+    {
+      "question_number": 23,
+      "question": "Why is magnesium sensitive to welds in aircraft applications?",
+      "options": {
+        "a": "It is too brittle",
+        "b": "It is reactive and prone to weld defects",
+        "c": "It has a high melting point"
+      },
+      "correct_answer": "b",
+      "explanation": "Magnesium is sensitive to welds due to its reactivity and tendency to form defects like porosity, requiring careful welding techniques in aircraft applications."
+    },
+    {
+      "question_number": 24,
+      "question": "What does 'Ferr + Icd + Cu + Alu' likely refer to in the context of alloys?",
+      "options": {
+        "a": "Ferrous and incidental elements like copper and aluminum",
+        "b": "A type of composite material",
+        "c": "A welding technique"
+      },
+      "correct_answer": "a",
+      "explanation": "'Ferr + Icd + Cu + Alu' likely refers to ferrous (Ferr) and incidental (Icd) elements like copper (Cu) and aluminum (Alu) in alloys, affecting properties like corrosion resistance."
+    },
+    {
+      "question_number": 25,
+      "question": "What is a characteristic of a Class 3 bolt in aircraft applications?",
+      "options": {
+        "a": "Loose fit for easy assembly",
+        "b": "Tight fit requiring precise machining",
+        "c": "Medium fit for general use"
+      },
+      "correct_answer": "b",
+      "explanation": "Class 3 bolts have a tight fit, requiring precise machining, often used in aircraft for high-strength applications where minimal play is critical."
+    },
+    {
+      "question_number": 26,
+      "question": "What does 'cable + formness' likely refer to in aircraft control systems?",
+      "options": {
+        "a": "The weight of the cable",
+        "b": "The stiffness or flexibility of cables",
+        "c": "The color coding of cables"
+      },
+      "correct_answer": "b",
+      "explanation": "'Cable + formness' likely refers to the stiffness or flexibility of cables, such as 7x19 cables (flexible) versus 1x7 cables (stiff), used in aircraft controls."
+    },
+    {
+      "question_number": 27,
+      "question": "What might 'steel conform' mean in the context of aircraft materials?",
+      "options": {
+        "a": "Steel that conforms to specific standards",
+        "b": "Steel that is highly flexible",
+        "c": "Steel used for decorative purposes"
+      },
+      "correct_answer": "a",
+      "explanation": "'Steel conform' likely refers to steel conforming to specific standards or specifications, such as SAE or MIL standards, for aircraft use."
+    },
+    {
+      "question_number": 28,
+      "question": "What material is commonly used for hoses and tubes in high-temperature aircraft applications?",
+      "options": {
+        "a": "Aluminum",
+        "b": "Stainless steel or titanium",
+        "c": "Plastic"
+      },
+      "correct_answer": "b",
+      "explanation": "Hoses and tubes for high-temperature (H.T.) applications in aircraft are often made from stainless steel or titanium to withstand elevated temperatures and pressures."
+    },
+    {
+      "question_number": 29,
+      "question": "What is tensile stress corrosion in aircraft materials?",
+      "options": {
+        "a": "Corrosion caused by high temperatures",
+        "b": "Cracking due to tensile stress and corrosive environment",
+        "c": "Corrosion that occurs uniformly on the surface"
+      },
+      "correct_answer": "b",
+      "explanation": "Tensile stress corrosion, or stress corrosion cracking, occurs when a material under tensile stress is exposed to a corrosive environment, leading to cracking."
+    },
+    {
+      "question_number": 30,
+      "question": "What is a characteristic of a Class 2 screw in aircraft applications?",
+      "options": {
+        "a": "Tight fit for high-strength applications",
+        "b": "Medium fit for general-purpose fastening",
+        "c": "Loose fit for quick assembly"
+      },
+      "correct_answer": "b",
+      "explanation": "Class 2 screws have a medium fit, providing a balance between precision and ease of assembly, commonly used in aircraft for general-purpose fastening."
+    }
+  ]

@@ -1,0 +1,13 @@
+[
+  {
+    "question_number": 33,
+    "question": "Which type of gear changes rotary motion to linear motion and vice-versa?",
+    "options": {
+      "a": "Spur gear",
+      "b": "Bevel gear",
+      "c": "Rack and pinion gear"
+    },
+    "correct_answer": "c",
+    "explanation": "A rack and pinion gear converts rotary motion to linear motion (or vice versa), commonly used in steering systems."
+  }
+  ]

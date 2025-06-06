@@ -1,0 +1,663 @@
+/* Basic Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Using Poppins, ensure it's linked or available */
+    font-family: 'Poppins', sans-serif;
+}
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #f0f4ff, #e8f0ff); /* Soft gradient background */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Padding around content */
+}
+/* Main Container */
+.container {
+    max-width: 1100px; /* Max width for larger screens */
+    width: 100%; /* Full width on smaller screens */
+    background: #fff; /* White background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 40px; /* Inner padding */
+    position: relative; /* Needed for absolute positioning of loading indicator */
+    overflow: hidden; /* Hide overflowing content */
+    transition: transform 0.3s ease; /* Smooth transition for loading state */
+}
+/* Loading State for Container */
+.container.loading {
+    transform: scale(0.98); /* Slightly shrink */
+    opacity: 0.8; /* Reduce opacity */
+    pointer-events: none; /* Disable interactions while loading */
+}
+/* Header Styling */
+.header {
+    background: linear-gradient(to right, #006633, #004d2e); /* Green gradient */
+    color: #fff; /* White text */
+    padding: 15px 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 20px; /* Space below header */
+}
+.header h1 {
+    font-size: 24px; /* Title font size */
+    font-weight: 600; /* Semi-bold font */
+}
+/* Timer and Controls Container */
+.timer-controls {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    gap: 15px; /* Space between items */
+}
+/* Exam Code Display */
+.exam-code {
+    font-size: 18px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 5px 10px; /* Padding */
+    border-radius: 20px; /* Pill shape */
+}
+/* Timer Display */
+.timer {
+    font-size: 18px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 5px 10px; /* Padding */
+    border-radius: 20px; /* Pill shape */
+}
+/* Timer Switch Container */
+.timer-switch {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    gap: 5px; /* Space between switch and label */
+}
+.timer-switch label {
+    font-size: 14px; /* Font size */
+    color: #fff; /* White text */
+    cursor: pointer; /* Indicate clickable */
+}
+/* Custom Switch Styling */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px; /* Width of the switch */
+    height: 24px; /* Height of the switch */
+}
+.switch input {
+    opacity: 0; /* Hide the default checkbox */
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Grey background when off */
+    transition: .4s; /* Smooth transition */
+    border-radius: 24px; /* Rounded slider */
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px; /* Size of the circle */
+    width: 20px; /* Size of the circle */
+    left: 2px; /* Position from left */
+    bottom: 2px; /* Position from bottom */
+    background-color: white; /* White circle */
+    transition: .4s; /* Smooth transition */
+    border-radius: 50%; /* Make it a circle */
+}
+input:checked + .slider {
+    background-color: #ff3333; /* Red background when on */
+}
+input:checked + .slider:before {
+    transform: translateX(26px); /* Move circle to the right */
+}
+/* Heading 2 Styling */
+h2 {
+    text-align: center; /* Center text */
+    color: #1a1a1a; /* Dark grey text */
+    font-size: 28px; /* Font size */
+    margin-bottom: 30px; /* Space below */
+    font-weight: 600; /* Semi-bold */
+    position: relative; /* Needed for the underline effect */
+}
+h2::after {
+    content: '';
+    width: 50px; /* Width of the underline */
+    height: 3px; /* Thickness of the underline */
+    background: #006633; /* Green color */
+    position: absolute;
+    bottom: -10px; /* Position below the text */
+    left: 50%; /* Start from the middle */
+    transform: translateX(-50%); /* Center the underline */
+}
+/* Progress Bar Container */
+.progress-bar {
+    background: #e0e0e0; /* Light grey background */
+    height: 8px; /* Height of the bar */
+    border-radius: 4px; /* Rounded corners */
+    margin: 15px 0; /* Space above and below */
+    position: relative; /* Needed for child progress bars */
+    overflow: hidden; /* Hide overflowing progress */
+}
+/* Individual Progress Segments */
+.progress {
+    background: #006633; /* Green color for visited questions */
+    height: 100%; /* Full height of the container */
+    border-radius: 4px; /* Rounded corners */
+    transition: width 0.3s ease; /* Smooth width changes */
+    position: absolute; /* Position within the bar */
+    top: 0;
+    left: 0;
+}
+.progress.answered {
+    background: #ff3333; /* Red color for answered questions */
+    z-index: 1; /* Ensure answered bar is above visited bar */
+}
+ /* Progress Text */
+.progress-text {
+    text-align: center; /* Center text */
+    font-size: 14px; /* Font size */
+    color: #666; /* Grey text */
+    margin-bottom: 10px; /* Space below */
+}
+/* Question Navigation Container */
+.question-nav {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+    margin: 20px 0; /* Space above and below */
+    flex-wrap: wrap; /* Wrap buttons on smaller screens */
+}
+/* Question Navigation Buttons */
+.question-nav button {
+    background: #006633; /* Green background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 50%; /* Circle shape */
+    width: 40px; /* Width */
+    height: 40px; /* Height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Indicate clickable */
+    transition: all 0.3s ease; /* Smooth transitions */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+.question-nav button.active {
+    background: #ffcc00; /* Yellow background for active button */
+    color: #000; /* Black text */
+    transform: scale(1.1); /* Slightly enlarge active button */
+}
+.question-nav button:hover {
+    background: #004d2e; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+ /* Question Box Styling */
+.question-box {
+    background: linear-gradient(145deg, #fff9e6, #fff3cd); /* Light yellow gradient */
+    padding: 25px; /* Inner padding */
+    border-radius: 12px; /* Rounded corners */
+    margin: 20px 0; /* Space above and below */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+}
+.question-box:hover {
+    transform: translateY(-5px); /* Lift slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
+/* Question Header */
+.question-header {
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Vertically align */
+    margin-bottom: 15px; /* Space below */
+}
+.question-header p {
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Semi-bold */
+    color: #333; /* Dark grey text */
+}
+/* Question Text */
+.question-text {
+    font-size: 20px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    color: #1a1a1a; /* Very dark grey */
+    margin-bottom: 20px; /* Space below */
+    line-height: 1.4; /* Improved readability */
+}
+/* Option Styling */
+.option {
+    display: flex;
+    align-items: center; /* Vertically align */
+    background: #fff; /* White background */
+    padding: 15px 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px 0; /* Space between options */
+    transition: all 0.3s ease; /* Smooth transitions */
+    cursor: pointer; /* Indicate clickable */
+    border: 2px solid #ddd; /* Light grey border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+.option:hover {
+    background: #e6f7e6; /* Light green background on hover */
+    border-color: #006633; /* Green border on hover */
+    transform: translateY(-3px); /* Lift slightly on hover */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Larger shadow on hover */
+}
+ /* Selected Option Styling */
+.option.selected {
+     background: #e6f7e6; /* Light green background when selected */
+     border-color: #006633; /* Green border when selected */
+}
+/* Hide Default Radio Button */
+.option input[type="radio"] {
+    display: none;
+}
+/* Label Styling for Options */
+.option label {
+    font-size: 16px; /* Font size */
+    color: #444; /* Medium grey text */
+    flex: 1; /* Take available space */
+    cursor: pointer; /* Indicate clickable */
+    position: relative; /* Needed for custom radio button */
+    padding-left: 30px; /* Space for custom radio button */
+}
+/* Custom Radio Button (Before) */
+.option label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Size of the circle */
+    height: 20px; /* Size of the circle */
+    border: 2px solid #555; /* Dark grey border */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #fff; /* White background */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+/* Custom Radio Button (Checked State) */
+.option input[type="radio"]:checked + label::before {
+    border-color: #006633; /* Green border when checked */
+    background-color: #006633; /* Green background when checked */
+}
+/* Custom Radio Button Inner Dot (After) */
+.option label::after {
+    content: '';
+    position: absolute;
+    left: 5px; /* Position of the dot */
+    top: 50%;
+    transform: translateY(-50%) scale(0); /* Start hidden */
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #fff; /* White dot */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+/* Custom Radio Button Inner Dot (Checked State) */
+.option input[type="radio"]:checked + label::after {
+    transform: translateY(-50%) scale(1); /* Show the dot */
+}
+/* Label Styling When Radio Button is Checked */
+.option input[type="radio"]:checked + label {
+    color: #006633; /* Green text */
+    font-weight: 600; /* Semi-bold */
+}
+/* Answer Box Styling (Initially Hidden) */
+.answer-box {
+    background: #e6f7e6; /* Light green background */
+    padding: 15px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 15px; /* Space above */
+    border-left: 4px solid #006633; /* Green left border */
+    max-height: 0; /* Initially hidden */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transitions */
+    opacity: 0; /* Initially transparent */
+}
+/* Answer Box Shown State */
+.answer-box.show {
+    max-height: 300px; /* Max height when shown */
+    opacity: 1; /* Fully visible */
+}
+.answer-box p {
+    font-size: 14px; /* Font size */
+    color: #333; /* Dark grey text */
+    margin: 5px 0; /* Space between paragraphs */
+}
+.answer-box .correct {
+    color: #006633; /* Green text for correct answer */
+    font-weight: bold; /* Bold text */
+}
+/* Navigation Buttons Container */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between; /* Space out buttons */
+    margin-top: 20px; /* Space above */
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap; /* Wrap buttons on smaller screens */
+}
+/* Navigation Button Styling */
+.nav-buttons button {
+    padding: 12px 25px; /* Padding */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Indicate clickable */
+    transition: all 0.3s ease; /* Smooth transitions */
+    flex: 1; /* Allow buttons to grow/shrink */
+    min-width: 120px; /* Minimum width */
+    text-align: center; /* Center text */
+}
+.nav-buttons .prev {
+    background: #006633; /* Green background for previous */
+    color: #fff; /* White text */
+}
+.nav-buttons .next {
+    background: #006633; /* Green background for next */
+    color: #fff; /* White text */
+}
+.nav-buttons .toggle-answer {
+    background: #ffcc00; /* Yellow background for toggle answer */
+    color: #000; /* Black text */
+}
+.nav-buttons button:hover {
+    background: #004d2e; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift slightly on hover */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+.nav-buttons .toggle-answer:hover {
+    background: #e6b800; /* Darker yellow on hover */
+}
+/* Exit Button Styling */
+.exit {
+    background: #ff3333; /* Red background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 12px 20px; /* Padding */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable */
+    margin-top: 10px; /* Space above */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+.exit:hover {
+    background: #cc0000; /* Darker red on hover */
+    transform: translateY(-2px); /* Lift slightly on hover */
+}
+/* Error Message Styling */
+.error {
+    color: #ff3333; /* Red text */
+    text-align: center; /* Center text */
+    font-size: 14px; /* Font size */
+    margin: 10px 0; /* Space above and below */
+    background: #ffe6e6; /* Light red background */
+    padding: 10px; /* Padding */
+    border-radius: 8px; /* Rounded corners */
+}
+/* Form Group for Settings */
+.form-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 15px; /* Space between items */
+    margin-bottom: 20px; /* Space below */
+}
+.form-group div {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+}
+.form-group label {
+    font-size: 14px; /* Font size */
+    color: #333; /* Dark grey text */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: 500; /* Medium font weight */
+}
+.form-group input, .form-group select {
+    padding: 10px; /* Padding */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+.form-group input:focus, .form-group select:focus {
+    border-color: #006633; /* Green border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 102, 51, 0.1); /* Subtle green glow on focus */
+}
+/* Total Questions Hint */
+.total-questions {
+    font-size: 12px; /* Smaller font size */
+    color: #666; /* Grey text */
+    margin-top: 5px; /* Space above */
+}
+/* Toggle Switch for Order */
+.toggle-switch {
+    display: flex;
+    align-items: center; /* Vertically align */
+    gap: 10px; /* Space between items */
+    margin-bottom: 20px; /* Space below */
+}
+.toggle-switch label {
+    font-size: 14px; /* Font size */
+    color: #333; /* Dark grey text */
+    font-weight: 500; /* Medium font weight */
+}
+/* Begin and Retake Buttons */
+.begin-btn, .retake-btn {
+    background: linear-gradient(to right, #006633, #004d2e); /* Green gradient */
+    color: #fff; /* White text */
+    padding: 12px; /* Padding */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    width: 100%; /* Full width */
+    cursor: pointer; /* Indicate clickable */
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    transition: all 0.3s ease; /* Smooth transitions */
+    margin-bottom: 10px; /* Space below */
+}
+.begin-btn:hover, .retake-btn:hover {
+    background: linear-gradient(to right, #004d2e, #00331f); /* Darker green gradient on hover */
+    transform: translateY(-2px); /* Lift slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+.retake-btn {
+    background: linear-gradient(to right, #ffcc00, #e6b800); /* Yellow gradient for retake */
+    color: #000; /* Black text */
+}
+.retake-btn:hover {
+    background: linear-gradient(to right, #e6b800, #cc9900); /* Darker yellow gradient on hover */
+}
+/* Question Review Styling */
+.question-review {
+    background: #f9f9f9; /* Light grey background */
+    padding: 15px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below */
+    border-left: 4px solid #006633; /* Green left border */
+}
+.question-review.incorrect {
+    border-left-color: #ff3333; /* Red left border for incorrect */
+}
+.question-review p {
+    font-size: 14px; /* Font size */
+    color: #444; /* Medium grey text */
+    margin: 5px 0; /* Space between paragraphs */
+}
+.correct {
+    color: #006633; /* Green text */
+    font-weight: bold; /* Bold */
+}
+.incorrect {
+    color: #ff3333; /* Red text */
+    font-weight: bold; /* Bold */
+}
+/* Footer Styling */
+.footer {
+    text-align: center; /* Center text */
+    font-size: 12px; /* Smaller font size */
+    color: #666; /* Grey text */
+    margin-top: 20px; /* Space above */
+}
+/* Course Selection Grid */
+.course-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 30px; /* Space below */
+}
+/* Course Card Styling */
+.course-card {
+    background: #fff; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px; /* Inner padding */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    text-align: center; /* Center content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* Smooth transitions */
+    cursor: pointer; /* Indicate clickable */
+    position: relative; /* Needed for icon positioning */
+    border: 2px solid transparent; /* Transparent border for hover effect */
+}
+.course-card:hover {
+    transform: translateY(-8px); /* Lift significantly on hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+    border-color: #006633; /* Green border on hover */
+    background: linear-gradient(145deg, #f6ffed, #e6f7f6); /* Light gradient on hover */
+}
+.course-card h3 {
+    font-size: 20px; /* Font size */
+    color: #1a1a1a; /* Dark grey text */
+    margin-bottom: 15px; /* Space below */
+    font-weight: 600; /* Semi-bold */
+}
+.course-card .exam-count {
+    font-size: 14px; /* Font size */
+    color: #444; /* Medium grey text */
+    background: #ffcc00; /* Yellow background */
+    padding: 5px 15px; /* Padding */
+    border-radius: 20px; /* Pill shape */
+    display: inline-block; /* Allow padding and margin */
+    margin-bottom: 15px; /* Space below */
+    font-weight: 500; /* Medium font weight */
+}
+.course-card .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px; /* Icon size */
+    color: #006633; /* Green color */
+    opacity: 0.2; /* Semi-transparent */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+.course-card:hover .icon {
+    opacity: 0.4; /* Increase opacity on hover */
+}
+/* Exam List Container */
+.exam-list {
+    margin-top: 30px; /* Space above */
+    padding: 20px; /* Inner padding */
+    background: #f9f9f9; /* Light grey background */
+    border-radius: 12px; /* Rounded corners */
+    border-left: 5px solid #006633; /* Green left border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+.exam-list h3 {
+    font-size: 20px; /* Font size */
+    color: #1a1a1a; /* Dark grey text */
+    margin-bottom: 15px; /* Space below */
+    font-weight: 600; /* Semi-bold */
+}
+.exam-list ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+.exam-list li {
+    font-size: 16px; /* Font size */
+    color: #444; /* Medium grey text */
+    padding: 12px 0; /* Padding above and below */
+    border-bottom: 1px solid #eee; /* Light grey bottom border */
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Vertically align */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+.exam-list li:hover {
+    background: #e6f7e6; /* Light green background on hover */
+}
+.exam-list li:last-child {
+    border-bottom: none; /* No border for the last item */
+}
+/* Exam List Button Styling */
+.exam-list button {
+    background: linear-gradient(to right, #006633, #004d2e); /* Green gradient */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable */
+    font-size: 14px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+.exam-list button:hover {
+    background: linear-gradient(to right, #004d2e, #00331f); /* Darker green gradient on hover */
+    transform: translateY(-2px); /* Lift slightly on hover */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Reduce padding */
+    }
+    .header h1 {
+        font-size: 20px; /* Reduce font size */
+    }
+    .timer {
+        font-size: 16px; /* Reduce font size */
+    }
+    .exam-code {
+        font-size: 16px; /* Reduce font size */
+    }
+    .timer-controls {
+        gap: 10px; /* Reduce space */
+    }
+    .form-group {
+        grid-template-columns: 1fr; /* Stack form items */
+    }
+    .question-nav {
+        gap: 8px; /* Reduce space */
+    }
+    .question-nav button {
+        width: 36px; /* Reduce size */
+        height: 36px; /* Reduce size */
+        font-size: 14px; /* Reduce font size */
+    }
+    .nav-buttons {
+        flex-direction: column; /* Stack buttons */
+        gap: 10px; /* Space between stacked buttons */
+    }
+    .nav-buttons button {
+        width: 100%; /* Full width */
+    }
+    .course-selection {
+        grid-template-columns: 1fr; /* Stack course cards */
+    }
+    .course-card {
+        padding: 20px; /* Reduce padding */
+    }
+    .exam-list {
+        padding: 15px; /* Reduce padding */
+    }
+}

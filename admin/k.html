@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-Style 3D Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #080814;
+            color: #fff;
+            overflow-x: hidden;
+            cursor: none;
+        }
+        
+        canvas {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            z-index: 10;
+            border-bottom: 1px solid rgba(100, 100, 255, 0.3);
+        }
+        
+        h1 {
+            font-size: 1.8rem;
+            color: #9fffff;
+            font-weight: 600;
+            text-shadow: 0 0 10px rgba(0, 200, 255, 0.8);
+        }
+        
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        nav a {
+            color: #9fffff;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+        
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(to right, #00a8ff, #0069ff);
+            transition: width 0.3s;
+        }
+        
+        nav a:hover {
+            color: #00a8ff;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
+        }
+        
+        nav a:hover::after {
+            width: 100%;
+        }
+        
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #00a8ff, #0069ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.3);
+            letter-spacing: 2px;
+            animation: pulsate 2s infinite;
+        }
+        
+        @keyframes pulsate {
+            0% { text-shadow: 0 0 10px rgba(0, 168, 255, 0.3); }
+            50% { text-shadow: 0 0 20px rgba(0, 168, 255, 0.6); }
+            100% { text-shadow: 0 0 10px rgba(0, 168, 255, 0.3); }
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin-bottom: 2rem;
+            color: #9fffff;
+            line-height: 1.6;
+            text-shadow: 0 0 20px rgba(0, 168, 255, 0.3);
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, #00a8ff, #0069ff);
+            color: #fff;
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+            box-shadow: 0 0 20px rgba(0, 168, 255, 0.5);
+            border: 1px solid rgba(0, 168, 255, 0.3);
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: all 0.5s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 168, 255, 0.6);
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        section {
+            min-height: 100vh;
+            padding: 8rem 2rem 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            background: linear-gradient(to right, #00a8ff, #0069ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.3);
+            letter-spacing: 2px;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+        
+        .project-card {
+            background: linear-gradient(145deg, rgba(10, 10, 30, 0.8), rgba(5, 5, 20, 0.9));
+            border: 1px solid rgba(0, 168, 255, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.5s;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-15px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0, 168, 255, 0.3);
+            border: 1px solid rgba(0, 168, 255, 0.5);
+        }
+        
+        .project-img {
+            height: 200px;
+            background-color: #0a0a20;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .project-img::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 10, 30, 0.8));
+        }
+        
+        .project-info {
+            padding: 1.5rem;
+        }
+        
+        .project-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+            color: #9fffff;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
+        }
+        
+        .project-info p {
+            color: #9fffff;
+            opacity: 0.8;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .tag {
+            background: rgba(0, 168, 255, 0.1);
+            color: #00a8ff;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            border: 1px solid rgba(0, 168, 255, 0.2);
+            transition: all 0.3s;
+        }
+        
+        .tag:hover {
+            background: rgba(0, 168, 255, 0.2);
+            border: 1px solid rgba(0, 168, 255, 0.4);
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .project-links a {
+            color: #00a8ff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        .project-links a:hover {
+            color: #9fffff;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
+        }
+        
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #080814;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+        
+        .loader-text {
+            font-size: 1.2rem;
+            color: #00a8ff;
+            margin-top: 1.5rem;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
+            letter-spacing: 2px;
+        }
+        
+        .progress-bar {
+            width: 250px;
+            height: 4px;
+            background-color: rgba(0, 168, 255, 0.2);
+            border-radius: 5px;
+            margin-top: 1rem;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(to right, #00a8ff, #0069ff);
+            border-radius: 5px;
+            position: relative;
+            transition: width 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+        
+        .progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60px;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5), transparent);
+            animation: loading-shine 1s infinite;
+        }
+        
+        @keyframes loading-shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(250px); }
+        }
+        
+        .loader-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid rgba(0, 168, 255, 0.3);
+            border-top-color: #00a8ff;
+            animation: spin 1s infinite linear;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .controls-info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: rgba(0, 10, 30, 0.8);
+            padding: 0.8rem 1.2rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            color: #9fffff;
+            border: 1px solid rgba(0, 168, 255, 0.2);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            transition: all 0.3s;
+        }
+        
+        .controls-info:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 168, 255, 0.2);
+        }
+        
+        .custom-cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: rgba(0, 168, 255, 0.5);
+            border: 1px solid rgba(0, 168, 255, 0.8);
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9999;
+            transition: all 0.15s ease;
+            mix-blend-mode: difference;
+        }
+        
+        .cursor-trail {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: rgba(0, 168, 255, 0.3);
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9998;
+            transition: all 0.3s ease;
+        }
+        
+        .gear-showcase {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
+        
+        .gear-item {
+            width: 300px;
+            background: linear-gradient(145deg, rgba(10, 10, 30, 0.8), rgba(5, 5, 20, 0.9));
+            border: 1px solid rgba(0, 168, 255, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.5s;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .gear-item:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 168, 255, 0.3);
+            border: 1px solid rgba(0, 168, 255, 0.5);
+        }
+        
+        .gear-icon {
+            font-size: 3rem;
+            color: #00a8ff;
+            margin-bottom: 1rem;
+        }
+        
+        .gear-title {
+            font-size: 1.3rem;
+            color: #9fffff;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.3);
+        }
+        
+        .gear-desc {
+            color: #9fffff;
+            opacity: 0.8;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(0, 168, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 168, 255, 0.2);
+            width: 150px;
+            transition: all 0.3s;
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-5px);
+            background: rgba(0, 168, 255, 0.2);
+            border: 1px solid rgba(0, 168, 255, 0.4);
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            color: #00a8ff;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.5);
+        }
+        
+        .stat-label {
+            color: #9fffff;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            
+            nav ul {
+                gap: 1rem;
+            }
+            
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+            
+            .projects {
+                grid-template-columns: 1fr;
+            }
+            
+            .gear-showcase {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .gear-item {
+                width: 100%;
+            }
+            
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .stat-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <div class="loader">
+        <div class="loader-logo"></div>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <p class="loader-text">LOADING GAME ASSETS...</p>
+    </div>
+
+    <canvas id="bg"></canvas>
+
+    <header>
+        <h1>GAME DEV PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gear">Gear</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="home" class="hero">
+            <h2>3D GAME DEVELOPER</h2>
+            <p>Welcome to my interactive game development portfolio showcasing my work with Three.js, WebGL, and game engines. Explore a collection of game assets, technical demos, and interactive projects.</p>
+            <a href="#gear" class="btn">EXPLORE GEAR</a>
+        </section>
+
+        <section id="gear">
+            <h2>AMAZING GEAR</h2>
+            <div class="gear-showcase">
+                <div class="gear-item">
+                    <div class="gear-icon">🛡️</div>
+                    <h3 class="gear-title">Epic Shield</h3>
+                    <p class="gear-desc">Ancient shield with +50 defense and 30% magic resistance. Crafted by master artisans of the forgotten realm.</p>
+                </div>
+                <div class="gear-item">
+                    <div class="gear-icon">⚔️</div>
+                    <h3 class="gear-title">Legendary Sword</h3>
+                    <p class="gear-desc">Deals 120 damage with a 15% chance of critical hit. Infused with the power of dragons.</p>
+                </div>
+                <div class="gear-item">
+                    <div class="gear-icon">🏹</div>
+                    <h3 class="gear-title">Phantom Bow</h3>
+                    <p class="gear-desc">Long-range weapon with 85 accuracy and 20% chance to apply poison effect.</p>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value">85</div>
+                    <div class="stat-label">Strength</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">92</div>
+                    <div class="stat-label">Dexterity</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">78</div>
+                    <div class="stat-label">Intelligence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">88</div>
+                    <div class="stat-label">Vitality</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>GAME PROJECTS</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="project-img">Project Preview</div>
+                    <div class="project-info">
+                        <h3>Mystic Arena</h3>
+                        <p>A multiplayer battle arena game with procedurally generated environments and realistic physics.</p>
+                        <div class="project-tags">
+                            <span class="tag">Three.js</span>
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Play Demo</a>
+                            <a href="#">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Project Preview</div>
+                    <div class="project-info">
+                        <h3>Quantum Racer</h3>
+                        <p>A high-speed racing game with quantum physics mechanics and time manipulation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Three.js</span>
+                            <span class="tag">WebGL</span>
+                            <span class="tag">GLSL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Play Demo</a>
+                            <a href="#">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Project Preview</div>
+                    <div class="project-info">
+                        <h3>Celestial Conquest</h3>
+                        <p>An MMO strategy game set in a procedurally generated universe with realistic space physics.</p>
+                        <div class="project-tags">
+                            <span class="tag">Three.js</span>
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Play Demo</a>
+                            <a href="#">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>ABOUT THE DEVELOPER</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto; color: #9fffff; line-height: 1.6;">
+                I'm a passionate game developer with expertise in creating immersive 3D experiences using Three.js, WebGL, and modern game engines.
+                My mission is to push the boundaries of web-based gaming through innovative mechanics, stunning visuals, and engaging gameplay.
+                With a background in both game design and development, I bring both technical prowess and creative vision to every project.
+            </p>
+        </section>
+    </main>
+
+    <div class="controls-info">
+        WASD: Move | Mouse: Look | Space: Jump | F: Interact
+    </div>
+
+    <script>
+        // Error handling for script loading
+        function loadScript(src, fallbackSrc) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = () => {
+                    console.log(`Loaded script: ${src}`);
+                    resolve();
+                };
+                script.onerror = () => {
+                    console.warn(`Failed to load script: ${src}, trying fallback: ${fallbackSrc}`);
+                    if (fallbackSrc) {
+                        const fallbackScript = document.createElement('script');
+                        fallbackScript.src = fallbackSrc;
+                        fallbackScript.onload = () => {
+                            console.log(`Loaded fallback script: ${fallbackSrc}`);
+                            resolve();
+                        };
+                        fallbackScript.onerror = () => {
+                            console.error(`Failed to load fallback script: ${fallbackSrc}`);
+                            reject(new Error(`Failed to load script: ${src} and fallback: ${fallbackSrc}`));
+                        };
+                        document.head.appendChild(fallbackScript);
+                    } else {
+                        reject(new Error(`Failed to load script: ${src}`));
+                    }
+                };
+                document.head.appendChild(script);
+            });
+        }
+
+        // Load scripts sequentially
+        async function init() {
+            try {
+                await loadScript(
+                    'https://cdnjs.cloudflare.com/ajax/libs/three.js/r168/three.min.js',
+                    'https://unpkg.com/three@0.168.0/build/three.min.js'
+                );
+                await loadScript(
+                    'https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/controls/PointerLockControls.js',
+                    'https://unpkg.com/three@0.168.0/examples/jsm/controls/PointerLockControls.js'
+                );
+                await loadScript(
+                    'https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.min.js',
+                    'https://unpkg.com/tween.js@18.6.4/dist/tween.min.js'
+                );
+                console.log('All scripts loaded successfully');
+                initializeScene();
+            } catch (error) {
+                console.error('Script loading error:', error);
+                const loaderText = document.querySelector('.loader-text');
+                loaderText.textContent = 'ERROR LOADING SCRIPTS. PLEASE REFRESH.';
+            }
+        }
+
+        // Custom cursor
+        const cursor = document.querySelector(".custom-cursor");
+        const cursorTrail = document.querySelector(".cursor-trail");
+        
+        document.addEventListener("mousemove", (e) => {
+            cursor.style.left = e.clientX + "px";
+            cursor.style.top = e.clientY + "px";
+            setTimeout(() => {
+                cursorTrail.style.left = e.clientX + "px";
+                cursorTrail.style.top = e.clientY + "px";
+            }, 80);
+        });
+        
+        document.addEventListener("mousedown", () => {
+            cursor.style.transform = "translate(-50%, -50%) scale(0.8)";
+            cursor.style.backgroundColor = "rgba(0, 168, 255, 0.8)";
+        });
+        
+        document.addEventListener("mouseup", () => {
+            cursor.style.transform = "translate(-50%, -50%) scale(1)";
+            cursor.style.backgroundColor = "rgba(0, 168, 255, 0.5)";
+        });
+
+        // Loader management
+        const progressBar = document.getElementById('progress');
+        const loader = document.querySelector('.loader');
+        const loaderText = document.querySelector('.loader-text');
+
+        function hideLoader() {
+            console.log('Hiding loader');
+            progressBar.style.width = '100%';
+            loaderText.textContent = 'LOADING COMPLETE';
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                    console.log('Loader hidden');
+                }, 1000);
+            }, 500);
+        }
+
+        // Force hide loader after timeout
+        setTimeout(() => {
+            if (loader.style.display !== 'none') {
+                console.warn('Loader timeout, forcing hide');
+                hideLoader();
+            }
+        }, 5000);
+
+        // Initialize scene
+        function initializeScene() {
+            try {
+                // Scene setup
+                const scene = new THREE.Scene();
+                scene.fog = new THREE.FogExp2(0x050510, 0.01);
+                
+                const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                camera.position.set(0, 2, 30);
+                
+                const renderer = new THREE.WebGLRenderer({
+                    canvas: document.querySelector('#bg'),
+                    antialias: true
+                });
+                
+                renderer.setPixelRatio(window.devicePixelRatio);
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.shadowMap.enabled = true;
+                renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+                renderer.outputEncoding = THREE.sRGBEncoding;
+                
+                // PointerLockControls
+                const controls = new THREE.PointerLockControls(camera, document.body);
+                let moveForward = false, moveBackward = false, moveLeft = false, moveRight = false;
+                let canJump = false;
+
+                document.addEventListener('click', () => {
+                    controls.lock();
+                });
+
+                const onKeyDown = (event) => {
+                    switch (event.code) {
+                        case 'KeyW': moveForward = true; break;
+                        case 'KeyA': moveLeft = true; break;
+                        case 'KeyS': moveBackward = true; break;
+                        case 'KeyD': moveRight = true; break;
+                        case 'Space':
+                            if (canJump) {
+                                velocity.y += 8;
+                                canJump = false;
+                            }
+                            break;
+                        case 'KeyF':
+                            interactWithGear();
+                            break;
+                    }
+                };
+
+                const onKeyUp = (event) => {
+                    switch (event.code) {
+                        case 'KeyW': moveForward = false; break;
+                        case 'KeyA': moveLeft = false; break;
+                        case 'KeyS': moveBackward = false; break;
+                        case 'KeyD': moveRight = false; break;
+                    }
+                };
+
+                document.addEventListener('keydown', onKeyDown);
+                document.addEventListener('keyup', onKeyUp);
+
+                // Physics variables
+                const velocity = new THREE.Vector3();
+                const direction = new THREE.Vector3();
+                const speed = 20;
+                const gravity = -9.8;
+
+                // Lighting
+                const ambientLight = new THREE.AmbientLight(0x333366, 0.5);
+                scene.add(ambientLight);
+                
+                const pointLight1 = new THREE.PointLight(0x00a8ff, 1, 100);
+                pointLight1.position.set(5, 5, 5);
+                pointLight1.castShadow = true;
+                scene.add(pointLight1);
+                
+                const pointLight2 = new THREE.PointLight(0x0069ff, 1, 100);
+                pointLight2.position.set(-5, 5, 5);
+                pointLight2.castShadow = true;
+                scene.add(pointLight2);
+                
+                const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(0, 10, 5);
+                directionalLight.castShadow = true;
+                directionalLight.shadow.mapSize.width = 2048;
+                directionalLight.shadow.mapSize.height = 2048;
+                directionalLight.shadow.camera.near = 0.5;
+                directionalLight.shadow.camera.far = 500;
+                scene.add(directionalLight);
+
+                // Ground plane
+                const groundGeometry = new THREE.PlaneGeometry(100, 100);
+                const groundMaterial = new THREE.MeshStandardMaterial({ color: 0x0a0a20, roughness: 0.8, metalness: 0.2 });
+                const ground = new THREE.Mesh(groundGeometry, groundMaterial);
+                ground.rotation.x = -Math.PI / 2;
+                ground.position.y = -1;
+                ground.receiveShadow = true;
+                scene.add(ground);
+
+                // Game gear objects
+                const gearObjects = [];
+                const gearData = [
+                    { name: "Epic Shield", description: "Ancient shield with +50 defense and 30% magic resistance.", position: [-15, 0, -10] },
+                    { name: "Legendary Sword", description: "Deals 120 damage with a 15% chance of critical hit.", position: [0, 0, -10] },
+                    { name: "Phantom Bow", description: "Long-range weapon with 85 accuracy and 20% chance to apply poison.", position: [15, 0, -10] }
+                ];
+
+                // Shield
+                const shieldGeometry = new THREE.TorusGeometry(5, 1, 16, 100);
+                const shieldMaterial = new THREE.MeshStandardMaterial({
+                    color: 0x00a8ff,
+                    metalness: 0.9,
+                    roughness: 0.1,
+                    emissive: 0x001030,
+                    emissiveIntensity: 0.5
+                });
+                const shield = new THREE.Mesh(shieldGeometry, shieldMaterial);
+                shield.position.set(-15, 0, -10);
+                shield.rotation.x = Math.PI / 2;
+                shield.castShadow = true;
+                shield.receiveShadow = true;
+                shield.userData = gearData[0];
+                scene.add(shield);
+                gearObjects.push(shield);
+
+                // Sword
+                const swordGroup = new THREE.Group();
+                const bladeGeometry = new THREE.CylinderGeometry(0.5, 0.1, 10, 8);
+                const bladeMaterial = new THREE.MeshStandardMaterial({
+                    color: 0xffffff,
+                    metalness: 1,
+                    roughness: 0.1,
+                    emissive: 0x0066ff,
+                    emissiveIntensity: 0.2
+                });
+                const blade = new THREE.Mesh(bladeGeometry, bladeMaterial);
+                blade.position.y = 5;
+                blade.castShadow = true;
+                blade.receiveShadow = true;
+                swordGroup.add(blade);
+
+                const handleGeometry = new THREE.CylinderGeometry(0.5, 0.5, 3, 8);
+                const handleMaterial = new THREE.MeshStandardMaterial({
+                    color: 0x302010,
+                    metalness: 0.3,
+                    roughness: 0.8
+                });
+                const handle = new THREE.Mesh(handleGeometry, handleMaterial);
+                handle.position.y = -1;
+                handle.castShadow = true;
+                handle.receiveShadow = true;
+                swordGroup.add(handle);
+
+                const guardGeometry = new THREE.BoxGeometry(2, 0.3, 0.5);
+                const guardMaterial = new THREE.MeshStandardMaterial({
+                    color: 0x606060,
+                    metalness: 0.7,
+                    roughness: 0.3
+                });
+                const guard = new THREE.Mesh(guardGeometry, guardMaterial);
+                guard.position.y = 2;
+                guard.castShadow = true;
+                guard.receiveShadow = true;
+                swordGroup.add(guard);
+
+                swordGroup.position.set(0, 0, -10);
+                swordGroup.rotation.x = Math.PI / 4;
+                swordGroup.userData = gearData[1];
+                scene.add(swordGroup);
+                gearObjects.push(swordGroup);
+
+                // Bow
+                const bowGroup = new THREE.Group();
+                const bowBodyGeometry = new THREE.TorusGeometry(3, 0.2, 16, 100, Math.PI);
+                const bowBodyMaterial = new THREE.MeshStandardMaterial({
+                    color: 0x404040,
+                    metalness: 0.5,
+                    roughness: 0.4,
+                    emissive: 0x002020,
+                    emissiveIntensity: 0.3
+                });
+                const bowBody = new THREE.Mesh(bowBodyGeometry, bowBodyMaterial);
+                bowBody.rotation.x = Math.PI / 2;
+                bowBody.castShadow = true;
+                bowBody.receiveShadow = true;
+                bowGroup.add(bowBody);
+
+                const stringGeometry = new THREE.CylinderGeometry(0.05, 0.05, 6, 8);
+                const stringMaterial = new THREE.MeshStandardMaterial({
+                    color: 0xaaaaaa,
+                    metalness: 0.2,
+                    roughness: 0.9
+                });
+                const string = new THREE.Mesh(stringGeometry, stringMaterial);
+                string.position.y = 0;
+                string.castShadow = true;
+                string.receiveShadow = true;
+                bowGroup.add(string);
+
+                bowGroup.position.set(15, 0, -10);
+                bowGroup.rotation.y = Math.PI / 2;
+                bowGroup.userData = gearData[2];
+                scene.add(bowGroup);
+                gearObjects.push(bowGroup);
+
+                // Background stars
+                const starGeometry = new THREE.BufferGeometry();
+                const starVertices = [];
+                for (let i = 0; i < 2000; i++) {
+                    starVertices.push(
+                        (Math.random() - 0.5) * 200,
+                        (Math.random() - 0.5) * 200,
+                        (Math.random() - 0.5) * 200
+                    );
+                }
+                starGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starVertices, 3));
+                const starMaterial = new THREE.PointsMaterial({ color: 0xaaaaaa, size: 0.2 });
+                const stars = new THREE.Points(starGeometry, starMaterial);
+                scene.add(stars);
+
+                // Raycaster for interaction
+                const raycaster = new THREE.Raycaster();
+
+                function interactWithGear() {
+                    raycaster.setFromCamera(new THREE.Vector2(0, 0), camera);
+                    const intersects = raycaster.intersectObjects(gearObjects);
+                    if (intersects.length > 0) {
+                        const gear = intersects[0].object;
+                        alert(`${gear.userData.name}: ${gear.userData.description}`);
+                        new TWEEN.Tween(gear.scale)
+                            .to({ x: 1.5, y: 1.5, z: 1.5 }, 300)
+                            .easing(TWEEN.Easing.Elastic.Out)
+                            .yoyo(true)
+                            .repeat(1)
+                            .start();
+                    }
+                }
+
+                // Animation loop
+                let clock = new THREE.Clock();
+                function animate() {
+                    try {
+                        requestAnimationFrame(animate);
+
+                        const delta = clock.getDelta();
+
+                        // Movement
+                        velocity.x -= velocity.x * 10.0 * delta;
+                        velocity.z -= velocity.z * 10.0 * delta;
+                        velocity.y += gravity * delta;
+
+                        direction.z = Number(moveForward) - Number(moveBackward);
+                        direction.x = Number(moveRight) - Number(moveLeft);
+                        direction.normalize();
+
+                        if (moveForward || moveBackward) velocity.z -= direction.z * speed * delta;
+                        if (moveLeft || moveRight) velocity.x -= direction.x * speed * delta;
+
+                        controls.moveRight(-velocity.x * delta);
+                        controls.moveForward(-velocity.z * delta);
+                        controls.getObject().position.y += velocity.y * delta;
+
+                        if (controls.getObject().position.y < 2) {
+                            velocity.y = 0;
+                            controls.getObject().position.y = 2;
+                            canJump = true;
+                        }
+
+                        // Animate gears
+                        gearObjects.forEach((gear, index) => {
+                            gear.rotation.y += 0.01 + index * 0.005;
+                            gear.position.y = Math.sin(Date.now() * 0.001 + index) * 0.5;
+                        });
+
+                        TWEEN.update();
+                        renderer.render(scene, camera);
+                    } catch (error) {
+                        console.error('Animation loop error:', error);
+                    }
+                }
+
+                // Start animation and hide loader
+                console.log('Starting animation');
+                animate();
+                hideLoader();
+
+                // Handle window resize
+                window.addEventListener('resize', () => {
+                    camera.aspect = window.innerWidth / window.innerHeight;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(window.innerWidth, window.innerHeight);
+                });
+
+            } catch (error) {
+                console.error('Scene initialization error:', error);
+                loaderText.textContent = 'ERROR INITIALIZING SCENE. PLEASE REFRESH.';
+            }
+        }
+
+        // Start initialization
+        init();
+    </script>
+</body>
+</html>
