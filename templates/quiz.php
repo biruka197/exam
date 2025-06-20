@@ -13,7 +13,6 @@
             </label>
         </div>
     </div>
-
     <div>
         <div class="flex justify-between mb-1">
             <span class="text-base font-medium text-slate-700">Progress</span>
@@ -46,12 +45,41 @@
     </div>
 
     <div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-4">
-        <button id="toggle-answer-btn" type="button" onclick="toggleAnswer()" class="toggle-answer w-full md:w-auto justify-center rounded-md border border-slate-300 bg-yellow-400 px-4 py-2 text-sm font-medium text-yellow-900 shadow-sm hover:bg-yellow-500"><?php echo $show_answer ? 'Hide Answer' : 'Show Answer'; ?></button>
+        <div>
+            <?php if ($is_reported): ?>
+                <button id="report-btn" type="button" class="w-full md:w-auto justify-center rounded-md border border-slate-300 bg-slate-200 px-3 py-1.5 text-xs font-medium text-slate-500 cursor-not-allowed" disabled>✓ Reported</button>
+            <?php else: ?>
+                <button id="report-btn" type="button" onclick="showReportModal(<?php echo $question['question_number']; ?>)" class="w-full md:w-auto justify-center rounded-md border border-slate-300 bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-600 shadow-sm hover:bg-slate-200">Report Question</button>
+            <?php endif; ?>
+        </div>
         <div class="flex gap-4 w-full md:w-auto">
+            <button id="toggle-answer-btn" type="button" onclick="toggleAnswer()" class="toggle-answer w-full md:w-auto justify-center rounded-md border border-slate-300 bg-yellow-400 px-4 py-2 text-sm font-medium text-yellow-900 shadow-sm hover:bg-yellow-500"><?php echo $show_answer ? 'Hide Answer' : 'Show Answer'; ?></button>
             <button id="prev-btn" type="button" onclick="navigateToQuestion(<?php echo $current_question_index - 1; ?>)" class="w-full justify-center rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed" <?php echo $current_question_index === 0 ? 'disabled' : ''; ?>>Previous</button>
             <button id="next-btn" type="submit" form="quiz-form" class="w-full justify-center rounded-md border border-transparent bg-green-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-green-700">Next</button>
         </div>
     </div>
-   <button type="button" onclick="exitExam(); alert('You are about to exit the exam.')" class="w-full mt-4 text-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-200">Exit Exam</button>
+  <button type="button" onclick="showExitModal()" class="w-full mt-4 text-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-200">Exit Exam</button>
+<div id="report-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300 opacity-0">
+    <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-sm text-center">
+        <h3 class="text-lg font-medium text-slate-900 mb-2">Confirm Report</h3>
+        <p class="text-sm text-slate-600 mb-6">Are you sure you want to report this question as incorrect or problematic?</p>
+        <div class="flex gap-4">
+            <button id="modal-cancel-btn" class="w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50">Cancel</button>
+            <button id="modal-confirm-btn" class="w-full rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700">Yes, Report</button>
+        </div>
+    </div>
+</div>
 
+<div id="toast-notification" class="fixed bottom-5 right-5 bg-slate-900 text-white py-2 px-4 rounded-lg shadow-lg transform translate-y-16 opacity-0 transition-all duration-300">
+    <p>Question has been reported.</p>
+</div>
+<div id="exit-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300 opacity-0">
+    <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-sm text-center">
+        <h3 class="text-lg font-medium text-slate-900 mb-2">Confirm Exit</h3>
+        <p class="text-sm text-slate-600 mb-6">Are you sure you want to exit the exam? All your current progress will be lost.</p>
+        <div class="flex gap-4">
+            <button id="exit-modal-cancel-btn" class="w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50">Stay</button>
+            <button id="exit-modal-confirm-btn" class="w-full rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700">Exit Exam</button>
+        </div>
+    </div>
 </div>

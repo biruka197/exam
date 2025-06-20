@@ -71,19 +71,19 @@ function handle_ajax_request($conn)
                         <ul>
                             <?php foreach ($selected_exams as $exam): ?>
                                 <div class="exam-list">
-                                  
+
                                     <ul class="exam-list-ul">
-                                      
-                                            <li class="exam-simple-item">
-                                                <strong><?php echo htmlspecialchars($exam['exam_code']); ?></strong> -
-                                                <?php echo htmlspecialchars(basename($exam['exam'], '.json')); ?>:
-                                                <?php echo $exam['total_questions']; ?> Questions
-                                                <button class="exam-select-btn"
-                                                    onclick="proceedToExam('<?php echo htmlspecialchars($exam['exam_code']); ?>')">
-                                                    Select Exam
-                                                </button>
-                                            </li>
-                                      
+
+                                        <li class="exam-simple-item">
+                                            <strong><?php echo htmlspecialchars($exam['exam_code']); ?></strong> -
+                                            <?php echo htmlspecialchars(basename($exam['exam'], '.json')); ?>:
+                                            <?php echo $exam['total_questions']; ?> Questions
+                                            <button class="exam-select-btn"
+                                                onclick="proceedToExam('<?php echo htmlspecialchars($exam['exam_code']); ?>')">
+                                                Select Exam
+                                            </button>
+                                        </li>
+
                                     </ul>
                                 </div>
                                 <style>
@@ -128,7 +128,7 @@ function handle_ajax_request($conn)
                                     }
 
                                     .exam-select-btn {
-                                        background:green;
+                                        background: green;
                                         color: #fff;
                                         border: none;
                                         border-radius: 20px;
@@ -377,6 +377,15 @@ function handle_ajax_request($conn)
                 // Variables needed by the quiz.php template
                 $question = $_SESSION['questions'][$navigate_to_index];
                 $current_question_index = $navigate_to_index;
+                // CHECK IF THE QUESTION IS ALREADY REPORTED
+                $is_reported = false;
+                $report_check_stmt = $conn->prepare("SELECT id FROM error_report WHERE course_id = ? AND exam_id = ? AND question_id = ?");
+                $report_check_stmt->bind_param("ssi", $_SESSION['selected_course_id'], $_SESSION['exam_code'], $question['question_number']);
+                $report_check_stmt->execute();
+                if ($report_check_stmt->get_result()->num_rows > 0) {
+                    $is_reported = true;
+                }
+                $report_check_stmt->close();
                 $current_exam_code = $_SESSION['exam_code'];
                 $show_answer = $_SESSION['show_answer'][$navigate_to_index] ?? false;
                 $timer_on = $_SESSION['timer_on'] ?? true;
@@ -476,7 +485,44 @@ function handle_ajax_request($conn)
             }
             echo json_encode($response);
             exit;
+        case 'report_question':
+            $response = ['success' => false, 'error' => '', 'status' => ''];
+            $question_number = (int) ($_POST['question_number'] ?? 0);
+            $exam_code = $_SESSION['exam_code'] ?? '';
+            $course_id = $_SESSION['selected_course_id'] ?? '';
 
+            if ($question_number > 0 && !empty($exam_code) && !empty($course_id)) {
+                // First, check if this question has already been reported
+                $check_stmt = $conn->prepare("SELECT id FROM error_report WHERE course_id = ? AND exam_id = ? AND question_id = ?");
+                $check_stmt->bind_param("ssi", $course_id, $exam_code, $question_number);
+                $check_stmt->execute();
+                $result = $check_stmt->get_result();
+
+                if ($result->num_rows > 0) {
+                    $response['success'] = true;
+                    $response['status'] = 'already_reported';
+                } else {
+                    // If not reported, insert a new report
+                    $insert_stmt = $conn->prepare("INSERT INTO error_report (course_id, exam_id, question_id) VALUES (?, ?, ?)");
+                    if ($insert_stmt) {
+                        $insert_stmt->bind_param("ssi", $course_id, $exam_code, $question_number);
+                        if ($insert_stmt->execute()) {
+                            $response['success'] = true;
+                            $response['status'] = 'reported';
+                        } else {
+                            $response['error'] = 'Database error: Could not save the report.';
+                        }
+                        $insert_stmt->close();
+                    } else {
+                        $response['error'] = 'Database error: Could not prepare the statement.';
+                    }
+                }
+                $check_stmt->close();
+            } else {
+                $response['error'] = 'Missing required information to submit a report.';
+            }
+            echo json_encode($response);
+            exit;
         default:
             echo json_encode(['success' => false, 'error' => 'Invalid action specified']);
             exit;

@@ -75,7 +75,7 @@ CREATE TABLE `error_report` (
   `id` int(11) NOT NULL,
   `course_id` text NOT NULL,
   `exam_id` text NOT NULL,
-  `quation_id` text NOT NULL
+  `question_id` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --

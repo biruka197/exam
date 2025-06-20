@@ -167,194 +167,233 @@ function attachOptionClickListeners() {
 // The central AJAX function is the only one that needs a change.
 
 const confirmBeforeUnload = (event) => {
-    // Standard way to trigger the browser's native confirmation prompt.
-    event.preventDefault();
-    // Required by modern browsers.
-    event.returnValue = '';
-    return '';
+  // Standard way to trigger the browser's native confirmation prompt.
+  event.preventDefault();
+  // Required by modern browsers.
+  event.returnValue = "";
+  return "";
 };
 
 // --- EXISTING FUNCTIONS (some are now updated) ---
 // ... (filterCourses, updateTimer, startTimer, attachOptionClickListeners are unchanged) ...
 
 async function sendAjaxRequest(action, bodyParams) {
-    const contentContainer = document.getElementById('layout-content-container');
-    const mainContentArea = document.getElementById('main-content-area');
-    document.body.classList.add('cursor-wait');
+  const contentContainer = document.getElementById("layout-content-container");
+  const mainContentArea = document.getElementById("main-content-area");
+  document.body.classList.add("cursor-wait");
 
-    // --- ADDED: Logic to add/remove the page reload listener ---
-    // If the action will start or continue a quiz, add the listener.
-    if (action === 'submit_settings' || action === 'navigate_to_question' || action === 'retake_incorrect') {
-        window.addEventListener('beforeunload', confirmBeforeUnload);
-    } 
-    // If the action will end the quiz, remove the listener.
-    else if (action === 'exit_exam' || action === 'restart_quiz') {
-         window.removeEventListener('beforeunload', confirmBeforeUnload);
+  // --- ADDED: Logic to add/remove the page reload listener ---
+  // If the action will start or continue a quiz, add the listener.
+  if (
+    action === "submit_settings" ||
+    action === "navigate_to_question" ||
+    action === "retake_incorrect"
+  ) {
+    window.addEventListener("beforeunload", confirmBeforeUnload);
+  }
+  // If the action will end the quiz, remove the listener.
+  else if (action === "exit_exam" || action === "restart_quiz") {
+    window.removeEventListener("beforeunload", confirmBeforeUnload);
+  }
+
+  try {
+    const formData = new URLSearchParams(bodyParams);
+    formData.append("action", action);
+
+    const response = await fetch("index.php", {
+      method: "POST",
+      headers: { "X-Requested-With": "XMLHttpRequest" },
+      body: formData,
+    });
+
+    if (!response.ok)
+      throw new Error(`Network response was not ok: ${response.statusText}`);
+
+    const data = await response.json();
+
+    if (data.redirect) {
+      window.removeEventListener("beforeunload", confirmBeforeUnload);
+      window.location.href = data.redirect;
+      return;
     }
 
-    try {
-        const formData = new URLSearchParams(bodyParams);
-        formData.append('action', action);
-
-        const response = await fetch('index.php', {
-            method: 'POST',
-            headers: { 'X-Requested-With': 'XMLHttpRequest' },
-            body: formData
-        });
-
-        if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
-
-        const data = await response.json();
-        
-        if (data.redirect) {
-            window.removeEventListener('beforeunload', confirmBeforeUnload);
-            window.location.href = data.redirect;
-            return;
+    if (data.success) {
+      if (action === "select_course") {
+        const examListContainer = document.getElementById(
+          "exam-list-container"
+        );
+        if (examListContainer) {
+          if (mainContentArea) mainContentArea.style.display = "none";
+          examListContainer.innerHTML = data.html;
+          const animatedElement = examListContainer.querySelector(
+            ".exam-list-animated"
+          );
+          if (animatedElement) {
+            setTimeout(() => {
+              animatedElement.classList.remove("opacity-0", "translate-y-4");
+            }, 10);
+          }
         }
-
-        if (data.success) {
-            if (action === 'select_course') {
-                const examListContainer = document.getElementById('exam-list-container');
-                if (examListContainer) {
-                    if (mainContentArea) mainContentArea.style.display = 'none';
-                    examListContainer.innerHTML = data.html;
-                    const animatedElement = examListContainer.querySelector('.exam-list-animated');
-                    if (animatedElement) {
-                        setTimeout(() => {
-                            animatedElement.classList.remove('opacity-0', 'translate-y-4');
-                        }, 10);
-                    }
-                }
-            } else if (data.html) {
-                if (contentContainer) contentContainer.innerHTML = data.html;
-                // --- ADDED: Remove listener if the results page is now showing ---
-                // The results page has a specific H2 title we can check for.
-                if (contentContainer.querySelector('h2')?.textContent.includes('Exam Complete!')) {
-                    window.removeEventListener('beforeunload', confirmBeforeUnload);
-                }
-            }
-
-            if (data.remaining_time !== undefined) {
-                timeLeft = data.remaining_time;
-                timerOn = data.timer_on !== false;
-                if (timerOn) startTimer(); else clearInterval(timerInterval);
-            }
-
-            if (data.script === 'attachOptionClickListeners();') {
-                attachOptionClickListeners();
-            }
-        } else {
-            if (contentContainer) contentContainer.innerHTML = `<div class="m-4 p-4 text-red-800 bg-red-100 border border-red-300 rounded-lg">${data.error || 'An unknown error occurred.'}</div>`;
+      } else if (data.html) {
+        if (contentContainer) contentContainer.innerHTML = data.html;
+        // --- ADDED: Remove listener if the results page is now showing ---
+        // The results page has a specific H2 title we can check for.
+        if (
+          contentContainer
+            .querySelector("h2")
+            ?.textContent.includes("Exam Complete!")
+        ) {
+          window.removeEventListener("beforeunload", confirmBeforeUnload);
         }
-    } catch (error) {
-        console.error('Fetch failed:', error);
-        if (contentContainer) contentContainer.innerHTML = `<div class="m-4 p-4 text-red-800 bg-red-100 border border-red-300 rounded-lg">An error occurred: ${error.message}</div>`;
-    } finally {
-        document.body.classList.remove('cursor-wait');
+      }
+
+      if (data.remaining_time !== undefined) {
+        timeLeft = data.remaining_time;
+        timerOn = data.timer_on !== false;
+        if (timerOn) startTimer();
+        else clearInterval(timerInterval);
+      }
+
+      if (data.script === "attachOptionClickListeners();") {
+        attachOptionClickListeners();
+      }
+    } else {
+      if (contentContainer)
+        contentContainer.innerHTML = `<div class="m-4 p-4 text-red-800 bg-red-100 border border-red-300 rounded-lg">${
+          data.error || "An unknown error occurred."
+        }</div>`;
     }
+  } catch (error) {
+    console.error("Fetch failed:", error);
+    if (contentContainer)
+      contentContainer.innerHTML = `<div class="m-4 p-4 text-red-800 bg-red-100 border border-red-300 rounded-lg">An error occurred: ${error.message}</div>`;
+  } finally {
+    document.body.classList.remove("cursor-wait");
+  }
 }
 
 // ... (selectCourse, proceedToExam, submitSettings are unchanged) ...
 
 // --- UPDATED: Confirmation added before final submission ---
 async function submitAnswer(event) {
-    event.preventDefault();
+  event.preventDefault();
 
-    const questionHeaderEl = document.getElementById('question-header');
-    const totalQuestions = parseInt(questionHeaderEl.textContent.split(' of ')[1]);
-    const currentQuestion = parseInt(questionHeaderEl.textContent.split(' ')[1]);
+  const questionHeaderEl = document.getElementById("question-header");
+  const totalQuestions = parseInt(
+    questionHeaderEl.textContent.split(" of ")[1]
+  );
+  const currentQuestion = parseInt(questionHeaderEl.textContent.split(" ")[1]);
 
-    if (currentQuestion === totalQuestions) {
-        if (!confirm('This is your last question. Are you sure you want to submit and finish the exam?')) {
-            return;
-        }
+  if (currentQuestion === totalQuestions) {
+    if (
+      !confirm(
+        "This is your last question. Are you sure you want to submit and finish the exam?"
+      )
+    ) {
+      return;
     }
+  }
 
-    const form = document.getElementById('quiz-form');
-    const selectedOption = form ? form.querySelector('input[name="option"]:checked') : null;
-    const params = selectedOption ? { option: selectedOption.value } : {};
+  const form = document.getElementById("quiz-form");
+  const selectedOption = form
+    ? form.querySelector('input[name="option"]:checked')
+    : null;
+  const params = selectedOption ? { option: selectedOption.value } : {};
 
-    const questionBox = document.getElementById('question-box');
-    
-    // Animate out
-    questionBox.style.opacity = '0';
-    questionBox.style.transform = 'translateY(20px)';
+  const questionBox = document.getElementById("question-box");
 
-    try {
-        const formData = new URLSearchParams(params);
-        formData.append('action', 'submit_answer');
-        
-        const response = await fetch('index.php', {
-            method: 'POST',
-            headers: { 'X-Requested-With': 'XMLHttpRequest' },
-            body: formData
-        });
+  // Animate out
+  questionBox.style.opacity = "0";
+  questionBox.style.transform = "translateY(20px)";
 
-        if (!response.ok) throw new Error('Server responded with an error');
-        
-        const data = await response.json();
+  try {
+    const formData = new URLSearchParams(params);
+    formData.append("action", "submit_answer");
 
-        if (data.success) {
-            if (data.examFinished) {
-                // Exam is over, render the results page
-                const contentContainer = document.getElementById('layout-content-container');
-                contentContainer.innerHTML = data.resultsHtml;
-                window.removeEventListener('beforeunload', confirmBeforeUnload);
-            } else {
-                // Update the UI with the next question's data
-                updateQuizUI(data.nextQuestion, data.progress);
-                // Animate in
-                setTimeout(() => {
-                    questionBox.style.opacity = '1';
-                    questionBox.style.transform = 'translateY(0)';
-                }, 100); // This timeout should match the CSS transition duration
-            }
-        } else {
-            throw new Error(data.error || 'An unknown error occurred');
-        }
+    const response = await fetch("index.php", {
+      method: "POST",
+      headers: { "X-Requested-With": "XMLHttpRequest" },
+      body: formData,
+    });
 
-    } catch (error) {
-        console.error("Submission failed:", error);
-        alert("Could not submit answer. Please check your connection and try again.");
-        // Restore visibility if submission fails
-        questionBox.style.opacity = '1';
-        questionBox.style.transform = 'translateY(0)';
+    if (!response.ok) throw new Error("Server responded with an error");
+
+    const data = await response.json();
+
+    if (data.success) {
+      if (data.examFinished) {
+        // Exam is over, render the results page
+        const contentContainer = document.getElementById(
+          "layout-content-container"
+        );
+        contentContainer.innerHTML = data.resultsHtml;
+        window.removeEventListener("beforeunload", confirmBeforeUnload);
+      } else {
+        // Update the UI with the next question's data
+        updateQuizUI(data.nextQuestion, data.progress);
+        // Animate in
+        setTimeout(() => {
+          questionBox.style.opacity = "1";
+          questionBox.style.transform = "translateY(0)";
+        }, 100); // This timeout should match the CSS transition duration
+      }
+    } else {
+      throw new Error(data.error || "An unknown error occurred");
     }
+  } catch (error) {
+    console.error("Submission failed:", error);
+    alert(
+      "Could not submit answer. Please check your connection and try again."
+    );
+    // Restore visibility if submission fails
+    questionBox.style.opacity = "1";
+    questionBox.style.transform = "translateY(0)";
+  }
 }
 function updateQuizUI(questionData, progressData) {
-    // Update progress
-    document.getElementById('progress-text').textContent = `${progressData.answered} of ${progressData.total} Answered`;
-    const progressPercent = (progressData.answered / progressData.total) * 100;
-    document.getElementById('progress-bar-fill').style.width = `${progressPercent}%`;
+  // Update progress
+  document.getElementById(
+    "progress-text"
+  ).textContent = `${progressData.answered} of ${progressData.total} Answered`;
+  const progressPercent = (progressData.answered / progressData.total) * 100;
+  document.getElementById(
+    "progress-bar-fill"
+  ).style.width = `${progressPercent}%`;
 
-    // Update question text and header
-    document.getElementById('question-header').textContent = `Question ${questionData.index + 1} of ${questionData.total}`;
-    document.getElementById('question-text').textContent = questionData.questionText;
+  // Update question text and header
+  document.getElementById("question-header").textContent = `Question ${
+    questionData.index + 1
+  } of ${questionData.total}`;
+  document.getElementById("question-text").textContent =
+    questionData.questionText;
 
-    // Rebuild options
-    const optionsContainer = document.getElementById('options-container');
-    optionsContainer.innerHTML = ''; // Clear old options
-    for (const [key, optionText] of Object.entries(questionData.options)) {
-        const label = document.createElement('label');
-        label.className = 'flex items-center p-4 rounded-lg border border-slate-200 has-[:checked]:bg-green-50 has-[:checked]:border-green-500 cursor-pointer transition-all';
-        label.innerHTML = `
+  // Rebuild options
+  const optionsContainer = document.getElementById("options-container");
+  optionsContainer.innerHTML = ""; // Clear old options
+  for (const [key, optionText] of Object.entries(questionData.options)) {
+    const label = document.createElement("label");
+    label.className =
+      "flex items-center p-4 rounded-lg border border-slate-200 has-[:checked]:bg-green-50 has-[:checked]:border-green-500 cursor-pointer transition-all";
+    label.innerHTML = `
             <input type="radio" name="option" value="${key}" class="h-4 w-4 text-green-600 border-slate-300 focus:ring-green-500">
             <span class="ml-3 text-sm font-medium text-slate-700">${optionText}</span>
         `;
-        optionsContainer.appendChild(label);
-    }
-    
-    // Update answer box (hidden by default)
-    const answerBox = document.getElementById('answer-box-container');
-    answerBox.classList.remove('show');
-    document.getElementById('correct-answer-text').textContent = questionData.correctAnswer;
-    document.getElementById('explanation-text').textContent = questionData.explanation;
-    document.getElementById('toggle-answer-btn').textContent = 'Show Answer';
+    optionsContainer.appendChild(label);
+  }
 
-    // Update navigation buttons
-    const prevBtn = document.getElementById('prev-btn');
-    prevBtn.disabled = questionData.index === 0;
-    prevBtn.onclick = () => navigateToQuestion(questionData.index - 1); // Update the index for the prev button
+  // Update answer box (hidden by default)
+  const answerBox = document.getElementById("answer-box-container");
+  answerBox.classList.remove("show");
+  document.getElementById("correct-answer-text").textContent =
+    questionData.correctAnswer;
+  document.getElementById("explanation-text").textContent =
+    questionData.explanation;
+  document.getElementById("toggle-answer-btn").textContent = "Show Answer";
+
+  // Update navigation buttons
+  const prevBtn = document.getElementById("prev-btn");
+  prevBtn.disabled = questionData.index === 0;
+  prevBtn.onclick = () => navigateToQuestion(questionData.index - 1); // Update the index for the prev button
 }
 
 // ... (all other event-driven functions like selectCourse, proceedToExam, etc. remain the same) ...
@@ -420,36 +459,66 @@ async function toggleTimer() {
   }
 }
 function toggleAnswer() {
-    const answerBox = document.querySelector('.answer-box');
-    const toggleButton = document.querySelector('.toggle-answer');
+  const answerBox = document.querySelector(".answer-box");
+  const toggleButton = document.querySelector(".toggle-answer");
 
-    if (!answerBox || !toggleButton) {
-        console.error('Could not find answer box or toggle button.');
-        return;
-    }
+  if (!answerBox || !toggleButton) {
+    console.error("Could not find answer box or toggle button.");
+    return;
+  }
 
-    // 1. Instantly toggle the UI for a fast user experience
-    const isNowVisible = answerBox.classList.toggle('show');
+  // 1. Instantly toggle the UI for a fast user experience
+  const isNowVisible = answerBox.classList.toggle("show");
 
-    // 2. Update the button text immediately
-    toggleButton.textContent = isNowVisible ? 'Hide Answer' : 'Show Answer';
+  // 2. Update the button text immediately
+  toggleButton.textContent = isNowVisible ? "Hide Answer" : "Show Answer";
 
-    // 3. Send a request to the server in the background to save the state.
-    // We don't wait for the response ('fire and forget'), so the UI is not blocked.
-    // This ensures that if the user navigates away and comes back, the state is remembered.
-    fetch('index.php', {
-        method: 'POST',
-        headers: { 'X-Requested-With': 'XMLHttpRequest' },
-        body: new URLSearchParams({ action: 'toggle_answer' })
-    }).catch(error => console.error('Failed to sync answer visibility state:', error));
+  // 3. Send a request to the server in the background to save the state.
+  // We don't wait for the response ('fire and forget'), so the UI is not blocked.
+  // This ensures that if the user navigates away and comes back, the state is remembered.
+  fetch("index.php", {
+    method: "POST",
+    headers: { "X-Requested-With": "XMLHttpRequest" },
+    body: new URLSearchParams({ action: "toggle_answer" }),
+  }).catch((error) =>
+    console.error("Failed to sync answer visibility state:", error)
+  );
 }
 
 function exitExam() {
    document.getElementById('exitAlert').classList.remove('d-none');
   sendAjaxRequest("exit_exam", {});
+}
+// --- Modern Exit Exam Confirmation ---
 
+function showExitModal() {
+    const modal = document.getElementById('exit-modal');
+    const confirmBtn = document.getElementById('exit-modal-confirm-btn');
+    const cancelBtn = document.getElementById('exit-modal-cancel-btn');
+
+    modal.classList.remove('hidden');
+    setTimeout(() => modal.classList.remove('opacity-0'), 10); // Fade in
+
+    // Attach event listeners for the modal buttons
+    confirmBtn.onclick = proceedWithExit;
+    cancelBtn.onclick = hideExitModal;
 }
 
+function hideExitModal() {
+    const modal = document.getElementById('exit-modal');
+    modal.classList.add('opacity-0');
+    setTimeout(() => modal.classList.add('hidden'), 300); // Hide after fade out
+}
+
+function proceedWithExit() {
+    // Show a loading state on the button
+    const confirmBtn = document.getElementById('exit-modal-confirm-btn');
+    confirmBtn.disabled = true;
+    confirmBtn.textContent = 'Exiting...';
+
+    // Call the original AJAX request to exit the exam
+    sendAjaxRequest("exit_exam", {});
+}
 function retakeIncorrect() {
   sendAjaxRequest("retake_incorrect", {});
 }
@@ -457,7 +526,49 @@ function retakeIncorrect() {
 function restartQuiz() {
   sendAjaxRequest("restart_quiz", {});
 }
+function reportQuestion(questionNumber) {
+  if (
+    !confirm(
+      "Are you sure you want to report this question as incorrect or problematic?"
+    )
+  ) {
+    return;
+  }
 
+  const reportButton = document.getElementById("report-btn");
+  reportButton.textContent = "Reporting...";
+  reportButton.disabled = true;
+
+  const params = new URLSearchParams({
+    action: "report_question",
+    question_number: questionNumber,
+  });
+
+  fetch("index.php", {
+    method: "POST",
+    headers: { "X-Requested-With": "XMLHttpRequest" },
+    body: params,
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.success) {
+        alert(
+          "Thank you! The question has been reported to the administrator."
+        );
+        reportButton.textContent = "Reported!";
+      } else {
+        alert("Error: Could not report the question. " + (data.error || ""));
+        reportButton.textContent = "Report Question";
+        reportButton.disabled = false;
+      }
+    })
+    .catch((error) => {
+      console.error("Report submission failed:", error);
+      alert("An error occurred while trying to report the question.");
+      reportButton.textContent = "Report Question";
+      reportButton.disabled = false;
+    });
+}
 // Initial listener attachment in case some elements are present on page load.
 document.addEventListener("DOMContentLoaded", () => {
   attachOptionClickListeners();
@@ -465,3 +576,98 @@ document.addEventListener("DOMContentLoaded", () => {
 // ... (all the existing functions like updateTimer, startTimer, etc. remain the same) ...
 
 // The central AJAX function is the only one that needs a change.
+// --- Modern Report Question Feature ---
+
+function showReportModal(questionNumber) {
+    const modal = document.getElementById('report-modal');
+    const confirmBtn = document.getElementById('modal-confirm-btn');
+    const cancelBtn = document.getElementById('modal-cancel-btn');
+
+    // Store the question number on the button to retrieve it later
+    confirmBtn.dataset.questionNumber = questionNumber;
+
+    modal.classList.remove('hidden');
+    setTimeout(() => modal.classList.remove('opacity-0'), 10); // Fade in
+
+    // Attach event listeners
+    confirmBtn.onclick = handleReportConfirmation;
+    cancelBtn.onclick = hideReportModal;
+}
+
+function hideReportModal() {
+    const modal = document.getElementById('report-modal');
+    modal.classList.add('opacity-0');
+    setTimeout(() => modal.classList.add('hidden'), 300); // Hide after fade out
+}
+
+function handleReportConfirmation() {
+    const confirmBtn = document.getElementById('modal-confirm-btn');
+    const questionNumber = confirmBtn.dataset.questionNumber;
+    
+    // Disable button to prevent double-clicks
+    confirmBtn.disabled = true;
+    confirmBtn.textContent = 'Reporting...';
+
+    const params = new URLSearchParams({
+        action: 'report_question',
+        question_number: questionNumber
+    });
+
+    fetch('index.php', {
+        method: 'POST',
+        headers: { 'X-Requested-With': 'XMLHttpRequest' },
+        body: params
+    })
+    .then(response => response.json())
+    .then(data => {
+        hideReportModal();
+        if (data.success) {
+            if (data.status === 'already_reported') {
+                showToast('This question has already been reported.');
+            } else {
+                showToast('Question reported successfully. Thank you!');
+            }
+            // Visually update the main report button on the page
+            const mainReportBtn = document.getElementById('report-btn');
+            mainReportBtn.textContent = '✓ Reported';
+            mainReportBtn.disabled = true;
+            mainReportBtn.classList.add('cursor-not-allowed', 'bg-slate-200');
+            mainReportBtn.classList.remove('bg-slate-100');
+
+        } else {
+            showToast('Error: ' + (data.error || 'Could not report question.'), true);
+        }
+    })
+    .catch(error => {
+        hideReportModal();
+        showToast('An error occurred. Please try again.', true);
+        console.error('Report submission failed:', error);
+    })
+    .finally(() => {
+        // Re-enable the modal confirm button for future reports
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = 'Yes, Report';
+    });
+}
+
+function showToast(message, isError = false) {
+    const toast = document.getElementById('toast-notification');
+    toast.textContent = message;
+
+    // Change style for errors
+    if (isError) {
+        toast.classList.add('bg-red-600');
+        toast.classList.remove('bg-slate-900');
+    } else {
+        toast.classList.remove('bg-red-600');
+        toast.classList.add('bg-slate-900');
+    }
+
+    // Show toast
+    toast.classList.remove('opacity-0', 'translate-y-16');
+
+    // Hide toast after 3 seconds
+    setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-16');
+    }, 3000);
+}

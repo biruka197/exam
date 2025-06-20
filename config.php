@@ -1,6 +1,11 @@
 <?php
 // Check if a session is not already active before starting one.
+
+// Set a long lifetime for the session cookie (e.g., 7 days)
 if (session_status() === PHP_SESSION_NONE) {
+    // Set a long lifetime for the session cookie (e.g., 7 days) BEFORE starting.
+    $cookie_lifetime = 60 * 60 * 24 * 7; 
+    session_set_cookie_params($cookie_lifetime);
     session_start();
 }
 
