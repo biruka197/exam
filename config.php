@@ -16,3 +16,8 @@ define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'exam');
+
+// define('DB_HOST', 'localhost');
+// define('DB_USER', 'kurumotm_exam1');
+// define('DB_PASS', 'root123456');
+// define('DB_NAME', 'kurumotm_exam1');

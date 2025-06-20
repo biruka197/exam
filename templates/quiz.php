@@ -52,5 +52,6 @@
             <button id="next-btn" type="submit" form="quiz-form" class="w-full justify-center rounded-md border border-transparent bg-green-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-green-700">Next</button>
         </div>
     </div>
-     <button type="button" onclick="exitExam()" class="w-full mt-4 text-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-200">Exit Exam</button>
+   <button type="button" onclick="exitExam(); alert('You are about to exit the exam.')" class="w-full mt-4 text-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-200">Exit Exam</button>
+
 </div>

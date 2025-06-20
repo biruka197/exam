@@ -445,7 +445,9 @@ function toggleAnswer() {
 }
 
 function exitExam() {
+   document.getElementById('exitAlert').classList.remove('d-none');
   sendAjaxRequest("exit_exam", {});
+
 }
 
 function retakeIncorrect() {
