@@ -1,6 +1,7 @@
 <div class="bg-white p-6 md:p-8 rounded-lg shadow-md">
     <h2 class="text-2xl font-bold text-slate-800 mb-2">Examination Settings</h2>
-    <p class="text-sm text-slate-500 mb-6">File: <?php echo $loaded_exam_file_display; ?></p>
+    <p class="text-sm text-slate-500 mb-6"><?php echo 'ስህተት ሊኖር ይችላል በሃላፊነት ስሩ!!!'; ?></p>
+    <p class="text-sm text-slate-500 mb-6"><?php echo 'kuruexam can make mistakes, so double-check it!!!'; ?></p>
 
     <form id="settings-form" onsubmit="submitSettings(event)" class="space-y-6">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -26,15 +27,26 @@
                 </p>
             </div>
         </div>
-
-        <div class="flex items-center justify-between">
-            <span class="text-sm font-medium text-slate-700">Question Order</span>
-            <div class="flex items-center gap-2">
-                <label for="order-random" class="text-sm">Random</label>
-                <input type="checkbox" id="order-random" name="order" value="random"
-                    class="h-4 w-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500" checked>
+        
+        <div class="space-y-4 pt-4 border-t">
+            <div class="flex items-center justify-between">
+                <span class="text-sm font-medium text-slate-700">Question Order</span>
+                <div class="flex items-center gap-2">
+                    <label for="order-random" class="text-sm cursor-pointer">Random</label>
+                    <input type="checkbox" id="order-random" name="order" value="random"
+                        class="h-4 w-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500">
+                </div>
+            </div>
+            <div class="flex items-center justify-between">
+                <span class="text-sm font-medium text-slate-700">Exam Mode</span>
+                <div class="flex items-center gap-2">
+                    <label for="mode-review" class="text-sm cursor-pointer">Review Mode</label>
+                    <input type="checkbox" id="mode-review" name="exam_mode" value="review"
+                        class="h-4 w-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500">
+                </div>
             </div>
         </div>
+
 
         <div class="flex flex-col md:flex-row gap-4 pt-4">
             <button type="button" onclick="window.location.reload()"

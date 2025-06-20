@@ -1,4 +1,5 @@
-<div class="bg-white p-6 md:p-8 rounded-lg shadow-md text-center space-y-4">
+<div>
+    <div class="bg-white p-6 md:p-8 rounded-lg shadow-md text-center space-y-4">
     <h2 class="text-3xl font-bold text-slate-800">Exam Complete!</h2>
     <p class="text-slate-600">You scored:</p>
     <p class="text-5xl font-bold text-sky-600"><?php echo $score; ?> / <?php echo $total; ?></p>
@@ -49,4 +50,5 @@
                 Incorrect Answers</button>
         <?php endif; ?>
     </div>
+</div>
 </div>

@@ -1,0 +1,352 @@
+[
+    {
+        "question_number": 1,
+        "question": "Steels have limited application in modern aircraft because",
+        "options": {
+            "a": "They are strong",
+            "b": "They are heavy",
+            "c": "They are light"
+        },
+        "correct_answer": "b",
+        "explanation": "Steels have limited application in modern aircraft because they are heavy, which negatively impacts fuel efficiency and overall aircraft performance."
+    },
+    {
+        "question_number": 2,
+        "question": "A strong and light in weight metal used as structural part of an aircraft widely is",
+        "options": {
+            "a": "Magnesium",
+            "b": "Aluminum",
+            "c": "Steel"
+        },
+        "correct_answer": "b",
+        "explanation": "Aluminum is widely used as a structural material in aircraft due to its high strength-to-weight ratio, corrosion resistance, and lightweight properties."
+    },
+    {
+        "question_number": 3,
+        "question": "The amount of deformation which is brought by stress is called",
+        "options": {
+            "a": "Tensional stress",
+            "b": "Shear stress",
+            "c": "Strain"
+        },
+        "correct_answer": "c",
+        "explanation": "Strain is the amount of deformation a material undergoes due to applied stress, typically measured as a ratio of change in dimension to the original dimension."
+    },
+    {
+        "question_number": 4,
+        "question": "An internal force of a material to resist a crushing force is",
+        "options": {
+            "a": "Stress",
+            "b": "Compression stress",
+            "c": "Strain"
+        },
+        "correct_answer": "b",
+        "explanation": "Compression stress is the internal force within a material that resists a crushing or compressive force, common in aircraft structures under load."
+    },
+    {
+        "question_number": 5,
+        "question": "A multi directional stress which produces twisting is",
+        "options": {
+            "a": "Shear stress",
+            "b": "Bending",
+            "c": "Torsion"
+        },
+        "correct_answer": "c",
+        "explanation": "Torsion is a multi-directional stress that produces twisting in a material, often experienced by aircraft components like shafts or control rods."
+    },
+    {
+        "question_number": 6,
+        "question": "Which one of the following is not true",
+        "options": {
+            "a": "Structural materials should not be permanently deformed",
+            "b": "Plasticity is inversely related to metal\u2019s formability",
+            "c": "Brittleness is not a desirable property for aircraft structures"
+        },
+        "correct_answer": "b",
+        "explanation": "Plasticity is directly related to a metal\u2019s formability, not inversely, as it allows the material to deform without fracturing, which is desirable for manufacturing aircraft parts."
+    },
+    {
+        "question_number": 7,
+        "question": "When selecting materials for structural purpose in aircrafts they should have",
+        "options": {
+            "a": "A high density physically",
+            "b": "Ability to resist deformation",
+            "c": "A high weight"
+        },
+        "correct_answer": "b",
+        "explanation": "Materials for aircraft structural purposes should have the ability to resist deformation to maintain structural integrity under various loads, while keeping weight low."
+    },
+    {
+        "question_number": 8,
+        "question": "The ability of a material to resist abrasion, penetration, permanent deformation, or cutting action",
+        "options": {
+            "a": "Hardness",
+            "b": "Toughness",
+            "c": "Brittleness"
+        },
+        "correct_answer": "a",
+        "explanation": "Hardness is the ability of a material to resist abrasion, penetration, permanent deformation, or cutting, making it crucial for durable aircraft components."
+    },
+    {
+        "question_number": 9,
+        "question": "In the identification of steel the last two digits indicate",
+        "options": {
+            "a": "Approximate amount of the major alloying element",
+            "b": "They are arbitrary numbers to identify the alloy in the series",
+            "c": "Amount of carbon in hundredth of percent"
+        },
+        "correct_answer": "c",
+        "explanation": "In steel identification (e.g., SAE system), the last two digits indicate the amount of carbon in hundredths of a percent, such as 0.40% in SAE 4340."
+    },
+    {
+        "question_number": 10,
+        "question": "In the identification of aluminum alloys the first digit indicates",
+        "options": {
+            "a": "Approximate amount of the major alloying element",
+            "b": "The major alloying element",
+            "c": "Alloy modification"
+        },
+        "correct_answer": "b",
+        "explanation": "In aluminum alloy identification, the first digit indicates the major alloying element, such as copper in the 2xxx series or magnesium in the 5xxx series."
+    },
+    {
+        "question_number": 11,
+        "question": "One of the following is not the property of pure aluminum",
+        "options": {
+            "a": "It is not heat treatment",
+            "b": "Good mechanical property",
+            "c": "Excellent resistance to corrosion"
+        },
+        "correct_answer": "c",
+        "explanation": "Pure aluminum does not have good mechanical properties like high strength; it is soft and ductile, often requiring alloying to improve strength for structural use."
+    },
+    {
+        "question_number": 12,
+        "question": "Explain the term cladding briefly",
+        "options": {
+            "a": "Ability to resist corrosion"
+        },
+        "correct_answer": "a",
+        "explanation": "Cladding is the process of bonding a thin layer of corrosion-resistant material, like pure aluminum, to the surface of an alloy to enhance its resistance to corrosion."
+    },
+    {
+        "question_number": 13,
+        "question": "Which of these is the fastest quenching media",
+        "options": {
+            "a": "Oil",
+            "b": "Water",
+            "c": "Brine"
+        },
+        "correct_answer": "c",
+        "explanation": "Brine (saltwater) is the fastest quenching medium due to its higher heat transfer rate compared to water or oil, often used in heat treatment to achieve rapid cooling."
+    },
+    {
+        "question_number": 14,
+        "question": "________ is used as a preferable material to resist high temperature",
+        "options": {
+            "a": "Magnesium",
+            "b": "Titanium",
+            "c": "Aluminum"
+        },
+        "correct_answer": "b",
+        "explanation": "Titanium is preferred for high-temperature applications in aircraft due to its excellent strength and heat resistance, often used in engines and exhaust systems."
+    },
+    {
+        "question_number": 15,
+        "question": "For what purpose is tempering heat treatment done on ferrous metals",
+        "options": {
+            "a": "Hardening the metal",
+            "b": "Softening the metal",
+            "c": "Reducing the brittleness"
+        },
+        "correct_answer": "c",
+        "explanation": "Tempering heat treatment is done on ferrous metals to reduce brittleness after hardening, improving toughness while retaining sufficient strength."
+    },
+    {
+        "question_number": 16,
+        "question": "In the heat treatment of aluminum alloys the soaking time varies based on",
+        "options": {
+            "a": "Thickness of the materials",
+            "b": "Temperature of the soaking medium",
+            "c": "Both"
+        },
+        "correct_answer": "c",
+        "explanation": "In heat treatment of aluminum alloys, soaking time varies based on both the thickness of the material and the temperature of the soaking medium to ensure uniform heating."
+    },
+    {
+        "question_number": 17,
+        "question": "Class of fit of a fastener",
+        "options": {
+            "a": "Is the number of threads of given diameter per inch length",
+            "b": "Is the method of tightening a fastener",
+            "c": "Is the relative tightness between a bolt and a nut"
+        },
+        "correct_answer": "c",
+        "explanation": "Class of fit of a fastener refers to the relative tightness between a bolt and a nut, determining the precision and ease of assembly, such as Class 1, 2, or 3 fits."
+    },
+    {
+        "question_number": 18,
+        "question": "Which class of fasteners can be tightened with fingers?",
+        "options": {
+            "a": "Class 1",
+            "b": "Class 2",
+            "c": "Class 3"
+        },
+        "correct_answer": "a",
+        "explanation": "Class 1 fasteners have the loosest fit and can often be tightened with fingers, making them suitable for applications where easy assembly is needed."
+    },
+    {
+        "question_number": 19,
+        "question": "From the following figures, the correct bolt installation is",
+        "options": {
+            "a": "A",
+            "b": "B",
+            "c": "C"
+        },
+        "correct_answer": "c",
+        "explanation": "Figure C shows the correct bolt installation with the head on the accessible side, a washer under the nut, and appropriate thread engagement for safety."
+    },
+    {
+        "question_number": 20,
+        "question": "Bolt diameter is given in ____ inch increment",
+        "options": {
+            "a": "1\/8",
+            "b": "1\/16",
+            "c": "1\/32"
+        },
+        "correct_answer": "b",
+        "explanation": "Bolt diameters in aircraft applications are typically given in 1\/16 inch increments, such as 3\/16, 1\/4, or 5\/16, for standardized sizing."
+    },
+    {
+        "question_number": 21,
+        "question": "AN25C15 bolt is made of",
+        "options": {
+            "a": "Copper alloy",
+            "b": "Corrosion resistant steel",
+            "c": "Cadmium"
+        },
+        "correct_answer": "b",
+        "explanation": "AN25C15 bolts are made of corrosion-resistant steel, as indicated by the 'C' in the designation, which stands for corrosion-resistant steel in the AN system."
+    },
+    {
+        "question_number": 22,
+        "question": "If the threaded part of a bolt is too long, a good practice would be to",
+        "options": {
+            "a": "Cut some of the threads",
+            "b": "Replace the bolt",
+            "c": "Use as many washers as required"
+        },
+        "correct_answer": "b",
+        "explanation": "If the threaded part of a bolt is too long, the best practice is to replace the bolt with one of the correct length to ensure proper engagement and safety."
+    },
+    {
+        "question_number": 23,
+        "question": "In MS20005-H4, the letter H indicates",
+        "options": {
+            "a": "Material type of the bolt",
+            "b": "Safety provision of the bolt",
+            "c": "Tightening method of the bolt"
+        },
+        "correct_answer": "a",
+        "explanation": "In MS20005-H4, the letter 'H' indicates the material type of the bolt, often specifying a high-strength material like alloy steel in the MS system."
+    },
+    {
+        "question_number": 24,
+        "question": "One of the following needs an additional safetying by external locking device",
+        "options": {
+            "a": "Self-tapping screw",
+            "b": "Non-self-locking nut",
+            "c": "Self-locking nut"
+        },
+        "correct_answer": "b",
+        "explanation": "A non-self-locking nut requires an additional safetying device, such as a cotter pin or lockwire, to prevent it from loosening during operation."
+    },
+    {
+        "question_number": 25,
+        "question": "Which one is used in joints carrying shear loads",
+        "options": {
+            "a": "Tab washer",
+            "b": "Cotter pin",
+            "c": "Taper pin"
+        },
+        "correct_answer": "c",
+        "explanation": "Taper pins are used in joints carrying shear loads, as they provide a secure fit and resist shear forces effectively in applications like aircraft assemblies."
+    },
+    {
+        "question_number": 26,
+        "question": "One of the following is not a quick-release fastener",
+        "options": {
+            "a": "Dzus",
+            "b": "Solid rivet",
+            "c": "Camloc"
+        },
+        "correct_answer": "b",
+        "explanation": "Solid rivets are not quick-release fasteners; they are permanent fasteners, unlike Dzus and Camloc, which are designed for quick assembly and disassembly."
+    },
+    {
+        "question_number": 27,
+        "question": "One of the following is a universal head rivet",
+        "options": {
+            "a": "MS20426AD3-5",
+            "b": "AN470AD3-5",
+            "c": "AN426AD3-5"
+        },
+        "correct_answer": "b",
+        "explanation": "AN470AD3-5 is a universal head rivet, commonly used in aircraft for its rounded head, providing good strength and aerodynamic properties."
+    },
+    {
+        "question_number": 28,
+        "question": "A high pressure high temperature tube is made from",
+        "options": {
+            "a": "Aluminum",
+            "b": "Titanium",
+            "c": "Stainless Steel"
+        },
+        "correct_answer": "b",
+        "explanation": "High-pressure, high-temperature tubes in aircraft, such as those used in hydraulic or fuel systems near engines, are typically made from titanium due to its excellent strength-to-weight ratio, high heat resistance, and corrosion resistance. While aluminum is lightweight and has good thermal conductivity, it is less suitable for extreme high-temperature conditions, and stainless steel, though durable, is heavier."
+    },
+    {
+        "question_number": 29,
+        "question": "Fluid line markings are used to indicate",
+        "options": {
+            "a": "Replacement date of the line",
+            "b": "Content of the line",
+            "c": "Length of the line"
+        },
+        "correct_answer": "b",
+        "explanation": "Fluid line markings in aircraft are used to indicate the content of the line, such as fuel, oil, or hydraulic fluid, ensuring proper identification during maintenance."
+    },
+    {
+        "question_number": 30,
+        "question": "Roller bearings",
+        "options": {
+            "a": "Carry more radial load than axial force",
+            "b": "Carry more axial load than radial force",
+            "c": "Consists of circular steel balls"
+        },
+        "correct_answer": "a",
+        "explanation": "Roller bearings are designed to carry more radial load than axial force, making them suitable for applications like aircraft wheels or rotating shafts."
+    },
+    {
+        "question_number": 31,
+        "question": "If the gear ratio of two meshed gears is 1:2",
+        "options": {
+            "a": "The driven gear has more number of teeth than the driver gear",
+            "b": "The driven gear has lower number of teeth than the driver gear",
+            "c": "The system steps up speed"
+        },
+        "correct_answer": "a",
+        "explanation": "A gear ratio of 1:2 means the driven gear has twice as many teeth as the driver gear, resulting in a speed reduction and torque increase."
+    },
+    {
+        "question_number": 32,
+        "question": "Which of the following cable types are used for both push and pull force",
+        "options": {
+            "a": "Extra flexible 7X19 cables",
+            "b": "Non-flexible 1X7 cables",
+            "c": "Bowden cables"
+        },
+        "correct_answer": "c",
+        "explanation": "Bowden cables are used for both push and pull forces, commonly found in aircraft control systems like throttle or brake controls, due to their flexibility and design."
+    }
+]

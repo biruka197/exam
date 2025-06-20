@@ -1,3 +1,7 @@
+<?php
+$is_reported = false; // Placeholder for logic to check if a question is reported
+$show_answer = $_SESSION['show_answer'][$current_question_index] ?? false; // From session
+?>
 <div class="space-y-4">
     <div class="flex flex-col md:flex-row justify-between items-center gap-4 p-4 bg-white rounded-lg shadow">
         <div class="text-lg font-bold text-slate-800">

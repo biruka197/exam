@@ -64,108 +64,7 @@ function handle_ajax_request($conn)
                     }
 
                     ob_start();
-                    // This block generates the HTML fragment for the exam list.
-                    ?>
-                    <div class="exam-list">
-                        <h3>Available Exams for <?php echo htmlspecialchars($selected_course_name); ?></h3>
-                        <ul>
-                            <?php foreach ($selected_exams as $exam): ?>
-                                <div class="exam-list">
-
-                                    <ul class="exam-list-ul">
-
-                                        <li class="exam-simple-item">
-                                            <strong><?php echo htmlspecialchars($exam['exam_code']); ?></strong> -
-                                            <?php echo htmlspecialchars(basename($exam['exam'], '.json')); ?>:
-                                            <?php echo $exam['total_questions']; ?> Questions
-                                            <button class="exam-select-btn"
-                                                onclick="proceedToExam('<?php echo htmlspecialchars($exam['exam_code']); ?>')">
-                                                Select Exam
-                                            </button>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                                <style>
-                                    .exam-list {
-                                        max-width: 500px;
-                                        margin: 2rem auto;
-                                        background: #f8fafc;
-                                        border-radius: 12px;
-                                        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
-                                        padding: 2rem 1.5rem;
-                                    }
-
-                                    .exam-list h3 {
-                                        text-align: center;
-                                        color: #374151;
-                                        margin-bottom: 1.5rem;
-                                        font-size: 1.3rem;
-                                        font-weight: 600;
-                                    }
-
-                                    .exam-list-ul {
-                                        padding: 0;
-                                        margin: 0;
-                                        list-style: none;
-                                    }
-
-                                    .exam-simple-item {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: space-between;
-                                        background: #fff;
-                                        border-radius: 8px;
-                                        margin-bottom: 1rem;
-                                        padding: 1rem 1.2rem;
-                                        box-shadow: 0 2px 8px rgba(102, 126, 234, 0.06);
-                                        font-size: 1rem;
-                                    }
-
-                                    .exam-simple-item strong {
-                                        color: #4f46e5;
-                                        margin-right: 0.5rem;
-                                    }
-
-                                    .exam-select-btn {
-                                        background: green;
-                                        color: #fff;
-                                        border: none;
-                                        border-radius: 20px;
-                                        padding: 0.5rem 1.2rem;
-                                        font-size: 1rem;
-                                        font-weight: 500;
-                                        cursor: pointer;
-                                        transition: background 0.2s, transform 0.2s;
-                                    }
-
-                                    .exam-select-btn:hover {
-                                        background: linear-gradient(90deg, #818cf8 0%, #6366f1 100%);
-                                        transform: scale(1.05);
-                                    }
-
-                                    @media (max-width: 600px) {
-                                        .exam-list {
-                                            padding: 1rem 0.5rem;
-                                        }
-
-                                        .exam-simple-item {
-                                            flex-direction: column;
-                                            align-items: flex-start;
-                                            gap: 0.5rem;
-                                            font-size: 0.98rem;
-                                        }
-
-                                        .exam-select-btn {
-                                            width: 100%;
-                                        }
-                                    }
-                                </style>
-
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                    <?php
+                    include __DIR__ . '/../templates/exam_list.php';
                     $response['html'] = ob_get_clean();
                     $response['success'] = true;
                 } else {
@@ -194,7 +93,6 @@ function handle_ajax_request($conn)
                     $_SESSION['exam_code'] = htmlspecialchars($row['exam_code']);
                     $exam_file_path = __DIR__ . '/../' . $row['exam'];
 
-                    // Variables needed by the template
                     $loaded_exam_file_display = htmlspecialchars($row['exam']);
                     $total_questions_in_file = 0;
 
@@ -236,101 +134,98 @@ function handle_ajax_request($conn)
 
             if (!$exam_code) {
                 $response['error'] = "No exam selected. Please restart.";
-            } else {
-                $num_questions = (int) ($_POST['num_questions'] ?? 0);
-                $range_start = (int) ($_POST['range_start'] ?? 1);
-                $range_end = (int) ($_POST['range_end'] ?? 0);
-                $order = $_POST['order'] ?? 'random';
+                echo json_encode($response);
+                exit;
+            }
 
-                $stmt = $conn->prepare("SELECT exam FROM course WHERE exam_code = ?");
-                $stmt->bind_param("s", $exam_code);
-                $stmt->execute();
-                $result = $stmt->get_result();
+            $num_questions = (int) ($_POST['num_questions'] ?? 0);
+            $range_start = (int) ($_POST['range_start'] ?? 1);
+            $range_end = (int) ($_POST['range_end'] ?? 0);
+            $order = $_POST['order'] ?? 'sequential';
+            $exam_mode = $_POST['exam_mode'] ?? 'normal';
 
-                if ($row = $result->fetch_assoc()) {
-                    $exam_file_path = __DIR__ . '/../' . $row['exam'];
-                    if (file_exists($exam_file_path) && is_readable($exam_file_path)) {
-                        $file_content = file_get_contents($exam_file_path);
-                        $all_questions = json_decode($file_content, true);
+            $stmt = $conn->prepare("SELECT exam, course_id FROM course WHERE exam_code = ?");
+            $stmt->bind_param("s", $exam_code);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            $course_data = $result->fetch_assoc();
+            $stmt->close();
 
-                        if (is_array($all_questions)) {
-                            $total_questions_in_file = count($all_questions);
-                            if ($range_start < 1 || $range_end > $total_questions_in_file || $range_start > $range_end) {
-                                $response['error'] = "Invalid question range.";
-                            } else {
-                                // 1. Filter by range
-                                $ranged_questions = array_filter($all_questions, function ($q) use ($range_start, $range_end) {
-                                    return isset($q['question_number']) && is_numeric($q['question_number']) && $q['question_number'] >= $range_start && $q['question_number'] <= $range_end;
-                                });
-                                // 2. Ensure uniqueness and re-index
-                                $unique_questions = [];
-                                $seen_question_numbers = [];
-                                foreach ($ranged_questions as $q) {
-                                    if (!isset($seen_question_numbers[$q['question_number']])) {
-                                        $unique_questions[] = $q;
-                                        $seen_question_numbers[$q['question_number']] = true;
-                                    }
-                                }
-                                $filtered_questions = array_values($unique_questions);
-                                // 3. Shuffle if random
-                                if ($order === 'random') {
-                                    shuffle($filtered_questions);
-                                }
-                                // 4. Slice to the desired number
-                                $questions = array_slice($filtered_questions, 0, min($num_questions, count($filtered_questions)));
-                                // 5. Shuffle options for each question
-                                foreach ($questions as &$question) {
-                                    shuffleQuestionOptions($question);
-                                }
-                                unset($question);
+            if ($course_data) {
+                $exam_file_path = __DIR__ . '/../' . $course_data['exam'];
+                if (file_exists($exam_file_path) && is_readable($exam_file_path)) {
+                    $all_questions = json_decode(file_get_contents($exam_file_path), true);
 
-                                // Store in session and set up exam state
-                                $_SESSION['questions'] = $questions;
-                                $_SESSION['num_questions'] = count($questions);
-                                $_SESSION['start_time'] = time();
-                                $_SESSION['timer_duration'] = $_SESSION['num_questions'] * 60;
-                                $_SESSION['answers'] = [];
-                                $_SESSION['current_question'] = 0;
-                                $_SESSION['show_answer'] = [];
-                                $_SESSION['timer_on'] = true;
-                                unset($_SESSION['paused_time']);
+                    if (is_array($all_questions)) {
+                        $ranged_questions = array_filter($all_questions, function ($q) use ($range_start, $range_end) {
+                            return isset($q['question_number']) && $q['question_number'] >= $range_start && $q['question_number'] <= $range_end;
+                        });
+                        $filtered_questions = array_values($ranged_questions);
 
-                                if (!empty($_SESSION['questions'])) {
-                                    // Variables needed by the quiz.php template
-                                    $question = $_SESSION['questions'][0];
-                                    $current_question_index = 0;
-                                    $current_exam_code = $_SESSION['exam_code'];
-                                    $remaining_time = $_SESSION['timer_duration'];
-                                    $timer_on = $_SESSION['timer_on'];
-                                    $show_answer = false; // Never show answer on first load
+                        if ($order === 'random')
+                            shuffle($filtered_questions);
 
-                                    ob_start();
-                                    include __DIR__ . '/../templates/quiz.php';
-                                    $response['html'] = ob_get_clean();
-                                    $response['success'] = true;
-                                    $response['remaining_time'] = $remaining_time;
-                                    $response['timer_on'] = $timer_on;
-                                    $response['script'] = 'attachOptionClickListeners();';
-                                } else {
-                                    $response['error'] = "No questions found for the selected settings.";
-                                }
-                            }
+                        $questions = array_slice($filtered_questions, 0, min($num_questions, count($filtered_questions)));
+
+                        if ($exam_mode !== 'review') {
+                            foreach ($questions as &$question)
+                                shuffleQuestionOptions($question);
+                            unset($question);
+                        }
+
+                        $_SESSION['questions'] = $questions;
+                        $_SESSION['num_questions'] = count($questions);
+                        $_SESSION['exam_mode'] = $exam_mode;
+                        $_SESSION['selected_course_id'] = $course_data['course_id'];
+                        $_SESSION['start_time'] = time();
+                        $_SESSION['timer_duration'] = $_SESSION['num_questions'] * 60;
+                        $_SESSION['answers'] = [];
+                        $_SESSION['current_question'] = 0;
+                        $_SESSION['show_answer'] = [];
+                        $_SESSION['timer_on'] = true;
+                        unset($_SESSION['paused_time']);
+
+                        if (empty($questions)) {
+                            $response['error'] = "No questions found for the selected settings.";
                         } else {
-                            $response['error'] = "Invalid exam file format.";
+                            ob_start();
+                            if ($exam_mode === 'review') {
+                                include __DIR__ . '/../templates/quiz_review_scroll.php';
+                            } else {
+                                $question = $_SESSION['questions'][0];
+                                $current_question_index = 0;
+                                $current_exam_code = $_SESSION['exam_code'];
+                                $remaining_time = $_SESSION['timer_duration'];
+                                $timer_on = $_SESSION['timer_on'];
+                                $show_answer = false;
+                                $is_reported = false;
+                                $report_check_stmt = $conn->prepare("SELECT id FROM error_report WHERE course_id = ? AND exam_id = ? AND question_id = ?");
+                                $report_check_stmt->bind_param("ssi", $_SESSION['selected_course_id'], $_SESSION['exam_code'], $question['question_number']);
+                                $report_check_stmt->execute();
+                                if ($report_check_stmt->get_result()->num_rows > 0)
+                                    $is_reported = true;
+                                $report_check_stmt->close();
+                                include __DIR__ . '/../templates/quiz.php';
+                            }
+                            $response['html'] = ob_get_clean();
+                            $response['success'] = true;
                         }
                     } else {
-                        $response['error'] = "Exam file not found.";
+                        $response['error'] = "Invalid exam file format.";
                     }
                 } else {
-                    $response['error'] = "Selected exam not found in database.";
+                    $response['error'] = "Exam file not found.";
                 }
-                $stmt->close();
+            } else {
+                $response['error'] = "Selected exam not found in database.";
             }
+
             echo json_encode($response);
             exit;
 
         case 'submit_answer':
         case 'navigate_to_question':
+            // ... (rest of the file is unchanged)
             $response = ['success' => false, 'html' => '', 'error' => ''];
 
             if (!isset($_SESSION['questions']) || empty($_SESSION['questions'])) {
@@ -349,7 +244,6 @@ function handle_ajax_request($conn)
             }
 
             if ($navigate_to_index >= $_SESSION['num_questions']) {
-                // End of exam - Calculate results
                 $questions = $_SESSION['questions'];
                 $answers = $_SESSION['answers'] ?? [];
                 $score = 0;
@@ -371,13 +265,9 @@ function handle_ajax_request($conn)
                 $response['success'] = true;
 
             } else {
-                // Navigate to the next question
                 $_SESSION['current_question'] = $navigate_to_index;
-
-                // Variables needed by the quiz.php template
                 $question = $_SESSION['questions'][$navigate_to_index];
                 $current_question_index = $navigate_to_index;
-                // CHECK IF THE QUESTION IS ALREADY REPORTED
                 $is_reported = false;
                 $report_check_stmt = $conn->prepare("SELECT id FROM error_report WHERE course_id = ? AND exam_id = ? AND question_id = ?");
                 $report_check_stmt->bind_param("ssi", $_SESSION['selected_course_id'], $_SESSION['exam_code'], $question['question_number']);
@@ -453,7 +343,6 @@ function handle_ajax_request($conn)
                 }
                 unset($question);
 
-                // Reset session for the retake
                 $_SESSION['questions'] = $incorrect_questions;
                 $_SESSION['num_questions'] = count($incorrect_questions);
                 $_SESSION['start_time'] = time();
@@ -465,7 +354,6 @@ function handle_ajax_request($conn)
                 unset($_SESSION['paused_time']);
                 unset($_SESSION['incorrect_questions']);
 
-                // Variables needed for the quiz template
                 $question = $_SESSION['questions'][0];
                 $current_question_index = 0;
                 $current_exam_code = $_SESSION['exam_code'];
@@ -492,7 +380,6 @@ function handle_ajax_request($conn)
             $course_id = $_SESSION['selected_course_id'] ?? '';
 
             if ($question_number > 0 && !empty($exam_code) && !empty($course_id)) {
-                // First, check if this question has already been reported
                 $check_stmt = $conn->prepare("SELECT id FROM error_report WHERE course_id = ? AND exam_id = ? AND question_id = ?");
                 $check_stmt->bind_param("ssi", $course_id, $exam_code, $question_number);
                 $check_stmt->execute();
@@ -502,7 +389,6 @@ function handle_ajax_request($conn)
                     $response['success'] = true;
                     $response['status'] = 'already_reported';
                 } else {
-                    // If not reported, insert a new report
                     $insert_stmt = $conn->prepare("INSERT INTO error_report (course_id, exam_id, question_id) VALUES (?, ?, ?)");
                     if ($insert_stmt) {
                         $insert_stmt->bind_param("ssi", $course_id, $exam_code, $question_number);
@@ -523,6 +409,7 @@ function handle_ajax_request($conn)
             }
             echo json_encode($response);
             exit;
+
         default:
             echo json_encode(['success' => false, 'error' => 'Invalid action specified']);
             exit;

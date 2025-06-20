@@ -660,4 +660,96 @@ h2::after {
     .exam-list {
         padding: 15px; /* Reduce padding */
     }
+}/* ... existing styles ... */
+
+/* Custom Confirmation Modal Styles */
+.confirm-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 50;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.confirm-modal-overlay:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+.confirm-modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    width: 100%;
+    max-width: 448px; /* max-w-md */
+    text-align: center;
+    transform: scale(0.95);
+    transition: transform 0.3s ease-out;
+}
+.confirm-modal-overlay:not(.hidden) .confirm-modal-content {
+    transform: scale(1);
+}
+.confirm-modal-icon-wrapper {
+    margin: 0 auto 1.25rem;
+    width: 4rem; /* w-16 */
+    height: 4rem; /* h-16 */
+    background-color: #fef3c7; /* bg-amber-100 */
+    color: #d97706; /* text-amber-500 */
+    border-radius: 9999px; /* rounded-full */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirm-modal-icon-wrapper svg {
+    width: 2rem; /* w-8 */
+    height: 2rem; /* h-8 */
+}
+.confirm-modal-content h3 {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 700; /* font-bold */
+    color: #1e293b; /* text-slate-800 */
+    margin-bottom: 0.75rem;
+}
+.confirm-modal-content p {
+    color: #475569; /* text-slate-600 */
+    margin-bottom: 2rem;
+}
+.confirm-modal-buttons {
+    display: flex;
+    gap: 1rem;
+}
+.confirm-modal-buttons button {
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.75rem 1.5rem; /* px-6 py-3 */
+    font-size: 1rem; /* text-base */
+    font-weight: 500; /* font-medium */
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#custom-cancel-btn {
+    background-color: white;
+    color: #334155; /* text-slate-700 */
+    border-color: #cbd5e1; /* border-slate-300 */
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+#custom-cancel-btn:hover {
+    background-color: #f8fafc; /* bg-slate-50 */
+}
+#custom-confirm-btn {
+    background-color: #f59e0b; /* bg-amber-500 */
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+#custom-confirm-btn:hover {
+    background-color: #d97706; /* hover:bg-amber-600 */
 }
