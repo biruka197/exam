@@ -176,6 +176,10 @@
                             Study Plans
                             <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all duration-300 group-hover:w-full"></span>
                         </a>
+                        <a class="text-gray-600 hover:text-green-600 text-sm font-medium transition-all duration-200 relative group" href="index.php?page=movies_index.php">
+                         KuruMovies
+                            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                     </div>
                 </div>
         

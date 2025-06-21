@@ -16,7 +16,6 @@ $route = $_GET['route'] ?? '';
 
 if ($route == "popular-movies" && isset($_GET['page']) && isset($_GET['query'])) {
     fetchPopularMovies(intval($_GET['page']), $_GET['query']); // ✅ Fixed function call
-
 } elseif ($route == "movie" && isset($_GET['id'])) {
     getMovieDetails(intval($_GET['id']));
 } elseif ($route == "tv" && isset($_GET['page']) && isset($_GET['query'])) {

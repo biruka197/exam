@@ -63,6 +63,9 @@ if (isset($_SESSION['questions']) && !empty($_SESSION['questions']) && isset($_S
         case 'study_plans':
             include 'templates/study_plans.php';
             break;
+        case 'movie':
+            include 'templates/study_plans.php';
+            break;
         case 'home':
         default:
             include 'templates/course_selection.php';

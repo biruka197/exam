@@ -23,7 +23,7 @@ function fetchPopularMovies($page, $query)
     // API URLs
     $urls = [
         "$BASE_URL/movie/popular?api_key=$API_KEY&language=en-US&page=$page",
-        "https://moviesapi.to/api/discover/movie?direction=desc&page=$page&query=i" . urlencode($query)
+        "https://moviesapi.club/api/discover/movie?direction=desc&page=$page&query=" . urlencode($query)
     ];
 
     // Fetch data from APIs
