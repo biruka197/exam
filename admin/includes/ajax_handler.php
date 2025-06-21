@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/functions.php'; // Ensure Gemini API function is available
 
 // Database configuration
 $host = DB_HOST;
@@ -20,11 +21,31 @@ if (!isset($_SESSION['admin_logged_in'])) {
     die(json_encode(['success' => false, 'error' => 'Unauthorized access.']));
 }
 
-// Handle AJAX requests for question editing
-if (isset($_POST['action']) && in_array($_POST['action'], ['get_question_for_edit', 'save_edited_question'])) {
+// Handle AJAX requests
+if (isset($_POST['action'])) {
     header('Content-Type: application/json');
     $action = $_POST['action'];
     $project_root = __DIR__ . '/../../';
+
+    if ($action === 'analyze_question_with_ai') {
+        $prompt = $_POST['prompt'] ?? '';
+        if (empty($prompt)) {
+            echo json_encode(['success' => false, 'error' => 'Prompt is empty.']);
+            exit;
+        }
+
+        $responseJson = callGeminiAPI($prompt);
+        $responseData = json_decode($responseJson, true);
+
+        if (isset($responseData['candidates'][0]['content']['parts'][0]['text'])) {
+            $ai_response = $responseData['candidates'][0]['content']['parts'][0]['text'];
+            echo json_encode(['success' => true, 'ai_response' => $ai_response]);
+        } else {
+            $error_details = isset($responseData['error']) ? print_r($responseData['error'], true) : 'No details provided.';
+            echo json_encode(['success' => false, 'error' => 'Could not get a valid response from the AI. Details: ' . $error_details, 'raw_response' => $responseData]);
+        }
+        exit;
+    }
 
     if ($action === 'get_question_for_edit') {
         $report_id = $_POST['report_id'];
@@ -100,7 +121,7 @@ if (isset($_POST['action']) && in_array($_POST['action'], ['get_question_for_edi
             $questions[$question_index]['correct_answer'] = $question_data['correct_answer'];
             $questions[$question_index]['explanation'] = $question_data['explanation'];
             
-            file_put_contents($exam_file_full_path, json_encode($questions, JSON_PRETTY_PRINT));
+            file_put_contents($exam_file_full_path, json_encode($questions, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
             
             $stmt = $pdo->prepare("DELETE FROM error_report WHERE id = ?");
             $stmt->execute([$report_id]);

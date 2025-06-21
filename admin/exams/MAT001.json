@@ -1,25 +1,25 @@
 [
     {
         "question_number": 1,
-        "question": "Steels have limited application in modern aircraft because [Auto-Corrected]",
+        "question": "Steels have limited application in modern aircraft because",
         "options": {
-            "a": "They are strong",
-            "b": "They are heavy",
-            "c": "They are light"
+            "a": "They are strong but heavy",
+            "b": "Their high density reduces fuel efficiency",
+            "c": "They are susceptible to corrosion"
         },
         "correct_answer": "b",
-        "explanation": "Steels have limited application in modern aircraft because they are heavy, which negatively impacts fuel efficiency and overall aircraft performance."
+        "explanation": "While steel possesses high strength, its relatively high density compared to other materials like aluminum alloys significantly impacts fuel efficiency and overall aircraft performance.  This weight disadvantage limits its use in modern aircraft design where minimizing weight is crucial."
     },
     {
         "question_number": 2,
-        "question": "A strong and light in weight metal used as structural part of an aircraft widely is",
+        "question": "A strong and lightweight metal widely used as a structural part of an aircraft is",
         "options": {
             "a": "Magnesium",
             "b": "Aluminum",
             "c": "Steel"
         },
         "correct_answer": "b",
-        "explanation": "Aluminum is widely used as a structural material in aircraft due to its high strength-to-weight ratio, corrosion resistance, and lightweight properties."
+        "explanation": "Aluminum is widely used as a structural material in aircraft due to its high strength-to-weight ratio, corrosion resistance, and lightweight properties.  While magnesium also possesses these qualities, aluminum is more commonly used in larger-scale aircraft construction."
     },
     {
         "question_number": 3,
@@ -131,25 +131,25 @@
     },
     {
         "question_number": 13,
-        "question": "Which of these is the fastest quenching media",
+        "question": "Which of these is generally considered the fastest quenching media?",
         "options": {
             "a": "Oil",
             "b": "Water",
             "c": "Brine"
         },
-        "correct_answer": "c",
-        "explanation": "Brine (saltwater) is the fastest quenching medium due to its higher heat transfer rate compared to water or oil, often used in heat treatment to achieve rapid cooling."
+        "correct_answer": "b",
+        "explanation": "While the exact quenching rate depends on factors like temperature, concentration, and agitation, pure water generally has a higher heat transfer coefficient than oil or brine.  Brine's higher heat transfer rate compared to water is dependent on the concentration of salt and may not always be true.  Therefore, water is generally considered the fastest among the given options."
     },
     {
         "question_number": 14,
-        "question": "________ is used as a preferable material to resist high temperature",
+        "question": "Which of the following materials is *often* preferred to resist high temperatures in aerospace applications?",
         "options": {
             "a": "Magnesium",
             "b": "Titanium",
             "c": "Aluminum"
         },
         "correct_answer": "b",
-        "explanation": "Titanium is preferred for high-temperature applications in aircraft due to its excellent strength and heat resistance, often used in engines and exhaust systems."
+        "explanation": "While the choice of material for high-temperature applications depends on many factors, titanium is often preferred in aerospace applications due to its excellent strength-to-weight ratio and heat resistance at elevated temperatures, making it suitable for engine components and other high-stress, high-heat environments.  Magnesium and aluminum have lower melting points and are less suitable for these applications."
     },
     {
         "question_number": 15,
@@ -210,12 +210,12 @@
         "question_number": 20,
         "question": "Bolt diameter is given in ____ inch increment",
         "options": {
-            "a": "1\/8",
-            "b": "1\/16",
-            "c": "1\/32"
+            "a": "1/8",
+            "b": "1/16",
+            "c": "1/32"
         },
         "correct_answer": "b",
-        "explanation": "Bolt diameters in aircraft applications are typically given in 1\/16 inch increments, such as 3\/16, 1\/4, or 5\/16, for standardized sizing."
+        "explanation": "Bolt diameters in aircraft applications are typically given in 1/16 inch increments, such as 3/16, 1/4, or 5/16, for standardized sizing."
     },
     {
         "question_number": 21,

@@ -32,7 +32,7 @@ function updateTimer() {
     clearInterval(timerInterval);
     timer.textContent = "00:00";
     if (document.getElementById('quiz-form')) {
-        submitAnswer(new Event("submit"));
+        alert("Time out");
     }
     return;
   }
