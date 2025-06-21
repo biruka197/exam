@@ -1,7 +1,7 @@
 [
     {
         "question_number": 1,
-        "question": "Steels have limited application in modern aircraft because",
+        "question": "Steels have limited application in modern aircraft because [Auto-Corrected]",
         "options": {
             "a": "They are strong",
             "b": "They are heavy",
