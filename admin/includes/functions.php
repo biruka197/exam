@@ -23,4 +23,50 @@ function generateExamCode($course_name, $pdo) {
     
     return $prefix . str_pad($number, 3, '0', STR_PAD_LEFT);
 }
+ 
+function callGeminiAPI($prompt) {
+    // Ensure the API key is defined in your main config file
+    if (!defined('GEMINI_API_KEY')) {
+        return json_encode(['error' => 'API key is not configured.']);
+    }
+
+    $apiKey = GEMINI_API_KEY;
+    $model = 'gemini-1.5-flash-latest'; // Or another model you prefer
+    $url = "https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent?key={$apiKey}";
+
+    $data = [
+        'contents' => [
+            [
+                'parts' => [
+                    [
+                        'text' => $prompt
+                    ]
+                ]
+            ]
+        ]
+    ];
+
+    $jsonData = json_encode($data);
+
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'Content-Length: ' . strlen($jsonData)
+    ]);
+
+    $response = curl_exec($ch);
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($httpcode != 200) {
+        return json_encode(['error' => 'API call failed with status code: ' . $httpcode, 'response' => $response]);
+    }
+
+    return $response;
+}
 ?>

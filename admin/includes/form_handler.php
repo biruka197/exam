@@ -100,5 +100,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->execute([$id]);
             $success_message = "Error report deleted successfully!";
             break;
+        
     }
 }
