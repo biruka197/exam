@@ -1,0 +1,1454 @@
+[
+    {
+      "question_number": 1,
+      "question": "What is the primary purpose of aircraft hardware as described in the ET-GC05 course?",
+      "options": {
+        "a": "To enhance aircraft aesthetics",
+        "b": "To hold aircraft parts together securely",
+        "c": "To reduce aircraft weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Aircraft hardware, including fasteners and miscellaneous small items, is used to hold aircraft parts together securely, ensuring safe and efficient operation. This is critical as the strength of the union must match the parts being joined, as stated on page 3."
+    },
+    {
+      "question_number": 2,
+      "question": "Which method is NOT used to hold metal parts together in aircraft construction?",
+      "options": {
+        "a": "Riveting",
+        "b": "Gluing",
+        "c": "Welding"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 3 lists riveting, bolting, brazing, and welding as methods to hold metal parts together. Gluing is not mentioned as a standard method for joining metal parts in aircraft construction."
+    },
+    {
+      "question_number": 3,
+      "question": "How are most aircraft hardware items identified?",
+      "options": {
+        "a": "By their color",
+        "b": "By their specification number or trade name",
+        "c": "By their weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Most aircraft hardware items, such as threaded fasteners and rivets, are identified by their specification number (e.g., AN, NAS, MS) or trade name, as noted on page 3."
+    },
+    {
+      "question_number": 4,
+      "question": "What is a key difference between a bolt and a screw in aircraft applications?",
+      "options": {
+        "a": "A bolt has a pointed end, while a screw has a blunt end",
+        "b": "A bolt is tightened by turning its head",
+        "c": "A bolt has a short threaded section"
+      },
+      "correct_answer": "c",
+      "explanation": "Page 3 explains that a bolt has a fairly short threaded section and a long grip length, whereas a screw has a longer threaded section and may have no clearly defined grip length."
+    },
+    {
+      "question_number": 5,
+      "question": "Which thread series is commonly used for aircraft bolts and screws?",
+      "options": {
+        "a": "Metric Coarse",
+        "b": "American National Fine",
+        "c": "British Standard Whitworth"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 4 states that aircraft bolts, screws, and nuts are threaded in the NC, NF, UNC, or UNF series, with American National Fine (NF) being one of the common thread series used."
+    },
+    {
+      "question_number": 6,
+      "question": "What does a Class 3 thread fit indicate for aircraft bolts?",
+      "options": {
+        "a": "Loose fit",
+        "b": "Medium fit",
+        "c": "Tight fit"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 4 specifies that a Class 3 thread fit is a medium fit, which is almost always used for aircraft bolts to ensure proper tolerance and strength."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the pitch of a screw thread defined as?",
+      "options": {
+        "a": "The diameter of the thread crest",
+        "b": "The distance between threads",
+        "c": "The angle of the thread flanks"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 5 defines the pitch of a screw thread as the distance from any point on a thread to the corresponding point on the next thread, measured parallel to the axis."
+    },
+    {
+      "question_number": 8,
+      "question": "What is the major diameter of a screw thread?",
+      "options": {
+        "a": "The distance between thread roots",
+        "b": "The diameter over the thread crests",
+        "c": "The diameter of the pitch cylinder"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 5 explains that the major diameter is the measured diameter over the crests of the thread for a male thread or the roots for a female thread."
+    },
+    {
+      "question_number": 9,
+      "question": "What is the purpose of a right-hand thread in aircraft fasteners?",
+      "options": {
+        "a": "To loosen when turned clockwise",
+        "b": "To tighten when turned clockwise",
+        "c": "To remain stationary"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 4 notes that a right-hand thread tightens when turned clockwise, which is the standard for most aircraft fasteners."
+    },
+    {
+      "question_number": 10,
+      "question": "Which thread class is typically used for aircraft screws for ease of assembly?",
+      "options": {
+        "a": "Class 1",
+        "b": "Class 2",
+        "c": "Class 4"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 4 states that aircraft screws are generally manufactured with a Class 2 thread fit for ease of assembly."
+    },
+    {
+      "question_number": 11,
+      "question": "What is the lead of a single-start screw thread equal to?",
+      "options": {
+        "a": "Twice the pitch",
+        "b": "The pitch",
+        "c": "Half the pitch"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 7 explains that for a single-start thread, the lead, which is the distance a thread advances axially in one turn, is equal to the pitch."
+    },
+    {
+      "question_number": 12,
+      "question": "What is the benefit of a multiple-start thread in aircraft applications?",
+      "options": {
+        "a": "Increased strength",
+        "b": "Increased axial travel per turn",
+        "c": "Reduced friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 7 notes that multiple-start threads increase the axial travel or lead of the thread without changing the pitch, allowing faster movement."
+    },
+    {
+      "question_number": 13,
+      "question": "Which type of thread is used in aircraft lifting jacks for locking collars?",
+      "options": {
+        "a": "Acme thread",
+        "b": "Square thread",
+        "c": "Buttress thread"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 10 states that square threads are used on the rams of aircraft lifting jacks for the locking collars."
+    },
+    {
+      "question_number": 14,
+      "question": "What is a characteristic of a ball screw thread in aircraft?",
+      "options": {
+        "a": "High friction",
+        "b": "Low strength",
+        "c": "Low friction"
+      },
+      "correct_answer": "c",
+      "explanation": "Page 11 describes ball screw threads as having low friction, commonly used in aircraft for flap drive and stabilizer drive units."
+    },
+    {
+      "question_number": 15,
+      "question": "What is the thread angle of the Unified Thread System used in aerospace?",
+      "options": {
+        "a": "55°",
+        "b": "60°",
+        "c": "45°"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 11 specifies that the Unified Thread System, used in aerospace, has a thread angle of 60°."
+    },
+    {
+      "question_number": 16,
+      "question": "What does the 'J' in UNJF threads indicate?",
+      "options": {
+        "a": "Coarse thread",
+        "b": "Fatigue-resistant fine thread",
+        "c": "Extra fine thread"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 12 defines UNJF as a Unified fatigue-resistant fine thread, commonly used in high-strength bolts."
+    },
+    {
+      "question_number": 17,
+      "question": "Why are self-tapping threads not used structurally on modern aircraft?",
+      "options": {
+        "a": "They are too heavy",
+        "b": "They lack sufficient strength",
+        "c": "They are prone to corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 15 explains that self-tapping threads are not used structurally on modern aircraft because they lack the strength required for structural applications."
+    },
+    {
+      "question_number": 18,
+      "question": "What is the purpose of applying proper torque to aircraft fasteners?",
+      "options": {
+        "a": "To reduce weight",
+        "b": "To distribute loads safely",
+        "c": "To increase corrosion resistance"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 16 states that proper torque ensures loads are distributed safely throughout the structure, reducing the risk of fatigue failure."
+    },
+    {
+      "question_number": 19,
+      "question": "Which type of torque wrench automatically releases when the set torque is reached?",
+      "options": {
+        "a": "Flexible beam",
+        "b": "Rigid frame",
+        "c": "Ratchet type"
+      },
+      "correct_answer": "c",
+      "explanation": "Page 16 describes the ratchet type torque wrench as automatically releasing or 'breaking' when the set torque value is reached."
+    },
+    {
+      "question_number": 20,
+      "question": "What should be done when tightening a bolt head instead of a nut?",
+      "options": {
+        "a": "Use a lower torque value",
+        "b": "Approach the high side of the torque range",
+        "c": "Lubricate the bolt"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 18 advises that when tightening by rotating the bolt head, one should approach the high side of the indicated torque range to ensure proper fastening."
+    },
+    {
+      "question_number": 21,
+      "question": "What is the torque limit range for a 1/4-28 steel nut and bolt in tension?",
+      "options": {
+        "a": "20-25 inch-pounds",
+        "b": "50-70 inch-pounds",
+        "c": "100-140 inch-pounds"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 19’s torque table lists the torque limits for a 1/4-28 steel nut and bolt in tension as 50-70 inch-pounds."
+    },
+    {
+      "question_number": 22,
+      "question": "What is the primary material used for aircraft bolts in structural applications?",
+      "options": {
+        "a": "Brass",
+        "b": "Corrosion-resistant steel",
+        "c": "Plastic"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 21 states that aircraft bolts are fabricated from cadmium- or zinc-plated corrosion-resistant steel, unplated corrosion-resistant steel, or anodized aluminum alloys, with corrosion-resistant steel being common for structural applications."
+    },
+    {
+      "question_number": 23,
+      "question": "What does the 'AN' designation indicate on an aircraft bolt?",
+      "options": {
+        "a": "Aluminum Nut",
+        "b": "Air Force-Navy Standard",
+        "c": "Aerospace National"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 23 explains that the 'AN' designation on aircraft bolts indicates they are Air Force-Navy Standard bolts."
+    },
+    {
+      "question_number": 24,
+      "question": "Which type of bolt is used only in shear load applications?",
+      "options": {
+        "a": "Eyebolt",
+        "b": "Clevis bolt",
+        "c": "Jo-bolt"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 23 specifies that clevis bolts are used only where shear loads occur and never in tension."
+    },
+    {
+      "question_number": 25,
+      "question": "What is a key advantage of using Jo-bolts in aircraft structures?",
+      "options": {
+        "a": "Low cost",
+        "b": "High shear and tensile strength",
+        "c": "Ease of removal"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 24 notes that Jo-bolts have high shear and tensile strength, making them suitable for high-stress applications."
+    },
+    {
+      "question_number": 26,
+      "question": "Which type of lockbolt requires a pneumatic hammer for installation?",
+      "options": {
+        "a": "Pull type",
+        "b": "Stump type",
+        "c": "Blind type"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 25 explains that stump-type lockbolts require a pneumatic riveting hammer and a bucking bar for installation."
+    },
+    {
+      "question_number": 27,
+      "question": "What is the grip range for a pull-type lockbolt with Grip No. 5?",
+      "options": {
+        "a": "0.031-0.094 inches",
+        "b": "0.281-0.344 inches",
+        "c": "0.594-0.656 inches"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 27’s Table 2.2 shows that the grip range for a pull-type lockbolt with Grip No. 5 is 0.281-0.344 inches."
+    },
+    {
+      "question_number": 28,
+      "question": "How are aircraft nuts typically identified?",
+      "options": {
+        "a": "By their shape",
+        "b": "By their metallic luster or color",
+        "c": "By their weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 29 states that aircraft nuts are identified by the characteristic metallic luster or color of the material, such as aluminum or brass, or by the insert in self-locking nuts."
+    },
+    {
+      "question_number": 29,
+      "question": "What is a common feature of all lockbolts?",
+      "options": {
+        "a": "Threaded ends",
+        "b": "Annular locking grooves",
+        "c": "Countersunk heads"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 25 notes that a common feature of all lockbolt types is the annular locking grooves on the pin, into which the locking collar is swaged."
+    },
+    {
+      "question_number": 30,
+      "question": "What material is commonly used for the pins of pull-type lockbolts?",
+      "options": {
+        "a": "Copper",
+        "b": "Heat-treated alloy steel",
+        "c": "Nylon"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 26 states that the pins of pull- and stump-type lockbolts are made of heat-treated alloy steel or high-strength aluminum alloy."
+    },
+    {
+      "question_number": 31,
+      "question": "Why are aluminum alloy bolts not used in primary aircraft structures smaller than 1/4 inch?",
+      "options": {
+        "a": "They are too heavy",
+        "b": "They lack sufficient strength",
+        "c": "They are prone to corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 22 explains that aluminum alloy bolts smaller than 1/4 inch in diameter are not used in primary structures due to insufficient strength."
+    },
+    {
+      "question_number": 32,
+      "question": "What is the purpose of a close tolerance bolt in aircraft applications?",
+      "options": {
+        "a": "To allow easy installation",
+        "b": "To provide a tight drive fit",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 22 states that close tolerance bolts are used in applications where a tight drive fit is required, often needing to be struck with a hammer to install."
+    },
+    {
+      "question_number": 33,
+      "question": "What does a raised dash marking on an AN bolt head indicate?",
+      "options": {
+        "a": "Aluminum alloy",
+        "b": "Corrosion-resistant steel",
+        "c": "Low-strength material"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 23 explains that a single raised dash on an AN bolt head indicates it is made of corrosion-resistant steel."
+    },
+    {
+      "question_number": 34,
+      "question": "What is the primary function of an eyebolt in aircraft?",
+      "options": {
+        "a": "To withstand shear loads",
+        "b": "To apply external tension loads",
+        "c": "To secure control cables"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 23 notes that eyebolts are designed for the attachment of devices to apply external tension loads, such as turnbuckles or cable shackles."
+    },
+    {
+      "question_number": 35,
+      "question": "What is a disadvantage of lockbolts compared to nuts and bolts?",
+      "options": {
+        "a": "Lower strength",
+        "b": "Not easily removable",
+        "c": "Higher weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 24 states that the only drawback to lockbolt installations is that they are not easily removable compared to nuts and bolts."
+    },
+    {
+      "question_number": 36,
+      "question": "What tool is used to measure the thickness of material for selecting lockbolt grip range?",
+      "options": {
+        "a": "Micrometer",
+        "b": "Hook scale",
+        "c": "Vernier caliper"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 26 advises using a hook scale inserted through the hole to measure the thickness of the material for determining the correct lockbolt grip range."
+    },
+    {
+      "question_number": 37,
+      "question": "What is the recommended method for removing a lockbolt collar?",
+      "options": {
+        "a": "Drilling it out",
+        "b": "Splitting it axially with a chisel",
+        "c": "Heating it"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 28 recommends splitting the lockbolt collar axially with a sharp, cold chisel to remove it, taking care not to deform the hole."
+    },
+    {
+      "question_number": 38,
+      "question": "What is the purpose of a cable compensator in aircraft control systems?",
+      "options": {
+        "a": "To increase cable strength",
+        "b": "To prevent false control inputs",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 146 explains that a cable compensator prevents false control inputs in the event of a failed cable by isolating the output."
+    },
+    {
+      "question_number": 39,
+      "question": "What material are aircraft control cables typically made from?",
+      "options": {
+        "a": "Aluminum",
+        "b": "Carbon steel",
+        "c": "Nylon"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 138 states that aircraft control cables are typically made from galvanized or tin-over-zinc-coated carbon steel or uncoated corrosion-resistant steel."
+    },
+    {
+      "question_number": 40,
+      "question": "What is the benefit of preformed cables in aircraft control systems?",
+      "options": {
+        "a": "Increased weight",
+        "b": "Improved flexibility",
+        "c": "Reduced strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 138 notes that preforming makes cables more flexible, less prone to kinking, and more fatigue-resistant."
+    },
+    {
+      "question_number": 41,
+      "question": "How are British aircraft control cables classified?",
+      "options": {
+        "a": "By nominal diameter",
+        "b": "By minimum breaking load",
+        "c": "By number of strands"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 139 explains that British aircraft control cables are classified by their minimum breaking load, unlike American cables, which use nominal diameter."
+    },
+    {
+      "question_number": 42,
+      "question": "What is the minimum breaking load for a 1/8-inch American control cable (7x19)?",
+      "options": {
+        "a": "920 lbs",
+        "b": "2000 lbs",
+        "c": "4200 lbs"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 139’s Table 2.8 lists the minimum breaking load for a 1/8-inch American control cable (7x19) as 2000 lbs."
+    },
+    {
+      "question_number": 43,
+      "question": "What type of stress is most frequently encountered by aircraft control cables?",
+      "options": {
+        "a": "Compression",
+        "b": "Direct tension",
+        "c": "Torsional stress"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 140 states that the stresses most frequently encountered by aircraft control cables include direct tension, shock loads, bending, and combined forces, with direct tension being the most common."
+    },
+    {
+      "question_number": 44,
+      "question": "What is the safety factor of a cable with a strength of 10,000 lbs and a working load of 2,000 lbs?",
+      "options": {
+        "a": "2",
+        "b": "5",
+        "c": "10"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 140 explains that the safety factor is the ratio of the cable’s strength to the working load, so 10,000 lbs ÷ 2,000 lbs = 5."
+    },
+    {
+      "question_number": 45,
+      "question": "What causes loss of strength in aircraft control cables due to bending?",
+      "options": {
+        "a": "Corrosion",
+        "b": "Inability of strands to adjust",
+        "c": "Excessive lubrication"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 notes that loss of strength due to bending is caused by the inability of individual strands and wires to adjust to their changed position when the cable is bent."
+    },
+    {
+      "question_number": 46,
+      "question": "What is the primary cause of fatigue failure in aircraft control cables?",
+      "options": {
+        "a": "Abrasive wear",
+        "b": "Propagation of small cracks",
+        "c": "Structural stretch"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 explains that fatigue failure in cables results from the propagation of small cracks from stress concentration points caused by repetitive flexing."
+    },
+    {
+      "question_number": 47,
+      "question": "What type of cable construction is more flexible: 7x7 or 7x19?",
+      "options": {
+        "a": "7x7",
+        "b": "7x19",
+        "c": "Both are equally flexible"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 142 states that a 7x19 cable, with 19 wires per strand, is more flexible than a 7x7 cable due to the thinner wires."
+    },
+    {
+      "question_number": 48,
+      "question": "What is the purpose of Lockclad cables in aircraft control systems?",
+      "options": {
+        "a": "To increase cable strength",
+        "b": "To lower creep stretch",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 157 notes that Lockclad cables lower creep stretch and provide other advantages like better sealing and vibration damping."
+    },
+    {
+      "question_number": 49,
+      "question": "What tool is used to install a Nicopress sleeve on a low-strength cable end fitting?",
+      "options": {
+        "a": "Hydraulic swaging machine",
+        "b": "Nicopress tool",
+        "c": "Torque wrench"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 144 describes the use of a Nicopress tool to deform the sleeve for low-strength cable end fittings with a loop and thimble."
+    },
+    {
+      "question_number": 50,
+      "question": "How is a turnbuckle assembly typically safetied in British systems?",
+      "options": {
+        "a": "With a locking nut",
+        "b": "With a hardened steel pin",
+        "c": "With a cotter pin"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 146 states that British turnbuckles are safetied when a hardened steel pin passes through the safety inspection hole."
+    },
+    {
+      "question_number": 51,
+      "question": "What is the function of a tension regulator in aircraft control systems?",
+      "options": {
+        "a": "To increase cable strength",
+        "b": "To maintain uniform tension",
+        "c": "To reduce cable friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 147 explains that tension regulators maintain uniform tension in control cables despite temperature changes or airframe flexing."
+    },
+    {
+      "question_number": 52,
+      "question": "What material are fairleads typically made from in aircraft control systems?",
+      "options": {
+        "a": "Steel",
+        "b": "Tufnol",
+        "c": "Aluminum"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 151 states that fairleads are usually made from plastic or fiber materials like Tufnol, Micarta, or Nylon to prevent chafing."
+    },
+    {
+      "question_number": 53,
+      "question": "Why should fairleads not be lubricated in aircraft control systems?",
+      "options": {
+        "a": "To reduce weight",
+        "b": "To prevent dirt accumulation",
+        "c": "To increase friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 151 advises against lubricating fairleads as it will collect dirt and dust, causing extra wear on the cable and fairlead."
+    },
+    {
+      "question_number": 54,
+      "question": "What is the primary function of pulleys in aircraft control systems?",
+      "options": {
+        "a": "To increase cable tension",
+        "b": "To change cable direction",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 153 explains that pulleys are used to change the direction of cables in control systems with minimal friction."
+    },
+    {
+      "question_number": 55,
+      "question": "What material are aircraft pulleys typically made from?",
+      "options": {
+        "a": "Stainless steel",
+        "b": "Resin-impregnated fiber",
+        "c": "Brass"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 153 states that aircraft pulleys are usually made from resin-impregnated fiber materials like Tufnol with a sealed bearing."
+    },
+    {
+      "question_number": 56,
+      "question": "What is the purpose of quadrants and drums in aircraft control systems?",
+      "options": {
+        "a": "To tension cables",
+        "b": "To terminate cables",
+        "c": "To reduce friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 154 notes that quadrants and drums are used where cables terminate, with end fittings anchored to them."
+    },
+    {
+      "question_number": 57,
+      "question": "How is a high tensile stainless steel fork joint identified?",
+      "options": {
+        "a": "Plain collar",
+        "b": "Groove around shank",
+        "c": "No collar"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 155 specifies that high tensile stainless steel fork joints are identified by a groove around the shank."
+    },
+    {
+      "question_number": 58,
+      "question": "What is the diameter of a shackle pin marked with the letter 'A'?",
+      "options": {
+        "a": "5/32 inch",
+        "b": "1/4 inch",
+        "c": "3/16 inch"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 156 states that a shackle pin marked with the letter 'A' has a diameter of 5/32 inch."
+    },
+    {
+      "question_number": 59,
+      "question": "What is a key advantage of Bowden cables in aircraft control systems?",
+      "options": {
+        "a": "High strength",
+        "b": "Simple maintenance",
+        "c": "Heavy weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 158 notes that maintenance of Bowden cable systems is usually restricted to simple cleaning, lubrication, and adjustment."
+    },
+    {
+      "question_number": 60,
+      "question": "What is the primary difference between Teleflex and Bowden cable systems?",
+      "options": {
+        "a": "Teleflex can transmit push forces",
+        "b": "Bowden is more flexible",
+        "c": "Teleflex is heavier"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 159 explains that Teleflex cables can transmit both push and pull forces, unlike Bowden cables, which primarily transmit pull forces."
+    },
+    {
+      "question_number": 61,
+      "question": "What is the purpose of the helix in a Teleflex cable?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To act as a bearing surface",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 160 states that the helix in a Teleflex cable acts as a bearing surface when working in the conduit."
+    },
+    {
+      "question_number": 62,
+      "question": "What is the minimum bend radius for Bowden flex cables?",
+      "options": {
+        "a": "1 inch",
+        "b": "3 inches",
+        "c": "6 inches"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 165 specifies that the minimum bend radius for Bowden flex cables is around 3 inches."
+    },
+    {
+      "question_number": 63,
+      "question": "What is the addendum of a gear tooth if the pitch is 0.5 inches?",
+      "options": {
+        "a": "0.159 inches",
+        "b": "0.318 inches",
+        "c": "0.5 inches"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 132 states that the addendum of a gear tooth is 0.318 of the pitch. For a pitch of 0.5 inches, 0.318 × 0.5 = 0.159 inches."
+    },
+    {
+      "question_number": 64,
+      "question": "What is the primary disadvantage of flat belt mechanisms in aircraft?",
+      "options": {
+        "a": "High weight",
+        "b": "Prone to slippage",
+        "c": "Low strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 134 notes that flat belt mechanisms are prone to slippage due to reliance on friction to transmit power."
+    },
+    {
+      "question_number": 65,
+      "question": "What is the step-down ratio for a belt drive on a micro-light aircraft propeller?",
+      "options": {
+        "a": "1:1",
+        "b": "2.5:1",
+        "c": "5:1"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 135 states that the belt drive from the crankshaft to the propeller on micro-light aircraft typically has a step-down ratio of about 2.5:1."
+    },
+    {
+      "question_number": 66,
+      "question": "What is the purpose of tension pulleys in helicopter belt drives?",
+      "options": {
+        "a": "To increase speed",
+        "b": "To maintain correct tension",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 135 explains that tension pulleys in helicopter belt drives keep the belt at the correct tension for normal use."
+    },
+    {
+      "question_number": 67,
+      "question": "What is the pitch of a chain in aircraft control systems?",
+      "options": {
+        "a": "The distance between rollers",
+        "b": "The chain’s width",
+        "c": "The chain’s strength"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 136 defines the pitch of a chain as the distance between the centers of the rollers."
+    },
+    {
+      "question_number": 68,
+      "question": "Why are spring clip connecting links prohibited in aircraft chain assemblies?",
+      "options": {
+        "a": "They are too heavy",
+        "b": "They are not secure",
+        "c": "They are prone to corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 136 states that spring clip connecting links are prohibited in aircraft chain assemblies, implying they are not secure enough for critical applications."
+    },
+    {
+      "question_number": 69,
+      "question": "What is the benefit of using toothed belts over flat belts in aircraft?",
+      "options": {
+        "a": "Reduced weight",
+        "b": "Reduced slippage",
+        "c": "Increased friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 134 explains that toothed belts reduce the chance of slippage by using engagement rather than friction to transmit power."
+    },
+    {
+      "question_number": 70,
+      "question": "What is the primary use of chains in aircraft control systems?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To change direction of control runs",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 136 states that chains are used to change the direction of control runs in systems requiring considerable force, such as aileron and elevator controls."
+    },
+    {
+      "question_number": 71,
+      "question": "What is the purpose of a swaged end fitting on aircraft control cables?",
+      "options": {
+        "a": "To reduce cable weight",
+        "b": "To securely grip the cable",
+        "c": "To increase flexibility"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 144 explains that swaged end fittings are physically distorted to grip the cable securely."
+    },
+    {
+      "question_number": 72,
+      "question": "What is the primary function of a cable stop in aircraft control systems?",
+      "options": {
+        "a": "To increase tension",
+        "b": "To limit control movement",
+        "c": "To reduce friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 150 states that cable stops are designed to contact stop brackets to limit the movement of a control in case of cable failure or over-travel."
+    },
+    {
+      "question_number": 73,
+      "question": "What is the thread angle of metric screw threads used in aerospace?",
+      "options": {
+        "a": "55°",
+        "b": "60°",
+        "c": "47.5°"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 14 specifies that metric screw threads used in the aerospace industry have a thread angle of 60°."
+    },
+    {
+      "question_number": 74,
+      "question": "What does the 'MJ' designation indicate in metric screw threads?",
+      "options": {
+        "a": "Coarse thread",
+        "b": "Fatigue-resistant thread",
+        "c": "Fine thread"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 14 explains that the 'MJ' designation identifies a metric fatigue-resistant thread form suitable for highly stressed applications."
+    },
+    {
+      "question_number": 75,
+      "question": "Why are UNJ bolts not compatible with UN nuts?",
+      "options": {
+        "a": "Different thread angles",
+        "b": "Larger root radius",
+        "c": "Smaller pitch"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 13 states that a UNJ bolt has a larger root radius, increasing the minor diameter, making it incompatible with a UN nut."
+    },
+    {
+      "question_number": 76,
+      "question": "What is the primary advantage of V-section belts over flat belts in aircraft?",
+      "options": {
+        "a": "Increased weight",
+        "b": "Reduced slippage",
+        "c": "Lower strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 134 notes that V-section belts were developed to reduce the problem of slippage inherent in flat belts."
+    },
+    {
+      "question_number": 77,
+      "question": "What is the elastic limit of a stainless steel aircraft control cable?",
+      "options": {
+        "a": "50% of breaking strength",
+        "b": "60% of breaking strength",
+        "c": "70% of breaking strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 states that the elastic limit of a stainless steel cable is approximately 60% of its breaking strength."
+    },
+    {
+      "question_number": 78,
+      "question": "What is the purpose of internal lubrication in aircraft control cables?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To reduce bending stress",
+        "c": "To enhance corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 explains that internal lubrication, applied during manufacture, is necessary to reduce bending stress in cables operating over pulleys."
+    },
+    {
+      "question_number": 79,
+      "question": "What is the primary material for the outer wires of less flexible aircraft control cables?",
+      "options": {
+        "a": "Nylon",
+        "b": "Larger steel wires",
+        "c": "Aluminum"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 notes that less flexible cables use larger outer steel wires to better withstand abrasion."
+    },
+    {
+      "question_number": 80,
+      "question": "What is the designation for a cable with 7 strands, each containing 19 wires?",
+      "options": {
+        "a": "1x19",
+        "b": "7x7",
+        "c": "7x19"
+      },
+      "correct_answer": "c",
+      "explanation": "Page 142 explains that a cable designated as 7x19 consists of 7 strands, each containing 19 wires."
+    },
+    {
+      "question_number": 81,
+      "question": "What is the primary use of a swiveling coupling in Teleflex cable systems?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To allow angular movement",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 164 states that a swiveling coupling is used to allow the sliding end fitting an angular movement in Teleflex systems."
+    },
+    {
+      "question_number": 82,
+      "question": "What is the consequence of bending a Bowden flex cable in the wrong plane?",
+      "options": {
+        "a": "Reduced friction",
+        "b": "High friction and wear",
+        "c": "Increased strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 165 warns that bending a Bowden flex cable in the wrong plane results in high friction and excessive wear."
+    },
+    {
+      "question_number": 83,
+      "question": "What is the primary function of a toothed belt in aircraft piston engines?",
+      "options": {
+        "a": "To drive landing gear",
+        "b": "To drive camshafts",
+        "c": "To drive fuel pumps"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 135 notes that toothed belts are used inside piston engines to drive camshafts and other accessories from the crankshaft."
+    },
+    {
+      "question_number": 84,
+      "question": "What is the typical stroke range for Bowden flex cables?",
+      "options": {
+        "a": "1-4 inches",
+        "b": "5-10 inches",
+        "c": "10-15 inches"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 165 states that the stroke range for Bowden flex cables is normally 1-4 inches."
+    },
+    {
+      "question_number": 85,
+      "question": "What is the primary material for shackle pins in aircraft control systems?",
+      "options": {
+        "a": "Aluminum",
+        "b": "High tensile steel",
+        "c": "Plastic"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 156 specifies that shackle pins are made from high tensile steel or high tensile stainless steel."
+    },
+    {
+      "question_number": 86,
+      "question": "How is a high tensile stainless steel shackle pin identified?",
+      "options": {
+        "a": "Plain shank",
+        "b": "Dimple at the shank end",
+        "c": "Grooved collar"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 156 states that high tensile stainless steel shackle pins have a dimple at the shank end and/or the letter 'Z' marked on the head."
+    },
+    {
+      "question_number": 87,
+      "question": "What is the purpose of a non-reversible chain in aircraft control systems?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To prevent incorrect assembly",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 136 explains that non-reversible chains are used to prevent incorrect assembly in conjunction with appropriate wheels and connectors."
+    },
+    {
+      "question_number": 88,
+      "question": "What is the primary disadvantage of using Lockclad cables on large commercial aircraft?",
+      "options": {
+        "a": "High cost",
+        "b": "Rigidity limits routing",
+        "c": "Low strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 157 notes that the rigidity of Lockclad cables makes routing long cable runs impossible, limiting their use on large commercial aircraft."
+    },
+    {
+      "question_number": 89,
+      "question": "What is the primary function of a cable tensioning device in flight?",
+      "options": {
+        "a": "To increase cable strength",
+        "b": "To adjust for temperature changes",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 147 explains that tension regulators adjust cable tension to account for temperature differentials and airframe flexing in flight."
+    },
+    {
+      "question_number": 90,
+      "question": "What is the primary material for the locking collar of a lockbolt?",
+      "options": {
+        "a": "Nylon",
+        "b": "Aluminum alloy",
+        "c": "Carbon steel"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 26 states that companion collars for pull- and stump-type lockbolts are made of aluminum alloy or mild steel."
+    },
+    {
+      "question_number": 91,
+      "question": "What is the purpose of guards on aircraft control system pulleys?",
+      "options": {
+        "a": "To increase friction",
+        "b": "To prevent cable derailment",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 153 notes that guards are fitted to pulleys when there is a high risk of the cable riding off the pulley."
+    },
+    {
+      "question_number": 92,
+      "question": "What is the primary use of a fork joint in aircraft control systems?",
+      "options": {
+        "a": "To terminate cables",
+        "b": "To connect bracing wires",
+        "c": "To increase flexibility"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 155 states that fork joints are used in conjunction with bracing wires, tie rods, and tension rod turnbuckles."
+    },
+    {
+      "question_number": 93,
+      "question": "What is the primary advantage of using a hydraulic swaging machine for cable end fittings?",
+      "options": {
+        "a": "Light weight",
+        "b": "High strength fittings",
+        "c": "Low cost"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 145 explains that hydraulic swaging machines produce high-strength end fittings for control cables, ensuring a grip stronger than the cable’s breaking strength."
+    },
+    {
+      "question_number": 94,
+      "question": "What is the primary function of a Teleflex cable system in aircraft?",
+      "options": {
+        "a": "To transmit only pull forces",
+        "b": "To transmit push and pull forces",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 159 states that Teleflex cable systems can transmit both push and pull forces, unlike Bowden cables."
+    },
+    {
+      "question_number": 95,
+      "question": "What is the primary reason for cleaning Teleflex cable conduits?",
+      "options": {
+        "a": "To increase friction",
+        "b": "To prevent seizing",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 160 notes that cleaning Teleflex cable conduits is vital to prevent seizing due to foreign objects, dirt, or freezing."
+    },
+    {
+      "question_number": 96,
+      "question": "What is the primary function of a chain wheel in aircraft control systems?",
+      "options": {
+        "a": "To increase cable tension",
+        "b": "To change direction of chains",
+        "c": "To reduce chain weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 136 states that chain wheels or pulleys are used to achieve a change of direction in chain-based control systems."
+    },
+    {
+      "question_number": 97,
+      "question": "What is the primary advantage of using corrosion-resistant steel cables in aircraft?",
+      "options": {
+        "a": "Higher strength",
+        "b": "Better corrosion resistance",
+        "c": "Lower weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 138 explains that corrosion-resistant steel cables are less prone to corrosion and can be used in harsher environments."
+    },
+    {
+      "question_number": 98,
+      "question": "What is the primary function of a sealed bearing in an aircraft pulley?",
+      "options": {
+        "a": "To increase friction",
+        "b": "To reduce friction",
+        "c": "To increase weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 153 notes that aircraft pulleys have a sealed bearing fitted in the center to reduce friction."
+    },
+    {
+      "question_number": 99,
+      "question": "What is the primary reason for proof testing fabricated aircraft control cables?",
+      "options": {
+        "a": "To reduce weight",
+        "b": "To ensure correct strength",
+        "c": "To increase flexibility"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 142 states that fabricated cables must be proof tested to ensure they meet the correct load factor and strength requirements."
+    },
+    {
+      "question_number": 100,
+      "question": "What is the primary function of a turnbuckle in aircraft control systems?",
+      "options": {
+        "a": "To terminate cables",
+        "b": "To tension cables",
+        "c": "To reduce friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 145 explains that turnbuckles are the usual device for tensioning a cable system."
+    },
+    {
+      "question_number": 101,
+      "question": "What is the primary material for the center load rail in Bowden flex cables?",
+      "options": {
+        "a": "Nylon",
+        "b": "Flexible steel",
+        "c": "Aluminum"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 165 states that the center load rail in Bowden flex cables is a flexible steel component that transmits tension and compression loads."
+    },
+    {
+      "question_number": 102,
+      "question": "What is the primary function of a cable fairlead in aircraft control systems?",
+      "options": {
+        "a": "To increase tension",
+        "b": "To support cables",
+        "c": "To terminate cables"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 151 explains that fairleads support cables to reduce fouling, vibration, and fluctuations."
+    },
+    {
+      "question_number": 103,
+      "question": "What is the primary advantage of using a toothed belt drive for a propeller in small aircraft?",
+      "options": {
+        "a": "Increased weight",
+        "b": "Reduced slippage",
+        "c": "Lower strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 135 notes that toothed belt drives reduce the chance of slippage by engaging with grooves on the pulleys."
+    },
+    {
+      "question_number": 104,
+      "question": "What is the primary function of a locking crossbar assembly in a tension regulator?",
+      "options": {
+        "a": "To increase cable strength",
+        "b": "To maintain uniform tension",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 148 states that the locking crossbar assembly in a tension regulator helps maintain uniform tension by adjusting to cable tension variations."
+    },
+    {
+      "question_number": 105,
+      "question": "What is the primary reason for using a drift punch to remove a lockbolt pin?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To avoid hole deformation",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 28 advises using a drift punch to drive out the lockbolt pin after splitting the collar to avoid breaking out or deforming the hole."
+    },
+    {
+      "question_number": 106,
+      "question": "What is the primary function of a cable compensator’s roller in normal operation?",
+      "options": {
+        "a": "To increase friction",
+        "b": "To transfer drive to the output",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 149 explains that under normal operation, the roller in a cable compensator remains in the cam, transferring drive to the output."
+    },
+    {
+      "question_number": 107,
+      "question": "What is the primary material for the outer casing of Bowden flex cables?",
+      "options": {
+        "a": "Steel",
+        "b": "Flexible casing",
+        "c": "Nylon"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 165 states that Bowden flex cables are retained in a flexible casing, which supports the internal components."
+    },
+    {
+      "question_number": 108,
+      "question": "What is the primary function of a push-pull unit in a Teleflex cable system?",
+      "options": {
+        "a": "To increase cable tension",
+        "b": "To actuate the control",
+        "c": "To reduce cable weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 162 notes that a push-pull unit in a Teleflex system is used to actuate the control, often with a spring-loaded stop."
+    },
+    {
+      "question_number": 109,
+      "question": "What is the primary reason for using a go/no-go gauge on a Nicopress sleeve?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To check adequate deformation",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 144 states that a go/no-go gauge is used to test the Nicopress sleeve for adequate deformation after installation."
+    },
+    {
+      "question_number": 110,
+      "question": "What is the primary function of a ball and socket end fitting in a Teleflex system?",
+      "options": {
+        "a": "To increase rigidity",
+        "b": "To allow flexible connection",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 162 notes that ball and socket end fittings in Teleflex systems allow flexible connections to the operated component."
+    },
+    {
+      "question_number": 111,
+      "question": "What is the primary reason for using a pull-through to clean Teleflex conduits?",
+      "options": {
+        "a": "To increase friction",
+        "b": "To remove dirt",
+        "c": "To add lubrication"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 160 advises using a pull-through to thoroughly clean Teleflex conduits to remove dirt and prevent seizing."
+    },
+    {
+      "question_number": 112,
+      "question": "What is the primary function of a chain assembly in aircraft control systems?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To transmit high forces",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 136 states that chains are used in control systems where considerable force is required, such as aileron and elevator controls."
+    },
+    {
+      "question_number": 113,
+      "question": "What is the primary advantage of using a sealed fairlead assembly?",
+      "options": {
+        "a": "Increased weight",
+        "b": "Reduced chafing",
+        "c": "Higher friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 152 shows that sealed fairlead assemblies are designed to reduce chafing of cables passing through aircraft structures."
+    },
+    {
+      "question_number": 114,
+      "question": "What is the primary function of a rig pin hole in a quadrant or drum?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To aid in rigging",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 154 notes that quadrants and drums often have rig pin holes or other rigging facilities to aid in system setup."
+    },
+    {
+      "question_number": 115,
+      "question": "What is the primary reason for using a lock spring in a Teleflex end fitting?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To secure the cable",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 161 explains that a lock spring is screwed onto the cable end to secure it within the Teleflex end fitting."
+    },
+    {
+      "question_number": 116,
+      "question": "What is the primary function of a cable’s structural stretch?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To adjust to load",
+        "c": "To reduce flexibility"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 defines structural stretch as the lengthening of the cable caused by compression of the core and adjustment of wires to the load."
+    },
+    {
+      "question_number": 117,
+      "question": "What is the primary reason for using a non-metallic sleeve in some aircraft cables?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To provide a smoother surface",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 143 notes that a non-metallic sleeve or void filler in some cables produces a smoother surface."
+    },
+    {
+      "question_number": 118,
+      "question": "What is the primary function of a cable’s elastic stretch?",
+      "options": {
+        "a": "To increase rigidity",
+        "b": "To elongate under load",
+        "c": "To reduce friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 explains that elastic stretch is caused by the elongation of wires under load, proportional to the load and cable length."
+    },
+    {
+      "question_number": 119,
+      "question": "What is the primary reason for using a double-entry box unit in a Teleflex system?",
+      "options": {
+        "a": "To reduce weight",
+        "b": "To allow greater cable movement",
+        "c": "To increase friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 161 states that double-entry box units in Teleflex systems permit much greater movement of the cable."
+    },
+    {
+      "question_number": 120,
+      "question": "What is the primary function of a tension rod turnbuckle in aircraft control systems?",
+      "options": {
+        "a": "To terminate cables",
+        "b": "To adjust cable tension",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 155 notes that tension rod turnbuckles are used to adjust tension in bracing wires and tie rods."
+    },
+    {
+      "question_number": 121,
+      "question": "What is the primary reason for using a grooved collar on a high tensile steel fork joint?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To identify material",
+        "c": "To reduce strength"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 155 states that a grooved collar on a fork joint identifies it as high tensile steel."
+    },
+    {
+      "question_number": 122,
+      "question": "What is the primary function of a cable’s outer wires in terms of abrasion?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To resist abrasion",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 explains that the size and composition of a cable’s outer wires determine its ability to withstand abrasion."
+    },
+    {
+      "question_number": 123,
+      "question": "What is the primary reason for using a split pin with a shackle pin?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To secure the pin",
+        "c": "To reduce friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 156 states that shackle pins are secured in place with split pins to prevent movement."
+    },
+    {
+      "question_number": 124,
+      "question": "What is the primary function of a cable’s internal lubricant?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To reduce friction",
+        "c": "To enhance corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 notes that internal lubricant, applied during manufacture, reduces friction in cables operating over pulleys."
+    },
+    {
+      "question_number": 125,
+      "question": "What is the primary reason for using a larger pulley diameter in aircraft control systems?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To reduce stress and wear",
+        "c": "To enhance friction"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 141 advises using pulleys of adequate size to prevent loss of strength and fatigue failure in cables."
+    },
+    {
+      "question_number": 126,
+      "question": "What is the primary function of a cable’s non-metallic core strand?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To enhance flexibility",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 143 implies that non-metallic core strands or sleeves in cables enhance flexibility or provide a smoother surface."
+    },
+    {
+      "question_number": 127,
+      "question": "What is the primary reason for tensioning aircraft control cables during installation?",
+      "options": {
+        "a": "To increase weight",
+        "b": "To minimize stretch effects",
+        "c": "To enhance corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 142 states that tensioning cables during installation minimizes the effects of stretch in aircraft control systems."
+    },
+    {
+      "question_number": 128,
+      "question": "What is the primary function of a cable’s proof testing?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To verify load capacity",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 142 notes that proof testing ensures that fabricated cables meet the correct load factor and strength requirements."
+    },
+    {
+      "question_number": 129,
+      "question": "What is the primary reason for using a hand crimping plier for aluminum end fittings?",
+      "options": {
+        "a": "To increase weight",
+        "b": "For low-strength applications",
+        "c": "To enhance corrosion"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 144 states that lightly loaded aluminum and copper end fittings are installed with simple hand crimping pliers for low-strength applications."
+    },
+    {
+      "question_number": 130,
+      "question": "What is the primary function of a cable’s swaged ferrule end fitting?",
+      "options": {
+        "a": "To increase flexibility",
+        "b": "To anchor to a quadrant",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 154 explains that swaged ferrule or ball-type end fittings are anchored to a cut-out in the track of quadrants or drums."
+    },
+    {
+      "question_number": 131,
+      "question": "What is the primary reason for inspecting Bowden cable ends for fraying?",
+      "options": {
+        "a": "To increase strength",
+        "b": "To ensure reliability",
+        "c": "To reduce weight"
+      },
+      "correct_answer": "b",
+      "explanation": "Page 158 advises inspecting Bowden cable ends for fraying and corrosion to ensure the reliability of the control system."
+    },
+    {
+      "question_number": 132,
+      "question": "What is the primary function of a Teleflex cable’s strand core?",
+      "options": {
+        "a": "To transmit pull forces",
+        "b": "To increase weight",
+        "c": "To reduce flexibility"
+      },
+      "correct_answer": "a",
+      "explanation": "Page 160 states that the strand core in a Teleflex cable transmits pull forces, while the wire wrap transmits push forces."
+    }
+  ]

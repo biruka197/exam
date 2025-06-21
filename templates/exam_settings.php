@@ -49,9 +49,8 @@
 
 
         <div class="flex flex-col md:flex-row gap-4 pt-4">
-            <button type="button" onclick="window.location.reload()"
-                class="w-full md:w-auto justify-center rounded-md border border-slate-300 bg-white px-4 py-2 text-base font-medium text-slate-700 shadow-sm hover:bg-slate-50">Back
-                to Home</button>
+            <button type="button" onclick="selectCourse('<?php echo htmlspecialchars($course_name); ?>')"
+                class="w-full md:w-auto justify-center rounded-md border border-slate-300 bg-white px-4 py-2 text-base font-medium text-slate-700 shadow-sm hover:bg-slate-50">Back</button>
             <button type="submit"
                 class="w-full md:w-auto flex-grow justify-center rounded-md border border-transparent bg-sky-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-sky-700">Begin
                 Examination</button>

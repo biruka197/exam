@@ -1,11 +1,11 @@
 <?php
 session_start();
-
+require_once __DIR__ . '/../config.php'; // Include the configuration file
 // Database configuration
-$host = '127.0.0.1';
-$dbname = 'exam';
-$username = 'root';
-$password = '';
+$host = DB_HOST;
+$dbname = DB_NAME;
+$username = DB_USER;
+$password = DB_PASS;
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

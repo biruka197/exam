@@ -10,8 +10,8 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 </head>
 <body class="bg-slate-50">
-    <main id="layout-content-container" class="flex justify-center p-4 sm:p-10">
-        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+    <main class="flex justify-center p-4 sm:p-10">
+        <div class="w-full max-w-2xl">
             <?php include 'quiz.php'; ?>
         </div>
     </main>

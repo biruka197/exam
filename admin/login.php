@@ -202,9 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
 
         <div class="demo-info">
-            <h4>Default Admin Credentials:</h4>
-            <p><strong>Username:</strong> admin</p>
-            <p><strong>Password:</strong> admin123</p>
+        
             <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #868e96;">
                 Note: The password in your database is hashed. If you need to reset it, 
                 you can update it directly in the database or create a new admin user.

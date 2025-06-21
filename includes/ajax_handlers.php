@@ -83,7 +83,7 @@ function handle_ajax_request($conn)
             $response = ['success' => false, 'html' => '', 'error' => ''];
 
             if ($exam_code) {
-                $stmt = $conn->prepare("SELECT course_id, exam, exam_code FROM course WHERE exam_code = ?");
+                $stmt = $conn->prepare("SELECT course, course_id, exam, exam_code FROM course WHERE exam_code = ?");
                 $stmt->bind_param("s", $exam_code);
                 $stmt->execute();
                 $result = $stmt->get_result();
@@ -91,6 +91,8 @@ function handle_ajax_request($conn)
                 if ($row = $result->fetch_assoc()) {
                     $_SESSION['selected_course_id'] = $row['course_id'];
                     $_SESSION['exam_code'] = htmlspecialchars($row['exam_code']);
+                    $course_name = $row['course']; // Get the course name
+
                     $exam_file_path = __DIR__ . '/../' . $row['exam'];
 
                     $loaded_exam_file_display = htmlspecialchars($row['exam']);

@@ -20,7 +20,7 @@
                         class="font-medium"><?php echo htmlspecialchars($question['options'][$question['correct_answer']] ?? 'N/A'); ?></span>
                 </p>
 
-                <button onclick="toggleReviewExplanation(this)"
+                <button onclick="toggleExplanation(this)"
                     class="text-sm text-green-600 hover:underline mt-2 cursor-pointer">Show Explanation</button>
 
                 <div class="review-explanation-wrapper hidden mt-2">
@@ -47,13 +47,3 @@
         </div>
     </div>
 </div>
-<script>
-    // This script is included in the AJAX response and will be executed.
-    function toggleReviewExplanation(button) {
-        const wrapper = button.nextElementSibling;
-        if (wrapper && wrapper.classList.contains('review-explanation-wrapper')) {
-            wrapper.classList.toggle('hidden');
-            button.textContent = wrapper.classList.contains('hidden') ? 'Show Explanation' : 'Hide Explanation';
-        }
-    }
-</script>

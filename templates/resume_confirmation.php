@@ -27,6 +27,23 @@
             </div>
         </div>
     </main>
+
+    <div id="custom-confirm-modal" class="confirm-modal-overlay hidden opacity-0" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="confirm-modal-content">
+            <div class="confirm-modal-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                </svg>
+            </div>
+            <h3 id="modal-title" class="text-xl font-bold text-slate-800">Incomplete Exam</h3>
+            <p id="custom-confirm-message" class="text-slate-600 my-4">You have unanswered questions. Are you sure you want to submit?</p>
+            <div class="confirm-modal-buttons">
+                <button id="custom-cancel-btn">Cancel</button>
+                <button id="custom-confirm-btn">Submit Anyway</button>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/scripts.js"></script>
     <script>
         function startOver() {

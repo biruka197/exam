@@ -660,7 +660,7 @@ h2::after {
     .exam-list {
         padding: 15px; /* Reduce padding */
     }
-}/* ... existing styles ... */
+}
 
 /* Custom Confirmation Modal Styles */
 .confirm-modal-overlay {
@@ -670,9 +670,6 @@ h2::after {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 1rem;
     z-index: 50;
     opacity: 0;
@@ -684,6 +681,9 @@ h2::after {
     visibility: visible;
 }
 .confirm-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
@@ -691,18 +691,18 @@ h2::after {
     width: 100%;
     max-width: 448px; /* max-w-md */
     text-align: center;
-    transform: scale(0.95);
+    transform: translate(-50%, -50%) scale(0.95);
     transition: transform 0.3s ease-out;
 }
 .confirm-modal-overlay:not(.hidden) .confirm-modal-content {
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 .confirm-modal-icon-wrapper {
     margin: 0 auto 1.25rem;
     width: 4rem; /* w-16 */
     height: 4rem; /* h-16 */
-    background-color: #fef3c7; /* bg-amber-100 */
-    color: #d97706; /* text-amber-500 */
+    background-color: #fee2e2; /* bg-red-100 */
+    color: #dc2626; /* text-red-600 */
     border-radius: 9999px; /* rounded-full */
     display: flex;
     align-items: center;
@@ -746,10 +746,10 @@ h2::after {
     background-color: #f8fafc; /* bg-slate-50 */
 }
 #custom-confirm-btn {
-    background-color: #f59e0b; /* bg-amber-500 */
+    background-color: #dc2626; /* bg-red-600 */
     color: white;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
 }
 #custom-confirm-btn:hover {
-    background-color: #d97706; /* hover:bg-amber-600 */
+    background-color: #b91c1c; /* hover:bg-red-700 */
 }
