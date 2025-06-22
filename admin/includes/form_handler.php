@@ -17,38 +17,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $course_id = generateCourseId($course_name);
             }
 
-            $exam_code = generateExamCode($course_name, $pdo);
-            $new_file_path = '';
+            if (isset($_FILES['exam_file']) && is_array($_FILES['exam_file']['name'])) {
+                $file_count = count($_FILES['exam_file']['name']);
+                $success_count = 0;
+                $error_messages_arr = [];
 
-            if (isset($_FILES['exam_file']) && $_FILES['exam_file']['error'] === UPLOAD_ERR_OK) {
-                $file_tmp_path = $_FILES['exam_file']['tmp_name'];
-                $file_name = basename($_FILES['exam_file']['name']);
-                $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
+                for ($i = 0; $i < $file_count; $i++) {
+                    if ($_FILES['exam_file']['error'][$i] === UPLOAD_ERR_OK) {
+                        $file_tmp_path = $_FILES['exam_file']['tmp_name'][$i];
+                        $file_name = basename($_FILES['exam_file']['name'][$i]);
+                        $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
 
-                if ($file_ext === 'json') {
-                    $upload_dir = __DIR__ . '/../exams/';
-                    if (!is_dir($upload_dir)) {
-                        mkdir($upload_dir, 0755, true);
+                        if ($file_ext === 'json') {
+                            $exam_code = generateExamCode($course_name, $pdo);
+                            $upload_dir = __DIR__ . '/../exams/';
+                            if (!is_dir($upload_dir)) {
+                                mkdir($upload_dir, 0755, true);
+                            }
+                            $new_file_name = $exam_code . '.json';
+                            $dest_path = $upload_dir . $new_file_name;
+
+                            if (move_uploaded_file($file_tmp_path, $dest_path)) {
+                                $new_file_path = 'admin/exams/' . $new_file_name;
+                                $stmt = $pdo->prepare("INSERT INTO course (course, exam, course_id, exam_code) VALUES (?, ?, ?, ?)");
+                                $stmt->execute([$course_name, $new_file_path, $course_id, $exam_code]);
+                                $success_count++;
+                            } else {
+                                $error_messages_arr[] = "Failed to move uploaded file: " . htmlspecialchars($file_name);
+                            }
+                        } else {
+                            $error_messages_arr[] = "Invalid file type for " . htmlspecialchars($file_name) . ". Only .json files are allowed.";
+                        }
+                    } elseif ($_FILES['exam_file']['error'][$i] !== UPLOAD_ERR_NO_FILE) {
+                        $error_messages_arr[] = "File upload error for " . htmlspecialchars($_FILES['exam_file']['name'][$i]) . ". Code: " . $_FILES['exam_file']['error'][$i];
                     }
-                    $new_file_name = $exam_code . '.json';
-                    $dest_path = $upload_dir . $new_file_name;
-
-                    if (move_uploaded_file($file_tmp_path, $dest_path)) {
-                        $new_file_path = 'admin/exams/' . $new_file_name;
-                    } else {
-                        $error_message = "Failed to move uploaded file.";
-                    }
-                } else {
-                    $error_message = "Invalid file type. Only .json files are allowed.";
                 }
-            } else {
-                $error_message = "File upload error or no file selected.";
-            }
 
-            if (empty($error_message) && !empty($new_file_path)) {
-                $stmt = $pdo->prepare("INSERT INTO course (course, exam, course_id, exam_code) VALUES (?, ?, ?, ?)");
-                $stmt->execute([$course_name, $new_file_path, $course_id, $exam_code]);
-                $success_message = "Course added successfully! Course ID: $course_id, Exam Code: $exam_code";
+                if ($success_count > 0) {
+                    $success_message = "$success_count exam(s) added successfully for course '" . htmlspecialchars($course_name) . "'!";
+                }
+                if (!empty($error_messages_arr)) {
+                    $error_message = implode("<br>", $error_messages_arr);
+                }
+
+            } else {
+                $error_message = "No files were selected for upload.";
             }
             break;
 
