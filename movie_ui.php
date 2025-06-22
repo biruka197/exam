@@ -93,7 +93,6 @@
             return card;
         }
 
-        // --- NEW BROWSE PAGE RENDERING ---
         function renderBrowsePage(lists) {
             mainContent.innerHTML = `
                 <div class="content-section"><h2>Now Playing</h2><div class="movie-row" id="nowPlayingGrid"></div></div>
@@ -117,7 +116,6 @@
             }
         }
 
-        // --- UNIFIED SEARCH RENDERING ---
         async function handleSearch(query) {
             if (query.length < 2) { loadInitialData(); return; }
             mainContent.innerHTML = '<div class="loader">Searching...</div>';
@@ -135,7 +133,6 @@
             }
         }
 
-        // --- DETAIL VIEW LOGIC (Unchanged) ---
         async function showDetailView(id, type) {
             mainContent.style.display = 'none';
             detailView.innerHTML = '<div class="loader">Loading...</div>';
@@ -156,7 +153,6 @@
             });
         }
 
-        // --- INITIALIZATION ---
         async function loadInitialData() {
             mainContent.style.display = 'block';
             detailView.classList.remove('active');
