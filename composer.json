@@ -1,5 +1,0 @@
-{
-    "require": {
-        "web-auth/webauthn-lib": "^5.2"
-    }
-}
