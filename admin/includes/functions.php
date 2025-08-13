@@ -1,7 +1,6 @@
 <?php
 // Generates a unique course ID
-function generateCourseId($course_name)
-{
+function generateCourseId($course_name) {
     $prefix = strtoupper(substr(preg_replace('/[^a-zA-Z]/', '', $course_name), 0, 3));
     if (strlen($prefix) < 3) {
         $prefix = str_pad($prefix, 3, 'X');
@@ -10,24 +9,22 @@ function generateCourseId($course_name)
 }
 
 // Generates a unique exam code
-function generateExamCode($course_name, $pdo)
-{
+function generateExamCode($course_name, $pdo) {
     $prefix = strtoupper(substr(preg_replace('/[^a-zA-Z]/', '', $course_name), 0, 3));
     if (strlen($prefix) < 3) {
         $prefix = str_pad($prefix, 3, 'X');
     }
-
+    
     $stmt = $pdo->prepare("SELECT exam_code FROM course WHERE exam_code LIKE ? ORDER BY exam_code DESC LIMIT 1");
     $stmt->execute([$prefix . '%']);
     $last_code = $stmt->fetchColumn();
-
+    
     $number = $last_code ? intval(substr($last_code, strlen($prefix))) + 1 : 1;
-
+    
     return $prefix . str_pad($number, 3, '0', STR_PAD_LEFT);
 }
-
-function callGeminiAPI($prompt)
-{
+ 
+function callGeminiAPI($prompt) {
     // Ensure the API key is defined in your main config file
     if (!defined('GEMINI_API_KEY')) {
         return json_encode(['error' => 'API key is not configured.']);
@@ -72,19 +69,4 @@ function callGeminiAPI($prompt)
 
     return $response;
 }
-function updateUserActivity($userId, $ipAddress, $browserData, $courseId = null)
-{
-    global $pdo; // Assuming $pdo is your database connection object
-    $stmt = $pdo->prepare("
-        INSERT INTO online_users (user_id, ip_address, browser_data, course_id, last_seen)
-        VALUES (?, ?, ?, ?, NOW())
-        ON DUPLICATE KEY UPDATE
-        ip_address = VALUES(ip_address),
-        browser_data = VALUES(browser_data),
-        course_id = VALUES(course_id),
-        last_seen = NOW()
-    ");
-    $stmt->execute([$userId, $ipAddress, $browserData, $courseId]);
-}
-
 ?>

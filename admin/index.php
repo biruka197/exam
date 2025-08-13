@@ -1,6 +1,6 @@
 <?php
 session_start();
- require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../config.php';
 require_once __DIR__ . '/includes/functions.php';
 
 // If the user is not logged in, redirect to the login page
