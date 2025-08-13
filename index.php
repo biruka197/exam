@@ -25,7 +25,7 @@ if (isset($_SESSION['questions']) && !empty($_SESSION['questions']) && isset($_S
 
 } else {
     // --- NORMAL STARTUP PATH ---
-    $page = $_GET['page'] ?? 'home'; 
+    $page = $_GET['page'] ?? 'home';
     $error = '';
     $subjects = [];
 
@@ -46,7 +46,7 @@ if (isset($_SESSION['questions']) && !empty($_SESSION['questions']) && isset($_S
                 $stmt->bind_param("s", $course_name);
                 $stmt->execute();
                 $course_details_result = $stmt->get_result()->fetch_assoc();
-                
+
                 if ($course_details_result) {
                     $subjects[$course_name] = [
                         'course' => $course_name,
@@ -59,18 +59,20 @@ if (isset($_SESSION['questions']) && !empty($_SESSION['questions']) && isset($_S
         }
     }
 
+    // ... (rest of the file)
     switch ($page) {
         case 'study_plans':
             include 'templates/study_plans.php';
             break;
         case 'movie':
-            include 'templates/study_plans.php';
+            include 'movie_ui.php'; // Changed from templates/study_plans.php
             break;
         case 'home':
         default:
             include 'templates/course_selection.php';
             break;
     }
+    // ... (rest of the file)
 }
 
 $conn->close();
