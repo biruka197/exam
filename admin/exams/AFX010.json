@@ -1,0 +1,233 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is the effect on a wing when the rear strut is lengthened?",
+    "options": {
+      "A": "It increases the angle of incidence (wash-in).",
+      "B": "It decreases the angle of incidence (wash-out).",
+      "C": "It increases the dihedral angle."
+    },
+    "correct_answer": "B",
+    "explanation": "Lengthening the rear strut lowers the trailing edge of the wing, which reduces its angle of attack. This is known as creating 'wash-out'."
+  },
+  {
+    "question_number": 2,
+    "question": "Which type of cable terminal is suitable for use in civil aircraft up to and including maximum cable loads?",
+    "options": {
+      "A": "Soldered terminals",
+      "B": "Nicopress sleeves",
+      "C": "Swage type terminals"
+    },
+    "correct_answer": "C",
+    "explanation": "Swage type terminals are mechanically applied and are approved for civil aircraft as they are capable of holding the full rated strength of the cable."
+  },
+  {
+    "question_number": 3,
+    "question": "Which flight control surface is hinged to the trailing edge of the vertical stabilizer?",
+    "options": {
+      "A": "Aileron",
+      "B": "Elevator",
+      "C": "Rudder"
+    },
+    "correct_answer": "C",
+    "explanation": "The rudder is the movable surface attached to the vertical stabilizer that controls the aircraft's yawing motion about its vertical axis."
+  },
+  {
+    "question_number": 4,
+    "question": "Which of the following flight control systems generally has the lowest weight?",
+    "options": {
+      "A": "Mechanical (cables/pulleys)",
+      "B": "Fly-by-light (fiber optics)",
+      "C": "Fly-by-wire (electrical)"
+    },
+    "correct_answer": "B",
+    "explanation": "Fly-by-light systems use lightweight fiber-optic cables to transmit signals, making them lighter than the metal cables of mechanical systems or the shielded copper wiring of fly-by-wire systems."
+  },
+  {
+    "question_number": 5,
+    "question": "When inspecting a turnbuckle, what is the maximum number of threads that should be exposed on either side of the barrel?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5"
+    },
+    "correct_answer": "B",
+    "explanation": "To ensure proper thread engagement and strength, a properly installed turnbuckle should not have more than three threads exposed from either end of the barrel."
+  },
+  {
+    "question_number": 6,
+    "question": "What is typically the final step when rigging a rudder control system?",
+    "options": {
+      "A": "Safetying the turnbuckles",
+      "B": "Setting the control travel stops",
+      "C": "Measuring the cable tension"
+    },
+    "correct_answer": "C",
+    "explanation": "After all mechanical adjustments and safetying are complete, the final step is to use a tensiometer to verify that the cable tension is within the limits specified by the manufacturer."
+  },
+  {
+    "question_number": 7,
+    "question": "Lengthening the rear wing strut will have what effect on the wing's angle of incidence?",
+    "options": {
+      "A": "Decrease",
+      "B": "Increase",
+      "C": "No effect"
+    },
+    "correct_answer": "A",
+    "explanation": "Lengthening the rear strut pivots the wing to lower its trailing edge, which directly decreases its angle of incidence."
+  },
+  {
+    "question_number": 8,
+    "question": "What is the term for the condition where all rotating forces in a body are balanced, preventing vibration while it is in motion?",
+    "options": {
+      "A": "Static balance",
+      "B": "Dynamic balance",
+      "C": "Aerodynamic balance"
+    },
+    "correct_answer": "B",
+    "explanation": "Dynamic balance ensures that there is no net centrifugal force or couple when the object is spinning, eliminating the tendency to vibrate."
+  },
+  {
+    "question_number": 9,
+    "question": "To ensure that a wing is free from twist, its angle of incidence should be checked in at least how many specified positions?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three"
+    },
+    "correct_answer": "B",
+    "explanation": "Checking the angle of incidence at a minimum of two locations (e.g., wing root and wing tip) is necessary to confirm the wing is not twisted."
+  },
+  {
+    "question_number": 11,
+    "question": "What is the first step when performing a rigging procedure on an aileron?",
+    "options": {
+      "A": "Check cable tension",
+      "B": "Lock the control yoke and control surface in the neutral position",
+      "C": "Disconnect the control cables"
+    },
+    "correct_answer": "B",
+    "explanation": "The initial step for any rigging task is to secure the flight controls in the neutral position to establish a fixed reference for all subsequent adjustments and measurements."
+  },
+  {
+    "question_number": 12,
+    "question": "Which simple tool is used in conjunction with rigging scales and fixtures to check the level of an aircraft?",
+    "options": {
+      "A": "A caliper",
+      "B": "A plumb bob",
+      "C": "A feeler gauge"
+    },
+    "correct_answer": "B",
+    "explanation": "A plumb bob is used to establish a true vertical line, which is essential for leveling the aircraft both longitudinally and laterally against specified points in the maintenance manual."
+  },
+  {
+    "question_number": 13,
+    "question": "What is the tendency of an object to remain stationary when supported at its own center of gravity called?",
+    "options": {
+      "A": "Dynamic balance",
+      "B": "Neutral stability",
+      "C": "Static balance"
+    },
+    "correct_answer": "C",
+    "explanation": "Static balance is the state where an object, when supported at its center of gravity, will not have any tendency to rotate."
+  },
+  {
+    "question_number": 14,
+    "question": "Adjustment of the aileron control surfaces primarily affects which motion?",
+    "options": {
+      "A": "Rolling",
+      "B": "Pitching",
+      "C": "Yawing"
+    },
+    "correct_answer": "A",
+    "explanation": "Ailerons are used to control the aircraft's roll by creating a differential in lift between the two wings, causing the aircraft to bank around its longitudinal axis."
+  },
+  {
+    "question_number": 18,
+    "question": "Which control system uses electrical signals transmitted from the flight deck through a computer to flight control actuators?",
+    "options": {
+      "A": "Mechanical",
+      "B": "Fly-by-wire",
+      "C": "Hydro-mechanical"
+    },
+    "correct_answer": "B",
+    "explanation": "A fly-by-wire system replaces physical linkages with an electronic interface, where a computer interprets pilot commands and sends electrical signals to move the control surfaces."
+  },
+  {
+    "question_number": 19,
+    "question": "What are two of the most critical alignment settings for an aircraft's wings?",
+    "options": {
+      "A": "Sweepback and Anhedral",
+      "B": "Angle of Incidence and Dihedral",
+      "C": "Stagger and Decalage"
+    },
+    "correct_answer": "B",
+    "explanation": "The angle of incidence (wing angle relative to the fuselage) and dihedral (upward angle of the wings) are fundamental rigging settings that determine the aircraft's flight stability and performance."
+  },
+  {
+    "question_number": 21,
+    "question": "What is the term for the difference between the angles of incidence of the upper and lower wings on a biplane?",
+    "options": {
+      "A": "Stagger",
+      "B": "Dihedral",
+      "C": "Decalage"
+    },
+    "correct_answer": "C",
+    "explanation": "Decalage refers specifically to the difference in the angle of incidence between the two wings of a biplane, which contributes to its longitudinal stability."
+  },
+  {
+    "question_number": 22,
+    "question": "In which two axes must an aircraft be leveled for proper rigging?",
+    "options": {
+      "A": "Laterally and Longitudinally",
+      "B": "Vertically and Laterally",
+      "C": "Diagonally and Vertically"
+    },
+    "correct_answer": "A",
+    "explanation": "To ensure accurate rigging measurements, the aircraft must be in a level flight attitude, which requires leveling it both side-to-side (laterally) and front-to-back (longitudinally)."
+  },
+  {
+    "question_number": 23,
+    "question": "What tool is specifically designed to be placed on a wing to check its angle of incidence?",
+    "options": {
+      "A": "A torque wrench",
+      "B": "An incidence board",
+      "C": "A dial indicator"
+    },
+    "correct_answer": "B",
+    "explanation": "An incidence board, or rigging board, is a type of straightedge, often equipped with a spirit level or protractor, used to measure the angle of a wing surface relative to a level reference."
+  },
+  {
+    "question_number": 29,
+    "question": "Which document provides the correct procedures for the assembly and disassembly of aircraft parts?",
+    "options": {
+      "A": "Pilot's Operating Handbook (POH)",
+      "B": "Aircraft Maintenance Manual (AMM)",
+      "C": "Type Certificate Data Sheet (TCDS)"
+    },
+    "correct_answer": "B",
+    "explanation": "The Aircraft Maintenance Manual (AMM) is the official manufacturer's document that contains comprehensive, step-by-step instructions for all maintenance, assembly, and disassembly procedures."
+  },
+  {
+    "question_number": 31,
+    "question": "Besides the maintenance manual, where can pertinent rigging information be found?",
+    "options": {
+      "A": "The aircraft's logbook",
+      "B": "The weight and balance records",
+      "C": "The Type Certificate Data Sheet (TCDS)"
+    },
+    "correct_answer": "C",
+    "explanation": "The Type Certificate Data Sheet (TCDS) contains essential data and specifications for an aircraft model, including control surface travel limits and leveling means, which are critical for rigging."
+  },
+  {
+    "question_number": 33,
+    "question": "Which tool is used to measure and apply a specific tightness to a nut or bolt?",
+    "options": {
+      "A": "A breaker bar",
+      "B": "A speed handle",
+      "C": "A torque wrench"
+    },
+    "correct_answer": "C",
+    "explanation": "A torque wrench is a precision instrument designed to apply a specific torque to a fastener, ensuring it is tightened to the correct specification without being over or under-tightened."
+  }
+]

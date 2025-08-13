@@ -1,0 +1,244 @@
+[
+  {
+    "question_number": 1,
+    "question": "The aerodynamic force acting on a rotating propeller blade operating at a normal pitch angle tends to",
+    "options": {
+      "a": "decrease the pitch angle",
+      "b": "increase the pitch angle",
+      "c": "maintain a constant pitch angle"
+    },
+    "correct_answer": "b",
+    "explanation": "Aerodynamic twisting force, which is an operational force, tends to increase propeller blade angle when the blade is operating at a normal pitch angle."
+  },
+  {
+    "question_number": 2,
+    "question": "Counterweights on constant-speed propellers are generally used to aid in",
+    "options": {
+      "a": "decreasing blade angle.",
+      "b": "maintaining engine RPM.",
+      "c": "increasing blade angle."
+    },
+    "correct_answer": "c",
+    "explanation": "Counterweights move outward due to centrifugal force, which in turn acts to increase the blade angle."
+  },
+  {
+    "question_number": 3,
+    "question": "The actual distance a propeller moves forward through the air during one revolution is known as the",
+    "options": {
+      "a": "geometric pitch.",
+      "b": "effective pitch.",
+      "c": "propeller slip."
+    },
+    "correct_answer": "b",
+    "explanation": "Effective pitch is the actual distance the propeller advances in one revolution, accounting for slippage."
+  },
+  {
+    "question_number": 4,
+    "question": "How is anti-icing fluid ejected from the slinger ring on a propeller?",
+    "options": {
+      "a": "By air pressure.",
+      "b": "By centrifugal force.",
+      "c": "By hydraulic pressure."
+    },
+    "correct_answer": "b",
+    "explanation": "The slinger ring uses centrifugal force to distribute anti-icing fluid evenly along the propeller blades."
+  },
+  {
+    "question_number": 5,
+    "question": "What operational force causes propeller blade tips to lag in the opposite direction of rotation?",
+    "options": {
+      "a": "Aerodynamic twisting force.",
+      "b": "Thrust-bending force.",
+      "c": "Torque-bending force."
+    },
+    "correct_answer": "c",
+    "explanation": "Torque-bending force (or blade drag) causes the blade tips to lag slightly in the opposite direction of rotation due to air resistance."
+  },
+  {
+    "question_number": 6,
+    "question": "Propeller blade stations are measured from the",
+    "options": {
+      "a": "blade tip.",
+      "b": "propeller hub centerline.",
+      "c": "engine crankshaft."
+    },
+    "correct_answer": "b",
+    "explanation": "Propeller blade stations are standardized reference points measured outwards from the hub centerline."
+  },
+  {
+    "question_number": 7,
+    "question": "For takeoff, a constant speed propeller is normally set in the",
+    "options": {
+      "a": "HIGH PITCH, low RPM position",
+      "b": "LOW PITCH, high RPM position",
+      "c": "MID PITCH, mid RPM position"
+    },
+    "correct_answer": "b",
+    "explanation": "A low pitch and high RPM setting during takeoff provides maximum thrust for initial acceleration."
+  },
+  {
+    "question_number": 8,
+    "question": "Geometric pitch of a propeller is defined as the",
+    "options": {
+      "a": "effective pitch minus slippage",
+      "b": "effective pitch plus slippage",
+      "c": "actual distance moved per revolution"
+    },
+    "correct_answer": "b",
+    "explanation": "Geometric pitch is the theoretical distance a propeller would advance in one revolution if there were no slippage; effective pitch plus slippage accounts for the difference."
+  },
+  {
+    "question_number": 9,
+    "question": "When engine power is increased, the constant speed propeller tries to function so that it will",
+    "options": {
+      "a": "decrease RPM, decrease blade angle, and maintain a high angle of attack.",
+      "b": "maintain the RPM, increase the blade angle, and maintain a low angle of attack.",
+      "c": "increase RPM, decrease blade angle, and increase angle of attack."
+    },
+    "correct_answer": "b",
+    "explanation": "A constant speed propeller's governor adjusts blade angle to maintain a set RPM. When power increases, it increases blade angle to absorb the additional power, keeping RPM constant and thus maintaining an efficient angle of attack."
+  },
+  {
+    "question_number": 10,
+    "question": "The angle of attack of a rotating propeller blade is measured between the blade chord or face and which of the following?",
+    "options": {
+      "a": "The rotational plane of the propeller.",
+      "b": "The engine crankshaft.",
+      "c": "Relative airstream."
+    },
+    "correct_answer": "c",
+    "explanation": "Angle of attack is defined as the angle between the chord line of an airfoil (in this case, the propeller blade) and the relative wind (airstream)."
+  },
+  {
+    "question_number": 11,
+    "question": "Which of the following best describes the blade movement of a propeller that is in the high RPM position when reversing action is begun?",
+    "options": {
+      "a": "High pitch to reverse pitch",
+      "b": "Low pitch directly to reverse pitch",
+      "c": "Neutral pitch to reverse pitch"
+    },
+    "correct_answer": "b",
+    "explanation": "When reversing action is initiated from the high RPM (low pitch) position, the blades directly transition to a reverse pitch angle for braking."
+  },
+  {
+    "question_number": 12,
+    "question": "A constant speed propeller provides maximum efficiency by",
+    "options": {
+      "a": "maintaining a fixed blade angle regardless of flight conditions.",
+      "b": "adjusting blade angle for most conditions encountered in flight.",
+      "c": "only changing RPM while keeping blade angle constant."
+    },
+    "correct_answer": "b",
+    "explanation": "The governor of a constant speed propeller continuously adjusts the blade angle to maintain optimal engine RPM and efficiency across varying flight conditions."
+  },
+  {
+    "question_number": 13,
+    "question": "Regarding the following statements: (1) During takeoff, propeller thrust (pull) is greatest if the blade angle of attack is low and the engine power setting is high. (2) With the aircraft stationary, propeller thrust is greatest if the blade angle of attack is high and the engine power setting is high.",
+    "options": {
+      "a": "Only No. 1 is true.",
+      "b": "Only No. 2 is true.",
+      "c": "Both No. 1 and No. 2 are true."
+    },
+    "correct_answer": "a",
+    "explanation": "For takeoff, a low angle of attack and high power provides maximum acceleration. While stationary, a higher angle of attack would create more thrust, but the statement implies a *low* angle of attack for maximum takeoff thrust, making only No. 1 true."
+  },
+  {
+    "question_number": 14,
+    "question": "How is the speed of a constant speed propeller changed in flight?",
+    "options": {
+      "a": "By changing the spring tension on the propeller blades.",
+      "b": "By changing the load tension against the flyweights in the governor.",
+      "c": "By adjusting the engine throttle directly."
+    },
+    "correct_answer": "b",
+    "explanation": "The pilot adjusts the RPM control, which changes the tension on the governor's speeder spring, thus altering the load against the flyweights and setting the desired RPM."
+  },
+  {
+    "question_number": 15,
+    "question": "Blade angle is an angle formed by a line perpendicular to the crankshaft and a line formed by the",
+    "options": {
+      "a": "leading edge of the blade.",
+      "b": "chord of the blade.",
+      "c": "trailing edge of the blade."
+    },
+    "correct_answer": "b",
+    "explanation": "Blade angle is measured between the chord line of the blade (an imaginary line from leading to trailing edge) and the plane of rotation."
+  },
+  {
+    "question_number": 16,
+    "question": "The primary purpose of a propeller is to",
+    "options": {
+      "a": "generate electrical power.",
+      "b": "cool the engine.",
+      "c": "change engine horsepower to thrust."
+    },
+    "correct_answer": "c",
+    "explanation": "A propeller converts the rotational power produced by the engine into useful thrust to propel the aircraft forward."
+  },
+  {
+    "question_number": 17,
+    "question": "Propeller blade angle is the angle between the",
+    "options": {
+      "a": "engine crankshaft and the blade surface.",
+      "b": "chord of the blade and the rotational plane of the propeller.",
+      "c": "relative airstream and the blade tip."
+    },
+    "correct_answer": "b",
+    "explanation": "This definition accurately describes blade angle, differentiating it from angle of attack."
+  },
+  {
+    "question_number": 18,
+    "question": "What operational force tends to increase propeller blade angle?",
+    "options": {
+      "a": "Centrifugal twisting force.",
+      "b": "Aerodynamic twisting force.",
+      "c": "Torque-bending force."
+    },
+    "correct_answer": "b",
+    "explanation": "Aerodynamic twisting force acts on the blade in a direction that tends to increase its pitch angle."
+  },
+  {
+    "question_number": 19,
+    "question": "The thrust produced by a rotating propeller is a result of",
+    "options": {
+      "a": "an area of increased pressure behind the propeller blades.",
+      "b": "an area of decreased pressure immediately in front of the propeller blades.",
+      "c": "the direct push of air by the propeller blades."
+    },
+    "correct_answer": "b",
+    "explanation": "Propeller blades are airfoils that create a pressure differential: lower pressure in front and higher pressure behind, resulting in thrust."
+  },
+  {
+    "question_number": 20,
+    "question": "What operational force causes the greatest stress on a propeller?",
+    "options": {
+      "a": "Aerodynamic twisting force.",
+      "b": "Thrust-bending force.",
+      "c": "Centrifugal force."
+    },
+    "correct_answer": "c",
+    "explanation": "Centrifugal force, pulling the blades outwards from the hub, is the most significant operational stress on a propeller."
+  },
+  {
+    "question_number": 21,
+    "question": "Propeller blade station numbers increase from",
+    "options": {
+      "a": "tip to hub centerline.",
+      "b": "hub centerline to tip.",
+      "c": "the leading edge to the trailing edge."
+    },
+    "correct_answer": "b",
+    "explanation": "Blade station numbers are a measurement of distance from the propeller hub centerline outwards to the tip."
+  },
+  {
+    "question_number": 22,
+    "question": "The blade angle of a fixed pitch propeller",
+    "options": {
+      "a": "is constant along its entire length.",
+      "b": "is smallest at the tip.",
+      "c": "is largest at the tip."
+    },
+    "correct_answer": "b",
+    "explanation": "For a fixed-pitch propeller to operate efficiently along its entire length, the blade angle is progressively twisted, being smallest at the tip to compensate for increasing rotational speed."
+  }
+]

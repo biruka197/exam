@@ -1,0 +1,354 @@
+[
+  {
+    "question_number": 1,
+    "question": "Lengthening the rear strut will make the wing...",
+    "options": {
+      "a": "wash out",
+      "b": "wash in",
+      "c": "increase in angle of incidence"
+    },
+    "correct_answer": "a",
+    "explanation": "Lengthening the rear strut of a strut-braced wing decreases the wing's angle of incidence relative to the root, which is known as washout. This is done to prevent the wingtip from stalling before the root."
+  },
+  {
+    "question_number": 2,
+    "question": "_____ is suitable for use in civil aircraft up to and including maximum cable loads.",
+    "options": {
+      "a": "Swage type terminal",
+      "b": "Nicopress sleeve",
+      "c": "Turnbuckle"
+    },
+    "correct_answer": "a",
+    "explanation": "A swage type terminal is a permanently attached fitting that is as strong as the cable itself, making it suitable for handling maximum cable loads in aircraft control systems."
+  },
+  {
+    "question_number": 3,
+    "question": "_____ is hinged to the trailing edge of the vertical stabilizer.",
+    "options": {
+      "a": "Rudder",
+      "b": "Aileron",
+      "c": "Elevator"
+    },
+    "correct_answer": "a",
+    "explanation": "The rudder is the flight control surface attached to the trailing edge of the vertical stabilizer and is used to control the yawing motion of the aircraft."
+  },
+  {
+    "question_number": 4,
+    "question": "Which one of the following flight control systems has the lowest weight?",
+    "options": {
+      "a": "Fly by light",
+      "b": "Fly by wire",
+      "c": "Mechanical"
+    },
+    "correct_answer": "a",
+    "explanation": "Fly-by-light systems use fiber optic cables instead of wires, which are significantly lighter, reducing the overall weight of the aircraft's control system."
+  },
+  {
+    "question_number": 5,
+    "question": "While checking a cable system, be sure that no more than _____ threads are exposed on either side of the turnbuckle barrel.",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "4"
+    },
+    "correct_answer": "a",
+    "explanation": "Aircraft maintenance standards specify that to ensure proper thread engagement and strength, no more than three threads should be exposed on the turnbuckle ends."
+  },
+  {
+    "question_number": 6,
+    "question": "Which one of the following comes last while rigging rudder control?",
+    "options": {
+      "a": "Measuring the cable tension",
+      "b": "Locking the control yoke",
+      "c": "Checking for full and free movement"
+    },
+    "correct_answer": "a",
+    "explanation": "After all adjustments are made and controls are confirmed to move freely, the final step is to use a tensiometer to ensure the cable tension is within the specifications of the aircraft maintenance manual."
+  },
+  {
+    "question_number": 7,
+    "question": "Lengthening the rear Strut will_____the angle of incidence.",
+    "options": {
+      "a": "Decrease",
+      "b": "Increase",
+      "c": "Not affect"
+    },
+    "correct_answer": "a",
+    "explanation": "Lengthening the rear strut lowers the trailing edge of the wing, which results in a decrease in the angle of incidence."
+  },
+  {
+    "question_number": 8,
+    "question": "_____ is the effort to maintain balance when the control surface is submitted to movement on the aircraft in flight.",
+    "options": {
+      "a": "Dynamic balance",
+      "b": "Static balance",
+      "c": "Aerodynamic balance"
+    },
+    "correct_answer": "a",
+    "explanation": "Dynamic balance refers to the stability of a control surface when it is in motion, ensuring it does not flutter or vibrate at flight speeds."
+  },
+  {
+    "question_number": 9,
+    "question": "The incidence angle is usually checked in at least _____ specified positions on the surface of the wing to ensure that the wing is free from twist.",
+    "options": {
+      "a": "Two",
+      "b": "One",
+      "c": "Three"
+    },
+    "correct_answer": "a",
+    "explanation": "Checking the incidence at a minimum of two points, typically the wing root and wing tip, allows maintenance personnel to verify the correct twist or washout is present."
+  },
+  {
+    "question_number": 10,
+    "question": "What is the first step while rigging an aileron?",
+    "options": {
+      "a": "Lock the control yoke and control surface in the neutral position",
+      "b": "Measure cable tension",
+      "c": "Adjust the aileron travel"
+    },
+    "correct_answer": "a",
+    "explanation": "The first step in any rigging procedure is to establish a neutral reference point by locking the controls in their neutral position as specified in the maintenance manual."
+  },
+  {
+    "question_number": 11,
+    "question": "Which tool is used to level the aircraft?",
+    "options": {
+      "a": "Plumb bob and spirit level",
+      "b": "Torque wrench",
+      "c": "Incidence board"
+    },
+    "correct_answer": "a",
+    "explanation": "An aircraft is leveled longitudinally and laterally using spirit levels placed on leveling points, and a plumb bob is used to check for symmetry and alignment."
+  },
+  {
+    "question_number": 12,
+    "question": "The tendency of an object to remain stationary when supported from its own CG is called _____.",
+    "options": {
+      "a": "Static balance",
+      "b": "Dynamic balance",
+      "c": "Neutral balance"
+    },
+    "correct_answer": "a",
+    "explanation": "Static balance is the condition where a control surface is balanced on its hinge line, so it does not move or rotate due to its own weight when stationary."
+  },
+  {
+    "question_number": 13,
+    "question": "Adjustment of the Aileron control surface affects...",
+    "options": {
+      "a": "Rolling motion",
+      "b": "Pitching motion",
+      "c": "Yawing motion"
+    },
+    "correct_answer": "a",
+    "explanation": "Ailerons are located on the wings and move in opposite directions to increase lift on one wing and decrease it on the other, causing the aircraft to roll about its longitudinal axis."
+  },
+  {
+    "question_number": 14,
+    "question": "When the aileron on one wing deflects down, the aileron on the opposite wing...",
+    "options": {
+      "a": "deflects up",
+      "b": "deflects down",
+      "c": "remains neutral"
+    },
+    "correct_answer": "a",
+    "explanation": "Ailerons work in a differential manner. When one goes down to increase lift, the other goes up to decrease lift, creating a rolling moment."
+  },
+  {
+    "question_number": 15,
+    "question": "A _____ is a check to determine if the wing and the tail are symmetrical about the longitudinal axis.",
+    "options": {
+      "a": "Symmetry check",
+      "b": "Dihedral check",
+      "c": "Incidence check"
+    },
+    "correct_answer": "a",
+    "explanation": "A symmetry check involves taking measurements from a fixed point on the aircraft to corresponding points on either side (e.g., wingtips) to ensure proper alignment."
+  },
+  {
+    "question_number": 16,
+    "question": "_____ is that condition in a rotating body wherein all rotating forces are balanced within themselves so that no vibration is produced while the body is in motion.",
+    "options": {
+      "a": "Dynamic balance",
+      "b": "Static balance",
+      "c": "Asymmetric balance"
+    },
+    "correct_answer": "a",
+    "explanation": "This is the definition of dynamic balance, which is crucial for rotating components like propellers and turbine engines to prevent destructive vibrations."
+  },
+  {
+    "question_number": 17,
+    "question": "A _____ control system employs electrical signals that transmit the pilot's actions from the flight deck through a computer to the various flight control actuators.",
+    "options": {
+      "a": "Fly by wire",
+      "b": "Fly by light",
+      "c": "Mechanical linkage"
+    },
+    "correct_answer": "a",
+    "explanation": "Fly-by-wire systems replace conventional mechanical flight controls with an electronic interface, where a computer processes pilot inputs and sends electrical signals to actuators."
+  },
+  {
+    "question_number": 18,
+    "question": "The two very important alignments that must be made for the wings of an airplane are...",
+    "options": {
+      "a": "Angle of Incidence and dihedral",
+      "b": "Sweep and anhedral",
+      "c": "Washout and wash-in"
+    },
+    "correct_answer": "a",
+    "explanation": "Angle of incidence (the angle at which the wing is attached to the fuselage) and dihedral (the upward angle of the wings from the horizontal) are fundamental to the aircraft's stability and performance."
+  },
+  {
+    "question_number": 19,
+    "question": "What do you inspect while rigging a flap?",
+    "options": {
+      "a": "The motor drive assembly is moving the flaps to much or too little travel",
+      "b": "The flap handle is properly lubricated",
+      "c": "The flap position indicator is calibrated"
+    },
+    "correct_answer": "a",
+    "explanation": "A key part of rigging flaps is checking their travel. This ensures that the flaps extend and retract to the correct angles as specified, which is controlled by the motor drive assembly."
+  },
+  {
+    "question_number": 20,
+    "question": "_____ is the difference between the angles of incidence of the upper and lower wings.",
+    "options": {
+      "a": "Decalage",
+      "b": "Dihedral",
+      "c": "Stagger"
+    },
+    "correct_answer": "a",
+    "explanation": "Decalage is a term specific to biplanes, referring to the difference in the angle of incidence between the two wings to improve stability."
+  },
+  {
+    "question_number": 21,
+    "question": "The aircraft is leveled on which axes?",
+    "options": {
+      "a": "Laterally and Longitudinally",
+      "b": "Vertically and Horizontally",
+      "c": "Diagonally and Transversely"
+    },
+    "correct_answer": "a",
+    "explanation": "For rigging and maintenance, an aircraft must be in a level flight attitude. This is achieved by leveling it both laterally (wingtip to wingtip) and longitudinally (nose to tail)."
+  },
+  {
+    "question_number": 22,
+    "question": "A(n) _____ is used to check the incidence angle of the wing.",
+    "options": {
+      "a": "Incidence board",
+      "b": "Spirit level",
+      "c": "Plumb bob"
+    },
+    "correct_answer": "a",
+    "explanation": "An incidence board, or rigging board, is a special tool that is placed on the wing surface along with a spirit level to measure its angle relative to the longitudinal axis of the aircraft."
+  },
+  {
+    "question_number": 23,
+    "question": "During the assembly process of the landing gear, which procedure comes first?",
+    "options": {
+      "a": "Inspection of the mounting area",
+      "b": "Attaching the wheels",
+      "c": "Connecting the hydraulic lines"
+    },
+    "correct_answer": "a",
+    "explanation": "Before attaching any components, the mounting area on the aircraft structure must be thoroughly inspected for damage, corrosion, or defects to ensure a secure installation."
+  },
+  {
+    "question_number": 24,
+    "question": "During the disassembly process of a wing, which procedure comes first?",
+    "options": {
+      "a": "Observing safety procedures",
+      "b": "Disconnecting control cables",
+      "c": "Removing the wing bolts"
+    },
+    "correct_answer": "a",
+    "explanation": "Safety is the paramount concern. This includes ensuring the aircraft is properly supported, all energy sources are isolated, and proper personal protective equipment is used before any physical disassembly begins."
+  },
+  {
+    "question_number": 25,
+    "question": "Which one of the following describes the major part division of the aircraft during manufacturing?",
+    "options": {
+      "a": "Front section, mid-section, and aft section",
+      "b": "Fuselage, wings, and empennage",
+      "c": "Cockpit, cabin, and cargo bay"
+    },
+    "correct_answer": "a",
+    "explanation": "Modern aircraft manufacturing often uses a modular approach, dividing the fuselage into a front (forward), middle (center), and rear (aft or empennage) section for parallel assembly."
+  },
+  {
+    "question_number": 26,
+    "question": "A(n) _____ is used to form the circular shape of a fuselage.",
+    "options": {
+      "a": "Mating jig",
+      "b": "Assembly fixture",
+      "c": "Forming die"
+    },
+    "correct_answer": "a",
+    "explanation": "A mating jig is a large structural framework used in aircraft assembly to hold major components, like fuselage sections, in precise alignment as they are joined together."
+  },
+  {
+    "question_number": 27,
+    "question": "The type of fit which is classified under a loose fit is...",
+    "options": {
+      "a": "Class-1 fit",
+      "b": "Class-2 fit",
+      "c": "Class-3 fit"
+    },
+    "correct_answer": "a",
+    "explanation": "In the American National Standard for screw threads, a Class 1 fit is the loosest tolerance, used for applications where quick and easy assembly and disassembly are needed."
+  },
+  {
+    "question_number": 28,
+    "question": "Which document provides the right procedure for the assembly and disassembly of aircraft parts?",
+    "options": {
+      "a": "Aircraft Maintenance Manual (AMM)",
+      "b": "Pilot's Operating Handbook (POH)",
+      "c": "Type Certificate Data Sheet (TCDS)"
+    },
+    "correct_answer": "a",
+    "explanation": "The Aircraft Maintenance Manual (AMM) contains the manufacturer's official procedures for maintenance, including detailed instructions for the assembly and disassembly of aircraft components."
+  },
+  {
+    "question_number": 29,
+    "question": "A method of producing subassemblies of aircraft major parts and assembling major parts together is called...",
+    "options": {
+      "a": "Production body break",
+      "b": "Modular construction",
+      "c": "Unitized assembly"
+    },
+    "correct_answer": "a",
+    "explanation": "Production body break, or assembly breakdown, refers to the practice of building large components in separate sections or subassemblies which are later joined to form the final aircraft."
+  },
+  {
+    "question_number": 30,
+    "question": "Where do we find pertinent rigging information?",
+    "options": {
+      "a": "Type Certificate Data Sheet (TCDS)",
+      "b": "Aircraft flight manual",
+      "c": "Illustrated parts catalog"
+    },
+    "correct_answer": "a",
+    "explanation": "The Type Certificate Data Sheet (TCDS) contains the essential specifications for the aircraft, including control surface travel limits and other key rigging information."
+  },
+  {
+    "question_number": 31,
+    "question": "Which one of the following is correct about aircraft rigging?",
+    "options": {
+      "a": "It is done whenever there is a fault in the alignment of the aircraft",
+      "b": "It is only done during an annual inspection",
+      "c": "It is the process of painting the aircraft"
+    },
+    "correct_answer": "a",
+    "explanation": "Aircraft rigging is the process of adjusting the flight controls and surfaces to ensure proper aerodynamic alignment. It is performed when alignment is suspect, after replacing components, or as specified by the maintenance schedule."
+  },
+  {
+    "question_number": 32,
+    "question": "Which one of the following tools is used to measure the tightness of a bolt or nut?",
+    "options": {
+      "a": "Torque wrench",
+      "b": "Micrometer",
+      "c": "Caliper"
+    },
+    "correct_answer": "a",
+    "explanation": "A torque wrench is a specialized tool used to apply a specific, measured amount of torque (rotational force) to a fastener like a bolt or nut, ensuring it is tightened to the correct specification."
+  }
+]

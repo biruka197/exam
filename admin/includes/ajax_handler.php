@@ -12,7 +12,7 @@ $password = DB_PASS;
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
+} catch (PDOException $e) {
     die(json_encode(['success' => false, 'error' => 'Database connection failed.']));
 }
 
@@ -27,6 +27,40 @@ if (isset($_POST['action'])) {
     $action = $_POST['action'];
     $project_root = __DIR__ . '/../../';
 
+    if ($action === 'analyze_question_with_ai') {
+        // ... (existing code for AI analysis)
+    }
+
+    if ($action === 'get_question_for_edit') {
+        // ... (existing code for getting question)
+    }
+
+    if ($action === 'save_edited_question') {
+        // ... (existing code for saving question)
+    }
+
+    // NEW: Handle marking a report as invalid
+    if ($action === 'mark_report_invalid') {
+        $report_id = $_POST['report_id'];
+
+        if (empty($report_id)) {
+            echo json_encode(['success' => false, 'error' => 'Report ID is missing.']);
+            exit;
+        }
+
+        $stmt = $pdo->prepare("UPDATE error_report SET status = 'invalid' WHERE id = ?");
+        $stmt->execute([$report_id]);
+
+        if ($stmt->rowCount() > 0) {
+            echo json_encode(['success' => true, 'message' => 'Report has been marked as invalid.']);
+        } else {
+            echo json_encode(['success' => false, 'error' => 'Failed to update report status. It might have been already updated or deleted.']);
+        }
+        exit;
+    }
+
+
+    // The following is existing code from the file, ensure it's present
     if ($action === 'analyze_question_with_ai') {
         $prompt = $_POST['prompt'] ?? '';
         if (empty($prompt)) {
@@ -46,7 +80,12 @@ if (isset($_POST['action'])) {
         }
         exit;
     }
-
+    if ($action === 'get_online_users') {
+        $stmt = $pdo->query("SELECT * FROM online_users WHERE last_seen > NOW() - INTERVAL 5 MINUTE");
+        $online_users = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        echo json_encode(['success' => true, 'users' => $online_users]);
+        exit;
+    }
     if ($action === 'get_question_for_edit') {
         $report_id = $_POST['report_id'];
         $stmt = $pdo->prepare("SELECT exam_id, question_id FROM error_report WHERE id = ?");
@@ -120,13 +159,13 @@ if (isset($_POST['action'])) {
             $questions[$question_index]['options'] = $question_data['options'];
             $questions[$question_index]['correct_answer'] = $question_data['correct_answer'];
             $questions[$question_index]['explanation'] = $question_data['explanation'];
-            
+
             file_put_contents($exam_file_full_path, json_encode($questions, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
-            
-            $stmt = $pdo->prepare("DELETE FROM error_report WHERE id = ?");
+
+            $stmt = $pdo->prepare("UPDATE error_report SET status = 'fixed' WHERE id = ?");
             $stmt->execute([$report_id]);
 
-            echo json_encode(['success' => true, 'message' => 'Question updated successfully.']);
+            echo json_encode(['success' => true, 'message' => 'Question updated and report marked as fixed.']);
         } else {
             echo json_encode(['success' => false, 'error' => 'Could not find question to update.']);
         }

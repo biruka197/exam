@@ -1,0 +1,277 @@
+[
+    {
+        "question_number": 1,
+        "question": "Which one of the following speeds up the preflight weight and balance computation?",
+        "options": {
+            "A": "The loading graph method",
+            "B": "The computational method",
+            "C": "The electronic flight computer method"
+        },
+        "correct_answer": "A",
+        "explanation": "Loading graphs and charts are graphical methods that allow pilots to quickly determine if the aircraft's weight and center of gravity are within approved limits without complex calculations."
+    },
+    {
+        "question_number": 2,
+        "question": "Where do you find a typical loading graph?",
+        "options": {
+            "A": "In the maintenance logbook",
+            "B": "On a placard in the cockpit",
+            "C": "In the Pilot's Operating Handbook (POH)"
+        },
+        "correct_answer": "C",
+        "explanation": "The Pilot's Operating Handbook (POH) contains all the necessary performance charts, limitations, and data for the aircraft, including loading graphs and weight and balance information."
+    },
+    {
+        "question_number": 3,
+        "question": "What is the purpose of computing weight and balance before flight?",
+        "options": {
+            "A": "To determine maximum allowable load",
+            "B": "To calculate fuel burn",
+            "C": "To plan the flight route"
+        },
+        "correct_answer": "A",
+        "explanation": "A primary purpose of weight and balance calculations is to ensure the aircraft's total weight does not exceed the maximum allowable load for safe operation."
+    },
+    {
+        "question_number": 4,
+        "question": "Which one of the following is correct about weight and balance records?",
+        "options": {
+            "A": "They are discarded after each flight",
+            "B": "All weight and balance records should be kept with the other aircraft records",
+            "C": "They are only kept by the maintenance facility"
+        },
+        "correct_answer": "B",
+        "explanation": "The weight and balance record is a crucial part of the aircraft's permanent records and must be maintained and kept with other essential documents like the airframe and engine logbooks."
+    },
+    {
+        "question_number": 5,
+        "question": "What is a purpose of computing weight and balance before flight?",
+        "options": {
+            "A": "To verify engine performance",
+            "B": "To determine if the CG location is within limits",
+            "C": "To estimate flight time"
+        },
+        "correct_answer": "B",
+        "explanation": "Computing weight and balance ensures the Center of Gravity (CG) is within the forward and aft limits specified by the manufacturer for safe and stable flight."
+    },
+    {
+        "question_number": 6,
+        "question": "What is needed after a repair or alteration has moved the EWCG outside of its limits and is often made of blocks of lead painted red?",
+        "options": {
+            "A": "Temporary Ballast",
+            "B": "Permanent Ballast",
+            "C": "Removable equipment"
+        },
+        "correct_answer": "B",
+        "explanation": "Permanent ballast, often made of lead and painted red, is installed to permanently correct the empty-weight center of gravity (EWCG) when it falls outside the allowable range after modifications."
+    },
+    {
+        "question_number": 7,
+        "question": "Which of the following will have the maximum value?",
+        "options": {
+            "A": "Empty weight",
+            "B": "Maximum landing weight",
+            "C": "Maximum takeoff weight"
+        },
+        "correct_answer": "C",
+        "explanation": "Maximum Takeoff Weight (MTOW) is the highest weight at which an aircraft is certified to begin a takeoff roll. It is generally higher than other weight limits like maximum landing weight or zero fuel weight."
+    },
+    {
+        "question_number": 8,
+        "question": "Which one of the following comes first while calculating the empty weight of an aircraft?",
+        "options": {
+            "A": "Draining the fuel",
+            "B": "Determining the net weight on each wheel",
+            "C": "Calculating the moment"
+        },
+        "correct_answer": "B",
+        "explanation": "The physical weighing process, which involves determining the net weight supported by each landing gear point, is the first step in calculating the aircraft's empty weight and CG."
+    },
+    {
+        "question_number": 9,
+        "question": "How is weight and balance done on modern aircraft?",
+        "options": {
+            "A": "Using manual slide rules",
+            "B": "With loading graphs only",
+            "C": "Dedicated electronic flight computers"
+        },
+        "correct_answer": "C",
+        "explanation": "Modern aircraft often utilize Flight Management Systems (FMS) or dedicated electronic flight computers that automatically calculate weight and balance based on crew and cargo inputs, simplifying the process."
+    },
+    {
+        "question_number": 10,
+        "question": "Which is a correct condition for weighing an aircraft according to the text?",
+        "options": {
+            "A": "Full fuel tanks",
+            "B": "Empty oil tank",
+            "C": "All passenger seats installed"
+        },
+        "correct_answer": "B",
+        "explanation": "The provided text indicates an empty oil tank is a correct condition. Note that standard procedures usually require full oil, but the answer is based on the provided text."
+    },
+    {
+        "question_number": 11,
+        "question": "Given a CG location of 635.7, a LEMAC station of 625, and a MAC of 134, what is the CG location as a percentage of MAC?",
+        "options": {
+            "A": "8%",
+            "B": "10.7%",
+            "C": "12.5%"
+        },
+        "correct_answer": "A",
+        "explanation": "The distance of the CG from LEMAC is 635.7 - 625 = 10.7. To express this as a percentage of MAC, calculate (10.7 / 134) * 100, which is approximately 7.98% or 8%."
+    },
+    {
+        "question_number": 12,
+        "question": "Where do you find the equipment list used to update the weight and balance record?",
+        "options": {
+            "A": "In the aircraft's insurance policy",
+            "B": "In the POH (Pilot's Operating Handbook)",
+            "C": "On the manufacturer's website"
+        },
+        "correct_answer": "B",
+        "explanation": "The Pilot's Operating Handbook (POH) or Airplane Flight Manual (AFM) contains the official equipment list, which details the weight and arm of all standard and optional equipment installed on the aircraft."
+    },
+    {
+        "question_number": 13,
+        "question": "Which type of weighing system is used for light aircraft and has its own ramp and jack to place the aircraft on the scale?",
+        "options": {
+            "A": "Mechanical",
+            "B": "Portable Electronic",
+            "C": "Load Cell"
+        },
+        "correct_answer": "A",
+        "explanation": "Traditional mechanical weighing kits for light aircraft often include ramps and jacks to position the aircraft correctly on the scales."
+    },
+    {
+        "question_number": 14,
+        "question": "What is tare weight?",
+        "options": {
+            "A": "The weight of the aircraft without fuel",
+            "B": "The weight of chocks or any device used to hold the aircraft on the scale",
+            "C": "The weight of the payload"
+        },
+        "correct_answer": "B",
+        "explanation": "Tare weight is the weight of any equipment used during the weighing process, such as chocks or blocks, that is not part of the aircraft's empty weight. This weight must be subtracted from the scale reading to get the net weight."
+    },
+    {
+        "question_number": 15,
+        "question": "How is added weight considered in weight and balance calculations?",
+        "options": {
+            "A": "Negative",
+            "B": "Neutral",
+            "C": "Positive"
+        },
+        "correct_answer": "C",
+        "explanation": "When adding items (fuel, passengers, cargo) to an aircraft, their weight is treated as a positive value in weight and balance computations."
+    },
+    {
+        "question_number": 16,
+        "question": "How is removed weight considered in weight and balance calculations?",
+        "options": {
+            "A": "Negative",
+            "B": "Positive",
+            "C": "Neutral"
+        },
+        "correct_answer": "A",
+        "explanation": "When removing items (using fuel, removing cargo) from an aircraft, their weight is treated as a negative value in weight and balance computations."
+    },
+    {
+        "question_number": 17,
+        "question": "What is the term for the load imposed on an aircraft structure due to the weight of the aircraft and its contents when at rest?",
+        "options": {
+            "A": "Dynamic load",
+            "B": "Static load",
+            "C": "Structural load"
+        },
+        "correct_answer": "B",
+        "explanation": "Static load refers to the forces acting on the aircraft when it is stationary on the ground, resulting solely from gravity acting on its mass and contents."
+    },
+    {
+        "question_number": 18,
+        "question": "What is the term for the highest altitude at which an aircraft can maintain a steady rate of climb of 100 feet per minute?",
+        "options": {
+            "A": "Absolute ceiling",
+            "B": "Service ceiling",
+            "C": "Cruise altitude"
+        },
+        "correct_answer": "B",
+        "explanation": "Service ceiling is a performance metric defined as the maximum density altitude where the best rate-of-climb airspeed will produce a 100-feet-per-minute climb."
+    },
+    {
+        "question_number": 19,
+        "question": "What is the Empty-Weight Center of Gravity (EWCG)?",
+        "options": {
+            "A": "The CG with full fuel and no passengers",
+            "B": "The center of gravity of an aircraft when it contains only the items specified in the aircraft empty weight",
+            "C": "The most forward allowable CG limit"
+        },
+        "correct_answer": "B",
+        "explanation": "EWCG is the calculated center of gravity of the aircraft in its empty weight condition, which includes the airframe, engines, fixed equipment, and undrainable fluids."
+    },
+    {
+        "question_number": 20,
+        "question": "How is longitudinal stability maintained?",
+        "options": {
+            "A": "The CG is slightly ahead of the center of lift",
+            "B": "The CG is directly on the center of lift",
+            "C": "The CG is slightly behind the center of lift"
+        },
+        "correct_answer": "A",
+        "explanation": "Placing the center of gravity (CG) forward of the center of lift creates a natural nose-down tendency that is counteracted by the tail-down force from the horizontal stabilizer, resulting in positive longitudinal stability."
+    },
+    {
+        "question_number": 21,
+        "question": "What type of lever can an aircraft in flight be considered?",
+        "options": {
+            "A": "First-class lever",
+            "B": "Second-class lever",
+            "C": "Third-class lever"
+        },
+        "correct_answer": "A",
+        "explanation": "An aircraft in flight acts as a first-class lever, with the center of lift as the fulcrum, the weight acting downwards at the CG, and the downward force from the tail acting as the effort to maintain balance."
+    },
+    {
+        "question_number": 22,
+        "question": "Which of the following does not typically call for a new weight and balance computation?",
+        "options": {
+            "A": "Adding new equipment",
+            "B": "Aircraft servicing",
+            "C": "Loading passengers and cargo"
+        },
+        "correct_answer": "B",
+        "explanation": "Routine aircraft servicing like refueling is accounted for in pre-flight calculations but doesn't change the aircraft's basic empty weight, which would require a formal re-weigh."
+    },
+    {
+        "question_number": 23,
+        "question": "Which is a correct condition for weighing an aircraft?",
+        "options": {
+            "A": "Full fuel tanks",
+            "B": "Empty fuel tank with residual (unusable) fluid",
+            "C": "Half-full fuel tanks"
+        },
+        "correct_answer": "B",
+        "explanation": "To determine the empty weight, fuel should be drained until only unusable fuel (residual fluid) remains, as this is considered part of the aircraft's empty weight."
+    },
+    {
+        "question_number": 24,
+        "question": "What is a vital consideration in the weight and balance of an aircraft?",
+        "options": {
+            "A": "The aircraft should be as light as possible",
+            "B": "The total weight of the aircraft must be no greater than the maximum weight",
+            "C": "The fuel weight must equal the passenger weight"
+        },
+        "correct_answer": "B",
+        "explanation": "It is fundamentally critical for safety that the aircraft's gross weight at takeoff does not exceed the maximum weight specified by the manufacturer in the POH/AFM."
+    },
+    {
+        "question_number": 25,
+        "question": "Which weighing system is used for both large and small aircraft, may have its own ramp, and features digital CG and gross-weight indicators?",
+        "options": {
+            "A": "Mechanical Scales",
+            "B": "Portable Electronic Weighing System",
+            "C": "Platform Scales"
+        },
+        "correct_answer": "B",
+        "explanation": "Portable electronic weighing systems are versatile, used for various aircraft sizes, and provide direct digital readouts of weight and can often compute the CG automatically, increasing accuracy and efficiency."
+    }
+]

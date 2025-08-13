@@ -1,0 +1,453 @@
+[
+  {
+    "question_number": 1,
+    "question": "An instrument that measures the height of an aircraft above a given pressure level.",
+    "options": {
+      "a": "Altimeter",
+      "b": "Heading Indicator",
+      "c": "Vertical Speed Indicator"
+    },
+    "correct_answer": "a",
+    "explanation": "An altimeter is specifically designed to measure the altitude of an aircraft above a given pressure level, while a Heading Indicator shows the aircraft's orientation and a Vertical Speed Indicator shows rate of climb or descent."
+  },
+  {
+    "question_number": 2,
+    "question": "Indicates whether the aircraft is climbing, descending, or in level flight.",
+    "options": {
+      "a": "Altimeter",
+      "b": "Heading Indicator",
+      "c": "Vertical Speed Indicator"
+    },
+    "correct_answer": "c",
+    "explanation": "The Vertical Speed Indicator is used to show the rate of climb or descent, whereas the Altimeter measures altitude and the Heading Indicator shows the aircraft's direction."
+  },
+  {
+    "question_number": 3,
+    "question": "A sensitive differential pressure gauge which measures and indicates the difference between pitot and static pressure.",
+    "options": {
+      "a": "Vertical Speed Indicator",
+      "b": "Airspeed Indicator",
+      "c": "Turn Coordinator"
+    },
+    "correct_answer": "b",
+    "explanation": "The Airspeed Indicator uses the difference between pitot and static pressure to indicate airspeed, while the Vertical Speed Indicator measures climb/descent rate and the Turn Coordinator shows turn and roll information."
+  },
+  {
+    "question_number": 4,
+    "question": "A mechanical instrument designed to facilitate the use of the magnetic compass.",
+    "options": {
+      "a": "Heading Indicator",
+      "b": "Vertical Speed Indicator",
+      "c": "Attitude Indicator"
+    },
+    "correct_answer": "a",
+    "explanation": "The Heading Indicator provides a stable directional reference to assist with the magnetic compass, whereas the Vertical Speed Indicator and Attitude Indicator serve different purposes related to climb rate and aircraft orientation."
+  },
+  {
+    "question_number": 5,
+    "question": "Displays the rate of turn and roll information, as well as the quality and coordination of the turn.",
+    "options": {
+      "a": "Vertical Speed Indicator",
+      "b": "Attitude Indicator",
+      "c": "Turn Coordinator"
+    },
+    "correct_answer": "c",
+    "explanation": "The Turn Coordinator is designed to display turn rate, roll, and coordination, while the Vertical Speed Indicator shows climb/descent and the Attitude Indicator shows pitch and roll relative to the horizon."
+  },
+  {
+    "question_number": 6,
+    "question": "Informs the pilot of the orientation of the aircraft relative to the Earth's horizon.",
+    "options": {
+      "a": "Heading Indicator",
+      "b": "Vertical Speed Indicator",
+      "c": "Attitude Indicator"
+    },
+    "correct_answer": "c",
+    "explanation": "The Attitude Indicator shows the aircraft's orientation relative to the horizon, while the Heading Indicator shows direction and the Vertical Speed Indicator shows climb/descent rate."
+  },
+  {
+    "question_number": 7,
+    "question": "The rate of turn is too slow for the angle of bank",
+    "options": {
+      "a": "Slip",
+      "b": "Skid",
+      "c": "Coordinated Turn"
+    },
+    "correct_answer": "a",
+    "explanation": "A slip occurs when the turn rate is too slow for the bank angle, causing the aircraft to slide inward. A skid is the opposite, and a coordinated turn maintains balance between turn rate and bank."
+  },
+  {
+    "question_number": 8,
+    "question": "The rate of turn is too great for the angle of bank",
+    "options": {
+      "a": "Slip",
+      "b": "Skid",
+      "c": "Coordinated Turn"
+    },
+    "correct_answer": "b",
+    "explanation": "A skid occurs when the turn rate exceeds the bank angle, causing the aircraft to slide outward. A slip is the opposite, and a coordinated turn balances the two."
+  },
+  {
+    "question_number": 9,
+    "question": "Provides information relating to the quality of the turn",
+    "options": {
+      "a": "Turn Needle",
+      "b": "Vacuum System",
+      "c": "Inclinometer"
+    },
+    "correct_answer": "c",
+    "explanation": "The inclinometer, part of the turn coordinator, indicates turn quality via a ball, while the Turn Needle shows turn rate and the Vacuum System powers gyroscopic instruments."
+  },
+  {
+    "question_number": 10,
+    "question": "Yellow arc on airspeed indicator indicates",
+    "options": {
+      "a": "Take-off and precautionary ranges",
+      "b": "Maximum and minimum limits",
+      "c": "Operation is prohibited"
+    },
+    "correct_answer": "a",
+    "explanation": "The yellow arc represents the caution range for take-off and precautionary speeds, while the red arc indicates maximum limits and the white arc is for flap operation ranges."
+  },
+  {
+    "question_number": 11,
+    "question": "In direct sensing instrument system:",
+    "options": {
+      "a": "the sensor and the indicator are in one case.",
+      "b": "the sensor and the indicator are remotely located.",
+      "c": "synchro generator and motor can be used."
+    },
+    "correct_answer": "a",
+    "explanation": "In a direct sensing system, the sensor and indicator are integrated in one unit, unlike remote systems or those using synchro devices."
+  },
+  {
+    "question_number": 12,
+    "question": "Which of the following instruments are part of the Basic 'T' grouping?",
+    "options": {
+      "a": "Airspeed, Attitude, Artificial Horizon, Altimeter, Heading indicator",
+      "b": "Attitude, Altimeter, Heading indicator, Turn and Bank indicator",
+      "c": "Airspeed, vertical speed, Altimeter, Heading indicator"
+    },
+    "correct_answer": "c",
+    "explanation": "The Basic 'T' grouping includes Airspeed, Altimeter, Attitude, and Heading Indicator; Vertical Speed is sometimes included, but Turn and Bank or Artificial Horizon are not standard."
+  },
+  {
+    "question_number": 13,
+    "question": "In a gyroscopic system which color is used to indicate?",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "18"
+    },
+    "correct_answer": "b",
+    "explanation": "The color 15 (degrees) is typically used in gyroscopic systems for pitch or bank markings, while 10 and 18 are not standard indicators."
+  },
+  {
+    "question_number": 14,
+    "question": "In the Basic 'T' grouping which is the color in the indicator?",
+    "options": {
+      "a": "Electromagnetic",
+      "b": "Permanent magnet",
+      "c": "Nonmagnetic"
+    },
+    "correct_answer": "c",
+    "explanation": "The indicators in the Basic 'T' grouping are nonmagnetic to avoid interference with magnetic compasses, unlike electromagnetic or permanent magnet systems."
+  },
+  {
+    "question_number": 15,
+    "question": "What is the output of a differential synchro system?",
+    "options": {
+      "a": "Sum of the two inputs",
+      "b": "Sum or difference of the two inputs",
+      "c": "difference of the two inputs"
+    },
+    "correct_answer": "c",
+    "explanation": "A differential synchro system outputs the difference between two input signals, not the sum or a variable sum/difference."
+  },
+  {
+    "question_number": 16,
+    "question": "Which of the following factors can influence the Mach number?",
+    "options": {
+      "A": "Altitude",
+      "B": "Air temperature",
+      "C": "Air temperature and Altitude"
+    },
+    "correct_answer": "C",
+    "explanation": "Mach number is influenced by both altitude (affecting air density) and air temperature (affecting speed of sound), making C the most complete answer."
+  },
+  {
+    "question_number": 17,
+    "question": "What is the critical Mach number?",
+    "options": {
+      "A": "The Mach number at which an aircraft reaches its maximum speed",
+      "B": "The Mach number at which an aircraft experiences shock wave",
+      "C": "The Mach number at which an aircraft reaches its maximum altitude"
+    },
+    "correct_answer": "B",
+    "explanation": "The critical Mach number is when airflow over parts of the aircraft reaches sonic speed, causing shock waves, not maximum speed or altitude."
+  },
+  {
+    "question_number": 18,
+    "question": "An Underwater Locator Beacon (ULB) is activated when",
+    "options": {
+      "a": "It comes into contact with water or submerged in water",
+      "b": "When the switch is on",
+      "c": "When the switch is activated by the pilot"
+    },
+    "correct_answer": "a",
+    "explanation": "ULBs are designed to activate automatically upon water contact to aid in crash location, not by manual switches."
+  },
+  {
+    "question_number": 19,
+    "question": "What is the advantage of Autopilot system",
+    "options": {
+      "a": "Reduces crew fatigue",
+      "b": "Enhance the safety and provides greater degree of precision",
+      "c": "(a) and (b) above"
+    },
+    "correct_answer": "c",
+    "explanation": "Autopilot reduces fatigue and improves safety and precision, making both a and b correct."
+  },
+  {
+    "question_number": 20,
+    "question": "What is the standard Mean Sea level (MSL) temperature and pressure as they are key reference points in aviation.",
+    "options": {
+      "a": "Temperature 15 degree centigrade and pressure 1013.25 hPa",
+      "b": "Temperature 59-degree Fahrenheit and pressure 29.92 inHg",
+      "c": "(a) and (b) above"
+    },
+    "correct_answer": "c",
+    "explanation": "The standard MSL conditions are 15°C and 1013.25 hPa, which equate to 59°F and 29.92 inHg, making both a and b correct equivalents."
+  },
+  {
+    "question_number": 21,
+    "question": "The communication system that provides the crew and ground staff to communicate each other with interior and exterior capability is:-",
+    "options": {
+      "a": "service interphone system",
+      "b": "cabin interphone system",
+      "c": "Passenger Address system"
+    },
+    "correct_answer": "a",
+    "explanation": "The service interphone system enables communication between crew and ground staff internally and externally, while the cabin interphone and PA system are for passenger or internal use."
+  },
+  {
+    "question_number": 22,
+    "question": "The operating range (height) of Radio Altimeter is",
+    "options": {
+      "a": "-20-2500 ft",
+      "b": "2000-20000ft",
+      "c": "200-250ft"
+    },
+    "correct_answer": "a",
+    "explanation": "Radio altimeters typically operate from -20 to 2500 ft above ground, suitable for low-altitude precision, unlike the higher ranges of b or the narrower c."
+  },
+  {
+    "question_number": 23,
+    "question": "What are the four main parts of an autopilot",
+    "options": {
+      "a": "Computer, Controller, sensors",
+      "b": "Sensors, computer, controller, ac power",
+      "c": "Computer, controller, servos"
+    },
+    "correct_answer": "b",
+    "explanation": "An autopilot includes sensors, a computer, a controller, and AC power, while a and c omit key components like power or servos."
+  },
+  {
+    "question_number": 24,
+    "question": "The red arc on an airspeed indicator is located at the upper end of the scale indicates",
+    "options": {
+      "a": "The maximum speed beyond which the aircraft should not be flown",
+      "b": "Serves as a clear warning to the pilots not to exceed the speed",
+      "c": "(a) and (b) above"
+    },
+    "correct_answer": "c",
+    "explanation": "The red arc marks the maximum safe speed and serves as a warning, making both a and b correct."
+  },
+  {
+    "question_number": 25,
+    "question": "HF communication has a frequency range of",
+    "options": {
+      "a": "118-299.975MHz",
+      "b": "2 to 29.999MHz",
+      "c": "118-136.975"
+    },
+    "correct_answer": "b",
+    "explanation": "HF communication operates between 2 and 29.999 MHz for long-distance, while a and c are VHF ranges."
+  },
+  {
+    "question_number": 26,
+    "question": "VHF radio communication supplies",
+    "options": {
+      "a": "Voice and data",
+      "b": "Long distance Line-of-sight communication",
+      "c": "Voice only"
+    },
+    "correct_answer": "c",
+    "explanation": "VHF is primarily for voice communication, with data as a secondary function in some cases, and it’s limited to line-of-sight, not long distance."
+  },
+  {
+    "question_number": 27,
+    "question": "In the cabin of an aircraft, where is the 'black box' typically installed?",
+    "options": {
+      "a": "In the cabin to be easily accessed",
+      "b": "In the cabin where it is less likely to be damaged in an accident",
+      "c": "In the cockpit for the use by the pilots during an accident"
+    },
+    "correct_answer": "b",
+    "explanation": "The 'black box' is placed in a reinforced area of the cabin, like the tail, to survive crashes, not for easy access or pilot use."
+  },
+  {
+    "question_number": 28,
+    "question": "Which of the following facilitate communication or information exchange between the aircraft and ground stations?",
+    "options": {
+      "a": "VHF and HF radios",
+      "b": "TCAS",
+      "c": "EGPWS"
+    },
+    "correct_answer": "a",
+    "explanation": "VHF and HF radios enable communication with ground stations, while TCAS is for collision avoidance and EGPWS is for terrain awareness."
+  },
+  {
+    "question_number": 29,
+    "question": "Which radio communication system is used for long-distance voice communications?",
+    "options": {
+      "a": "Interphone system",
+      "b": "HF",
+      "c": "VHF"
+    },
+    "correct_answer": "b",
+    "explanation": "HF is used for long-distance communication due to its ability to reflect off the ionosphere, while VHF is line-of-sight and interphone is internal."
+  },
+  {
+    "question_number": 30,
+    "question": "Bar magnet is pulled by the Earth's magnetic field to the north and downward",
+    "options": {
+      "a": "Rigidity in Space",
+      "b": "Magnetic Dip",
+      "c": "Deviation"
+    },
+    "correct_answer": "b",
+    "explanation": "Magnetic dip describes the downward pull of a bar magnet due to the Earth's magnetic field, while rigidity in space and deviation relate to gyroscopes and compass errors."
+  },
+  {
+    "question_number": 31,
+    "question": "An error that occurs on an East or west heading",
+    "options": {
+      "a": "Turning Error",
+      "b": "Acceleration Error",
+      "c": "Pitch Error"
+    },
+    "correct_answer": "b",
+    "explanation": "Acceleration error affects compasses on East or West headings due to magnetic forces, while turning error occurs on North/South turns and pitch error is not a standard term."
+  },
+  {
+    "question_number": 32,
+    "question": "An error that occurs when turning to or from a North or South heading",
+    "options": {
+      "a": "Turning Error",
+      "b": "Acceleration Error",
+      "c": "Pitch Error"
+    },
+    "correct_answer": "a",
+    "explanation": "Turning error affects compasses during turns to or from North or South due to magnetic dip, while acceleration error occurs on East/West headings."
+  },
+  {
+    "question_number": 33,
+    "question": "Choose the instruments that will be affected when suction pressure is low",
+    "options": {
+      "a": "Attitude Indicator",
+      "b": "Heading Indicator",
+      "c": "(a) and (b) above"
+    },
+    "correct_answer": "c",
+    "explanation": "Both the Attitude Indicator and Heading Indicator rely on vacuum or suction pressure for gyroscopic operation, so low pressure affects both."
+  },
+  {
+    "question_number": 34,
+    "question": "Navigation lights on aircraft",
+    "options": {
+      "a": "are used to identify position and direction of aircraft",
+      "b": "indicate altitude",
+      "c": "Are installed only on the left side of the wing"
+    },
+    "correct_answer": "a",
+    "explanation": "Navigation lights indicate position and direction, while altitude is shown by other instruments, and they are installed on both wings."
+  },
+  {
+    "question_number": 35,
+    "question": "The purpose of a localizer signal in the ILS system is to",
+    "options": {
+      "a": "align the airplane with the center line of the runways",
+      "b": "help pilots descend at the proper angle to the runway",
+      "c": "to ensure a safe flight path and maintain separation from another airplane"
+    },
+    "correct_answer": "a",
+    "explanation": "The localizer provides lateral guidance to align the aircraft with the runway centerline, while glide slope handles descent angle and TCAS manages separation."
+  },
+  {
+    "question_number": 36,
+    "question": "This instrument senses the roll and pitch motion of the aircraft.",
+    "options": {
+      "a": "Attitude Indicator",
+      "b": "Turn Coordinator",
+      "c": "Heading Indicator"
+    },
+    "correct_answer": "a",
+    "explanation": "The Attitude Indicator senses roll and pitch, while the Turn Coordinator shows turn and roll, and the Heading Indicator shows direction."
+  },
+  {
+    "question_number": 37,
+    "question": "The angular difference between the true and magnetic north",
+    "options": {
+      "a": "Precession",
+      "b": "Deviation",
+      "c": "Variation"
+    },
+    "correct_answer": "c",
+    "explanation": "Variation is the angular difference between true and magnetic north, while precession is gyro drift and deviation is local compass error."
+  },
+  {
+    "question_number": 38,
+    "question": "The aircraft compass is oriented to the _____",
+    "options": {
+      "a": "True North",
+      "b": "Magnetic North",
+      "c": "North East"
+    },
+    "correct_answer": "b",
+    "explanation": "The aircraft compass aligns with Magnetic North, which differs from True North due to variation, and North East is not a standard reference."
+  },
+  {
+    "question_number": 39,
+    "question": "The rate of turn is too slow for the angle of bank",
+    "options": {
+      "a": "Slip",
+      "b": "Skid",
+      "c": "Coordinated Turn"
+    },
+    "correct_answer": "a",
+    "explanation": "A slip occurs when the turn rate is too slow for the bank, causing an inward slide, unlike a skid or coordinated turn."
+  },
+  {
+    "question_number": 40,
+    "question": "The rate of turn is too great for the angle of bank",
+    "options": {
+      "a": "Slip",
+      "b": "Skid",
+      "c": "Coordinated Turn"
+    },
+    "correct_answer": "b",
+    "explanation": "A skid occurs when the turn rate exceeds the bank, causing an outward slide, unlike a slip or coordinated turn."
+  },
+  {
+    "question_number": 41,
+    "question": "Uses an artificial horizon and miniature airplane to depict the position of your airplane in relation to the true horizon.",
+    "options": {
+      "a": "Attitude Indicator",
+      "b": "Turn Coordinator",
+      "c": "Heading Indicator"
+    },
+    "correct_answer": "a",
+    "explanation": "The Attitude Indicator uses an artificial horizon and miniature airplane to show pitch and roll, while the Turn Coordinator shows turn data and the Heading Indicator shows direction."
+  }
+]

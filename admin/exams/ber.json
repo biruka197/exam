@@ -1,0 +1,343 @@
+[
+  {
+    "question_number": 1,
+    "question": "On an axial flow, dual compressor forward fan engine, the fan turns the same speed as the",
+    "options": {
+      "a": "low pressure turbine",
+      "b": "high pressure compressor",
+      "c": "forward turbine wheel"
+    },
+    "correct_answer": "a",
+    "explanation": "In an axial flow, dual compressor forward fan engine, the fan turns at the same speed as the low-pressure turbine, as they are connected via the low-pressure spool. Rolls Royce The Jet Engine Page 6 refers."
+  },
+  {
+    "question_number": 2,
+    "question": "A turbo jet engine gives",
+    "options": {
+      "a": "large acceleration to a small mass of air",
+      "b": "large acceleration to a large weight of air",
+      "c": "small acceleration to a large mass of air"
+    },
+    "correct_answer": "a",
+    "explanation": "A turbojet engine imparts a large acceleration to a small mass of air, generating thrust through high-speed exhaust. Rolls Royce The Jet Engine Page 2/3 refers."
+  },
+  {
+    "question_number": 3,
+    "question": "The basic gas turbine engine is divided into two main sections: the cold section and the hot section",
+    "options": {
+      "a": "The cold section includes the engine inlet, compressor, and turbine sections",
+      "b": "The hot section includes the combustor, diffuser, and exhaust",
+      "c": "The hot section includes the combustor, turbine, and exhaust"
+    },
+    "correct_answer": "c",
+    "explanation": "The hot section of a gas turbine engine includes the combustor, turbine, and exhaust, where high-temperature processes occur."
+  },
+  {
+    "question_number": 4,
+    "question": "A jet engine derives its thrust by",
+    "options": {
+      "a": "drawing air into the compressor",
+      "b": "impingement of the propelling gases on the outside air",
+      "c": "reaction of the propelling gases"
+    },
+    "correct_answer": "c",
+    "explanation": "A jet engine derives thrust from the reaction of propelling gases, as per Newton's third law, where the expulsion of high-speed exhaust gases generates forward thrust. Rolls Royce The Jet Engine Page 2/3 refers."
+  },
+  {
+    "question_number": 5,
+    "question": "Which of the following might be used to identify turbine discharge pressure?",
+    "options": {
+      "a": "Pt7",
+      "b": "Pt2",
+      "c": "Tt7"
+    },
+    "correct_answer": "a",
+    "explanation": "Pt7 is used to identify the total pressure at the turbine discharge (station 7). Jeppesen A&P Powerplant Textbook 3-5."
+  },
+  {
+    "question_number": 6,
+    "question": "In a free turbine",
+    "options": {
+      "a": "there is a clutch between compressor and power output shaft",
+      "b": "there is a direct drive with a free-wheel unit",
+      "c": "there is no mechanical connection with the compressor"
+    },
+    "correct_answer": "c",
+    "explanation": "In a free turbine, there is no mechanical connection between the turbine and compressor, allowing independent operation. Rolls Royce The Jet Engine Page 5 refers."
+  },
+  {
+    "question_number": 7,
+    "question": "Bernoulli's Theorem states that at any point in a flow of gas",
+    "options": {
+      "a": "the static pressure and dynamic pressure are equal",
+      "b": "the static pressure is less than the dynamic pressure",
+      "c": "the total energy remains constant"
+    },
+    "correct_answer": "c",
+    "explanation": "Bernoulli's Theorem states that the total energy (sum of static and dynamic pressure) remains constant in a flow of gas. Rolls Royce The Jet Engine Chapter 2 refers."
+  },
+  {
+    "question_number": 8,
+    "question": "The working fluid of a gas turbine engine is",
+    "options": {
+      "a": "gasoline",
+      "b": "kerosene",
+      "c": "air"
+    },
+    "correct_answer": "c",
+    "explanation": "The working fluid in a gas turbine engine is air, which is compressed, mixed with fuel (kerosene), and expanded to produce thrust."
+  },
+  {
+    "question_number": 9,
+    "question": "Which statements are true regarding aircraft engine propulsion?",
+    "options": {
+      "a": "Turbojet and turbofan engines impart a relatively large amount of acceleration to a smaller mass of air",
+      "b": "In modern turboprop engines, nearly 50 percent of the exhaust gas energy is extracted by turbines to drive the propeller and compressor with the rest providing exhaust thrust",
+      "c": "An engine driven propeller imparts a relatively small amount of acceleration to a large mass of air"
+    },
+    "correct_answer": "c",
+    "explanation": "An engine-driven propeller imparts a small amount of acceleration to a large mass of air, which is characteristic of propeller-driven aircraft. Jeppesen A&P Powerplant Textbook 3-43."
+  },
+  {
+    "question_number": 10,
+    "question": "As subsonic air flows through a convergent nozzle the velocity",
+    "options": {
+      "a": "decreases",
+      "b": "increases",
+      "c": "remains constant"
+    },
+    "correct_answer": "b",
+    "explanation": "In a convergent nozzle, subsonic airflow accelerates, increasing velocity as the nozzle narrows, per Bernoulli's Theorem."
+  },
+  {
+    "question_number": 11,
+    "question": "In a twin spool compressor system, the first stage turbine drives the",
+    "options": {
+      "a": "N2 compressor",
+      "b": "N1 and N2 compressors",
+      "c": "N1 compressor"
+    },
+    "correct_answer": "a",
+    "explanation": "In a twin spool compressor system, the first stage turbine (high-pressure turbine) drives the N2 compressor, while the low-pressure turbine drives the N1 compressor. Jeppesen A&P Powerplant Textbook 3-18."
+  },
+  {
+    "question_number": 12,
+    "question": "At what point in an axial flow turbojet engine will the highest gas pressures occur?",
+    "options": {
+      "a": "At the compressor outlet",
+      "b": "At the turbine entrance",
+      "c": "Within the burner section"
+    },
+    "correct_answer": "a",
+    "explanation": "The highest gas pressures in an axial flow turbojet engine occur at the compressor outlet, where air is compressed to its maximum before entering the combustion section. Jeppesen A&P Powerplant Textbook 3-20."
+  },
+  {
+    "question_number": 13,
+    "question": "Which of the following units are generally used to measure aircraft noise?",
+    "options": {
+      "a": "Effective perceived noise decibels (EPNdB)",
+      "b": "Decibels (dB)",
+      "c": "Sound pressure"
+    },
+    "correct_answer": "a",
+    "explanation": "Effective perceived noise decibels (EPNdB) are used to measure aircraft noise, accounting for human perception of sound. Rolls Royce The Jet Engine Page 199 refers."
+  },
+  {
+    "question_number": 14,
+    "question": "The diffuser section is located between",
+    "options": {
+      "a": "the burner section and the turbine section",
+      "b": "station No. 7 and station No. 8",
+      "c": "the compressor section and the burner section"
+    },
+    "correct_answer": "c",
+    "explanation": "The diffuser section is located between the compressor and burner sections, slowing airflow to increase pressure before combustion. Jeppesen A&P Powerplant Textbook 3-20."
+  },
+  {
+    "question_number": 15,
+    "question": "If the LP shaft shears",
+    "options": {
+      "a": "turbine runaway occurs",
+      "b": "compressor overspeed occurs",
+      "c": "compressor underspeed occurs"
+    },
+    "correct_answer": "a",
+    "explanation": "If the LP shaft shears, the low-pressure turbine becomes disconnected, leading to turbine runaway as it is no longer mechanically constrained."
+  },
+  {
+    "question_number": 16,
+    "question": "The term Pt7 means",
+    "options": {
+      "a": "pressure and temperature at station No. 7",
+      "b": "the total pressure at station No. 7",
+      "c": "the total inlet pressure"
+    },
+    "correct_answer": "b",
+    "explanation": "Pt7 refers to the total pressure at station No. 7, typically the turbine discharge area."
+  },
+  {
+    "question_number": 17,
+    "question": "What section provides proper mixing of the fuel and efficient burning of the gases?",
+    "options": {
+      "a": "Diffuser section and combustion section",
+      "b": "Combustion section and compressor section",
+      "c": "Combustion section only"
+    },
+    "correct_answer": "c",
+    "explanation": "The combustion section is responsible for mixing fuel with air and ensuring efficient burning of the gases. Jeppesen A&P Powerplant Textbook 3-21."
+  },
+  {
+    "question_number": 18,
+    "question": "Of the following, which engine type would most likely have a noise suppression unit installed?",
+    "options": {
+      "a": "Turboprop",
+      "b": "Turbojet",
+      "c": "Turboshaft"
+    },
+    "correct_answer": "b",
+    "explanation": "Turbojet engines are most likely to have noise suppression units due to their high exhaust noise. Jeppesen Gas Turbine Powerplants Page 3-57 refers."
+  },
+  {
+    "question_number": 19,
+    "question": "The pressure of supersonic air as it flows through a divergent nozzle",
+    "options": {
+      "a": "decreases",
+      "b": "increases",
+      "c": "is inversely proportional to the temperature"
+    },
+    "correct_answer": "a",
+    "explanation": "In a divergent nozzle, supersonic airflow expands, causing the pressure to decrease. A&P Airframe Textbook Page 2-31 and 2-32."
+  },
+  {
+    "question_number": 20,
+    "question": "The symbol for designating the speed of a LP compressor in a twin spool engine is",
+    "options": {
+      "a": "N",
+      "b": "NG",
+      "c": "N1"
+    },
+    "correct_answer": "c",
+    "explanation": "The speed of the low-pressure compressor in a twin spool engine is designated as N1. Jeppesen Gas Turbine Powerplants Page 12-13 refers."
+  },
+  {
+    "question_number": 21,
+    "question": "A turbojet engine is smoother running than a piston engine because",
+    "options": {
+      "a": "the lubrication is better",
+      "b": "it runs at a lower temperature",
+      "c": "it has no reciprocating parts"
+    },
+    "correct_answer": "c",
+    "explanation": "A turbojet engine runs smoother than a piston engine because it has no reciprocating parts, reducing vibration."
+  },
+  {
+    "question_number": 22,
+    "question": "A gas turbine engine comprises which three main sections?",
+    "options": {
+      "a": "Compressor, diffuser, and stator",
+      "b": "Turbine, compressor, and combustion",
+      "c": "Turbine, combustion, and stator"
+    },
+    "correct_answer": "b",
+    "explanation": "A gas turbine engine consists of three main sections: compressor, combustion, and turbine."
+  },
+  {
+    "question_number": 23,
+    "question": "When a volume of air is compressed",
+    "options": {
+      "a": "heat is gained",
+      "b": "no heat is lost or gained",
+      "c": "heat is lost"
+    },
+    "correct_answer": "b",
+    "explanation": "Assuming adiabatic compression, no heat is lost or gained when a volume of air is compressed, though temperature increases due to work done. Jeppesen Gas Turbine Powerplants Page 2-18 refers."
+  },
+  {
+    "question_number": 24,
+    "question": "The pressure of subsonic air as it flows through a convergent nozzle",
+    "options": {
+      "a": "increases",
+      "b": "remains constant",
+      "c": "decreases"
+    },
+    "correct_answer": "c",
+    "explanation": "As subsonic air flows through a convergent nozzle, its pressure decreases while velocity increases, per Bernoulli's principle."
+  },
+  {
+    "question_number": 25,
+    "question": "If a volume of a mass of air is 546 cubic feet at 273 K, at 274 K it will be",
+    "options": {
+      "a": "2 cubic feet greater",
+      "b": "1/273 less by weight",
+      "c": "2 cubic feet smaller"
+    },
+    "correct_answer": "a",
+    "explanation": "Using Charles's Law, the volume of air increases proportionally with temperature. At 274 K, the volume is (274/273) * 546 ≈ 548 cubic feet, or 2 cubic feet greater."
+  },
+  {
+    "question_number": 26,
+    "question": "In what section of a turbojet engine is the jet nozzle located?",
+    "options": {
+      "a": "Exhaust",
+      "b": "Turbine",
+      "c": "Combustion"
+    },
+    "correct_answer": "a",
+    "explanation": "The jet nozzle is located in the exhaust section of a turbojet engine, where the high-speed exhaust gases exit to produce thrust."
+  },
+  {
+    "question_number": 27,
+    "question": "Newton's First Law of Motion, generally termed the Law of Inertia, states",
+    "options": {
+      "a": "To every action there is an equal and opposite reaction",
+      "b": "Force is proportional to the product of mass and acceleration",
+      "c": "Every body persists in its state of rest, or of motion in a straight line, unless acted upon by some outside force"
+    },
+    "correct_answer": "c",
+    "explanation": "Newton's First Law, the Law of Inertia, states that a body remains at rest or in uniform motion unless acted upon by an external force."
+  },
+  {
+    "question_number": 28,
+    "question": "A high bypass engine results in",
+    "options": {
+      "a": "overall slower airflow and greater propulsive efficiency",
+      "b": "overall faster airflow",
+      "c": "greater propulsive efficiency"
+    },
+    "correct_answer": "a",
+    "explanation": "High bypass engines produce slower airflow through the bypass duct, leading to greater propulsive efficiency. Jeppesen Gas Turbine Powerplants Page 2-29 refers."
+  },
+  {
+    "question_number": 29,
+    "question": "Bernoulli's Theorem states that at any point in a flow of gas",
+    "options": {
+      "a": "the static pressure and dynamic pressure are equal",
+      "b": "the static pressure is less than the dynamic pressure",
+      "c": "the total energy remains constant"
+    },
+    "correct_answer": "c",
+    "explanation": "Bernoulli's Theorem states that the total energy (static plus dynamic pressure) remains constant in a gas flow."
+  },
+  {
+    "question_number": 30,
+    "question": "The Brayton cycle is known as the constant",
+    "options": {
+      "a": "temperature cycle",
+      "b": "mass cycle",
+      "c": "pressure cycle"
+    },
+    "correct_answer": "c",
+    "explanation": "The Brayton cycle, used in gas turbine engines, is known as the constant pressure cycle, as combustion occurs at constant pressure."
+  },
+  {
+    "question_number": 31,
+    "question": "Across the turbines, there is",
+    "options": {
+      "a": "a general temperature rise",
+      "b": "a general temperature drop",
+      "c": "an isometric expansion"
+    },
+    "correct_answer": "b",
+    "explanation": "Across the turbines, the gas expands, leading to a general temperature drop as energy is extracted to drive the turbine."
+  }
+]

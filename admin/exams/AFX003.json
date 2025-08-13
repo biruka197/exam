@@ -1,0 +1,244 @@
+[
+  {
+    "question_number": 1,
+    "question": "What provides the basic shape for the fuselage?",
+    "options": {
+      "a": "Longeron",
+      "b": "Former",
+      "c": "Spar"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Former**. Formers, or frames, are the transverse structural members that give the fuselage its circular or oval shape. [cite: 1] A **Longeron** is a primary longitudinal member that runs the length of the fuselage to handle bending loads. [cite: 1] A **Spar** is the main structural beam of a wing, not the fuselage. [cite: 1]"
+  },
+  {
+    "question_number": 2,
+    "question": "What is the primary longitudinal (lengthwise) load-carrying member, often used in a Warren truss design?",
+    "options": {
+      "a": "Former",
+      "b": "Rib",
+      "c": "Longeron"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Longeron**. Longerons are the main lengthwise beams in a fuselage that absorb bending, tension, and compression stresses. [cite: 1] A **Former** is a cross-sectional member that provides the fuselage's shape. [cite: 1] A **Rib** is a similar shaping member but used within a wing's structure."
+  },
+  {
+    "question_number": 3,
+    "question": "Which member carries a primary structural load?",
+    "options": {
+      "a": "Fairing",
+      "b": "Longeron",
+      "c": "Window"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Longeron**, as it is a primary component of the airframe designed to handle significant stress. [cite: 1] A **Fairing** is a non-structural cover used to smooth airflow and reduce drag. [cite: 1] A **Window** is not designed to be a primary load-bearing part of the fuselage."
+  },
+  {
+    "question_number": 4,
+    "question": "What is the width measurement to the left or right of the aircraft's center line called?",
+    "options": {
+      "a": "Water Line",
+      "b": "Station Line",
+      "c": "Buttock Line"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Buttock Line**. These are vertical planes that define width measurements left and right of the aircraft's longitudinal centerline. [cite: 1] A **Water Line** is a horizontal reference for vertical height. A **Station Line** refers to longitudinal locations along the fuselage."
+  },
+  {
+    "question_number": 5,
+    "question": "What is the first step for installing a stabilizer?",
+    "options": {
+      "a": "Inspect mount",
+      "b": "Gather tools",
+      "c": "Check alignment"
+    },
+    "correct_answer": "a",
+    "explanation": "The correct answer is **Inspect mount**. Before attaching a critical component like a stabilizer, the mounting points must be inspected for any damage, corrosion, or cracks to ensure a safe and secure installation. [cite: 1] Gathering tools and checking alignment are also necessary steps, but they follow the initial safety inspection of the mount."
+  },
+  {
+    "question_number": 6,
+    "question": "In which type of construction does the skin carry all the stress?",
+    "options": {
+      "a": "Semi-monocoque",
+      "b": "Pure monocoque",
+      "c": "Truss frame"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Pure monocoque**. In this design, the skin is the primary load-bearing structure, with only minimal internal framing (formers) to maintain its shape. [cite: 1] A **Semi-monocoque** design shares the load between the skin and an internal substructure of longerons and stringers. A **Truss frame** uses a rigid internal framework to carry the loads, with the skin acting merely as a cover."
+  },
+  {
+    "question_number": 7,
+    "question": "What is the fixed angle between the wing's chord line and the longitudinal axis of the aircraft?",
+    "options": {
+      "a": "Angle of Attack",
+      "b": "Dihedral Angle",
+      "c": "Angle of Incidence"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Angle of Incidence**. This is the fixed, engineered angle at which the wing is attached to the fuselage. [cite: 1] The **Angle of Attack** is the variable angle between the wing and the oncoming relative wind. The **Dihedral Angle** is the upward angle of the wings from the horizontal plane."
+  },
+  {
+    "question_number": 8,
+    "question": "Which of these parts does not carry flight loads?",
+    "options": {
+      "a": "Spar",
+      "b": "Landing gear",
+      "c": "Winglet"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Landing gear**. It is designed to support the aircraft on the ground and absorb landing shocks; it does not bear aerodynamic loads during flight. [cite: 1] Both the **Spar** (the wing's main beam) and the **Winglet** (at the wingtip) are designed to handle significant flight loads."
+  },
+  {
+    "question_number": 9,
+    "question": "Which of these does not carry flight or ground loads?",
+    "options": {
+      "a": "Strut",
+      "b": "Fairing",
+      "c": "Bulkhead"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Fairing**. A fairing is a lightweight, non-structural cover used solely to streamline airflow over a joint or component to reduce drag. [cite: 1] A **Strut** is a structural member that carries compression or tension loads. A **Bulkhead** is an internal wall that provides structural integrity."
+  },
+  {
+    "question_number": 10,
+    "question": "What is NOT a primary structural member of a pure monocoque fuselage?",
+    "options": {
+      "a": "Skin",
+      "b": "Longeron",
+      "c": "Formers"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Longeron**. A pure monocoque design specifically lacks longitudinal reinforcing members like longerons, relying instead on the strength of its **Skin** and shaping **Formers**. [cite: 1] The addition of longerons would change the classification to semi-monocoque."
+  },
+  {
+    "question_number": 11,
+    "question": "Which of the following is a primary structural member of a Pratt truss?",
+    "options": {
+      "a": "Spar",
+      "b": "Engine",
+      "c": "Longeron"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Longeron**. In a truss-type fuselage (like a Pratt or Warren truss), longerons are the main longitudinal members that form the top and bottom of the frame and carry the primary bending loads. [cite: 1] A **Spar** is a wing component. An **Engine** is the powerplant, not a structural member of the truss."
+  },
+  {
+    "question_number": 12,
+    "question": "What is NOT a main structural member of an aircraft?",
+    "options": {
+      "a": "Engine",
+      "b": "Spar",
+      "c": "Fuselage"
+    },
+    "correct_answer": "a",
+    "explanation": "The correct answer is **Engine**. While critical for flight, the engine is a powerplant, not part of the airframe structure itself. It is mounted onto the structure. [cite: 1] The **Spar** and **Fuselage** are core components of the airframe that bear structural loads. [cite: 1]"
+  },
+  {
+    "question_number": 13,
+    "question": "What is the main structural member of a wing?",
+    "options": {
+      "a": "Rib",
+      "b": "Aileron",
+      "c": "Spar"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Spar**. The spar is the principal span-wise beam of the wing, designed to carry the majority of the bending and shear loads encountered in flight. [cite: 1] A **Rib** gives the wing its airfoil shape. An **Aileron** is a hinged control surface on the trailing edge of the wing."
+  },
+  {
+    "question_number": 14,
+    "question": "What is a primary requirement for a cockpit?",
+    "options": {
+      "a": "It must be pressurized",
+      "b": "It must be enclosed",
+      "c": "It must have dual controls"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **It must be enclosed**. The fundamental definition of a cockpit is the enclosed area where the pilot operates the aircraft. [cite: 1] Not all aircraft cockpits are **pressurized** (e.g., small general aviation planes), and not all are required to have **dual controls**."
+  },
+  {
+    "question_number": 15,
+    "question": "How do doors on larger aircraft typically open?",
+    "options": {
+      "a": "They slide sideways",
+      "b": "They open inward",
+      "c": "They open outward"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **They open inward**. On large, pressurized aircraft, doors are typically 'plug doors' that are larger than their openings. They must be moved inward first, allowing cabin pressure to press them firmly against the frame, creating a secure seal. [cite: 1] This prevents them from being opened in flight."
+  },
+  {
+    "question_number": 16,
+    "question": "Which lighter-than-air craft does not use aerodynamic force to fly?",
+    "options": {
+      "a": "Glider",
+      "b": "Airship",
+      "c": "Helicopter"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Airship**. Airships are buoyant, lighter-than-air craft that generate lift from a contained gas (like helium) that is less dense than the surrounding air, not from aerodynamic principles. [cite: 1] Both **Gliders** and **Helicopters** are heavier-than-air craft that rely on aerodynamic lift generated by airflow over their wings or rotor blades."
+  },
+  {
+    "question_number": 17,
+    "question": "What is a key difference between rotary-wing and fixed-wing aircraft?",
+    "options": {
+      "a": "Fixed-wing needs forward movement to generate lift",
+      "b": "Rotary-wing cannot hover",
+      "c": "Fixed-wing uses a tail rotor"
+    },
+    "correct_answer": "a",
+    "explanation": "The correct answer is **Fixed-wing needs forward movement to generate lift**. A fixed-wing aircraft must move through the air for its wings to generate aerodynamic lift. [cite: 1] A **rotary-wing** aircraft (helicopter) can hover because its rotating blades create its own airflow. **Fixed-wing** aircraft do not use tail rotors; tail rotors are used on helicopters to counteract torque."
+  },
+  {
+    "question_number": 18,
+    "question": "Which control surface moves the aircraft about its vertical axis?",
+    "options": {
+      "a": "Elevator",
+      "b": "Aileron",
+      "c": "Rudder"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Rudder**. The rudder controls yaw, which is the side-to-side movement of the aircraft's nose around its vertical axis. [cite: 1] The **Elevator** controls pitch (nose up/down) around the lateral axis. The **Ailerons** control roll around the longitudinal axis."
+  },
+  {
+    "question_number": 19,
+    "question": "What is the use of a vortex generator?",
+    "options": {
+      "a": "To increase drag for landing",
+      "b": "To delay airflow separation",
+      "c": "To generate electrical power"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **To delay airflow separation**. Vortex generators are small aerodynamic surfaces that create small, energetic vortices. This turbulent flow energizes the boundary layer, helping it stick to the wing surface at higher angles of attack, thus improving control and delaying a stall. [cite: 2] They are not used for increasing drag (like spoilers) or generating power."
+  },
+  {
+    "question_number": 20,
+    "question": "Which landing gear configuration allows for the forceful application of brakes without nosing over?",
+    "options": {
+      "a": "Conventional (taildragger)",
+      "b": "Bicycle",
+      "c": "Tricycle"
+    },
+    "correct_answer": "c",
+    "explanation": "The correct answer is **Tricycle**. A tricycle gear configuration, with a nose wheel and main wheels behind the center of gravity, is inherently stable on the ground and resistant to tipping over during heavy braking. [cite: 2] A **Conventional** gear (taildragger) has its center of gravity behind the main wheels, making it susceptible to nosing over if brakes are applied too hard."
+  },
+  {
+    "question_number": 21,
+    "question": "Why do we inspect aircraft?",
+    "options": {
+      "a": "To check the fuel level",
+      "b": "To ensure airworthiness",
+      "c": "To wash the exterior"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **To ensure airworthiness**. Airworthiness is the official measure of an aircraft's fitness for safe flight. Inspections are the primary method for verifying that the aircraft's condition meets all required standards. [cite: 4] **Checking the fuel** is part of a pre-flight inspection but is not the overall purpose of all inspections. **Washing** is for maintenance and appearance, not the core safety reason for inspection."
+  },
+  {
+    "question_number": 22,
+    "question": "What transparent plastic is commonly used for aircraft windows?",
+    "options": {
+      "a": "Polycarbonate",
+      "b": "Acrylic",
+      "c": "Lexan"
+    },
+    "correct_answer": "b",
+    "explanation": "The correct answer is **Acrylic** (often sold under brand names like Plexiglas). It is favored for aircraft windows because of its superior optical clarity and resistance to crazing and yellowing from UV exposure compared to other plastics. [cite: 4] **Polycarbonate** (often sold as **Lexan**) is more impact-resistant but scratches more easily and is less optically stable over time."
+  }
+]

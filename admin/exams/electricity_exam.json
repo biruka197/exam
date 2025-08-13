@@ -1,0 +1,552 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is the primary function of an AC generator?",
+    "options": {
+      "A": "Convert mechanical energy to electrical energy",
+      "B": "Store electrical energy",
+      "C": "Convert chemical energy to electrical energy"
+    },
+    "correct_answer": "A",
+    "explanation": "An AC generator converts mechanical energy, typically from a rotating turbine or engine, into electrical energy by inducing an alternating current through electromagnetic induction."
+  },
+  {
+    "question_number": 2,
+    "question": "What type of connection is formed when three phases are connected end-to-end?",
+    "options": {
+      "A": "Wye connection",
+      "B": "Delta connection",
+      "C": "Parallel connection"
+    },
+    "correct_answer": "B",
+    "explanation": "In a delta connection, the three phases are connected end-to-end, forming a closed loop resembling a triangle, which is commonly used in three-phase systems."
+  },
+  {
+    "question_number": 3,
+    "question": "In a three-phase alternator, what is the phase difference between each output voltage?",
+    "options": {
+      "A": "90 degrees",
+      "B": "120 degrees",
+      "C": "180 degrees"
+    },
+    "correct_answer": "B",
+    "explanation": "In a three-phase alternator, the three output voltages are displaced by 120 degrees, ensuring balanced power distribution and efficient operation."
+  },
+  {
+    "question_number": 4,
+    "question": "What is the output waveform and frequency in a three-phase alternator?",
+    "options": {
+      "A": "Variable waveform and frequency",
+      "B": "Constant waveform and frequency",
+      "C": "Variable waveform and constant frequency"
+    },
+    "correct_answer": "B",
+    "explanation": "A three-phase alternator produces a sinusoidal waveform with a constant frequency, determined by the rotational speed and number of poles, ensuring stable AC output."
+  },
+  {
+    "question_number": 5,
+    "question": "What is the common lead brought out of the alternator in a wye connection called?",
+    "options": {
+      "A": "Ground lead",
+      "B": "Neutral lead",
+      "C": "Phase lead"
+    },
+    "correct_answer": "B",
+    "explanation": "In a wye connection, the common point where all three phases meet is called the neutral lead, often used as a reference or return path in the circuit."
+  },
+  {
+    "question_number": 6,
+    "question": "What type of alternator has two single-phase windings insulated from each other and displaced by 90 degrees?",
+    "options": {
+      "A": "Single-phase alternator",
+      "B": "Two-phase alternator",
+      "C": "Three-phase alternator"
+    },
+    "correct_answer": "B",
+    "explanation": "A two-phase alternator has two windings displaced by 90 degrees, producing two alternating currents with a quarter-cycle phase difference."
+  },
+  {
+    "question_number": 7,
+    "question": "What is the most widely used type of AC alternator?",
+    "options": {
+      "A": "Single-phase alternator",
+      "B": "Two-phase alternator",
+      "C": "Three-phase alternator"
+    },
+    "correct_answer": "C",
+    "explanation": "Three-phase alternators are the most widely used due to their efficiency, balanced power delivery, and suitability for industrial and power distribution applications."
+  },
+  {
+    "question_number": 8,
+    "question": "What happens when a capacitor is connected to a DC circuit?",
+    "options": {
+      "A": "It charges up to the supply voltage and blocks the flow of current",
+      "B": "It does not charge and allows current to flow",
+      "C": "It does not charge and blocks the flow of current"
+    },
+    "correct_answer": "A",
+    "explanation": "In a DC circuit, a capacitor charges to the supply voltage and then blocks further current flow, acting as an open circuit once fully charged."
+  },
+  {
+    "question_number": 9,
+    "question": "What effect does a capacitor have when connected to an AC circuit?",
+    "options": {
+      "A": "It blocks the flow of current",
+      "B": "It allows the flow of current with little or no resistance",
+      "C": "It creates a potential difference"
+    },
+    "correct_answer": "B",
+    "explanation": "In an AC circuit, a capacitor allows current to flow by alternately charging and discharging, offering low impedance to AC signals."
+  },
+  {
+    "question_number": 10,
+    "question": "What is piezoelectricity?",
+    "options": {
+      "A": "Conversion of light into electricity",
+      "B": "Conversion of mechanical stress into electrical voltage",
+      "C": "Conversion of chemical energy into electrical energy"
+    },
+    "correct_answer": "B",
+    "explanation": "Piezoelectricity is the generation of an electrical voltage in certain materials when subjected to mechanical stress, such as pressure or vibration."
+  },
+  {
+    "question_number": 11,
+    "question": "What is the principle behind photovoltaic cells?",
+    "options": {
+      "A": "Conversion of chemical energy into electrical energy",
+      "B": "Conversion of mechanical energy into electrical energy",
+      "C": "Conversion of light into electricity using semiconductors"
+    },
+    "correct_answer": "C",
+    "explanation": "Photovoltaic cells convert light energy into electricity through the photovoltaic effect, using semiconductors like silicon to generate a voltage."
+  },
+  {
+    "question_number": 12,
+    "question": "What is the effect of temperature on the resistance value of pure metals?",
+    "options": {
+      "A": "Resistance value decreases with temperature increase",
+      "B": "Resistance value remains constant with temperature change",
+      "C": "Resistance value increases with temperature increase"
+    },
+    "correct_answer": "C",
+    "explanation": "In pure metals, resistance increases with temperature because higher temperatures cause increased atomic vibrations, impeding electron flow."
+  },
+  {
+    "question_number": 13,
+    "question": "What is the device called that stores energy in the form of an electrical charge?",
+    "options": {
+      "A": "Inductor",
+      "B": "Capacitor",
+      "C": "Resistor"
+    },
+    "correct_answer": "B",
+    "explanation": "A capacitor stores energy in the form of an electrical charge by accumulating opposite charges on its plates, creating an electric field."
+  },
+  {
+    "question_number": 14,
+    "question": "What is the relationship between current and resistance according to Ohm's Law?",
+    "options": {
+      "A": "Current is directly proportional to resistance",
+      "B": "Current is inversely proportional to resistance",
+      "C": "Current is unrelated to resistance"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Ohm's Law (V = IR), current is inversely proportional to resistance when voltage is constant, meaning higher resistance reduces current."
+  },
+  {
+    "question_number": 15,
+    "question": "What type of resistor is made to control voltage in a circuit?",
+    "options": {
+      "A": "Fixed resistor",
+      "B": "Variable resistor",
+      "C": "Potentiometer"
+    },
+    "correct_answer": "C",
+    "explanation": "A potentiometer is a variable resistor used to control voltage by tapping off a portion of the voltage across its resistive element."
+  },
+  {
+    "question_number": 16,
+    "question": "What type of resistor is made to control current in a circuit?",
+    "options": {
+      "A": "Fixed resistor",
+      "B": "Variable resistor",
+      "C": "Rheostat"
+    },
+    "correct_answer": "C",
+    "explanation": "A rheostat is a variable resistor designed to control current by adjusting the resistance in series with the load."
+  },
+  {
+    "question_number": 17,
+    "question": "What type of energy conversion takes place in a thermocouple?",
+    "options": {
+      "A": "Chemical to electrical",
+      "B": "Mechanical to electrical",
+      "C": "Thermal to electrical"
+    },
+    "correct_answer": "C",
+    "explanation": "A thermocouple converts thermal energy into electrical energy by generating a voltage proportional to the temperature difference between its junctions."
+  },
+  {
+    "question_number": 18,
+    "question": "What is the term for the flux density remaining in a material after the magnetizing force is removed?",
+    "options": {
+      "A": "Retentivity",
+      "B": "Remanence",
+      "C": "Coercivity"
+    },
+    "correct_answer": "B",
+    "explanation": "Remanence is the magnetic flux density that remains in a material after the external magnetizing force is removed, indicating its residual magnetism."
+  },
+  {
+    "question_number": 19,
+    "question": "What is the function of an inductor?",
+    "options": {
+      "A": "Store energy in the form of an electrical charge",
+      "B": "Store energy in the form of a magnetic field",
+      "C": "Convert mechanical energy to electrical energy"
+    },
+    "correct_answer": "B",
+    "explanation": "An inductor stores energy in a magnetic field created by the current flowing through its coils, opposing changes in current."
+  },
+  {
+    "question_number": 20,
+    "question": "What happens to the magnetic field when the direction of the current is reversed?",
+    "options": {
+      "A": "The magnetic field strengthens",
+      "B": "The direction of the magnetic field reverses",
+      "C": "The magnetic field remains the same"
+    },
+    "correct_answer": "B",
+    "explanation": "Reversing the current direction reverses the magnetic field around a conductor, as per the right-hand rule in electromagnetism."
+  },
+  {
+    "question_number": 21,
+    "question": "What is a three-phase alternator also known as?",
+    "options": {
+      "A": "Single-phase alternator",
+      "B": "Multi-phase alternator",
+      "C": "Polyphase alternator"
+    },
+    "correct_answer": "C",
+    "explanation": "A three-phase alternator is called a polyphase alternator, referring to its ability to generate multiple phase-shifted AC outputs."
+  },
+  {
+    "question_number": 22,
+    "question": "What is the primary difference between a wye and a delta connection in a three-phase alternator?",
+    "options": {
+      "A": "Wye connection has phases connected end-to-end",
+      "B": "Delta connection has a common junction called neutral lead",
+      "C": "Wye connection has a common junction called neutral lead"
+    },
+    "correct_answer": "C",
+    "explanation": "In a wye connection, phases are connected at a common point called the neutral lead, unlike a delta connection, which forms a closed loop."
+  },
+  {
+    "question_number": 23,
+    "question": "What type of AC generator connection is commonly used in high voltage applications?",
+    "options": {
+      "A": "Single-phase connection",
+      "B": "Delta connection",
+      "C": "Wye connection"
+    },
+    "correct_answer": "C",
+    "explanation": "Wye connections are preferred in high voltage applications because they provide a neutral point and allow higher line voltages with lower phase currents."
+  },
+  {
+    "question_number": 24,
+    "question": "What type of energy conversion occurs in a photovoltaic cell?",
+    "options": {
+      "A": "Chemical to electrical",
+      "B": "Mechanical to electrical",
+      "C": "Light to electrical"
+    },
+    "correct_answer": "C",
+    "explanation": "Photovoltaic cells convert light energy directly into electrical energy through the photovoltaic effect in semiconductors."
+  },
+  {
+    "question_number": 25,
+    "question": "In a lead-acid battery, what happens when it is delivering current?",
+    "options": {
+      "A": "Hydrogen ions are formed from sulfuric acid",
+      "B": "Sulfuric acid remains unchanged",
+      "C": "Lead plates are consumed"
+    },
+    "correct_answer": "A",
+    "explanation": "When a lead-acid battery delivers current, sulfuric acid dissociates, producing hydrogen ions that participate in the electrochemical reaction."
+  },
+  {
+    "question_number": 26,
+    "question": "What type of resistor is used to tap off part of the supply or signal voltage for connection to a load?",
+    "options": {
+      "A": "Fixed resistor",
+      "B": "Variable resistor",
+      "C": "Potentiometer"
+    },
+    "correct_answer": "C",
+    "explanation": "A potentiometer is used to tap off a portion of the voltage, acting as a voltage divider to supply a variable voltage to a load."
+  },
+  {
+    "question_number": 27,
+    "question": "Which component is used to store energy in the form of a magnetic field?",
+    "options": {
+      "A": "Capacitor",
+      "B": "Resistor",
+      "C": "Inductor"
+    },
+    "correct_answer": "C",
+    "explanation": "An inductor stores energy in a magnetic field generated by the current flowing through its coils, resisting changes in current."
+  },
+  {
+    "question_number": 28,
+    "question": "What type of connection is made when the phases of a three-phase alternator are connected end-to-end?",
+    "options": {
+      "A": "Wye connection",
+      "B": "Delta connection",
+      "C": "Parallel connection"
+    },
+    "correct_answer": "B",
+    "explanation": "A delta connection is formed by connecting the phases end-to-end in a closed loop, resembling a triangle, in a three-phase alternator."
+  },
+  {
+    "question_number": 29,
+    "question": "What effect does a capacitor have in a DC circuit once it is fully charged?",
+    "options": {
+      "A": "Allows continuous current flow",
+      "B": "Blocks the flow of current",
+      "C": "Discharges continuously"
+    },
+    "correct_answer": "B",
+    "explanation": "Once fully charged in a DC circuit, a capacitor acts as an open circuit, blocking further current flow due to the accumulated charge."
+  },
+  {
+    "question_number": 30,
+    "question": "What type of current is generated by spinning a series of windings inside a fixed magnetic field?",
+    "options": {
+      "A": "Direct current (DC)",
+      "B": "Alternating current (AC)",
+      "C": "Static current"
+    },
+    "correct_answer": "B",
+    "explanation": "Spinning windings in a magnetic field induces an alternating current (AC) due to the periodic change in magnetic flux, as in an alternator."
+  },
+  {
+    "question_number": 31,
+    "question": "What is the role of the regulator in an AC generator system?",
+    "options": {
+      "A": "Control the speed of the engine",
+      "B": "Control the field current",
+      "C": "Convert AC to DC"
+    },
+    "correct_answer": "B",
+    "explanation": "The regulator in an AC generator controls the field current to maintain a stable output voltage despite changes in load or speed."
+  },
+  {
+    "question_number": 32,
+    "question": "What happens to the output current of a generator at lower speeds?",
+    "options": {
+      "A": "It increases",
+      "B": "It remains constant",
+      "C": "It decreases rapidly"
+    },
+    "correct_answer": "C",
+    "explanation": "At lower speeds, the generator's output current decreases rapidly because the induced voltage, proportional to rotational speed, is reduced."
+  },
+  {
+    "question_number": 33,
+    "question": "What device is used to step up or step down AC voltage?",
+    "options": {
+      "A": "Capacitor",
+      "B": "Transformer",
+      "C": "Rectifier"
+    },
+    "correct_answer": "B",
+    "explanation": "A transformer steps up or steps down AC voltage by transferring electrical energy between coils via mutual inductance."
+  },
+  {
+    "question_number": 34,
+    "question": "What is the principle of operation of a transformer?",
+    "options": {
+      "A": "Mutual inductance",
+      "B": "Capacitance",
+      "C": "Resistance"
+    },
+    "correct_answer": "A",
+    "explanation": "A transformer operates on mutual inductance, where a changing magnetic field in the primary coil induces a voltage in the secondary coil."
+  },
+  {
+    "question_number": 35,
+    "question": "What is the primary purpose of a transformer?",
+    "options": {
+      "A": "Convert AC to DC",
+      "B": "Store electrical energy",
+      "C": "Transfer electrical energy between circuits"
+    },
+    "correct_answer": "C",
+    "explanation": "The primary purpose of a transformer is to transfer electrical energy between circuits, typically adjusting voltage levels while maintaining power."
+  },
+  {
+    "question_number": 36,
+    "question": "What material is commonly used in the construction of transformer cores?",
+    "options": {
+      "A": "Copper",
+      "B": "Aluminum",
+      "C": "Iron"
+    },
+    "correct_answer": "C",
+    "explanation": "Iron is commonly used in transformer cores due to its high magnetic permeability, which enhances the efficiency of magnetic flux linkage."
+  },
+  {
+    "question_number": 37,
+    "question": "What type of transformer has a primary winding that is tapped at the center?",
+    "options": {
+      "A": "Step-up transformer",
+      "B": "Step-down transformer",
+      "C": "Center-tap transformer"
+    },
+    "correct_answer": "C",
+    "explanation": "A center-tap transformer has a primary or secondary winding tapped at its midpoint, often used to provide two equal voltages."
+  },
+  {
+    "question_number": 38,
+    "question": "What is the effect of a magnetic field on the electrons in a conductor?",
+    "options": {
+      "A": "Electrons are attracted to the magnetic field",
+      "B": "Electrons move in a direction perpendicular to the magnetic field",
+      "C": "Electrons remain unaffected by the magnetic field"
+    },
+    "correct_answer": "B",
+    "explanation": "A magnetic field exerts a force on moving electrons in a conductor, causing them to move perpendicular to both the field and their velocity, per the Lorentz force."
+  },
+  {
+    "question_number": 39,
+    "question": "What is the process of producing electricity using a magnetic field called?",
+    "options": {
+      "A": "Electrolysis",
+      "B": "Electromagnetism",
+      "C": "Electromagnetic induction"
+    },
+    "correct_answer": "C",
+    "explanation": "Electromagnetic induction is the process of generating electricity by moving a conductor through a magnetic field, inducing a voltage."
+  },
+  {
+    "question_number": 40,
+    "question": "What is the term for the opposition to the flow of alternating current due to the capacitance of the circuit?",
+    "options": {
+      "A": "Inductive reactance",
+      "B": "Capacitive reactance",
+      "C": "Impedance"
+    },
+    "correct_answer": "B",
+    "explanation": "Capacitive reactance is the opposition to AC current flow caused by a capacitor, inversely proportional to frequency and capacitance."
+  },
+  {
+    "question_number": 41,
+    "question": "What type of device is used to control the flow of current in one direction?",
+    "options": {
+      "A": "Capacitor",
+      "B": "Diode",
+      "C": "Transformer"
+    },
+    "correct_answer": "B",
+    "explanation": "A diode allows current to flow in one direction only, acting as a one-way valve in electronic circuits."
+  },
+  {
+    "question_number": 42,
+    "question": "What is the primary purpose of a diode?",
+    "options": {
+      "A": "Store energy in the form of an electrical charge",
+      "B": "Convert AC to DC",
+      "C": "Convert DC to AC"
+    },
+    "correct_answer": "B",
+    "explanation": "The primary purpose of a diode in rectification circuits is to convert alternating current (AC) to direct current (DC)."
+  },
+  {
+    "question_number": 43,
+    "question": "What type of semiconductor device is used to amplify signals?",
+    "options": {
+      "A": "Diode",
+      "B": "Transistor",
+      "C": "Capacitor"
+    },
+    "correct_answer": "B",
+    "explanation": "A transistor is a semiconductor device that amplifies signals by controlling current flow, widely used in electronic circuits."
+  },
+  {
+    "question_number": 44,
+    "question": "What is the primary function of a rectifier?",
+    "options": {
+      "A": "Convert DC to AC",
+      "B": "Convert AC to DC",
+      "C": "Amplify signals"
+    },
+    "correct_answer": "B",
+    "explanation": "A rectifier converts alternating current (AC) to direct current (DC), typically using diodes to allow current flow in one direction."
+  },
+  {
+    "question_number": 45,
+    "question": "What type of rectifier uses four diodes to convert AC to DC?",
+    "options": {
+      "A": "Half-wave rectifier",
+      "B": "Full-wave rectifier",
+      "C": "Bridge rectifier"
+    },
+    "correct_answer": "C",
+    "explanation": "A bridge rectifier uses four diodes arranged in a bridge configuration to convert both halves of an AC cycle to DC."
+  },
+  {
+    "question_number": 46,
+    "question": "What is the term for the resistance to the flow of current in an AC circuit due to both resistance and reactance?",
+    "options": {
+      "A": "Inductive reactance",
+      "B": "Capacitive reactance",
+      "C": "Impedance"
+    },
+    "correct_answer": "C",
+    "explanation": "Impedance is the total opposition to AC current flow, combining resistance and reactance (inductive and capacitive) in an AC circuit."
+  },
+  {
+    "question_number": 47,
+    "question": "What is the purpose of a filter in an electrical circuit?",
+    "options": {
+      "A": "Store electrical energy",
+      "B": "Block certain frequencies",
+      "C": "Increase current flow"
+    },
+    "correct_answer": "B",
+    "explanation": "A filter in an electrical circuit blocks specific frequency components, allowing desired frequencies to pass while attenuating others."
+  },
+  {
+    "question_number": 48,
+    "question": "What type of filter allows high frequencies to pass but blocks low frequencies?",
+    "options": {
+      "A": "Low-pass filter",
+      "B": "High-pass filter",
+      "C": "Band-pass filter"
+    },
+    "correct_answer": "B",
+    "explanation": "A high-pass filter allows high-frequency signals to pass while blocking low-frequency signals, useful in audio and signal processing."
+  },
+  {
+    "question_number": 49,
+    "question": "What is the purpose of a voltage regulator?",
+    "options": {
+      "A": "Increase voltage",
+      "B": "Decrease voltage",
+      "C": "Maintain a constant voltage level"
+    },
+    "correct_answer": "C",
+    "explanation": "A voltage regulator maintains a constant output voltage despite variations in input voltage or load current, ensuring stable operation of circuits."
+  },
+  {
+    "question_number": 50,
+    "question": "What type of battery has a positive plate made of lead dioxide and a negative plate made of spongy lead?",
+    "options": {
+      "A": "Nickel-cadmium battery",
+      "B": "Lead-acid battery",
+      "C": "Lithium-ion battery"
+    },
+    "correct_answer": "B",
+    "explanation": "A lead-acid battery uses a positive plate of lead dioxide and a negative plate of spongy lead, with sulfuric acid as the electrolyte."
+  }
+]

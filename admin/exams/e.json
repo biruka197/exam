@@ -1,0 +1,226 @@
+[
+    {
+      "question_number": 1,
+      "question": "If the center of gravity moves rearwards, the aircraft becomes",
+      "options": {
+        "A": "less longitudinally stable",
+        "B": "highly longitudinally stable",
+        "C": "longitudinal stability is the same on Canards"
+      },
+      "correct_answer": "A",
+      "explanation": "Moving the center of gravity rearwards reduces the aircraft's longitudinal stability because it decreases the restoring moment that keeps the aircraft aligned with its flight path. The tail's ability to counteract pitch changes weakens."
+    },
+    {
+      "question_number": 2,
+      "question": "On Canards",
+      "options": {
+        "A": "the nose stall first",
+        "B": "the wing stall first",
+        "C": "all stall together"
+      },
+      "correct_answer": "A",
+      "explanation": "In a canard configuration, the forward-mounted canard stalls before the main wing to prevent a deep stall. When the canard stalls, it causes the nose to drop (a 'nose stall'), allowing the main wing to continue generating lift and helping the aircraft recover."
+    },
+    {
+      "question_number": 3,
+      "question": "Lowering the center of gravity is used in",
+      "options": {
+        "A": "directional stability",
+        "B": "longitudinal stability",
+        "C": "lateral stability"
+      },
+      "correct_answer": "C",
+      "explanation": "Lowering the center of gravity increases lateral stability by creating a stronger restoring moment during rolls, helping the aircraft return to level flight. It’s less relevant to directional (yaw) or longitudinal (pitch) stability."
+    },
+    {
+      "question_number": 4,
+      "question": "When the pitch control column is pushed forward",
+      "options": {
+        "A": "nose will bend up, tail tends to go down",
+        "B": "elevator will bend down, tail tends to go up",
+        "C": "nose tends to go down, tail tends to go up",
+        "D": "elevator will bend down, tail tends to go down, nose tends to go up"
+      },
+      "correct_answer": "C",
+      "explanation": "Pushing the control column forward lowers the elevator, which causes the tail to rise and the nose to pitch down, initiating a descent. This is the standard pitch control mechanism in most aircraft."
+    },
+    {
+      "question_number": 5,
+      "question": "A type of wing flap that produces the greatest amount of increase in lift and minimum change in drag is",
+      "options": {
+        "A": "blown flap",
+        "B": "zap flap",
+        "C": "split flap",
+        "D": "fowler flap"
+      },
+      "correct_answer": "D",
+      "explanation": "Fowler flaps increase the wing area and camber, providing a significant lift increase with relatively low drag compared to other flap types. They are commonly used on commercial aircraft for takeoff and landing."
+    },
+    {
+      "question_number": 6,
+      "question": "An airplane is rotated about its longitudinal axis by using",
+      "options": {
+        "A": "aileron",
+        "B": "elevator",
+        "C": "rudder"
+      },
+      "correct_answer": "A",
+      "explanation": "Ailerons control roll, which is the rotation of the aircraft about its longitudinal axis (nose to tail). Elevators control pitch, and rudders control yaw."
+    },
+    {
+      "question_number": 7,
+      "question": "When the ailerons of a large transport airplane are deflected, the flight spoilers on the wing with aileron extends",
+      "options": {
+        "A": "down",
+        "B": "up",
+        "C": "both"
+      },
+      "correct_answer": "B",
+      "explanation": "On large aircraft, spoilers assist ailerons during turns. When an aileron is deflected up (to lower the wing), the spoilers on that wing also extend upward to reduce lift, aiding the roll motion."
+    },
+    {
+      "question_number": 8,
+      "question": "During deep-stall pitch control is non-effective in which of the following aircraft",
+      "options": {
+        "A": "stabilator",
+        "B": "T-tail",
+        "C": "canard"
+      },
+      "correct_answer": "B",
+      "explanation": "In a deep stall, the wake from the stalled wing blankets the T-tail, rendering the elevator ineffective for pitch control. T-tail aircraft are particularly susceptible to this condition."
+    },
+    {
+      "question_number": 9,
+      "question": "Ideal stability with no oscillation",
+      "options": {
+        "A": "keel-area",
+        "B": "total drag",
+        "C": "dead-beat"
+      },
+      "correct_answer": "C",
+      "explanation": "Dead-beat stability refers to a system that returns to equilibrium without oscillating, which is ideal for aircraft stability to avoid unwanted oscillations like Dutch roll."
+    },
+    {
+      "question_number": 10,
+      "question": "If an aircraft is statically unstable",
+      "options": {
+        "A": "it can be dynamically stable only",
+        "B": "it can be dynamically stable or unstable",
+        "C": "it can be dynamically unstable only"
+      },
+      "correct_answer": "B",
+      "explanation": "Static instability means the aircraft doesn’t naturally return to equilibrium after a disturbance. However, dynamic stability (behavior over time) can vary—some aircraft may oscillate (dynamically unstable) or stabilize with control inputs (dynamically stable)."
+    },
+    {
+      "question_number": 11,
+      "question": "If the elevator is bended up and rudder is bended right, the aircraft will",
+      "options": {
+        "A": "descend and turn to left",
+        "B": "descend and turn to right",
+        "C": "climb and turn to right",
+        "D": "climb and turn to left"
+      },
+      "correct_answer": "C",
+      "explanation": "An upward elevator deflection raises the nose (causing a climb), and a right rudder deflection yaws the aircraft to the right, resulting in a climbing right turn."
+    },
+    {
+      "question_number": 12,
+      "question": "Too little bank makes the aircraft to",
+      "options": {
+        "A": "skid",
+        "B": "slip",
+        "C": "stall"
+      },
+      "correct_answer": "B",
+      "explanation": "Too little bank in a turn causes the aircraft to slip inward due to insufficient centripetal force, as the lift component isn’t enough to balance the turn."
+    },
+    {
+      "question_number": 13,
+      "question": "During banking because of the drag on the upper wing the plane experiences yaw on unwanted direction, this is called",
+      "options": {
+        "A": "Dutch roll",
+        "B": "adverse yaw",
+        "C": "directional stability"
+      },
+      "correct_answer": "B",
+      "explanation": "Adverse yaw occurs during a turn when the downward-deflected aileron (on the rising wing) creates more lift and drag, yawing the nose opposite to the intended turn direction."
+    },
+    {
+      "question_number": 14,
+      "question": "Up going part has greater angle than down going in",
+      "options": {
+        "A": "frise aileron",
+        "B": "elevon",
+        "C": "differential aileron",
+        "D": "ruddervators"
+      },
+      "correct_answer": "C",
+      "explanation": "Differential ailerons are designed so the upward-deflected aileron moves at a greater angle than the downward one, reducing adverse yaw by balancing drag."
+    },
+    {
+      "question_number": 15,
+      "question": "One of the following used to reduce pilots contribution to the hinge moment",
+      "options": {
+        "A": "aerodynamic balancing",
+        "B": "primary control devices",
+        "C": "anti balance tabs"
+      },
+      "correct_answer": "A",
+      "explanation": "Aerodynamic balancing (e.g., using a horn or inset hinge) reduces the hinge moment on control surfaces, making it easier for the pilot to move them."
+    },
+    {
+      "question_number": 16,
+      "question": "In which type of tab, the tab moves in the same direction with the primary surface",
+      "options": {
+        "A": "trim tab",
+        "B": "balance tab",
+        "C": "anti-balance tab"
+      },
+      "correct_answer": "C",
+      "explanation": "Anti-balance tab moves in the same direction as the primary control surface to reduce hinge moment, assisting the pilot’s control effort."
+    },
+    {
+      "question_number": 17,
+      "question": "Which of the following are drag devices",
+      "options": {
+        "A": "slats and flaps",
+        "B": "vertical and horizontal stabilizers",
+        "C": "spoilers and speed brakes"
+      },
+      "correct_answer": "C",
+      "explanation": "Spoilers and speed brakes are designed to increase drag, often used to slow the aircraft or reduce lift during landing. Slats and flaps primarily increase lift."
+    },
+    {
+      "question_number": 18,
+      "question": "Mach number is given by airspeed divided by the speed of sound, what is Mach number for sonic flight",
+      "options": {
+        "A": "1",
+        "B": "0.1",
+        "C": "5"
+      },
+      "correct_answer": "A",
+      "explanation": "Sonic flight occurs when the aircraft’s speed equals the speed of sound, so the Mach number (airspeed/speed of sound) is 1."
+    },
+    {
+      "question_number": 19,
+      "question": "After critical Mach number is reached",
+      "options": {
+        "A": "buffeting happens",
+        "B": "drag decreases",
+        "C": "lift increases"
+      },
+      "correct_answer": "A",
+      "explanation": "The critical Mach number is the speed at which airflow over the wing becomes supersonic, causing shock waves and flow separation, leading to buffeting (vibration)."
+    },
+    {
+      "question_number": 20,
+      "question": "A shock wave forms a boundary between",
+      "options": {
+        "A": "hyper sonic and subsonic air flow",
+        "B": "super sonic and subsonic air flow",
+        "C": "transonic and subsonic air flow"
+      },
+      "correct_answer": "B",
+      "explanation": "A shock wave forms when airflow transitions from supersonic to subsonic, often at high speeds near Mach 1, creating a boundary between these flow regimes."
+    }
+  ]

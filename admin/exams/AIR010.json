@@ -1,0 +1,299 @@
+[
+  {
+    "question_number": 1,
+    "question": "The spin axis of a vertical gyro, used in an attitude indicator, is designed to remain aligned with what reference?",
+    "options": {
+      "a": "The Earth's vertical axis (gravity)",
+      "b": "The aircraft's vertical axis",
+      "c": "The Earth's magnetic field"
+    },
+    "correct_answer": "a",
+    "explanation": "A vertical gyro's spin axis is oriented vertically (aligned with gravity) to provide a stable reference for the artificial horizon, allowing it to indicate pitch and roll."
+  },
+  {
+    "question_number": 2,
+    "question": "What is the primary sensing component within an aircraft's attitude indicator?",
+    "options": {
+      "a": "A gyroscope",
+      "b": "A pressure-sensitive diaphragm",
+      "c": "A flux valve"
+    },
+    "correct_answer": "a",
+    "explanation": "An attitude indicator relies on a gyroscope, which uses the principle of rigidity in space to establish a stable artificial horizon, independent of the aircraft's movements."
+  },
+  {
+    "question_number": 3,
+    "question": "The alternating current (AC) used to power many avionics, including some vertical gyros, typically has a frequency of:",
+    "options": {
+      "a": "60 Hz",
+      "b": "115 Hz",
+      "c": "400 Hz"
+    },
+    "correct_answer": "c",
+    "explanation": "Aircraft use 400 Hz AC power because it allows for the construction of smaller, lighter, and more efficient motors and transformers, which is a critical advantage for aviation."
+  },
+  {
+    "question_number": 4,
+    "question": "A 'pitch up' attitude is visually represented on the attitude indicator when the symbolic aircraft is:",
+    "options": {
+      "a": "Above the artificial horizon line.",
+      "b": "Below the artificial horizon line.",
+      "c": "Tilted left or right relative to the artificial horizon line."
+    },
+    "correct_answer": "a",
+    "explanation": "Pitch describes the aircraft's nose-up or nose-down orientation. A pitch-up condition is indicated when the aircraft symbol is shown above the line representing the horizon."
+  },
+  {
+    "question_number": 5,
+    "question": "A radio altimeter provides highly accurate height information primarily during which phase of flight?",
+    "options": {
+      "a": "During cruise at high altitudes.",
+      "b": "During final approach and landing, typically below 2,500 feet.",
+      "c": "During oceanic crossings."
+    },
+    "correct_answer": "b",
+    "explanation": "Radio altimeters measure the aircraft's actual height Above Ground Level (AGL) and are most critical during low-altitude operations like approach and landing, generally operating below 2,500 feet AGL."
+  },
+  {
+    "question_number": 6,
+    "question": "On an attitude indicator, how is straight-and-level flight represented?",
+    "options": {
+      "a": "The miniature aircraft is aligned with the artificial horizon line with wings level.",
+      "b": "The miniature aircraft is centered, but pointed slightly above the horizon.",
+      "c": "The miniature aircraft is below the horizon line with wings level."
+    },
+    "correct_answer": "a",
+    "explanation": "Level flight is indicated when the symbolic aircraft's wings are parallel to and superimposed on the artificial horizon line, indicating no pitch-up, pitch-down, or roll."
+  },
+  {
+    "question_number": 7,
+    "question": "The pilot primarily engages and manages the autopilot functions through which interface?",
+    "options": {
+      "a": "The Flight Management System's Control Display Unit (CDU).",
+      "b": "The glareshield-mounted Autopilot Control Panel / Mode Control Panel (MCP).",
+      "c": "The overhead circuit breaker panel."
+    },
+    "correct_answer": "b",
+    "explanation": "The Autopilot Control Panel (often called the Mode Control Panel or MCP) is the primary pilot interface for engaging, disengaging, and selecting modes for the autopilot system."
+  },
+  {
+    "question_number": 8,
+    "question": "Which gyroscopic instrument is the primary source of attitude information (pitch and roll)?",
+    "options": {
+      "a": "A rate gyro",
+      "b": "A vertical gyro",
+      "c": "A directional gyro"
+    },
+    "correct_answer": "b",
+    "explanation": "A vertical gyro is specifically designed with its spin axis oriented vertically to act as an artificial horizon, from which pitch and roll attitude are measured."
+  },
+  {
+    "question_number": 9,
+    "question": "In a traditional 'whiskey' compass, what substance is used to dampen needle oscillations?",
+    "options": {
+      "a": "Mercury",
+      "b": "A light, clear petroleum-based oil",
+      "c": "Pressurized nitrogen"
+    },
+    "correct_answer": "b",
+    "explanation": "The housing of a wet magnetic compass is filled with a clear, oil-like fluid to dampen the movement of the compass card, making it readable during in-flight vibrations."
+  },
+  {
+    "question_number": 10,
+    "question": "The core of a flux valve, which senses the Earth's magnetic field, is made from a material with high magnetic permeability, such as:",
+    "options": {
+      "a": "Permalloy",
+      "b": "Aluminum",
+      "c": "Hardened steel"
+    },
+    "correct_answer": "a",
+    "explanation": "Permalloy, a nickel-iron alloy, is used because its high permeability allows it to be easily saturated by the weak magnetic field of the Earth, which is essential for the sensor's operation."
+  },
+  {
+    "question_number": 11,
+    "question": "For reliable heading information over a long flight, which instrument serves as the ultimate reference that does not drift over time?",
+    "options": {
+      "a": "The directional gyro",
+      "b": "The magnetic compass",
+      "c": "The rate-of-turn indicator"
+    },
+    "correct_answer": "b",
+    "explanation": "While a directional gyro provides a stable short-term heading, it is prone to precession (drift) and must be periodically realigned with the magnetic compass, which always seeks magnetic north."
+  },
+  {
+    "question_number": 12,
+    "question": "Which instrument provides stable heading information in the short term but is susceptible to drift and requires periodic realignment?",
+    "options": {
+      "a": "A directional gyro",
+      "b": "A magnetic compass",
+      "c": "A radio altimeter"
+    },
+    "correct_answer": "a",
+    "explanation": "A directional gyro provides excellent short-term heading stability, especially in turns, but it is not north-seeking and will drift over time, requiring cross-reference with the magnetic compass."
+  },
+  {
+    "question_number": 13,
+    "question": "Within the Automatic Flight Control System (AFCS), which component computes and displays steering commands for the pilot to follow?",
+    "options": {
+      "a": "The flight director",
+      "b": "The yaw damper",
+      "c": "The autothrottle"
+    },
+    "correct_answer": "a",
+    "explanation": "The flight director is the 'brain' that provides guidance cues (e.g., command bars) on the PFD, telling the pilot or autopilot how to maneuver to follow a selected path."
+  },
+  {
+    "question_number": 14,
+    "question": "When fully engaged, the Automatic Flight Control System (AFCS) directly manipulates the aircraft's flight controls through which component?",
+    "options": {
+      "a": "The autopilot servos",
+      "b": "The flight director command bars",
+      "c": "The pilot's yoke and rudder pedals"
+    },
+    "correct_answer": "a",
+    "explanation": "The autopilot component of the AFCS uses servos (electric motors or hydraulic actuators) to physically move the control surfaces (ailerons, elevator, rudder) to fly the aircraft."
+  },
+  {
+    "question_number": 15,
+    "question": "During an Instrument Landing System (ILS) approach, which component provides lateral guidance to align the aircraft with the runway centerline?",
+    "options": {
+      "a": "The localizer",
+      "b": "The glideslope",
+      "c": "The marker beacons"
+    },
+    "correct_answer": "a",
+    "explanation": "The localizer is a radio beam transmitted from the departure end of the runway that provides left/right guidance for centerline alignment."
+  },
+  {
+    "question_number": 16,
+    "question": "The instrument used to display an aircraft's position relative to a selected VOR radial is called a:",
+    "options": {
+      "a": "Course Deviation Indicator (CDI)",
+      "b": "Automatic Direction Finder (ADF)",
+      "c": "Attitude Indicator (AI)"
+    },
+    "correct_answer": "a",
+    "explanation": "The Course Deviation Indicator (CDI) is the specific instrument that presents VOR information, showing left or right deviation from a selected 'to' or 'from' course."
+  },
+  {
+    "question_number": 17,
+    "question": "On a glass cockpit aircraft, graphical weather radar information is most commonly presented on the:",
+    "options": {
+      "a": "Navigation Display (ND)",
+      "b": "Primary Flight Display (PFD)",
+      "c": "Engine Indicating and Crew Alerting System (EICAS)"
+    },
+    "correct_answer": "a",
+    "explanation": "The Navigation Display (ND) or Multifunction Display (MFD) is used to show map-like information, making it the ideal place to overlay weather radar returns along the flight path."
+  },
+  {
+    "question_number": 18,
+    "question": "An aircraft's attitude (pitch and roll) information is presented to the pilots on the:",
+    "options": {
+      "a": "Primary Flight Display (PFD)",
+      "b": "Navigation Display (ND)",
+      "c": "Control Display Unit (CDU)"
+    },
+    "correct_answer": "a",
+    "explanation": "The Primary Flight Display (PFD) is the main instrument for showing critical flight data, with the attitude indicator being its most prominent feature."
+  },
+  {
+    "question_number": 19,
+    "question": "The gyroscopic principle that describes a spinning rotor's opposition to any force that would change its plane of rotation is known as:",
+    "options": {
+      "a": "Rigidity in space",
+      "b": "Precession",
+      "c": "Inertial dampening"
+    },
+    "correct_answer": "a",
+    "explanation": "Rigidity in space is the fundamental property of a gyroscope that makes it useful as a stable reference in flight instruments."
+  },
+  {
+    "question_number": 20,
+    "question": "The primary purpose of a magnetic compass is to provide the pilot with:",
+    "options": {
+      "a": "Magnetic heading",
+      "b": "True heading",
+      "c": "Aircraft attitude"
+    },
+    "correct_answer": "a",
+    "explanation": "A magnetic compass aligns itself with the Earth's magnetic field to indicate the aircraft's magnetic heading."
+  },
+  {
+    "question_number": 21,
+    "question": "Which component processes the raw pressure inputs from the pitot tube and static ports to calculate airspeed, altitude, and vertical speed?",
+    "options": {
+      "a": "The Air Data Computer (ADC)",
+      "b": "The Attitude and Heading Reference System (AHRS)",
+      "c": "The Flight Management System (FMS)"
+    },
+    "correct_answer": "a",
+    "explanation": "The Air Data Computer (ADC) is the central processor for the pitot-static system, converting pressure data into usable flight information for the displays."
+  },
+  {
+    "question_number": 22,
+    "question": "Which of the following is a key output calculated by the Air Data System?",
+    "options": {
+      "a": "Airspeed",
+      "b": "Attitude",
+      "c": "Heading"
+    },
+    "correct_answer": "a",
+    "explanation": "The Air Data System is responsible for calculating several critical parameters from pressure sensors, the most important of which include airspeed, altitude, and vertical speed."
+  },
+  {
+    "question_number": 23,
+    "question": "A traditional turn-and-bank or turn coordinator instrument uses what type of gyroscope to function?",
+    "options": {
+      "a": "A rate gyro",
+      "b": "A vertical gyro",
+      "c": "A directional gyro"
+    },
+    "correct_answer": "a",
+    "explanation": "A turn coordinator or turn-and-bank indicator uses a rate gyro to measure the rate of yaw (or rate of turn), not the aircraft's attitude itself."
+  },
+  {
+    "question_number": 24,
+    "question": "To ensure it is placed in a magnetically 'quiet' area, a slaved compass system's flux valve is usually located in the:",
+    "options": {
+      "a": "Wingtip or vertical stabilizer",
+      "b": "Cockpit instrument panel",
+      "c": "Engine nacelle"
+    },
+    "correct_answer": "a",
+    "explanation": "Placing the flux valve in the wingtip or tail keeps it far away from the electromagnetic interference generated by the aircraft's engines and electrical systems."
+  },
+  {
+    "question_number": 25,
+    "question": "On a weather radar display, areas colored red typically represent:",
+    "options": {
+      "a": "Extreme precipitation and turbulence, indicating severe danger.",
+      "b": "Light precipitation.",
+      "c": "Areas of clear air."
+    },
+    "correct_answer": "a",
+    "explanation": "Weather radar uses a color scale to depict precipitation intensity. Red signifies the most intense returns, which are associated with heavy rain, hail, and severe turbulence."
+  },
+  {
+    "question_number": 26,
+    "question": "The basic sensing element in a simple magnetic compass is:",
+    "options": {
+      "a": "A freely rotating permanent magnet.",
+      "b": "A soft iron core with electrical windings.",
+      "c": "A laser ring gyroscope."
+    },
+    "correct_answer": "a",
+    "explanation": "The classic magnetic compass works by using one or more small, lightweight permanent magnets that are free to align themselves with the Earth's magnetic field."
+  },
+  {
+    "question_number": 27,
+    "question": "In a modern slaved heading system, what component serves as the magnetic reference to correct the directional gyro's drift?",
+    "options": {
+      "a": "A flux valve",
+      "b": "A permanent magnet",
+      "c": "An inertial reference unit"
+    },
+    "correct_answer": "a",
+    "explanation": "A slaved compass system uses a directional gyro for stable heading information, but it continuously corrects or 'slaves' it to the magnetic heading provided by the remotely located flux valve."
+  }
+]

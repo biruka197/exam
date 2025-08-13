@@ -1,28 +1,28 @@
 <?php
 session_start();
 
-// Database configuration
-$host = '127.0.0.1';
-$dbname = 'exam';
-$username = 'root';
-$password = '';
+// Include your database configuration
+require_once __DIR__ . '/../config.php';
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    // Establish a database connection
+    $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
+    // If connection fails, stop the script and show an error.
+    die("Database connection failed: " . $e->getMessage());
 }
 
-// Redirect if already logged in
+// If the user is already logged in, redirect them to the dashboard.
 if (isset($_SESSION['admin_logged_in'])) {
-    header('Location: admin.php');
+    header('Location: index.php');
     exit();
 }
 
 $error_message = '';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+// This block handles the traditional password login form submission.
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
     
@@ -31,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute([$username]);
         $user = $stmt->fetch();
         
+        // Verify the user and the hashed password.
         if ($user && password_verify($password, $user['password'])) {
             $_SESSION['admin_logged_in'] = true;
             $_SESSION['admin_id'] = $user['id'];
@@ -52,124 +53,97 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login - Exam System</title>
+    <link rel="stylesheet" href="../assets/styles.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        /* You can add these styles to your existing assets/styles.css or keep them here */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f7f6;
+            font-family: Arial, sans-serif;
         }
-
         .login-container {
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
             max-width: 400px;
         }
-
         .login-header {
             text-align: center;
             margin-bottom: 2rem;
         }
-
         .login-header h1 {
+            margin: 0;
             color: #333;
-            margin-bottom: 0.5rem;
         }
-
         .login-header p {
-            color: #666;
+            color: #777;
         }
-
         .form-group {
             margin-bottom: 1.5rem;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 0.5rem;
-            color: #333;
-            font-weight: 600;
+            color: #555;
+            font-weight: bold;
         }
-
         .form-group input {
             width: 100%;
-            padding: 1rem;
-            border: 2px solid #e1e5e9;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Important for padding */
         }
-
-        .form-group input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-
         .login-btn {
             width: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            padding: 0.75rem;
             border: none;
-            padding: 1rem;
-            border-radius: 8px;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
             font-size: 1rem;
-            font-weight: 600;
+            font-weight: bold;
             cursor: pointer;
-            transition: transform 0.2s ease;
+            transition: background-color 0.2s;
         }
-
         .login-btn:hover {
-            transform: translateY(-2px);
+            background-color: #0056b3;
         }
-
-        .login-btn:active {
-            transform: translateY(0);
-        }
-
         .alert-error {
-            background: #fee;
-            color: #c33;
+            background: #f8d7da;
+            color: #721c24;
             padding: 1rem;
-            border-radius: 8px;
+            border: 1px solid #f5c6cb;
+            border-radius: 4px;
             margin-bottom: 1rem;
-            border: 1px solid #fcc;
+            text-align: center;
         }
-
-        .demo-info {
-            background: #f8f9fa;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-top: 1.5rem;
-            font-size: 0.9rem;
+        .divider {
+            text-align: center;
+            margin: 2rem 0;
+            color: #aaa;
+            display: flex;
+            align-items: center;
         }
-
-        .demo-info h4 {
-            color: #495057;
-            margin-bottom: 0.5rem;
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #e0e0e0;
         }
+        .divider:not(:empty)::before { margin-right: 1em; }
+        .divider:not(:empty)::after { margin-left: 1em; }
 
-        .demo-info p {
-            color: #6c757d;
-            margin: 0.25rem 0;
-        }
-
-        @media (max-width: 480px) {
-            .login-container {
-                margin: 1rem;
-                padding: 1.5rem;
-            }
+        #webauthn-status {
+            font-size: 0.9em;
+            color: #dc3545;
+            text-align: center;
+            min-height: 1.2em;
+            margin-top: 1em;
         }
     </style>
 </head>
@@ -177,7 +151,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-header">
             <h1>Admin Login</h1>
-            <p>Please sign in to access the admin dashboard</p>
+            <p>Please sign in to continue</p>
         </div>
 
         <?php if ($error_message): ?>
@@ -188,26 +162,120 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <form method="POST">
             <div class="form-group">
-                <label for="username">Username:</label>
+                <label for="username">Username</label>
                 <input type="text" id="username" name="username" required 
                        value="<?php echo htmlspecialchars($_POST['username'] ?? ''); ?>">
             </div>
-
             <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="password">Password</label>
+                <input  type="password" id="password" name="password" required>
             </div>
-
-            <button type="submit" class="login-btn">Login</button>
+            <button type="submit" class="login-btn">Login with Password</button>
         </form>
 
-        <div class="demo-info">
-        
-            <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #868e96;">
-                Note: The password in your database is hashed. If you need to reset it, 
-                you can update it directly in the database or create a new admin user.
-            </p>
+        <div class="divider">OR</div>
+
+        <div>
+            <div class="form-group">
+                <label for="webauthn_username">Username</label>
+                <input type="text" id="webauthn_username" name="webauthn_username" value="Admin" placeholder="Enter username and tap below">
+            </div>
+            <button type="button" id="webauthn-login-btn" class="login-btn" style="background-color: #28a745;">
+                <i class="fas fa-fingerprint"></i> Login with Fingerprint
+            </button>
+            <p id="webauthn-status"></p>
         </div>
+
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+    <script>
+        const webauthnLoginBtn = document.getElementById('webauthn-login-btn');
+        const webauthnUsernameInput = document.getElementById('webauthn_username');
+        const webauthnStatusElem = document.getElementById('webauthn-status');
+
+        // Helper functions to convert between ArrayBuffer and Base64URL
+        function bufferToBase64url(buffer) {
+            return btoa(String.fromCharCode.apply(null, new Uint8Array(buffer)))
+                .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+        }
+
+        function base64urlToBuffer(base64url) {
+            const base64 = base64url.replace(/-/g, '+').replace(/_/g, '/');
+            const raw = window.atob(base64);
+            const buffer = new Uint8Array(raw.length);
+            for (let i = 0; i < raw.length; i++) {
+                buffer[i] = raw.charCodeAt(i);
+            }
+            return buffer;
+        }
+
+        // Attach click event listener to the fingerprint login button
+        webauthnLoginBtn.addEventListener('click', async () => {
+            const username = webauthnUsernameInput.value;
+            if (!username) {
+                webauthnStatusElem.textContent = 'Please enter your username first.';
+                return;
+            }
+            webauthnStatusElem.textContent = 'Preparing secure login...';
+
+            try {
+                // 1. Get the login challenge from your PHP back-end
+                const formData = new URLSearchParams({ action: 'get_login_challenge', username });
+                const challengeResp = await fetch('webauthn_handler.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: formData
+                });
+                const options = await challengeResp.json();
+                if (options.error) throw new Error(options.error);
+
+                // 2. Prepare the options for the browser's WebAuthn API
+                options.challenge = base64urlToBuffer(options.challenge);
+                options.allowCredentials.forEach(cred => {
+                    cred.id = base64urlToBuffer(cred.id);
+                });
+
+                webauthnStatusElem.textContent = 'Please use your fingerprint sensor...';
+                
+                // 3. This triggers the browser/OS to show the fingerprint prompt
+                const assertion = await navigator.credentials.get({ publicKey: options });
+
+                // 4. Prepare the signed assertion to be verified by the server
+                const assertionForServer = {
+                    id: assertion.id,
+                    rawId: bufferToBase64url(assertion.rawId),
+                    type: assertion.type,
+                    response: {
+                        clientDataJSON: bufferToBase64url(assertion.response.clientDataJSON),
+                        authenticatorData: bufferToBase64url(assertion.response.authenticatorData),
+                        signature: bufferToBase64url(assertion.response.signature),
+                        userHandle: assertion.response.userHandle ? bufferToBase64url(assertion.response.userHandle) : null,
+                    },
+                };
+                
+                webauthnStatusElem.textContent = 'Verifying login...';
+
+                // 5. Send the signed assertion to the PHP back-end for final verification
+                const verifyResp = await fetch('webauthn_handler.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'verify_login', data: assertionForServer })
+                });
+                const verificationResult = await verifyResp.json();
+
+                if (verificationResult.verified) {
+                    webauthnStatusElem.textContent = 'Success! Redirecting to dashboard...';
+                    window.location.href = 'index.php'; // On success, redirect to the admin area
+                } else {
+                    throw new Error(verificationResult.error || 'Server verification failed.');
+                }
+
+            } catch (err) {
+                webauthnStatusElem.textContent = 'Login failed: ' + err.message;
+            }
+        });
+    </script>
 </body>
 </html>

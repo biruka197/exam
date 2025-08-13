@@ -1,0 +1,1477 @@
+{
+  "exam_title": "Aircraft Instrumentation Examination",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Easy",
+      "question": "What is the SI unit of pressure?",
+      "options": {
+        "a": "Bar",
+        "b": "Pascal",
+        "c": "PSID",
+        "d": "inHg"
+      },
+      "correct_answer": "b",
+      "explanation": "The Pascal (Pa) is the standard international (SI) unit for pressure. 'Bar' is a common metric unit but not the primary SI unit. 'PSID' (Pounds per Square Inch Differential) and 'inHg' (inches of Mercury) are non-SI, imperial units."
+    },
+    {
+      "question_number": 2,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Which pressure sensor is most suited for high pressure measurement?",
+      "options": {
+        "a": "Diaphragm",
+        "b": "Capsule",
+        "c": "Bourdon tube",
+        "d": "Bellows"
+      },
+      "correct_answer": "c",
+      "explanation": "A Bourdon tube is a robust, C-shaped tube that straightens under pressure, making it ideal for measuring very high pressures like those in hydraulic systems. Diaphragms, capsules, and bellows are more delicate and suited for lower pressure applications."
+    },
+    {
+      "question_number": 3,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "What does an aneroid capsule contain?",
+      "options": {
+        "a": "Compressed gas",
+        "b": "Vacuum",
+        "c": "Oil",
+        "d": "Mercury"
+      },
+      "correct_answer": "b",
+      "explanation": "An aneroid capsule is evacuated to a near-perfect vacuum, allowing its flexible walls to expand and contract solely based on external atmospheric pressure. It does not contain compressed gas, oil, or mercury, as these would interfere with its function."
+    },
+    {
+      "question_number": 4,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Measurement Types",
+      "difficulty": "Medium",
+      "question": "Which type of pressure sensor is best for differential measurements?",
+      "options": {
+        "a": "Capsule",
+        "b": "Diaphragm",
+        "c": "Bourdon tube",
+        "d": "Manometer"
+      },
+      "correct_answer": "a",
+      "explanation": "A capsule, typically made of two diaphragms joined together, is specifically designed for differential measurements by allowing different pressures to be applied to its interior and exterior. While a diaphragm can measure differential pressure, a capsule assembly is purpose-built for it. Bourdon tubes and manometers are typically used for gauge pressure."
+    },
+    {
+      "question_number": 5,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Easy",
+      "question": "What is measured by subtracting atmospheric pressure from absolute pressure?",
+      "options": {
+        "a": "Gauge pressure",
+        "b": "Static pressure",
+        "c": "Differential pressure",
+        "d": "Dynamic pressure"
+      },
+      "correct_answer": "a",
+      "explanation": "Gauge pressure is, by definition, the pressure measured relative to the local atmospheric pressure. Static pressure is the ambient air pressure, differential pressure is the difference between any two points, and dynamic pressure is due to motion."
+    },
+    {
+      "question_number": 6,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Easy",
+      "question": "Electrically operated pressure sensors are mainly used for:",
+      "options": {
+        "a": "Manual readings",
+        "b": "Remote readings",
+        "c": "Backup systems",
+        "d": "Fuel lines"
+      },
+      "correct_answer": "b",
+      "explanation": "The primary advantage of electrically operated sensors is their ability to transmit a pressure reading as an electrical signal over long distances to a cockpit display, enabling remote readings. Manual readings are done locally. While they can be used in backup systems or fuel lines, their main purpose is remote indication."
+    },
+    {
+      "question_number": 7,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Medium",
+      "question": "Which device is NOT part of an electrically operated pressure system?",
+      "options": {
+        "a": "Autosyn",
+        "b": "Selsyn",
+        "c": "Piezoresistor",
+        "d": "Bellows"
+      },
+      "correct_answer": "d",
+      "explanation": "Bellows are a purely mechanical pressure-sensing element. While they can be the input to a transducer in an electrical system, they are not themselves electrical. Autosyn, Selsyn, and piezoresistors are all electrical components used for transmitting or sensing pressure information."
+    },
+    {
+      "question_number": 8,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Easy",
+      "question": "What type of aircraft typically uses direct pressure reading gauges?",
+      "options": {
+        "a": "Multi-engine",
+        "b": "Turboprop",
+        "c": "Light single-engine",
+        "d": "Jet"
+      },
+      "correct_answer": "c",
+      "explanation": "Light single-engine aircraft often use simple, direct-reading gauges because the distance from the engine to the panel is short. Larger, more complex aircraft (multi-engine, turboprop, jet) use remote-sensing systems to avoid running long, potentially hazardous fluid lines into the cockpit."
+    },
+    {
+      "question_number": 9,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Risks",
+      "difficulty": "Easy",
+      "question": "What is the risk with direct pressure reading systems?",
+      "options": {
+        "a": "Low accuracy",
+        "b": "Electrical failure",
+        "c": "Fluid leakage",
+        "d": "Radio interference"
+      },
+      "correct_answer": "c",
+      "explanation": "The main risk of a direct reading system is that it requires routing a line of pressurized fluid (like oil or fuel) into the cockpit, which poses a hazard of fluid leakage. These systems are mechanical, so low accuracy, electrical failure, and radio interference are not the primary concerns."
+    },
+    {
+      "question_number": 10,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Easy",
+      "question": "Why is remote sensing used in fuel pressure indication?",
+      "options": {
+        "a": "Easier to calibrate",
+        "b": "To avoid cockpit fuel lines",
+        "c": "Cost-effective",
+        "d": "Simpler gauges"
+      },
+      "correct_answer": "b",
+      "explanation": "The paramount reason for using remote sensing for fuel pressure is safety, specifically to avoid running a line of flammable fuel into the cockpit. Other factors like calibration, cost, and complexity are secondary to this critical safety consideration."
+    },
+    {
+      "question_number": 11,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "What does a capsule consist of?",
+      "options": {
+        "a": "One diaphragm",
+        "b": "Two joined diaphragms",
+        "c": "A coil",
+        "d": "A piston"
+      },
+      "correct_answer": "b",
+      "explanation": "A pressure-sensing capsule is constructed by joining two corrugated diaphragms back-to-back around their peripheries. This creates a sealed chamber that can expand or contract with pressure changes. It does not consist of a single diaphragm, a coil, or a piston."
+    },
+    {
+      "question_number": 12,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Bellows are created by combining:",
+      "options": {
+        "a": "Tubes and springs",
+        "b": "Multiple bourdon tubes",
+        "c": "Several diaphragms",
+        "d": "Solid-state sensors"
+      },
+      "correct_answer": "c",
+      "explanation": "Bellows are essentially a stack of several diaphragms joined together, creating a corrugated, accordion-like tube that is very sensitive to pressure changes along its axis. They are not combinations of tubes, springs, Bourdon tubes, or solid-state sensors."
+    },
+    {
+      "question_number": 13,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Medium",
+      "question": "A solid-state pressure sensor produces output by:",
+      "options": {
+        "a": "Fluid displacement",
+        "b": "Mechanical linkage",
+        "c": "Varying electrical resistance",
+        "d": "Changing pressure directly"
+      },
+      "correct_answer": "c",
+      "explanation": "Solid-state pressure sensors, often using piezoresistive elements, work by detecting the physical strain on a diaphragm, which in turn causes a change in electrical resistance. They do not rely on fluid displacement or mechanical linkages for their primary output."
+    },
+    {
+      "question_number": 14,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Which of the following uses fluid-filled tubes and dials?",
+      "options": {
+        "a": "Bourdon tube",
+        "b": "Capsule",
+        "c": "Piezoresistor",
+        "d": "Transducer"
+      },
+      "correct_answer": "a",
+      "explanation": "The Bourdon tube is a classic mechanical gauge that uses a tube filled with the system fluid; as pressure changes, the tube flexes and moves a pointer on a dial. Capsules, piezoresistors, and transducers are typically not fluid-filled in this manner."
+    },
+    {
+      "question_number": 15,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Medium",
+      "question": "Which instrument is commonly used in hydraulic systems for remote reading?",
+      "options": {
+        "a": "Capsule",
+        "b": "Bellows",
+        "c": "Bourdon tube",
+        "d": "Float"
+      },
+      "correct_answer": "c",
+      "explanation": "A Bourdon tube is often used as the sensing element connected to a transducer (like a synchro system) for remote indication of high-pressure systems like hydraulics. Capsules and bellows are for lower pressures, and a float is used for liquid level, not pressure."
+    },
+    {
+      "question_number": 16,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Medium",
+      "question": "What type of sensor is used to indicate crew oxygen pressure in the cockpit?",
+      "options": {
+        "a": "Float gauge",
+        "b": "Solid-state transducer",
+        "c": "Selsyn system",
+        "d": "Liquid column"
+      },
+      "correct_answer": "b",
+      "explanation": "Modern aircraft use a solid-state transducer to safely and reliably measure high-pressure crew oxygen and convert it to an electrical signal for the cockpit display. A float gauge is for liquid level, a Selsyn system is an older remote-reading technology, and a liquid column is impractical for this application."
+    },
+    {
+      "question_number": 17,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "A barometer reads pressure using:",
+      "options": {
+        "a": "Electricity",
+        "b": "Fluid column",
+        "c": "Diaphragms",
+        "d": "Springs"
+      },
+      "correct_answer": "b",
+      "explanation": "A traditional mercury barometer reads atmospheric pressure by balancing it against the height of a fluid column (mercury). While aneroid barometers use diaphragms (option C), the general term 'barometer' often refers to the original fluid-based instrument."
+    },
+    {
+      "question_number": 18,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Measurement Types",
+      "difficulty": "Medium",
+      "question": "Which sensor is best for measuring pressure differences across an orifice?",
+      "options": {
+        "a": "Diaphragm",
+        "b": "Bellows",
+        "c": "Bourdon tube",
+        "d": "Autosyn"
+      },
+      "correct_answer": "a",
+      "explanation": "A diaphragm is well-suited for measuring a pressure difference (differential pressure) across an orifice, such as in a flow meter. Bellows can also be used, but diaphragms are common. A Bourdon tube is for high gauge pressure, and an Autosyn is a signal transmission device, not a primary sensor."
+    },
+    {
+      "question_number": 19,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Medium",
+      "question": "Which element helps reduce temperature errors in pressure sensors?",
+      "options": {
+        "a": "Thermocouple",
+        "b": "Resistance bulb",
+        "c": "Bimetallic strip",
+        "d": "Magnet"
+      },
+      "correct_answer": "c",
+      "explanation": "A bimetallic strip, composed of two metals with different thermal expansion rates, can be incorporated into a mechanical pressure gauge's linkage to compensate for temperature-induced errors by flexing in the opposite direction of the error. Thermocouples and resistance bulbs measure temperature, and a magnet is not used for this purpose."
+    },
+    {
+      "question_number": 20,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Easy",
+      "question": "Pressure below atmospheric level is termed:",
+      "options": {
+        "a": "Absolute",
+        "b": "Differential",
+        "c": "Negative",
+        "d": "Suction"
+      },
+      "correct_answer": "d",
+      "explanation": "Suction is the common term for gauge pressure that is below the local atmospheric pressure. It is also sometimes called vacuum or negative pressure (relative to atmospheric). Absolute pressure is referenced to a perfect vacuum, and differential pressure is the difference between two pressures."
+    },
+    {
+      "question_number": 21,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Easy",
+      "question": "Where is the pressure gauge for crew oxygen located?",
+      "options": {
+        "a": "On the firewall",
+        "b": "Inside the cockpit",
+        "c": "On the cylinder head and flight deck",
+        "d": "On the fuselage"
+      },
+      "correct_answer": "c",
+      "explanation": "For safety and convenience, crew oxygen pressure is indicated both directly on the cylinder head for ground servicing and remotely on the flight deck for the crew to monitor during flight. It is not typically located on the firewall or just on the fuselage."
+    },
+    {
+      "question_number": 22,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Warning Systems",
+      "difficulty": "Easy",
+      "question": "At what cabin altitude is a warning triggered?",
+      "options": {
+        "a": "8000 ft",
+        "b": "10000 ft",
+        "c": "12000 ft",
+        "d": "6000 ft"
+      },
+      "correct_answer": "b",
+      "explanation": "A cabin altitude warning is typically triggered when the cabin pressure drops to a level equivalent to 10,000 feet, alerting the crew to a potential pressurization problem before physiological effects become severe. The other altitudes are incorrect thresholds for this primary warning."
+    },
+    {
+      "question_number": 23,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Medium",
+      "question": "Which sensor type provides no cockpit indication?",
+      "options": {
+        "a": "Autosyn",
+        "b": "Direct reading",
+        "c": "Drip stick",
+        "d": "Transducer"
+      },
+      "correct_answer": "c",
+      "explanation": "A drip stick is a mechanical device used on the ground to visually check fuel quantity directly from under the wing; it provides no remote indication in the cockpit. Autosyn, direct reading gauges, and transducer systems are all designed to provide cockpit indications."
+    },
+    {
+      "question_number": 24,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Bellows expand and contract due to:",
+      "options": {
+        "a": "Fluid heating",
+        "b": "Electric input",
+        "c": "Pressure changes",
+        "d": "Magnetic field"
+      },
+      "correct_answer": "c",
+      "explanation": "Bellows are mechanical sensors that physically expand or contract along their axis in direct response to changes in pressure. Their movement is not caused by fluid heating, electric input, or magnetic fields."
+    },
+    {
+      "question_number": 25,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Risks",
+      "difficulty": "Medium",
+      "question": "Which system is most sensitive to atmospheric leaks?",
+      "options": {
+        "a": "Pneumatic",
+        "b": "Hydraulic",
+        "c": "Oxygen",
+        "d": "Static pressure"
+      },
+      "correct_answer": "d",
+      "explanation": "The static pressure system is extremely sensitive to leaks because it provides the reference pressure for the altimeter, VSI, and airspeed indicator. A leak would provide a false atmospheric reference, leading to erroneous readings on all three instruments. Pneumatic, hydraulic, and oxygen systems are less sensitive to minor atmospheric leaks."
+    },
+    {
+      "question_number": 26,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Bourdon tubes indicate pressure by:",
+      "options": {
+        "a": "Rotating pointer",
+        "b": "Expanding diameter",
+        "c": "Uncoiling motion",
+        "d": "Vibration"
+      },
+      "correct_answer": "c",
+      "explanation": "A Bourdon tube is a C-shaped or helical tube that tends to straighten or uncoil as the pressure inside it increases. This uncoiling motion is then mechanically linked to a rotating pointer on a dial to indicate the pressure."
+    },
+    {
+      "question_number": 27,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "Diaphragms are used for:",
+      "options": {
+        "a": "Measuring static electricity",
+        "b": "Visual display",
+        "c": "Low-pressure measurement",
+        "d": "Thermal expansion"
+      },
+      "correct_answer": "c",
+      "explanation": "Diaphragms are thin, flexible discs that are very sensitive to small pressure changes, making them ideal for low-pressure measurement applications. They are not used for measuring static electricity, visual displays, or thermal expansion."
+    },
+    {
+      "question_number": 28,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Easy",
+      "question": "A gage pressure sensor is referenced to:",
+      "options": {
+        "a": "Vacuum",
+        "b": "Atmospheric pressure",
+        "c": "Standard pressure",
+        "d": "Sea level"
+      },
+      "correct_answer": "b",
+      "explanation": "A gauge (or gage) pressure sensor measures pressure relative to the current local atmospheric pressure. Sensors referenced to a perfect vacuum measure absolute pressure. Standard pressure and sea level pressure are specific reference values, not the ambient reference used by a gauge sensor."
+    },
+    {
+      "question_number": 29,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Measurement Types",
+      "difficulty": "Medium",
+      "question": "Differential pressure can be measured using:",
+      "options": {
+        "a": "Sealed capsule",
+        "b": "Single bellows",
+        "c": "Twin-diaphragm capsule",
+        "d": "Mercury tube"
+      },
+      "correct_answer": "c",
+      "explanation": "A twin-diaphragm capsule is the ideal component for measuring differential pressure, as one pressure source can be applied to the inside of the capsule and the other to the outside. A sealed (aneroid) capsule is for absolute pressure, and a single bellows or mercury tube typically measures gauge pressure."
+    },
+    {
+      "question_number": 30,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "The capsule in an aneroid altimeter is:",
+      "options": {
+        "a": "Filled with mercury",
+        "b": "Filled with oil",
+        "c": "Vacuum sealed",
+        "d": "Air tight with standard pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "The aneroid capsule used in an altimeter is sealed with an internal vacuum. This allows it to expand and contract precisely with changes in the external static air pressure. It is not filled with any substance."
+    },
+    {
+      "question_number": 31,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "Sensor Types",
+      "difficulty": "Easy",
+      "question": "What is an aneroid capsule?",
+      "options": {
+        "a": "A fluid-filled pressure sensor",
+        "b": "An electrically heated pressure switch",
+        "c": "An evacuated, sealed diaphragm assembly",
+        "d": "A liquid barometer capsule"
+      },
+      "correct_answer": "c",
+      "explanation": "An aneroid capsule is defined as an assembly of one or more corrugated diaphragms that is evacuated and sealed. It is a mechanical sensor and is not filled with fluid or electrically heated."
+    },
+    {
+      "question_number": 32,
+      "lesson": "1",
+      "topic": "Pressure Instruments",
+      "subtopic": "System Applications",
+      "difficulty": "Easy",
+      "question": "Which of the following instruments uses an aneroid capsule?",
+      "options": {
+        "a": "Airspeed Indicator",
+        "b": "Turn Coordinator",
+        "c": "Altimeter",
+        "d": "Magnetic Compass"
+      },
+      "correct_answer": "c",
+      "explanation": "The altimeter is the primary instrument that uses an evacuated, sealed aneroid capsule to sense atmospheric pressure changes to indicate altitude. An airspeed indicator uses a diaphragm or capsule, but it's not aneroid (it's vented to static pressure). The turn coordinator is a gyro, and the compass is magnetic."
+    },
+    {
+      "question_number": 33,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Easy",
+      "question": "Which temperature measurement method uses two different metals?",
+      "options": {
+        "a": "Ratiometer",
+        "b": "Thermocouple",
+        "c": "Thermistor",
+        "d": "Wheatstone bridge"
+      },
+      "correct_answer": "b",
+      "explanation": "A thermocouple works on the Seebeck effect, where a voltage proportional to temperature is generated at the junction of two dissimilar metals. A ratiometer is an indicator, a thermistor is a single semiconductor material, and a Wheatstone bridge is a measurement circuit."
+    },
+    {
+      "question_number": 34,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Easy",
+      "question": "Where is the thermocouple usually installed for CHT measurement?",
+      "options": {
+        "a": "Inlet manifold",
+        "b": "Cylinder head",
+        "c": "Oil tank",
+        "d": "Air intake"
+      },
+      "correct_answer": "b",
+      "explanation": "CHT stands for Cylinder Head Temperature, so the thermocouple is placed directly on the cylinder head, typically under a spark plug gasket, to measure the temperature of the engine's hottest part. The other locations measure different temperatures (inlet air, oil, intake air)."
+    },
+    {
+      "question_number": 35,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Medium",
+      "question": "A dual thermocouple provides redundancy by:",
+      "options": {
+        "a": "Averaging temperatures",
+        "b": "Using one for cockpit, one for control systems",
+        "c": "Switching automatically",
+        "d": "Being interchangeable"
+      },
+      "correct_answer": "b",
+      "explanation": "A dual thermocouple has two independent junctions in a single probe. This allows it to send two separate signals, typically with one going to the cockpit display for the pilot and the other going to an engine control system (like a FADEC) for redundancy."
+    },
+    {
+      "question_number": 36,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Easy",
+      "question": "Which fuel quantity system has no moving parts?",
+      "options": {
+        "a": "Float-type",
+        "b": "Capacitance",
+        "c": "Mechanical rod",
+        "d": "Sight gauge"
+      },
+      "correct_answer": "b",
+      "explanation": "Capacitance-type fuel quantity systems are solid-state, using concentric tubes or probes to measure the dielectric constant of the fuel/air mixture, which changes with the fuel level. They have no moving parts, making them very reliable. All other options involve mechanical movement or direct observation."
+    },
+    {
+      "question_number": 37,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Medium",
+      "question": "In capacitance systems, what affects the dielectric constant?",
+      "options": {
+        "a": "Flow rate",
+        "b": "Fuel temperature",
+        "c": "Tank shape",
+        "d": "Fuel pressure"
+      },
+      "correct_answer": "b",
+      "explanation": "The dielectric constant of fuel changes with its density, which is affected by fuel temperature. Capacitance systems use a compensator unit to correct for these temperature-induced errors. Flow rate, tank shape, and pressure are not the primary factors affecting the dielectric constant."
+    },
+    {
+      "question_number": 38,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Easy",
+      "question": "What instrument displays both RPM and rotor speed in helicopters?",
+      "options": {
+        "a": "Mechanical tachometer",
+        "b": "Dual tachometer",
+        "c": "Torque meter",
+        "d": "Chronometer"
+      },
+      "correct_answer": "b",
+      "explanation": "A dual tachometer in a helicopter uses two concentric needles to display both engine RPM and main rotor RPM on a single gauge. This allows the pilot to easily monitor the critical relationship between engine and rotor speeds."
+    },
+    {
+      "question_number": 39,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Vibration Measurement",
+      "difficulty": "Medium",
+      "question": "What type of sensor uses a permanent magnet and a coil?",
+      "options": {
+        "a": "Ratiometer",
+        "b": "Velocity pickup",
+        "c": "Piezoelectric",
+        "d": "Thermistor"
+      },
+      "correct_answer": "b",
+      "explanation": "A velocity pickup is an electromagnetic sensor used for measuring vibration. It contains a coil and a permanent magnet; as the engine vibrates, relative motion between the two induces a voltage in the coil proportional to the velocity of the vibration. The answer key '91' is a typo."
+    },
+    {
+      "question_number": 40,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Easy",
+      "question": "What does a synchroscope indicate?",
+      "options": {
+        "a": "Speed deviation",
+        "b": "Synchronization of engines",
+        "c": "Fuel imbalance",
+        "d": "Electrical load"
+      },
+      "correct_answer": "b",
+      "explanation": "A synchroscope is used on multi-engine aircraft to indicate the relative speed difference between two engines, allowing the pilot to precisely match their speeds for smooth operation and to eliminate audible 'beating'."
+    },
+    {
+      "question_number": 41,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Warning Systems",
+      "difficulty": "Easy",
+      "question": "What happens if a stall warning switch activates?",
+      "options": {
+        "a": "Activates autopilot",
+        "b": "Closes fuel valves",
+        "c": "Alerts pilot of stall risk",
+        "d": "Increases engine thrust"
+      },
+      "correct_answer": "c",
+      "explanation": "The sole purpose of a stall warning switch is to activate an alert (such as a horn, light, or stick shaker) to inform the pilot that the wing's angle of attack is approaching the critical angle where a stall will occur. It does not command any other aircraft system."
+    },
+    {
+      "question_number": 42,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Proximity Sensing",
+      "difficulty": "Easy",
+      "question": "What is the main function of a proximity sensor in landing gear systems?",
+      "options": {
+        "a": "Detect gear speed",
+        "b": "Detect gear temperature",
+        "c": "Detect gear position without contact",
+        "d": "Detect hydraulic pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "Proximity sensors are used in landing gear systems to detect whether the gear is up and locked or down and locked. They do this without physical contact, making them very reliable. They do not measure speed, temperature, or pressure."
+    },
+    {
+      "question_number": 43,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Pressure Sensing",
+      "difficulty": "Easy",
+      "question": "What type of system is used to indicate oil pressure thresholds only?",
+      "options": {
+        "a": "Transducer",
+        "b": "Proximity sensor",
+        "c": "Pressure switch",
+        "d": "Thermocouple"
+      },
+      "correct_answer": "c",
+      "explanation": "A pressure switch is a simple device designed to open or close an electrical circuit at a specific pressure threshold, making it ideal for triggering a low- or high-pressure warning light. A transducer provides a variable reading, not just a threshold indication."
+    },
+    {
+      "question_number": 44,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Medium",
+      "question": "What is the key advantage of %RPM indicators?",
+      "options": {
+        "a": "Simpler wiring",
+        "b": "Easier calibration",
+        "c": "Standardized engine comparison",
+        "d": "More accuracy at low speeds"
+      },
+      "correct_answer": "c",
+      "explanation": "Displaying RPM as a percentage of a nominal maximum speed allows pilots to operate different types of jet engines using a standardized reference (e.g., 100% is takeoff thrust), rather than having to remember different absolute RPM numbers for each engine type."
+    },
+    {
+      "question_number": 45,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Easy",
+      "question": "A vane-type fuel flow sensor measures:",
+      "options": {
+        "a": "Mass",
+        "b": "Pressure",
+        "c": "Volume",
+        "d": "Temperature"
+      },
+      "correct_answer": "c",
+      "explanation": "A vane-type sensor measures the volume of fuel passing through it. The flowing fuel pushes against a spring-loaded vane, and the amount of vane deflection corresponds to the volumetric flow rate. It does not directly measure mass, pressure, or temperature."
+    },
+    {
+      "question_number": 46,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Medium",
+      "question": "Thermal dispersion fuel flow sensors use how many RTDs?",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "b",
+      "explanation": "A thermal dispersion sensor uses two Resistance Temperature Detectors (RTDs). One is heated to a constant temperature above the fuel, and the other measures the fuel temperature itself. The amount of power needed to maintain the temperature difference in the heated RTD is proportional to the mass flow rate of the fuel."
+    },
+    {
+      "question_number": 47,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Indicators",
+      "difficulty": "Medium",
+      "question": "The moving coil indicator returns to zero due to:",
+      "options": {
+        "a": "Electrical resistance",
+        "b": "Gravity",
+        "c": "Hairsprings",
+        "d": "Inductance"
+      },
+      "correct_answer": "c",
+      "explanation": "In a moving coil indicator, fine hairsprings provide a calibrated restoring torque that opposes the magnetic torque from the coil. When the electrical signal is removed, this spring force returns the pointer to the zero position."
+    },
+    {
+      "question_number": 48,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Indicators",
+      "difficulty": "Medium",
+      "question": "What is the main difference between a Wheatstone bridge and a ratiometer?",
+      "options": {
+        "a": "Size",
+        "b": "Number of coils",
+        "c": "Voltage sensitivity",
+        "d": "Power source"
+      },
+      "correct_answer": "c",
+      "explanation": "A key difference is that a ratiometer is designed to be insensitive to variations in the supply voltage, as it measures the ratio of currents in its coils. A basic Wheatstone bridge's output is directly affected by the supply voltage, making it voltage sensitive."
+    },
+    {
+      "question_number": 49,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Easy",
+      "question": "What is used to cross-check fuel quantity in case of electrical failure?",
+      "options": {
+        "a": "Direct gauge",
+        "b": "Drip stick",
+        "c": "Float-type gauge",
+        "d": "Sight glass"
+      },
+      "correct_answer": "b",
+      "explanation": "A drip stick is a mechanical, manual tool used to physically measure fuel quantity from under the wing. Because it requires no power, it serves as a reliable backup or cross-check for the primary electrical fuel gauges."
+    },
+    {
+      "question_number": 50,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Proximity Sensing",
+      "difficulty": "Medium",
+      "question": "Which sensor works with no moving parts and uses magnetic field detection?",
+      "options": {
+        "a": "Tacho generator",
+        "b": "Proximity sensor",
+        "c": "Float gauge",
+        "d": "Thermocouple"
+      },
+      "correct_answer": "b",
+      "explanation": "Inductive proximity sensors have no moving parts and work by generating a magnetic field. When a metal target (like the landing gear) enters this field, it disrupts it, causing a change in the sensor's circuit that is used to indicate position."
+    },
+    {
+      "question_number": 51,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Medium",
+      "question": "Tachometer output is proportional to:",
+      "options": {
+        "a": "Voltage",
+        "b": "Frequency",
+        "c": "Amperage",
+        "d": "Resistance"
+      },
+      "correct_answer": "b",
+      "explanation": "A common type of electrical tachometer generator produces an AC signal whose frequency is directly proportional to the rotational speed of the engine. The indicator in the cockpit then measures this frequency to display RPM."
+    },
+    {
+      "question_number": 52,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Vibration Measurement",
+      "difficulty": "Medium",
+      "question": "Which sensor is self-generating and requires no external supply?",
+      "options": {
+        "a": "Piezoelectric accelerometer",
+        "b": "Velocity pickup",
+        "c": "Thermistor",
+        "d": "Ratiometer"
+      },
+      "correct_answer": "a",
+      "explanation": "A piezoelectric accelerometer is self-generating. When subjected to vibration (acceleration), the piezoelectric crystal inside produces a voltage output directly, without the need for an external power supply. Velocity pickups, thermistors, and ratiometers all require external power to function."
+    },
+    {
+      "question_number": 53,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Easy",
+      "question": "What indicates improper synchronization in engines?",
+      "options": {
+        "a": "Dual tachometer",
+        "b": "Synchroscope",
+        "c": "Ratiometer",
+        "d": "Oil pressure switch"
+      },
+      "correct_answer": "b",
+      "explanation": "A synchroscope's pointer rotates when engine speeds are mismatched, indicating improper synchronization. The speed and direction of rotation show which engine is faster. When the speeds are matched, the pointer stops rotating."
+    },
+    {
+      "question_number": 54,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Warning Systems",
+      "difficulty": "Easy",
+      "question": "The stall warning switch is located:",
+      "options": {
+        "a": "On wingtip",
+        "b": "On control column",
+        "c": "Near stagnation point",
+        "d": "In instrument bay"
+      },
+      "correct_answer": "c",
+      "explanation": "The stall warning switch or sensor is placed on the wing's leading edge, near the stagnation point but positioned to detect the change in airflow as the angle of attack becomes critical. This location ensures it activates just before the stall occurs."
+    },
+    {
+      "question_number": 55,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Medium",
+      "question": "TAT is higher than SAT because of:",
+      "options": {
+        "a": "Ram rise",
+        "b": "Cooling",
+        "c": "Altitude",
+        "d": "Wind"
+      },
+      "correct_answer": "a",
+      "explanation": "Total Air Temperature (TAT) is higher than Static Air Temperature (SAT) due to the 'ram rise' or 'ram effect'—the compression and friction of air molecules as they are brought to rest on the surface of the temperature probe, which adds kinetic heat."
+    },
+    {
+      "question_number": 56,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Warning Systems",
+      "difficulty": "Medium",
+      "question": "Which device is used to detect local angle of attack?",
+      "options": {
+        "a": "TAT probe",
+        "b": "Thermistor",
+        "c": "Vane sensor",
+        "d": "Pitot tube"
+      },
+      "correct_answer": "c",
+      "explanation": "An angle of attack (AOA) vane sensor is a small, weather-vane-like device mounted on the fuselage that aligns itself with the local airflow. The angle of this vane relative to the aircraft's longitudinal axis is measured to determine the local AOA."
+    },
+    {
+      "question_number": 57,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Easy",
+      "question": "How many junctions does a typical thermocouple system use?",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "b",
+      "explanation": "A basic thermocouple system has two junctions: the 'hot' or 'measuring' junction located at the point where temperature is measured, and the 'cold' or 'reference' junction, which is typically at the indicating instrument."
+    },
+    {
+      "question_number": 58,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Fuel Systems",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a compensator in capacitance fuel systems?",
+      "options": {
+        "a": "Prevent leakage",
+        "b": "Equalize tank levels",
+        "c": "Correct for temperature effects",
+        "d": "Indicate low fuel"
+      },
+      "correct_answer": "c",
+      "explanation": "A compensator is a small capacitor placed at the lowest point in the tank. It measures the dielectric constant of the fuel, which changes with temperature/density, and allows the gauging system to automatically correct its readings for these variations."
+    },
+    {
+      "question_number": 59,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Proximity Sensing",
+      "difficulty": "Easy",
+      "question": "A proximity sensor works by detecting changes in:",
+      "options": {
+        "a": "Voltage",
+        "b": "Resistance",
+        "c": "Inductance",
+        "d": "Capacitance"
+      },
+      "correct_answer": "c",
+      "explanation": "An inductive proximity sensor, common in aviation, works by generating a high-frequency magnetic field. When a metal object enters the field, it induces eddy currents, which change the sensor's inductance. This change is detected by the internal circuitry to signal the object's presence."
+    },
+    {
+      "question_number": 60,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Temperature Measurement",
+      "difficulty": "Easy",
+      "question": "CHT thermocouple is installed on the:",
+      "options": {
+        "a": "Exhaust pipe",
+        "b": "Air intake",
+        "c": "Spark plug gasket",
+        "d": "Fuel line"
+      },
+      "correct_answer": "c",
+      "explanation": "A common method for installing a Cylinder Head Temperature (CHT) thermocouple is to use a special gasket-type probe that fits directly under a spark plug, ensuring excellent thermal contact with the cylinder head."
+    },
+    {
+      "question_number": 61,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Vibration Measurement",
+      "difficulty": "Easy",
+      "question": "Which of the following measures peak vibration amplitude?",
+      "options": {
+        "a": "EGT",
+        "b": "MASI",
+        "c": "Vibration indicator",
+        "d": "Suction gauge"
+      },
+      "correct_answer": "c",
+      "explanation": "A vibration indicator is specifically designed to measure the amplitude (and often frequency) of engine vibration to detect potential mechanical problems. EGT, MASI, and suction gauges measure temperature, airspeed, and pressure, respectively."
+    },
+    {
+      "question_number": 62,
+      "lesson": "2",
+      "topic": "Engine & Airframe Instruments",
+      "subtopic": "Rotational Speed",
+      "difficulty": "Easy",
+      "question": "Which component helps align engine speed with rotor RPM in helicopters?",
+      "options": {
+        "a": "EPR indicator",
+        "b": "Tachometer",
+        "c": "Dual tachometer",
+        "d": "Stall warning"
+      },
+      "correct_answer": "c",
+      "explanation": "The dual tachometer, with its two needles for engine RPM and rotor RPM on one dial, is the key instrument that allows the pilot to monitor and align these two critical speeds, especially during autorotation or engagement of the clutch."
+    },
+    {
+      "question_number": 63,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Overview",
+      "difficulty": "Easy",
+      "question": "Which instruments rely on pitot-static pressure?",
+      "options": {
+        "a": "Altimeter only",
+        "b": "Airspeed and VSI only",
+        "c": "Airspeed, VSI, and Altimeter",
+        "d": "Compass and altimeter"
+      },
+      "correct_answer": "c",
+      "explanation": "The three fundamental flight instruments that form the pitot-static system are the Airspeed Indicator (uses pitot and static), the Vertical Speed Indicator (uses static), and the Altimeter (uses static). The compass is not part of this system."
+    },
+    {
+      "question_number": 64,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Instrument Function",
+      "difficulty": "Easy",
+      "question": "What does the altimeter measure?",
+      "options": {
+        "a": "Indicated airspeed",
+        "b": "True altitude",
+        "c": "Atmospheric pressure to show altitude",
+        "d": "Vertical speed"
+      },
+      "correct_answer": "c",
+      "explanation": "An altimeter is fundamentally an aneroid barometer that measures ambient static atmospheric pressure and displays this measurement as altitude based on a predefined pressure-altitude relationship. It does not measure airspeed, true altitude directly, or vertical speed."
+    },
+    {
+      "question_number": 65,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What causes a blocked pitot tube to give incorrect readings?",
+      "options": {
+        "a": "Static pressure leakage",
+        "b": "Compression of air",
+        "c": "Trapped air in the tube",
+        "d": "Calibration error"
+      },
+      "correct_answer": "c",
+      "explanation": "If the pitot tube opening becomes blocked (e.g., by ice or an insect), the pressure inside is trapped. This trapped air pressure causes the airspeed indicator to act like an altimeter, with airspeed increasing as the aircraft climbs and decreasing as it descends."
+    },
+    {
+      "question_number": 66,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Instrument Function",
+      "difficulty": "Easy",
+      "question": "What does a VSI use to function?",
+      "options": {
+        "a": "Pitot pressure",
+        "b": "Differential aneroid",
+        "c": "Static pressure change",
+        "d": "Gyroscopic sensor"
+      },
+      "correct_answer": "c",
+      "explanation": "The Vertical Speed Indicator (VSI) works by measuring the rate of change of static pressure. It compares the current static pressure inside a diaphragm with the slightly delayed static pressure in the case around it (via a calibrated leak), indicating a climb or descent."
+    },
+    {
+      "question_number": 67,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Digital Systems",
+      "difficulty": "Easy",
+      "question": "Which of the following is true about the Air Data Computer (ADC)?",
+      "options": {
+        "a": "Uses mechanical linkages",
+        "b": "Measures pressure at cockpit",
+        "c": "Converts pressures to electrical signals",
+        "d": "Is located on wingtip"
+      },
+      "correct_answer": "c",
+      "explanation": "An Air Data Computer is a solid-state device that takes raw pitot and static pressure data from sensors and converts it into digital electrical signals for use by the EFIS, autopilot, and other systems. It replaces older, individual mechanical instruments."
+    },
+    {
+      "question_number": 68,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Easy",
+      "question": "What is the purpose of drain holes in pitot-static probes?",
+      "options": {
+        "a": "Drain oil",
+        "b": "Eliminate water",
+        "c": "Reduce vibration",
+        "d": "Heat the tube"
+      },
+      "correct_answer": "b",
+      "explanation": "Drain holes are included in pitot-static probes to allow any moisture that enters the system, such as rain or condensation, to escape. This prevents water from freezing and causing a blockage. They are not for oil, vibration reduction, or heating."
+    },
+    {
+      "question_number": 69,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeter Settings",
+      "difficulty": "Medium",
+      "question": "QNH setting on an altimeter reads:",
+      "options": {
+        "a": "Height above airfield",
+        "b": "True altitude",
+        "c": "Altitude above sea level",
+        "d": "Pressure altitude"
+      },
+      "correct_answer": "c",
+      "explanation": "When QNH (the local atmospheric pressure corrected to sea level) is set in the altimeter's Kollsman window, the altimeter indicates the aircraft's altitude above mean sea level (MSL). Height above the airfield is indicated by QFE, and pressure altitude is shown when 1013.25 hPa / 29.92 inHg is set."
+    },
+    {
+      "question_number": 70,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Easy",
+      "question": "What kind of probe measures TAT (Total Air Temperature)?",
+      "options": {
+        "a": "Static vent",
+        "b": "Ram air vent",
+        "c": "Heated probe with resistor",
+        "d": "Bellows-type sensor"
+      },
+      "correct_answer": "c",
+      "explanation": "A TAT probe is an electrically heated probe containing a resistive sensing element (like a platinum wire resistor). It measures the total air temperature, which includes the heat generated by ram air compression. A static vent or ram air vent senses pressure, and bellows are pressure sensors."
+    },
+    {
+      "question_number": 71,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "Which error affects the Mach indicator at high altitudes?",
+      "options": {
+        "a": "Lag error",
+        "b": "Position error",
+        "c": "Compressibility error",
+        "d": "Calibration error"
+      },
+      "correct_answer": "c",
+      "explanation": "Compressibility error is the primary error that affects airspeed and Mach indication at high speeds and high altitudes. It occurs because air behaves like a compressible fluid under these conditions, causing the pitot pressure to increase more than it would at low speeds for the same true airspeed."
+    },
+    {
+      "question_number": 72,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Instrument Function",
+      "difficulty": "Easy",
+      "question": "How does the Airspeed Indicator work?",
+      "options": {
+        "a": "Measures cabin pressure",
+        "b": "Measures static pressure alone",
+        "c": "Measures difference between pitot and static pressures",
+        "d": "Uses accelerometers"
+      },
+      "correct_answer": "c",
+      "explanation": "An airspeed indicator is a differential pressure gauge. It measures the difference between the total pressure captured by the pitot tube and the static pressure from the static port. This difference is dynamic pressure, which corresponds to airspeed."
+    },
+    {
+      "question_number": 73,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Medium",
+      "question": "The total pressure sensed by the pitot probe is:",
+      "options": {
+        "a": "Static pressure",
+        "b": "Dynamic pressure",
+        "c": "Stagnation pressure",
+        "d": "Cabin pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "The total pressure captured by a pitot probe is called stagnation pressure. It is the sum of the ambient static pressure and the dynamic pressure caused by the aircraft's motion through the air."
+    },
+    {
+      "question_number": 74,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Instrument Function",
+      "difficulty": "Easy",
+      "question": "Which device measures cabin altitude?",
+      "options": {
+        "a": "Airspeed Indicator",
+        "b": "Encoding altimeter",
+        "c": "Cabin altimeter",
+        "d": "Vertical speed indicator"
+      },
+      "correct_answer": "c",
+      "explanation": "A cabin altimeter is a dedicated instrument that measures the pressure inside the aircraft's cabin and displays it as an equivalent altitude. This allows the crew to monitor the performance of the pressurization system. The other instruments measure flight parameters based on outside air pressure."
+    },
+    {
+      "question_number": 75,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What error occurs when static pressure sensed differs from actual atmospheric pressure due to airflow disturbances?",
+      "options": {
+        "a": "Lag error",
+        "b": "Compressibility error",
+        "c": "Position error",
+        "d": "Calibration error"
+      },
+      "correct_answer": "c",
+      "explanation": "Position error occurs because the airflow around the fuselage can cause the pressure at the static port location to be slightly different from the true, undisturbed atmospheric pressure. This error varies with airspeed and aircraft configuration."
+    },
+    {
+      "question_number": 76,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Easy",
+      "question": "A blocked static port will primarily affect which instrument?",
+      "options": {
+        "a": "Turn indicator",
+        "b": "Altimeter",
+        "c": "Magnetic compass",
+        "d": "Clock"
+      },
+      "correct_answer": "b",
+      "explanation": "A blocked static port will trap the air pressure at the altitude where the blockage occurred, causing the altimeter to freeze at that value. The VSI will read zero, and the ASI will be inaccurate. The turn indicator, compass, and clock are unaffected as they do not use static pressure."
+    },
+    {
+      "question_number": 77,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Digital Systems",
+      "difficulty": "Easy",
+      "question": "The function of an encoding altimeter is to:((leave it………please A) Display true altitudeB) Transmit altitude electronically C) Show airspeedD) Provide barometric pressure",
+      "options": {
+        "a": "Display true altitude",
+        "b": "Transmit altitude electronically",
+        "c": "Show airspeed",
+        "d": "Provide barometric pressure"
+      },
+      "correct_answer": "leave it",
+      "explanation": "As per the instructions in the source material, this question is to be left. However, the correct function is to transmit altitude electronically in a specific code (e.g., Gillham code) for use by the transponder (Mode C) and other systems."
+    },
+    {
+      "question_number": 78,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeter Settings",
+      "difficulty": "Medium",
+      "question": "Which ‘Q’ code is used to make the altimeter read zero at an airfield?",
+      "options": {
+        "a": "QNH",
+        "b": "QNE",
+        "c": "QFE",
+        "d": "QAZ"
+      },
+      "correct_answer": "c",
+      "explanation": "QFE is the atmospheric pressure at the airfield elevation. When QFE is set in the altimeter, it will read a height of zero on the ground at that specific airfield. QNH provides altitude above sea level, and QNE is the standard pressure setting (1013.25/29.92)."
+    },
+    {
+      "question_number": 79,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Digital Systems",
+      "difficulty": "Easy",
+      "question": "What does the Air Data Computer (ADC) replace in modern aircraft?",
+      "options": {
+        "a": "Mechanical gyros",
+        "b": "Pressure-sensing instruments",
+        "c": "Fuel indicators",
+        "d": "Magnetic sensors"
+      },
+      "correct_answer": "b",
+      "explanation": "In a modern glass cockpit, the Air Data Computer replaces the individual mechanical pressure-sensing instruments (the altimeter, airspeed indicator, and VSI). Mechanical gyros are replaced by Attitude and Heading Reference Systems (AHRS)."
+    },
+    {
+      "question_number": 80,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What happens when pitot tube and drain hole are both blocked?",
+      "options": {
+        "a": "ASI drops to zero",
+        "b": "ASI increases with climb",
+        "c": "VSI gives negative indication",
+        "d": "Altimeter reads zero"
+      },
+      "correct_answer": "b",
+      "explanation": "When the pitot tube and its drain hole are both blocked, the total pressure line becomes sealed. The airspeed indicator will then act like an altimeter, as the trapped pitot pressure remains constant while the static pressure (from the still-functioning static port) decreases with a climb, resulting in an indicated increase in airspeed."
+    },
+    {
+      "question_number": 81,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "A VSI with orifice lag measures rate of climb based on:",
+      "options": {
+        "a": "Dynamic pressure",
+        "b": "Total pressure",
+        "c": "Change in static pressure over time",
+        "d": "Barometric pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "The VSI works by using a calibrated leak (orifice) to create a time lag in the pressure change within its case compared to the instantaneous pressure inside its diaphragm. This lag creates a pressure differential that is proportional to the rate of change of static pressure, which is the rate of climb or descent."
+    },
+    {
+      "question_number": 82,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeter Settings",
+      "difficulty": "Easy",
+      "question": "The barometric scale used to set altimeter to a standard pressure is called:",
+      "options": {
+        "a": "Cabin dial",
+        "b": "Kollsman window",
+        "c": "Manometer",
+        "d": "Pressure knob"
+      },
+      "correct_answer": "b",
+      "explanation": "The small, adjustable sub-scale on an altimeter where the pilot sets the local barometric pressure (like QNH or QFE) is known as the Kollsman window. The pressure knob is used to adjust the setting in this window."
+    },
+    {
+      "question_number": 83,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Easy",
+      "question": "The static ports on pressurized aircraft are connected to:",
+      "options": {
+        "a": "Pitot probe only",
+        "b": "Internal cabin air",
+        "c": "External static vents",
+        "d": "Cockpit sensors"
+      },
+      "correct_answer": "c",
+      "explanation": "Static ports must always be connected to the external static vents to sense the true, undisturbed outside air pressure for accurate flight instrument readings. Connecting them to internal cabin air would give grossly inaccurate readings, especially in a pressurized aircraft."
+    },
+    {
+      "question_number": 84,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What type of airspeed is affected by compressibility?",
+      "options": {
+        "a": "Calibrated airspeed",
+        "b": "True airspeed",
+        "c": "Equivalent airspeed",
+        "d": "Indicated airspeed"
+      },
+      "correct_answer": "c",
+      "explanation": "Equivalent Airspeed (EAS) is calibrated airspeed (CAS) corrected for compressibility effects. This correction is necessary because at high speeds, the air compresses in the pitot tube, causing the aircraft to 'feel' a higher dynamic pressure than it actually has."
+    },
+    {
+      "question_number": 85,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Medium",
+      "question": "What is the most accurate measure of aircraft’s movement through the air mass?",
+      "options": {
+        "a": "Indicated airspeed",
+        "b": "Calibrated airspeed",
+        "c": "True airspeed",
+        "d": "Mach number"
+      },
+      "correct_answer": "c",
+      "explanation": "True Airspeed (TAS) is the actual speed of the aircraft relative to the air mass it is flying through. It is calculated by correcting equivalent airspeed for air density. Indicated and calibrated airspeeds are subject to various errors and do not represent the true speed."
+    },
+    {
+      "question_number": 86,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Units and Principles",
+      "difficulty": "Easy",
+      "question": "The formula for dynamic pressure is:",
+      "options": {
+        "a": "ρV",
+        "b": "p + V",
+        "c": "½ρV²",
+        "d": "p × V"
+      },
+      "correct_answer": "c",
+      "explanation": "The formula for dynamic pressure (q) is q = ½ρV², where ρ (rho) is the air density and V is the true airspeed. This pressure is what the airspeed indicator measures."
+    },
+    {
+      "question_number": 87,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "Which device reduces lag in VSI systems?",
+      "options": {
+        "a": "Thermistor",
+        "b": "Dashpot piston",
+        "c": "Encoder",
+        "d": "Rocker arm"
+      },
+      "correct_answer": "b",
+      "explanation": "In an instantaneous VSI (IVSI), a dashpot piston assembly is used to provide an immediate, albeit uncorrected, indication of climb or descent, which helps to overcome the inherent lag of a standard VSI. This gives the pilot an initial trend indication."
+    },
+    {
+      "question_number": 88,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Easy",
+      "question": "Static vents are usually located:",
+      "options": {
+        "a": "On the landing gear",
+        "b": "Inside cockpit",
+        "c": "On both sides of fuselage",
+        "d": "Behind pitot tubes"
+      },
+      "correct_answer": "c",
+      "explanation": "Static vents are typically located flush on both sides of the fuselage in an area where the airflow is least disturbed. Having ports on both sides helps to average out pressure differences that can occur during slips or skids."
+    },
+    {
+      "question_number": 89,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Components",
+      "difficulty": "Easy",
+      "question": "What kind of heating is used in pitot probes to prevent icing?",
+      "options": {
+        "a": "Oil heating",
+        "b": "Chemical",
+        "c": "Electrical resistive heating",
+        "d": "Hydraulic"
+      },
+      "correct_answer": "c",
+      "explanation": "Pitot probes are protected from icing by an internal electrical resistive heating element. The pilot can activate this 'pitot heat' to prevent ice from forming and blocking the probe's opening. Oil, chemical, or hydraulic heating are not used for this purpose."
+    },
+    {
+      "question_number": 90,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Digital Systems",
+      "difficulty": "Easy",
+      "question": "Which component calculates SAT from TAT in digital systems?",
+      "options": {
+        "a": "MASI",
+        "b": "EADI",
+        "c": "ADC",
+        "d": "VSI"
+      },
+      "correct_answer": "c",
+      "explanation": "The Air Data Computer (ADC) receives the measured Total Air Temperature (TAT) and the Mach number, and then calculates the Static Air Temperature (SAT) by subtracting the ram rise component. The other listed instruments are displays or sensors, not calculation units for this purpose."
+    },
+    {
+      "question_number": 91,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Instrument Function",
+      "difficulty": "Medium",
+      "question": "In an airspeed indicator, square-law compensation is needed because:",
+      "options": {
+        "a": "It is easier to read",
+        "b": "Airspeed is linear",
+        "c": "Pressure varies as square of velocity",
+        "d": "It eliminates static error"
+      },
+      "correct_answer": "c",
+      "explanation": "Dynamic pressure is proportional to the square of the airspeed (V²). This means the instrument's internal mechanism must incorporate a 'square-law' compensation (often a cam or eccentric linkage) to create a more linear and readable scale, especially at lower airspeeds where pressure changes are very small."
+    },
+    {
+      "question_number": 92,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What is the effect of a position error in pitot-static systems?",
+      "options": {
+        "a": "Incorrect heading",
+        "b": "Incorrect altimeter and airspeed readings",
+        "c": "Fuel imbalance",
+        "d": "Overheating of ADC"
+      },
+      "correct_answer": "b",
+      "explanation": "Position error introduces a false static pressure reference. Since both the altimeter and airspeed indicator rely on this static pressure for their calculations, both instruments will display incorrect readings. This error does not affect heading, fuel balance, or the ADC's temperature."
+    }
+  ]
+}

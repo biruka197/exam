@@ -1,0 +1,904 @@
+[
+    {
+        "question_number": 1,
+        "question": "What gives the colour of an LED?",
+        "options": {
+            "a": "The active element",
+            "b": "The plastic it is encased in",
+            "c": "The type of gas used inside it"
+        },
+        "correct_answer": "a",
+        "explanation": "The color of an LED is determined by the semiconductor material used as the active element. This material's properties dictate the energy gap, which in turn determines the wavelength and thus the color of the light emitted."
+    },
+    {
+        "question_number": 2,
+        "question": "Why is a diode put in parallel with an LED?",
+        "options": {
+            "a": "To protect it from AC",
+            "b": "So it will work only above a certain voltage",
+            "c": "So it will work only below a certain voltage"
+        },
+        "correct_answer": "a",
+        "explanation": "In an AC circuit, a diode is placed in parallel with an LED to protect it from the reverse voltage portion of the AC cycle. LEDs have a low reverse breakdown voltage and can be damaged if exposed to it."
+    },
+    {
+        "question_number": 3,
+        "question": "When testing the forward bias of a diode with a multimeter:",
+        "options": {
+            "a": "the positive lead of the ohmmeter is placed on the anode",
+            "b": "it does not matter which terminal the positive lead of the ohmeter is placed",
+            "c": "the positive lead of the ohmmeter is placed on the cathode"
+        },
+        "correct_answer": "a",
+        "explanation": "To forward bias a diode, a positive voltage must be applied to the anode and a negative voltage to the cathode. When using a multimeter's diode test function, the positive lead supplies this positive potential."
+    },
+    {
+        "question_number": 4,
+        "question": "Which of the following best describes a PRIMARY key characteristic distinguishing a thyristor from other semiconductor devices?",
+        "options": {
+            "a": "High voltage handling",
+            "b": "High power handling",
+            "c": "Ability to switch high currents with a small control signal"
+        },
+        "correct_answer": "c",
+        "explanation": "While thyristors can handle high voltages and power, their defining characteristic is their ability to switch unidirectional high currents with a relatively small control signal. This latching behavior and high current switching capability are key differences compared to other semiconductor switches like transistors which require continuous control signals to maintain conduction."
+    },
+    {
+        "question_number": 5,
+        "question": "In a semiconductor junction diode, electrons are the minority carriers:",
+        "options": {
+            "a": "within the P region",
+            "b": "within the N region",
+            "c": "in both the N and P regions."
+        },
+        "correct_answer": "a",
+        "explanation": "In P-type semiconductor material, holes are the majority charge carriers. Therefore, electrons are the minority charge carriers within the P region."
+    },
+    {
+        "question_number": 6,
+        "question": "A zener diode:",
+        "options": {
+            "a": "allows current to flow in one direction",
+            "b": "stabilizes voltage at a predetermined level",
+            "c": "acts like a switch"
+        },
+        "correct_answer": "b",
+        "explanation": "The primary characteristic of a Zener diode is its ability to maintain a stable voltage across itself when operated in reverse bias at its 'Zener' voltage, making it ideal for voltage regulation."
+    },
+    {
+        "question_number": 7,
+        "question": "Reverse bias:",
+        "options": {
+            "a": "raises the potential barrier",
+            "b": "lowers the potential barrier",
+            "c": "greatly increases the majority carrier current"
+        },
+        "correct_answer": "a",
+        "explanation": "Applying a reverse bias voltage to a PN junction increases the width of the depletion region, which in turn raises the potential barrier and opposes the flow of majority charge carriers."
+    },
+    {
+        "question_number": 8,
+        "question": "A diode connected across a relay coil is used to:",
+        "options": {
+            "a": "dissipate coil spikes on switch off",
+            "b": "allow the coil to energize with only one polarity",
+            "c": "cause a delay in switching on"
+        },
+        "correct_answer": "a",
+        "explanation": "This configuration uses a 'flyback' or 'snubber' diode. When the relay is switched off, the collapsing magnetic field of the coil induces a large voltage spike, and the diode provides a safe path to dissipate this energy."
+    },
+    {
+        "question_number": 9,
+        "question": "A thyristor has which of the following?",
+        "options": {
+            "a": "A positive temperature coefficient",
+            "b": "High resistance when switched off",
+            "c": "High resistance when switched on"
+        },
+        "correct_answer": "b",
+        "explanation": "When a thyristor is in its 'off' or forward-blocking state, it exhibits a very high resistance, preventing current from flowing through it."
+    },
+    {
+        "question_number": 10,
+        "question": "An atom with 5 electrons in its outer shell is part of:",
+        "options": {
+            "a": "a C type material",
+            "b": "a P type material",
+            "c": "an N type material"
+        },
+        "correct_answer": "c",
+        "explanation": "Atoms with five valence electrons (pentavalent) are used as 'donor' impurities to create N-type semiconductor material. The fifth electron is free to act as a charge carrier."
+    },
+    {
+        "question_number": 11,
+        "question": "A diode which emits photons when conducting is a:",
+        "options": {
+            "a": "light emitting",
+            "b": "varactor",
+            "c": "zener"
+        },
+        "correct_answer": "a",
+        "explanation": "A light-emitting diode (LED) is a semiconductor device specifically designed to emit light (photons) when forward biased, as a result of electron-hole recombination."
+    },
+    {
+        "question_number": 12,
+        "question": "The electrodes of an SCR are:",
+        "options": {
+            "a": "gate, cathode, anode",
+            "b": "source, drain, gate",
+            "c": "anode, cathode, source"
+        },
+        "correct_answer": "a",
+        "explanation": "An SCR (Silicon-Controlled Rectifier), a type of thyristor, is a three-terminal device with an anode, a cathode, and a gate that controls the switching action."
+    },
+    {
+        "question_number": 13,
+        "question": "What is the typical volts drop across an LED:",
+        "options": {
+            "a": "0.2V",
+            "b": "0.4V",
+            "c": "1.6V"
+        },
+        "correct_answer": "c",
+        "explanation": "The forward voltage drop across an LED varies by color, but 1.6V is a typical value, common for red LEDs."
+    },
+    {
+        "question_number": 14,
+        "question": "The anode of a diode is connected to a +6V DC supply and the cathode is connected to a +2V DC supply. The diode is:",
+        "options": {
+            "a": "forward biased not conducting",
+            "b": "reverse biased not conducting",
+            "c": "forward biased conducting"
+        },
+        "correct_answer": "c",
+        "explanation": "A diode is forward biased when its anode potential is higher than its cathode potential. Since +6V is greater than +2V, the diode is forward biased and will conduct current."
+    },
+    {
+        "question_number": 15,
+        "question": "Using electron flow in a diode, the current flows from:",
+        "options": {
+            "a": "Anode to Cathode",
+            "b": "Cathode to Base",
+            "c": "Cathode to Anode"
+        },
+        "correct_answer": "c",
+        "explanation": "Electron flow describes the actual movement of electrons, which travel from a negative potential to a positive potential. In a conducting diode, this means electrons flow from the cathode (negative terminal) to the anode (positive terminal)."
+    },
+    {
+        "question_number": 16,
+        "question": "A germanium diode:",
+        "options": {
+            "a": "has a lower forward bias voltage than a silicon diode",
+            "b": "has a higher forward bias voltage than a silicon diode",
+            "c": "has the same forward bias voltage as a silicon diode"
+        },
+        "correct_answer": "a",
+        "explanation": "A germanium diode has a forward voltage drop of approximately 0.3V, which is lower than the typical 0.7V forward drop of a silicon diode."
+    },
+    {
+        "question_number": 17,
+        "question": "When an SCR is switched on it has:",
+        "options": {
+            "a": "low resistance",
+            "b": "no change in resistance",
+            "c": "high resistance"
+        },
+        "correct_answer": "a",
+        "explanation": "Once an SCR is triggered into its 'on' state, it becomes highly conductive and exhibits a very low resistance between its anode and cathode."
+    },
+    {
+        "question_number": 18,
+        "question": "What are the majority carriers for a forward biased PN junction device?",
+        "options": {
+            "a": "Electrons and holes",
+            "b": "Holes",
+            "c": "Electrons"
+        },
+        "correct_answer": "a",
+        "explanation": "In a forward-biased PN junction, the applied voltage forces the majority carriers\u2014electrons from the N-region and holes from the P-region\u2014to move across the junction, creating the main current flow."
+    },
+    {
+        "question_number": 19,
+        "question": "A Zener diode is used for:",
+        "options": {
+            "a": "voltage stabilisation",
+            "b": "rectification",
+            "c": "voltage regulation"
+        },
+        "correct_answer": "c",
+        "explanation": "A Zener diode is specifically designed for voltage regulation, using its constant reverse breakdown voltage characteristic to maintain a steady output voltage."
+    },
+    {
+        "question_number": 20,
+        "question": "What component is used to turn AC to DC?",
+        "options": {
+            "a": "oscillator",
+            "b": "Diode",
+            "c": "Transistor"
+        },
+        "correct_answer": "b",
+        "explanation": "A diode is the fundamental electronic component used for rectification, the process of converting Alternating Current (AC) into Direct Current (DC)."
+    },
+    {
+        "question_number": 21,
+        "question": "What is an intrinsic material?",
+        "options": {
+            "a": "one with added elements",
+            "b": "one with removed elements",
+            "c": "a pure material"
+        },
+        "correct_answer": "c",
+        "explanation": "An intrinsic semiconductor is a chemically pure semiconductor material without any significant doping impurities added."
+    },
+    {
+        "question_number": 22,
+        "question": "A diode is parallel to an LED in an AC circuit to:",
+        "options": {
+            "a": "provide correct amount of current for LED when circuit is switched on",
+            "b": "prevent back EMF in the circuit when LED is switched off",
+            "c": "protect LED from AC current when switched on"
+        },
+        "correct_answer": "c",
+        "explanation": "Placing a standard diode in anti-parallel with an LED in an AC circuit protects the LED from damage by conducting during the reverse voltage half of the AC cycle."
+    },
+    {
+        "question_number": 23,
+        "question": "Tunnel diodes have the following characteristics:",
+        "options": {
+            "a": "Heavily doped P-N junction with an extremely narrow depletion region",
+            "b": "Lightly doped P and N regions and a high reverse breakdown voltage",
+            "c": "Lightly doped P region, heavily doped N region and has a fast response time"
+        },
+        "correct_answer": "a",
+        "explanation": "A tunnel diode is characterized by a very heavily doped P-N junction, which results in an extremely thin depletion region, allowing for the quantum mechanical phenomenon of tunneling."
+    },
+    {
+        "question_number": 24,
+        "question": "The capacitance of a varactor diode is:",
+        "options": {
+            "a": "inversely proportional to the reverse bias voltage",
+            "b": "a linear function of applied reverse bias voltage",
+            "c": "does not have any relationship to the reverse bias voltage"
+        },
+        "correct_answer": "a",
+        "explanation": "A varactor (or varicap) diode functions as a voltage-controlled capacitor. As the reverse bias voltage increases, the depletion region widens, which decreases the capacitance. Thus, the capacitance is inversely proportional to the reverse bias voltage."
+    },
+    {
+        "question_number": 25,
+        "question": "The junction barrier offers opposition to only:",
+        "options": {
+            "a": "holes in the p-region",
+            "b": "free electrons in the n-region",
+            "c": "majority carriers in both regions"
+        },
+        "correct_answer": "c",
+        "explanation": "The potential barrier, or depletion region, at a PN junction opposes the natural diffusion of majority carriers across the junction\u2014holes from the P-region and electrons from the N-region."
+    },
+    {
+        "question_number": 26,
+        "question": "If forward bias is increased from zero on a p-n junction, a rapid increase in current flow for a relatively small increase in voltage occurs:",
+        "options": {
+            "a": "when the flow of minority carriers is sufficient to cause an avalanche breakdown.",
+            "b": "when the depletion layer becomes larger than the space charge area",
+            "c": "only after the forward bias exceeds the potential barrier."
+        },
+        "correct_answer": "c",
+        "explanation": "Significant current begins to flow through a PN junction only after the applied forward bias voltage is large enough to overcome the device's inherent potential barrier (approximately 0.7V for silicon)."
+    },
+    {
+        "question_number": 27,
+        "question": "Which of the following explains how the photodiode works?",
+        "options": {
+            "a": "Photodiodes are forward biased to conduct when light falls upon them",
+            "b": "Photodiodes are back biased not to conduct when light falls upon them",
+            "c": "Photodiodes are back biased to conduct when light falls upon them"
+        },
+        "correct_answer": "c",
+        "explanation": "A photodiode is typically operated under reverse bias. When light strikes the junction, it generates electron-hole pairs, which are then swept across the junction by the electric field, creating a reverse current proportional to the light intensity."
+    },
+    {
+        "question_number": 28,
+        "question": "For correct operation of a transistor, the following conditions must apply:",
+        "options": {
+            "a": "The base-emitter junction must be forward biased and the base-collector junction must be greater than 0.7 volts",
+            "b": "For an NPN transistor the base-emitter junction must be forward biased and for a PNP transistor the base emitter junction must be reverse biased",
+            "c": "The base-collector junction must be reverse biased and the base-emitter junction must be forward biased"
+        },
+        "correct_answer": "c",
+        "explanation": "For a bipolar junction transistor (BJT) to operate in its active region (for amplification), the base-emitter junction must be forward biased and the base-collector junction must be reverse biased."
+    },
+    {
+        "question_number": 29,
+        "question": "When a positive voltage is applied to the base of a normally biased n-p-n common emitter amplifier:",
+        "options": {
+            "a": "the collector voltage goes less positive",
+            "b": "the emitter current decreases",
+            "c": "the base current decreases"
+        },
+        "correct_answer": "a",
+        "explanation": "Applying a positive voltage to the base increases base current, which in turn increases collector current. This larger collector current causes a greater voltage drop across the collector resistor, causing the collector's voltage potential to decrease (become less positive)."
+    },
+    {
+        "question_number": 30,
+        "question": "In a flight management system(FMS), data is input manually to the computing system through the:",
+        "options": {
+            "a": "data acquisition unit",
+            "b": "Electronic centralaised aircraft monitoring control pannel",
+            "c": "the control and display unit"
+        },
+        "correct_answer": "c",
+        "explanation": "The Control and Display Unit (CDU) is the primary interface for pilots, featuring a screen and keypad to manually input and manage data within the Flight Management System."
+    },
+    {
+        "question_number": 31,
+        "question": "A flight management system (FMS) data bank is updated:",
+        "options": {
+            "a": "every 365 days",
+            "b": "every 28 days",
+            "c": "every 28 days"
+        },
+        "correct_answer": "b",
+        "explanation": "Aviation navigation databases follow the Aeronautical Information Regulation and Control (AIRAC) cycle, which is updated every 28 days to ensure the data is current and accurate."
+    },
+    {
+        "question_number": 32,
+        "question": "Electronic centralised aircraft monitor (ECAM):",
+        "options": {
+            "a": "displays engine performance continously",
+            "b": "displays engine data in the event of a fualt condition",
+            "c": "has a lower screen that is blank"
+        },
+        "correct_answer": "b",
+        "explanation": "The ECAM system prioritizes information, continuously showing vital engine data while automatically displaying specific system data and procedures primarily in the event of a fault or abnormal condition."
+    },
+    {
+        "question_number": 33,
+        "question": "The Characteristic Curve of a transistor is plotted on axis of:",
+        "options": {
+            "a": "base current against Vce.",
+            "b": "collector current against Vbe.",
+            "c": "collector current against Vce."
+        },
+        "correct_answer": "c",
+        "explanation": "A standard set of output characteristic curves for a bipolar junction transistor plots the collector current ($I_C$) on the y-axis against the collector-emitter voltage ($V_{CE}$) on the x-axis, with each curve representing a different constant base current ($I_B$)."
+    },
+    {
+        "question_number": 34,
+        "question": "What material would have 3 electrons in the outermost orbit?",
+        "options": {
+            "a": "Majority Carrier material",
+            "b": "The donor to an N-Type semi-conductor material",
+            "c": "The acceptor to a P-Type semi-conductor material."
+        },
+        "correct_answer": "c",
+        "explanation": "An atom with 3 valence electrons (trivalent) is used as an 'acceptor' impurity to create P-type semiconductor material. It creates a 'hole' in the crystal lattice, which acts as a positive charge carrier."
+    },
+    {
+        "question_number": 35,
+        "question": "What type of gate is an OR gate with both inverted inputs and inverted outputs?",
+        "options": {
+            "a": "NAND gate",
+            "b": "NOR gate",
+            "c": "AND gate"
+        },
+        "correct_answer": "c",
+        "explanation": "An OR gate with inverted inputs ($(\\overline{A} + \\overline{B})$) is equivalent to a NAND gate ($(\\overline{A \\cdot B})$) by De Morgan's laws. Inverting the output of this NAND gate ($(\\overline{\\overline{A \\cdot B}})$) results in a standard AND gate ($A \\cdot B$)."
+    },
+    {
+        "question_number": 36,
+        "question": "What gate does the following Boolean expression represent F = A.B.C:",
+        "options": {
+            "a": "AND",
+            "b": "OR",
+            "c": "NOT"
+        },
+        "correct_answer": "a",
+        "explanation": "In Boolean algebra, the dot operator (e.g., A.B.C) represents the logical AND operation."
+    },
+    {
+        "question_number": 37,
+        "question": "when (37)8 is subtracted from (55)8, the resulting decimal number is:",
+        "options": {
+            "a": "(19)10",
+            "b": "(16)10",
+            "c": "(14)10"
+        },
+        "correct_answer": "c",
+        "explanation": "First, convert the octal numbers to decimal: $(55)_8 = 5 \\times 8^1 + 5 \\times 8^0 = 40 + 5 = 45_{10}$. $(37)_8 = 3 \\times 8^1 + 7 \\times 8^0 = 24 + 7 = 31_{10}$. Then subtract the decimal values: $45 - 31 = 14$. Thus, the result is $(14)_{10}$."
+    },
+    {
+        "question_number": 38,
+        "question": "the 2's complement of (101101011)2 is:",
+        "options": {
+            "a": "(110010101)2",
+            "b": "(010010101)2",
+            "c": "(010010100)2"
+        },
+        "correct_answer": "b",
+        "explanation": "To find the 2's complement, first invert all the bits (1's complement): 101101011 becomes 010010100. Then, add 1 to the result: 010010100 + 1 = 010010101."
+    },
+    {
+        "question_number": 39,
+        "question": "Which of the following is false about a tri-state logic gate:",
+        "options": {
+            "a": "it has three output states",
+            "b": "the Hi-Z effectively removes the device's influence from the rest of the circuit",
+            "c": "doesn't allow multiple circuits to share the same output line"
+        },
+        "correct_answer": "c",
+        "explanation": "This statement is false. The purpose of the third 'high-impedance' (Hi-Z) state is specifically to allow multiple devices to share a common output line or data bus without interfering with each other."
+    },
+    {
+        "question_number": 40,
+        "question": "One of the following gates is not a Universal gate",
+        "options": {
+            "a": "NAND gate",
+            "b": "NOR gate",
+            "c": "EX-OR gate"
+        },
+        "correct_answer": "c",
+        "explanation": "NAND and NOR gates are considered universal gates because any other logic function (AND, OR, NOT, etc.) can be constructed using only NAND gates or only NOR gates. The EX-OR gate is not universal."
+    },
+    {
+        "question_number": 41,
+        "question": "One of the following is not an output device of a computer",
+        "options": {
+            "a": "Keyboard",
+            "b": "Printer",
+            "c": "photocopier"
+        },
+        "correct_answer": "a",
+        "explanation": "A keyboard is an input device, used to enter data and commands into a computer. A printer and a photocopier (which typically includes a printing function) are output devices."
+    },
+    {
+        "question_number": 42,
+        "question": "Which of the following numbers is the largest?",
+        "options": {
+            "a": "(F5)16",
+            "b": "(11001001)2",
+            "c": "(323)8"
+        },
+        "correct_answer": "a",
+        "explanation": "To compare the numbers, convert them to a common base (decimal): \n a. $(F5)_{16} = 15 \\times 16^1 + 5 \\times 16^0 = 240 + 5 = 245_{10}$. \n b. $(11001001)_2 = 128 + 64 + 8 + 1 = 201_{10}$. \n c. $(323)_8 = 3 \\times 8^2 + 2 \\times 8^1 + 3 \\times 8^0 = 192 + 16 + 3 = 211_{10}$. \n Therefore, (F5)16 is the largest number."
+    },
+    {
+        "question_number": 43,
+        "question": "How many nibbles does a 512-byte memory have?",
+        "options": {
+            "a": "1024",
+            "b": "2048",
+            "c": "256"
+        },
+        "correct_answer": "a",
+        "explanation": "1 byte = 8 bits, and 1 nibble = 4 bits.  Therefore, there are 2 nibbles per byte (8 bits / 4 bits/nibble = 2 nibbles/byte).  A 512-byte memory contains 512 bytes * 2 nibbles/byte = 1024 nibbles."
+    },
+    {
+        "question_number": 44,
+        "question": "the hexadecimal number (2D)16 is _________ in decimal.",
+        "options": {
+            "a": "43",
+            "b": "45",
+            "c": "41"
+        },
+        "correct_answer": "b",
+        "explanation": "To convert the hexadecimal number $(2D)_{16}$ to decimal, we calculate: $(2 \\times 16^1) + (13 \\times 16^0) = 32 + 13 = 45$."
+    },
+    {
+        "question_number": 45,
+        "question": "The binary number 10010101 is ___________in Gray code.",
+        "options": {
+            "a": "11011111",
+            "b": "10110011",
+            "c": "11111011"
+        },
+        "correct_answer": "a",
+        "explanation": "To convert binary to Gray code, the most significant bit (MSB) stays the same. Each subsequent Gray code bit is the result of an XOR operation between the corresponding binary bit and the binary bit to its immediate left. B=10010101, G=1(1^0) (0^0) (0^1) (1^0) (0^1) (1^0) (0^1) = 11011111."
+    },
+    {
+        "question_number": 46,
+        "question": "An analogue to digital converter is as accurate as the:",
+        "options": {
+            "a": "amplitude",
+            "b": "the sampling rate",
+            "c": "the frequency of the analog input"
+        },
+        "correct_answer": "b",
+        "explanation": "The accuracy of an Analog-to-Digital Converter (ADC) depends on both its resolution (number of bits) and its sampling rate. A higher sampling rate captures more points of the analog signal per unit of time, leading to a more accurate digital representation."
+    },
+    {
+        "question_number": 47,
+        "question": "Sample and hold is a technique used in:",
+        "options": {
+            "a": "digital to Analog concersion",
+            "b": "analog to digital conversion",
+            "c": "moving coil instruments"
+        },
+        "correct_answer": "b",
+        "explanation": "A Sample and Hold (S/H) circuit is a key component in analog-to-digital conversion. It captures and freezes the analog input voltage for a short duration, allowing the ADC to perform the conversion on a stable value."
+    },
+    {
+        "question_number": 48,
+        "question": "The parity bit in digital information is used:",
+        "options": {
+            "a": "to check the validity of data and information",
+            "b": "for BITE programs",
+            "c": "to check the status of the system"
+        },
+        "correct_answer": "a",
+        "explanation": "A parity bit is a simple form of error detection used to check the validity of data. It is added to a string of binary code to ensure that the total number of 1s is either always even or always odd, allowing the receiver to detect single-bit errors."
+    },
+    {
+        "question_number": 49,
+        "question": "Adding inverters to the two inputs of an AND gate makes a:",
+        "options": {
+            "a": "OR gate",
+            "b": "NOR gate",
+            "c": "NAND gate"
+        },
+        "correct_answer": "b",
+        "explanation": "An AND gate with two inverted inputs performs the operation $(\\overline{A} \\cdot \\overline{B})$. According to De Morgan's theorem, this is equivalent to $(\\overline{A+B})$, which is the function of a NOR gate."
+    },
+    {
+        "question_number": 50,
+        "question": "What sort of gate requires two positive voltages to operate?",
+        "options": {
+            "a": "AND",
+            "b": "OR",
+            "c": "NOT"
+        },
+        "correct_answer": "a",
+        "explanation": "Assuming positive logic (where a positive voltage represents a '1'), a two-input AND gate will only produce a '1' output when both of its inputs are '1' (i.e., receiving two positive voltages)."
+    },
+    {
+        "question_number": 51,
+        "question": "When the voltage that represents a logic 1 state is less than the voltage that represents a logic 0 state, the logic being used is:",
+        "options": {
+            "a": "either positive or negative logic",
+            "b": "positive",
+            "c": "negative"
+        },
+        "correct_answer": "c",
+        "explanation": "This is the definition of negative logic. In the more common positive logic system, the voltage for a logic '1' state is higher than the voltage for a logic '0' state."
+    },
+    {
+        "question_number": 52,
+        "question": "The 'fan-in' in a gate is:",
+        "options": {
+            "a": "the maximum number of inputs the gate can have without being overloaded",
+            "b": "the maximum number of outputs that can be taken out of the gate",
+            "c": "the number of both inputs and outputs"
+        },
+        "correct_answer": "a",
+        "explanation": "Fan-in refers to the number of inputs that a logic gate can accept. For example, a standard 2-input AND gate has a fan-in of 2."
+    },
+    {
+        "question_number": 53,
+        "question": "In a computer memory device, which one of the following the slowest access time?",
+        "options": {
+            "a": "floppy disk",
+            "b": "magnetic tape",
+            "c": "8mm video tape"
+        },
+        "correct_answer": "b",
+        "explanation": "Magnetic tape is a sequential access medium, meaning to access data in the middle of the tape, you must first read through all the preceding data. This makes its access time significantly slower than random access media like floppy disks."
+    },
+    {
+        "question_number": 54,
+        "question": "The advantage of DRAM over SRAM is:",
+        "options": {
+            "a": "is cheaper to manufacture",
+            "b": "has a larger storage capacity per chip area",
+            "c": "its operation is slower"
+        },
+        "correct_answer": "b",
+        "explanation": "DRAM cells (one transistor, one capacitor) are structurally simpler and smaller than SRAM cells (multiple transistors). This allows for a much higher memory density, meaning a larger storage capacity can be fit into the same chip area, which also makes it cheaper per bit."
+    },
+    {
+        "question_number": 55,
+        "question": "A BYTE is usually:",
+        "options": {
+            "a": "an 8-bit word",
+            "b": "a 6 bit word",
+            "c": "a 12 bit word"
+        },
+        "correct_answer": "a",
+        "explanation": "By standard definition in computing, a byte is a unit of digital information that consists of 8 bits."
+    },
+    {
+        "question_number": 56,
+        "question": "Which one of the following has least components?",
+        "options": {
+            "a": "ALU",
+            "b": "CPU",
+            "c": "LSI(Large scale integrated circuit)"
+        },
+        "correct_answer": "a",
+        "explanation": "The ALU (Arithmetic Logic Unit) is a functional part *of* the CPU. The CPU itself contains the ALU, registers, and a control unit. LSI is a classification of chip complexity, not a functional component. Therefore, the ALU has the fewest components among the choices."
+    },
+    {
+        "question_number": 57,
+        "question": "What is the advantage of series over parallel message sending?",
+        "options": {
+            "a": "utilizes only one conductor, hence cheaper",
+            "b": "it is a faster means of information transmition",
+            "c": "it doesn't have any advantage"
+        },
+        "correct_answer": "a",
+        "explanation": "Serial communication sends data one bit at a time over a single data line. This requires fewer wires compared to parallel transmission, making it simpler, less costly, and more reliable over long distances."
+    },
+    {
+        "question_number": 58,
+        "question": "A computer using RAM would utilize:",
+        "options": {
+            "a": "magnetic tape",
+            "b": "a compact disc",
+            "c": "an integrated circuit chip"
+        },
+        "correct_answer": "c",
+        "explanation": "Modern Random Access Memory (RAM) is a type of solid-state memory built from semiconductor integrated circuit (IC) chips."
+    },
+    {
+        "question_number": 59,
+        "question": "What is EPROM?",
+        "options": {
+            "a": "enhanced programable read only memory",
+            "b": "erasable programable read only memory",
+            "c": "Erasable programing read only module"
+        },
+        "correct_answer": "b",
+        "explanation": "EPROM stands for Erasable Programmable Read-Only Memory. It is a type of non-volatile memory that can be erased by exposing it to strong ultraviolet light and then reprogrammed."
+    },
+    {
+        "question_number": 60,
+        "question": "how many bytes can be carried in a 64 bit word?",
+        "options": {
+            "a": "8bytes",
+            "b": "4 bytes",
+            "c": "16 bytes"
+        },
+        "correct_answer": "a",
+        "explanation": "Since there are 8 bits in one byte, a 64-bit word can carry 64 / 8 = 8 bytes of information."
+    },
+    {
+        "question_number": 61,
+        "question": "Data is usually stored in:",
+        "options": {
+            "a": "RAM",
+            "b": "ROM",
+            "c": "ALU"
+        },
+        "correct_answer": "a",
+        "explanation": "While programs may be permanently stored in ROM, the data and instructions that a computer is actively working with are held in RAM (Random Access Memory) for fast access by the CPU."
+    },
+    {
+        "question_number": 62,
+        "question": "Registers are used in digital computers to:",
+        "options": {
+            "a": "store bits of information in a permanent memory",
+            "b": "store a limited amount of information on a temporary basis",
+            "c": "keep account of opperations completed"
+        },
+        "correct_answer": "b",
+        "explanation": "Registers are small, extremely fast memory locations located within the CPU that are used to store data and instructions temporarily during processing cycles."
+    },
+    {
+        "question_number": 63,
+        "question": "A computer consists of at least the CPU and :",
+        "options": {
+            "a": "memory and input & output port",
+            "b": "memory, ALU, timing and control section",
+            "c": "register section, ALU timing and control port"
+        },
+        "correct_answer": "a",
+        "explanation": "Based on the Von Neumann architecture, a basic functional computer requires a Central Processing Unit (CPU), a memory unit to store data and instructions, and Input/Output (I/O) ports to communicate with external devices."
+    },
+    {
+        "question_number": 64,
+        "question": "DRAM:",
+        "options": {
+            "a": "requires a refreshing charge",
+            "b": "memory is stored when power supply is removed",
+            "c": "it does not require a refreshing charge"
+        },
+        "correct_answer": "a",
+        "explanation": "Dynamic RAM (DRAM) stores data in capacitors that leak charge over time. To prevent data loss, DRAM requires its memory cells to be periodically read and rewritten, a process known as refreshing."
+    },
+    {
+        "question_number": 65,
+        "question": "An EPROM :",
+        "options": {
+            "a": "is non-volatile memory",
+            "b": "requires constant refreshing",
+            "c": "is erased after reading"
+        },
+        "correct_answer": "a",
+        "explanation": "EPROM (Erasable Programmable Read-Only Memory) is a type of non-volatile memory, which means it retains its stored information even when the power is turned off."
+    },
+    {
+        "question_number": 66,
+        "question": "What is the function of a status register in a microprocessor?",
+        "options": {
+            "a": "to indicate the status of the processor",
+            "b": "in the ALU, to store the position of the program during an interrupt",
+            "c": "to synchronize the clock pulse"
+        },
+        "correct_answer": "a",
+        "explanation": "The status register (or flag register) is a collection of flag bits that reflect the outcomes of arithmetic and logical operations and indicate the current state of the processor."
+    },
+    {
+        "question_number": 67,
+        "question": "What is the purpose of the ALU?",
+        "options": {
+            "a": "to store data being used by the CPU",
+            "b": "the part of the CPU unit where arithmetic & logic operations are carried out",
+            "c": "to convert serial into a parallel data"
+        },
+        "correct_answer": "b",
+        "explanation": "The ALU (Arithmetic Logic Unit) is the digital circuit within the CPU that performs integer arithmetic operations (add, subtract, etc.) and bitwise logic operations (AND, OR, NOT, etc.)."
+    },
+    {
+        "question_number": 68,
+        "question": "How is multiplication achieved in ALU?",
+        "options": {
+            "a": "by addition",
+            "b": "by subtraction",
+            "c": "by coupling"
+        },
+        "correct_answer": "a",
+        "explanation": "In its most fundamental form, multiplication within an ALU is carried out as a series of repeated additions and bit-shifting operations."
+    },
+    {
+        "question_number": 69,
+        "question": "Where does the clock signal in a microprocessor come from?",
+        "options": {
+            "a": "ALU",
+            "b": "memory",
+            "c": "control unit"
+        },
+        "correct_answer": "c",
+        "explanation": "The clock signal, which synchronizes all operations in a microprocessor, is managed and distributed by the Control Unit. The signal itself is generated by an external crystal oscillator circuit."
+    },
+    {
+        "question_number": 70,
+        "question": "Where is the operating program for CPU stored?",
+        "options": {
+            "a": "control unit",
+            "b": "memory unit",
+            "c": "ALU"
+        },
+        "correct_answer": "b",
+        "explanation": "The instructions and data of the operating program that the CPU is currently executing are stored in a main memory unit, typically RAM."
+    },
+    {
+        "question_number": 71,
+        "question": "In a computer, the code that fetches correct data and feeds it to the ALU is called:",
+        "options": {
+            "a": "the instruction set",
+            "b": "the computer program",
+            "c": "memory"
+        },
+        "correct_answer": "a",
+        "explanation": "An instruction set is the vocabulary of commands that a processor understands. A computer program, which is made of these instructions, directs the fetching and manipulation of data."
+    },
+    {
+        "question_number": 72,
+        "question": "The CPU requires a clock to determine:",
+        "options": {
+            "a": "the number of bits on the highway",
+            "b": "the speed of operation",
+            "c": "the date and time"
+        },
+        "correct_answer": "b",
+        "explanation": "The CPU's clock provides a timing signal that synchronizes all its internal operations. The frequency of this clock signal directly determines the speed at which the processor can execute instructions."
+    },
+    {
+        "question_number": 73,
+        "question": "On an IC(integrated Circuit), pin 1 is to the left of the notch. which way are the pins numbered?",
+        "options": {
+            "a": "left to right",
+            "b": "anticlockwise",
+            "c": "clockwise"
+        },
+        "correct_answer": "b",
+        "explanation": "For standard Dual In-line Package (DIP) integrated circuits, pin numbering begins at pin 1 (identified by a notch or dot) and proceeds counter-clockwise around the chip."
+    },
+    {
+        "question_number": 74,
+        "question": "Data is converted from serial to parallel and parallel to serial by:",
+        "options": {
+            "a": "a synchronous counter",
+            "b": "a parallel register",
+            "c": "a shift register"
+        },
+        "correct_answer": "c",
+        "explanation": "A shift register is a digital circuit specifically designed to convert data between serial and parallel formats. It can load data in parallel and shift it out bit-by-bit (parallel-in, serial-out), or load data bit-by-bit and then output it all at once (serial-in, parallel-out)."
+    },
+    {
+        "question_number": 75,
+        "question": "A typical characteristic of a CMOS is:",
+        "options": {
+            "a": "high power dissipation",
+            "b": "high voltage handling",
+            "c": "low power dissipation"
+        },
+        "correct_answer": "c",
+        "explanation": "CMOS (Complementary Metal-Oxide-Semiconductor) technology is prized for its extremely low static power dissipation, as in any given logic state, one of the complementary transistors is always off."
+    },
+    {
+        "question_number": 76,
+        "question": "A parallel register:",
+        "options": {
+            "a": "requires a clock pulse for each bit",
+            "b": "reads each bit to be stored symultaneously",
+            "c": "reads the stored data when logic 0 is applied to the read line"
+        },
+        "correct_answer": "b",
+        "explanation": "A parallel register, also known as a parallel-in, parallel-out (PIPO) register, has inputs for each bit, allowing it to load or read all bits of a data word simultaneously on a single clock edge."
+    },
+    {
+        "question_number": 77,
+        "question": "An LCD display:",
+        "options": {
+            "a": "has three colours only",
+            "b": "is monochrome",
+            "c": "has infinite colours"
+        },
+        "correct_answer": "a",
+        "explanation": "A color LCD display creates its full spectrum of colors by using an array of pixels, where each pixel is composed of three sub-pixels: one red, one green, and one blue (RGB). All other colors are created by varying the intensity of these three primary colors."
+    },
+    {
+        "question_number": 78,
+        "question": "ESD(Electrostatic sensitive devices) bags are sealed by:",
+        "options": {
+            "a": "ESD labels",
+            "b": "zip locks",
+            "c": "twine(100% cotton)"
+        },
+        "correct_answer": "a",
+        "explanation": "To maintain a static-safe environment, Electrostatic Sensitive Device (ESD) bags are properly sealed using conductive or antistatic tape, which is often incorporated into an ESD warning label."
+    },
+    {
+        "question_number": 79,
+        "question": "What precautions are required when removing ESD equipment?",
+        "options": {
+            "a": "wear a wrist strap conected to an approved ground point",
+            "b": "no special precautions are required",
+            "c": "keep one hand on the airframe"
+        },
+        "correct_answer": "a",
+        "explanation": "The most important precaution when handling any Electrostatic Sensitive Device (ESD) is to be properly grounded to prevent a static discharge from your body to the component. This is typically achieved by wearing a tested ESD wrist strap connected to a verified ground point."
+    },
+    {
+        "question_number": 80,
+        "question": "A flight deck CRT LRU is being replaced. What does the ESD label indicate?",
+        "options": {
+            "a": "wrist straps should be worn",
+            "b": "do not touch plug pins or leave them exposed",
+            "c": "remove power before connecting"
+        },
+        "correct_answer": "b",
+        "explanation": "An ESD warning label signifies that the Line Replaceable Unit (LRU) is sensitive to static electricity. The most direct way to damage such a device is by touching its connector pins, so the label serves as a critical warning to handle the device carefully and avoid touching the contacts."
+    },
+    {
+        "question_number": 81,
+        "question": "With a relative humidity of 10% to 20%, if you walked over a carpet what electrostatic voltage value would you expect to see?",
+        "options": {
+            "a": "35, 000 volts",
+            "b": "6,000 volts",
+            "c": "12,000 volts"
+        },
+        "correct_answer": "a",
+        "explanation": "Static electricity generation is significantly increased in low-humidity environments. Walking across a carpet in very dry conditions (10-20% humidity) can generate extremely high static potentials, with 35,000 volts being a commonly cited value for this scenario."
+    },
+    {
+        "question_number": 82,
+        "question": "Before handling a Printed Circuit Board you should check the:",
+        "options": {
+            "a": "resistance between skin and strap end plug is more than 10 megaohms",
+            "b": "resistance between skin and strap end plug is more than 1 megaohms",
+            "c": "resistance between strap and strap end plug is more than 1 megaohms"
+        },
+        "correct_answer": "b",
+        "explanation": "When testing an ESD wrist strap, you are verifying the integrity of the built-in safety resistor. This resistor, typically 1 Megaohm ($1 M//Omega$), is included to protect the user from accidental electric shock. Therefore, you should check that the resistance from the user to the ground connection is approximately 1 M\u03a9."
+    }
+]

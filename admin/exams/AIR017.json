@@ -1,0 +1,882 @@
+[
+  {
+    "question_number": 1,
+    "question": "What component has replaced the rotating loop antenna in modern ADF systems?",
+    "options": {
+      "a": "VOR receiver",
+      "b": "Goniometer rotor",
+      "c": "Compass system"
+    },
+    "correct_answer": "b",
+    "explanation": "In modern Automatic Direction Finder (ADF) systems, the mechanical rotating loop antenna has been replaced by a goniometer, which electronically simulates the rotation of the antenna."
+  },
+  {
+    "question_number": 2,
+    "question": "What is the purpose of the goniometer in an ADF system?",
+    "options": {
+      "a": "To measure aircraft altitude",
+      "b": "To amplify the NDB signal",
+      "c": "To electronically simulate antenna rotation"
+    },
+    "correct_answer": "c",
+    "explanation": "The goniometer's purpose in an ADF system is to electronically simulate the rotation of an antenna to determine the direction of a non-directional beacon (NDB)."
+  },
+  {
+    "question_number": 3,
+    "question": "In ADF systems, what does the goniometer work with to determine the direction of a radio beacon?",
+    "options": {
+      "a": "Marker beacon",
+      "b": "Resolver",
+      "c": "DME unit"
+    },
+    "correct_answer": "b",
+    "explanation": "The goniometer in an ADF system uses a resolver to determine the direction of a radio beacon."
+  },
+  {
+    "question_number": 4,
+    "question": "What type of device is a resolver in the context of aircraft navigation systems?",
+    "options": {
+      "a": "A GPS receiver",
+      "b": "A digital computer",
+      "c": "An electromagnetic transducer"
+    },
+    "correct_answer": "c",
+    "explanation": "In aircraft navigation systems, a resolver is an electromagnetic transducer that converts mechanical rotation into electrical signals."
+  },
+  {
+    "question_number": 5,
+    "question": "The resolver used in goniometers is sometimes referred to as:",
+    "options": {
+      "a": "Digital encoder",
+      "b": "Analog Trigonometric Function Generator",
+      "c": "Phase splitter"
+    },
+    "correct_answer": "b",
+    "explanation": "A resolver used in a goniometer can also be known as an Analog Trigonometric Function Generator due to its function of resolving vectors into their components."
+  },
+  {
+    "question_number": 6,
+    "question": "What does a resolver primarily measure in an aircraft navigation system?",
+    "options": {
+      "a": "Altitude",
+      "b": "Rate of turn",
+      "c": "Angle of rotation"
+    },
+    "correct_answer": "c",
+    "explanation": "The primary function of a resolver in an aircraft navigation system is to measure the angle of rotation."
+  },
+  {
+    "question_number": 7,
+    "question": "The main function of a goniometer in an ADF is to:",
+    "options": {
+      "a": "Rotate the compass card",
+      "b": "Create artificial horizon",
+      "c": "Process antenna signals electronically"
+    },
+    "correct_answer": "c",
+    "explanation": "The main role of a goniometer in an Automatic Direction Finder (ADF) system is to electronically process signals from the antenna to determine the bearing of a radio source."
+  },
+  {
+    "question_number": 8,
+    "question": "What does the abbreviation VOR stand for?",
+    "options": {
+      "a": "Variable Omnidirectional Radar",
+      "b": "Visual Omnidirectional Range",
+      "c": "VHF Omnidirectional Range"
+    },
+    "correct_answer": "c",
+    "explanation": "VOR is an abbreviation for VHF Omnidirectional Range."
+  },
+  {
+    "question_number": 9,
+    "question": "What type of wave propagation is primarily used by VOR systems?",
+    "options": {
+      "a": "Ground wave",
+      "b": "Line-of-sight",
+      "c": "Surface wave"
+    },
+    "correct_answer": "b",
+    "explanation": "VOR systems operate in the VHF band and rely on line-of-sight propagation for their signals."
+  },
+  {
+    "question_number": 10,
+    "question": "VOR systems operate in which frequency band?",
+    "options": {
+      "a": "UHF",
+      "b": "HF",
+      "c": "VHF"
+    },
+    "correct_answer": "c",
+    "explanation": "VOR systems operate in the Very High Frequency (VHF) band, specifically from 108.0 to 117.95 MHz."
+  },
+  {
+    "question_number": 11,
+    "question": "The purpose of a VOR system is to:",
+    "options": {
+      "a": "Measure aircraft altitude",
+      "b": "Provide long-range surveillance",
+      "c": "Help aircraft determine position and maintain course"
+    },
+    "correct_answer": "c",
+    "explanation": "A VOR (VHF Omnidirectional Range) system is a radio navigation aid that helps aircraft determine their position and maintain a desired course."
+  },
+  {
+    "question_number": 12,
+    "question": "VOR systems assist in determining which of the following?",
+    "options": {
+      "a": "True airspeed",
+      "b": "Aircraft heading",
+      "c": "Magnetic bearing to the station"
+    },
+    "correct_answer": "c",
+    "explanation": "VOR systems provide radial information which allows an aircraft to determine its magnetic bearing to or from the VOR station."
+  },
+  {
+    "question_number": 13,
+    "question": "What is the term for the angle between the aircraft’s heading and the direction to the VOR station?",
+    "options": {
+      "a": "Relative bearing",
+      "b": "Drift angle",
+      "c": "Track angle"
+    },
+    "correct_answer": "a",
+    "explanation": "The relative bearing is the angle between the aircraft's heading and the direction to the VOR station."
+  },
+  {
+    "question_number": 14,
+    "question": "A VOR is classified as which kind of navigation system?",
+    "options": {
+      "a": "Long-range inertial",
+      "b": "Short-range radio",
+      "c": "Space-based satellite"
+    },
+    "correct_answer": "b",
+    "explanation": "A VOR (VHF Omnidirectional Range) is classified as a short-range radio navigation system."
+  },
+  {
+    "question_number": 15,
+    "question": "What does the VOR receiver in an aircraft do?",
+    "options": {
+      "a": "Sends signals to ground stations",
+      "b": "Measures fuel flow",
+      "c": "Receives radio signals from ground-based beacons"
+    },
+    "correct_answer": "c",
+    "explanation": "The VOR receiver in an aircraft is designed to receive and interpret radio signals transmitted from ground-based VOR beacons."
+  },
+  {
+    "question_number": 16,
+    "question": "What type of approach aid is the Instrument Landing System (ILS)?",
+    "options": {
+      "a": "Non-precision approach aid",
+      "b": "Visual approach aid",
+      "c": "Precision approach aid"
+    },
+    "correct_answer": "c",
+    "explanation": "The Instrument Landing System (ILS) is a precision approach aid that provides both vertical and horizontal guidance to an aircraft for landing."
+  },
+  {
+    "question_number": 17,
+    "question": "What component of the ILS provides horizontal guidance?",
+    "options": {
+      "a": "DME",
+      "b": "Glideslope",
+      "c": "Localiser"
+    },
+    "correct_answer": "c",
+    "explanation": "The localiser component of the ILS provides horizontal guidance, aligning the aircraft with the centerline of the runway."
+  },
+  {
+    "question_number": 18,
+    "question": "The glideslope (GS) provides which type of guidance?",
+    "options": {
+      "a": "Horizontal",
+      "b": "Magnetic",
+      "c": "Vertical"
+    },
+    "correct_answer": "c",
+    "explanation": "The glideslope (GS) component of an ILS provides vertical guidance to the pilot, defining the correct descent angle to the runway."
+  },
+  {
+    "question_number": 19,
+    "question": "Where is the ILS localiser aerial usually located?",
+    "options": {
+      "a": "Next to the ATC tower",
+      "b": "On top of the aircraft",
+      "c": "At the far end of the runway"
+    },
+    "correct_answer": "c",
+    "explanation": "The ILS localiser aerial is typically situated at the far end of the runway to provide a signal along the runway's centerline."
+  },
+  {
+    "question_number": 20,
+    "question": "The ILS glideslope antenna is typically located:",
+    "options": {
+      "a": "At the opposite end of the runway",
+      "b": "On the aircraft tail",
+      "c": "Near the runway threshold, offset from centerline"
+    },
+    "correct_answer": "c",
+    "explanation": "The ILS glideslope antenna is usually located near the runway threshold and is offset from the runway centerline to provide the correct vertical approach path."
+  },
+  {
+    "question_number": 21,
+    "question": "The localiser and glideslope transmit:",
+    "options": {
+      "a": "One single broad signal",
+      "b": "Light beams",
+      "c": "Two narrow intersecting beams"
+    },
+    "correct_answer": "c",
+    "explanation": "The localizer and glideslope components of an ILS transmit two narrow intersecting beams that define the precise approach path."
+  },
+  {
+    "question_number": 22,
+    "question": "The ILS system helps pilots to:",
+    "options": {
+      "a": "Avoid terrain",
+      "b": "Maintain cruise altitude",
+      "c": "Land in low visibility using vertical and horizontal guidance"
+    },
+    "correct_answer": "c",
+    "explanation": "The Instrument Landing System (ILS) is designed to assist pilots in landing safely in low visibility conditions by providing precise vertical and horizontal guidance to the runway."
+  },
+  {
+    "question_number": 23,
+    "question": "What is the primary function of a marker beacon in the ILS system?",
+    "options": {
+      "a": "Provide lateral guidance",
+      "b": "Indicate distance to the runway",
+      "c": "Identify specific points on the approach path"
+    },
+    "correct_answer": "c",
+    "explanation": "The primary function of marker beacons within an ILS is to identify specific, predetermined points along the final approach path."
+  },
+  {
+    "question_number": 24,
+    "question": "Where is the Outer Marker (OM) typically located?",
+    "options": {
+      "a": "At the runway threshold",
+      "b": "10 NM beyond the airport",
+      "c": "4 to 7 NM before the runway threshold"
+    },
+    "correct_answer": "c",
+    "explanation": "The Outer Marker (OM) is typically located between 4 to 7 nautical miles before the runway threshold."
+  },
+  {
+    "question_number": 25,
+    "question": "The Outer Marker usually corresponds to which part of the approach?",
+    "options": {
+      "a": "Takeoff rotation point",
+      "b": "Final Approach Fix (FAF)",
+      "c": "Touchdown zone"
+    },
+    "correct_answer": "b",
+    "explanation": "The Outer Marker generally indicates the Final Approach Fix (FAF), which is where the final descent phase of the instrument approach begins."
+  },
+  {
+    "question_number": 26,
+    "question": "The Middle Marker (MM) is located approximately:",
+    "options": {
+      "a": "1 NM after the runway",
+      "b": "0.5 to 0.8 NM before the runway threshold",
+      "c": "3 NM from the airport terminal"
+    },
+    "correct_answer": "b",
+    "explanation": "The Middle Marker (MM) is situated at a distance of approximately 0.5 to 0.8 nautical miles before the runway threshold."
+  },
+  {
+    "question_number": 27,
+    "question": "The Inner Marker is typically located:",
+    "options": {
+      "a": "In the control tower",
+      "b": "On the glideslope antenna",
+      "c": "At the runway threshold"
+    },
+    "correct_answer": "c",
+    "explanation": "The Inner Marker, when installed, is located at the runway threshold."
+  },
+  {
+    "question_number": 28,
+    "question": "What is the main function of DME?",
+    "options": {
+      "a": "To provide heading information",
+      "b": "To measure distance from a ground station",
+      "c": "To measure altitude"
+    },
+    "correct_answer": "b",
+    "explanation": "The main function of Distance Measuring Equipment (DME) is to measure the slant range distance from an aircraft to a ground-based station."
+  },
+  {
+    "question_number": 29,
+    "question": "What type of signal does the aircraft send in a DME system?",
+    "options": {
+      "a": "Continuous wave",
+      "b": "Paired pulses",
+      "c": "Single burst"
+    },
+    "correct_answer": "b",
+    "explanation": "In a DME system, the aircraft transmits an interrogation signal consisting of paired pulses to the ground station."
+  },
+  {
+    "question_number": 30,
+    "question": "What does the DME transponder do after receiving an interrogation signal?",
+    "options": {
+      "a": "Ignores it",
+      "b": "Immediately replies",
+      "c": "Replies after a fixed delay"
+    },
+    "correct_answer": "c",
+    "explanation": "After receiving an interrogation signal from an aircraft, the DME ground transponder replies with a signal after a fixed, known delay."
+  },
+  {
+    "question_number": 31,
+    "question": "What type of distance does DME measure?",
+    "options": {
+      "a": "Horizontal distance only",
+      "b": "Altitude",
+      "c": "Slant range distance"
+    },
+    "correct_answer": "c",
+    "explanation": "DME measures the slant range distance, which is the direct line-of-sight distance between the aircraft and the ground station, not the horizontal distance over the ground."
+  },
+  {
+    "question_number": 32,
+    "question": "What unit is used to display DME distance?",
+    "options": {
+      "a": "Feet",
+      "b": "Meters",
+      "c": "Nautical miles"
+    },
+    "correct_answer": "c",
+    "explanation": "The distance measured by a DME system is displayed in nautical miles."
+  },
+  {
+    "question_number": 33,
+    "question": "In DME, the aircraft transmits and receives on:",
+    "options": {
+      "a": "The same frequency",
+      "b": "Alternating frequencies",
+      "c": "Paired but different frequencies"
+    },
+    "correct_answer": "c",
+    "explanation": "A DME system operates on paired but different frequencies for transmission and reception to avoid interference."
+  },
+  {
+    "question_number": 34,
+    "question": "What is the role of the transponder in a DME ground station?",
+    "options": {
+      "a": "To calculate aircraft speed",
+      "b": "To receive and store flight plans",
+      "c": "To respond to aircraft interrogation pulses"
+    },
+    "correct_answer": "c",
+    "explanation": "The transponder in a DME ground station is responsible for receiving interrogation pulses from aircraft and sending a reply."
+  },
+  {
+    "question_number": 35,
+    "question": "Which of the following navigation aids is usually co-located with DME?",
+    "options": {
+      "a": "ADF",
+      "b": "VOR or ILS",
+      "c": "GPS"
+    },
+    "correct_answer": "b",
+    "explanation": "DME is often co-located with a VOR or ILS to provide both distance and bearing information from a single point."
+  },
+  {
+    "question_number": 36,
+    "question": "What determines the distance displayed on the DME indicator?",
+    "options": {
+      "a": "Groundspeed",
+      "b": "Frequency difference",
+      "c": "Time delay of round trip signal"
+    },
+    "correct_answer": "c",
+    "explanation": "The distance displayed on the DME indicator is calculated based on the time delay between the transmission of the interrogation signal from the aircraft and the reception of the reply from the ground station."
+  },
+  {
+    "question_number": 37,
+    "question": "What is the main role of an aircraft transponder?",
+    "options": {
+      "a": "Send voice to ATC",
+      "b": "Help pilots navigate",
+      "c": "Identify the aircraft and send altitude info to ATC"
+    },
+    "correct_answer": "c",
+    "explanation": "The main role of an aircraft transponder is to respond to interrogations from air traffic control (ATC) radar, providing aircraft identification and altitude information."
+  },
+  {
+    "question_number": 38,
+    "question": "Which transponder mode provides both identity and altitude information?",
+    "options": {
+      "a": "Mode A",
+      "b": "Mode B",
+      "c": "Mode C"
+    },
+    "correct_answer": "c",
+    "explanation": "Mode C transponders provide both the aircraft's identity (squawk code) and its pressure altitude."
+  },
+  {
+    "question_number": 39,
+    "question": "What type of antenna does a transponder use?",
+    "options": {
+      "a": "Directional",
+      "b": "Omnidirectional",
+      "c": "Rotating"
+    },
+    "correct_answer": "b",
+    "explanation": "A transponder uses an omnidirectional antenna to ensure it can receive and reply to signals from any direction."
+  },
+  {
+    "question_number": 40,
+    "question": "What is Mode S mainly used for?",
+    "options": {
+      "a": "Weather reporting",
+      "b": "Radar jamming",
+      "c": "Cooperative surveillance and data communication"
+    },
+    "correct_answer": "c",
+    "explanation": "Mode S (Select) is primarily used for cooperative surveillance and to enable data link communications between the aircraft and ATC."
+  },
+  {
+    "question_number": 41,
+    "question": "A transponder reply includes:",
+    "options": {
+      "a": "Weather data only",
+      "b": "Aircraft performance data",
+      "c": "Identity, altitude, and emergency info"
+    },
+    "correct_answer": "c",
+    "explanation": "A transponder reply contains information such as the aircraft's identity (squawk code), its altitude, and can also include emergency codes."
+  },
+  {
+    "question_number": 42,
+    "question": "What does Mode A provide?",
+    "options": {
+      "a": "Altitude information",
+      "b": "Aircraft position",
+      "c": "Aircraft identity (squawk code)"
+    },
+    "correct_answer": "c",
+    "explanation": "Mode A provides the aircraft's identity in the form of a four-digit octal code, known as the squawk code."
+  },
+  {
+    "question_number": 43,
+    "question": "What does a squawk code identify?",
+    "options": {
+      "a": "Route clearance",
+      "b": "Navigation fix",
+      "c": "The specific aircraft"
+    },
+    "correct_answer": "c",
+    "explanation": "A squawk code is a unique four-digit number assigned by air traffic control to identify a specific aircraft on their radar screens."
+  },
+  {
+    "question_number": 44,
+    "question": "The Mode S transponder enables what feature in addition to identification and altitude?",
+    "options": {
+      "a": "High-speed engine monitoring",
+      "b": "Groundspeed detection",
+      "c": "Data link communication"
+    },
+    "correct_answer": "c",
+    "explanation": "In addition to providing identification and altitude, a Mode S transponder enables data link communication capabilities."
+  },
+  {
+    "question_number": 45,
+    "question": "What is the main function of TCAS?",
+    "options": {
+      "a": "To provide weather alerts",
+      "b": "To avoid mid-air collisions",
+      "c": "To improve autopilot control"
+    },
+    "correct_answer": "b",
+    "explanation": "The main function of the Traffic Collision Avoidance System (TCAS) is to reduce the risk of mid-air collisions between aircraft."
+  },
+  {
+    "question_number": 46,
+    "question": "What does TCAS I provide?",
+    "options": {
+      "a": "Traffic and resolution advisories",
+      "b": "Resolution advisories only",
+      "c": "Traffic advisories only"
+    },
+    "correct_answer": "c",
+    "explanation": "TCAS I provides traffic advisories (TAs) to alert pilots to the presence of other nearby aircraft."
+  },
+  {
+    "question_number": 47,
+    "question": "What type of aircraft typically uses TCAS I?",
+    "options": {
+      "a": "Large commercial jets",
+      "b": "General aviation and small commuter aircraft",
+      "c": "Military aircraft only"
+    },
+    "correct_answer": "b",
+    "explanation": "TCAS I is typically used by general aviation and smaller commuter aircraft."
+  },
+  {
+    "question_number": 48,
+    "question": "What additional feature does TCAS II provide that TCAS I does not?",
+    "options": {
+      "a": "Weather avoidance",
+      "b": "Horizontal maneuver guidance",
+      "c": "Vertical escape maneuvers (RA)"
+    },
+    "correct_answer": "c",
+    "explanation": "TCAS II provides Resolution Advisories (RAs), which recommend vertical escape maneuvers to avoid a collision, a feature not available in TCAS I."
+  },
+  {
+    "question_number": 49,
+    "question": "What does “RA” in TCAS stand for?",
+    "options": {
+      "a": "Radar Alert",
+      "b": "Runway Advisory",
+      "c": "Resolution Advisory"
+    },
+    "correct_answer": "c",
+    "explanation": "In the context of TCAS, \"RA\" stands for Resolution Advisory."
+  },
+  {
+    "question_number": 50,
+    "question": "What alert types does TCAS II provide?",
+    "options": {
+      "a": "TA only",
+      "b": "RA only",
+      "c": "Both TA and RA"
+    },
+    "correct_answer": "c",
+    "explanation": "TCAS II provides both Traffic Advisories (TAs) to alert pilots of nearby aircraft and Resolution Advisories (RAs) to recommend avoidance maneuvers."
+  },
+  {
+    "question_number": 51,
+    "question": "What is the main difference between TCAS II and TCAS III?",
+    "options": {
+      "a": "TCAS III includes horizontal RA",
+      "b": "TCAS III is for helicopters only",
+      "c": "TCAS III is used by ATC"
+    },
+    "correct_answer": "a",
+    "explanation": "The main difference is that TCAS III was designed to include horizontal Resolution Advisories (RAs), in addition to the vertical RAs provided by TCAS II."
+  },
+  {
+    "question_number": 52,
+    "question": "What equipment is required on other aircraft for TCAS to detect them?",
+    "options": {
+      "a": "VOR",
+      "b": "A transponder",
+      "c": "GPS"
+    },
+    "correct_answer": "b",
+    "explanation": "For TCAS to detect another aircraft, that aircraft must be equipped with a functioning transponder."
+  },
+  {
+    "question_number": 53,
+    "question": "What does a TA (Traffic Advisory) indicate?",
+    "options": {
+      "a": "An aircraft is in immediate collision course",
+      "b": "An aircraft is nearby and may become a threat",
+      "c": "Aircraft fuel is low"
+    },
+    "correct_answer": "b",
+    "explanation": "A Traffic Advisory (TA) indicates that another aircraft is in the vicinity and has the potential to become a collision threat."
+  },
+  {
+    "question_number": 54,
+    "question": "On what instrument is a TA typically displayed?",
+    "options": {
+      "a": "Artificial Horizon",
+      "b": "Navigation Display (ND)",
+      "c": "Airspeed Indicator"
+    },
+    "correct_answer": "b",
+    "explanation": "A Traffic Advisory is typically displayed on the Navigation Display (ND) in the cockpit."
+  },
+  {
+    "question_number": 55,
+    "question": "What information does the radio altimeter provide?",
+    "options": {
+      "a": "Altitude above sea level",
+      "b": "Vertical speed",
+      "c": "Altitude above ground level (AGL)"
+    },
+    "correct_answer": "c",
+    "explanation": "A radio altimeter provides the aircraft's precise altitude above ground level (AGL)."
+  },
+  {
+    "question_number": 56,
+    "question": "When is a radio altimeter most useful?",
+    "options": {
+      "a": "During cruise at FL350",
+      "b": "While performing an ILS at 30,000 ft",
+      "c": "When on final approach and landing"
+    },
+    "correct_answer": "c",
+    "explanation": "A radio altimeter is most useful during the final approach and landing phases of flight when precise height above the ground is critical."
+  },
+  {
+    "question_number": 57,
+    "question": "What principle does a radio altimeter use to measure height?",
+    "options": {
+      "a": "Static pressure sensing",
+      "b": "Time of flight of radar pulses",
+      "c": "Temperature gradient"
+    },
+    "correct_answer": "b",
+    "explanation": "A radio altimeter measures height by calculating the time it takes for a radar pulse to travel from the aircraft to the ground and back."
+  },
+  {
+    "question_number": 58,
+    "question": "What happens when the TCAS computer identifies an intruder aircraft?",
+    "options": {
+      "a": "It changes flight level automatically",
+      "b": "It displays a Traffic Advisory",
+      "c": "It shuts down the transponder"
+    },
+    "correct_answer": "b",
+    "explanation": "When the TCAS computer identifies an intruder aircraft, it initially displays a Traffic Advisory (TA) to alert the crew."
+  },
+  {
+    "question_number": 59,
+    "question": "In what condition is a radio altimeter most accurate?",
+    "options": {
+      "a": "Over mountainous terrain",
+      "b": "Over water or flat surfaces",
+      "c": "During takeoff"
+    },
+    "correct_answer": "b",
+    "explanation": "A radio altimeter is most accurate when flying over relatively flat surfaces like water or level terrain."
+  },
+  {
+    "question_number": 60,
+    "question": "What is the typical frequency range of an aircraft weather radar system?",
+    "options": {
+      "a": "108–118 MHz",
+      "b": "9–12 GHz",
+      "c": "1–3 MHz"
+    },
+    "correct_answer": "b",
+    "explanation": "Aircraft weather radar systems typically operate in the SHF (Super High Frequency) band, from 9 to 12 GHz."
+  },
+  {
+    "question_number": 61,
+    "question": "What does the aircraft weather radar detect primarily?",
+    "options": {
+      "a": "Magnetic fields",
+      "b": "Air temperature",
+      "c": "Precipitation and storm cells"
+    },
+    "correct_answer": "c",
+    "explanation": "Aircraft weather radar is designed primarily to detect precipitation and storm cells."
+  },
+  {
+    "question_number": 62,
+    "question": "How is the radar beam shaped?",
+    "options": {
+      "a": "Omnidirectional",
+      "b": "Randomly spread",
+      "c": "As narrow as practicable"
+    },
+    "correct_answer": "c",
+    "explanation": "The radar beam of an aircraft weather radar is shaped to be as narrow as is practicable to provide accurate directional information."
+  },
+  {
+    "question_number": 63,
+    "question": "What determines the range to the weather target?",
+    "options": {
+      "a": "Frequency of the RF pulse",
+      "b": "Radar dish size",
+      "c": "Time between pulse transmission and reception"
+    },
+    "correct_answer": "c",
+    "explanation": "The range to a weather target is determined by measuring the time it takes for a transmitted radar pulse to travel to the target and return."
+  },
+  {
+    "question_number": 64,
+    "question": "Which of the following cannot be reliably detected by WXR without moisture?",
+    "options": {
+      "a": "Rain",
+      "b": "Thunderstorms",
+      "c": "Clear-air turbulence"
+    },
+    "correct_answer": "c",
+    "explanation": "Weather radar (WXR) cannot reliably detect clear-air turbulence because it relies on detecting moisture particles."
+  },
+  {
+    "question_number": 65,
+    "question": "What is the primary purpose of onboard weather radar?",
+    "options": {
+      "a": "Penetrate thunderstorms",
+      "b": "Avoid hazardous weather",
+      "c": "Measure outside temperature"
+    },
+    "correct_answer": "b",
+    "explanation": "The primary purpose of onboard weather radar is to help pilots avoid hazardous weather conditions."
+  },
+  {
+    "question_number": 66,
+    "question": "What does GPS stand for?",
+    "options": {
+      "a": "Global Pilot System",
+      "b": "General Position Satellite",
+      "c": "Global Positioning System"
+    },
+    "correct_answer": "c",
+    "explanation": "GPS is an acronym for Global Positioning System."
+  },
+  {
+    "question_number": 67,
+    "question": "What type of system is GPS?",
+    "options": {
+      "a": "Ground-based radar system",
+      "b": "Satellite-based radio navigation system",
+      "c": "Magnetic compass-based system"
+    },
+    "correct_answer": "b",
+    "explanation": "GPS is a satellite-based radio navigation system."
+  },
+  {
+    "question_number": 68,
+    "question": "GPS provides which of the following information?",
+    "options": {
+      "a": "Flight plan route",
+      "b": "Engine performance data",
+      "c": "Position, velocity, and time"
+    },
+    "correct_answer": "c",
+    "explanation": "GPS provides users with their position, velocity, and precise time information."
+  },
+  {
+    "question_number": 69,
+    "question": "How many satellites are needed for a full 3D GPS fix?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4"
+    },
+    "correct_answer": "c",
+    "explanation": "A minimum of four satellites are required to obtain a full 3D GPS fix (latitude, longitude, and altitude)."
+  },
+  {
+    "question_number": 70,
+    "question": "GPS is part of which broader system?",
+    "options": {
+      "a": "ADS-B",
+      "b": "GNSS",
+      "c": "ILS"
+    },
+    "correct_answer": "b",
+    "explanation": "GPS is a component of the broader Global Navigation Satellite System (GNSS)."
+  },
+  {
+    "question_number": 71,
+    "question": "What is the source of GPS signals?",
+    "options": {
+      "a": "VOR stations",
+      "b": "Weather satellites",
+      "c": "Space-based satellites"
+    },
+    "correct_answer": "c",
+    "explanation": "The signals used by GPS receivers are transmitted from a constellation of space-based satellites."
+  },
+  {
+    "question_number": 72,
+    "question": "What navigation information does GPS not directly provide?",
+    "options": {
+      "a": "Altitude",
+      "b": "Bearing",
+      "c": "Wind direction"
+    },
+    "correct_answer": "c",
+    "explanation": "While GPS can provide information to help calculate bearing, it does not directly measure or provide wind direction."
+  },
+  {
+    "question_number": 73,
+    "question": "How many major GNSS constellations are currently in orbit?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4"
+    },
+    "correct_answer": "c",
+    "explanation": "There are four major Global Navigation Satellite System (GNSS) constellations currently in orbit: GPS (USA), GLONASS (Russia), Galileo (European Union), and BeiDou (China)."
+  },
+  {
+    "question_number": 74,
+    "question": "What country operates the GPS system?",
+    "options": {
+      "a": "Russia",
+      "b": "USA",
+      "c": "China"
+    },
+    "correct_answer": "b",
+    "explanation": "The Global Positioning System (GPS) is operated by the United States."
+  },
+  {
+    "question_number": 75,
+    "question": "What is the full name of GLONASS?",
+    "options": {
+      "a": "Global Location System",
+      "b": "Global Navigation Satellite System",
+      "c": "General Navigation and Survey System"
+    },
+    "correct_answer": "b",
+    "explanation": "The full name of GLONASS is the Global Navigation Satellite System."
+  },
+  {
+    "question_number": 76,
+    "question": "What is a common purpose of all GNSS constellations?",
+    "options": {
+      "a": "Air traffic control",
+      "b": "Satellite television broadcasting",
+      "c": "Position, navigation, and timing"
+    },
+    "correct_answer": "c",
+    "explanation": "A common purpose of all Global Navigation Satellite System (GNSS) constellations is to provide position, navigation, and timing (PNT) services."
+  },
+  {
+    "question_number": 77,
+    "question": "How many main segments make up the GPS system?",
+    "options": {
+      "a": "Two",
+      "b": "Three",
+      "c": "Four"
+    },
+    "correct_answer": "b",
+    "explanation": "The GPS system is composed of three main segments: the space segment, the control segment, and the user segment."
+  },
+  {
+    "question_number": 78,
+    "question": "Which of the following is part of the GPS space segment?",
+    "options": {
+      "a": "Ground antennas",
+      "b": "User receivers",
+      "c": "Satellites"
+    },
+    "correct_answer": "c",
+    "explanation": "The space segment of the GPS system consists of the constellation of satellites orbiting the Earth."
+  },
+  {
+    "question_number": 79,
+    "question": "What is the primary function of the control segment?",
+    "options": {
+      "a": "Launching satellites",
+      "b": "Receiving GPS signals",
+      "c": "Monitoring and maintaining satellite accuracy"
+    },
+    "correct_answer": "c",
+    "explanation": "The primary function of the GPS control segment is to monitor the satellites and maintain their orbital and clock accuracy."
+  },
+  {
+    "question_number": 80,
+    "question": "What component is found in the user segment?",
+    "options": {
+      "a": "GPS satellite",
+      "b": "GPS receiver",
+      "c": "Monitoring station"
+    },
+    "correct_answer": "b",
+    "explanation": "The user segment of the GPS system comprises the GPS receivers that use the satellite signals."
+  }
+]

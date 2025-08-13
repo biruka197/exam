@@ -1,0 +1,992 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is the primary function of a title block in an aircraft drawing?",
+    "options": {
+      "a": "Identify drawing details",
+      "b": "List maintenance tasks",
+      "c": "Show flight parameters"
+    },
+    "correct_answer": "a",
+    "explanation": "A title block provides details like drawing number, part name, and scale for identification (ET-GC003 Manual, p. 12)."
+  },
+  {
+    "question_number": 2,
+    "question": "Which ATA 100 chapter covers hydraulic power systems?",
+    "options": {
+      "a": "Chapter 27",
+      "b": "Chapter 29",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 29 covers hydraulic power systems, including pumps and actuators (ET-GC003 Manual, p. 45)."
+  },
+  {
+    "question_number": 3,
+    "question": "What does an orthographic projection show in technical drawings?",
+    "options": {
+      "a": "3D perspective view",
+      "b": "Multiple 2D views",
+      "c": "Freehand sketch"
+    },
+    "correct_answer": "b",
+    "explanation": "Orthographic projections provide multiple two-dimensional views of an object (ET-GC003 Manual, p. 28)."
+  },
+  {
+    "question_number": 4,
+    "question": "Which drawing type shows the assembly sequence of aircraft parts?",
+    "options": {
+      "a": "Detail Drawing",
+      "b": "Assembly Drawing",
+      "c": "Schematic Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Assembly drawings illustrate how parts are assembled, including sequence (ET-GC003 Manual, p. 35)."
+  },
+  {
+    "question_number": 5,
+    "question": "What does a tolerance specify in aircraft drawings?",
+    "options": {
+      "a": "Material types",
+      "b": "Dimensional deviations",
+      "c": "Surface finish"
+    },
+    "correct_answer": "b",
+    "explanation": "Tolerances define acceptable dimensional variations for proper fit (ET-GC003 Manual, p. 19)."
+  },
+  {
+    "question_number": 6,
+    "question": "Which tool draws precise circles in drafting?",
+    "options": {
+      "a": "Protractor",
+      "b": "Compass",
+      "c": "T-square"
+    },
+    "correct_answer": "b",
+    "explanation": "A compass is used to draw precise circles and arcs (ET-GC003 Manual, p. 8)."
+  },
+  {
+    "question_number": 7,
+    "question": "What does the Illustrated Parts Catalog (IPC) provide?",
+    "options": {
+      "a": "Part numbers and diagrams",
+      "b": "Repair procedures",
+      "c": "Flight guidelines"
+    },
+    "correct_answer": "a",
+    "explanation": "The IPC provides part numbers and diagrams for components (ET-GC003 Manual, p. 52)."
+  },
+  {
+    "question_number": 8,
+    "question": "Which gear converts rotary to linear motion?",
+    "options": {
+      "a": "Spur Gear",
+      "b": "Rack and Pinion",
+      "c": "Bevel Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "Rack and pinion gears convert rotary to linear motion (ET-GC003 Manual, p. 67)."
+  },
+  {
+    "question_number": 9,
+    "question": "What is the purpose of a sectional view in drawings?",
+    "options": {
+      "a": "Show external surfaces",
+      "b": "Reveal internal features",
+      "c": "List material specifications"
+    },
+    "correct_answer": "b",
+    "explanation": "Sectional views reveal internal structures by cutting through an object (ET-GC003 Manual, p. 31)."
+  },
+  {
+    "question_number": 10,
+    "question": "Which ATA 100 chapter covers the fuel system?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 30",
+      "c": "Chapter 36"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 28 covers the fuel system, including tanks and pumps (ET-GC003 Manual, p. 48)."
+  },
+  {
+    "question_number": 11,
+    "question": "What does ATA 100 Chapter 21 cover?",
+    "options": {
+      "a": "Fuel Systems",
+      "b": "Air Conditioning",
+      "c": "Landing Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 21 covers air conditioning and pressurization (ET-GC003 Manual, p. 40)."
+  },
+  {
+    "question_number": 12,
+    "question": "Which tool is used to measure angles in technical drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "Protractor",
+      "c": "Divider"
+    },
+    "correct_answer": "b",
+    "explanation": "A protractor measures and draws precise angles (ET-GC003 Manual, p. 10)."
+  },
+  {
+    "question_number": 13,
+    "question": "What is the purpose of a detail drawing in aircraft design?",
+    "options": {
+      "a": "Show assembly sequences",
+      "b": "Provide part dimensions",
+      "c": "Illustrate wiring layouts"
+    },
+    "correct_answer": "b",
+    "explanation": "Detail drawings provide precise dimensions for a single part (ET-GC003 Manual, p. 33)."
+  },
+  {
+    "question_number": 14,
+    "question": "Which ATA 100 chapter covers electrical power systems?",
+    "options": {
+      "a": "Chapter 24",
+      "b": "Chapter 27",
+      "c": "Chapter 29"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 24 covers electrical power systems, including generators (ET-GC003 Manual, p. 43)."
+  },
+  {
+    "question_number": 15,
+    "question": "What does a schematic drawing represent?",
+    "options": {
+      "a": "Physical part assembly",
+      "b": "System connections",
+      "c": "Part dimensions"
+    },
+    "correct_answer": "b",
+    "explanation": "Schematic drawings show system connections and flow (ET-GC003 Manual, p. 37)."
+  },
+  {
+    "question_number": 16,
+    "question": "Which tool is used to draw straight lines in drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "T-square",
+      "c": "French Curve"
+    },
+    "correct_answer": "b",
+    "explanation": "A T-square draws precise straight lines (ET-GC003 Manual, p. 9)."
+  },
+  {
+    "question_number": 17,
+    "question": "What is the purpose of the Aircraft Maintenance Manual (AMM)?",
+    "options": {
+      "a": "List part numbers",
+      "b": "Outline maintenance procedures",
+      "c": "Provide flight instructions"
+    },
+    "correct_answer": "b",
+    "explanation": "The AMM outlines maintenance and repair procedures (ET-GC003 Manual, p. 55)."
+  },
+  {
+    "question_number": 18,
+    "question": "Which ATA 100 chapter covers flight controls?",
+    "options": {
+      "a": "Chapter 27",
+      "b": "Chapter 28",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 27 covers flight control systems (ET-GC003 Manual, p. 46)."
+  },
+  {
+    "question_number": 19,
+    "question": "What does an exploded view drawing show?",
+    "options": {
+      "a": "Internal part details",
+      "b": "Separated components",
+      "c": "Electrical connections"
+    },
+    "correct_answer": "b",
+    "explanation": "Exploded view drawings show components separated for assembly (ET-GC003 Manual, p. 36)."
+  },
+  {
+    "question_number": 20,
+    "question": "Which tool transfers measurements in drafting?",
+    "options": {
+      "a": "Protractor",
+      "b": "Divider",
+      "c": "T-square"
+    },
+    "correct_answer": "b",
+    "explanation": "Dividers transfer measurements accurately (ET-GC003 Manual, p. 11)."
+  },
+  {
+    "question_number": 21,
+    "question": "What does ATA 100 Chapter 35 cover?",
+    "options": {
+      "a": "Hydraulic Power",
+      "b": "Oxygen Systems",
+      "c": "Fuel Systems"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 35 covers oxygen systems (ET-GC003 Manual, p. 53)."
+  },
+  {
+    "question_number": 22,
+    "question": "What is the purpose of dimension lines in aircraft drawings?",
+    "options": {
+      "a": "Indicate material type",
+      "b": "Show part measurements",
+      "c": "List assembly steps"
+    },
+    "correct_answer": "b",
+    "explanation": "Dimension lines indicate precise part measurements (ET-GC003 Manual, p. 20)."
+  },
+  {
+    "question_number": 23,
+    "question": "Which drawing type shows electrical system layouts?",
+    "options": {
+      "a": "Assembly Drawing",
+      "b": "Wiring Diagram",
+      "c": "Detail Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Wiring diagrams show electrical system layouts (ET-GC003 Manual, p. 38)."
+  },
+  {
+    "question_number": 24,
+    "question": "Which ATA 100 chapter covers landing gear?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 32",
+      "c": "Chapter 36"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 32 covers landing gear systems (ET-GC003 Manual, p. 50)."
+  },
+  {
+    "question_number": 25,
+    "question": "What is the purpose of a leader line in technical drawings?",
+    "options": {
+      "a": "Connect notes to features",
+      "b": "Draw curved lines",
+      "c": "Indicate tolerances"
+    },
+    "correct_answer": "a",
+    "explanation": "Leader lines connect annotations to specific features (ET-GC003 Manual, p. 21)."
+  },
+  {
+    "question_number": 26,
+    "question": "Which tool draws irregular curves in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "French Curve",
+      "c": "Compass"
+    },
+    "correct_answer": "b",
+    "explanation": "A French curve draws smooth, irregular curves (ET-GC003 Manual, p. 13)."
+  },
+  {
+    "question_number": 27,
+    "question": "What does the Structural Repair Manual (SRM) provide?",
+    "options": {
+      "a": "Part diagrams",
+      "b": "Structural repair procedures",
+      "c": "Flight guidelines"
+    },
+    "correct_answer": "b",
+    "explanation": "The SRM provides procedures for structural repairs (ET-GC003 Manual, p. 56)."
+  },
+  {
+    "question_number": 28,
+    "question": "Which ATA 100 chapter covers pneumatic systems?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 36",
+      "c": "Chapter 29"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 36 covers pneumatic systems (ET-GC003 Manual, p. 51)."
+  },
+  {
+    "question_number": 29,
+    "question": "What does an isometric drawing show?",
+    "options": {
+      "a": "2D flat views",
+      "b": "3D representation",
+      "c": "Electrical schematics"
+    },
+    "correct_answer": "b",
+    "explanation": "Isometric drawings provide a 3D representation of parts (ET-GC003 Manual, p. 29)."
+  },
+  {
+    "question_number": 30,
+    "question": "Which tool sets precise distances in drafting?",
+    "options": {
+      "a": "Protractor",
+      "b": "Divider",
+      "c": "French Curve"
+    },
+    "correct_answer": "b",
+    "explanation": "Dividers set and transfer precise distances (ET-GC003 Manual, p. 11)."
+  },
+  {
+    "question_number": 31,
+    "question": "What does ATA 100 Chapter 24 cover?",
+    "options": {
+      "a": "Hydraulic Power",
+      "b": "Electrical Power",
+      "c": "Oxygen Systems"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 24 covers electrical power systems (ET-GC003 Manual, p. 43)."
+  },
+  {
+    "question_number": 32,
+    "question": "What is the purpose of a centerline in aircraft drawings?",
+    "options": {
+      "a": "Indicate symmetry",
+      "b": "Show material type",
+      "c": "List part numbers"
+    },
+    "correct_answer": "a",
+    "explanation": "Centerlines indicate symmetry or centers of features (ET-GC003 Manual, p. 22)."
+  },
+  {
+    "question_number": 33,
+    "question": "Which drawing type shows internal part details?",
+    "options": {
+      "a": "Assembly Drawing",
+      "b": "Sectional Drawing",
+      "c": "Wiring Diagram"
+    },
+    "correct_answer": "b",
+    "explanation": "Sectional drawings reveal internal details by cutting through parts (ET-GC003 Manual, p. 31)."
+  },
+  {
+    "question_number": 34,
+    "question": "Which ATA 100 chapter covers air conditioning?",
+    "options": {
+      "a": "Chapter 21",
+      "b": "Chapter 28",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 21 covers air conditioning systems (ET-GC003 Manual, p. 40)."
+  },
+  {
+    "question_number": 35,
+    "question": "What is the purpose of a bill of materials in drawings?",
+    "options": {
+      "a": "List required parts",
+      "b": "Show assembly steps",
+      "c": "Indicate tolerances"
+    },
+    "correct_answer": "a",
+    "explanation": "A bill of materials lists all parts for an assembly (ET-GC003 Manual, p. 34)."
+  },
+  {
+    "question_number": 36,
+    "question": "Which tool draws parallel lines in drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "T-square",
+      "c": "Protractor"
+    },
+    "correct_answer": "b",
+    "explanation": "A T-square ensures parallel straight lines (ET-GC003 Manual, p. 9)."
+  },
+  {
+    "question_number": 37,
+    "question": "What does the Component Maintenance Manual (CMM) provide?",
+    "options": {
+      "a": "Structural repairs",
+      "b": "Component overhaul procedures",
+      "c": "Flight instructions"
+    },
+    "correct_answer": "b",
+    "explanation": "The CMM provides overhaul procedures for components (ET-GC003 Manual, p. 57)."
+  },
+  {
+    "question_number": 38,
+    "question": "Which ATA 100 chapter covers oxygen systems?",
+    "options": {
+      "a": "Chapter 29",
+      "b": "Chapter 35",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 35 covers oxygen systems (ET-GC003 Manual, p. 53)."
+  },
+  {
+    "question_number": 39,
+    "question": "What does a phantom line indicate in aircraft drawings?",
+    "options": {
+      "a": "Hidden edges",
+      "b": "Alternate positions",
+      "c": "Cutting planes"
+    },
+    "correct_answer": "b",
+    "explanation": "Phantom lines show alternate positions or paths (ET-GC003 Manual, p. 23)."
+  },
+  {
+    "question_number": 40,
+    "question": "Which tool creates arcs in technical drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "Compass",
+      "c": "Divider"
+    },
+    "correct_answer": "b",
+    "explanation": "A compass creates precise arcs and circles (ET-GC003 Manual, p. 8)."
+  },
+  {
+    "question_number": 41,
+    "question": "What does ATA 100 Chapter 27 cover?",
+    "options": {
+      "a": "Fuel Systems",
+      "b": "Flight Controls",
+      "c": "Landing Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 27 covers flight control systems (ET-GC003 Manual, p. 46)."
+  },
+  {
+    "question_number": 42,
+    "question": "What is the purpose of a hidden line in drawings?",
+    "options": {
+      "a": "Show visible edges",
+      "b": "Indicate hidden edges",
+      "c": "Mark centerlines"
+    },
+    "correct_answer": "b",
+    "explanation": "Hidden lines indicate edges not directly visible (ET-GC003 Manual, p. 24)."
+  },
+  {
+    "question_number": 43,
+    "question": "Which drawing type shows system flow paths?",
+    "options": {
+      "a": "Detail Drawing",
+      "b": "Schematic Drawing",
+      "c": "Assembly Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Schematic drawings show flow paths for systems (ET-GC003 Manual, p. 37)."
+  },
+  {
+    "question_number": 44,
+    "question": "Which ATA 100 chapter covers pneumatic systems?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 36",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 36 covers pneumatic systems (ET-GC003 Manual, p. 51)."
+  },
+  {
+    "question_number": 45,
+    "question": "What is the purpose of a scale in aircraft drawings?",
+    "options": {
+      "a": "Indicate material strength",
+      "b": "Show proportional sizes",
+      "c": "List part numbers"
+    },
+    "correct_answer": "b",
+    "explanation": "Scales show proportional sizes between drawing and actual parts (ET-GC003 Manual, p. 15)."
+  },
+  {
+    "question_number": 46,
+    "question": "Which tool draws smooth curves in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "French Curve",
+      "c": "Protractor"
+    },
+    "correct_answer": "b",
+    "explanation": "A French curve draws smooth, irregular curves (ET-GC003 Manual, p. 13)."
+  },
+  {
+    "question_number": 47,
+    "question": "What does the Wiring Diagram Manual (WDM) provide?",
+    "options": {
+      "a": "Structural repairs",
+      "b": "Electrical wiring layouts",
+      "c": "Maintenance schedules"
+    },
+    "correct_answer": "b",
+    "explanation": "The WDM provides electrical wiring layouts (ET-GC003 Manual, p. 58)."
+  },
+  {
+    "question_number": 48,
+    "question": "Which ATA 100 chapter covers fuel systems?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 29",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 28 covers fuel systems (ET-GC003 Manual, p. 48)."
+  },
+  {
+    "question_number": 49,
+    "question": "What does a cutting plane line indicate in drawings?",
+    "options": {
+      "a": "Hidden edges",
+      "b": "Sectional view location",
+      "c": "Symmetry"
+    },
+    "correct_answer": "b",
+    "explanation": "Cutting plane lines show where a section is cut (ET-GC003 Manual, p. 25)."
+  },
+  {
+    "question_number": 50,
+    "question": "Which tool measures distances in drafting?",
+    "options": {
+      "a": "Protractor",
+      "b": "Divider",
+      "c": "French Curve"
+    },
+    "correct_answer": "b",
+    "explanation": "Dividers measure and transfer distances (ET-GC003 Manual, p. 11)."
+  },
+  {
+    "question_number": 51,
+    "question": "What does ATA 100 Chapter 32 cover?",
+    "options": {
+      "a": "Hydraulic Power",
+      "b": "Landing Gear",
+      "c": "Oxygen Systems"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 32 covers landing gear systems (ET-GC003 Manual, p. 50)."
+  },
+  {
+    "question_number": 52,
+    "question": "What is the purpose of a break line in aircraft drawings?",
+    "options": {
+      "a": "Show hidden edges",
+      "b": "Indicate shortened views",
+      "c": "Mark centerlines"
+    },
+    "correct_answer": "b",
+    "explanation": "Break lines indicate shortened views to fit parts on the drawing (ET-GC003 Manual, p. 26)."
+  },
+  {
+    "question_number": 53,
+    "question": "Which drawing type shows a single part’s specifications?",
+    "options": {
+      "a": "Assembly Drawing",
+      "b": "Detail Drawing",
+      "c": "Schematic Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Detail drawings provide specifications for a single part (ET-GC003 Manual, p. 33)."
+  },
+  {
+    "question_number": 54,
+    "question": "Which ATA 100 chapter covers flight controls?",
+    "options": {
+      "a": "Chapter 27",
+      "b": "Chapter 29",
+      "c": "Chapter 36"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 27 covers flight control systems (ET-GC003 Manual, p. 46)."
+  },
+  {
+    "question_number": 55,
+    "question": "What is the purpose of a revision block in drawings?",
+    "options": {
+      "a": "List part materials",
+      "b": "Track drawing changes",
+      "c": "Show assembly steps"
+    },
+    "correct_answer": "b",
+    "explanation": "A revision block tracks changes to the drawing (ET-GC003 Manual, p. 14)."
+  },
+  {
+    "question_number": 56,
+    "question": "Which tool draws precise angles in drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "Protractor",
+      "c": "T-square"
+    },
+    "correct_answer": "b",
+    "explanation": "A protractor draws and measures precise angles (ET-GC003 Manual, p. 10)."
+  },
+  {
+    "question_number": 57,
+    "question": "What does the Overhaul Manual provide?",
+    "options": {
+      "a": "Part identification",
+      "b": "Component overhaul procedures",
+      "c": "Flight instructions"
+    },
+    "correct_answer": "b",
+    "explanation": "The Overhaul Manual provides component overhaul procedures (ET-GC003 Manual, p. 59)."
+  },
+  {
+    "question_number": 58,
+    "question": "Which ATA 100 chapter covers air conditioning?",
+    "options": {
+      "a": "Chapter 21",
+      "b": "Chapter 28",
+      "c": "Chapter 35"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 21 covers air conditioning systems (ET-GC003 Manual, p. 40)."
+  },
+  {
+    "question_number": 59,
+    "question": "What does a visible line represent in drawings?",
+    "options": {
+      "a": "Hidden edges",
+      "b": "Visible edges",
+      "c": "Centerlines"
+    },
+    "correct_answer": "b",
+    "explanation": "Visible lines represent edges directly visible (ET-GC003 Manual, p. 24)."
+  },
+  {
+    "question_number": 60,
+    "question": "Which tool creates smooth curves in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "French Curve",
+      "c": "Divider"
+    },
+    "correct_answer": "b",
+    "explanation": "A French curve creates smooth, irregular curves (ET-GC003 Manual, p. 13)."
+  },
+  {
+    "question_number": 61,
+    "question": "What does ATA 100 Chapter 28 cover?",
+    "options": {
+      "a": "Electrical Power",
+      "b": "Fuel Systems",
+      "c": "Landing Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 28 covers fuel systems (ET-GC003 Manual, p. 48)."
+  },
+  {
+    "question_number": 62,
+    "question": "What is the purpose of a datum in aircraft drawings?",
+    "options": {
+      "a": "Indicate material type",
+      "b": "Provide reference point",
+      "c": "Show assembly steps"
+    },
+    "correct_answer": "b",
+    "explanation": "A datum provides a reference point for measurements (ET-GC003 Manual, p. 18)."
+  },
+  {
+    "question_number": 63,
+    "question": "Which drawing type shows exploded component views?",
+    "options": {
+      "a": "Detail Drawing",
+      "b": "Exploded View Drawing",
+      "c": "Schematic Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Exploded view drawings show separated components (ET-GC003 Manual, p. 36)."
+  },
+  {
+    "question_number": 64,
+    "question": "Which ATA 100 chapter covers hydraulic power?",
+    "options": {
+      "a": "Chapter 27",
+      "b": "Chapter 29",
+      "c": "Chapter 36"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 29 covers hydraulic power systems (ET-GC003 Manual, p. 45)."
+  },
+  {
+    "question_number": 65,
+    "question": "What is the purpose of a note in aircraft drawings?",
+    "options": {
+      "a": "Show hidden edges",
+      "b": "Provide instructions",
+      "c": "Indicate symmetry"
+    },
+    "correct_answer": "b",
+    "explanation": "Notes provide additional instructions or specifications (ET-GC003 Manual, p. 21)."
+  },
+  {
+    "question_number": 66,
+    "question": "Which tool transfers distances in drafting?",
+    "options": {
+      "a": "Protractor",
+      "b": "Divider",
+      "c": "T-square"
+    },
+    "correct_answer": "b",
+    "explanation": "Dividers transfer precise distances (ET-GC003 Manual, p. 11)."
+  },
+  {
+    "question_number": 67,
+    "question": "What does the Illustrated Parts Catalog (IPC) provide?",
+    "options": {
+      "a": "Repair procedures",
+      "b": "Part numbers and diagrams",
+      "c": "Flight guidelines"
+    },
+    "correct_answer": "b",
+    "explanation": "The IPC provides part numbers and diagrams (ET-GC003 Manual, p. 52)."
+  },
+  {
+    "question_number": 68,
+    "question": "Which ATA 100 chapter covers oxygen systems?",
+    "options": {
+      "a": "Chapter 29",
+      "b": "Chapter 35",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 35 covers oxygen systems (ET-GC003 Manual, p. 53)."
+  },
+  {
+    "question_number": 69,
+    "question": "What does a phantom line show in drawings?",
+    "options": {
+      "a": "Visible edges",
+      "b": "Alternate positions",
+      "c": "Hidden edges"
+    },
+    "correct_answer": "b",
+    "explanation": "Phantom lines show alternate positions or paths (ET-GC003 Manual, p. 23)."
+  },
+  {
+    "question_number": 70,
+    "question": "Which tool draws arcs in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "Compass",
+      "c": "Protractor"
+    },
+    "correct_answer": "b",
+    "explanation": "A compass draws precise arcs and circles (ET-GC003 Manual, p. 8)."
+  },
+  {
+    "question_number": 71,
+    "question": "What does ATA 100 Chapter 36 cover?",
+    "options": {
+      "a": "Fuel Systems",
+      "b": "Pneumatic Systems",
+      "c": "Landing Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 36 covers pneumatic systems (ET-GC003 Manual, p. 51)."
+  },
+  {
+    "question_number": 72,
+    "question": "What is the purpose of a tolerance symbol in drawings?",
+    "options": {
+      "a": "Indicate material",
+      "b": "Specify deviations",
+      "c": "Show part numbers"
+    },
+    "correct_answer": "b",
+    "explanation": "Tolerance symbols specify allowable dimensional deviations (ET-GC003 Manual, p. 19)."
+  },
+  {
+    "question_number": 73,
+    "question": "Which drawing type shows wiring connections?",
+    "options": {
+      "a": "Detail Drawing",
+      "b": "Wiring Diagram",
+      "c": "Assembly Drawing"
+    },
+    "correct_answer": "b",
+    "explanation": "Wiring diagrams show electrical wiring connections (ET-GC003 Manual, p. 38)."
+  },
+  {
+    "question_number": 74,
+    "question": "Which ATA 100 chapter covers electrical power?",
+    "options": {
+      "a": "Chapter 24",
+      "b": "Chapter 27",
+      "c": "Chapter 29"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 24 covers electrical power systems (ET-GC003 Manual, p. 43)."
+  },
+  {
+    "question_number": 75,
+    "question": "What is the purpose of a scale in drawings?",
+    "options": {
+      "a": "Show material strength",
+      "b": "Indicate proportional sizes",
+      "c": "List part numbers"
+    },
+    "correct_answer": "b",
+    "explanation": "Scales indicate proportional sizes between drawing and parts (ET-GC003 Manual, p. 15)."
+  },
+  {
+    "question_number": 76,
+    "question": "Which tool draws irregular curves in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "French Curve",
+      "c": "Divider"
+    },
+    "correct_answer": "b",
+    "explanation": "A French curve draws smooth, irregular curves (ET-GC003 Manual, p. 13)."
+  },
+  {
+    "question_number": 77,
+    "question": "What does the Structural Repair Manual (SRM) provide?",
+    "options": {
+      "a": "Part diagrams",
+      "b": "Structural repair procedures",
+      "c": "Flight guidelines"
+    },
+    "correct_answer": "b",
+    "explanation": "The SRM provides structural repair procedures (ET-GC003 Manual, p. 56)."
+  },
+  {
+    "question_number": 78,
+    "question": "Which ATA 100 chapter covers flight controls?",
+    "options": {
+      "a": "Chapter 27",
+      "b": "Chapter 28",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "a",
+    "explanation": "ATA 100 Chapter 27 covers flight control systems (ET-GC003 Manual, p. 46)."
+  },
+  {
+    "question_number": 79,
+    "question": "What does a leader line do in drawings?",
+    "options": {
+      "a": "Show hidden edges",
+      "b": "Connect notes to features",
+      "c": "Indicate symmetry"
+    },
+    "correct_answer": "b",
+    "explanation": "Leader lines connect annotations to features (ET-GC003 Manual, p. 21)."
+  },
+  {
+    "question_number": 80,
+    "question": "Which tool measures angles in drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "Protractor",
+      "c": "T-square"
+    },
+    "correct_answer": "b",
+    "explanation": "A protractor measures and draws angles (ET-GC003 Manual, p. 10)."
+  },
+  {
+    "question_number": 81,
+    "question": "What does ATA 100 Chapter 21 cover?",
+    "options": {
+      "a": "Fuel Systems",
+      "b": "Air Conditioning",
+      "c": "Landing Gear"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 21 covers air conditioning systems (ET-GC003 Manual, p. 40)."
+  },
+  {
+    "question_number": 82,
+    "question": "What is the purpose of a centerline in drawings?",
+    "options": {
+      "a": "Show material type",
+      "b": "Indicate symmetry",
+      "c": "List part numbers"
+    },
+    "correct_answer": "b",
+    "explanation": "Centerlines indicate symmetry or centers (ET-GC003 Manual, p. 22)."
+  },
+  {
+    "question_number": 83,
+    "question": "Which drawing type shows internal details?",
+    "options": {
+      "a": "Assembly Drawing",
+      "b": "Sectional Drawing",
+      "c": "Wiring Diagram"
+    },
+    "correct_answer": "b",
+    "explanation": "Sectional drawings reveal internal details (ET-GC003 Manual, p. 31)."
+  },
+  {
+    "question_number": 84,
+    "question": "Which ATA 100 chapter covers pneumatic systems?",
+    "options": {
+      "a": "Chapter 28",
+      "b": "Chapter 36",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 36 covers pneumatic systems (ET-GC003 Manual, p. 51)."
+  },
+  {
+    "question_number": 85,
+    "question": "What is the purpose of a bill of materials?",
+    "options": {
+      "a": "List required parts",
+      "b": "Show assembly steps",
+      "c": "Indicate tolerances"
+    },
+    "correct_answer": "a",
+    "explanation": "A bill of materials lists parts for an assembly (ET-GC003 Manual, p. 34)."
+  },
+  {
+    "question_number": 86,
+    "question": "Which tool draws parallel lines in drafting?",
+    "options": {
+      "a": "Compass",
+      "b": "T-square",
+      "c": "Protractor"
+    },
+    "correct_answer": "b",
+    "explanation": "A T-square ensures parallel lines (ET-GC003 Manual, p. 9)."
+  },
+  {
+    "question_number": 87,
+    "question": "What does the Component Maintenance Manual (CMM) provide?",
+    "options": {
+      "a": "Structural repairs",
+      "b": "Component overhaul procedures",
+      "c": "Flight instructions"
+    },
+    "correct_answer": "b",
+    "explanation": "The CMM provides component overhaul procedures (ET-GC003 Manual, p. 57)."
+  },
+  {
+    "question_number": 88,
+    "question": "Which ATA 100 chapter covers oxygen systems?",
+    "options": {
+      "a": "Chapter 29",
+      "b": "Chapter 35",
+      "c": "Chapter 32"
+    },
+    "correct_answer": "b",
+    "explanation": "ATA 100 Chapter 35 covers oxygen systems (ET-GC003 Manual, p. 53)."
+  },
+  {
+    "question_number": 89,
+    "question": "What does a hidden line indicate in drawings?",
+    "options": {
+      "a": "Visible edges",
+      "b": "Hidden edges",
+      "c": "Centerlines"
+    },
+    "correct_answer": "b",
+    "explanation": "Hidden lines indicate edges not visible (ET-GC003 Manual, p. 24)."
+  },
+  {
+    "question_number": 90,
+    "question": "Which tool draws arcs in drafting?",
+    "options": {
+      "a": "T-square",
+      "b": "Compass",
+      "c": "Protractor"
+    },
+    "correct_answer": "b",
+    "explanation": "A compass draws arcs and circles (ET-GC003 Manual, p. 8)."
+  }
+]

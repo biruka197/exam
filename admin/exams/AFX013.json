@@ -1,0 +1,343 @@
+[
+    {
+        "question_number": 1,
+        "question": "What is the effect of lengthening the rear strut?",
+        "options": {
+            "A": "Decrease the angle of incidence",
+            "B": "Increase the dihedral angle",
+            "C": "Increase the angle of incidence"
+        },
+        "correct_answer": "A",
+        "explanation": "Lengthening the rear wing strut lowers the trailing edge of the wing relative to the leading edge, which decreases the wing's angle of incidence."
+    },
+    {
+        "question_number": 2,
+        "question": "What type of balance ensures a control surface's center of gravity is located at or ahead of the hinge line to prevent flutter?",
+        "options": {
+            "A": "Dynamic balance",
+            "B": "Static balance",
+            "C": "Aerodynamic balance"
+        },
+        "correct_answer": "B",
+        "explanation": "Static balance involves adding weights to a control surface so its center of gravity is on or ahead of the hinge line, preventing it from fluttering or moving due to its own weight during flight."
+    },
+    {
+        "question_number": 3,
+        "question": "What type of balance accounts for the forces created by a component's rotation to prevent vibration?",
+        "options": {
+            "A": "Static balance",
+            "B": "Dynamic balance",
+            "C": "Neutral balance"
+        },
+        "correct_answer": "B",
+        "explanation": "Dynamic balance is the condition where a rotating object, like a propeller or rotor, has its mass distributed evenly so it does not vibrate when spinning. It considers both mass distribution and rotational forces."
+    },
+    {
+        "question_number": 4,
+        "question": "How is a Class 1 fit for bolts and nuts typically described?",
+        "options": {
+            "A": "Tight",
+            "B": "Medium",
+            "C": "Loose"
+        },
+        "correct_answer": "C",
+        "explanation": "A Class 1 fit is a loose fit, allowing for quick and easy assembly by hand, used where clearance is not critical."
+    },
+    {
+        "question_number": 5,
+        "question": "How is a Class 3 fit for bolts and nuts typically described?",
+        "options": {
+            "A": "Loose",
+            "B": "Medium",
+            "C": "Tight"
+        },
+        "correct_answer": "B",
+        "explanation": "A Class 3 fit is a medium fit, offering a tighter tolerance than Class 1 or 2, used in applications requiring a secure and snug connection with minimal play."
+    },
+    {
+        "question_number": 6,
+        "question": "What is the first procedure to follow before beginning wing disassembly?",
+        "options": {
+            "A": "Disconnect the fuel lines",
+            "B": "Remove the ailerons",
+            "C": "Observe safety procedures"
+        },
+        "correct_answer": "C",
+        "explanation": "Before starting any major maintenance task like wing disassembly, the first and most critical step is to review and follow all prescribed safety procedures to prevent injury and damage."
+    },
+    {
+        "question_number": 7,
+        "question": "Where can a technician find the specifications for control surface deflection?",
+        "options": {
+            "A": "The pilot's operating handbook (POH)",
+            "B": "The Type Certificate Data Sheet (TCDS)",
+            "C": "The aircraft logbook"
+        },
+        "correct_answer": "B",
+        "explanation": "The Type Certificate Data Sheet (TCDS) for a specific aircraft model contains the required specifications for control surface travel and deflection limits."
+    },
+    {
+        "question_number": 8,
+        "question": "Which type of flight control system generally has the lowest weight?",
+        "options": {
+            "A": "Mechanical cable-and-pulley",
+            "B": "Hydraulic",
+            "C": "Flight by light"
+        },
+        "correct_answer": "C",
+        "explanation": "'Flight by light' systems use lightweight fiber optic cables instead of heavier mechanical linkages or hydraulic lines, resulting in a significant weight reduction."
+    },
+    {
+        "question_number": 9,
+        "question": "Which type of flight control system uses optical fibers to transmit signals?",
+        "options": {
+            "A": "Fly-by-wire",
+            "B": "Flight by light",
+            "C": "Hydro-mechanical"
+        },
+        "correct_answer": "B",
+        "explanation": "'Flight by light' is a specific type of fly-by-wire system that uses fiber optic cables to transmit flight control commands, offering advantages like immunity to electromagnetic interference and reduced weight."
+    },
+    {
+        "question_number": 10,
+        "question": "What is the condition if a control surface's trailing edge moves down when suspended from its hinge line?",
+        "options": {
+            "A": "Over balance",
+            "B": "Under balance",
+            "C": "Neutral balance"
+        },
+        "correct_answer": "B",
+        "explanation": "An underbalanced condition exists when the center of gravity of the control surface is behind the hinge line, causing the trailing edge to drop when unsupported. This is an undesirable and unsafe condition."
+    },
+    {
+        "question_number": 11,
+        "question": "What is the condition if a control surface's trailing edge moves up when suspended from its hinge line?",
+        "options": {
+            "A": "Over balance",
+            "B": "Under balance",
+            "C": "Neutral balance"
+        },
+        "correct_answer": "A",
+        "explanation": "An overbalanced condition exists when the center of gravity of the control surface is ahead of the hinge line, causing the trailing edge to rise when unsupported. This is the desired state for proper static balance to prevent flutter."
+    },
+    {
+        "question_number": 12,
+        "question": "What is the term for the longitudinal difference between the leading edges of the upper and lower wings of a biplane?",
+        "options": {
+            "A": "Dihedral",
+            "B": "Incidence",
+            "C": "Stagger"
+        },
+        "correct_answer": "C",
+        "explanation": "Stagger refers to the fore-and-aft positioning of a biplane's wings relative to each other. Positive stagger is when the upper wing is forward of the lower wing."
+    },
+    {
+        "question_number": 13,
+        "question": "What is the term for the upward angle of the wings from the horizontal, or lateral, axis?",
+        "options": {
+            "A": "Stagger",
+            "B": "Dihedral",
+            "C": "Angle of incidence"
+        },
+        "correct_answer": "B",
+        "explanation": "Dihedral is the upward angle of the wings as viewed from the front of the aircraft. It contributes to lateral (roll) stability."
+    },
+    {
+        "question_number": 14,
+        "question": "An aircraft is leveled for rigging purposes by referencing which axes?",
+        "options": {
+            "A": "Vertical and lateral",
+            "B": "Lateral and longitudinal",
+            "C": "Vertical and longitudinal"
+        },
+        "correct_answer": "B",
+        "explanation": "To ensure proper rigging, an aircraft must be leveled both longitudinally (pitch) and laterally (roll) according to the manufacturer's specifications."
+    },
+    {
+        "question_number": 15,
+        "question": "What rigging technique involves twisting a wing to counteract engine torque?",
+        "options": {
+            "A": "Adjusting dihedral",
+            "B": "Adjusting the vertical stabilizer",
+            "C": "Wash-in / wash-out"
+        },
+        "correct_answer": "C",
+        "explanation": "Wash-in (increased angle of incidence) and wash-out (decreased angle of incidence) can be rigged into a wing to create differential lift that counteracts the rolling tendency caused by engine torque."
+    },
+    {
+        "question_number": 16,
+        "question": "When one aileron moves down, what does the opposite aileron do?",
+        "options": {
+            "A": "Stays neutral",
+            "B": "Moves down as well",
+            "C": "Moves up"
+        },
+        "correct_answer": "C",
+        "explanation": "Ailerons operate in opposition. When one moves down to increase lift on its wing, the aileron on the opposite wing moves up to decrease lift, causing the aircraft to roll."
+    },
+    {
+        "question_number": 17,
+        "question": "Where should a leveling or rigging check ideally be performed?",
+        "options": {
+            "A": "On a sloped runway",
+            "B": "In an enclosed area (hangar)",
+            "C": "Outdoors on a calm day"
+        },
+        "correct_answer": "B",
+        "explanation": "Rigging and leveling checks should be done in an enclosed area like a hangar to prevent wind from disturbing the aircraft and causing inaccurate measurements."
+    },
+    {
+        "question_number": 18,
+        "question": "What is the term for the stage in aircraft manufacturing where major pre-assembled sections are joined together?",
+        "options": {
+            "A": "Final assembly line",
+            "B": "Production body break",
+            "C": "Sub-assembly jigging"
+        },
+        "correct_answer": "B",
+        "explanation": "The production body break (or major assembly join-up) is the point in the manufacturing process where large components like the fuselage sections, wings, and empennage are brought together to form the basic airframe."
+    },
+    {
+        "question_number": 19,
+        "question": "How can aircraft rigging be best defined?",
+        "options": {
+            "A": "Tightening all bolts to their specified torque",
+            "B": "Adjustment of components for proper flight characteristics",
+            "C": "Replacing worn control cables"
+        },
+        "correct_answer": "B",
+        "explanation": "Rigging is the process of adjusting the aircraft's wings, flight control surfaces, and other components to ensure it has the correct aerodynamic alignment and flight characteristics as designed by the manufacturer."
+    },
+    {
+        "question_number": 20,
+        "question": "What tool is used to measure and apply a specific tightness or torque to a bolt or nut?",
+        "options": {
+            "A": "Pliers",
+            "B": "Torque wrench",
+            "C": "Screwdriver"
+        },
+        "correct_answer": "B",
+        "explanation": "A torque wrench is a specialized tool used to apply a precise amount of rotational force (torque) to a fastener, which is critical for ensuring aircraft components are secured correctly."
+    },
+    {
+        "question_number": 21,
+        "question": "What is the maximum allowable angle of deflection for a control cable passing through a fairlead?",
+        "options": {
+            "A": "Not more than 3\u00b0",
+            "B": "Not more than 5\u00b0",
+            "C": "Not more than 10\u00b0"
+        },
+        "correct_answer": "A",
+        "explanation": "A fairlead must not cause a control cable to deflect more than 3 degrees from a straight line to prevent excessive wear and friction on the cable."
+    },
+    {
+        "question_number": 22,
+        "question": "What tool can be used in conjunction with a leveling plate or reference point to check if an aircraft is level?",
+        "options": {
+            "A": "A straight edge",
+            "B": "A plumb bob",
+            "C": "A tape measure"
+        },
+        "correct_answer": "B",
+        "explanation": "A plumb bob, which establishes a true vertical line, is used with manufacturer-specified leveling points to verify that the aircraft is in a level attitude for rigging checks. Spirit levels are also commonly used."
+    },
+    {
+        "question_number": 23,
+        "question": "What device is used on large aircraft to automatically adjust control cable tension for changes in temperature?",
+        "options": {
+            "A": "Turnbuckles",
+            "B": "Cable tension regulator",
+            "C": "Fairleads"
+        },
+        "correct_answer": "B",
+        "explanation": "Cable tension regulators are devices incorporated into control cable systems, especially on large aircraft, to automatically maintain correct cable tension despite expansion and contraction caused by temperature changes."
+    },
+    {
+        "question_number": 24,
+        "question": "A full rigging check is generally NOT required after which of the following events?",
+        "options": {
+            "A": "Replacement of a control surface",
+            "B": "A hard landing inspection",
+            "C": "Routine servicing like an oil change"
+        },
+        "correct_answer": "C",
+        "explanation": "A complete rigging check is typically not required after routine servicing that does not involve the flight control system. It is required after major repairs, component replacement, or when poor flight characteristics are reported."
+    },
+    {
+        "question_number": 25,
+        "question": "Rigging is the process of alignment and adjustment of which aircraft parts?",
+        "options": {
+            "A": "Only the movable control surfaces",
+            "B": "Both fixed and movable parts of the airframe",
+            "C": "Only the engine and propeller"
+        },
+        "correct_answer": "B",
+        "explanation": "Rigging involves the correct alignment and adjustment of not only movable surfaces like ailerons and elevators but also fixed surfaces like the wings and stabilizers to ensure proper aerodynamic performance."
+    },
+    {
+        "question_number": 26,
+        "question": "Which type of aircraft control cable construction is the most flexible?",
+        "options": {
+            "A": "7x7",
+            "B": "1x19",
+            "C": "7x19"
+        },
+        "correct_answer": "C",
+        "explanation": "A 7x19 cable, made of 7 strands with 19 wires each, is the most flexible type and is used in areas requiring sharp bends, such as around small pulleys in control systems."
+    },
+    {
+        "question_number": 27,
+        "question": "The rigging of the ailerons primarily affects which aircraft movement?",
+        "options": {
+            "A": "Pitching movement",
+            "B": "Yawing movement",
+            "C": "Rolling movement"
+        },
+        "correct_answer": "C",
+        "explanation": "Ailerons are located on the wings and are designed to control the aircraft's roll about its longitudinal axis. Proper rigging ensures they function correctly for banking and turning."
+    },
+    {
+        "question_number": 28,
+        "question": "Which of the following is a primary flight control surface?",
+        "options": {
+            "A": "Trim tab",
+            "B": "Flap",
+            "C": "Aileron"
+        },
+        "correct_answer": "C",
+        "explanation": "The primary flight controls are those required to safely control the aircraft's movement around its three axes: ailerons (roll), elevators/stabilator (pitch), and rudder (yaw). Flaps and trim tabs are secondary controls."
+    },
+    {
+        "question_number": 29,
+        "question": "What is a critical first step when rigging a flight control surface?",
+        "options": {
+            "A": "Disconnect the control cables from the surface",
+            "B": "Set the trim tabs to their maximum deflection",
+            "C": "Lock the cockpit control and the control surface in their neutral positions"
+        },
+        "correct_answer": "C",
+        "explanation": "To ensure accurate rigging measurements and adjustments, both the cockpit control (yoke/stick) and the corresponding control surface must be secured in their specified neutral position using rigging pins or blocks."
+    },
+    {
+        "question_number": 30,
+        "question": "In which manual would a technician find detailed assembly and disassembly procedures for aircraft components?",
+        "options": {
+            "A": "Pilot's Operating Handbook (POH)",
+            "B": "Aircraft Maintenance Manual (AMM)",
+            "C": "Illustrated Parts Catalog (IPC)"
+        },
+        "correct_answer": "B",
+        "explanation": "The Aircraft Maintenance Manual (AMM) contains the detailed, step-by-step procedures required for disassembly, inspection, repair, and assembly of the aircraft and its systems."
+    },
+    {
+        "question_number": 31,
+        "question": "What is a fundamental rule regarding the assembly of aircraft components?",
+        "options": {
+            "A": "It is acceptable to slightly modify parts for a better fit.",
+            "B": "Never force a component to fit.",
+            "C": "Torque values are only suggestions."
+        },
+        "correct_answer": "B",
+        "explanation": "Forcing components together can cause stress, deformation, or hidden damage. Parts are designed to fit precisely, and any difficulty in assembly indicates a problem that must be investigated, not overcome with force."
+    }
+]

@@ -1,0 +1,1542 @@
+[
+    {
+        "question_number": 1,
+        "question": "According to the document, what is the critical purpose of an aircraft's electrical system?",
+        "options": {
+            "a": "To power the in-flight entertainment system exclusively.",
+            "b": "To ensure safe, reliable, and continuous power to all onboard systems under all operating conditions.",
+            "c": "To reduce the aircraft's overall weight by replacing hydraulic systems."
+        },
+        "correct_answer": "b",
+        "explanation": "The electrical system requirements are critical to ensure safe, reliable, and continuous power to all onboard systems under all operating conditions[cite: 29]."
+    },
+    {
+        "question_number": 2,
+        "question": "Who defines the requirements for aircraft electrical systems?",
+        "options": {
+            "a": "Airline pilots and cabin crew.",
+            "b": "Airport ground staff only.",
+            "c": "Aviation authorities (like EASA, FAA) and aircraft manufacturers."
+        },
+        "correct_answer": "c",
+        "explanation": "The requirements for aircraft electrical systems are defined by aviation authorities (e.g., EASA, FAA) and aircraft manufacturers[cite: 31]."
+    },
+    {
+        "question_number": 3,
+        "question": "What is 'load shedding' in an aircraft electrical system?",
+        "options": {
+            "a": "The ability to increase power to all systems simultaneously.",
+            "b": "The process of jettisoning physical cargo to save fuel.",
+            "c": "The ability to automatically disconnect non-essential loads to preserve power for critical systems."
+        },
+        "correct_answer": "c",
+        "explanation": "Load shedding capability in aircraft electrical systems refers to the system's ability to automatically disconnect or turn off non-essential electrical loads to preserve power for essential and critical systems[cite: 57]."
+    },
+    {
+        "question_number": 4,
+        "question": "Which of the following are considered non-essential loads that may be shed first during a power issue?",
+        "options": {
+            "a": "Flight instruments and flight control systems.",
+            "b": "Cabin lighting, galley power, and entertainment systems.",
+            "c": "Communication and navigation systems."
+        },
+        "correct_answer": "b",
+        "explanation": "Non-essential loads such as cabin lighting, galley power, and in-flight entertainment are shed first to prioritize power for critical systems[cite: 68]."
+    },
+    {
+        "question_number": 5,
+        "question": "What are the primary sources of electrical power on an aircraft during flight?",
+        "options": {
+            "a": "The battery only.",
+            "b": "The Ground Power Unit (GPU).",
+            "c": "Engine-driven generators."
+        },
+        "correct_answer": "c",
+        "explanation": "Aircraft must have multiple independent power sources, with engine-driven generators serving as the primary power source[cite: 80, 81]."
+    },
+    {
+        "question_number": 6,
+        "question": "What is the key difference between an Auxiliary Power Unit (APU) and a Ground Power Unit (GPU)?",
+        "options": {
+            "a": "The APU is an external power source, while the GPU is internal to the aircraft.",
+            "b": "The APU is an internal gas turbine engine that provides power and air, while the GPU is an external unit used on the ground.",
+            "c": "Both are identical, but 'APU' is the term used in the US and 'GPU' is used in Europe."
+        },
+        "correct_answer": "b",
+        "explanation": "The APU is a small gas turbine engine located in the aircraft that provides electrical power and pneumatic air, whereas the GPU is an external power supply used on the ground[cite: 92, 113, 132]."
+    },
+    {
+        "question_number": 7,
+        "question": "What is the typical AC frequency for large aircraft electrical systems?",
+        "options": {
+            "a": "50 Hz",
+            "b": "60 Hz",
+            "c": "400 Hz"
+        },
+        "correct_answer": "c",
+        "explanation": "The typical AC frequency in aircraft electrical systems is 400 Hz[cite: 137]."
+    },
+    {
+        "question_number": 8,
+        "question": "What is the typical DC voltage standard in aircraft electrical systems?",
+        "options": {
+            "a": "12V DC",
+            "b": "28V DC",
+            "c": "48V DC"
+        },
+        "correct_answer": "b",
+        "explanation": "The typical DC voltage specification for aircraft electrical systems is 28V DC[cite: 137]."
+    },
+    {
+        "question_number": 9,
+        "question": "Which of these systems is considered an 'essential load' that must always have power?",
+        "options": {
+            "a": "In-flight entertainment system.",
+            "b": "Galley microwave oven.",
+            "c": "Navigation and communication systems."
+        },
+        "correct_answer": "c",
+        "explanation": "Power must always be available for critical systems, which include navigation and communication systems[cite: 141, 143]."
+    },
+    {
+        "question_number": 10,
+        "question": "What is the function of circuit breakers and fuses in an aircraft's electrical system?",
+        "options": {
+            "a": "To increase the voltage for specific components.",
+            "b": "To protect against overload and short circuits.",
+            "c": "To convert AC power to DC power."
+        },
+        "correct_answer": "b",
+        "explanation": "Aircraft electrical systems must use circuit breakers and fuses to protect against conditions like overload and short circuits[cite: 153, 155, 156, 158]."
+    },
+    {
+        "question_number": 11,
+        "question": "What does EMC stand for in the context of aircraft systems?",
+        "options": {
+            "a": "Electrical Maintenance Check.",
+            "b": "Emergency Medical Crew.",
+            "c": "Electromagnetic Compatibility."
+        },
+        "correct_answer": "c",
+        "explanation": "EMC stands for Electromagnetic Compatibility, which is the ability of systems to function together without causing interference[cite: 257]."
+    },
+    {
+        "question_number": 12,
+        "question": "Which method is used to control Electromagnetic Interference (EMI) in aircraft wiring?",
+        "options": {
+            "a": "Using unshielded, single-strand wires.",
+            "b": "Bundling high-power and low-signal cables together.",
+            "c": "Using shielded cables and proper grounding."
+        },
+        "correct_answer": "c",
+        "explanation": "Methods to control EMI/EMC include using shielded cables to prevent emission and pickup of EMI, and proper grounding to avoid current loops and interference[cite: 237, 238, 246, 247]."
+    },
+    {
+        "question_number": 13,
+        "question": "What is a Line Replaceable Unit (LRU)?",
+        "options": {
+            "a": "A single-use diagnostic tool for wiring.",
+            "b": "A permanent, hard-wired component that cannot be repaired.",
+            "c": "A modular, self-contained unit designed for quick removal and replacement."
+        },
+        "correct_answer": "c",
+        "explanation": "Line Replaceable Units (LRUs) are modular, self-contained units (like a radio or power control unit) that are designed for quick removal and replacement during maintenance[cite: 276, 277, 278]."
+    },
+    {
+        "question_number": 14,
+        "question": "Aircraft electrical components must be tolerant to which environmental conditions?",
+        "options": {
+            "a": "Only stable, ground-level temperatures.",
+            "b": "Vibration, temperature extremes, and moisture.",
+            "c": "Zero humidity and constant pressure."
+        },
+        "correct_answer": "b",
+        "explanation": "Electrical systems must be designed for environmental tolerance, meaning they must operate reliably under vibration, extreme temperatures, and variations in moisture and altitude[cite: 296, 297, 298, 299]."
+    },
+    {
+        "question_number": 15,
+        "question": "Which standard specifically addresses the environmental conditions and testing for airborne equipment?",
+        "options": {
+            "a": "CS-25 / FAR Part 25",
+            "b": "DO-160",
+            "c": "ARP 4754 / ARP 4761"
+        },
+        "correct_answer": "b",
+        "explanation": "Aircraft electrical systems must comply with international aviation standards, including DO-160 for environmental conditions[cite: 349, 351]."
+    },
+    {
+        "question_number": 16,
+        "question": "What is the primary function of a battery in an aircraft electrical system?",
+        "options": {
+            "a": "To act as the main power source during the entire flight.",
+            "b": "To convert chemical energy into electrical energy for starting and emergency use.",
+            "c": "To regulate the AC frequency from the generators."
+        },
+        "correct_answer": "b",
+        "explanation": "A battery is a device that converts chemical energy into electrical energy and is used for functions like engine starting and providing emergency power[cite: 1274, 1283]."
+    },
+    {
+        "question_number": 17,
+        "question": "What is the key characteristic of a 'primary' battery?",
+        "options": {
+            "a": "It is the largest battery on the aircraft.",
+            "b": "It can be recharged multiple times.",
+            "c": "Its electrochemical reaction is not reversible."
+        },
+        "correct_answer": "c",
+        "explanation": "In primary batteries, the electrochemical reaction is not reversible, and they are often referred to as dry cells[cite: 1245, 1246, 1248]."
+    },
+    {
+        "question_number": 18,
+        "question": "What is a key characteristic of a 'secondary' battery?",
+        "options": {
+            "a": "It is always smaller than a primary battery.",
+            "b": "Its electrochemical reaction is reversible, allowing it to be recharged.",
+            "c": "It is a single-use battery for emergencies only."
+        },
+        "correct_answer": "b",
+        "explanation": "In secondary batteries, the electrochemical reaction is reversible by applying electrical power, meaning they are rechargeable[cite: 1256]."
+    },
+    {
+        "question_number": 19,
+        "question": "In a light aircraft, when does the battery supplement the alternator's output?",
+        "options": {
+            "a": "Never, the alternator always provides enough power.",
+            "b": "During cruising flight at high altitude.",
+            "c": "During intermittent loads that exceed the alternator's output."
+        },
+        "correct_answer": "c",
+        "explanation": "On light aircraft, the battery is used for intermittent loads that exceed the alternator output[cite: 1089, 1091]."
+    },
+    {
+        "question_number": 20,
+        "question": "Which of these is an example of an intermittent load that might exceed alternator output at low RPM?",
+        "options": {
+            "a": "Cockpit voice recorder.",
+            "b": "Landing gear motors.",
+            "c": "Navigation lights."
+        },
+        "correct_answer": "b",
+        "explanation": "Landing gear motors are an example of an intermittent load that has a high current demand for a short time, which may exceed the alternator's output[cite: 1106, 1114]."
+    },
+    {
+        "question_number": 21,
+        "question": "What is the basic building block of a battery?",
+        "options": {
+            "a": "The electrolyte.",
+            "b": "The cell.",
+            "c": "The case."
+        },
+        "correct_answer": "b",
+        "explanation": "The cell is the basic building block of the battery[cite: 1183]."
+    },
+    {
+        "question_number": 22,
+        "question": "What is the function of the separator within a battery cell?",
+        "options": {
+            "a": "To mix the positive and negative materials for a stronger reaction.",
+            "b": "To keep the positive and negative plates from touching and prevent a short circuit.",
+            "c": "To act as the primary conductor for current flow."
+        },
+        "correct_answer": "b",
+        "explanation": "The purpose of separators is to keep the plates separated and thus prevent an internal short circuit[cite: 1218, 1219]."
+    },
+    {
+        "question_number": 23,
+        "question": "What is the definition of an electrolyte?",
+        "options": {
+            "a": "The solid metal part of the battery plate.",
+            "b": "The outer casing of the battery.",
+            "c": "A conductive medium that provides for the movement of ions between plates."
+        },
+        "correct_answer": "c",
+        "explanation": "An electrolyte is a conductive medium that provides for the movement of ions (current flow) between the positive and negative plates of a cell[cite: 1229]."
+    },
+    {
+        "question_number": 24,
+        "question": "Which type of equipment on an aircraft often has its own dedicated battery for operation after a total power loss?",
+        "options": {
+            "a": "The galley coffee maker.",
+            "b": "The Emergency Locator Transmitter (ELT).",
+            "c": "The passenger reading lights."
+        },
+        "correct_answer": "b",
+        "explanation": "The Emergency Locator Transmitter (ELT) has a dedicated battery because it needs to function after a crash or power loss and must be self-powered[cite: 1073, 1079]."
+    },
+    {
+        "question_number": 25,
+        "question": "What are the primary materials in a fully charged lead-acid battery cell?",
+        "options": {
+            "a": "Nickel hydroxide plates and potassium hydroxide electrolyte.",
+            "b": "Lead dioxide positive plates, lead negative plates, and a sulfuric acid electrolyte.",
+            "c": "Lithium cobalt oxide positive plates and a carbon negative plate."
+        },
+        "correct_answer": "b",
+        "explanation": "A lead-acid secondary cell consists of a positive electrode of lead dioxide (PbO2), a negative electrode of lead (Pb), and an electrolyte of sulfuric acid (H\u2082SO\u2084) and water[cite: 1347, 1349, 1350, 1376]."
+    },
+    {
+        "question_number": 26,
+        "question": "What is the approximate voltage of a single, fully charged lead-acid cell?",
+        "options": {
+            "a": "1.2V",
+            "b": "2.2V",
+            "c": "3.6V"
+        },
+        "correct_answer": "b",
+        "explanation": "Each cell of a lead-acid battery has approximately 2.2V, though it is often rated as 2V[cite: 1360]."
+    },
+    {
+        "question_number": 27,
+        "question": "During the discharge of a lead-acid battery, what substance coats both the positive and negative plates?",
+        "options": {
+            "a": "Lead oxide.",
+            "b": "Spongy lead.",
+            "c": "Lead sulfate."
+        },
+        "correct_answer": "c",
+        "explanation": "During the discharge cycle, the reaction between the sulfuric acid and the lead plates begins to coat both plates with a substance called lead sulfate, also known as sulfation[cite: 1387, 1393]."
+    },
+    {
+        "question_number": 28,
+        "question": "What happens to the specific gravity of the electrolyte in a lead-acid battery as it discharges?",
+        "options": {
+            "a": "It increases.",
+            "b": "It remains constant.",
+            "c": "It decreases."
+        },
+        "correct_answer": "c",
+        "explanation": "As a lead-acid battery discharges, less acid remains in the electrolyte because it is chemically combined with the plates, which means the specific gravity (SG) of the electrolyte decreases[cite: 1415]."
+    },
+    {
+        "question_number": 29,
+        "question": "Which instrument is used to measure the specific gravity of the electrolyte in a lead-acid battery to determine its state of charge?",
+        "options": {
+            "a": "A voltmeter.",
+            "b": "An ammeter.",
+            "c": "A hydrometer."
+        },
+        "correct_answer": "c",
+        "explanation": "It is typical to use a hydrometer to measure the state of charge in a lead-acid battery, as it measures the specific gravity (density) of the electrolyte[cite: 1413]."
+    },
+    {
+        "question_number": 30,
+        "question": "What will happen if a discharged lead-acid battery is not recharged immediately?",
+        "options": {
+            "a": "It will automatically recharge itself over time.",
+            "b": "The lead sulfate will form hard crystals that cannot be easily reconverted.",
+            "c": "The electrolyte will turn into pure water."
+        },
+        "correct_answer": "b",
+        "explanation": "If a lead-acid battery is not immediately recharged, the soft lead sulfate will begin to form hard crystals, which cannot be reconverted by a standard battery charger[cite: 1397]."
+    },
+    {
+        "question_number": 31,
+        "question": "What is the effect of adding more sulfuric acid to a discharged lead-acid battery?",
+        "options": {
+            "a": "It fully recharges the battery by restoring the plates.",
+            "b": "It only increases the specific gravity and does not recharge the battery.",
+            "c": "It has no effect on the battery at all."
+        },
+        "correct_answer": "b",
+        "explanation": "Adding the active ingredient (sulfuric acid) to the electrolyte does not recharge the battery; it only increases the specific gravity. A charging current must be passed through the battery to recharge it[cite: 1419, 1420, 1422]."
+    },
+    {
+        "question_number": 32,
+        "question": "A battery with a capacity rating of 40AH at the 1-hour rate can deliver what amount of current?",
+        "options": {
+            "a": "1 amp for 40 hours.",
+            "b": "40 amps continuously for 1 hour.",
+            "c": "20 amps for 2 hours."
+        },
+        "correct_answer": "b",
+        "explanation": "A battery quoted at 40AH at the 1 hr rate will provide 40 Amps continuously for 1 hour[cite: 1411]."
+    },
+    {
+        "question_number": 33,
+        "question": "What is the electrolyte used in a Nickel-Cadmium (Ni-Cd) battery?",
+        "options": {
+            "a": "Sulfuric acid and water.",
+            "b": "Potassium hydroxide (KOH) and water.",
+            "c": "Lithium-ion salt solution."
+        },
+        "correct_answer": "b",
+        "explanation": "In a Ni-Cd cell, the electrolyte solution is potassium hydroxide (KOH)[cite: 1480]. It is typically a solution of 30% KOH and 70% water by volume[cite: 1464]."
+    },
+    {
+        "question_number": 34,
+        "question": "What is the nominal voltage of a single Nickel-Cadmium (Ni-Cd) cell during discharge?",
+        "options": {
+            "a": "1.2 volts.",
+            "b": "2.2 volts.",
+            "c": "3.6 volts."
+        },
+        "correct_answer": "a",
+        "explanation": "Ni-Cd cells are rechargeable and deliver a voltage of 1.2 volts (CCV) during discharging[cite: 1449]."
+    },
+    {
+        "question_number": 35,
+        "question": "Why is it impossible to use a hydrometer to determine the state of charge of a Ni-Cd battery?",
+        "options": {
+            "a": "The electrolyte is a solid and cannot be measured.",
+            "b": "The specific gravity of the electrolyte remains essentially constant at any state of charge.",
+            "c": "The electrolyte is too corrosive for the hydrometer."
+        },
+        "correct_answer": "b",
+        "explanation": "The composition of the electrolyte (potassium hydroxide) remains constant because hydroxide ions are added as quickly as they are removed. For this reason, the specific gravity remains essentially constant, making it impossible to use as an indication of charge[cite: 1470, 1471, 1473]."
+    },
+    {
+        "question_number": 36,
+        "question": "How is the state of charge of a Ni-Cd battery accurately determined?",
+        "options": {
+            "a": "By visual inspection of the plate color.",
+            "b": "By measuring the specific gravity with a hydrometer.",
+            "c": "By performing a capacity test (controlled discharge)."
+        },
+        "correct_answer": "c",
+        "explanation": "Because the terminal voltage and specific gravity remain constant for most of the battery's life, the state of charge is determined by a capacity test[cite: 1484, 1485]."
+    },
+    {
+        "question_number": 37,
+        "question": "Which of the following is a significant advantage of Ni-Cd batteries over lead-acid batteries?",
+        "options": {
+            "a": "They are much less expensive to buy and maintain.",
+            "b": "They have a higher voltage per cell.",
+            "c": "They have a longer life and can be charged at higher currents without damage."
+        },
+        "correct_answer": "c",
+        "explanation": "Advantages of a Nickel Cadmium battery over a Lead Acid battery include longer life and the ability to be charged and discharged at much higher currents without causing cell damage[cite: 1498]."
+    },
+    {
+        "question_number": 38,
+        "question": "What is a major disadvantage of Ni-Cd batteries?",
+        "options": {
+            "a": "They have a very short service life.",
+            "b": "They are more susceptible to thermal runaway.",
+            "c": "They cannot be used in cold temperatures."
+        },
+        "correct_answer": "b",
+        "explanation": "A disadvantage of Ni-Cd batteries is that they are more susceptible to thermal runaway[cite: 1500]."
+    },
+    {
+        "question_number": 39,
+        "question": "What is the preferred method for charging Ni-Cd batteries to ensure cell balance?",
+        "options": {
+            "a": "Constant voltage charging.",
+            "b": "Constant current charging.",
+            "c": "Trickle charging only."
+        },
+        "correct_answer": "b",
+        "explanation": "The Constant Current Charging (CCC) method is the preferred method for charging Ni-Cd batteries[cite: 1494]. Constant current charging is recommended to ensure better cell balance and a total battery charge[cite: 1501]."
+    },
+    {
+        "question_number": 40,
+        "question": "A key constructional difference that aids in the maintenance of Ni-Cd batteries is that they have...",
+        "options": {
+            "a": "a completely sealed, one-piece case.",
+            "b": "individual cells which can be replaced.",
+            "c": "plates made of pure lead."
+        },
+        "correct_answer": "b",
+        "explanation": "The nickel-cadmium battery is similar in construction to the lead-acid battery with the exception that it has individual cells which can be replaced[cite: 1457]."
+    },
+    {
+        "question_number": 41,
+        "question": "How can a Ni-Cd battery be stored for a long period of time in an uncharged condition?",
+        "options": {
+            "a": "It must be kept in a freezer.",
+            "b": "The electrolyte must be drained completely.",
+            "c": "Discharge completely by shorting the terminals and keep it for a long time."
+        },
+        "correct_answer": "c",
+        "explanation": "If a Ni-Cd battery is required to be stored for a long period without charge, it should be discharged completely by shorting the positive and negative terminals[cite: 1507]."
+    },
+    {
+        "question_number": 42,
+        "question": "What is a primary advantage of Lithium-ion (Li-ion) batteries compared to lead-acid batteries?",
+        "options": {
+            "a": "They are significantly heavier.",
+            "b": "They have 1/4th or less the weight and a longer life span.",
+            "c": "They have a much lower product cost."
+        },
+        "correct_answer": "b",
+        "explanation": "Li-ion batteries have advantages of being 1/4th or less the weight of a lead battery and having a longer life span[cite: 1511, 1512]."
+    },
+    {
+        "question_number": 43,
+        "question": "What is a major disadvantage or risk associated with Lithium-ion batteries?",
+        "options": {
+            "a": "They produce a large amount of corrosive gas.",
+            "b": "They are extremely flammable.",
+            "c": "They have a very low energy density."
+        },
+        "correct_answer": "b",
+        "explanation": "A disadvantage of Li-ion batteries is that they are extremely flammable[cite: 1516]."
+    },
+    {
+        "question_number": 44,
+        "question": "What are the three main active materials in a typical Lithium-ion cell?",
+        "options": {
+            "a": "Lead, lead dioxide, and sulfuric acid.",
+            "b": "Cadmium, nickel hydroxide, and potassium hydroxide.",
+            "c": "Graphite (anode), cobalt (cathode), and lithium-ion (electrolyte)."
+        },
+        "correct_answer": "c",
+        "explanation": "The materials used in Li-ion cells are a graphite anode, a cobalt cathode, and a lithium-ion electrolyte[cite: 1513]."
+    },
+    {
+        "question_number": 45,
+        "question": "What safety feature is built into the metal case of a Li-ion battery to prevent explosion from overheating?",
+        "options": {
+            "a": "A thick insulating layer.",
+            "b": "A pressure-sensitive vent hole.",
+            "c": "A built-in cooling fan."
+        },
+        "correct_answer": "b",
+        "explanation": "The metal case of a Li-ion battery is used to house a pressure-sensitive vent hole. If the battery gets too hot, it risks exploding from over-pressure, and the vent will release the extra pressure[cite: 1519]."
+    },
+    {
+        "question_number": 46,
+        "question": "What three things are essential to generate electricity?",
+        "options": {
+            "a": "A battery, a switch, and a light bulb.",
+            "b": "A conductor (coil), a magnetic field, and relative motion.",
+            "c": "An insulator, a resistor, and a capacitor."
+        },
+        "correct_answer": "b",
+        "explanation": "A coil, a magnetic field, and relative motion are the essential requirements to generate electricity[cite: 1559]."
+    },
+    {
+        "question_number": 47,
+        "question": "What is the primary function of the commutator in a DC generator?",
+        "options": {
+            "a": "To increase the strength of the magnetic field.",
+            "b": "To act as a mechanical rectifier, converting AC to DC.",
+            "c": "To cool the armature windings."
+        },
+        "correct_answer": "b",
+        "explanation": "The commutator is a mechanical rectifier that converts the generated AC voltage into DC voltage[cite: 1559]."
+    },
+    {
+        "question_number": 48,
+        "question": "In a traditional DC generator, which major component rotates?",
+        "options": {
+            "a": "The stator.",
+            "b": "The field poles.",
+            "c": "The armature."
+        },
+        "correct_answer": "c",
+        "explanation": "The armature is the rotating part of a DC generator[cite: 1560]."
+    },
+    {
+        "question_number": 49,
+        "question": "What is the primary difference in construction between a DC generator and a DC alternator?",
+        "options": {
+            "a": "There is no difference; they are the same machine.",
+            "b": "In a DC generator the armature rotates; in a DC alternator the field rotates.",
+            "c": "A DC generator produces AC, and a DC alternator produces DC."
+        },
+        "correct_answer": "b",
+        "explanation": "In a DC generator, the armature rotates inside a stationary magnetic field. In a DC alternator, the field rotates and the armature (stator) is stationary[cite: 1583, 1589]."
+    },
+    {
+        "question_number": 50,
+        "question": "Why does a DC alternator have a high power-to-weight ratio compared to a DC generator?",
+        "options": {
+            "a": "Because it rotates at a much slower speed.",
+            "b": "Because its heavy current-carrying conductors are stationary, allowing for better cooling and construction.",
+            "c": "Because it uses lighter materials like aluminum for its windings."
+        },
+        "correct_answer": "b",
+        "explanation": "A DC alternator has a high power-to-weight ratio. This is because the heavy armature windings are placed on the stationary part (stator), which is easier to insulate and support than a rotating armature[cite: 1583, 1577]."
+    },
+    {
+        "question_number": 51,
+        "question": "The brushes in a DC alternator supply current to which part?",
+        "options": {
+            "a": "To the stationary armature to collect the main output power.",
+            "b": "To the rectifier unit.",
+            "c": "To the rotor's field windings via slip rings to create the magnetic field."
+        },
+        "correct_answer": "c",
+        "explanation": "In a DC alternator, small brushes supply low-current DC to the rotor's field windings via slip rings. These brushes are for excitation, not for collecting the main output power[cite: 1578, 1579, 1582]."
+    },
+    {
+        "question_number": 52,
+        "question": "What is the primary function of an inverter in an aircraft electrical system?",
+        "options": {
+            "a": "To convert AC power to DC power.",
+            "b": "To convert DC power to AC power.",
+            "c": "To step up DC voltage."
+        },
+        "correct_answer": "b",
+        "explanation": "An inverter is a component that converts DC power to AC power[cite: 1008, 1024]."
+    },
+    {
+        "question_number": 53,
+        "question": "What is a Transformer Rectifier Unit (TRU)?",
+        "options": {
+            "a": "A device that converts DC power to AC power.",
+            "b": "A device that regulates AC frequency.",
+            "c": "A device that converts AC power to DC power."
+        },
+        "correct_answer": "c",
+        "explanation": "A Transformer Rectifier Unit (TRU) is a component that converts AC to DC for systems that need DC power[cite: 1009, 1025]."
+    },
+    {
+        "question_number": 54,
+        "question": "Why is stranded wire generally preferred over solid wire for aircraft installations?",
+        "options": {
+            "a": "It is cheaper and easier to manufacture.",
+            "b": "It is more flexible and less susceptible to fatigue from vibration.",
+            "c": "It has a higher resistance to electrical current."
+        },
+        "correct_answer": "b",
+        "explanation": "Stranded wire is generally more flexible than solid wire, and it is also less susceptible to fatigue due to vibration[cite: 1604, 1605]."
+    },
+    {
+        "question_number": 55,
+        "question": "In the American Wire Gauge (AWG) system, what is the relationship between the gauge number and the wire diameter?",
+        "options": {
+            "a": "The wire diameter becomes larger as the gauge number becomes larger.",
+            "b": "The wire diameter becomes smaller as the gauge number becomes larger.",
+            "c": "There is no relationship between gauge number and wire diameter."
+        },
+        "correct_answer": "b",
+        "explanation": "With the AWG system, the wire diameter becomes smaller as the gage numbers become larger. For example, 16 AWG wire is larger in diameter than 30 AWG wire[cite: 1614, 1616]."
+    },
+    {
+        "question_number": 56,
+        "question": "What is the primary purpose of electrical bonding on an aircraft?",
+        "options": {
+            "a": "To secure components together using adhesive.",
+            "b": "To connect various metallic parts to create a low-resistance path for electrical current.",
+            "c": "To insulate electrical components from the airframe."
+        },
+        "correct_answer": "b",
+        "explanation": "Bonding is the process of connecting various metallic parts to create a very low resistance path, which helps reduce interference, lightning damage, and static charge buildup[cite: 1647]."
+    },
+    {
+        "question_number": 57,
+        "question": "What does EWIS stand for?",
+        "options": {
+            "a": "Emergency Wiring Inspection System.",
+            "b": "External Wire Insulation Standard.",
+            "c": "Electrical Wiring Interconnection System."
+        },
+        "correct_answer": "c",
+        "explanation": "Wiring is now referred to as the Electrical Wiring Interconnection System (EWIS)[cite: 1715]."
+    },
+    {
+        "question_number": 58,
+        "question": "Which of the following is NOT considered part of EWIS?",
+        "options": {
+            "a": "Wire splices and connectors.",
+            "b": "Fiber optics.",
+            "c": "Clamps and cable ties used for wires."
+        },
+        "correct_answer": "b",
+        "explanation": "The definition of EWIS does not include components like fiber optics[cite: 1717]."
+    },
+    {
+        "question_number": 59,
+        "question": "What is a primary cause of EWIS degradation?",
+        "options": {
+            "a": "Excessive sunlight.",
+            "b": "Lack of use.",
+            "c": "Vibration, moisture, chemical contamination, and heat."
+        },
+        "correct_answer": "c",
+        "explanation": "The primary causes of EWIS degradation include vibration, moisture, chemical contamination, and heat[cite: 1723]."
+    },
+    {
+        "question_number": 60,
+        "question": "What is the recommended minimum bend radius for a wire bundle that is supported on one side?",
+        "options": {
+            "a": "3 times the outside diameter of the largest wire.",
+            "b": "5 times the outside diameter of the largest wire.",
+            "c": "10 times the outside diameter of the largest wire."
+        },
+        "correct_answer": "c",
+        "explanation": "The proper bend radius for wire on an aircraft should be 10 times the outside diameter of the largest diameter wire in the bundle for one side supported[cite: 1728]. A similar rule states the minimum radius must not be less than 10 times the outside diameter of the largest wire or cable[cite: 1699]."
+    },
+    {
+        "question_number": 61,
+        "question": "What is a significant advantage of using crimped connections over soldered connections?",
+        "options": {
+            "a": "They require highly skilled technicians to perform.",
+            "b": "They eliminate problems like 'wicking' and 'dry' joints.",
+            "c": "They have higher electrical resistance."
+        },
+        "correct_answer": "b",
+        "explanation": "Advantages of the crimped method include the elimination of problems such as 'wicking' of solder on conductor wires and 'dry' joints[cite: 1653]."
+    },
+    {
+        "question_number": 62,
+        "question": "How should electrical wires be routed in relation to combustible fluid or oxygen lines?",
+        "options": {
+            "a": "Directly alongside them for support.",
+            "b": "Below the plumbing lines.",
+            "c": "Above the plumbing lines with as much separation as possible."
+        },
+        "correct_answer": "c",
+        "explanation": "When wiring must be routed parallel to combustible fluid or oxygen lines, as much fixed separation as possible should be maintained, and the wires should be above the plumbing lines[cite: 1703, 1704]."
+    },
+    {
+        "question_number": 63,
+        "question": "What is the main purpose of a current limiter?",
+        "options": {
+            "a": "To act as a fast-acting fuse for sensitive electronics.",
+            "b": "To act as a slow-blow fuse that opens only on a continued overload.",
+            "c": "To limit the voltage in a circuit."
+        },
+        "correct_answer": "b",
+        "explanation": "A current limiter is a type of slow-blow fuse, which will open only on a continued overload, not a momentary one[cite: 1669]."
+    },
+    {
+        "question_number": 64,
+        "question": "What is a primary safety rule regarding resetting a circuit breaker in flight?",
+        "options": {
+            "a": "It can be reset as many times as needed.",
+            "b": "Resetting a circuit breaker is generally not recommended in flight.",
+            "c": "Only the pilot-in-command is allowed to reset it."
+        },
+        "correct_answer": "b",
+        "explanation": "Resetting a circuit breaker is not recommended in aircraft during flight; it is typically reset only when the aircraft is on the ground after troubleshooting[cite: 1668]."
+    },
+    {
+        "question_number": 65,
+        "question": "Which lights on an aircraft mark its extremities and give position reference?",
+        "options": {
+            "a": "Landing lights.",
+            "b": "Navigation lights.",
+            "c": "Logo lights."
+        },
+        "correct_answer": "b",
+        "explanation": "Navigation lights are used to mark the extremities of an aircraft and give position reference[cite: 1755]."
+    },
+    {
+        "question_number": 66,
+        "question": "If you are in an aircraft at night and see another aircraft with a steady red light and a steady green light, what does this indicate?",
+        "options": {
+            "a": "The other aircraft is flying away from you.",
+            "b": "The other aircraft is moving from left to right.",
+            "c": "The other aircraft is coming at you."
+        },
+        "correct_answer": "c",
+        "explanation": "If you see both a Red and Green Light, you know the other airplane is coming at you[cite: 1777]."
+    },
+    {
+        "question_number": 67,
+        "question": "What is the primary purpose of anti-collision lights?",
+        "options": {
+            "a": "To illuminate the runway during landing.",
+            "b": "To make the airplane easier to see and to warn that engines are running or about to start.",
+            "c": "To allow for inspection of the wings for ice."
+        },
+        "correct_answer": "b",
+        "explanation": "The anti-collision lights make the airplane easier to see in the air and on the ground, and they also warn that the engines are running or are about to be started[cite: 1786, 1788]."
+    },
+    {
+        "question_number": 68,
+        "question": "What is a critical safety precaution when handling a strobe light flash tube?",
+        "options": {
+            "a": "It should be handled immediately after power is removed.",
+            "b": "Never touch a new flash tube with bare hands.",
+            "c": "It is safe to look directly into the light."
+        },
+        "correct_answer": "b",
+        "explanation": "A critical safety precaution is to never touch a new flash tube with bare hands, as oils can cause damage when it heats up[cite: 1791]."
+    },
+    {
+        "question_number": 69,
+        "question": "What powers an aircraft's emergency lighting system in the event of a total electrical failure?",
+        "options": {
+            "a": "The main engine generators.",
+            "b": "A small, dedicated ram air turbine.",
+            "c": "Dedicated battery packs."
+        },
+        "correct_answer": "c",
+        "explanation": "The emergency lighting system is powered by battery packs to ensure illumination when normal power is lost[cite: 1830]."
+    },
+    {
+        "question_number": 70,
+        "question": "What does illumination of the Master Caution light on the flight deck signify?",
+        "options": {
+            "a": "A routine system check is in progress.",
+            "b": "The aircraft is cleared for takeoff.",
+            "c": "A system fault annunciator has illuminated elsewhere on a control panel."
+        },
+        "correct_answer": "c",
+        "explanation": "The Master Caution light system informs the flight crew that a system fault annunciator has illuminated on the forward overhead, aft overhead, or fire control panels[cite: 1817]."
+    },
+    {
+        "question_number": 71,
+        "question": "What are the two main parts of a complete aircraft fire protection system?",
+        "options": {
+            "a": "A fire detection system and a fire extinguishing system.",
+            "b": "A fire alarm and a water sprinkler system.",
+            "c": "A smoke detector and a fire blanket."
+        },
+        "correct_answer": "a",
+        "explanation": "A complete fire protection system on an aircraft consists of a fire detection/warning system and a fire extinguishing system[cite: 1841]."
+    },
+    {
+        "question_number": 72,
+        "question": "A fire involving ordinary combustible materials like wood, paper, or cloth is classified as what class of fire?",
+        "options": {
+            "a": "Class A",
+            "b": "Class B",
+            "c": "Class C"
+        },
+        "correct_answer": "a",
+        "explanation": "Class A fires involve common combustible materials. They respond best to water, which cools the fuel below its ignition point[cite: 1845, 1877]."
+    },
+    {
+        "question_number": 73,
+        "question": "A fire involving flammable liquids like fuel or oil is classified as what class of fire?",
+        "options": {
+            "a": "Class A",
+            "b": "Class B",
+            "c": "Class D"
+        },
+        "correct_answer": "b",
+        "explanation": "Class B fires involve flammable liquids and respond to agents like carbon dioxide, Halons, and dry chemicals, which displace oxygen[cite: 1845, 1878]."
+    },
+    {
+        "question_number": 74,
+        "question": "A fire involving energized electrical equipment is classified as what class of fire?",
+        "options": {
+            "a": "Class B",
+            "b": "Class C",
+            "c": "Class D"
+        },
+        "correct_answer": "b",
+        "explanation": "Class C fires involve energized electrical equipment and are best handled by non-conductive agents like CO2 that displace oxygen[cite: 1845, 1880]."
+    },
+    {
+        "question_number": 75,
+        "question": "Which of the following is a key requirement for an aircraft fire detector system?",
+        "options": {
+            "a": "It should be easily removable by passengers.",
+            "b": "It must provide a rapid indication and accurate location of a fire.",
+            "c": "It should only activate after the fire is already large."
+        },
+        "correct_answer": "b",
+        "explanation": "One of the requirements for an aircraft fire protection system is that it must provide a rapid indication and accurate location of a fire[cite: 1846]."
+    },
+    {
+        "question_number": 76,
+        "question": "A thermal switch fire detector is also known as what type of detector?",
+        "options": {
+            "a": "A continuous loop detector.",
+            "b": "A spot or point detector.",
+            "c": "A rate-of-rise detector."
+        },
+        "correct_answer": "b",
+        "explanation": "The thermal switch is a unit type of detector and is also called a spot or point detector[cite: 1848]."
+    },
+    {
+        "question_number": 77,
+        "question": "Which fire detection system works by sensing an overheat condition relative to an average temperature or a rapid rise in temperature at a specific point?",
+        "options": {
+            "a": "Thermocouple detector systems.",
+            "b": "Pneumatic continuous-loop systems.",
+            "c": "Smoke detectors."
+        },
+        "correct_answer": "a",
+        "explanation": "Thermocouple systems measure the rate of temperature rise and provide a warning when the temperature rises too rapidly, indicating a fire rather than a gradual overheat[cite: 1850, 1869]."
+    },
+    {
+        "question_number": 78,
+        "question": "What are the two types of smoke detectors commonly used in lavatories and cargo compartments?",
+        "options": {
+            "a": "Thermal and chemical.",
+            "b": "Light refraction and ionization.",
+            "c": "Pressure and acoustic."
+        },
+        "correct_answer": "b",
+        "explanation": "Two types of smoke detectors are used to monitor lavatory and cargo baggage compartments: light refraction and ionization types[cite: 1861]."
+    },
+    {
+        "question_number": 79,
+        "question": "What is the function of a 'squib' in a high-rate-discharge (HRD) fire extinguisher container?",
+        "options": {
+            "a": "It measures the pressure inside the container.",
+            "b": "It is an electrically operated explosive device that ruptures a seal to discharge the agent.",
+            "c": "It mixes the extinguishing agent before discharge."
+        },
+        "correct_answer": "b",
+        "explanation": "The squib is an electrically operated explosive device that drives a cutter into the seal in the container to discharge the fire-extinguishing agent[cite: 1892, 1893]."
+    },
+    {
+        "question_number": 80,
+        "question": "What does a red discharge indicator on the side of the fuselage signify?",
+        "options": {
+            "a": "The fire extinguisher was discharged normally by the flight crew.",
+            "b": "The fire extinguisher container needs to be refilled.",
+            "c": "The fire extinguisher discharged due to an overheat condition (thermal discharge)."
+        },
+        "correct_answer": "c",
+        "explanation": "Discharge indicators provide visual evidence of container discharge. A red discharge indicator signifies a thermal discharge, which occurs if the container overheats[cite: 1898]."
+    },
+    {
+        "question_number": 81,
+        "question": "What extinguishing agent is commonly used in the High Rate of Discharge (HRD) systems on most turbine aircraft?",
+        "options": {
+            "a": "Water.",
+            "b": "Dry powder.",
+            "c": "Halon 1301."
+        },
+        "correct_answer": "c",
+        "explanation": "Fire extinguisher systems fitted to most turbine aircraft are High rate of discharge (HRD) systems, and the fire extinguisher agent is Halon 1301[cite: 1896]."
+    },
+    {
+        "question_number": 82,
+        "question": "What is the function of a rheostat in an electrical circuit?",
+        "options": {
+            "a": "To remotely control a high-current circuit.",
+            "b": "To control the amount of current, often used for dimming lights.",
+            "c": "To convert DC to AC."
+        },
+        "correct_answer": "b",
+        "explanation": "Rheostats control the amount of current that flows through a circuit and are used as dimmer devices for instrument and cockpit lights[cite: 868, 869]."
+    },
+    {
+        "question_number": 83,
+        "question": "What is a relay?",
+        "options": {
+            "a": "A mechanical device used to move a shaft over a short distance.",
+            "b": "A type of fuse that can be reset.",
+            "c": "An electromagnetic switching device used to remotely control circuits."
+        },
+        "correct_answer": "c",
+        "explanation": "Relays are electromagnetic switching devices which are used to remotely control electric circuits, especially those carrying a large amount of current[cite: 870]."
+    },
+    {
+        "question_number": 84,
+        "question": "What is the function of a Generator Control Unit (GCU)?",
+        "options": {
+            "a": "To manually switch the generator on and off.",
+            "b": "To act as a voltage regulator and provide circuit protection.",
+            "c": "To convert the generator's AC output to DC."
+        },
+        "correct_answer": "b",
+        "explanation": "The main functions of a Generator Control Unit (GCU) are to act as a voltage regulator, direct current to the battery for recharging, and provide circuit and generator protection[cite: 728]."
+    },
+    {
+        "question_number": 85,
+        "question": "What is a busbar in an aircraft electrical system?",
+        "options": {
+            "a": "A type of wiring used for high-voltage applications.",
+            "b": "The main switch that controls all electrical power.",
+            "c": "A conductor that acts as a distribution center for electric power."
+        },
+        "correct_answer": "c",
+        "explanation": "Busbars are conductors that act as distribution centers for electric power, where output from generators is sent before distribution throughout the system[cite: 651]."
+    },
+    {
+        "question_number": 86,
+        "question": "What is the purpose of a bus tie?",
+        "options": {
+            "a": "To physically tie down wires to the busbar.",
+            "b": "A switch or relay used to connect or disconnect buses from one another.",
+            "c": "A diagnostic tool to measure bus voltage."
+        },
+        "correct_answer": "b",
+        "explanation": "Bus ties are switches or relays used to connect or disconnect buses from one another, allowing for the isolation of failed buses or rerouting of power[cite: 659, 660]."
+    },
+    {
+        "question_number": 87,
+        "question": "According to the wiring diagram, what kind of consumers are connected to the battery busbar?",
+        "options": {
+            "a": "Non-essential AC consumers.",
+            "b": "Vital DC consumers.",
+            "c": "The main generators."
+        },
+        "correct_answer": "b",
+        "explanation": "The provided electrical system diagram shows that 'VITAL D.C. CONSUMERS' are connected to the 'BATTERY BUSBAR'[cite: 170, 183, 185]."
+    },
+    {
+        "question_number": 88,
+        "question": "What is the purpose of a 'clean as you go' philosophy in aircraft maintenance?",
+        "options": {
+            "a": "To ensure the aircraft's exterior is washed daily.",
+            "b": "To clean up contamination as it happens to prevent damage to systems like EWIS.",
+            "c": "To document every cleaning procedure in a logbook."
+        },
+        "correct_answer": "b",
+        "explanation": "The 'clean as you go' philosophy is a housekeeping practice to prevent contamination, which can cause degradation to the Electrical Wiring Interconnection System (EWIS)[cite: 1723, 1744]."
+    },
+    {
+        "question_number": 89,
+        "question": "A shielded cable is primarily used to...",
+        "options": {
+            "a": "provide extra insulation against high temperatures.",
+            "b": "protect against physical damage from chafing.",
+            "c": "protect sensitive circuits from electrical disturbance (EMI)."
+        },
+        "correct_answer": "c",
+        "explanation": "Shielded Cable is used in circuits that are sensitive to electrical disturbance[cite: 1609]. The shielding prevents the emission and pickup of EMI[cite: 246]."
+    },
+    {
+        "question_number": 90,
+        "question": "What is a coaxial cable typically used for in an aircraft?",
+        "options": {
+            "a": "To connect high-power generators to busbars.",
+            "b": "To connect antennas with radio receivers and transmitters.",
+            "c": "To power the cabin lighting system."
+        },
+        "correct_answer": "b",
+        "explanation": "A coaxial cable, which consists of a single insulated center conductor with a metallic braided outer conductor, is used to connect antennas with radio receivers and transmitters[cite: 1608, 1610]."
+    },
+    {
+        "question_number": 91,
+        "question": "What distinguishes an electrical 'cable' from a 'wire' in aircraft terminology?",
+        "options": {
+            "a": "A wire is always thicker than a cable.",
+            "b": "A wire is a single conductor, while a cable can be two or more conductors in a common covering or twisted together.",
+            "c": "A cable is used for DC power, and a wire is used for AC power."
+        },
+        "correct_answer": "b",
+        "explanation": "A wire is a single solid or stranded conductor, whereas a 'cable' includes configurations like two or more insulated conductors in a common covering, shielded conductors, or twisted pairs[cite: 1603, 1606]."
+    },
+    {
+        "question_number": 92,
+        "question": "How should wire bundles be installed to prevent chafing?",
+        "options": {
+            "a": "They should be installed crossing over each other for a tighter fit.",
+            "b": "They should never be installed crossing over each other and should be secured with clamps.",
+            "c": "Clamps should be avoided as they can cause chafing."
+        },
+        "correct_answer": "b",
+        "explanation": "Cables and cable bundles should never be installed crossing over each other, as they may touch or rub, causing chafing. Looming or clamping protects against chafing[cite: 1688, 1695, 1696]."
+    },
+    {
+        "question_number": 93,
+        "question": "If electrical conduit is used, its inside diameter should be about what percentage larger than the wire bundle?",
+        "options": {
+            "a": "10%",
+            "b": "25%",
+            "c": "50%"
+        },
+        "correct_answer": "b",
+        "explanation": "When using electrical conduit for mechanical protection, the inside diameter of the conduit should be about 25 percent larger than the diameter of the largest part of the bundle[cite: 1707]."
+    },
+    {
+        "question_number": 94,
+        "question": "What is a primary objective of the aircraft's fire prevention system?",
+        "options": {
+            "a": "To increase the engine temperature for better efficiency.",
+            "b": "To protect property and provide uninterrupted operation.",
+            "c": "To test the durability of airframe materials."
+        },
+        "correct_answer": "b",
+        "explanation": "The objectives of fire prevention include preventing loss of life and injury, protecting property, and providing for uninterrupted operation[cite: 1842]."
+    },
+    {
+        "question_number": 95,
+        "question": "Which of these is a method of fire extinguishment?",
+        "options": {
+            "a": "Adding more oxygen to the fire.",
+            "b": "Cooling the fuel below its ignition point.",
+            "c": "Increasing the pressure around the fire."
+        },
+        "correct_answer": "b",
+        "explanation": "One of the primary methods of fire extinguishment is cooling the fuel below its ignition point[cite: 1843]."
+    },
+    {
+        "question_number": 96,
+        "question": "A pneumatic continuous-loop fire detector is filled with what type of gas?",
+        "options": {
+            "a": "Oxygen.",
+            "b": "Nitrogen.",
+            "c": "Helium."
+        },
+        "correct_answer": "c",
+        "explanation": "The averaging function of a pneumatic fire detector serves as a fixed-volume device filled with Helium gas, where pressure changes with temperature to operate an alarm[cite: 1856]."
+    },
+    {
+        "question_number": 97,
+        "question": "What is the purpose of wing illumination lights?",
+        "options": {
+            "a": "To act as the primary landing lights.",
+            "b": "For scanning the wings and engines for ice in flight.",
+            "c": "To signal other aircraft during taxiing."
+        },
+        "correct_answer": "b",
+        "explanation": "Two wing illumination lights are provided for scanning/ice detection purposes on the wings and engines in flight[cite: 1794, 1795]."
+    },
+    {
+        "question_number": 98,
+        "question": "What are the four main categories of electrical loads on an aircraft?",
+        "options": {
+            "a": "Primary, Secondary, Tertiary, and Quaternary.",
+            "b": "Internal, External, Emergency, and Backup.",
+            "c": "Motors, Lighting services, Heating services, and Avionics."
+        },
+        "correct_answer": "c",
+        "explanation": "Electrical services (loads) on an aircraft can be broadly subdivided into the following categories: Motors, Lighting services, Heating services, and Avionics[cite: 602, 603, 604, 605, 606]."
+    },
+    {
+        "question_number": 99,
+        "question": "Electrical loads can be classified by their operational duration as either:",
+        "options": {
+            "a": "High-power or low-power loads.",
+            "b": "AC or DC loads.",
+            "c": "Continuous or intermittent loads."
+        },
+        "correct_answer": "c",
+        "explanation": "Electrical loads are divided into continuous loads, which are always powered during flight, and intermittent loads, which are operated only when needed[cite: 610, 611, 614]."
+    },
+    {
+        "question_number": 100,
+        "question": "What kind of switch is typically used when it is necessary to select one of several conditions for a circuit?",
+        "options": {
+            "a": "A toggle switch.",
+            "b": "A push switch.",
+            "c": "A rotary switch."
+        },
+        "correct_answer": "c",
+        "explanation": "When it is necessary to select several conditions for a circuit, a rotary switch may be used[cite: 809]."
+    },
+    {
+        "question_number": 101,
+        "question": "What type of device is similar to a relay but is designed to mechanically move a shaft over a short distance, such as to operate a valve?",
+        "options": {
+            "a": "A rheostat.",
+            "b": "A solenoid.",
+            "c": "A switch."
+        },
+        "correct_answer": "b",
+        "explanation": "Solenoids are remote control devices similar to relays, but they are designed to move a shaft over a short distance to operate mechanical devices like hydraulic or pneumatic valves[cite: 871, 872]."
+    },
+    {
+        "question_number": 102,
+        "question": "What do the voltmeters and ammeters on the electrical panel indicate?",
+        "options": {
+            "a": "The temperature of the electrical components.",
+            "b": "The frequency of the AC power.",
+            "c": "Voltage and current levels of selected sources."
+        },
+        "correct_answer": "c",
+        "explanation": "Indicators and monitoring devices like voltmeters and ammeters show the voltage and current levels of the system[cite: 963]. The panel allows selection of the source to be monitored[cite: 900, 910]."
+    },
+    {
+        "question_number": 103,
+        "question": "What does an illuminated amber 'BAT DISCHARGE' light indicate?",
+        "options": {
+            "a": "The battery is fully charged.",
+            "b": "The battery is charging normally.",
+            "c": "Excessive battery discharge is detected."
+        },
+        "correct_answer": "c",
+        "explanation": "The Battery Discharge (BAT DISCHARGE) Light, when illuminated amber, indicates that excessive battery discharge has been detected while the BAT switch is ON[cite: 945, 946]."
+    },
+    {
+        "question_number": 104,
+        "question": "What is the purpose of a static inverter?",
+        "options": {
+            "a": "To prevent the buildup of static electricity on the airframe.",
+            "b": "A solid-state device for converting DC to AC without moving parts.",
+            "c": "A rotary machine for converting AC to DC."
+        },
+        "correct_answer": "b",
+        "explanation": "A static inverter is a solid-state device that converts DC to AC without moving parts, offering high efficiency and quiet operation[cite: 1019, 1033, 1598]."
+    },
+    {
+        "question_number": 105,
+        "question": "What is the typical battery voltage for a lead-acid battery used in aircraft?",
+        "options": {
+            "a": "6V or 9V",
+            "b": "12V or 24V",
+            "c": "48V or 115V"
+        },
+        "correct_answer": "b",
+        "explanation": "The typical battery voltage for lead-acid/NiCad batteries is 24V or 12V[cite: 137]."
+    },
+    {
+        "question_number": 106,
+        "question": "What is a key difference between direct and indirect wire marking?",
+        "options": {
+            "a": "Direct marking is done by hand, indirect is done by machine.",
+            "b": "Direct marking is printed on the wire's outer jacket, while indirect marking is printed on a sleeve placed on the wire.",
+            "c": "Direct marking is for power wires, indirect marking is for data wires."
+        },
+        "correct_answer": "b",
+        "explanation": "Wires are marked either directly or indirectly. Direct markings are printed onto the wire's outer jacket, whereas indirect markings are printed on sleeves or tags that are then placed on the wire[cite: 1623, 1624, 1625]."
+    },
+    {
+        "question_number": 107,
+        "question": "What is the purpose of the 'wire size number' in a wire identification code?",
+        "options": {
+            "a": "To indicate the length of the wire.",
+            "b": "To identify the size (gauge) of the wire.",
+            "c": "To specify the wire's maximum voltage rating."
+        },
+        "correct_answer": "b",
+        "explanation": "The wire size number is part of the identification code and identifies the size (gauge) of the wire, most commonly using the American Wire Gauge (AWG) system[cite: 1638, 1639]."
+    },
+    {
+        "question_number": 108,
+        "question": "In a wire identification code, what does the 'wire segment letter' signify?",
+        "options": {
+            "a": "The manufacturer of the wire.",
+            "b": "The color of the wire's insulation.",
+            "c": "The difference between wire segments within the same circuit."
+        },
+        "correct_answer": "c",
+        "explanation": "The wire segment letter is used to indicate the difference between wire segments in a particular circuit, with segments lettered in alphabetical sequence[cite: 1636, 1637]."
+    },
+    {
+        "question_number": 109,
+        "question": "Why must switches used in DC motor circuits be derated?",
+        "options": {
+            "a": "Because DC motors run at a constant speed and require less power.",
+            "b": "Because DC motors have a high in-rush current on startup that can damage a standard switch.",
+            "c": "Because DC motor circuits operate at very low voltages."
+        },
+        "correct_answer": "b",
+        "explanation": "Switches should be derated for certain types of circuits, including motors like a DC Motor, which have a high rush-in current[cite: 1671]."
+    },
+    {
+        "question_number": 110,
+        "question": "What is the main function of an ammeter?",
+        "options": {
+            "a": "To measure the circuit's voltage.",
+            "b": "To measure the circuit's amperage (current).",
+            "c": "To measure the circuit's resistance."
+        },
+        "correct_answer": "b",
+        "explanation": "An ammeter indicates the amperage (current) of the source selected by the meters selector[cite: 899, 918, 926]."
+    },
+    {
+        "question_number": 111,
+        "question": "How often must clamps be used to support wire bundles?",
+        "options": {
+            "a": "At least every 12 inches.",
+            "b": "At least every 24 inches.",
+            "c": "At least every 36 inches."
+        },
+        "correct_answer": "b",
+        "explanation": "Clamps must be used to support wire bundles at least every 24 inches[cite: 1705]."
+    },
+    {
+        "question_number": 112,
+        "question": "Why is it important to de-energize an aircraft's electrical system before performing maintenance?",
+        "options": {
+            "a": "To prevent accidental activation of systems and ensure personnel safety.",
+            "b": "To conserve battery power.",
+            "c": "To make the wires more flexible and easier to work with."
+        },
+        "correct_answer": "a",
+        "explanation": "Before performing maintenance, the electrical system should be de-energized to prevent hazards. This includes installing lock-clips on circuit breakers and attaching warning tags[cite: 1724]."
+    },
+    {
+        "question_number": 113,
+        "question": "What material can be used to clean hydraulic fluid contamination from EWIS components?",
+        "options": {
+            "a": "Water.",
+            "b": "Gasoline.",
+            "c": "Isopropyl Alcohol."
+        },
+        "correct_answer": "c",
+        "explanation": "The table of recommended cleaning materials indicates that Isopropyl Alcohol can be used to clean contamination from aircraft hydraulic fluid, fuel, and oil/grease[cite: 1745]."
+    },
+    {
+        "question_number": 114,
+        "question": "Landing lights on the B737 are of what type(s)?",
+        "options": {
+            "a": "Fixed type only.",
+            "b": "Retractable type only.",
+            "c": "Both fixed and retractable types."
+        },
+        "correct_answer": "c",
+        "explanation": "The B737 aircraft has a total of 4 landing lights: two are the fixed type and two are the retractable type[cite: 1783]."
+    },
+    {
+        "question_number": 115,
+        "question": "What is the purpose of the interior emergency lighting system?",
+        "options": {
+            "a": "To provide mood lighting in the cabin.",
+            "b": "To ensure illumination of the cockpit, emergency exits, and escape routes during a power failure.",
+            "c": "To signal the cabin crew for service."
+        },
+        "correct_answer": "b",
+        "explanation": "In case of a total electrical failure, the emergency lighting system ensures illumination of the cockpit, emergency exit, and overwing escape route[cite: 1772]."
+    },
+    {
+        "question_number": 116,
+        "question": "What information signs are obligatory in the passenger cabin according to FAA regulations?",
+        "options": {
+            "a": "The airline's logo and current altitude.",
+            "b": "'Fasten seat belt' and 'no smoking' signs.",
+            "c": "Advertisements for in-flight shopping."
+        },
+        "correct_answer": "b",
+        "explanation": "Some Passenger Information Signs, such as 'fasten seat belt' signs or 'no smoking' signs, are obligatory according to FAA regulations[cite: 1770]."
+    },
+    {
+        "question_number": 117,
+        "question": "The Kidde continuous-loop fire detection system is a type of what system?",
+        "options": {
+            "a": "Smoke detection system.",
+            "b": "Pneumatic system that senses average and discrete temperatures.",
+            "c": "Thermocouple system."
+        },
+        "correct_answer": "b",
+        "explanation": "The Kidde continuous-loop system is a pneumatic system that senses both average temperature (indicating an overheat condition) and discrete temperature variations (indicating a localized fire).  The system uses pressure changes in a continuous loop of tubing to detect these temperature variations. [cite: 1855, 1870]"
+    },
+    {
+        "question_number": 118,
+        "question": "Why must a CO2 extinguisher for Class C fires have a non-metallic horn?",
+        "options": {
+            "a": "To make it lighter and easier to handle.",
+            "b": "To prevent the transmission of electricity to the operator.",
+            "c": "Because metal reacts with CO2."
+        },
+        "correct_answer": "b",
+        "explanation": "For Class C (electrical) fires, a CO2 extinguisher must have a non-metallic horn to prevent the transmission of electricity to the operator[cite: 1880]."
+    },
+    {
+        "question_number": 119,
+        "question": "What is a potential negative consequence of using a dry powder extinguisher on an electrical fire?",
+        "options": {
+            "a": "It is completely ineffective.",
+            "b": "It can cause the fire to spread.",
+            "c": "The powder contamination may lead to further damage of electrical components."
+        },
+        "correct_answer": "c",
+        "explanation": "Although dry chemicals may be used on Class C fires, the powder contamination may lead to further damage of electrical components[cite: 1880]."
+    },
+    {
+        "question_number": 120,
+        "question": "Why shouldn't Halon be used on a Class D fire (burning metals)?",
+        "options": {
+            "a": "It will not extinguish the fire.",
+            "b": "The Halon agent may react vigorously with the burning metal.",
+            "c": "It is too expensive to use on metal fires."
+        },
+        "correct_answer": "b",
+        "explanation": "Halon should not be used for Class D fires because the Halon agent may react vigorously with the burning agent (metal)[cite: 1881]."
+    },
+    {
+        "question_number": 121,
+        "question": "What is the primary function of a flight data recorder's (FDR) dedicated battery?",
+        "options": {
+            "a": "To power the FDR for the entire flight.",
+            "b": "To allow the FDR to keep recording for a brief period after main power loss.",
+            "c": "To send a distress signal."
+        },
+        "correct_answer": "b",
+        "explanation": "Like the Cockpit Voice Recorder, the Flight Data Recorder must keep recording briefly after power loss, which is why it has a dedicated battery[cite: 1075, 1081]."
+    },
+    {
+        "question_number": 122,
+        "question": "What is the state of the plates in a fully DISCHARGED lead-acid battery?",
+        "options": {
+            "a": "Both plates are pure lead.",
+            "b": "The positive plate is lead dioxide and the negative plate is lead.",
+            "c": "Both plates are coated in lead sulfate (PbSO\u2084)."
+        },
+        "correct_answer": "c",
+        "explanation": "As the battery discharges, both the lead dioxide positive plate and the lead negative plate are converted to lead sulfate (PbSO\u2084)[cite: 1379, 1381]."
+    },
+    {
+        "question_number": 123,
+        "question": "What happens to the electrolyte in a lead-acid battery during CHARGING?",
+        "options": {
+            "a": "It becomes more diluted with water.",
+            "b": "Its specific gravity increases as sulfuric acid is reformed.",
+            "c": "It does not change."
+        },
+        "correct_answer": "b",
+        "explanation": "Charging is the reverse of discharging. The lead sulfate on the plates is converted back to lead and lead dioxide, and the sulfate ions return to the electrolyte, increasing the concentration of sulfuric acid and thus increasing the specific gravity[cite: 1420, 1379]."
+    },
+    {
+        "question_number": 124,
+        "question": "What is a major safety precaution regarding jewelry when working with aircraft batteries?",
+        "options": {
+            "a": "Wear as much jewelry as possible for good luck.",
+            "b": "Only gold jewelry is safe to wear.",
+            "c": "Always remove metallic jewelry prior to working on batteries to prevent short circuits."
+        },
+        "correct_answer": "c",
+        "explanation": "A general safety precaution is to always remove metallic jewelry prior to working with batteries to prevent accidental short circuits[cite: 1305]."
+    },
+    {
+        "question_number": 125,
+        "question": "What kind of armature winding is used for high voltage and low current applications?",
+        "options": {
+            "a": "Lap winding.",
+            "b": "Wave winding.",
+            "c": "Ring winding."
+        },
+        "correct_answer": "b",
+        "explanation": "Wave winding is used for high voltage and low current applications in DC generators[cite: 1554]."
+    },
+    {
+        "question_number": 126,
+        "question": "What kind of armature winding is used for low voltage and high current applications?",
+        "options": {
+            "a": "Lap winding.",
+            "b": "Wave winding.",
+            "c": "Drum winding."
+        },
+        "correct_answer": "a",
+        "explanation": "Lap winding is used for low voltage and high current applications in DC generators[cite: 1553]."
+    },
+    {
+        "question_number": 127,
+        "question": "What is the purpose of the 'pigtail' on a DC generator brush?",
+        "options": {
+            "a": "It is a handle for removing the brush.",
+            "b": "It is a flexible copper conductor used to collect current from the brush.",
+            "c": "It is an insulating material to protect the brush."
+        },
+        "correct_answer": "b",
+        "explanation": "A pigtail is a flexible copper conductor that is used to collect current from the brushes in a DC generator[cite: 1560, 1562]."
+    },
+    {
+        "question_number": 128,
+        "question": "What is a 'confined crimp'?",
+        "options": {
+            "a": "A temporary wire connection made with tape.",
+            "b": "A type of solder joint used in high-vibration areas.",
+            "c": "A connection where a terminal shank is compressed onto a conductor, forming a single mass with good electrical and mechanical properties."
+        },
+        "correct_answer": "c",
+        "explanation": "A crimp formed by an overall compression of the terminal shank onto the conductor results in a single mass with good electrical and mechanical properties, sometimes known as a 'confined crimp'[cite: 1652]."
+    },
+    {
+        "question_number": 129,
+        "question": "What type of connector coupling uses a quick-twist locking mechanism?",
+        "options": {
+            "a": "Screw Thread Coupling Connectors.",
+            "b": "Circular connector style.",
+            "c": "Bayonet Coupling Circular Connectors."
+        },
+        "correct_answer": "c",
+        "explanation": "Bayonet Coupling Circular Connectors are a type of connector mentioned in the document, known for their quick-twist locking mechanism[cite: 1660]."
+    },
+    {
+        "question_number": 130,
+        "question": "What is the purpose of a protective cap for a connector?",
+        "options": {
+            "a": "To provide strain relief for the wires.",
+            "b": "To protect the connector from damage and contamination when it is not mated.",
+            "c": "To hold the connector in place on a bulkhead."
+        },
+        "correct_answer": "b",
+        "explanation": "A protective cap is an accessory used to cover an unmated connector to protect it from physical damage and contamination[cite: 1662]."
+    },
+    {
+        "question_number": 131,
+        "question": "Which aircraft are mentioned as using Lithium-ion batteries?",
+        "options": {
+            "a": "B737 and B757.",
+            "b": "Light piston aircraft.",
+            "c": "B787 and A350."
+        },
+        "correct_answer": "c",
+        "explanation": "Lithium-ion batteries are used on aircraft such as the B787 and A350[cite: 1299]."
+    },
+    {
+        "question_number": 132,
+        "question": "Which aircraft are mentioned as using Nickel-cadmium batteries?",
+        "options": {
+            "a": "B787 and A350.",
+            "b": "B737, B757, B767.",
+            "c": "Most light aircraft."
+        },
+        "correct_answer": "b",
+        "explanation": "Nickel-cadmium batteries are used on aircraft such as the B737, 757, and 767[cite: 1298]."
+    },
+    {
+        "question_number": 133,
+        "question": "What is one reason an aircraft's electrical wiring system cannot be considered 'fit and forget'?",
+        "options": {
+            "a": "Because it never degrades or fails.",
+            "b": "Because it must work reliably under high vibration and temperature changes.",
+            "c": "Because it is replaced after every flight."
+        },
+        "correct_answer": "b",
+        "explanation": "Wiring cannot be considered 'fit and forget' because wiring reliability means it must continue working under conditions of high vibration and temperature change[cite: 1602]."
+    },
+    {
+        "question_number": 134,
+        "question": "What is the purpose of a 'grommet' when passing wires through a hole in a bulkhead?",
+        "options": {
+            "a": "To secure the wires with adhesive.",
+            "b": "To provide a seal against moisture.",
+            "c": "To prevent chafing if the wires come close to the edge of the hole."
+        },
+        "correct_answer": "c",
+        "explanation": "If wires come closer than 1/4 inch to the edge of a hole, a suitable grommet is used in the hole to prevent chafing[cite: 1693]."
+    },
+    {
+        "question_number": 135,
+        "question": "What is a characteristic of a constant voltage charging method?",
+        "options": {
+            "a": "The charging current remains constant throughout the charge.",
+            "b": "The charging current is initially high and then gradually decreases.",
+            "c": "It is the preferred method for charging Ni-Cd batteries."
+        },
+        "correct_answer": "b",
+        "explanation": "With constant voltage charging, the charging current is initially high and then gradually decreases as the battery's voltage rises[cite: 1434, 1436]."
+    },
+    {
+        "question_number": 136,
+        "question": "In the event of a power failure, what is the battery's role regarding transient loads?",
+        "options": {
+            "a": "To amplify the transient loads.",
+            "b": "To assist in damping (absorbing) transient loads in the DC system.",
+            "c": "To isolate the system from all loads."
+        },
+        "correct_answer": "b",
+        "explanation": "One of the functions of a battery is to assist in damping transient loads in the DC system[cite: 1278]."
+    },
+    {
+        "question_number": 137,
+        "question": "Why is it crucial to have proper ventilation when charging batteries?",
+        "options": {
+            "a": "To cool the batteries down more quickly.",
+            "b": "To allow flammable gases like hydrogen to escape safely.",
+            "c": "To reduce the noise from the charger."
+        },
+        "correct_answer": "b",
+        "explanation": "During charging, gases like hydrogen and oxygen can be produced. It is important to check that battery ventilation holes are clean to allow the hydrogen gas to escape safely[cite: 1371, 1398, 1430]."
+    },
+    {
+        "question_number": 138,
+        "question": "What is the typical composition of the electrolyte in a fully charged lead-acid battery by volume?",
+        "options": {
+            "a": "50% sulfuric acid, 50% distilled water.",
+            "b": "70% sulfuric acid, 30% distilled water.",
+            "c": "30% sulfuric acid, 70% distilled water."
+        },
+        "correct_answer": "c",
+        "explanation": "The electrolyte in a lead-acid secondary cell consists of approximately 30% sulfuric acid (H\u2082SO\u2084) and 70% distilled water, by volume[cite: 1376]."
+    },
+    {
+        "question_number": 139,
+        "question": "During the discharge of a Ni-Cd battery, what does the cadmium (Cd) in the negative plate convert to?",
+        "options": {
+            "a": "Pure nickel.",
+            "b": "Cadmium hydroxide.",
+            "c": "Potassium."
+        },
+        "correct_answer": "b",
+        "explanation": "As the Ni-Cd battery discharges, hydroxide ions combine with the cadmium in the negative plates, converting the cadmium to cadmium hydroxide[cite: 1465, 1466]."
+    },
+    {
+        "question_number": 140,
+        "question": "What is a key maintenance difference between lead-acid and Ni-Cd batteries?",
+        "options": {
+            "a": "Lead-acid batteries never require maintenance.",
+            "b": "Ni-Cd batteries are resilient to overcharge and undercharge, unlike lead-acid batteries.",
+            "c": "Lead-acid batteries have replaceable cells, while Ni-Cd batteries do not."
+        },
+        "correct_answer": "b",
+        "explanation": "Maintenance activities for Ni-Cd batteries are different from lead-acid batteries; for example, Nickel-cadmium cells are resilient to both overcharge and undercharge[cite: 1443]."
+    }
+]

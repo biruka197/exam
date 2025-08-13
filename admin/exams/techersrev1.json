@@ -1,0 +1,970 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is electricity?",
+    "options": {
+      "a": "The stationary buildup of charge on a surface.",
+      "b": "The flow of electric charge, usually through conductors, caused by the movement of electrons.",
+      "c": "The magnetic field created by a permanent magnet."
+    },
+    "correct_answer": "b",
+    "explanation": "Electricity is defined as the flow of electric charge, typically caused by moving electrons in a conductor."
+  },
+  {
+    "question_number": 2,
+    "question": "Why is electricity preferred as an energy source?",
+    "options": {
+      "a": "It is difficult to transport and can only be used for lighting.",
+      "b": "It is a non-renewable resource with high environmental impact.",
+      "c": "It is clean, efficient, easy to control, and easily converted to other forms of energy."
+    },
+    "correct_answer": "c",
+    "explanation": "Electricity is a preferred energy source because it is clean, efficient, simple to control, and can be readily converted into other energy forms like heat, light, or motion."
+  },
+  {
+    "question_number": 3,
+    "question": "List three applications of electricity in aircraft.",
+    "options": {
+      "a": "Lighting, communication, and navigation or flight control systems.",
+      "b": "Fuel propulsion, landing gear hydraulics, and window tinting.",
+      "c": "Passenger seating, cargo loading, and exterior paint."
+    },
+    "correct_answer": "a",
+    "explanation": "Three key applications of electricity in aircraft include lighting, communication, and systems for navigation or flight control."
+  },
+  {
+    "question_number": 4,
+    "question": "What are the physiological hazards of working with electrical equipment?",
+    "options": {
+      "a": "Equipment damage and power surges.",
+      "b": "Overconfidence and fatigue.",
+      "c": "Electric shock, burns, muscle contraction, breathing difficulty, and cardiac arrest."
+    },
+    "correct_answer": "c",
+    "explanation": "Working with electrical equipment presents physiological hazards such as electric shock, burns, involuntary muscle contraction, difficulty breathing, and even cardiac arrest."
+  },
+  {
+    "question_number": 5,
+    "question": "Name two psychological factors that affect electrical safety.",
+    "options": {
+      "a": "Electric shock and burns.",
+      "b": "Overconfidence and fatigue.",
+      "c": "Proper training and use of PPE."
+    },
+    "correct_answer": "b",
+    "explanation": "Two psychological factors that can impact electrical safety are overconfidence and fatigue."
+  },
+  {
+    "question_number": 6,
+    "question": "What is the purpose of bonding in aircraft?",
+    "options": {
+      "a": "To secure components together mechanically.",
+      "b": "To equalize potential between conductive parts and safely dissipate static charges.",
+      "c": "To provide a path for the main electrical power."
+    },
+    "correct_answer": "b",
+    "explanation": "Bonding in aircraft serves to equalize the electrical potential between different conductive parts and to safely dissipate static electricity."
+  },
+  {
+    "question_number": 7,
+    "question": "Why is smoking prohibited within 50 feet of a parked aircraft?",
+    "options": {
+      "a": "To prevent litter on the airfield.",
+      "b": "To avoid disturbing the passengers and crew.",
+      "c": "To avoid ignition of fuel vapors, which may lead to fire or explosion."
+    },
+    "correct_answer": "c",
+    "explanation": "Smoking is forbidden within 50 feet of a parked aircraft to prevent the ignition of fuel vapors, which could cause a fire or an explosion."
+  },
+  {
+    "question_number": 8,
+    "question": "What type of fire extinguisher is used for electrical fires?",
+    "options": {
+      "a": "Class A (water-based) extinguisher.",
+      "b": "Class B (foam) extinguisher.",
+      "c": "Class C extinguisher- CO₂ or dry chemical types."
+    },
+    "correct_answer": "c",
+    "explanation": "Electrical fires require a Class C fire extinguisher, which uses CO₂ or dry chemical agents."
+  },
+  {
+    "question_number": 9,
+    "question": "Why should carbon tetrachloride never be used to fight electrical fires?",
+    "options": {
+      "a": "It is ineffective at extinguishing flames.",
+      "b": "It forms toxic gases (like phosgene) when heated or exposed to electric arcs.",
+      "c": "It can damage the electrical components."
+    },
+    "correct_answer": "b",
+    "explanation": "Carbon tetrachloride is hazardous for fighting electrical fires because it produces toxic gases, such as phosgene, when it is heated or comes into contact with electric arcs."
+  },
+  {
+    "question_number": 10,
+    "question": "What is the first step in treating an electrical shock victim?",
+    "options": {
+      "a": "Administer CPR immediately.",
+      "b": "Disconnect the power source and safely remove the person using a non-conductive object.",
+      "c": "Call for emergency medical services."
+    },
+    "correct_answer": "b",
+    "explanation": "The first step in aiding an electrical shock victim is to disconnect the power source and then move the person away from it using a non-conductive object for safety."
+  },
+  {
+    "question_number": 11,
+    "question": "Define matter and list its three states.",
+    "options": {
+      "a": "Anything with mass and volume. States: solid, liquid, and gas.",
+      "b": "The smallest particle of an element. States: proton, neutron, and electron.",
+      "c": "A substance that conducts electricity. States: conductor, insulator, and semiconductor."
+    },
+    "correct_answer": "a",
+    "explanation": "Matter is anything that has mass and occupies volume. Its three states are solid, liquid, and gas."
+  },
+  {
+    "question_number": 12,
+    "question": "What is the difference between an element and a compound?",
+    "options": {
+      "a": "Elements are metals; compounds are non-metals.",
+      "b": "Elements have one type of atom; compounds have two or more elements chemically bonded.",
+      "c": "Elements are solids; compounds are liquids or gases."
+    },
+    "correct_answer": "b",
+    "explanation": "Elements consist of only one type of atom, whereas compounds are formed from two or more different elements that are chemically bonded together."
+  },
+  {
+    "question_number": 13,
+    "question": "Describe the structure of an atom.",
+    "options": {
+      "a": "A solid sphere of positive charge with electrons embedded in it.",
+      "b": "A nucleus (protons and neutrons) surrounded by orbiting electrons.",
+      "c": "A central electron surrounded by orbiting protons and neutrons."
+    },
+    "correct_answer": "b",
+    "explanation": "An atom has a central nucleus, containing protons and neutrons, which is surrounded by electrons that orbit it."
+  },
+  {
+    "question_number": 14,
+    "question": "What are the three fundamental particles of an atom?",
+    "options": {
+      "a": "Quarks, leptons, and bosons.",
+      "b": "Protons, neutrons, and electrons.",
+      "c": "Molecules, ions, and isotopes."
+    },
+    "correct_answer": "b",
+    "explanation": "The three fundamental particles of an atom are protons, neutrons, and electrons."
+  },
+  {
+    "question_number": 15,
+    "question": "How do protons and electrons differ in charge?",
+    "options": {
+      "a": "Protons are negative, electrons are positive.",
+      "b": "Protons are positive, electrons are neutral.",
+      "c": "Protons are positive, electrons are negative."
+    },
+    "correct_answer": "c",
+    "explanation": "Protons have a positive charge, while electrons have a negative charge."
+  },
+  {
+    "question_number": 16,
+    "question": "What makes a material a good conductor?",
+    "options": {
+      "a": "The presence of many free electrons.",
+      "b": "A rigid crystalline structure.",
+      "c": "A lack of electrons in the outer shell."
+    },
+    "correct_answer": "a",
+    "explanation": "A material is a good conductor if it has a large number of free electrons."
+  },
+  {
+    "question_number": 17,
+    "question": "Why do insulators resist current flow?",
+    "options": {
+      "a": "Their electrons are tightly bound and cannot move freely.",
+      "b": "They have a high density of free electrons.",
+      "c": "They are made of metallic elements."
+    },
+    "correct_answer": "a",
+    "explanation": "Insulators resist the flow of current because their electrons are tightly bound to their atoms and are not free to move."
+  },
+  {
+    "question_number": 18,
+    "question": "Name two semiconductor materials.",
+    "options": {
+      "a": "Copper and Gold.",
+      "b": "Rubber and Glass.",
+      "c": "Silicon and Germanium."
+    },
+    "correct_answer": "c",
+    "explanation": "Silicon and Germanium are two common semiconductor materials."
+  },
+  {
+    "question_number": 19,
+    "question": "What happens to the resistance of a conductor as temperature increases?",
+    "options": {
+      "a": "Resistance decreases.",
+      "b": "Resistance increases (positive temperature coefficient).",
+      "c": "Resistance remains the same."
+    },
+    "correct_answer": "b",
+    "explanation": "As the temperature of a conductor increases, its resistance also increases, which is known as a positive temperature coefficient."
+  },
+  {
+    "question_number": 20,
+    "question": "Define positive and negative temperature coefficients.",
+    "options": {
+      "a": "Positive: resistance falls with temperature; Negative: resistance rises with temperature.",
+      "b": "Positive: resistance rises with temperature; Negative: resistance falls with temperature.",
+      "c": "Positive: resistance is constant; Negative: resistance is zero."
+    },
+    "correct_answer": "b",
+    "explanation": "A positive temperature coefficient means resistance increases with temperature, while a negative temperature coefficient means resistance decreases with temperature."
+  },
+  {
+    "question_number": 21,
+    "question": "How is static electricity produced?",
+    "options": {
+      "a": "By the flow of current through a wire.",
+      "b": "By a chemical reaction in a battery.",
+      "c": "By friction or separation of materials that transfers electrons."
+    },
+    "correct_answer": "c",
+    "explanation": "Static electricity is generated by the transfer of electrons that occurs from friction or the separation of different materials."
+  },
+  {
+    "question_number": 22,
+    "question": "State Coulomb's Law.",
+    "options": {
+      "a": "Electric force is proportional to the distance between charges.",
+      "b": "Electric force is proportional to the product of charges and inversely proportional to the square of their distance.",
+      "c": "Electric force is constant for all charges."
+    },
+    "correct_answer": "b",
+    "explanation": "Coulomb's Law states that the electric force between two charges is proportional to the product of the charges and inversely proportional to the square of the distance between them."
+  },
+  {
+    "question_number": 23,
+    "question": "What is the unit of electric charge?",
+    "options": {
+      "a": "Volt (V).",
+      "b": "Ampere (A).",
+      "c": "Coulomb (C)."
+    },
+    "correct_answer": "c",
+    "explanation": "The unit of electric charge is the Coulomb (C)."
+  },
+  {
+    "question_number": 24,
+    "question": "How does lightning occur?",
+    "options": {
+      "a": "As a result of nuclear fusion in the atmosphere.",
+      "b": "Discharge of static electricity between clouds or between a cloud and the ground.",
+      "c": "From the friction of wind against mountains."
+    },
+    "correct_answer": "b",
+    "explanation": "Lightning is the result of a static electricity discharge that happens between clouds, or between a cloud and the ground."
+  },
+  {
+    "question_number": 25,
+    "question": "Why are static wicks installed on aircraft?",
+    "options": {
+      "a": "To measure the atmospheric pressure.",
+      "b": "To safely discharge static electricity into the atmosphere.",
+      "c": "To improve radio communication clarity."
+    },
+    "correct_answer": "b",
+    "explanation": "Static wicks are installed on aircraft to provide a safe path for static electricity to discharge into the atmosphere."
+  },
+  {
+    "question_number": 26,
+    "question": "Define voltage and its unit.",
+    "options": {
+      "a": "The rate of flow of charge; Unit: Ampere (A).",
+      "b": "Voltage is the electric potential difference. Unit: Volt (V).",
+      "c": "The opposition to current flow; Unit: Ohm (Ω)."
+    },
+    "correct_answer": "b",
+    "explanation": "Voltage is the difference in electric potential, and its unit is the Volt (V)."
+  },
+  {
+    "question_number": 27,
+    "question": "What is the difference between EMF and terminal voltage?",
+    "options": {
+      "a": "EMF is the voltage under load; terminal voltage is the no-load voltage.",
+      "b": "There is no difference; the terms are interchangeable.",
+      "c": "EMF is the ideal voltage of a source; terminal voltage is EMF minus internal losses."
+    },
+    "correct_answer": "c",
+    "explanation": "EMF (electromotive force) is the ideal voltage of a source, while terminal voltage is the EMF after accounting for internal losses."
+  },
+  {
+    "question_number": 28,
+    "question": "How is current measured?",
+    "options": {
+      "a": "Using a voltmeter connected in parallel.",
+      "b": "Using an ammeter connected in series.",
+      "c": "Using an ohmmeter connected across the component."
+    },
+    "correct_answer": "b",
+    "explanation": "Current is measured with an ammeter that is connected in series with the circuit."
+  },
+  {
+    "question_number": 29,
+    "question": "What factors affect resistance in a conductor?",
+    "options": {
+      "a": "Voltage, current, and power.",
+      "b": "Material, length, cross-sectional area, and temperature.",
+      "c": "The color of the insulator and the circuit's frequency."
+    },
+    "correct_answer": "b",
+    "explanation": "The resistance of a conductor is affected by the material it's made of, its length, its cross-sectional area, and its temperature."
+  },
+  {
+    "question_number": 30,
+    "question": "Define conductance and its unit.",
+    "options": {
+      "a": "Conductance is the inverse of resistance. Unit: Siemens (S).",
+      "b": "Conductance is the same as resistance. Unit: Ohm (Ω).",
+      "c": "Conductance is the ability to store charge. Unit: Farad (F)."
+    },
+    "correct_answer": "a",
+    "explanation": "Conductance is the reciprocal of resistance, and its unit is the Siemens (S)."
+  },
+  {
+    "question_number": 31,
+    "question": "List five methods of generating electricity.",
+    "options": {
+      "a": "Friction, magnetic, static, kinetic, and potential.",
+      "b": "Conduction, convection, radiation, induction, and insulation.",
+      "c": "Chemical, mechanical, thermal, light (solar), and pressure (piezoelectric)."
+    },
+    "correct_answer": "c",
+    "explanation": "Five methods for generating electricity are through chemical, mechanical, thermal, light (solar), and pressure (piezoelectric) means."
+  },
+  {
+    "question_number": 32,
+    "question": "How does a thermocouple produce electricity?",
+    "options": {
+      "a": "By exposing a crystal to light.",
+      "b": "By heating two joined dissimilar metals, creating a voltage.",
+      "c": "By spinning a coil in a magnetic field."
+    },
+    "correct_answer": "b",
+    "explanation": "A thermocouple generates electricity by heating the junction of two different metals, which produces a voltage."
+  },
+  {
+    "question_number": 33,
+    "question": "What is the piezoelectric effect?",
+    "options": {
+      "a": "Electricity is produced when pressure is applied to specific crystals.",
+      "b": "Electricity is produced by a chemical reaction.",
+      "c": "Light is produced when electricity passes through a gas."
+    },
+    "correct_answer": "a",
+    "explanation": "The piezoelectric effect is the generation of electricity when certain crystals are subjected to pressure."
+  },
+  {
+    "question_number": 34,
+    "question": "Describe the principle of a solar cell.",
+    "options": {
+      "a": "It converts heat energy into mechanical motion.",
+      "b": "It converts light energy directly into electricity using the photovoltaic effect.",
+      "c": "It stores electrical energy in a chemical form."
+    },
+    "correct_answer": "b",
+    "explanation": "A solar cell operates on the photovoltaic effect, converting light energy directly into electrical energy."
+  },
+  {
+    "question_number": 35,
+    "question": "How is electricity generated by chemical action?",
+    "options": {
+      "a": "By rubbing two materials together to create friction.",
+      "b": "By using heat to boil water and turn a turbine.",
+      "c": "Through electron transfer in chemical reactions within a cell."
+    },
+    "correct_answer": "c",
+    "explanation": "Electricity is produced by chemical action via the transfer of electrons during chemical reactions inside a cell."
+  },
+  {
+    "question_number": 36,
+    "question": "Differentiate between primary and secondary cells.",
+    "options": {
+      "a": "Primary cells are rechargeable; secondary cells are not.",
+      "b": "Primary: not rechargeable; Secondary: rechargeable.",
+      "c": "Primary cells use liquid electrolytes; secondary cells use solid electrolytes."
+    },
+    "correct_answer": "b",
+    "explanation": "The main difference is that primary cells are not rechargeable, while secondary cells are."
+  },
+  {
+    "question_number": 37,
+    "question": "What is the electrolyte in a lead-acid battery?",
+    "options": {
+      "a": "Potassium hydroxide.",
+      "b": "Diluted sulfuric acid.",
+      "c": "Saltwater solution."
+    },
+    "correct_answer": "b",
+    "explanation": "The electrolyte used in a lead-acid battery is diluted sulfuric acid."
+  },
+  {
+    "question_number": 38,
+    "question": "Why is hydrogen gas dangerous in Ni-Cad batteries?",
+    "options": {
+      "a": "It is toxic if inhaled.",
+      "b": "It is highly corrosive to the battery terminals.",
+      "c": "It is explosive and may ignite during overcharging."
+    },
+    "correct_answer": "c",
+    "explanation": "In Ni-Cad batteries, hydrogen gas is dangerous because it is explosive and can be ignited, particularly during overcharging."
+  },
+  {
+    "question_number": 39,
+    "question": "What are the advantages of lithium-ion batteries?",
+    "options": {
+      "a": "They are inexpensive and widely available.",
+      "b": "High energy density, lightweight, rechargeable, and long life.",
+      "c": "They are extremely resistant to high temperatures."
+    },
+    "correct_answer": "b",
+    "explanation": "Lithium-ion batteries offer advantages such as high energy density, being lightweight and rechargeable, and having a long lifespan."
+  },
+  {
+    "question_number": 40,
+    "question": "How does internal resistance affect battery performance?",
+    "options": {
+      "a": "It increases the battery's lifespan.",
+      "b": "It causes voltage drop under load, reducing efficiency.",
+      "c": "It improves the charging speed."
+    },
+    "correct_answer": "b",
+    "explanation": "A battery's internal resistance causes its voltage to drop when under load, which in turn reduces the battery's overall efficiency."
+  },
+  {
+    "question_number": 41,
+    "question": "What is the color code for a 1kΩ resistor with 5% tolerance?",
+    "options": {
+      "a": "Brown, Black, Orange, Silver.",
+      "b": "Brown, Black, Red, Gold.",
+      "c": "Red, Orange, Black, Gold."
+    },
+    "correct_answer": "b",
+    "explanation": "A 1kΩ resistor with a 5% tolerance is color-coded as Brown, Black, Red, and Gold."
+  },
+  {
+    "question_number": 42,
+    "question": "How do fixed and variable resistors differ?",
+    "options": {
+      "a": "Fixed resistors are used in AC circuits; variable resistors are for DC circuits.",
+      "b": "Fixed resistors are made of carbon; variable resistors are made of wire.",
+      "c": "Fixed: constant resistance; Variable: adjustable (e.g., potentiometers)."
+    },
+    "correct_answer": "c",
+    "explanation": "Fixed resistors have a constant resistance value, whereas variable resistors, like potentiometers, can be adjusted."
+  },
+  {
+    "question_number": 43,
+    "question": "What is the purpose of a potentiometer?",
+    "options": {
+      "a": "To measure electric potential.",
+      "b": "To vary voltage or divide voltage in a circuit.",
+      "c": "To produce a fixed resistance value."
+    },
+    "correct_answer": "b",
+    "explanation": "A potentiometer is used in a circuit to vary or divide voltage."
+  },
+  {
+    "question_number": 44,
+    "question": "Calculate the total resistance of three 10Ω resistors in series.",
+    "options": {
+      "a": "10Ω.",
+      "b": "3.33Ω.",
+      "c": "30Ω."
+    },
+    "correct_answer": "c",
+    "explanation": "The total resistance is the sum of the individual resistances: 10 + 10 + 10 = 30Ω."
+  },
+  {
+    "question_number": 45,
+    "question": "Calculate the total resistance of two 5Ω resistors in parallel.",
+    "options": {
+      "a": "10Ω.",
+      "b": "2.5Ω.",
+      "c": "5Ω."
+    },
+    "correct_answer": "b",
+    "explanation": "The calculation for two parallel resistors is 1/R_t = 1/5 + 1/5, which gives a total resistance of 2.5Ω."
+  },
+  {
+    "question_number": 46,
+    "question": "State Ohm's Law.",
+    "options": {
+      "a": "P = V x I",
+      "b": "V = I x R",
+      "c": "R = R₁ + R₂"
+    },
+    "correct_answer": "b",
+    "explanation": "Ohm's Law is stated as V = I × R."
+  },
+  {
+    "question_number": 47,
+    "question": "What is Kirchhoff's Voltage Law?",
+    "options": {
+      "a": "The total current entering a junction equals the total current leaving.",
+      "b": "The total voltage around a closed loop equals zero.",
+      "c": "The resistance of a circuit is the sum of all individual resistors."
+    },
+    "correct_answer": "b",
+    "explanation": "Kirchhoff's Voltage Law states that the sum of all voltages around any closed loop in a circuit is equal to zero."
+  },
+  {
+    "question_number": 48,
+    "question": "How does current behave in a series circuit?",
+    "options": {
+      "a": "It divides among the components.",
+      "b": "It is different through each component.",
+      "c": "The same current flows through all components."
+    },
+    "correct_answer": "c",
+    "explanation": "In a series circuit, the current remains the same as it flows through all components."
+  },
+  {
+    "question_number": 49,
+    "question": "What is the voltage drop across a 2Ω resistor with 3A current?",
+    "options": {
+      "a": "1.5V.",
+      "b": "6V.",
+      "c": "5V."
+    },
+    "correct_answer": "b",
+    "explanation": "Using Ohm's Law (V = IR), the voltage drop is 3A × 2Ω = 6V."
+  },
+  {
+    "question_number": 50,
+    "question": "Define power in an electrical circuit.",
+    "options": {
+      "a": "Power = Voltage / Current",
+      "b": "Power = Voltage × Current; measured in Watts.",
+      "c": "Power = Current² × Voltage"
+    },
+    "correct_answer": "b",
+    "explanation": "Power in an electrical circuit is the product of voltage and current (Power = Voltage × Current) and is measured in Watts."
+  },
+  {
+    "question_number": 51,
+    "question": "What is the function of a capacitor?",
+    "options": {
+      "a": "To generate electrical current.",
+      "b": "To store energy in an electric field.",
+      "c": "To limit the flow of electrons."
+    },
+    "correct_answer": "b",
+    "explanation": "The function of a capacitor is to store energy within an electric field."
+  },
+  {
+    "question_number": 52,
+    "question": "How does a capacitor charge and discharge?",
+    "options": {
+      "a": "It charges when disconnected from power and discharges when connected.",
+      "b": "It charges when connected to a power source and discharges when the source is removed.",
+      "c": "Charging and discharging are random processes."
+    },
+    "correct_answer": "b",
+    "explanation": "A capacitor charges when it is connected to a power source and discharges once that source is taken away."
+  },
+  {
+    "question_number": 53,
+    "question": "What factors affect capacitance?",
+    "options": {
+      "a": "Plate area, plate distance, and dielectric material.",
+      "b": "Voltage, current, and resistance.",
+      "c": "Temperature, pressure, and humidity."
+    },
+    "correct_answer": "a",
+    "explanation": "Capacitance is determined by the area of the plates, the distance between the plates, and the type of dielectric material used."
+  },
+  {
+    "question_number": 54,
+    "question": "Name three types of capacitors.",
+    "options": {
+      "a": "Fixed, variable, and polarized.",
+      "b": "Electrolytic, ceramic, and mica.",
+      "c": "Resistor, inductor, and diode."
+    },
+    "correct_answer": "b",
+    "explanation": "Three common types of capacitors are electrolytic, ceramic, and mica."
+  },
+  {
+    "question_number": 55,
+    "question": "Why are electrolytic capacitors polarized?",
+    "options": {
+      "a": "They can be installed in either direction without damage.",
+      "b": "They rely on chemical properties that work in only one direction.",
+      "c": "Polarization increases their resistance value."
+    },
+    "correct_answer": "b",
+    "explanation": "Electrolytic capacitors are polarized because their function is based on chemical properties that are effective in only one direction."
+  },
+  {
+    "question_number": 56,
+    "question": "What is the time constant (τ) of an RC circuit?",
+    "options": {
+      "a": "τ = R / C",
+      "b": "τ = R × C",
+      "c": "τ = C / R"
+    },
+    "correct_answer": "b",
+    "explanation": "The time constant (τ) of a resistor-capacitor (RC) circuit is the product of the resistance and capacitance, or τ = R × C."
+  },
+  {
+    "question_number": 57,
+    "question": "How does capacitive reactance (Xc) vary with frequency?",
+    "options": {
+      "a": "It increases as frequency increases.",
+      "b": "It decreases as frequency increases.",
+      "c": "It is not affected by frequency."
+    },
+    "correct_answer": "b",
+    "explanation": "Capacitive reactance (Xc) is inversely proportional to frequency (Xc = 1 / (2πfC)), so it decreases as the frequency increases."
+  },
+  {
+    "question_number": 58,
+    "question": "What happens when capacitors are connected in series?",
+    "options": {
+      "a": "Total capacitance increases.",
+      "b": "Total capacitance decreases.",
+      "c": "Total capacitance remains the same."
+    },
+    "correct_answer": "b",
+    "explanation": "When capacitors are connected in a series configuration, their total capacitance decreases."
+  },
+  {
+    "question_number": 59,
+    "question": "What happens when capacitors are connected in parallel?",
+    "options": {
+      "a": "Total capacitance increases.",
+      "b": "Total capacitance decreases.",
+      "c": "Total capacitance remains the same."
+    },
+    "correct_answer": "a",
+    "explanation": "Connecting capacitors in parallel results in an increase in the total capacitance."
+  },
+  {
+    "question_number": 60,
+    "question": "How do you test a capacitor with a multimeter?",
+    "options": {
+      "a": "By measuring the voltage across it.",
+      "b": "Use capacitance or resistance mode; watch for charge/discharge behavior.",
+      "c": "By checking for a constant, high resistance reading."
+    },
+    "correct_answer": "b",
+    "explanation": "To test a capacitor with a multimeter, you can use the capacitance mode or the resistance mode to observe its charging and discharging behavior."
+  },
+  {
+    "question_number": 61,
+    "question": "Why are resistors used in circuits?",
+    "options": {
+      "a": "To store electrical energy.",
+      "b": "To increase the circuit's voltage.",
+      "c": "To limit current or divide voltage."
+    },
+    "correct_answer": "c",
+    "explanation": "Resistors are used in circuits for the purpose of limiting current or dividing voltage."
+  },
+  {
+    "question_number": 62,
+    "question": "How is a Wheatstone bridge used to measure resistance?",
+    "options": {
+      "a": "By measuring the current flow through an unknown resistor.",
+      "b": "By balancing voltages across known and unknown resistors.",
+      "c": "By calculating resistance based on the color code."
+    },
+    "correct_answer": "b",
+    "explanation": "A Wheatstone bridge measures an unknown resistance by balancing the voltages across a circuit containing both known and unknown resistors."
+  },
+  {
+    "question_number": 63,
+    "question": "What is the purpose of a rheostat?",
+    "options": {
+      "a": "To vary current in a circuit.",
+      "b": "To measure resistance.",
+      "c": "To provide a fixed voltage."
+    },
+    "correct_answer": "a",
+    "explanation": "The purpose of a rheostat is to vary the current within a circuit."
+  },
+  {
+    "question_number": 64,
+    "question": "Why do aircraft use Ni-Cad batteries instead of lead-acid?",
+    "options": {
+      "a": "They are heavier and more robust.",
+      "b": "They are cheaper to manufacture.",
+      "c": "Because they are lighter, more durable, and recharge quickly."
+    },
+    "correct_answer": "c",
+    "explanation": "Aircraft prefer Ni-Cad batteries over lead-acid types because they are lighter, more durable, and can be recharged more quickly."
+  },
+  {
+    "question_number": 65,
+    "question": "How is static electricity mitigated in aircraft fuel systems?",
+    "options": {
+      "a": "By using plastic hoses and insulating the fuel tanks.",
+      "b": "Using bonding, conductive hoses, and grounding.",
+      "c": "By increasing the fuel flow rate."
+    },
+    "correct_answer": "b",
+    "explanation": "Static electricity in aircraft fuel systems is managed through the use of bonding, conductive hoses, and proper grounding techniques."
+  },
+  {
+    "question_number": 66,
+    "question": "A 12V battery is connected to a 4Ω resistor. Calculate the current.",
+    "options": {
+      "a": "48A.",
+      "b": "3A.",
+      "c": "0.33A."
+    },
+    "correct_answer": "b",
+    "explanation": "Using Ohm's Law (I = V/R), the current is 12V / 4Ω = 3A."
+  },
+  {
+    "question_number": 67,
+    "question": "Three resistors (2Ω, 3Ω, 5Ω) are in series. Find total resistance.",
+    "options": {
+      "a": "10Ω.",
+      "b": "0.97Ω.",
+      "c": "30Ω."
+    },
+    "correct_answer": "a",
+    "explanation": "The total resistance for resistors in series is their sum: 2Ω + 3Ω + 5Ω = 10Ω."
+  },
+  {
+    "question_number": 68,
+    "question": "Two capacitors (10µF, 20µF) are in parallel. Find total capacitance.",
+    "options": {
+      "a": "6.67µF.",
+      "b": "30µF.",
+      "c": "200µF."
+    },
+    "correct_answer": "b",
+    "explanation": "For capacitors in parallel, the total capacitance is the sum of the individual capacitances: 10µF + 20µF = 30µF."
+  },
+  {
+    "question_number": 69,
+    "question": "Calculate the power dissipated in a 50Ω resistor with 2A current.",
+    "options": {
+      "a": "100W.",
+      "b": "25W.",
+      "c": "200W."
+    },
+    "correct_answer": "c",
+    "explanation": "Using the power formula P = I²R, the power dissipated is (2A)² × 50Ω = 200W."
+  },
+  {
+    "question_number": 70,
+    "question": "A circuit has a 10kΩ resistor and 100µF capacitor. Calculate τ.",
+    "options": {
+      "a": "100 seconds.",
+      "b": "0.1 seconds.",
+      "c": "1 second."
+    },
+    "correct_answer": "c",
+    "explanation": "The time constant τ is calculated as R × C, so τ = 10,000Ω × 0.0001F = 1 second."
+  },
+  {
+    "question_number": 71,
+    "question": "Why is it unsafe to work alone on high-voltage systems?",
+    "options": {
+      "a": "The work requires four hands to complete.",
+      "b": "It violates company policy.",
+      "c": "No one is available to help in case of shock or injury."
+    },
+    "correct_answer": "c",
+    "explanation": "Working alone on high-voltage systems is unsafe because if a shock or injury occurs, there is no one present to provide assistance."
+  },
+  {
+    "question_number": 72,
+    "question": "What PPE is required for avionics technicians?",
+    "options": {
+      "a": "A hard hat, steel-toed boots, and a reflective vest.",
+      "b": "Insulated gloves, safety glasses, and antistatic gear.",
+      "c": "A standard uniform and hearing protection."
+    },
+    "correct_answer": "b",
+    "explanation": "Personal protective equipment (PPE) for avionics technicians includes insulated gloves, safety glasses, and antistatic gear."
+  },
+  {
+    "question_number": 73,
+    "question": "How should a battery be handled during charging?",
+    "options": {
+      "a": "In a sealed, unventilated container.",
+      "b": "In a ventilated area, with protective gear, avoiding overcharging.",
+      "c": "With bare hands to check for overheating."
+    },
+    "correct_answer": "b",
+    "explanation": "When charging a battery, it should be done in a well-ventilated area, using protective gear, and taking care not to overcharge it."
+  },
+  {
+    "question_number": 74,
+    "question": "What precautions are taken during aircraft refueling?",
+    "options": {
+      "a": "The engines are kept running for a quick departure.",
+      "b": "No ignition sources, bonding/grounding, and fire extinguishers nearby.",
+      "c": "All aircraft lights are turned on for better visibility."
+    },
+    "correct_answer": "b",
+    "explanation": "During aircraft refueling, precautions include ensuring there are no ignition sources, using proper bonding and grounding, and having fire extinguishers readily available."
+  },
+  {
+    "question_number": 75,
+    "question": "Why is grounding important in a hangar?",
+    "options": {
+      "a": "It improves the building's structural integrity.",
+      "b": "It prevents dangerous static buildup that could ignite vapors.",
+      "c": "It provides a path for radio signals."
+    },
+    "correct_answer": "b",
+    "explanation": "Grounding is crucial in a hangar to prevent the dangerous accumulation of static electricity, which could ignite flammable vapors."
+  },
+  {
+    "question_number": 76,
+    "question": "How many electrons are in the valence shell of carbon (C)?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6"
+    },
+    "correct_answer": "b",
+    "explanation": "A carbon atom has four electrons in its valence shell."
+  },
+  {
+    "question_number": 77,
+    "question": "Why do conductors have low resistance?",
+    "options": {
+      "a": "Due to the lack of electrons.",
+      "b": "Due to the abundance of free-moving electrons.",
+      "c": "Because they have a wide forbidden energy gap."
+    },
+    "correct_answer": "b",
+    "explanation": "Conductors exhibit low resistance because they have an abundance of electrons that can move freely."
+  },
+  {
+    "question_number": 78,
+    "question": "What is the role of neutrons in an atom?",
+    "options": {
+      "a": "To determine the chemical properties.",
+      "b": "To provide a negative charge.",
+      "c": "To provide mass and stabilize the nucleus."
+    },
+    "correct_answer": "c",
+    "explanation": "Neutrons contribute mass to the atom and help to stabilize the nucleus."
+  },
+  {
+    "question_number": 79,
+    "question": "How do you identify a short-circuited capacitor?",
+    "options": {
+      "a": "The multimeter shows infinite resistance.",
+      "b": "The multimeter shows very low resistance or continuity.",
+      "c": "The capacitor appears physically larger."
+    },
+    "correct_answer": "b",
+    "explanation": "A short-circuited capacitor can be identified with a multimeter, which will show a very low resistance reading or indicate continuity."
+  },
+  {
+    "question_number": 80,
+    "question": "What are the symptoms of an open resistor?",
+    "options": {
+      "a": "Infinite resistance and no current flow.",
+      "b": "Zero resistance and maximum current flow.",
+      "c": "Its resistance value slowly decreases."
+    },
+    "correct_answer": "a",
+    "explanation": "The symptoms of an open resistor are an infinite resistance reading and a complete stop of current flow."
+  },
+  {
+    "question_number": 81,
+    "question": "Why might a resistor overheat?",
+    "options": {
+      "a": "The ambient temperature is too low.",
+      "b": "It has the wrong tolerance rating.",
+      "c": "Overload or incorrect power rating."
+    },
+    "correct_answer": "c",
+    "explanation": "A resistor might overheat if it is overloaded with too much current or if it has an incorrect power rating for the circuit."
+  },
+  {
+    "question_number": 82,
+    "question": "How do you test a resistor with a multimeter?",
+    "options": {
+      "a": "Use the voltage mode and apply power.",
+      "b": "Use ohm mode and compare reading with color code.",
+      "c": "Use the current mode and place it in series."
+    },
+    "correct_answer": "b",
+    "explanation": "To test a resistor, use the ohm mode on a multimeter and compare the measured resistance with the value indicated by its color code."
+  },
+  {
+    "question_number": 83,
+    "question": "What causes a battery to lose capacity over time?",
+    "options": {
+      "a": "Frequent discharging and recharging.",
+      "b": "Being stored in a cool environment.",
+      "c": "Aging, sulfation, internal resistance increase."
+    },
+    "correct_answer": "c",
+    "explanation": "A battery loses capacity over time due to factors such as aging, sulfation, and an increase in its internal resistance."
+  },
+  {
+    "question_number": 84,
+    "question": "Explain electron flow vs. conventional current.",
+    "options": {
+      "a": "They are the same; the terms are interchangeable.",
+      "b": "Electron flow is from negative to positive; conventional is from positive to negative.",
+      "c": "Electron flow is used in AC circuits; conventional current is used in DC circuits."
+    },
+    "correct_answer": "b",
+    "explanation": "Electron flow describes the movement of charge from negative to positive, while conventional current describes flow from positive to negative."
+  },
+  {
+    "question_number": 85,
+    "question": "Describe the energy bands in conductors and insulators.",
+    "options": {
+      "a": "Conductors have a wide gap; insulators have overlapping bands.",
+      "b": "Conductors: overlapping bands; Insulators: wide forbidden gap.",
+      "c": "Both have identical energy bands."
+    },
+    "correct_answer": "b",
+    "explanation": "In conductors, the energy bands overlap, whereas in insulators, there is a wide forbidden energy gap between the bands."
+  },
+  {
+    "question_number": 86,
+    "question": "How does temperature affect semiconductor resistance?",
+    "options": {
+      "a": "Resistance increases with temperature rise.",
+      "b": "Resistance decreases with temperature rise.",
+      "c": "Resistance is not affected by temperature."
+    },
+    "correct_answer": "b",
+    "explanation": "For a semiconductor, the resistance decreases as the temperature increases."
+  },
+  {
+    "question_number": 87,
+    "question": "What is the significance of the forbidden gap?",
+    "options": {
+      "a": "It determines the color of the material.",
+      "b": "It determines if a material is a conductor, semiconductor, or insulator.",
+      "c": "It represents the energy of the nucleus."
+    },
+    "correct_answer": "b",
+    "explanation": "The forbidden gap's size is significant because it determines whether a material will behave as a conductor, a semiconductor, or an insulator."
+  },
+  {
+    "question_number": 88,
+    "question": "Explain the photoelectric effect.",
+    "options": {
+      "a": "The emission of light when electricity passes through a material.",
+      "b": "Emission of electrons when light shines on a material.",
+      "c": "The change in resistance due to a magnetic field."
+    },
+    "correct_answer": "b",
+    "explanation": "The photoelectric effect is the phenomenon where electrons are emitted from a material when it is exposed to light."
+  }
+]

@@ -1,0 +1,277 @@
+[
+    {
+        "question_number": 1,
+        "question": "Which of the following is a correct procedure regarding the weighing scales used for large aircraft?",
+        "options": {
+            "A": "Weigh scales must be calibrated before use.",
+            "B": "Scales can be used interchangeably for any aircraft size.",
+            "C": "Calibration is only required annually."
+        },
+        "correct_answer": "A",
+        "explanation": "Aircraft weighing scales must be calibrated to ensure accurate weight and balance calculations, which are critical for flight safety. This calibration should be done just before the weighing procedure."
+    },
+    {
+        "question_number": 2,
+        "question": "How is the weight of modern aircraft often determined or managed?",
+        "options": {
+            "A": "By manually adding up individual component weights.",
+            "B": "By inputting data into an electronic flight computer.",
+            "C": "By using a standardized weight for all flights."
+        },
+        "correct_answer": "B",
+        "explanation": "Modern aircraft often use electronic flight computers or onboard weight and balance systems to calculate the aircraft's weight and center of gravity based on fuel, passenger, and cargo loads."
+    },
+    {
+        "question_number": 3,
+        "question": "Given an aircraft with a Center of Gravity (CG) at 635.7 inches, a Leading Edge of the Mean Aerodynamic Chord (LEMAC) at 625 inches, and a Mean Aerodynamic Chord (MAC) of 134 inches, what is the CG in percent of MAC?",
+        "options": {
+            "A": "6%",
+            "B": "8%",
+            "C": "10%"
+        },
+        "correct_answer": "B",
+        "explanation": "The CG in %MAC is calculated as ((CG - LEMAC) / MAC) * 100. In this case, ((635.7 - 625) / 134) * 100 = (10.7 / 134) * 100 \u2248 8%."
+    },
+    {
+        "question_number": 4,
+        "question": "What is the correct condition for the oil system when weighing an aircraft to determine its empty weight?",
+        "options": {
+            "A": "The oil tank must be completely full.",
+            "B": "The oil tank should be drained completely with no residual fluid.",
+            "C": "The oil tank should be drained, but undrainable or residual fluid is included in the empty weight."
+        },
+        "correct_answer": "C",
+        "explanation": "When preparing an aircraft for weighing, the oil system is drained, but any undrainable or residual fluid is considered part of the aircraft's empty weight."
+    },
+    {
+        "question_number": 5,
+        "question": "What tool is used to determine if an aircraft is properly loaded for flight by checking both weight and CG?",
+        "options": {
+            "A": "The maximum takeoff weight chart.",
+            "B": "The Center of Gravity (CG) limit envelope.",
+            "C": "The fuel consumption table."
+        },
+        "correct_answer": "B",
+        "explanation": "The CG limit envelope is a graph that defines the forward and aft limits for the aircraft's center of gravity at various weights. A flight is safe only if the weight and CG combination falls within this envelope."
+    },
+    {
+        "question_number": 6,
+        "question": "Who is typically responsible for making the entry in the weight and balance records after an alteration?",
+        "options": {
+            "A": "The pilot.",
+            "B": "The person or agency that performed the alteration.",
+            "C": "The aircraft owner exclusively."
+        },
+        "correct_answer": "B",
+        "explanation": "The person or agency (e.g., a certified mechanic or repair station) that performs a major repair or alteration is responsible for documenting the changes to the aircraft's weight and balance record."
+    },
+    {
+        "question_number": 7,
+        "question": "Who is authorized to perform and sign off on a 100-hour inspection?",
+        "options": {
+            "A": "Any private pilot.",
+            "B": "An appropriately rated mechanic or certified repair station.",
+            "C": "The aircraft operator."
+        },
+        "correct_answer": "B",
+        "explanation": "A 100-hour inspection must be performed and signed off by a person authorized by aviation regulations, typically an A&P (Airframe & Powerplant) mechanic or a certified repair station."
+    },
+    {
+        "question_number": 8,
+        "question": "Who holds the primary responsibility for ensuring the aircraft's empty weight and balance information is kept current after an alteration?",
+        "options": {
+            "A": "The mechanic who performed the work.",
+            "B": "The aircraft operator or owner.",
+            "C": "The local aviation authority."
+        },
+        "correct_answer": "B",
+        "explanation": "While the mechanic performing the work makes the initial record entry, the aircraft operator or owner is ultimately responsible for maintaining current and accurate weight and balance records for the aircraft."
+    },
+    {
+        "question_number": 9,
+        "question": "Where can the official equipment list for an aircraft typically be found?",
+        "options": {
+            "A": "In the Pilot's Operating Handbook (POH) or Aircraft Flight Manual (AFM).",
+            "B": "On a placard in the cockpit.",
+            "C": "In the aircraft's airworthiness certificate."
+        },
+        "correct_answer": "A",
+        "explanation": "The equipment list, which specifies all standard and optional equipment included in the aircraft's empty weight, is a required part of the Weight and Balance section of the POH/AFM."
+    },
+    {
+        "question_number": 10,
+        "question": "What is the definition of Empty Weight Center of Gravity (EWCG)?",
+        "options": {
+            "A": "The CG of the aircraft with full fuel, oil, and passengers.",
+            "B": "The point at which the aircraft would balance if it were suspended with only the pilot aboard.",
+            "C": "The center of gravity of the aircraft including all items specified in the empty weight equipment list."
+        },
+        "correct_answer": "C",
+        "explanation": "The Empty Weight Center of Gravity (EWCG) is the calculated center of gravity for the aircraft in its empty weight condition, which includes the airframe, engines, and all fixed equipment, plus undrainable fluids."
+    },
+    {
+        "question_number": 11,
+        "question": "What does the 'empty weight' of an aircraft include?",
+        "options": {
+            "A": "The airframe, engines, and required crew.",
+            "B": "The airframe and engines only, with no fluids.",
+            "C": "The airframe, engines, fixed equipment, and undrainable fluids."
+        },
+        "correct_answer": "C",
+        "explanation": "Empty weight consists of the aircraft itself, including the airframe, engines, all permanently installed equipment, unusable fuel, and undrainable operating fluids."
+    },
+    {
+        "question_number": 12,
+        "question": "How is the distance of the Center of Gravity (CG) behind the Leading Edge of the Mean Aerodynamic Chord (LEMAC) calculated?",
+        "options": {
+            "A": "By subtracting the distance from the datum to LEMAC from the distance from the datum to the CG.",
+            "B": "By adding the distance from the datum to the CG and the distance from the datum to LEMAC.",
+            "C": "By dividing the aircraft's total moment by the MAC."
+        },
+        "correct_answer": "A",
+        "explanation": "To find the CG's position relative to LEMAC, you subtract the LEMAC's arm (its distance from the datum) from the CG's arm (its distance from the datum)."
+    },
+    {
+        "question_number": 13,
+        "question": "What is the recommended location for weighing an aircraft?",
+        "options": {
+            "A": "On an open, level ramp on a calm day.",
+            "B": "Inside a closed hangar.",
+            "C": "Any location with certified scales is acceptable."
+        },
+        "correct_answer": "B",
+        "explanation": "Aircraft should be weighed inside a closed hangar to avoid inaccuracies caused by wind, which can create lift on the wings or push on the fuselage, leading to erroneous scale readings."
+    },
+    {
+        "question_number": 14,
+        "question": "Which of the following activities does NOT require a permanent change to the aircraft's basic empty weight and balance records?",
+        "options": {
+            "A": "Major alteration or repair.",
+            "B": "Installing new avionics equipment.",
+            "C": "Routine aircraft servicing like refueling."
+        },
+        "correct_answer": "C",
+        "explanation": "Routine servicing like refueling is part of the daily pre-flight weight and balance calculation, but it does not require a permanent change to the aircraft's basic empty weight records, unlike a major alteration or new equipment installation."
+    },
+    {
+        "question_number": 15,
+        "question": "Which statement is true regarding an aircraft's weight and balance records?",
+        "options": {
+            "A": "They are kept separate from all other aircraft maintenance records.",
+            "B": "They are maintained as part of the permanent aircraft records.",
+            "C": "They are only required to be kept for one year."
+        },
+        "correct_answer": "B",
+        "explanation": "Weight and balance records are a critical and permanent part of the aircraft's overall maintenance records and must be transferred with the aircraft when it is sold."
+    },
+    {
+        "question_number": 16,
+        "question": "An aircraft in flight, balancing on its center of lift, acts as which class of lever?",
+        "options": {
+            "A": "A first-class lever.",
+            "B": "A second-class lever.",
+            "C": "A third-class lever."
+        },
+        "correct_answer": "A",
+        "explanation": "An aircraft acts like a first-class lever, with the fulcrum at the center of lift, the weight acting downwards through the CG, and the tail-down force from the horizontal stabilizer providing the balancing effort."
+    },
+    {
+        "question_number": 17,
+        "question": "What is the name of the method used to determine the Center of Gravity (CG) by using weight, arm, and moment calculations?",
+        "options": {
+            "A": "The graphical method.",
+            "B": "The computational method.",
+            "C": "The weighing method."
+        },
+        "correct_answer": "B",
+        "explanation": "The computational method is the mathematical process of determining CG by calculating the moment for each item (weight x arm) and then dividing the total moment by the total weight."
+    },
+    {
+        "question_number": 18,
+        "question": "How is the Center of Gravity (CG) arm of an aircraft calculated?",
+        "options": {
+            "A": "Total Weight / Total Moment",
+            "B": "Total Moment / Total Weight",
+            "C": "Total Moment x Total Weight"
+        },
+        "correct_answer": "B",
+        "explanation": "The Center of Gravity (CG) arm is found by dividing the aircraft's total moment (the sum of all individual moments) by its total weight."
+    },
+    {
+        "question_number": 19,
+        "question": "When revising a weight and balance computation, how is the removal of an item from the aircraft accounted for?",
+        "options": {
+            "A": "It is ignored in the new calculation.",
+            "B": "It is treated as a negative weight and a negative moment.",
+            "C": "The weight is subtracted, but the moment is added."
+        },
+        "correct_answer": "B",
+        "explanation": "To calculate a new CG after removing an item, both its weight and its calculated moment are subtracted (treated as negative values) from the previous totals."
+    },
+    {
+        "question_number": 20,
+        "question": "What is the definition of 'service ceiling'?",
+        "options": {
+            "A": "The maximum altitude the aircraft is certified to fly at.",
+            "B": "The highest altitude at which the aircraft can maintain a steady rate of climb of 100 feet per minute.",
+            "C": "The altitude where the rate of climb drops to zero."
+        },
+        "correct_answer": "B",
+        "explanation": "Service ceiling is a performance metric defined as the maximum density altitude where the best rate-of-climb airspeed will produce a 100 feet-per-minute climb."
+    },
+    {
+        "question_number": 21,
+        "question": "What is the term for removable weights, such as lead shot or sandbags, used to adjust the aircraft's balance for a specific flight?",
+        "options": {
+            "A": "Permanent ballast.",
+            "B": "Temporary ballast.",
+            "C": "Tare weight."
+        },
+        "correct_answer": "B",
+        "explanation": "Temporary ballast consists of items that can be added or removed to bring the aircraft's CG within its allowable limits for a specific flight condition."
+    },
+    {
+        "question_number": 22,
+        "question": "What is a common method used to shift an aircraft's Center of Gravity (CG) to be within limits?",
+        "options": {
+            "A": "Altering the amount of fuel in the main tanks.",
+            "B": "Changing the location of passengers or cargo.",
+            "C": "Adjusting the flight control trim tabs."
+        },
+        "correct_answer": "B",
+        "explanation": "Shifting the location of variable loads like passengers and cargo is a primary and effective method for adjusting the aircraft's CG before flight to ensure it is within the safe operating envelope."
+    },
+    {
+        "question_number": 23,
+        "question": "What is a fundamental rule regarding an aircraft's total weight for flight?",
+        "options": {
+            "A": "The total weight must be less than the maximum landing weight.",
+            "B": "The total weight must not be greater than the maximum allowable weight for the flight condition.",
+            "C": "The total weight can exceed the maximum as long as the CG is within limits."
+        },
+        "correct_answer": "B",
+        "explanation": "For safety and structural integrity, an aircraft's total weight (takeoff, landing, etc.) must never exceed the maximum weight limits specified by the manufacturer for those phases of flight."
+    },
+    {
+        "question_number": 24,
+        "question": "How is longitudinal stability typically maintained in a conventional aircraft design?",
+        "options": {
+            "A": "By placing the Center of Gravity (CG) directly on the Center of Pressure (CP).",
+            "B": "By placing the Center of Gravity (CG) slightly ahead of the Center of Pressure (CP).",
+            "C": "By placing the Center of Gravity (CG) slightly aft of the Center of Pressure (CP)."
+        },
+        "correct_answer": "B",
+        "explanation": "Positioning the CG forward of the CP (or center of lift) creates a natural nose-down tendency that is counteracted by a tail-down force from the horizontal stabilizer. This configuration provides positive longitudinal stability."
+    },
+    {
+        "question_number": 25,
+        "question": "What is a primary purpose of performing a weight and balance calculation before a flight?",
+        "options": {
+            "A": "To calculate fuel burn for the trip.",
+            "B": "To determine the required takeoff distance.",
+            "C": "To ensure the aircraft's Center of Gravity is within its allowable limits."
+        },
+        "correct_answer": "C",
+        "explanation": "The primary purpose of a pre-flight weight and balance calculation is to verify that the aircraft's total weight and the location of its Center of Gravity (CG) are both within the certified limits for safe operation."
+    }
+]

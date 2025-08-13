@@ -5,8 +5,26 @@
 require_once 'config.php';
 require_once 'includes/db_connect.php';
 require_once 'includes/ajax_handlers.php';
+require_once 'admin/includes/functions.php'; // Add this line
+
+// Start user tracking
+if (!isset($_SESSION['user_id'])) {
+    $_SESSION['user_id'] = session_id();
+}
+
+$pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+updateUserActivity(
+    $_SESSION['user_id'],
+    $_SERVER['REMOTE_ADDR'],
+    $_SERVER['HTTP_USER_AGENT'],
+    $_SESSION['selected_course_id'] ?? null
+);
+// End user tracking
 
 // 2. Route AJAX Requests
+// ... (rest of the file is the same)
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') {
     $conn = getDBConnection();
     handle_ajax_request($conn);
@@ -64,10 +82,20 @@ if (isset($_SESSION['questions']) && !empty($_SESSION['questions']) && isset($_S
         case 'study_plans':
             include 'templates/study_plans.php';
             break;
+        case 'study_exam_list':
+            include 'templates/study_exam_list.php';
+            break;
+        case 'study_quiz':
+            include 'templates/study_quiz.php';
+            break;
         case 'movie':
             include 'movie_ui.php'; // Changed from templates/study_plans.php
             break;
+        case 'reported_questions':
+            include 'templates/reported_questions.php';
+            break;
         case 'home':
+
         default:
             include 'templates/course_selection.php';
             break;

@@ -1,0 +1,816 @@
+[
+  {
+    "question_number": 1,
+    "question": "The basic name for an engine that produces mechanical energy by changing chemical energy in the fuel into heat is a/an",
+    "options": {
+      "a": "steam engine",
+      "b": "heat engine",
+      "c": "electric motor"
+    },
+    "correct_answer": "b",
+    "explanation": "A heat engine converts chemical energy in fuel into heat, which is then transformed into mechanical energy."
+  },
+  {
+    "question_number": 2,
+    "question": "What are the two types of heat engines?",
+    "options": {
+      "a": "External and internal combustion engine",
+      "b": "Diesel and gasoline engine",
+      "c": "Rotary and reciprocating engine"
+    },
+    "correct_answer": "a",
+    "explanation": "Heat engines are classified into external combustion engines (e.g., steam engines) and internal combustion engines (e.g., gas turbines, reciprocating engines)."
+  },
+  {
+    "question_number": 3,
+    "question": "Two types of internal combustion engines used to power modern aircraft are:",
+    "options": {
+      "a": "Steam and diesel engines",
+      "b": "Reciprocating engines and gas turbine engines",
+      "c": "Rotary and jet engines"
+    },
+    "correct_answer": "b",
+    "explanation": "Modern aircraft commonly use reciprocating engines and gas turbine engines as internal combustion engines for propulsion."
+  },
+  {
+    "question_number": 4,
+    "question": "Aircraft turbine engines are used to produce",
+    "options": {
+      "a": "lift",
+      "b": "thrust",
+      "c": "torque"
+    },
+    "correct_answer": "b",
+    "explanation": "Aircraft turbine engines generate thrust to propel the aircraft forward."
+  },
+  {
+    "question_number": 5,
+    "question": "Two types of thrust-producing aircraft turbine engines are:",
+    "options": {
+      "a": "Turboprop and turboshaft",
+      "b": "Aerodynamic action and jet reaction",
+      "c": "Turbojet and reciprocating"
+    },
+    "correct_answer": "b",
+    "explanation": "Thrust-producing turbine engines operate through aerodynamic action (e.g., turbojet) and jet reaction (e.g., turbofan)."
+  },
+  {
+    "question_number": 6,
+    "question": "The pressure of moving gas is a measure of its",
+    "options": {
+      "a": "potential energy",
+      "b": "kinetic energy",
+      "c": "thermal energy"
+    },
+    "correct_answer": "b",
+    "explanation": "The pressure of moving gas reflects its kinetic energy, which is related to its velocity."
+  },
+  {
+    "question_number": 7,
+    "question": "The Brayton thermodynamic cycle is the",
+    "options": {
+      "a": "constant volume cycle",
+      "b": "constant pressure cycle",
+      "c": "constant temperature cycle"
+    },
+    "correct_answer": "b",
+    "explanation": "The Brayton cycle, used in gas turbines, operates at constant pressure during heat addition and rejection."
+  },
+  {
+    "question_number": 8,
+    "question": "When air flows through a converging nozzle at a subsonic speed, its velocity will ____ and its pressure will ____.",
+    "options": {
+      "a": "increase, increase",
+      "b": "increase, decrease",
+      "c": "decrease, increase"
+    },
+    "correct_answer": "b",
+    "explanation": "In a converging nozzle at subsonic speeds, air velocity increases while pressure decreases, per the Bernoulli principle."
+  },
+  {
+    "question_number": 9,
+    "question": "A pressure of still air is called",
+    "options": {
+      "a": "dynamic pressure",
+      "b": "atmospheric pressure",
+      "c": "static pressure"
+    },
+    "correct_answer": "b",
+    "explanation": "The pressure of still air is referred to as atmospheric pressure, which is the standard term for air at rest."
+  },
+  {
+    "question_number": 10,
+    "question": "The ICAO standard day conditions for sea level temperature and pressure are:",
+    "options": {
+      "a": "15°C, 29.92 inches of mercury",
+      "b": "25°C, 30 inches of mercury",
+      "c": "10°C, 28 inches of mercury"
+    },
+    "correct_answer": "a",
+    "explanation": "ICAO standard day conditions at sea level are 15°C (59°F) and 29.92 inches of mercury."
+  },
+  {
+    "question_number": 11,
+    "question": "A turboprop engine that uses a separate turbine to drive the propeller reduction gearing is called a/an",
+    "options": {
+      "a": "fixed turbine engine",
+      "b": "free turbine engine",
+      "c": "coupled turbine engine"
+    },
+    "correct_answer": "b",
+    "explanation": "A free turbine engine uses a separate turbine to drive the propeller through reduction gearing, independent of the compressor."
+  },
+  {
+    "question_number": 12,
+    "question": "A gas turbine engine used to drive the transmission of a helicopter is called a/an",
+    "options": {
+      "a": "turbojet engine",
+      "b": "turboshaft engine",
+      "c": "turbofan engine"
+    },
+    "correct_answer": "b",
+    "explanation": "A turboshaft engine is designed to produce shaft power to drive a helicopter’s transmission."
+  },
+  {
+    "question_number": 13,
+    "question": "The two sections into which a gas turbine can be divided are",
+    "options": {
+      "a": "intake and exhaust sections",
+      "b": "compressor and turbine sections",
+      "c": "combustion and diffuser sections"
+    },
+    "correct_answer": "b",
+    "explanation": "A gas turbine engine is primarily divided into the compressor section (for air compression) and the turbine section (for power extraction)."
+  },
+  {
+    "question_number": 14,
+    "question": "Inlet ducts for turbine engines may be divided into two classifications according to the speed of the aircraft. These are:",
+    "options": {
+      "a": "Subsonic and supersonic inlet ducts",
+      "b": "Fixed and variable inlet ducts",
+      "c": "Convergent and divergent inlet ducts"
+    },
+    "correct_answer": "a",
+    "explanation": "Inlet ducts are classified as subsonic or supersonic based on the aircraft’s operating speed."
+  },
+  {
+    "question_number": 15,
+    "question": "Supersonic inlet ducts are of the ____ type.",
+    "options": {
+      "a": "convergent",
+      "b": "divergent",
+      "c": "convergent-divergent"
+    },
+    "correct_answer": "c",
+    "explanation": "Supersonic inlet ducts use a convergent-divergent design to manage shock waves and airflow efficiently."
+  },
+  {
+    "question_number": 16,
+    "question": "Energy added to the air by a compressor initially increases the ____ of the air.",
+    "options": {
+      "a": "velocity",
+      "b": "pressure",
+      "c": "temperature"
+    },
+    "correct_answer": "b",
+    "explanation": "A compressor primarily increases the pressure of the air by compressing it, converting kinetic energy into pressure."
+  },
+  {
+    "question_number": 17,
+    "question": "Two types of compressors used in gas turbine engines are",
+    "options": {
+      "a": "axial and centrifugal compressors",
+      "b": "rotary and piston compressors",
+      "c": "vane and gear compressors"
+    },
+    "correct_answer": "a",
+    "explanation": "Gas turbine engines commonly use axial and centrifugal compressors to compress incoming air."
+  },
+  {
+    "question_number": 18,
+    "question": "The three components of a centrifugal compressor are:",
+    "options": {
+      "a": "Inlet, impeller, diffuser",
+      "b": "Stator, rotor, nozzle",
+      "c": "Blades, shaft, housing"
+    },
+    "correct_answer": "a",
+    "explanation": "A centrifugal compressor consists of an inlet (air entry), impeller (accelerates air), and diffuser (converts velocity to pressure)."
+  },
+  {
+    "question_number": 19,
+    "question": "The ducts in the diffuser are ____.",
+    "options": {
+      "a": "convergent",
+      "b": "divergent",
+      "c": "parallel"
+    },
+    "correct_answer": "b",
+    "explanation": "Diffuser ducts are divergent to slow down the air and convert its velocity into pressure."
+  },
+  {
+    "question_number": 20,
+    "question": "The stators used with an axial-flow compressor cause the air to",
+    "options": {
+      "a": "speed up",
+      "b": "slow down",
+      "c": "remain constant"
+    },
+    "correct_answer": "b",
+    "explanation": "Stators in an axial-flow compressor slow down the air to increase pressure and direct it to the next stage."
+  },
+  {
+    "question_number": 21,
+    "question": "The rearmost compressor in a dual-spool engine is the",
+    "options": {
+      "a": "low-pressure compressor",
+      "b": "high-pressure compressor",
+      "c": "intermediate-pressure compressor"
+    },
+    "correct_answer": "b",
+    "explanation": "In a dual-spool engine, the rearmost compressor is the high-pressure compressor, also called N2."
+  },
+  {
+    "question_number": 22,
+    "question": "Approximately what part of the air that flows into the combustion section is actually used in the combustion process?",
+    "options": {
+      "a": "10-15%",
+      "b": "25-30%",
+      "c": "50-60%"
+    },
+    "correct_answer": "b",
+    "explanation": "Typically, 25-30% of the air entering the combustion section is used for combustion, with the rest for cooling and dilution."
+  },
+  {
+    "question_number": 23,
+    "question": "The air that flows through the combustion section but is not used in the combustion process is used for:",
+    "options": {
+      "a": "cooling and dilution",
+      "b": "increasing velocity",
+      "c": "reducing pressure"
+    },
+    "correct_answer": "a",
+    "explanation": "Non-combustion air is used for cooling engine components and diluting combustion gases to control temperatures."
+  },
+  {
+    "question_number": 24,
+    "question": "What are the three types of combustors used in gas turbine engines?",
+    "options": {
+      "a": "Can, annular, reverse flow",
+      "b": "Tubular, radial, axial",
+      "c": "Single, dual, multi-stage"
+    },
+    "correct_answer": "a",
+    "explanation": "Gas turbine engines use can, annular, and reverse flow combustors for different design requirements."
+  },
+  {
+    "question_number": 25,
+    "question": "The air used in the combustion process is called",
+    "options": {
+      "a": "primary air",
+      "b": "secondary air",
+      "c": "bypass air"
+    },
+    "correct_answer": "a",
+    "explanation": "Primary air is used directly in the combustion process to mix with fuel and sustain burning."
+  },
+  {
+    "question_number": 26,
+    "question": "How many igniters are used to ignite the fuel-air mixture in a gas turbine engine?",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three"
+    },
+    "correct_answer": "b",
+    "explanation": "Most gas turbine engines use two igniters for reliable ignition of the fuel-air mixture."
+  },
+  {
+    "question_number": 27,
+    "question": "When the length of an engine must be kept as short as possible, a/an ____ combustor can be used.",
+    "options": {
+      "a": "can combustor",
+      "b": "annular combustor",
+      "c": "reverse flow combustor"
+    },
+    "correct_answer": "b",
+    "explanation": "Annular combustors are compact and help reduce engine length compared to can or reverse flow designs."
+  },
+  {
+    "question_number": 28,
+    "question": "The type of turbine used in gas turbine engines is the",
+    "options": {
+      "a": "radial-inflow type",
+      "b": "axial type",
+      "c": "centrifugal type"
+    },
+    "correct_answer": "b",
+    "explanation": "Gas turbine engines typically use axial turbines for efficient power extraction from the gas flow."
+  },
+  {
+    "question_number": 29,
+    "question": "Turbine engines carry a ____ quantity of oil than reciprocating engines.",
+    "options": {
+      "a": "larger",
+      "b": "smaller",
+      "c": "equal"
+    },
+    "correct_answer": "b",
+    "explanation": "Turbine engines require less oil due to their design and lubrication systems compared to reciprocating engines."
+  },
+  {
+    "question_number": 30,
+    "question": "Most of the heat absorbed by oil in a turbine engine lubricating system comes from",
+    "options": {
+      "a": "combustion chamber",
+      "b": "frictional surfaces and bearings",
+      "c": "exhaust gases"
+    },
+    "correct_answer": "b",
+    "explanation": "Frictional surfaces and bearings generate significant heat, which is absorbed by the oil in the lubrication system."
+  },
+  {
+    "question_number": 31,
+    "question": "Most turbine engine oils have a ____ base.",
+    "options": {
+      "a": "mineral",
+      "b": "synthetic",
+      "c": "vegetable"
+    },
+    "correct_answer": "b",
+    "explanation": "Modern turbine engine oils are synthetic to withstand high temperatures and stresses."
+  },
+  {
+    "question_number": 32,
+    "question": "The most popular type of lubrication system used on modern gas turbine engines is the",
+    "options": {
+      "a": "wet-sump system",
+      "b": "dry-sump system",
+      "c": "splash system"
+    },
+    "correct_answer": "b",
+    "explanation": "Dry-sump systems are preferred in turbine engines for efficient oil management and reduced weight."
+  },
+  {
+    "question_number": 33,
+    "question": "In a hot-tank, dry-sump lubrication system, the oil cooler is located in the ____ subsystem.",
+    "options": {
+      "a": "pressure",
+      "b": "scavenger",
+      "c": "circulation"
+    },
+    "correct_answer": "a",
+    "explanation": "The oil cooler in a hot-tank, dry-sump system is located in the pressure subsystem to cool oil before distribution."
+  },
+  {
+    "question_number": 34,
+    "question": "If the oil filter should clog, the ____ valve will unseat and allow unfiltered oil to flow through the system.",
+    "options": {
+      "a": "check",
+      "b": "bypass",
+      "c": "relief"
+    },
+    "correct_answer": "b",
+    "explanation": "A bypass valve allows unfiltered oil to flow if the filter clogs, ensuring continuous lubrication."
+  },
+  {
+    "question_number": 35,
+    "question": "What are the three basic subsystems of a turbine engine lubrication system?",
+    "options": {
+      "a": "Oil supply, cooling, filtration",
+      "b": "Oil pump, reservoir, radiator",
+      "c": "Oil injector, filter, cooler"
+    },
+    "correct_answer": "a",
+    "explanation": "The lubrication system includes oil supply, cooling, and filtration subsystems to maintain engine performance."
+  },
+  {
+    "question_number": 36,
+    "question": "Two types of bearings used to support the turbine/compressor shaft in a turbine engine are:",
+    "options": {
+      "a": "Sleeve and thrust bearings",
+      "b": "Ball and roller bearings",
+      "c": "Plain and needle bearings"
+    },
+    "correct_answer": "b",
+    "explanation": "Ball and roller bearings are commonly used to support the high-speed turbine/compressor shaft."
+  },
+  {
+    "question_number": 37,
+    "question": "Turbine engine main bearings are lubricated by oil sprayed out through a",
+    "options": {
+      "a": "nozzle",
+      "b": "wick",
+      "c": "drip system"
+    },
+    "correct_answer": "a",
+    "explanation": "Oil is sprayed through a nozzle to lubricate main bearings in turbine engines."
+  },
+  {
+    "question_number": 38,
+    "question": "The air returned to the oil tank with the scavenged oil is used to",
+    "options": {
+      "a": "cool the oil",
+      "b": "maintain proper pressure levels within the oil tank",
+      "c": "filter the oil"
+    },
+    "correct_answer": "b",
+    "explanation": "Air returned with scavenged oil helps maintain proper pressure in the oil tank."
+  },
+  {
+    "question_number": 39,
+    "question": "The two most generally used types of oil pressure pumps are:",
+    "options": {
+      "a": "Gear type and gerotor type",
+      "b": "Vane type and piston type",
+      "c": "Centrifugal and diaphragm type"
+    },
+    "correct_answer": "a",
+    "explanation": "Gear and gerotor pumps are commonly used for their reliability in turbine engine oil systems."
+  },
+  {
+    "question_number": 40,
+    "question": "Spur-gear, gerotor, and vane-type pumps are all ____ displacement pumps.",
+    "options": {
+      "a": "positive",
+      "b": "variable",
+      "c": "negative"
+    },
+    "correct_answer": "a",
+    "explanation": "These pump types are positive displacement, delivering a fixed volume of oil per cycle."
+  },
+  {
+    "question_number": 41,
+    "question": "An oil pressure relief valve is installed in ____ with the pump.",
+    "options": {
+      "a": "series",
+      "b": "parallel",
+      "c": "sequence"
+    },
+    "correct_answer": "b",
+    "explanation": "The oil pressure relief valve is installed in parallel to regulate pressure and prevent system damage."
+  },
+  {
+    "question_number": 42,
+    "question": "The effectiveness of an oil filter is measured in terms of its",
+    "options": {
+      "a": "flow rate",
+      "b": "filtration efficiency",
+      "c": "pressure drop"
+    },
+    "correct_answer": "b",
+    "explanation": "Filtration efficiency measures how effectively an oil filter removes contaminants."
+  },
+  {
+    "question_number": 43,
+    "question": "Two types of oil coolers used on a turbine engine are:",
+    "options": {
+      "a": "Air cooler and liquid cooler",
+      "b": "Plate and tube cooler",
+      "c": "Evaporative and radiative cooler"
+    },
+    "correct_answer": "a",
+    "explanation": "Turbine engines use air and liquid coolers to manage oil temperature."
+  },
+  {
+    "question_number": 44,
+    "question": "Two sources of heat used to prevent the formation of ice crystals in jet fuel are:",
+    "options": {
+      "a": "Engine bleed air and electric fuel tank heaters",
+      "b": "Exhaust gases and hydraulic fluid",
+      "c": "Compressor air and oil coolers"
+    },
+    "correct_answer": "a",
+    "explanation": "Engine bleed air and electric heaters are used to prevent ice formation in jet fuel."
+  },
+  {
+    "question_number": 45,
+    "question": "If the fuel filter should clog, fuel will flow to the engine through the ____ valve.",
+    "options": {
+      "a": "check",
+      "b": "bypass",
+      "c": "relief"
+    },
+    "correct_answer": "b",
+    "explanation": "A bypass valve allows fuel to flow to the engine if the fuel filter clogs."
+  },
+  {
+    "question_number": 46,
+    "question": "The pressure produced by an engine-driven fuel pump is maintained by a/an",
+    "options": {
+      "a": "accessories",
+      "b": "regulator",
+      "c": "bypass valve"
+    },
+    "correct_answer": "b",
+    "explanation": "A regulator maintains the pressure produced by the engine-driven fuel pump."
+  },
+  {
+    "question_number": 47,
+    "question": "Two basic types of fuel nozzles used in turbine engines are:",
+    "options": {
+      "a": "Simplex and duplex",
+      "b": "Primary and secondary",
+      "c": "Single and multi-point"
+    },
+    "correct_answer": "a",
+    "explanation": "Simplex and duplex fuel nozzles are used to atomize fuel in turbine engines."
+  },
+  {
+    "question_number": 48,
+    "question": "When an engine equipped with a pressurizing and dump valve is shut down, the fuel in the nozzle manifolds is",
+    "options": {
+      "a": "returned to the fuel system reservoir or fuel tank",
+      "b": "dumped to the atmosphere",
+      "c": "recirculated to the pump"
+    },
+    "correct_answer": "a",
+    "explanation": "The pressurizing and dump valve returns fuel to the reservoir or tank during shutdown to prevent residual pressure."
+  },
+  {
+    "question_number": 49,
+    "question": "Four of the most basic parameters sensed by a turbine engine fuel control are:",
+    "options": {
+      "a": "Engine speed, inlet temperature, pressure ratio, throttle position",
+      "b": "Oil pressure, fuel flow, exhaust temperature, vibration",
+      "c": "Air density, compressor speed, fuel temperature, altitude"
+    },
+    "correct_answer": "a",
+    "explanation": "Fuel control systems monitor engine speed (RPM), inlet temperature (EIT), pressure ratio (EPR), and throttle position."
+  },
+  {
+    "question_number": 50,
+    "question": "When the burner pressure increases too rapidly, the mass airflow through the engine will",
+    "options": {
+      "a": "increase",
+      "b": "decrease",
+      "c": "remain constant"
+    },
+    "correct_answer": "b",
+    "explanation": "Rapid burner pressure increase reduces mass airflow due to backpressure effects."
+  },
+  {
+    "question_number": 51,
+    "question": "Two types of electronic engine controls are:",
+    "options": {
+      "a": "FADEC and HMEC",
+      "b": "Analog and digital",
+      "c": "Primary and secondary"
+    },
+    "correct_answer": "a",
+    "explanation": "Full Authority Digital Engine Control (FADEC) and Hydromechanical Electronic Control (HMEC) are common electronic engine controls."
+  },
+  {
+    "question_number": 52,
+    "question": "If the electronic circuitry in a supervisory EEC should fail, control automatically reverts to the",
+    "options": {
+      "a": "manual system",
+      "b": "backup or alternate control system",
+      "c": "hydraulic system"
+    },
+    "correct_answer": "b",
+    "explanation": "A supervisory EEC reverts to a backup or alternate control system in case of failure."
+  },
+  {
+    "question_number": 53,
+    "question": "How many ignitor plugs does a gas turbine engine ignition system have?",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three"
+    },
+    "correct_answer": "b",
+    "explanation": "Gas turbine engines typically have two ignitor plugs for reliable ignition."
+  },
+  {
+    "question_number": 54,
+    "question": "Turbine engine ignition systems are rated according to the energy in the spark in units of",
+    "options": {
+      "a": "watts",
+      "b": "joules",
+      "c": "volts"
+    },
+    "correct_answer": "b",
+    "explanation": "Ignition system spark energy is measured in joules, indicating the strength of the spark."
+  },
+  {
+    "question_number": 55,
+    "question": "In the process of starting a turbine engine, the ignition is turned on ____ the engine has started rotating.",
+    "options": {
+      "a": "before",
+      "b": "after",
+      "c": "simultaneously with"
+    },
+    "correct_answer": "b",
+    "explanation": "Ignition is turned on after the engine starts rotating to ensure proper airflow for combustion."
+  },
+  {
+    "question_number": 56,
+    "question": "In the process of starting a turbine engine, the fuel is turned on ____ the ignition.",
+    "options": {
+      "a": "before",
+      "b": "after",
+      "c": "simultaneously with"
+    },
+    "correct_answer": "b",
+    "explanation": "Fuel is introduced after ignition to prevent fuel pooling and ensure safe combustion."
+  },
+  {
+    "question_number": 57,
+    "question": "In a dual-spool turbine engine, the starter rotates the ____ compressor.",
+    "options": {
+      "a": "low-pressure",
+      "b": "high-pressure",
+      "c": "intermediate-pressure"
+    },
+    "correct_answer": "b",
+    "explanation": "The starter rotates the high-pressure compressor (N2) in a dual-spool engine to initiate airflow."
+  },
+  {
+    "question_number": 58,
+    "question": "An air turbine starter requires a ____ volume of ____-pressure compressed air.",
+    "options": {
+      "a": "large, high",
+      "b": "small, high",
+      "c": "large, low"
+    },
+    "correct_answer": "b",
+    "explanation": "Air turbine starters use a small volume of high-pressure air for efficient engine starting."
+  },
+  {
+    "question_number": 59,
+    "question": "What happens to EGT if air is tapped from the engine compressors for bleed air services?",
+    "options": {
+      "a": "EGT decreases",
+      "b": "EGT increases",
+      "c": "EGT remains constant"
+    },
+    "correct_answer": "b",
+    "explanation": "Tapping air for bleed services reduces combustion air, increasing exhaust gas temperature (EGT)."
+  },
+  {
+    "question_number": 60,
+    "question": "The units used to measure EGT are:",
+    "options": {
+      "a": "Kelvin or Rankine",
+      "b": "Celsius or Fahrenheit",
+      "c": "Joules or Watts"
+    },
+    "correct_answer": "b",
+    "explanation": "Exhaust gas temperature (EGT) is typically measured in degrees Celsius or Fahrenheit."
+  },
+  {
+    "question_number": 61,
+    "question": "The engine pressure ratio indication system senses the:",
+    "options": {
+      "a": "compressor discharge and engine inlet",
+      "b": "turbine inlet and exhaust",
+      "c": "fuel flow and oil pressure"
+    },
+    "correct_answer": "a",
+    "explanation": "The engine pressure ratio (EPR) system measures the ratio between compressor discharge and engine inlet pressures."
+  },
+  {
+    "question_number": 62,
+    "question": "The HP compressor percentage RPM system receives its signal from:",
+    "options": {
+      "a": "the low-pressure compressor shaft",
+      "b": "the high-pressure compressor shaft",
+      "c": "the turbine shaft"
+    },
+    "correct_answer": "b",
+    "explanation": "The HP compressor RPM system monitors the rotational speed of the high-pressure compressor shaft."
+  },
+  {
+    "question_number": 63,
+    "question": "The unit used to measure engine vibration is:",
+    "options": {
+      "a": "hertz (Hz)",
+      "b": "g or micrometers",
+      "c": "newtons"
+    },
+    "correct_answer": "b",
+    "explanation": "Engine vibration is measured in 'g' (acceleration) or micrometers (displacement)."
+  },
+  {
+    "question_number": 64,
+    "question": "Two variables in the angle of attack of a propeller blade are:",
+    "options": {
+      "a": "pitch angle and blade angle",
+      "b": "twist angle and chord angle",
+      "c": "camber and span angle"
+    },
+    "correct_answer": "a",
+    "explanation": "The angle of attack of a propeller blade is influenced by pitch angle and blade angle."
+  },
+  {
+    "question_number": 65,
+    "question": "The curved surface of a propeller blade is the",
+    "options": {
+      "a": "blade back",
+      "b": "blade face",
+      "c": "blade edge"
+    },
+    "correct_answer": "b",
+    "explanation": "The curved, high-pressure side of a propeller blade is called the blade face."
+  },
+  {
+    "question_number": 66,
+    "question": "The pitch angle and the angle of attack of a propeller blade are ____ the same.",
+    "options": {
+      "a": "are",
+      "b": "are not",
+      "c": "sometimes"
+    },
+    "correct_answer": "b",
+    "explanation": "Pitch angle (blade angle relative to the hub) and angle of attack (relative to airflow) are distinct."
+  },
+  {
+    "question_number": 67,
+    "question": "The actual distance a propeller advances in one revolution in the air is the",
+    "options": {
+      "a": "geometric pitch",
+      "b": "effective pitch",
+      "c": "theoretical pitch"
+    },
+    "correct_answer": "b",
+    "explanation": "Effective pitch is the actual distance a propeller advances in one revolution, accounting for slip."
+  },
+  {
+    "question_number": 68,
+    "question": "The force that tries to bend a propeller blade forward is the",
+    "options": {
+      "a": "thrust force",
+      "b": "centrifugal bending force",
+      "c": "aerodynamic force"
+    },
+    "correct_answer": "b",
+    "explanation": "Centrifugal bending force acts to bend propeller blades forward due to rotational forces."
+  },
+  {
+    "question_number": 69,
+    "question": "The most popular type of propeller shaft for both reciprocating and turbine engines is the",
+    "options": {
+      "a": "flange shaft",
+      "b": "spline shaft",
+      "c": "tapered shaft"
+    },
+    "correct_answer": "b",
+    "explanation": "Spline shafts are widely used for their strength and ease of connection in propeller systems."
+  },
+  {
+    "question_number": 70,
+    "question": "The two types of propellers found on almost all modern airplanes are:",
+    "options": {
+      "a": "Fixed pitch and constant speed",
+      "b": "Variable pitch and folding",
+      "c": "Reversible and feathering"
+    },
+    "correct_answer": "a",
+    "explanation": "Fixed pitch and constant speed propellers are the most common types on modern airplanes."
+  },
+  {
+    "question_number": 71,
+    "question": "Two types of ice control systems for propellers are:",
+    "options": {
+      "a": "Heating and cooling systems",
+      "b": "Deicing and anti-icing systems",
+      "c": "Pneumatic and hydraulic systems"
+    },
+    "correct_answer": "b",
+    "explanation": "Deicing systems remove ice, while anti-icing systems prevent ice formation on propeller blades."
+  },
+  {
+    "question_number": 72,
+    "question": "The two things supplied by an APU are:",
+    "options": {
+      "a": "Hydraulic and pneumatic power",
+      "b": "Electrical and pneumatic power",
+      "c": "Fuel and electrical power"
+    },
+    "correct_answer": "b",
+    "explanation": "An APU provides electrical power for aircraft systems and pneumatic power for engine starting and air conditioning."
+  },
+  {
+    "question_number": 73,
+    "question": "The electrical generator installed on an APU is generally ____ the generators on the engines.",
+    "options": {
+      "a": "identical to",
+      "b": "different from",
+      "c": "larger than"
+    },
+    "correct_answer": "a",
+    "explanation": "APU generators are typically identical to engine generators for compatibility and maintenance ease."
+  },
+  {
+    "question_number": 74,
+    "question": "Fuel for the APU comes from",
+    "options": {
+      "a": "a separate APU fuel tank",
+      "b": "the aircraft fuel tanks",
+      "c": "an external fuel source"
+    },
+    "correct_answer": "b",
+    "explanation": "APUs typically draw fuel from the aircraft’s main fuel tanks for simplicity and efficiency."
+  }
+]

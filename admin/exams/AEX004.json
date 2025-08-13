@@ -1,0 +1,266 @@
+[
+    {
+        "question_number": 1,
+        "question": "A SCR is a ______ switch. ",
+        "options": {
+            "a": "Bidirectional ",
+            "b": "Three directional ",
+            "c": "Unidirectional "
+        },
+        "correct_answer": "c",
+        "explanation": "A Silicon Controlled Rectifier (SCR) is a unidirectional device, meaning it allows significant current to flow in only one direction, from the anode to the cathode, once it has been triggered on."
+    },
+    {
+        "question_number": 2,
+        "question": "The output of an OR gate with three inputs, A, B, and C, is LOW when... ",
+        "options": {
+            "a": "A=0, B=1, C=1 ",
+            "b": "A=0, B=0, C=0 ",
+            "c": "A=0, B=1, C=1 "
+        },
+        "correct_answer": "b",
+        "explanation": "The output of an OR gate is HIGH if any of its inputs are HIGH. The only condition that results in a LOW output is when all inputs are simultaneously LOW (0)."
+    },
+    {
+        "question_number": 3,
+        "question": "The BCD number 10001001 is equivalent to the decimal number... ",
+        "options": {
+            "a": "137 ",
+            "b": "141 ",
+            "c": "89 "
+        },
+        "correct_answer": "c",
+        "explanation": "In Binary Coded Decimal (BCD), each decimal digit is represented by a four-bit binary number. The number 10001001 is split into two 4-bit groups: 1000 and 1001. The binary `1000` represents the decimal digit `8`, and the binary `1001` represents the decimal digit `9`. Together, they form the decimal number 89."
+    },
+    {
+        "question_number": 4,
+        "question": "When transporting ESDs it is important to... ",
+        "options": {
+            "a": "Place them in an insulated plastic package ",
+            "b": "Remove them and place them in a metal foil ",
+            "c": "Keep them in a conductive bag "
+        },
+        "correct_answer": "c",
+        "explanation": "Electrostatic Sensitive Devices (ESDs) must be protected from static discharge. A conductive or anti-static bag creates a Faraday cage effect, shielding the components inside from external electrostatic fields and preventing static buildup."
+    },
+    {
+        "question_number": 5,
+        "question": "The depletion layer width of junction... ",
+        "options": {
+            "a": "is increased under reverse bias ",
+            "b": "is independent of the voltage applied ",
+            "c": "decreases with light doping "
+        },
+        "correct_answer": "a",
+        "explanation": "When a reverse bias voltage is applied to a PN junction, it pulls the majority charge carriers away from the junction, thereby widening the depletion region."
+    },
+    {
+        "question_number": 6,
+        "question": "A semiconductor is formed by ______ bonds. ",
+        "options": {
+            "a": "Co-ordinate ",
+            "b": "Covalent ",
+            "c": "Electrovalent "
+        },
+        "correct_answer": "b",
+        "explanation": "In semiconductor materials like silicon and germanium, atoms share their valence electrons with neighboring atoms to form stable covalent bonds, which gives the material its crystal structure and semiconductor properties."
+    },
+    {
+        "question_number": 7,
+        "question": "The binary number 11000111 is equivalent to the hexadecimal number... ",
+        "options": {
+            "a": "113 ",
+            "b": "93 ",
+            "c": "C7 "
+        },
+        "correct_answer": "c",
+        "explanation": "To convert binary to hexadecimal, group the binary digits into sets of four from right to left. `0111` is `7` in hexadecimal. `1100` is `12` in decimal, which is `C` in hexadecimal. Combining these gives C7."
+    },
+    {
+        "question_number": 8,
+        "question": "What does the small bubble on the output of the NAND gate logic symbol mean? ",
+        "options": {
+            "a": "Open collector output ",
+            "b": "the output is inverted ",
+            "c": "tristate "
+        },
+        "correct_answer": "b",
+        "explanation": "In digital logic diagrams, a small circle or 'bubble' on an input or output line represents inversion (a NOT operation). A NAND gate is an AND gate followed by an inverter, and the bubble signifies this inversion."
+    },
+    {
+        "question_number": 9,
+        "question": "when a pentavalent impurity is added to a pure semiconductor, it becomes... ",
+        "options": {
+            "a": "An intrinsic semiconductor ",
+            "b": "P type semiconductor ",
+            "c": "N type semiconductor "
+        },
+        "correct_answer": "c",
+        "explanation": "Adding a pentavalent (5 valence electrons) impurity to a semiconductor (like silicon with 4 valence electrons) introduces extra electrons that are free to move. Since electrons are negative charge carriers, this process, known as doping, creates an N-type semiconductor."
+    },
+    {
+        "question_number": 10,
+        "question": "Which of the following is interactive aircraft computer? ",
+        "options": {
+            "a": "IRS computer ",
+            "b": "Air data computer ",
+            "c": "FMC "
+        },
+        "correct_answer": "c",
+        "explanation": "The Flight Management Computer (FMC) is the primary interface for pilots to input and manage the flight plan, performance, and navigation. This makes it a highly interactive system compared to the IRS (Inertial Reference System) and Air Data Computer, which are primarily data-sensing and-providing units."
+    },
+    {
+        "question_number": 11,
+        "question": "Output will be a LOW for any case when one or more inputs are zero for a(n)... ",
+        "options": {
+            "a": "NOT gate ",
+            "b": "AND gate ",
+            "c": "OR gate "
+        },
+        "correct_answer": "b",
+        "explanation": "For an AND gate, the output is HIGH (1) only if all of its inputs are HIGH. If any input is LOW (0), the output is guaranteed to be LOW."
+    },
+    {
+        "question_number": 12,
+        "question": "Silicon controlled rectifier (SCR) is primarily used as... ",
+        "options": {
+            "a": "a low power switch ",
+            "b": "a high power switch ",
+            "c": "as an amplifier "
+        },
+        "correct_answer": "b",
+        "explanation": "SCRs are known for their ability to handle high voltages and large currents with a small trigger current. This makes them ideal for use in high-power switching applications, such as motor control and industrial power regulation."
+    },
+    {
+        "question_number": 13,
+        "question": "A hole is represented with ______ polarity? ",
+        "options": {
+            "a": "+ ",
+            "b": "-",
+            "c": "Neutral"
+        },
+        "correct_answer": "a",
+        "explanation": "In semiconductor physics, a 'hole' denotes the absence of an electron in the valence band. Since an electron has a negative charge, its absence creates a localized net positive charge, and the hole is treated as a positive charge carrier."
+    },
+    {
+        "question_number": 14,
+        "question": "Energy gap of semiconductor materials is... ",
+        "options": {
+            "a": "equal to that of metals ",
+            "b": "smaller than that of insulators ",
+            "c": "Larger than that of insulators "
+        },
+        "correct_answer": "b",
+        "explanation": "Materials are classified by their energy band gap. Conductors (metals) have overlapping bands (no gap), insulators have a very large gap, and semiconductors have a relatively small gap that is significantly smaller than that of insulators, allowing for conditional conductivity."
+    },
+    {
+        "question_number": 15,
+        "question": "The ______ is designed to directly operate the computer hardware. ",
+        "options": {
+            "a": "Operating software ",
+            "b": "Application software ",
+            "c": "User interface "
+        },
+        "correct_answer": "a",
+        "explanation": "Operating software, or the Operating System (OS), is the core software that manages all computer hardware, and provides a platform for application software to run."
+    },
+    {
+        "question_number": 16,
+        "question": "An SCR has three terminals viz. ",
+        "options": {
+            "a": "anode, cathode, drain ",
+            "b": "cathode, anode, gate ",
+            "c": "anode, cathode, grid "
+        },
+        "correct_answer": "b",
+        "explanation": "A Silicon Controlled Rectifier (SCR) is a three-terminal device consisting of an anode, a cathode, and a gate, which is the control terminal."
+    },
+    {
+        "question_number": 17,
+        "question": "______ is the physical entity of the computer and consists of all electronic components and devices. ",
+        "options": {
+            "a": "Hardware ",
+            "b": "Software ",
+            "c": "Programing "
+        },
+        "correct_answer": "a",
+        "explanation": "Hardware refers to the physical, tangible components of a computer system, including all electronic parts, circuits, and peripherals."
+    },
+    {
+        "question_number": 18,
+        "question": "which of the following has conduction band is furthest to the valence band? ",
+        "options": {
+            "a": "conductor ",
+            "b": "Semiconductor ",
+            "c": "Insulator "
+        },
+        "correct_answer": "c",
+        "explanation": "The distance between the valence and conduction bands is the energy band gap. Insulators have the largest band gap, meaning the conduction band is furthest from the valence band, which is why they are poor conductors of electricity."
+    },
+    {
+        "question_number": 19,
+        "question": "How many bytes does 4 kilobytes represent? ",
+        "options": {
+            "a": "512 ",
+            "b": "1024 ",
+            "c": "4096 "
+        },
+        "correct_answer": "c",
+        "explanation": "In computing, one kilobyte (KB) is equal to 1024 bytes (2^10). Therefore, 4 kilobytes is 4 * 1024 = 4096 bytes."
+    },
+    {
+        "question_number": 20,
+        "question": "Applying an external voltage supply across a p-n junction will... ",
+        "options": {
+            "a": "increase or decrease the potential barrier ",
+            "b": "Increase the potential barrier ",
+            "c": "will decrease the potential barrier "
+        },
+        "correct_answer": "a",
+        "explanation": "The effect of an external voltage depends on its polarity. A forward bias (positive to p-type, negative to n-type) will decrease the potential barrier, allowing current to flow. A reverse bias will increase the potential barrier, blocking current."
+    },
+    {
+        "question_number": 21,
+        "question": "Which of the following is a current amplifier? ",
+        "options": {
+            "a": "thermistor ",
+            "b": "FET ",
+            "c": "BJT transistor "
+        },
+        "correct_answer": "c",
+        "explanation": "A Bipolar Junction Transistor (BJT) is a current-controlled device. A small current at its base terminal controls a larger current flow between the collector and emitter, thus acting as a current amplifier. A FET is voltage-controlled and a thermistor is a resistor."
+    },
+    {
+        "question_number": 22,
+        "question": "Which of the following will provide no ground reference? ",
+        "options": {
+            "a": "Metal mat ",
+            "b": "Insulating mat ",
+            "c": "Conducting mat "
+        },
+        "correct_answer": "b",
+        "explanation": "An insulating mat is made from a non-conductive material designed to prevent the flow of electricity. Its purpose is to isolate a user or equipment from ground, thus providing no ground reference. Conductive and metal mats are used specifically to create a ground connection."
+    },
+    {
+        "question_number": 23,
+        "question": "A reverse bias PN junction has... ",
+        "options": {
+            "a": "Almost no current ",
+            "b": "Very narrow depletion layer ",
+            "c": "Very low resistance "
+        },
+        "correct_answer": "a",
+        "explanation": "A reverse-biased PN junction features a wide depletion layer and very high resistance. This configuration blocks the flow of majority carriers, allowing only a very small leakage current (almost no current) to pass."
+    },
+    {
+        "question_number": 24,
+        "question": "If a 3-input NOR gate has eight input possibilities, how many of those possibilities will result in a HIGH output? ",
+        "options": {
+            "a": "7 ",
+            "b": "1 ",
+            "c": "8 "
+        },
+        "correct_answer": "b",
+        "explanation": "A NOR gate's output is HIGH only when all of its inputs are LOW. For a 3-input gate, there are 2^3 = 8 possible input combinations. The only combination where all inputs are LOW is (0, 0, 0). Therefore, only one possibility results in a HIGH output."
+    }
+]

@@ -1,0 +1,563 @@
+[
+    {
+        "question_number": 1,
+        "question": "What terminal is used to trigger a Silicon-Controlled Rectifier (SCR) into its 'on' state?",
+        "options": {
+            "a": "Anode",
+            "b": "Cathode",
+            "c": "Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "The Gate is the control terminal of an SCR. Applying a small positive voltage pulse to the gate provides the trigger current needed to switch the device from a non-conducting (off) state to a conducting (on) state between the anode and cathode."
+    },
+    {
+        "question_number": 2,
+        "question": "A thyristor is a semiconductor device that is characterized by having how many P-N junctions?",
+        "options": {
+            "a": "Two junctions",
+            "b": "Three junctions",
+            "c": "Four junctions"
+        },
+        "correct_answer": "b",
+        "explanation": "A thyristor has a four-layer (P-N-P-N) structure, which results in the formation of three P-N junctions in series. These junctions control the switching characteristic of the device."
+    },
+    {
+        "question_number": 3,
+        "question": "A photoresistor is a component whose resistance changes with light intensity. What is its common acronym?",
+        "options": {
+            "a": "LED (Light Emitting Diode)",
+            "b": "LDR (Light Dependent Resistor)",
+            "c": "VDR (Voltage Dependent Resistor)"
+        },
+        "correct_answer": "b",
+        "explanation": "LDR, or Light Dependent Resistor, is the common name for a photoresistor. Its resistance decreases as the intensity of incident light increases."
+    },
+    {
+        "question_number": 4,
+        "question": "What is the primary function of a photodiode in an electronic circuit?",
+        "options": {
+            "a": "To emit light when forward biased",
+            "b": "To detect light and convert it into current",
+            "c": "To regulate voltage in reverse bias"
+        },
+        "correct_answer": "b",
+        "explanation": "A photodiode is a semiconductor sensor designed to detect light. When photons strike the diode, they create electron-hole pairs, generating a current (photocurrent) proportional to the light intensity. LEDs emit light."
+    },
+    {
+        "question_number": 5,
+        "question": "In which mode is a BJT operating when both the base-emitter and collector-base junctions are forward-biased?",
+        "options": {
+            "a": "Active mode",
+            "b": "Cut-off mode",
+            "c": "Saturation mode"
+        },
+        "correct_answer": "c",
+        "explanation": "When both junctions of a Bipolar Junction Transistor (BJT) are forward-biased, the transistor enters the saturation region. In this mode, it acts like a closed switch, allowing maximum current to flow."
+    },
+    {
+        "question_number": 6,
+        "question": "In which region of operation must a transistor be biased to work as an effective signal amplifier?",
+        "options": {
+            "a": "Active region",
+            "b": "Saturation region",
+            "c": "Cut-off region"
+        },
+        "correct_answer": "a",
+        "explanation": "For amplification, a transistor must operate in the active region, where the output collector current is directly and linearly proportional to the small input base current. The saturation and cut-off regions are used for switching applications."
+    },
+    {
+        "question_number": 7,
+        "question": "In a P-type semiconductor material, what are the majority charge carriers?",
+        "options": {
+            "a": "Free electrons",
+            "b": "Holes",
+            "c": "Ions"
+        },
+        "correct_answer": "b",
+        "explanation": "P-type semiconductors are created by doping with trivalent impurities, which creates an abundance of 'holes' (the absence of an electron). These holes act as the majority charge carriers, moving through the crystal lattice."
+    },
+    {
+        "question_number": 8,
+        "question": "A Zener diode is specifically designed to provide voltage regulation by operating in which condition?",
+        "options": {
+            "a": "Forward bias",
+            "b": "Reverse breakdown",
+            "c": "Forward breakdown"
+        },
+        "correct_answer": "b",
+        "explanation": "Unlike standard diodes, Zener diodes are engineered to have a precise and stable voltage drop when operated in reverse bias at their breakdown voltage. This characteristic allows them to function as voltage regulators."
+    },
+    {
+        "question_number": 9,
+        "question": "To operate an NPN transistor in the active region, how must its junctions be biased?",
+        "options": {
+            "a": "Emitter-Base reverse biased, Collector-Base forward biased",
+            "b": "Emitter-Base forward biased, Collector-Base reverse biased",
+            "c": "Emitter-Base forward biased, Collector-Base forward biased"
+        },
+        "correct_answer": "b",
+        "explanation": "The 'normal bias condition' for an NPN transistor to act as an amplifier is to forward-bias the emitter-base junction and reverse-bias the collector-base junction. This allows base current to control the flow of collector current."
+    },
+    {
+        "question_number": 10,
+        "question": "An ideal diode that is forward-biased is often modeled as a:",
+        "options": {
+            "a": "Short circuit (zero resistance)",
+            "b": "Open circuit (infinite resistance)",
+            "c": "Fixed resistor"
+        },
+        "correct_answer": "a",
+        "explanation": "In ideal circuit analysis, a forward-biased diode is considered to have zero resistance and zero voltage drop, effectively acting as a closed switch or a short circuit that allows current to pass freely."
+    },
+    {
+        "question_number": 11,
+        "question": "An ideal diode that is reverse-biased is often modeled as a:",
+        "options": {
+            "a": "Short circuit (zero resistance)",
+            "b": "Open circuit (infinite resistance)",
+            "c": "Capacitor"
+        },
+        "correct_answer": "b",
+        "explanation": "An ideal reverse-biased diode is considered to have infinite resistance, blocking any current from flowing. This behavior is equivalent to an open switch or an open circuit."
+    },
+    {
+        "question_number": 12,
+        "question": "Due to its fast switching capabilities for high-power applications, an SCR is often used as a solid-state alternative to a(n):",
+        "options": {
+            "a": "Fuse",
+            "b": "Electromechanical relay",
+            "c": "Variable resistor"
+        },
+        "correct_answer": "b",
+        "explanation": "SCRs can switch high currents and voltages much faster and more reliably than mechanical relays because they have no moving parts. This makes them suitable replacements in industrial control and power switching applications."
+    },
+    {
+        "question_number": 13,
+        "question": "A Field-Effect Transistor (FET) is a three-terminal device. What are its terminals?",
+        "options": {
+            "a": "Emitter, Base, Collector",
+            "b": "Anode, Cathode, Gate",
+            "c": "Drain, Source, Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "The three terminals of a FET are the Source (where charge carriers enter), the Drain (where they exit), and the Gate (which controls the channel's conductivity between the Source and Drain)."
+    },
+    {
+        "question_number": 14,
+        "question": "Materials that have a very wide 'forbidden energy gap' between their valence and conduction bands are classified as:",
+        "options": {
+            "a": "Conductors",
+            "b": "Semiconductors",
+            "c": "Insulators"
+        },
+        "correct_answer": "c",
+        "explanation": "Insulators are characterized by a large energy gap, which requires a very high amount of energy to excite valence electrons into the conduction band. This is why they do not conduct electricity under normal conditions."
+    },
+    {
+        "question_number": 15,
+        "question": "What are the three terminals of a thyristor, also known as an SCR?",
+        "options": {
+            "a": "Source, Drain, Gate",
+            "b": "Anode, Cathode, Gate",
+            "c": "Base, Emitter, Collector"
+        },
+        "correct_answer": "b",
+        "explanation": "A thyristor (SCR) has three terminals: the Anode and Cathode, between which the main current flows, and the Gate, which is the control terminal used to trigger the device into conduction."
+    },
+    {
+        "question_number": 16,
+        "question": "What is the fundamental characteristic of current flow through a diode?",
+        "options": {
+            "a": "It flows from cathode to anode only",
+            "b": "It flows primarily in one direction",
+            "c": "It is proportional to the reverse voltage"
+        },
+        "correct_answer": "b",
+        "explanation": "A diode is designed to allow conventional current to flow easily from the anode to the cathode (forward bias) while offering very high resistance to current flow in the opposite direction (reverse bias)."
+    },
+    {
+        "question_number": 17,
+        "question": "A MOSFET is a type of FET that is distinguished by its:",
+        "options": {
+            "a": "Insulated gate",
+            "b": "P-N junction gate",
+            "c": "Point-contact gate"
+        },
+        "correct_answer": "a",
+        "explanation": "MOSFET stands for Metal-Oxide-Semiconductor Field-Effect Transistor. Its key feature is a thin layer of silicon dioxide that insulates the gate terminal from the semiconductor channel, resulting in very high input impedance."
+    },
+    {
+        "question_number": 18,
+        "question": "What type of circuit can generate a wide range of output frequencies, all locked to a single stable reference frequency?",
+        "options": {
+            "a": "Astable multivibrator",
+            "b": "Frequency synthesizer",
+            "c": "Harmonic oscillator"
+        },
+        "correct_answer": "b",
+        "explanation": "A frequency synthesizer is a sophisticated electronic circuit that generates a range of frequencies from one or a few reference frequency sources. It is essential in modern communication systems for precise frequency control."
+    },
+    {
+        "question_number": 19,
+        "question": "An inverting summing op-amp has four 2.2 k\u03a9 input resistors and a 2.2 k\u03a9 feedback resistor. If 2V is applied to each input, what is the output voltage?",
+        "options": {
+            "a": "8V",
+            "b": "-2V",
+            "c": "-8V"
+        },
+        "correct_answer": "c",
+        "explanation": "For an inverting summer, Vout = -Rf * (V1/R1 + V2/R2 + V3/R3 + V4/R4). Since all resistors are equal, the gain for the sum is -1. Therefore, Vout = -1 * (2V + 2V + 2V + 2V) = -8V."
+    },
+    {
+        "question_number": 20,
+        "question": "What term describes the direct proportionality and faithfulness of an amplifier's output signal waveform compared to its input signal waveform?",
+        "options": {
+            "a": "Gain",
+            "b": "Bandwidth",
+            "c": "Linearity"
+        },
+        "correct_answer": "c",
+        "explanation": "Linearity is the measure of how well an amplifier reproduces the input signal without adding distortion. A highly linear amplifier produces an output that is a scaled replica of the input."
+    },
+    {
+        "question_number": 21,
+        "question": "In a DC power supply filter, why is an LC (inductor-capacitor) filter generally preferred over an RC (resistor-capacitor) filter?",
+        "options": {
+            "a": "The inductor has a lower DC resistance than the resistor, resulting in less power loss.",
+            "b": "The inductor stores energy from the input ripple, smoothing the output voltage more effectively.",
+            "c": "The combination of inductor and capacitor provides a much better impedance matching to the load resulting in better filtering."
+        },
+        "correct_answer": "b",
+        "explanation": "While an inductor's low DC resistance contributes to less power loss (option a), the primary reason LC filters are preferred is their superior ripple rejection.  The inductor's ability to store energy and release it slowly (option b) significantly reduces voltage fluctuations, producing a smoother DC output than an RC filter. Option C, while somewhat true, isn't as fundamental to understanding the advantage of LC filters as the energy storage capability."
+    },
+    {
+        "question_number": 22,
+        "question": "Which of the following is considered a primary advantage of using an Integrated Circuit (IC)?",
+        "options": {
+            "a": "High power handling",
+            "b": "Ease of repair",
+            "c": "Small size and weight"
+        },
+        "correct_answer": "c",
+        "explanation": "The main driver for the development of ICs was miniaturization. Integrating millions of components onto a single chip results in dramatically smaller, lighter, and more reliable electronic systems."
+    },
+    {
+        "question_number": 23,
+        "question": "What is a significant challenge or disadvantage associated with high-density Integrated Circuits (ICs)?",
+        "options": {
+            "a": "Slow switching speed",
+            "b": "Heat dissipation",
+            "c": "High power consumption at idle"
+        },
+        "correct_answer": "b",
+        "explanation": "Packing millions of transistors into a tiny space generates a substantial amount of heat. Managing this thermal load and preventing the IC from overheating is a major engineering challenge."
+    },
+    {
+        "question_number": 24,
+        "question": "A phase-shift oscillator that relies on a network of resistors and capacitors to generate the required 180-degree phase shift for oscillation is known as an:",
+        "options": {
+            "a": "LC oscillator",
+            "b": "RC oscillator",
+            "c": "Crystal oscillator"
+        },
+        "correct_answer": "b",
+        "explanation": "An RC oscillator uses a feedback network composed of resistors and capacitors (RC network) to provide the necessary phase shift for oscillation to occur. The amplifier itself provides the other 180 degrees of phase shift."
+    },
+    {
+        "question_number": 25,
+        "question": "If a single diode in a full-wave bridge rectifier fails by becoming an open circuit, the output will resemble that of a:",
+        "options": {
+            "a": "Half-wave rectifier",
+            "b": "Voltage doubler",
+            "c": "Clamper circuit"
+        },
+        "correct_answer": "a",
+        "explanation": "With one diode open, the bridge can only conduct during one half-cycle of the AC input. For the other half-cycle, the path is broken. This results in a pulsating DC output with only half of the original AC waveform present, which is the behavior of a half-wave rectifier."
+    },
+    {
+        "question_number": 26,
+        "question": "During the operation of a full-wave bridge rectifier, how many diodes are conducting current at any given instant?",
+        "options": {
+            "a": "One",
+            "b": "Two",
+            "c": "Four"
+        },
+        "correct_answer": "b",
+        "explanation": "In a bridge rectifier, diodes work in pairs. During the positive half-cycle of the AC input, two diodes are forward-biased and conduct. During the negative half-cycle, the other pair of diodes becomes forward-biased and conducts."
+    },
+    {
+        "question_number": 27,
+        "question": "Which power amplifier class is most known for suffering from 'crossover distortion' at the zero-crossing point of the signal?",
+        "options": {
+            "a": "Class A",
+            "b": "Class B",
+            "c": "Class AB"
+        },
+        "correct_answer": "b",
+        "explanation": "Crossover distortion is inherent to Class B push-pull amplifiers. It occurs because there is a small period of time when one transistor has turned off and the other has not yet turned on, creating a 'dead zone' in the output signal near zero volts."
+    },
+    {
+        "question_number": 28,
+        "question": "What is the phase relationship between the input signal at the base and the output signal at the collector of a common-emitter (CE) amplifier?",
+        "options": {
+            "a": "They are in phase (0\u00b0 shift)",
+            "b": "They are out of phase (180\u00b0 shift)",
+            "c": "The output leads the input (90\u00b0 shift)"
+        },
+        "correct_answer": "b",
+        "explanation": "A fundamental characteristic of the common-emitter configuration is that it provides voltage amplification along with a 180-degree phase inversion. A positive-going input results in a negative-going output."
+    },
+    {
+        "question_number": 29,
+        "question": "An oscillator circuit requires an amplifier and a feedback network. Which of the following is NOT an essential part of an oscillator?",
+        "options": {
+            "a": "A DC power source",
+            "b": "A frequency-selective network",
+            "c": "A rectifier"
+        },
+        "correct_answer": "c",
+        "explanation": "An oscillator is a circuit that generates an AC waveform from a DC supply. A rectifier performs the opposite function, converting AC to DC, and is therefore not a required component of an oscillator itself."
+    },
+    {
+        "question_number": 30,
+        "question": "Which of the following are considered 'active' components, capable of amplification or switching, within an Integrated Circuit?",
+        "options": {
+            "a": "Resistors and capacitors",
+            "b": "Diodes and transistors",
+            "c": "Inductors and connectors"
+        },
+        "correct_answer": "b",
+        "explanation": "Active components can control the flow of electricity. Diodes (which switch) and transistors (which can switch or amplify) are the fundamental active building blocks of modern ICs. Resistors and capacitors are passive components."
+    },
+    {
+        "question_number": 31,
+        "question": "In an LC transistor oscillator circuit, which component provides the amplification needed to sustain oscillations?",
+        "options": {
+            "a": "The inductor (L)",
+            "b": "The capacitor (C)",
+            "c": "The transistor"
+        },
+        "correct_answer": "c",
+        "explanation": "The LC network (tank circuit) determines the frequency of oscillation, but it is the transistor, configured as an amplifier, that provides the gain needed to overcome losses in the circuit and sustain the continuous oscillation."
+    },
+    {
+        "question_number": 32,
+        "question": "Which amplifier class is designed as a compromise to eliminate crossover distortion by slightly biasing both transistors to conduct for more than half a cycle?",
+        "options": {
+            "a": "Class A",
+            "b": "Class C",
+            "c": "Class AB"
+        },
+        "correct_answer": "c",
+        "explanation": "Class AB operation is a compromise between the high linearity of Class A and the higher efficiency of Class B. By lightly biasing both transistors, it ensures a smooth transition between them, eliminating the crossover distortion found in Class B."
+    },
+    {
+        "question_number": 33,
+        "question": "Barkhausen's criteria state that for sustained oscillation, the total loop gain must be at least one and the total phase shift must be 0\u00b0 or 360\u00b0. Which statement violates these criteria?",
+        "options": {
+            "a": "The feedback must be regenerative (positive)",
+            "b": "The feedback must be degenerative (negative)",
+            "c": "The loop gain |A\u03b2| must be equal to 1"
+        },
+        "correct_answer": "b",
+        "explanation": "A key requirement for oscillation is positive (regenerative) feedback, where the fed-back signal reinforces the input signal. Degenerative (negative) feedback is used in amplifiers to stabilize gain and reduce distortion, not to create oscillation."
+    },
+    {
+        "question_number": 34,
+        "question": "What is the name for the board that uses conductive tracks and pads to mechanically support and electrically connect electronic components?",
+        "options": {
+            "a": "Breadboard",
+            "b": "Printed Circuit Board (PCB)",
+            "c": "Motherboard"
+        },
+        "correct_answer": "b",
+        "explanation": "A Printed Circuit Board (PCB) is a rigid or flexible board made of insulating material with a layer of conductive material (like copper) etched away to form pathways that connect components soldered to it."
+    },
+    {
+        "question_number": 35,
+        "question": "A multivibrator circuit that has two stable states and requires an external trigger pulse to switch from one state to the other is called:",
+        "options": {
+            "a": "Astable",
+            "b": "Monostable",
+            "c": "Bistable"
+        },
+        "correct_answer": "c",
+        "explanation": "A bistable multivibrator (or flip-flop) has two stable states. It will remain in either state indefinitely until a trigger input causes it to change to the other state. It is the fundamental building block of digital memory."
+    },
+    {
+        "question_number": 36,
+        "question": "A Colpitts oscillator is a type of LC oscillator that is primarily identified by its use of:",
+        "options": {
+            "a": "A tapped inductor and a single capacitor",
+            "b": "A tapped capacitor and a single inductor",
+            "c": "A quartz crystal for feedback"
+        },
+        "correct_answer": "b",
+        "explanation": "The distinguishing feature of a Colpitts oscillator's tank circuit is a voltage divider made from two capacitors in series, with a single parallel inductor. The feedback signal is taken from the junction of the two capacitors."
+    },
+    {
+        "question_number": 37,
+        "question": "Which circuit compares two input voltages and produces a binary output (high or low) indicating which input is larger?",
+        "options": {
+            "a": "A summing amplifier",
+            "b": "A comparator",
+            "c": "A differentiator"
+        },
+        "correct_answer": "b",
+        "explanation": "A comparator is a circuit, often built using an op-amp without feedback, that compares two analog voltages. Its output switches sharply to one of two binary levels depending on which input voltage is higher, making it a key part of ADCs."
+    },
+    {
+        "question_number": 38,
+        "question": "In filter and amplifier analysis, what term defines the range of frequencies that can pass through the circuit with minimal attenuation?",
+        "options": {
+            "a": "Gain",
+            "b": "Bandwidth",
+            "c": "Slew rate"
+        },
+        "correct_answer": "b",
+        "explanation": "Bandwidth is defined as the difference between the upper and lower cutoff frequencies (fH - fL). It represents the 'width' of the frequency range over which the circuit's gain is at least 70.7% (or -3dB) of its maximum value."
+    },
+    {
+        "question_number": 39,
+        "question": "Due to its high Common-Mode Rejection Ratio (CMRR), what is the ideal output of an op-amp if the exact same signal is applied to both its inverting and non-inverting inputs?",
+        "options": {
+            "a": "Infinite voltage",
+            "b": "Zero",
+            "c": "The input voltage"
+        },
+        "correct_answer": "b",
+        "explanation": "An ideal op-amp amplifies only the difference between its two inputs. If the same 'common-mode' voltage is applied to both, the difference is zero. A high CMRR means the op-amp is very effective at rejecting this common signal, producing a zero output."
+    },
+    {
+        "question_number": 40,
+        "question": "An operational amplifier (op-amp) is fundamentally a high-gain:",
+        "options": {
+            "a": "Current amplifier",
+            "b": "Differential voltage amplifier",
+            "c": "Power amplifier"
+        },
+        "correct_answer": "b",
+        "explanation": "An op-amp is a differential voltage amplifier. It amplifies the voltage difference between its two input terminals (the inverting and non-inverting inputs) by a very large factor (its open-loop gain)."
+    },
+    {
+        "question_number": 41,
+        "question": "The Armstrong oscillator is notable for using which component in its feedback network to induce a current from the output back to the input?",
+        "options": {
+            "a": "A capacitive divider",
+            "b": "A tickler coil",
+            "c": "A resistor network"
+        },
+        "correct_answer": "b",
+        "explanation": "The Armstrong oscillator uses mutual inductance for feedback. A secondary winding, known as a 'tickler coil,' is magnetically coupled to the primary inductor of the tank circuit to provide the necessary regenerative feedback."
+    },
+    {
+        "question_number": 42,
+        "question": "What is the primary semiconductor element used as the base material for manufacturing virtually all modern Integrated Circuits (ICs)?",
+        "options": {
+            "a": "Germanium",
+            "b": "Gallium Arsenide",
+            "c": "Silicon"
+        },
+        "correct_answer": "c",
+        "explanation": "Silicon is the most widely used semiconductor material due to its abundance (it's derived from sand), excellent thermal stability, and the ability to easily form a high-quality insulating oxide layer (silicon dioxide), which is crucial for making MOSFETs."
+    },
+    {
+        "question_number": 43,
+        "question": "The Shockley diode, a trigger diode, is a simple two-terminal device with how many semiconductor layers?",
+        "options": {
+            "a": "Two layers (PN)",
+            "b": "Three layers (PNP)",
+            "c": "Four layers (PNPN)"
+        },
+        "correct_answer": "c",
+        "explanation": "The Shockley diode was one of the first semiconductor devices with more than two layers. It has a four-layer PNPN structure and is used as a trigger switch, as it conducts only after the voltage across it exceeds a specific breakover voltage."
+    },
+    {
+        "question_number": 44,
+        "question": "A varactor diode, which is used as a voltage-controlled capacitor, is also commonly known by what name?",
+        "options": {
+            "a": "Zener diode",
+            "b": "Varicap diode",
+            "c": "Schottky diode"
+        },
+        "correct_answer": "b",
+        "explanation": "'Varicap' is a portmanteau of 'variable capacitor'. This name is widely used for varactor diodes because their primary application is to provide a capacitance that varies depending on the reverse-bias voltage applied to them."
+    },
+    {
+        "question_number": 45,
+        "question": "When a standard P-N junction diode is reverse-biased (below its breakdown voltage), its electrical resistance is:",
+        "options": {
+            "a": "Very low",
+            "b": "Very high",
+            "c": "Equal to its forward resistance"
+        },
+        "correct_answer": "b",
+        "explanation": "Applying a reverse bias widens the diode's depletion region, which prevents majority charge carriers from crossing the junction. This results in a very high resistance and allows only a tiny leakage current to flow."
+    },
+    {
+        "question_number": 46,
+        "question": "For an NPN transistor to be turned on and operate in the active or saturation region, its base terminal must be biased:",
+        "options": {
+            "a": "Negative relative to the emitter",
+            "b": "Positive relative to the emitter",
+            "c": "At the same potential as the collector"
+        },
+        "correct_answer": "b",
+        "explanation": "To forward-bias the base-emitter P-N junction of an NPN transistor, the base voltage must be more positive than the emitter voltage by at least the junction's threshold voltage (typically ~0.7V for silicon)."
+    },
+    {
+        "question_number": 47,
+        "question": "What are the three terminals of a Unijunction Transistor (UJT)?",
+        "options": {
+            "a": "Anode, Cathode, Gate",
+            "b": "Source, Drain, Gate",
+            "c": "Emitter, Base 1, Base 2"
+        },
+        "correct_answer": "c",
+        "explanation": "A UJT is a three-terminal device with a unique structure. It consists of a bar of N-type semiconductor with two base contacts (Base 1 and Base 2) at its ends, and a single P-type Emitter junction alloyed somewhere along the bar."
+    },
+    {
+        "question_number": 48,
+        "question": "A Unijunction Transistor (UJT) is characterized by having how many P-N junctions?",
+        "options": {
+            "a": "One",
+            "b": "Two",
+            "c": "Three"
+        },
+        "correct_answer": "a",
+        "explanation": "Despite having three terminals, the Unijunction Transistor gets its name from its simple structure which contains only a single P-N junction between the P-type emitter and the N-type base bar."
+    },
+    {
+        "question_number": 49,
+        "question": "The term 'electronics' broadly refers to the science and technology dealing with:",
+        "options": {
+            "a": "The flow of current in metallic conductors",
+            "b": "The emission and effects of electrons in vacuum and matter",
+            "c": "The generation and distribution of high-voltage power"
+        },
+        "correct_answer": "b",
+        "explanation": "Electronics is a branch of physics and electrical engineering that deals with the controlled flow of electrons (and other charge carriers), especially in semiconductor devices, to create circuits that process, transmit, and store information."
+    },
+    {
+        "question_number": 50,
+        "question": "In a PNP transistor, the relationship between the collector and emitter terminals is best described as:",
+        "options": {
+            "a": "The collector is more positive than the emitter",
+            "b": "The collector is more negative than the emitter",
+            "c": "The collector and emitter are at the same potential"
+        },
+        "correct_answer": "b",
+        "explanation": "For a PNP transistor to operate in the active region, the collector-base junction must be reverse-biased. This means the collector terminal must be held at a more negative voltage than both the base and the emitter terminals."
+    },
+    {
+        "question_number": 51,
+        "question": "What is the primary purpose of a Schmitt trigger in digital circuits?",
+        "options": {
+            "a": "To amplify analog signals",
+            "b": "To provide hysteresis in signal transitions",
+            "c": "To filter high-frequency noise"
+        },
+        "correct_answer": "b",
+        "explanation": "A Schmitt trigger is a type of comparator circuit that introduces hysteresis into the input-output relationship. This means it has two different threshold voltages for switching from low to high and high to low, which helps eliminate noise and provides clean transitions."
+    }
+]

@@ -1,0 +1,383 @@
+[
+    {
+        "question_number": 1,
+        "question": "The CG range of all helicopter is narrower than a/c",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "A",
+        "explanation": "Helicopters, especially single-rotor types, require the center of gravity to be kept very close to the rotor mast for stability and control, resulting in a much more restricted (narrower) CG range compared to most fixed-wing aircraft."
+    },
+    {
+        "question_number": 2,
+        "question": "The datum is an imaginary reference line along the longitudinal axis:",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "B",
+        "explanation": "The datum is an imaginary vertical plane, not a line, from which all horizontal distances (arms) are measured for weight and balance calculations."
+    },
+    {
+        "question_number": 3,
+        "question": "The permanent ballast should be placed at the farthest point FWD/AFT of CG.",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "A",
+        "explanation": "Placing ballast at the farthest possible point from the CG creates the longest arm, allowing for the maximum change in moment with the minimum amount of weight added."
+    },
+    {
+        "question_number": 4,
+        "question": "Addition/removal of weight within the CG range will not affect the balance of the aircraft.",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "B",
+        "explanation": "Adding or removing weight at any point other than the exact location of the current CG will cause the CG to shift, thus affecting the aircraft's balance."
+    },
+    {
+        "question_number": 5,
+        "question": "Removal of weight from forward of CG will shift CG",
+        "options": {
+            "A": "In the fwd direction",
+            "B": "In the rearward direction",
+            "C": "Depends on the weight of equipment"
+        },
+        "correct_answer": "B",
+        "explanation": "Removing weight from a location forward of the center of gravity will cause the CG to shift aft (rearward)."
+    },
+    {
+        "question_number": 6,
+        "question": "Oscillator & danger of spin is characteristics of",
+        "options": {
+            "A": "Too much forward loading",
+            "B": "Too much rearward loading",
+            "C": "Overweight"
+        },
+        "correct_answer": "B",
+        "explanation": "A center of gravity that is too far aft (rearward loading) makes the aircraft longitudinally unstable, which can lead to oscillations and a dangerous tendency to spin."
+    },
+    {
+        "question_number": 7,
+        "question": "weight and balance of an air craft is critical because",
+        "options": {
+            "A": "It greatly affect safe and efficient operation of an aircraft",
+            "B": "It affect economy of flight",
+            "C": "All"
+        },
+        "correct_answer": "C",
+        "explanation": "Proper weight and balance is critical for both the safe handling and control of the aircraft and for its efficient operation, which affects fuel economy and overall performance."
+    },
+    {
+        "question_number": 8,
+        "question": "which one of the following is not true about requirements of weight and balance",
+        "options": {
+            "A": "Manufacturer must be conduct weight and balance one out of ten air craft manufactured",
+            "B": "Air carrier conduct weight and balance periodically after major alteration and biased on pilot report",
+            "C": "Private owner once in three year"
+        },
+        "correct_answer": "A",
+        "explanation": "It is not true that manufacturers only weigh one out of ten aircraft; they must establish the specific empty weight and CG for each individual aircraft produced."
+    },
+    {
+        "question_number": 9,
+        "question": "Which one of the following is not the effect of overloading?",
+        "options": {
+            "A": "Improved structural safety",
+            "B": "Long runway for take off",
+            "C": "Difficulty to control aircraft"
+        },
+        "correct_answer": "A",
+        "explanation": "Overloading an aircraft increases stress on its components and reduces safety margins; it does not improve structural safety."
+    },
+    {
+        "question_number": 10,
+        "question": "Which one of the following is the effect of the too much forward weight?",
+        "options": {
+            "A": "Decreased air speed",
+            "B": "increased speed and tendency to dive",
+            "C": "Reduction of long range optimum speed"
+        },
+        "correct_answer": "A",
+        "explanation": "A forward CG requires more up-elevator or nose-up trim to maintain level flight. This increases the tail-down force and induced drag, resulting in a lower cruising speed for a given power setting."
+    },
+    {
+        "question_number": 11,
+        "question": "Gross weight of an aircraft is",
+        "options": {
+            "A": "The total weight of aircraft before loaded",
+            "B": "The sum of useful load and air frame parts load",
+            "C": "The sum of aircraft empty weight, useful load"
+        },
+        "correct_answer": "C",
+        "explanation": "The gross weight of an aircraft is its total weight at any given time, calculated as the sum of its basic empty weight and its useful load (crew, passengers, baggage, usable fuel)."
+    },
+    {
+        "question_number": 12,
+        "question": "Which one of the following is true?",
+        "options": {
+            "A": "Light aircraft have higher rate of climb",
+            "B": "Low speed aircraft have superior maneuverability than high speed air craft",
+            "C": "High speed aircraft have highest maneuverability than low speed air craft"
+        },
+        "correct_answer": "B",
+        "explanation": "Generally, aircraft designed for lower speeds, such as aerobatic planes, are more maneuverable (can change direction and attitude more quickly) than high-speed aircraft, which are typically designed for stability."
+    },
+    {
+        "question_number": 13,
+        "question": "Lateral balance of an aircraft is controlled by",
+        "options": {
+            "A": "Distribution of useful load on the air craft",
+            "B": "Operation of fight control surface such as elevator and radar",
+            "C": "fuel consumption management"
+        },
+        "correct_answer": "A",
+        "explanation": "Lateral balance (side-to-side) is primarily managed by the careful distribution of the useful load, such as fuel in the wing tanks and placement of cargo and passengers."
+    },
+    {
+        "question_number": 14,
+        "question": "The distance between two points where cg can shift -- balance of an aircraft",
+        "options": {
+            "A": "center of gravity",
+            "B": "Center of gravity range",
+            "C": "Center of gravity limit"
+        },
+        "correct_answer": "B",
+        "explanation": "The Center of Gravity (CG) range is the specified distance between the forward and aft CG limits within which the aircraft's CG must be located for safe flight."
+    },
+    {
+        "question_number": 15,
+        "question": "Information about center of gravity and center of gravity range is obtained",
+        "options": {
+            "A": "Aircraft specification and operation limitation",
+            "B": "Type certificate data sheet (tcds)and air craft flight manual",
+            "C": "All"
+        },
+        "correct_answer": "C",
+        "explanation": "CG limits and range information are found in several official aircraft documents, including the Type Certificate Data Sheet (TCDS), aircraft specifications, and the Aircraft Flight Manual (AFM)."
+    },
+    {
+        "question_number": 16,
+        "question": "An imaginary point about which both nose heavy and tail heavy moments are Exactly equal in magnitude is called",
+        "options": {
+            "A": "Center of gravity",
+            "B": "Center of pressure",
+            "C": "C.g range"
+        },
+        "correct_answer": "A",
+        "explanation": "The Center of Gravity (CG) is the imaginary point where the total weight of the aircraft is considered to be concentrated, and about which the aircraft would balance if suspended."
+    },
+    {
+        "question_number": 17,
+        "question": "Weight and balance of an aircraft must be conducted periodically since aircraft weight changes because of",
+        "options": {
+            "A": "Dir accumulation",
+            "B": "Cumulative minor repair and addition of miscellanies hardware",
+            "C": "All"
+        },
+        "correct_answer": "C",
+        "explanation": "An aircraft's empty weight changes over its life due to factors like dirt accumulation, moisture absorption, repairs, repainting, and the addition of new equipment."
+    },
+    {
+        "question_number": 18,
+        "question": "Which one of the following is not required in weight and balance?",
+        "options": {
+            "A": "Jack (with appropriate pads)/ramps",
+            "B": "Spirit level and measuring tape",
+            "C": "Oxygen bottle"
+        },
+        "correct_answer": "C",
+        "explanation": "Jacks, scales, a spirit level, and a measuring tape are all tools required for the weighing procedure. An oxygen bottle is part of the aircraft's equipment, not a tool used to perform the weighing."
+    },
+    {
+        "question_number": 19,
+        "question": "The c.g range in single-rotor helicopter is",
+        "options": {
+            "A": "Much greater than airplanes",
+            "B": "Approximately the same c.g range as fixed wing air craft",
+            "C": "More restricted than aircraft"
+        },
+        "correct_answer": "C",
+        "explanation": "Single-rotor helicopters have a very small or 'restricted' CG range because the CG must be kept directly under the rotor mast for stability and control."
+    },
+    {
+        "question_number": 20,
+        "question": "The amount of fuel used for computing empty weight of an aircraft is",
+        "options": {
+            "A": "Empty tank (zero) fuel",
+            "B": "Unusable fuel",
+            "C": "Fuel required for half hour operation at full power setting"
+        },
+        "correct_answer": "B",
+        "explanation": "Basic Empty Weight is defined as the weight of the standard aircraft including unusable fuel, full operating fluids (like engine oil), and all fixed optional equipment."
+    },
+    {
+        "question_number": 21,
+        "question": "Which of the following does not change the c.g of an aircraft in flight due?",
+        "options": {
+            "A": "Depletion of fuel",
+            "B": "Retraction and extraction of the land gear",
+            "C": "Engine flameout"
+        },
+        "correct_answer": "C",
+        "explanation": "Fuel depletion and landing gear movement both involve a change in the distribution of mass, shifting the CG. An engine flameout stops the engine but does not in itself shift the aircraft's center of gravity."
+    },
+    {
+        "question_number": 22,
+        "question": "normally empty weight of an aircraft",
+        "options": {
+            "A": "Is the same for all aircraft of the same type",
+            "B": "Include the weight of unusable fuel and oil",
+            "C": "Includes i of occupant but does not include the usable fuel"
+        },
+        "correct_answer": "B",
+        "explanation": "The Basic Empty Weight of an aircraft includes the airframe, engines, and all fixed equipment, plus unusable fuel and full operating fluids like engine oil."
+    },
+    {
+        "question_number": 23,
+        "question": "Empty weight and C.G of an a/c is determined:",
+        "options": {
+            "A": "At the time of a/c manufacturing",
+            "B": "At each period and level of flight",
+            "C": "During straight and level flight"
+        },
+        "correct_answer": "A",
+        "explanation": "The initial empty weight and CG are determined by the manufacturer when the aircraft is built. They are then re-determined on the ground after major alterations or periodically as required."
+    },
+    {
+        "question_number": 24,
+        "question": "Which of the following will cause C.G shift in flight:",
+        "options": {
+            "A": "A/c painting",
+            "B": "Pilot report",
+            "C": "Major alteration"
+        },
+        "correct_answer": "D",
+        "explanation": "Aircraft painting, pilot reports, and major alterations are events or procedures that occur on the ground and affect the basic empty weight and CG, but they do not cause a CG shift during flight. The correct choice is none of the above."
+    },
+    {
+        "question_number": 25,
+        "question": "Which of the following will cause C.G shift in flight:",
+        "options": {
+            "A": "Depletion of fuel in flight",
+            "B": "Movement of crew and passengers",
+            "C": "All of the above"
+        },
+        "correct_answer": "C",
+        "explanation": "All listed events\u2014fuel consumption from tanks not at the CG, passenger/crew movement, and landing gear operation\u2014involve shifting mass and will therefore cause the aircraft's center of gravity to shift during flight."
+    },
+    {
+        "question_number": 26,
+        "question": "Which of the following is pay load?",
+        "options": {
+            "A": "Pilot",
+            "B": "Fuel",
+            "C": "baggage"
+        },
+        "correct_answer": "C",
+        "explanation": "Payload is the part of the useful load that generates revenue, such as passengers and cargo (baggage). Crew and fuel are part of the useful load but are not typically considered payload."
+    },
+    {
+        "question_number": 27,
+        "question": "In which document do we find the weight and balance information:",
+        "options": {
+            "A": "A/c specification",
+            "B": "TCDS",
+            "C": "All of the above"
+        },
+        "correct_answer": "C",
+        "explanation": "Official weight and balance information, including limits and datum location, is found in multiple documents such as the Aircraft Specifications, the Type Certificate Data Sheet (TCDS), and the Aircraft Flight Manual (AFM)."
+    },
+    {
+        "question_number": 28,
+        "question": "One of the following will not be included in the empty weight of a/c:",
+        "options": {
+            "A": "Residual fuel",
+            "B": "Optional special equipment which has a fixed location on the a/c",
+            "C": "None of these"
+        },
+        "correct_answer": "C",
+        "explanation": "All the listed items\u2014residual (unusable) fuel, fixed optional equipment, and all operating fluids like hydraulic fluid\u2014are included in the calculation of an aircraft's basic empty weight. Therefore, none of these options would be excluded."
+    },
+    {
+        "question_number": 29,
+        "question": "A reference line on which all measurements are taken for weight and balance control purpose is:",
+        "options": {
+            "A": "a-lever arm",
+            "B": "Station",
+            "C": "datum"
+        },
+        "correct_answer": "C",
+        "explanation": "The datum is an imaginary vertical plane established by the manufacturer from which all horizontal measurements (arms or stations) are taken for weight and balance purposes."
+    },
+    {
+        "question_number": 30,
+        "question": "The removal or addition of equipment or an a/c affects:",
+        "options": {
+            "A": "Empty weight",
+            "B": "C.G",
+            "C": "All of the above"
+        },
+        "correct_answer": "C",
+        "explanation": "Adding or removing equipment changes the aircraft's empty weight. This change in weight at a specific location also shifts its center of gravity (C.G.) and alters the available useful load."
+    },
+    {
+        "question_number": 31,
+        "question": "The most conventional location for installation of temporary ballast is:",
+        "options": {
+            "A": "The tail section of the a/c",
+            "B": "At a very strong structural member",
+            "C": "At the cargo compartment"
+        },
+        "correct_answer": "C",
+        "explanation": "Temporary ballast is most conveniently and safely installed in designated cargo or baggage compartments, where it can be properly secured and easily added or removed."
+    },
+    {
+        "question_number": 32,
+        "question": "For weight and balance control purpose any occupant of an a/c seat weight is:",
+        "options": {
+            "A": "150",
+            "B": "160",
+            "C": "170"
+        },
+        "correct_answer": "C",
+        "explanation": "For general aviation calculations, a standard weight of 170 pounds per adult occupant has historically been used in many older documents and examples. Note that regulations for commercial operators specify different, often higher, standard weights."
+    },
+    {
+        "question_number": 33,
+        "question": "The deliberate attempt to lead an a/c in a manner that will create the most critical balance condition and still remain with in the design C.G limit is:",
+        "options": {
+            "A": "Adverse loading check",
+            "B": "Empty weight check",
+            "C": "Maximum weight check"
+        },
+        "correct_answer": "A",
+        "explanation": "An adverse loading check is a calculation that verifies the aircraft remains within CG limits under the most extreme but plausible forward or aft loading conditions."
+    },
+    {
+        "question_number": 34,
+        "question": "What type of items are loaded between the forward and aft C.G limits during adverse load check:",
+        "options": {
+            "A": "All useful items",
+            "B": "Minimum of essential items",
+            "C": "Depends on the type of the check"
+        },
+        "correct_answer": "C",
+        "explanation": "The loading configuration for an adverse loading check depends on whether the forward or aft limit is being tested. For a forward check, weight is maximized at forward stations and minimized at aft stations, and vice-versa for an aft check."
+    },
+    {
+        "question_number": 35,
+        "question": "One of the following is not true about weighting an a/c:",
+        "options": {
+            "A": "The a/c should be weight in well-ventilated area",
+            "B": "The a/c should be free from excessive dirt",
+            "C": "The accuracy of the scale should be established"
+        },
+        "correct_answer": "A",
+        "explanation": "An aircraft should be weighed in an enclosed, draft-free area like a closed hangar to prevent wind from causing inaccurate scale readings. A 'well-ventilated' area implies air movement, which is undesirable for weighing."
+    }
+]

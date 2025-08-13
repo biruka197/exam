@@ -1,0 +1,354 @@
+[
+    {
+        "question_number": 1,
+        "question": "Which one of the following parameters is considered a status/system parameter?",
+        "options": {
+            "A": "Attitude indication",
+            "B": "Instrument landing system indications",
+            "C": "Door, hydraulic"
+        },
+        "correct_answer": "C",
+        "explanation": "Status/system parameters include information about aircraft systems such as doors and hydraulic systems, which indicate their operational status."
+    },
+    {
+        "question_number": 2,
+        "question": "In a magnetic drag cup tachometer, the purpose of the drive cable is",
+        "options": {
+            "A": "To connect permanent magnet to an engine",
+            "B": "To connect pointer to an engine",
+            "C": "To connect drag cup to an engine"
+        },
+        "correct_answer": "A",
+        "explanation": "In a magnetic drag cup tachometer, the drive cable connects the permanent magnet to the engine, allowing the magnet to rotate and induce a drag force on the cup."
+    },
+    {
+        "question_number": 3,
+        "question": "Which of the following is correct about Free Air Temperature Indication?",
+        "options": {
+            "A": "Total air temperature",
+            "B": "Static air temperature",
+            "C": "Ram air temperature"
+        },
+        "correct_answer": "B",
+        "explanation": "Free Air Temperature (FAT) refers to the static air temperature, which is the ambient temperature of the air outside the aircraft without the effects of motion or compression."
+    },
+    {
+        "question_number": 4,
+        "question": "Which statement is correct concerning a thermocouple type temperature indicating instrument system?",
+        "options": {
+            "A": "It usually contains a balancing circuit in the instrument case to prevent fluctuations of the system voltage from affecting the temperature reading",
+            "B": "It requires no external power source",
+            "C": "It is a balanced-type, variable resistor circuit"
+        },
+        "correct_answer": "B",
+        "explanation": "A thermocouple generates its own voltage (EMF) based on the temperature difference between two junctions, requiring no external power source."
+    },
+    {
+        "question_number": 5,
+        "question": "___________ is the 'true' temperature, the one you would measure if the airplane was not moving through space",
+        "options": {
+            "A": "Total air temperature",
+            "B": "Static air temperature",
+            "C": "Ram air temperature"
+        },
+        "correct_answer": "B",
+        "explanation": "Static air temperature is the true ambient temperature of the air, unaffected by the aircraft's motion, unlike total or ram air temperature, which include heating effects from air compression."
+    },
+    {
+        "question_number": 6,
+        "question": "The voltage (emf) produced by a thermocouple mainly depends on",
+        "options": {
+            "A": "The area of the metals",
+            "B": "The temperature difference between the two junctions",
+            "C": "The length of the metals"
+        },
+        "correct_answer": "B",
+        "explanation": "The voltage (EMF) produced by a thermocouple is primarily determined by the temperature difference between its hot and cold junctions, per the Seebeck effect."
+    },
+    {
+        "question_number": 7,
+        "question": "In a mechanical tachometer, as the speed of an engine increases",
+        "options": {
+            "A": "The flyweight moves inward",
+            "B": "The flyweight moves outward",
+            "C": "Remains at the same place"
+        },
+        "correct_answer": "B",
+        "explanation": "In a mechanical tachometer, as engine speed increases, centrifugal force causes the flyweights to move outward, which adjusts the indicator to show higher RPM."
+    },
+    {
+        "question_number": 8,
+        "question": "The fuel temperature indicator on B737-NG is",
+        "options": {
+            "A": "Bimetallic",
+            "B": "Resistance ratio meter instrument",
+            "C": "Thermocouple"
+        },
+        "correct_answer": "C",
+        "explanation": "The Boeing 737-NG uses a thermocouple-based system for fuel temperature indication due to its accuracy and reliability in measuring temperature."
+    },
+    {
+        "question_number": 9,
+        "question": "The electrical power used in a ratiometer for temperature measurement is",
+        "options": {
+            "A": "DC (Direct Current)",
+            "B": "AC and DC",
+            "C": "AC (Alternating Current)"
+        },
+        "correct_answer": "A",
+        "explanation": "Ratiometers typically use DC power for temperature measurement, as they rely on resistance changes in a stable circuit to provide accurate readings."
+    },
+    {
+        "question_number": 10,
+        "question": "In a capacitance fuel quantity system, the capacitors are installed in the fuel tank",
+        "options": {
+            "A": "Vertically",
+            "B": "Horizontally and Vertically",
+            "C": "Horizontally"
+        },
+        "correct_answer": "A",
+        "explanation": "In a capacitance fuel quantity system, capacitors are installed vertically in the fuel tank to measure the fuel level as it changes with the dielectric constant of the fuel."
+    },
+    {
+        "question_number": 11,
+        "question": "Which one of the following sensors is used on large commercial aircraft to warn the pilot when the aircraft is approaching stall?",
+        "options": {
+            "A": "Angle of attack sensor installed around the nose area of the aircraft",
+            "B": "Reed type stall warning installed at the leading edge of the wing",
+            "C": "Horn stall warning installed at the leading edge of the wing"
+        },
+        "correct_answer": "A",
+        "explanation": "Large commercial aircraft use angle of attack (AOA) sensors, typically located near the nose, to detect the angle of airflow and provide stall warnings."
+    },
+    {
+        "question_number": 12,
+        "question": "The oil quantity indicating system shows the engine oil quantity data on",
+        "options": {
+            "A": "Primary flight display (PFD)",
+            "B": "Primary engine display",
+            "C": "Secondary engine display"
+        },
+        "correct_answer": "C",
+        "explanation": "The oil quantity indicating system typically displays data on the secondary engine display, which shows non-primary engine parameters."
+    },
+    {
+        "question_number": 13,
+        "question": "The engine pressure ratio (EPR) indicator is a direct indication of",
+        "options": {
+            "A": "Engine thrust being produced",
+            "B": "Ratio of engine RPM to compressor pressure",
+            "C": "Pressure ratio between the front and aft end of the compressor"
+        },
+        "correct_answer": "A",
+        "explanation": "The engine pressure ratio (EPR) indicator measures the ratio of exhaust gas pressure to inlet air pressure, directly indicating the thrust produced by the engine."
+    },
+    {
+        "question_number": 14,
+        "question": "Which of the following is not an electrical resistance thermometer?",
+        "options": {
+            "A": "Bimetallic thermometer",
+            "B": "Wheatstone Bridge",
+            "C": "Ratiometer"
+        },
+        "correct_answer": "A",
+        "explanation": "A bimetallic thermometer relies on the differential expansion of two metals and is not an electrical resistance-based device, unlike Wheatstone Bridge or ratiometer systems."
+    },
+    {
+        "question_number": 15,
+        "question": "What is/are component/s of an engine oil quantity indication system?",
+        "options": {
+            "A": "Electrical resistance sensor, floating magnet, and reed switches",
+            "B": "Electrical resistance sensor and floating magnet",
+            "C": "Electrical resistance sensor"
+        },
+        "correct_answer": "A",
+        "explanation": "An engine oil quantity indication system typically includes an electrical resistance sensor, a floating magnet, and reed switches to accurately measure and indicate oil levels."
+    },
+    {
+        "question_number": 16,
+        "question": "Regarding the statements: (1) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure to the engine inlet air pressure and indicates the thrust produced. (2) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure to engine inlet air pressure, and indicates volumetric efficiency.",
+        "options": {
+            "A": "Only No. 2 is true",
+            "B": "Both No. 1 and No. 2 are true",
+            "C": "Only No. 1 is true"
+        },
+        "correct_answer": "C",
+        "explanation": "Statement 1 is correct; EPR indicates thrust by measuring the ratio of exhaust to inlet pressure. Statement 2 is incorrect, as EPR does not indicate volumetric efficiency."
+    },
+    {
+        "question_number": 17,
+        "question": "How many engine vibration sensors are installed on one engine commonly?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "2"
+        },
+        "correct_answer": "C",
+        "explanation": "Commonly, two vibration sensors are installed on each engine to monitor vibrations and detect potential issues."
+    },
+    {
+        "question_number": 18,
+        "question": "Which thermocouple is used to measure the exhaust gas temperature for a turbine engine?",
+        "options": {
+            "A": "Chromel-alumel",
+            "B": "Copper-constantan",
+            "C": "Iron-constantan"
+        },
+        "correct_answer": "A",
+        "explanation": "Chromel-alumel thermocouples (Type K) are commonly used to measure exhaust gas temperature in turbine engines due to their high-temperature range and reliability."
+    },
+    {
+        "question_number": 19,
+        "question": "Which of the following is an electrical type temperature measuring device?",
+        "options": {
+            "A": "Bimetallic thermometer",
+            "B": "Bourdon tube",
+            "C": "Wheatstone bridge"
+        },
+        "correct_answer": "C",
+        "explanation": "A Wheatstone bridge is an electrical circuit used for temperature measurement, typically with resistance-based sensors, unlike bimetallic thermometers or Bourdon tubes."
+    },
+    {
+        "question_number": 20,
+        "question": "Velocity pickup is filled with oil to",
+        "options": {
+            "A": "Lubricate the spring",
+            "B": "Dampen the spring action",
+            "C": "Lubricate the case of the velocity pickup"
+        },
+        "correct_answer": "B",
+        "explanation": "Oil in a velocity pickup is used to dampen the spring action, reducing oscillations and ensuring accurate vibration measurements."
+    },
+    {
+        "question_number": 21,
+        "question": "The engine indications are shown on",
+        "options": {
+            "A": "Right display units",
+            "B": "Center display units",
+            "C": "Left display units"
+        },
+        "correct_answer": "B",
+        "explanation": "Engine indications are typically shown on the center display units, such as the EICAS or engine display, for easy access by both pilots."
+    },
+    {
+        "question_number": 22,
+        "question": "Which one of the following is not a function of an EFIS control panel?",
+        "options": {
+            "A": "Brightness and ON/OFF functions to the displays",
+            "B": "Gives maintenance control for the attitude and heading references",
+            "C": "Function and mode selections related to the display functions"
+        },
+        "correct_answer": "B",
+        "explanation": "The EFIS control panel manages display brightness, on/off functions, and mode selections but does not provide maintenance control for attitude and heading references."
+    },
+    {
+        "question_number": 23,
+        "question": "Which one of the following display units has the aircraft's directional reference?",
+        "options": {
+            "A": "EHSI",
+            "B": "ECAM",
+            "C": "EADI"
+        },
+        "correct_answer": "A",
+        "explanation": "The Electronic Horizontal Situation Indicator (EHSI) displays the aircraft's directional reference, including heading and navigation information."
+    },
+    {
+        "question_number": 24,
+        "question": "Which one of the following computers is commonly/generally used for symbol/graphic generation for display units employed on BOEING aircrafts?",
+        "options": {
+            "A": "Engine Indication and Crew Alerting System (EICAS)",
+            "B": "Electronic Attitude Director Indicator (EADI)",
+            "C": "Display Electronics Unit (DEU)"
+        },
+        "correct_answer": "C",
+        "explanation": "The Display Electronics Unit (DEU) is used on Boeing aircraft to generate symbols and graphics for display units like the EICAS and PFD."
+    },
+    {
+        "question_number": 25,
+        "question": "How many display units are installed commonly on large commercially operated aircrafts with the exception of some turboprop aircraft?",
+        "options": {
+            "A": "3",
+            "B": "6",
+            "C": "4"
+        },
+        "correct_answer": "B",
+        "explanation": "Large commercial aircraft typically have six display units, including primary flight displays (PFDs), navigation displays (NDs), and engine/crew alerting displays (e.g., EICAS)."
+    },
+    {
+        "question_number": 26,
+        "question": "What does the RED color indicate on the weather radar indication of the ND?",
+        "options": {
+            "A": "No storm",
+            "B": "Moderate storm",
+            "C": "Severe storm"
+        },
+        "correct_answer": "C",
+        "explanation": "On a weather radar display, the red color indicates a severe storm, representing high precipitation intensity and potential hazards."
+    },
+    {
+        "question_number": 27,
+        "question": "Which of the following indicates pitch & roll information?",
+        "options": {
+            "A": "Electronic Horizontal Situation Indicator (EHSI)",
+            "B": "Electronic Attitude Director Indicator (EADI)",
+            "C": "Symbol generator"
+        },
+        "correct_answer": "B",
+        "explanation": "The Electronic Attitude Director Indicator (EADI) displays pitch and roll information, showing the aircraft's attitude relative to the horizon."
+    },
+    {
+        "question_number": 28,
+        "question": "Which of the following is an engine primary parameter?",
+        "options": {
+            "A": "N1 speed",
+            "B": "N2 speed",
+            "C": "Fuel flow"
+        },
+        "correct_answer": "A",
+        "explanation": "N1 speed (fan speed) is considered a primary engine parameter, as it directly relates to engine thrust and performance."
+    },
+    {
+        "question_number": 29,
+        "question": "Which of the following is an engine secondary parameter?",
+        "options": {
+            "A": "N2 speed",
+            "B": "Exhaust Gas Temperature (EGT)",
+            "C": "N1 speed"
+        },
+        "correct_answer": "B",
+        "explanation": "Exhaust Gas Temperature (EGT) is a secondary engine parameter, used to monitor engine health but not directly tied to thrust like N1 speed."
+    },
+    {
+        "question_number": 30,
+        "question": "Which of the following information is provided by EICAS - Engine Indication and Crew Alerting System?",
+        "options": {
+            "A": "Primary engine parameters",
+            "B": "Primary engine parameters, secondary engine parameters",
+            "C": "Primary engine parameters, secondary engine parameters, advisory/caution/warning alert message"
+        },
+        "correct_answer": "C",
+        "explanation": "EICAS provides primary and secondary engine parameters, along with advisory, caution, and warning alert messages for crew awareness."
+    },
+    {
+        "question_number": 31,
+        "question": "What are formats that show on the display units of a common display system (CDS)?",
+        "options": {
+            "A": "Primary flight display (PFD), Navigation display (ND), Engine display",
+            "B": "Primary flight display (PFD), Navigation display (ND)",
+            "C": "Primary flight display (PFD)"
+        },
+        "correct_answer": "A",
+        "explanation": "A common display system (CDS) typically includes the Primary Flight Display (PFD), Navigation Display (ND), and Engine Display (e.g., EICAS)."
+    },
+    {
+        "question_number": 32,
+        "question": "Which of the following is an integrated system used in modern aircraft to provide aircraft crew with engines and other systems instrumentation and crew?",
+        "options": {
+            "A": "Electronic Horizontal Situation Indicator (EHSI)",
+            "B": "Electronic Attitude Director Indicator (EADI)",
+            "C": "EICAS - Engine Indication and Crew Alerting System"
+        },
+        "correct_answer": "C",
+        "explanation": "EICAS (Engine Indication and Crew Alerting System) is an integrated system that provides engine and system instrumentation along with crew alerts."
+    }
+]

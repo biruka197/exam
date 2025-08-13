@@ -1,0 +1,882 @@
+[
+    {
+      "question_number": 1,
+      "question": "What is a primary requirement for aircraft communication systems?",
+      "options": {
+        "a": "Low battery consumption",
+        "b": "Reliable communication range",
+        "c": "Voice encryption"
+      },
+      "correct_answer": "b",
+      "explanation": "For safety and operational efficiency, aircraft must be able to maintain consistent and dependable communication with air traffic control and other entities, making a reliable communication range a primary requirement."
+    },
+    {
+      "question_number": 2,
+      "question": "Why is redundancy important in aircraft communication systems?",
+      "options": {
+        "a": "To reduce signal strength",
+        "b": "To limit bandwidth",
+        "c": "To ensure safety in case one system fails"
+      },
+      "correct_answer": "c",
+       "explanation": "Redundancy ensures that a backup communication system is available if the primary one fails, which is a critical safety measure in aviation. [cite: 3]"
+    },
+    {
+      "question_number": 3,
+      "question": "Aircraft communication systems must comply with:",
+      "options": {
+        "a": "Maritime radio standards",
+        "b": "Space communications policy",
+        "c": "International aviation standards"
+      },
+      "correct_answer": "c",
+       "explanation": "To ensure worldwide interoperability and safety, aircraft communication systems must adhere to international aviation standards. [cite: 4, 5]"
+    },
+    {
+      "question_number": 4,
+      "question": "What does selectivity in a receiver refer to?",
+      "options": {
+        "a": "Its ability to transmit on multiple channels",
+        "b": "Its ability to receive strong signals only",
+        "c": "Its ability to isolate a desired frequency and reject others"
+      },
+      "correct_answer": "c",
+       "explanation": "Selectivity is a receiver's capability to tune into a specific frequency while filtering out or rejecting unwanted signals on adjacent frequencies. [cite: 7]"
+    },
+    {
+      "question_number": 5,
+      "question": "Selectivity helps prevent:",
+      "options": {
+        "a": "Power failures",
+        "b": "Signal overlap from adjacent frequencies",
+        "c": "Engine failure"
+      },
+      "correct_answer": "b",
+       "explanation": "A key function of selectivity in a receiver is to prevent interference caused by signal overlap from nearby frequencies. [cite: 8]"
+    },
+    {
+      "question_number": 6,
+      "question": "Which type of circuit is commonly used to achieve selectivity?",
+      "options": {
+        "a": "RC Circuit",
+        "b": "Digital Logic Circuit",
+        "c": "LC Circuit"
+      },
+      "correct_answer": "c",
+       "explanation": "LC circuits, which consist of an inductor (L) and a capacitor (C), are commonly used in receivers to create a resonant circuit that is tuned to a specific frequency, thereby achieving selectivity. [cite: 9]"
+    },
+    {
+      "question_number": 7,
+      "question": "A communication receiver with poor selectivity would:",
+      "options": {
+        "a": "Only receive encrypted messages",
+        "b": "Fail to detect any signals",
+        "c": "Receive unwanted signals from nearby frequencies"
+      },
+      "correct_answer": "c",
+       "explanation": "Poor selectivity means the receiver cannot effectively reject signals from adjacent frequencies, leading to the reception of unwanted signals and interference. [cite: 10]"
+    },
+    {
+      "question_number": 8,
+      "question": "Selectivity is especially important when:",
+      "options": {
+        "a": "Multiple signals are transmitted close in frequency",
+        "b": "The aircraft is grounded",
+        "c": "The autopilot is engaged"
+      },
+      "correct_answer": "a",
+       "explanation": "When multiple signals are close in frequency, high selectivity is crucial to isolate the desired signal and prevent interference from the others. [cite: 11]"
+    },
+    {
+      "question_number": 9,
+      "question": "What does sensitivity in a communication receiver refer to?",
+      "options": {
+        "a": "The ability to reject nearby signals",
+        "b": "The ability to pick up weak signals",
+        "c": "The ability to tune faster"
+      },
+      "correct_answer": "b",
+       "explanation": "Receiver sensitivity is defined as its ability to detect and process weak or low-level signals. [cite: 13]"
+    },
+    {
+      "question_number": 10,
+      "question": "Which component is directly related to receiver sensitivity?",
+      "options": {
+        "a": "Antenna height",
+        "b": "Signal frequency",
+        "c": "Receiver gain"
+      },
+      "correct_answer": "c",
+       "explanation": "Receiver gain, which is the amplification of the signal, is directly related to improving the sensitivity of the receiver. [cite: 14]"
+    },
+    {
+      "question_number": 11,
+      "question": "How is higher receiver sensitivity achieved?",
+      "options": {
+        "a": "By reducing power output",
+        "b": "By increasing gain through multiple amplification stages",
+        "c": "By shortening the signal path"
+      },
+      "correct_answer": "b",
+       "explanation": "Higher receiver sensitivity is achieved by increasing the gain, often through several stages of amplification, to make weak signals strong enough to be processed. [cite: 15]"
+    },
+    {
+      "question_number": 12,
+      "question": "In terms of signal strength, a receiver with poor sensitivity:",
+      "options": {
+        "a": "Picks up all strong signals only",
+        "b": "Can still receive weak signals clearly",
+        "c": "May fail to detect weak signals"
+      },
+      "correct_answer": "c",
+       "explanation": "A receiver with poor sensitivity lacks the ability to sufficiently amplify weak signals, and therefore may fail to detect them. [cite: 16]"
+    },
+    {
+      "question_number": 13,
+      "question": "What is the role of amplification in communication receivers?",
+      "options": {
+        "a": "Reduces the need for tuning",
+        "b": "Increases gain to improve sensitivity",
+        "c": "Filters out noise"
+      },
+      "correct_answer": "b",
+       "explanation": "Amplification boosts the strength of the incoming signal, thereby increasing the receiver's gain and improving its sensitivity to weak signals. [cite: 17]"
+    },
+    {
+      "question_number": 14,
+      "question": "What is modulation in radio communication?",
+      "options": {
+        "a": "Changing the direction of a radio signal",
+        "b": "Varying the properties of a carrier wave to carry information",
+        "c": "Increasing the power of an antenna"
+      },
+      "correct_answer": "b",
+       "explanation": "Modulation is the process of encoding information onto a carrier wave by varying one of its properties, such as amplitude or frequency. [cite: 19]"
+    },
+    {
+      "question_number": 15,
+      "question": "What are radio waves?",
+      "options": {
+        "a": "Visible sound waves",
+        "b": "Vibrations in the atmosphere",
+        "c": "Invisible electromagnetic waves carrying information"
+      },
+      "correct_answer": "c",
+       "explanation": "Radio waves are a form of electromagnetic radiation that can be modulated to carry information over distances without wires. [cite: 20]"
+    },
+    {
+      "question_number": 16,
+      "question": "What makes up a typical radio signal?",
+      "options": {
+        "a": "Electrical noise and static",
+        "b": "A carrier wave with no information",
+        "c": "A modulated carrier wave carrying information"
+      },
+      "correct_answer": "c",
+       "explanation": "A radio signal consists of a carrier wave that has been modulated to embed information such as voice or data. [cite: 21]"
+    },
+    {
+      "question_number": 17,
+      "question": "What is the function of an antenna in a radio communication system?",
+      "options": {
+        "a": "To store radio signals",
+        "b": "To amplify sound",
+        "c": "To transmit and receive radio signals"
+      },
+      "correct_answer": "c",
+       "explanation": "An antenna is a transducer designed to transmit and receive electromagnetic waves, converting electrical signals into radio waves and vice versa. [cite: 22]"
+    },
+    {
+      "question_number": 18,
+      "question": "Which of the following is a common type of modulation?",
+      "options": {
+        "a": "Compression",
+        "b": "Decryption",
+        "c": "Amplitude Modulation"
+      },
+      "correct_answer": "c",
+       "explanation": "Amplitude Modulation (AM) is a common method of modulation where the amplitude of the carrier wave is varied in proportion to the message signal. [cite: 24]"
+    },
+    {
+      "question_number": 19,
+      "question": "What is the main function of a carrier wave in radio communication?",
+      "options": {
+        "a": "To power the aircraft radio system",
+        "b": "To transport information using modulation",
+        "c": "To block other radio signals"
+      },
+      "correct_answer": "b",
+       "explanation": "The carrier wave is a high-frequency waveform that is modulated to carry lower-frequency information, such as voice or data, over long distances. [cite: 25]"
+    },
+    {
+      "question_number": 20,
+      "question": "A carrier wave is:",
+      "options": {
+        "a": "A low-frequency signal used in radar",
+        "b": "A wave that contains only noise",
+        "c": "A high-frequency wave used to carry voice or data"
+      },
+      "correct_answer": "c",
+       "explanation": "A carrier wave is a high-frequency electromagnetic wave that is modulated to transport information like voice or data signals. [cite: 27]"
+    },
+    {
+      "question_number": 21,
+      "question": "In AM or FM radio communication, the carrier wave is:",
+      "options": {
+        "a": "Ignored during transmission",
+        "b": "Added after the signal is received",
+        "c": "Modulated to include information"
+      },
+      "correct_answer": "c",
+       "explanation": "In both Amplitude Modulation (AM) and Frequency Modulation (FM), the carrier wave's properties are altered, or modulated, to encode the information that is being transmitted. [cite: 29]"
+    },
+    {
+      "question_number": 22,
+      "question": "What happens during the modulation of a carrier wave?",
+      "options": {
+        "a": "The frequency becomes zero",
+        "b": "The wave is converted into light",
+        "c": "The wave's properties are varied to encode information"
+      },
+      "correct_answer": "c",
+       "explanation": "Modulation involves varying a property of the carrier wave, such as its amplitude, frequency, or phase, to encode information onto it. [cite: 31]"
+    },
+    {
+      "question_number": 23,
+      "question": "In aircraft communication, which signal is modulated onto a carrier wave?",
+      "options": {
+        "a": "Fuel pressure data",
+        "b": "Electrical static",
+        "c": "Pilot's voice or data messages"
+      },
+      "correct_answer": "c",
+       "explanation": "In aviation, signals such as the pilot's voice or digital data messages are modulated onto a carrier wave for transmission. [cite: 32]"
+    },
+    {
+      "question_number": 24,
+      "question": "What is the primary purpose of the HF communication system on an aircraft?",
+      "options": {
+        "a": "Weather radar communication",
+        "b": "Long-distance voice communication",
+        "c": "Short-range voice communication"
+      },
+      "correct_answer": "b",
+       "explanation": "The High Frequency (HF) communication system is used primarily for long-distance voice communication, especially over oceanic and remote areas where VHF is out of range. [cite: 35]"
+    },
+    {
+      "question_number": 25,
+      "question": "Which communication system is typically used for short-range, line-of-sight communication between aircraft and ATC?",
+      "options": {
+        "a": "HF System",
+        "b": "SELCAL",
+        "c": "VHF System"
+      },
+      "correct_answer": "c",
+       "explanation": "The Very High Frequency (VHF) system is the standard for short-range, line-of-sight voice communications between aircraft and air traffic control (ATC). [cite: 36, 38]"
+    },
+    {
+      "question_number": 26,
+      "question": "SELCAL is primarily used in conjunction with which communication systems?",
+      "options": {
+        "a": "SATCOM and ACARS",
+        "b": "VHF and HF",
+        "c": "Interphone and ACARS"
+      },
+      "correct_answer": "b",
+       "explanation": "SELCAL (Selective Calling) works over both VHF and HF communication systems to alert a flight crew to an incoming call. [cite: 40]"
+    },
+    {
+      "question_number": 27,
+      "question": "Which system allows ground stations to alert a specific aircraft without continuous radio monitoring?",
+      "options": {
+        "a": "ACARS",
+        "b": "HF",
+        "c": "SELCAL"
+      },
+      "correct_answer": "c",
+       "explanation": "SELCAL allows a ground station to send a coded signal that activates an alert in the cockpit of a specific aircraft, removing the need for pilots to continuously monitor radio frequencies. [cite: 42]"
+    },
+    {
+      "question_number": 28,
+      "question": "What does SATCOM use to provide communication services?",
+      "options": {
+        "a": "High-frequency radio waves",
+        "b": "Microwave relays",
+        "c": "Satellite links"
+      },
+      "correct_answer": "c",
+       "explanation": "SATCOM (Satellite Communications) systems use satellites orbiting the Earth to relay voice and data communications, providing coverage over remote areas. [cite: 43]"
+    },
+    {
+      "question_number": 29,
+      "question": "What is the main purpose of the Service Interphone System (SIS)?",
+      "options": {
+        "a": "Internal cabin crew announcements",
+        "b": "Ground-to-air navigation",
+        "c": "Communication between crew and ground staff"
+      },
+      "correct_answer": "c",
+       "explanation": "The Service Interphone System (SIS) is designed to facilitate communication between the flight and cabin crew and the ground personnel during aircraft servicing on the ground. [cite: 45]"
+    },
+    {
+      "question_number": 30,
+      "question": "Which system connects service interphone jacks to the flight compartment?",
+      "options": {
+        "a": "CIS",
+        "b": "FIS",
+        "c": "SIS"
+      },
+      "correct_answer": "c",
+       "explanation": "The Service Interphone System (SIS) includes jacks at various points on the aircraft's exterior, which are connected to the flight and cabin interphone systems. [cite: 47]"
+    },
+    {
+      "question_number": 31,
+      "question": "What does the Cabin Interphone System (CIS) allow?",
+      "options": {
+        "a": "Pilots to transmit via HF radio",
+        "b": "Cabin attendants to communicate with each other and the cockpit",
+        "c": "Ground crew to monitor cabin announcements"
+      },
+      "correct_answer": "b",
+       "explanation": "The Cabin Interphone System (CIS) is an internal communication system that enables cabin attendants to communicate among themselves and with the flight crew in the cockpit. [cite: 48]"
+    },
+    {
+      "question_number": 32,
+      "question": "Which system allows cabin attendants to speak directly to pilots?",
+      "options": {
+        "a": "FIS",
+        "b": "CIS",
+        "c": "SIS"
+      },
+      "correct_answer": "b",
+       "explanation": "The Cabin Interphone System (CIS) provides a direct line of communication between the cabin attendants and the flight crew in the cockpit. [cite: 49]"
+    },
+    {
+      "question_number": 33,
+      "question": "The Flight Interphone System (FIS) enables flight crew to:",
+      "options": {
+        "a": "Access passenger address system",
+        "b": "Monitor cabin crew communication",
+        "c": "Use aircraft radios for external transmission"
+      },
+      "correct_answer": "c",
+       "explanation": "The Flight Interphone System (FIS) is the system that allows the flight crew to select and use the aircraft's various radio systems (like VHF and HF) for external communication. [cite: 50]"
+    },
+    {
+      "question_number": 34,
+      "question": "Which audio system is essential for pilots to speak with air traffic control?",
+      "options": {
+        "a": "FIS",
+        "b": "CIS",
+        "c": "SIS"
+      },
+      "correct_answer": "a",
+       "explanation": "The Flight Interphone System (FIS) is what the flight crew uses to transmit and receive communications with air traffic control via the aircraft's radios. [cite: 51]"
+    },
+    {
+      "question_number": 35,
+      "question": "Which system is primarily used during ground servicing of the aircraft?",
+      "options": {
+        "a": "CIS",
+        "b": "FIS",
+        "c": "SIS"
+      },
+      "correct_answer": "c",
+       "explanation": "The Service Interphone System (SIS) is specifically designed for communication between ground personnel and the flight/cabin crew during maintenance and servicing operations on the ground. [cite: 52]"
+    },
+    {
+      "question_number": 36,
+      "question": "The SIS is designed for use:",
+      "options": {
+        "a": "Between cabin crew only",
+        "b": "Only during flight",
+        "c": "For exterior and interior ground communication"
+      },
+      "correct_answer": "c",
+       "explanation": "The Service Interphone System (SIS) facilitates communication between ground crew on the exterior of the aircraft and crew members inside during ground operations. [cite: 53]"
+    },
+    {
+      "question_number": 37,
+      "question": "FIS allows flight crew to key and transmit on:",
+      "options": {
+        "a": "Interphone only",
+        "b": "Cabin interphone channels",
+        "c": "Aircraft radio systems like VHF and HF"
+      },
+      "correct_answer": "c",
+       "explanation": "The Flight Interphone System (FIS) allows the flight crew to select and transmit over the aircraft's external communication radios, such as VHF, HF, and SATCOM. [cite: 54]"
+    },
+    {
+      "question_number": 38,
+      "question": "Which audio system links the cockpit to the service interphone jacks?",
+      "options": {
+        "a": "FIS",
+        "b": "CIS",
+        "c": "SIS"
+      },
+      "correct_answer": "c",
+       "explanation": "The Service Interphone System (SIS) is the system that provides the connection between the external service interphone jacks and the audio systems in the cockpit. [cite: 55]"
+    },
+    {
+      "question_number": 39,
+      "question": "What component is activated in the ground crew call system?",
+      "options": {
+        "a": "PA speaker",
+        "b": "Pink master light",
+        "c": "Ground crew call horn"
+      },
+      "correct_answer": "c",
+       "explanation": "When the ground crew call system is activated from the cockpit, it sounds a horn, typically in the nose landing gear area, to get the attention of ground personnel. [cite: 58]"
+    },
+    {
+      "question_number": 40,
+      "question": "Where does the ground crew call system provide signalling to?",
+      "options": {
+        "a": "Cargo bay",
+        "b": "Engine nacelle",
+        "c": "Nose landing gear area"
+      },
+      "correct_answer": "c",
+       "explanation": "The ground crew call horn is typically located in the nose landing gear area to effectively alert ground staff. [cite: 59]"
+    },
+    {
+      "question_number": 41,
+      "question": "What alerts the flight crew of an incoming call from the ground or cabin attendants?",
+      "options": {
+        "a": "Vibration alert",
+        "b": "Flashing red light",
+        "c": "Hi tone chime and Captain’s CALL light"
+      },
+      "correct_answer": "c",
+       "explanation": "An incoming call from the ground or cabin crew to the flight deck is indicated by a hi-tone chime and the illumination of the Captain's CALL light. [cite: 60]"
+    },
+    {
+      "question_number": 42,
+      "question": "When the flight crew receives a call, which chime is heard?",
+      "options": {
+        "a": "Low tone",
+        "b": "Two-tone chime",
+        "c": "Hi tone chime"
+      },
+      "correct_answer": "c",
+       "explanation": "A high-tone (Hi) chime sounds in the cockpit to alert the flight crew of an incoming call. [cite: 61]"
+    },
+    {
+      "question_number": 43,
+      "question": "What visual indicator accompanies the hi tone chime on the flight deck?",
+      "options": {
+        "a": "Red warning light",
+        "b": "Pink Master Call light",
+        "c": "Captain’s CALL light"
+      },
+      "correct_answer": "c",
+       "explanation": "Along with the hi-tone chime, the Captain's CALL light illuminates on the flight deck to indicate an incoming call. [cite: 62]"
+    },
+    {
+      "question_number": 44,
+      "question": "Which chime is associated with the attendant call system?",
+      "options": {
+        "a": "Hi tone chime",
+        "b": "Low tone chime",
+        "c": "Continuous tone"
+      },
+      "correct_answer": "a",
+       "explanation": "A hi-tone chime is used to signal a call from the cabin attendants to the flight deck. [cite: 63]"
+    },
+    {
+      "question_number": 45,
+      "question": "What happens when the attendant call system is activated?",
+      "options": {
+        "a": "Cabin oxygen masks deploy",
+        "b": "Pink Master Call lights illuminate",
+        "c": "Evacuation horn sounds"
+      },
+      "correct_answer": "b",
+       "explanation": "Activating the attendant call system illuminates the pink Master Call lights in the cockpit. [cite: 64]"
+    },
+    {
+      "question_number": 46,
+      "question": "How are the Pink Master Call lights reset after an attendant call?",
+      "options": {
+        "a": "Automatically after 10 seconds",
+        "b": "By the flight crew",
+        "c": "At the attendant’s panel"
+      },
+      "correct_answer": "c",
+       "explanation": "The Pink Master Call lights are reset from the originating cabin attendant's panel after the call has been acknowledged. [cite: 65]"
+    },
+    {
+      "question_number": 47,
+      "question": "The flight crew call system notifies the cockpit of a call from:",
+      "options": {
+        "a": "Nose landing gear sensors",
+        "b": "Engines",
+        "c": "Attendant or ground crew panel"
+      },
+      "correct_answer": "c",
+       "explanation": "The flight crew call system provides alerts in the cockpit for calls originating from either a cabin attendant's panel or a ground crew interphone station. [cite: 66]"
+    },
+    {
+      "question_number": 48,
+      "question": "The purpose of the attendant call system is to enable:",
+      "options": {
+        "a": "Audio warnings of system faults",
+        "b": "Secure cockpit doors",
+        "c": "Communication signalling between flight deck and cabin crew"
+      },
+      "correct_answer": "c",
+       "explanation": "The attendant call system is designed to allow communication signaling between the cabin crew and the flight deck. [cite: 67]"
+    },
+    {
+      "question_number": 49,
+      "question": "What is the typical use of VHF communication in aviation?",
+      "options": {
+        "a": "Oceanic operations",
+        "b": "Search and rescue",
+        "c": "Short-range voice communication with ATC"
+      },
+      "correct_answer": "c",
+       "explanation": "VHF (Very High Frequency) radio is the standard for short-range, line-of-sight voice communication, primarily between pilots and air traffic control (ATC) in continental airspace. [cite: 69]"
+    },
+    {
+      "question_number": 50,
+      "question": "HF communication is mainly used for:",
+      "options": {
+        "a": "Internal aircraft communications",
+        "b": "Long-range communication over oceans",
+        "c": "Satellite telemetry"
+      },
+      "correct_answer": "b",
+       "explanation": "HF (High Frequency) radio is used for long-range communication, especially over oceans and polar regions where VHF line-of-sight communication is not possible. [cite: 70]"
+    },
+    {
+      "question_number": 51,
+      "question": "Which radio system is least affected by terrain and distance?",
+      "options": {
+        "a": "HF",
+        "b": "VHF",
+        "c": "SATCOM"
+      },
+      "correct_answer": "c",
+       "explanation": "SATCOM (Satellite Communications) provides global coverage and is not limited by the Earth's curvature, terrain, or line-of-sight restrictions, unlike VHF and HF. [cite: 71]"
+    },
+    {
+      "question_number": 52,
+      "question": "What is a key limitation of HF communication?",
+      "options": {
+        "a": "Requires line-of-sight",
+        "b": "Short range",
+        "c": "Prone to atmospheric interference"
+      },
+      "correct_answer": "c",
+       "explanation": "A major drawback of HF communication is its susceptibility to atmospheric interference from factors like solar flares and the time of day, which can affect signal quality. [cite: 72]"
+    },
+    {
+      "question_number": 53,
+      "question": "What does SELCAL allow ATC to do?",
+      "options": {
+        "a": "Communicate via satellite",
+        "b": "Transmit emergency frequencies",
+        "c": "Selectively alert a specific aircraft crew"
+      },
+      "correct_answer": "c",
+       "explanation": "SELCAL (Selective Calling) enables Air Traffic Control (ATC) or an airline's ground station to alert the crew of a specific aircraft that they are being called, without the crew needing to continuously monitor the frequency. [cite: 73]"
+    },
+    {
+      "question_number": 54,
+      "question": "How does SELCAL notify the crew of an incoming message?",
+      "options": {
+        "a": "Radio tone only",
+        "b": "Flashing red light and siren",
+        "c": "Visual and aural cockpit alert"
+      },
+      "correct_answer": "c",
+       "explanation": "A successful SELCAL transmission results in both a visual (like a light) and an aural (like a chime) alert in the cockpit to notify the crew. [cite: 74]"
+    },
+    {
+      "question_number": 55,
+      "question": "What system allows long-range voice and data communications via satellite?",
+      "options": {
+        "a": "VHF",
+        "b": "SELCAL",
+        "c": "SATCOM"
+      },
+      "correct_answer": "c",
+       "explanation": "SATCOM (Satellite Communications) is the system used for long-range voice and data links by relaying signals through a network of orbiting satellites. [cite: 75]"
+    },
+    {
+      "question_number": 56,
+      "question": "The Emergency Locator Transmitter (ELT) is primarily used for:",
+      "options": {
+        "a": "Routine position reporting",
+        "b": "Internal crew communication",
+        "c": "Emergency location transmission after a crash"
+      },
+      "correct_answer": "c",
+       "explanation": "The primary function of an ELT is to automatically transmit a distress signal upon severe impact, helping search and rescue teams locate a crashed aircraft. [cite: 76]"
+    },
+    {
+      "question_number": 57,
+      "question": "When is the ELT typically activated?",
+      "options": {
+        "a": "On takeoff",
+        "b": "After aircraft shutdown",
+        "c": "Upon severe impact or crash"
+      },
+      "correct_answer": "c",
+       "explanation": "Emergency Locator Transmitters are designed to activate automatically when their G-switch detects forces typical of a severe impact or crash. [cite: 77]"
+    },
+    {
+      "question_number": 58,
+      "question": "What type of frequencies does the ELT transmit on?",
+      "options": {
+        "a": "VHF navigation",
+        "b": "HF voice",
+        "c": "Emergency frequencies (121.5 MHz and 406 MHz)"
+      },
+      "correct_answer": "c",
+       "explanation": "Modern ELTs transmit on the 406 MHz digital frequency, which is monitored by the Cospas-Sarsat satellite system, and also on the 121.5 MHz frequency for local homing by rescue teams. [cite: 78]"
+    },
+    {
+      "question_number": 59,
+      "question": "HF signals can travel beyond the line-of-sight because they:",
+      "options": {
+        "a": "Use satellite relay",
+        "b": "Bounce off the ionosphere",
+        "c": "Follow the Earth's curvature"
+      },
+      "correct_answer": "b",
+       "explanation": "HF radio waves achieve long-distance, beyond line-of-sight propagation by being refracted or bounced back to Earth by the ionosphere, a layer of the upper atmosphere. [cite: 81]"
+    },
+    {
+      "question_number": 60,
+      "question": "The ionosphere assists HF communication by:",
+      "options": {
+        "a": "Amplifying VHF signals",
+        "b": "Converting HF to SATCOM",
+        "c": "Refracting radio waves back to Earth"
+      },
+      "correct_answer": "c",
+       "explanation": "The ionosphere contains charged particles that refract HF radio waves, bending them back towards the Earth's surface and enabling communication over long distances. [cite: 82]"
+    },
+    {
+      "question_number": 61,
+      "question": "What is the main reason HF communication is used in oceanic flight?",
+      "options": {
+        "a": "It is cheaper than VHF",
+        "b": "It can bypass the ionosphere",
+        "c": "It enables long-distance communication beyond radar range"
+      },
+      "correct_answer": "c",
+       "explanation": "HF communication is essential for flights over oceanic and other remote regions because it allows for communication over vast distances that are beyond the range of line-of-sight systems like VHF and ground-based radar. [cite: 83]"
+    },
+    {
+      "question_number": 62,
+      "question": "Which layer of the atmosphere is responsible for extending HF communication range?",
+      "options": {
+        "a": "Troposphere",
+        "b": "Mesosphere",
+        "c": "Ionosphere"
+      },
+      "correct_answer": "c",
+       "explanation": "The ionosphere is the layer of the Earth's atmosphere that refracts HF radio waves, allowing them to travel over the horizon. [cite: 84]"
+    },
+    {
+      "question_number": 63,
+      "question": "A major disadvantage of HF communication compared to VHF or SATCOM is:",
+      "options": {
+        "a": "Lower installation cost",
+        "b": "Line-of-sight limitation",
+        "c": "Greater susceptibility to atmospheric interference"
+      },
+      "correct_answer": "c",
+       "explanation": "Compared to the clearer signals of VHF and SATCOM, HF communication is significantly more susceptible to atmospheric interference, which can degrade signal quality. [cite: 85]"
+    },
+    {
+      "question_number": 64,
+      "question": "What is the main advantage of SATCOM over VHF and HF?",
+      "options": {
+        "a": "It provides higher-quality cabin audio",
+        "b": "It operates only during taxi and takeoff",
+        "c": "It enables global communication coverage"
+      },
+      "correct_answer": "c",
+       "explanation": "The primary advantage of SATCOM is its ability to provide reliable, high-quality voice and data communication anywhere in the world, including polar and remote oceanic regions not covered by terrestrial systems. [cite: 88]"
+    },
+    {
+      "question_number": 65,
+      "question": "SATCOM is typically used when the aircraft is:",
+      "options": {
+        "a": "Taxiing at the airport",
+        "b": "Flying within VHF coverage",
+        "c": "Out of range of ground-based communication systems"
+      },
+      "correct_answer": "c",
+       "explanation": "SATCOM becomes the primary means of long-range communication when an aircraft is flying over areas, such as oceans, that are out of range of ground-based VHF and HF stations. [cite: 89]"
+    },
+    {
+      "question_number": 66,
+      "question": "The Satellite Data Unit (SDU) in a SATCOM system:",
+      "options": {
+        "a": "Tunes the VOR frequency",
+        "b": "Controls cabin lighting",
+        "c": "Interfaces with aircraft systems and manages signal routing"
+      },
+      "correct_answer": "c",
+      "explanation": "The SDU is the central processing unit of the SATCOM system.  It interfaces with various aircraft systems and manages the routing of signals to and from the satellite. [cite: 90]"
+    },
+    {
+      "question_number": 67,
+      "question": "What is the function of the high power amplifier in a SATCOM system?",
+      "options": {
+        "a": "Converts VHF to HF",
+        "b": "Increases signal strength for satellite transmission",
+        "c": "Powers cockpit instruments"
+      },
+      "correct_answer": "b",
+       "explanation": "The High Power Amplifier (HPA) boosts the power of the signal being sent from the aircraft up to the satellite to ensure it is strong enough to be received. [cite: 91]"
+    },
+    {
+      "question_number": 68,
+      "question": "The antenna used in SATCOM systems typically has:",
+      "options": {
+        "a": "Fixed directionality",
+        "b": "Line-of-sight limitations",
+        "c": "A steerable beam for satellite alignment"
+      },
+      "correct_answer": "c",
+       "explanation": "SATCOM antennas are typically steerable, either mechanically or electronically, to maintain a lock with the satellite as the aircraft's position and orientation change during flight. [cite: 92]"
+    },
+    {
+      "question_number": 69,
+      "question": "What is the purpose of the SELCAL system?",
+      "options": {
+        "a": "To decode VOR signals",
+        "b": "To alert a specific aircraft crew via radio",
+        "c": "To transmit weather radar information"
+      },
+      "correct_answer": "b",
+       "explanation": "SELCAL (Selective Calling) is a system that allows a ground radio operator to call a specific aircraft over HF or VHF radio, alerting the crew with a light and a chime. [cite: 95]"
+    },
+    {
+      "question_number": 70,
+      "question": "How is each aircraft identified in the SELCAL system?",
+      "options": {
+        "a": "By registration number",
+        "b": "By transponder code",
+        "c": "By a unique 4-letter SELCAL code"
+      },
+      "correct_answer": "c",
+       "explanation": "Each aircraft equipped with SELCAL is assigned a unique four-letter code, which allows ground stations to call that specific aircraft. [cite: 96]"
+    },
+    {
+      "question_number": 71,
+      "question": "What happens in the cockpit when a valid SELCAL code is received?",
+      "options": {
+        "a": "VHF radio is disabled",
+        "b": "Weather radar activates",
+        "c": "A chime sounds and a light illuminates"
+      },
+      "correct_answer": "c",
+       "explanation": "When the aircraft's SELCAL decoder receives the correct code, it triggers an alert in the cockpit, which typically consists of a chime sounding and a call light illuminating. [cite: 97]"
+    },
+    {
+      "question_number": 72,
+      "question": "Which communication bands can carry SELCAL alerts?",
+      "options": {
+        "a": "Only VHF",
+        "b": "Only HF",
+        "c": "HF and VHF"
+      },
+      "correct_answer": "c",
+       "explanation": "SELCAL alerts can be transmitted over both HF and VHF communication frequencies. [cite: 98]"
+    },
+    {
+      "question_number": 73,
+      "question": "SELCAL helps reduce pilot workload by:",
+      "options": {
+        "a": "Automatically changing flight routes",
+        "b": "Eliminating the need for radio checks",
+        "c": "Allowing pilots to avoid constant radio monitoring"
+      },
+      "correct_answer": "c",
+       "explanation": "By providing a distinct alert for incoming calls, SELCAL reduces the need for pilots to continuously listen to noisy radio frequencies, thus lowering fatigue and workload. [cite: 99]"
+    },
+    {
+      "question_number": 74,
+      "question": "What is the primary function of an Emergency Locator Transmitter (ELT)?",
+      "options": {
+        "a": "Transmit ATC clearance information",
+        "b": "Provide onboard voice communication",
+        "c": "Transmit a distress signal after a crash"
+      },
+      "correct_answer": "c",
+       "explanation": "An ELT's primary purpose is to automatically broadcast a distress signal on emergency frequencies following a crash, to aid search and rescue efforts. [cite: 102]"
+    },
+    {
+      "question_number": 75,
+      "question": "On which frequency does a modern digital ELT typically transmit?",
+      "options": {
+        "a": "121.5 MHz only",
+        "b": "118.0 MHz",
+        "c": "406 MHz"
+      },
+      "correct_answer": "c",
+      "explanation": "Modern digital ELTs transmit on 406 MHz, which is monitored by the Cospas-Sarsat satellite system for global detection.  They also transmit a lower power signal on 121.5 MHz for local homing. [cite: 103]"
+    },
+    {
+      "question_number": 76,
+      "question": "The primary function of static dischargers (wicks) is to:",
+      "options": {
+        "a": "Increase fuel efficiency",
+        "b": "Enhance engine performance",
+        "c": "Discharge static electricity to prevent interference"
+      },
+      "correct_answer": "c",
+       "explanation": "Static dischargers are designed to safely bleed static electricity buildup from the airframe into the atmosphere, preventing it from causing radio interference. [cite: 106]"
+    },
+    {
+      "question_number": 77,
+      "question": "Static electricity buildup on aircraft in flight can cause:",
+      "options": {
+        "a": "Increased thrust",
+        "b": "RF and audio interference",
+        "c": "Fire in fuel tanks"
+      },
+      "correct_answer": "b",
+       "explanation": "The accumulation and discharge of static electricity on an aircraft can generate significant radio frequency (RF) and audio interference, disrupting communication and navigation systems. [cite: 108]"
+    },
+    {
+      "question_number": 78,
+      "question": "Where are static dischargers commonly located on the aircraft?",
+      "options": {
+        "a": "Cockpit instruments",
+        "b": "Engine nacelles",
+        "c": "Wing tips, stabilizers, and trailing edges"
+      },
+      "correct_answer": "c",
+       "explanation": "Static dischargers are typically located on the sharp trailing edges of wings, stabilizers, and other control surfaces where static charge tends to accumulate. [cite: 109]"
+    },
+    {
+      "question_number": 79,
+      "question": "What phenomenon may occur if static electricity is not properly discharged?",
+      "options": {
+        "a": "Autopilot disengagement",
+        "b": "Corona discharge causing RF interference",
+        "c": "Loss of hydraulic power"
+      },
+      "correct_answer": "b",
+       "explanation": "If not dissipated by static wicks, the buildup of static electricity can lead to corona discharge, a phenomenon that creates broadband radio frequency (RF) interference. [cite: 110]"
+    },
+    {
+      "question_number": 80,
+      "question": "Static dischargers release static electricity:",
+      "options": {
+        "a": "Internally to the airframe",
+        "b": "Into the hydraulic system",
+        "c": "Directly into the atmosphere"
+      },
+      "correct_answer": "c",
+       "explanation": "Static dischargers are designed to safely release the accumulated static charge from the aircraft's frame directly into the surrounding atmosphere. [cite: 111]"
+    }
+]

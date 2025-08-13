@@ -1,0 +1,354 @@
+[
+    {
+        "question_number": 1,
+        "question": "What are the three junction connections of a Field-Effect Transistor (FET)?",
+        "options": {
+            "a": "Emitter, Base, Collector",
+            "b": "Anode, Cathode, Gate",
+            "c": "Drain, Source, Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "A Field-Effect Transistor (FET) is a three-terminal device. Its terminals are the Source (where charge carriers enter), the Drain (where they exit), and the Gate (which controls the flow of carriers between the source and drain)."
+    },
+    {
+        "question_number": 2,
+        "question": "For a typical BJT to be active, the Base-Emitter (BE) junction must be:",
+        "options": {
+            "a": "Reverse biased",
+            "b": "Forward biased",
+            "c": "Non-conductive"
+        },
+        "correct_answer": "b",
+        "explanation": "For a Bipolar Junction Transistor (BJT) to operate in its active region for amplification, the base-emitter junction must be forward biased to allow a small base current to control a larger collector current."
+    },
+    {
+        "question_number": 3,
+        "question": "How many terminals does a standard diode have?",
+        "options": {
+            "a": "One (1)",
+            "b": "Two (2)",
+            "c": "Three (3)"
+        },
+        "correct_answer": "b",
+        "explanation": "A standard diode is a two-terminal electronic component that allows current to flow in only one direction. The two terminals are called the anode and the cathode."
+    },
+    {
+        "question_number": 4,
+        "question": "In a standard NPN bipolar junction transistor, the 'P' region represents the:",
+        "options": {
+            "a": "Emitter",
+            "b": "Base",
+            "c": "Collector"
+        },
+        "correct_answer": "b",
+        "explanation": "In an NPN transistor, the structure consists of a thin layer of P-type semiconductor (the Base) sandwiched between two layers of N-type semiconductor (the Emitter and Collector)."
+    },
+    {
+        "question_number": 5,
+        "question": "A photoresistor is also known as a:",
+        "options": {
+            "a": "Light Dependent Resistor (LDR)",
+            "b": "Light Emitting Diode (LED)",
+            "c": "Photovoltaic Cell"
+        },
+        "correct_answer": "a",
+        "explanation": "A photoresistor is a passive component whose resistance decreases with increasing incident light intensity. It is commonly known as a Light Dependent Resistor or LDR."
+    },
+    {
+        "question_number": 6,
+        "question": "A Zener diode is used as a voltage stabilizer when it is operated in the:",
+        "options": {
+            "a": "Forward biased region",
+            "b": "Reverse biased region",
+            "c": "Saturation region"
+        },
+        "correct_answer": "b",
+        "explanation": "A Zener diode is designed to operate in its reverse breakdown region. In this region, it maintains a nearly constant voltage across its terminals, making it ideal for voltage regulation."
+    },
+    {
+        "question_number": 7,
+        "question": "How many terminals does a Thyristor (Silicon-Controlled Rectifier) have?",
+        "options": {
+            "a": "Two (2)",
+            "b": "Three (3)",
+            "c": "Four (4)"
+        },
+        "correct_answer": "b",
+        "explanation": "A thyristor, or SCR, is a three-terminal device consisting of an Anode, a Cathode, and a Gate. The Gate is used to trigger the device into conduction."
+    },
+    {
+        "question_number": 8,
+        "question": "Which solid-state device is commonly used to replace an electromechanical relay for high-speed switching?",
+        "options": {
+            "a": "Zener Diode",
+            "b": "Thyristor",
+            "c": "Thermistor"
+        },
+        "correct_answer": "b",
+        "explanation": "Thyristors (SCRs) are used for high-speed switching of high-power circuits. They have no moving parts, allowing them to switch much faster than electromechanical relays."
+    },
+    {
+        "question_number": 9,
+        "question": "Compared to a Bipolar Junction Transistor (BJT), a Field-Effect Transistor (FET) is considered a:",
+        "options": {
+            "a": "Current controlled device",
+            "b": "Voltage controlled device",
+            "c": "Power controlled device"
+        },
+        "correct_answer": "b",
+        "explanation": "An FET is a voltage-controlled device because the voltage applied to the Gate terminal controls the current flowing from the Source to the Drain. A BJT, in contrast, is a current-controlled device."
+    },
+    {
+        "question_number": 10,
+        "question": "A thermistor is a type of resistor whose resistance is highly sensitive to:",
+        "options": {
+            "a": "Light",
+            "b": "Voltage",
+            "c": "Temperature"
+        },
+        "correct_answer": "c",
+        "explanation": "The term 'thermistor' is a portmanteau of 'thermal' and 'resistor'. It is a resistor whose resistance changes significantly and predictably with temperature."
+    },
+    {
+        "question_number": 11,
+        "question": "Which type of diode emits photons when conducting current?",
+        "options": {
+            "a": "Zener Diode",
+            "b": "Light Emitting Diode (LED)",
+            "c": "Varactor Diode"
+        },
+        "correct_answer": "b",
+        "explanation": "A Light Emitting Diode (LED) is a semiconductor light source that emits photons (light) when current flows through it, due to a phenomenon called electroluminescence."
+    },
+    {
+        "question_number": 12,
+        "question": "Which equation correctly relates the currents in a Bipolar Junction Transistor (BJT)?",
+        "options": {
+            "a": "I_E = I_C - I_B",
+            "b": "I_B = I_C + I_E",
+            "c": "I_C = I_E - I_B"
+        },
+        "correct_answer": "c",
+        "explanation": "Based on Kirchhoff's Current Law, the emitter current (I_E) is the sum of the collector current (I_C) and the base current (I_B). Therefore, I_E = I_C + I_B, which can be rearranged to I_C = I_E - I_B."
+    },
+    {
+        "question_number": 13,
+        "question": "In a PNP transistor, conventional current flows from the:",
+        "options": {
+            "a": "Base to the Emitter",
+            "b": "Emitter to the Base",
+            "c": "Collector to the Emitter"
+        },
+        "correct_answer": "b",
+        "explanation": "In a PNP transistor, the emitter is P-type, the base is N-type, and the collector is P-type. Conventional current (flow of positive charge) flows from the emitter into the base and then into the collector."
+    },
+    {
+        "question_number": 14,
+        "question": "An ideal diode acts as an open switch when it is:",
+        "options": {
+            "a": "Forward biased",
+            "b": "Reverse biased",
+            "c": "Unbiased"
+        },
+        "correct_answer": "b",
+        "explanation": "In an ideal model, a reverse-biased diode presents infinite resistance, blocking any current flow. This behavior is equivalent to an open switch or open circuit."
+    },
+    {
+        "question_number": 15,
+        "question": "Which of the following describes a transistor in the 'off state' (cut-off region)?",
+        "options": {
+            "a": "Forward blocking & Reverse blocking",
+            "b": "Forward conduction only",
+            "c": "Reverse conduction only"
+        },
+        "correct_answer": "a",
+        "explanation": "In the 'off' or cut-off state, both the base-emitter and collector-base junctions of a transistor are reverse-biased. This prevents significant current from flowing, effectively blocking current in both directions."
+    },
+    {
+        "question_number": 16,
+        "question": "Which component's resistance changes significantly with temperature to protect a circuit from overcurrent?",
+        "options": {
+            "a": "NTC Thermistor",
+            "b": "Varactor Diode",
+            "c": "PTC Thermistor"
+        },
+        "correct_answer": "c",
+        "explanation": "A PTC (Positive Temperature Coefficient) thermistor's resistance increases significantly as it heats up due to overcurrent. This increased resistance limits the current flow, protecting the circuit.  An NTC thermistor's resistance decreases with increasing temperature, making it unsuitable for this purpose."
+    },
+    {
+        "question_number": 17,
+        "question": "The change in properties of a photoconductive cell when subjected to light energy is a:",
+        "options": {
+            "a": "Chemical change",
+            "b": "Physical change",
+            "c": "Nuclear change"
+        },
+        "correct_answer": "b",
+        "explanation": "The change in resistance of a photoconductive cell (like an LDR) is a physical phenomenon. Light photons excite electrons, increasing conductivity, but this does not alter the chemical structure of the material."
+    },
+    {
+        "question_number": 18,
+        "question": "In which device is the flow of current through the channel controlled by an applied electric field?",
+        "options": {
+            "a": "Bipolar Junction Transistor (BJT)",
+            "b": "Field-Effect Transistor (FET)",
+            "c": "Thermistor"
+        },
+        "correct_answer": "b",
+        "explanation": "This is the fundamental operating principle of a Field-Effect Transistor (FET). An electric field created by the voltage on the gate terminal controls the conductivity of the channel between the source and drain."
+    },
+    {
+        "question_number": 19,
+        "question": "In which mode of operation is a transistor when both the base-emitter (BE) and collector-base (CB) junctions are forward biased?",
+        "options": {
+            "a": "Cut-off mode",
+            "b": "Active mode",
+            "c": "Saturation mode"
+        },
+        "correct_answer": "c",
+        "explanation": "When both the BE and CB junctions are forward biased, the transistor is in saturation mode. In this state, it acts like a closed switch, allowing maximum current to flow from collector to emitter."
+    },
+    {
+        "question_number": 20,
+        "question": "Which terminal is used to trigger or 'fire' a Silicon-Controlled Rectifier (SCR)?",
+        "options": {
+            "a": "Anode",
+            "b": "Cathode",
+            "c": "Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "A small positive voltage pulse applied to the Gate terminal is used to trigger the SCR from its non-conducting (off) state to its conducting (on) state."
+    },
+    {
+        "question_number": 21,
+        "question": "A Thyristor (SCR) is a semiconductor device with a structure best described as:",
+        "options": {
+            "a": "PN",
+            "b": "PNP",
+            "c": "PNPN"
+        },
+        "correct_answer": "c",
+        "explanation": "A thyristor is a four-layer solid-state device, composed of alternating P-type and N-type semiconductor materials, forming a PNPN structure."
+    },
+    {
+        "question_number": 22,
+        "question": "When the positive terminal of a battery is connected to the P-type material and the negative terminal to the N-type material of a junction, the diode is:",
+        "options": {
+            "a": "Reverse biased",
+            "b": "Forward biased",
+            "c": "In equilibrium"
+        },
+        "correct_answer": "b",
+        "explanation": "This connection is known as forward bias. It reduces the width of the depletion region and allows current to flow easily through the diode."
+    },
+    {
+        "question_number": 23,
+        "question": "An NPN transistor will turn ON when its Base-Emitter junction is:",
+        "options": {
+            "a": "Reverse biased",
+            "b": "Unconnected",
+            "c": "Forward biased"
+        },
+        "correct_answer": "c",
+        "explanation": "To turn an NPN transistor on, the base-emitter junction must be forward biased by applying a voltage to the base that is more positive than the voltage at the emitter, allowing current to flow into the base."
+    },
+    {
+        "question_number": 24,
+        "question": "The depletion region of a P-N junction is so named because it is depleted of any:",
+        "options": {
+            "a": "Impurity atoms",
+            "b": "Free charge carriers",
+            "c": "Semiconductor material"
+        },
+        "correct_answer": "b",
+        "explanation": "The depletion region forms at the P-N junction as electrons from the N-side and holes from the P-side diffuse and recombine. This leaves behind a region that is depleted of mobile or free charge carriers."
+    },
+    {
+        "question_number": 25,
+        "question": "An N-type semiconductor is created by doping with an impurity that has:",
+        "options": {
+            "a": "3 valence electrons",
+            "b": "4 valence electrons",
+            "c": "5 valence electrons"
+        },
+        "correct_answer": "c",
+        "explanation": "N-type semiconductors are created by adding pentavalent impurities (atoms with 5 valence electrons) to an intrinsic semiconductor. Four electrons form covalent bonds, leaving one free electron as a charge carrier."
+    },
+    {
+        "question_number": 26,
+        "question": "A semiconductor that has been subjected to a doping process is called:",
+        "options": {
+            "a": "Intrinsic",
+            "b": "Extrinsic",
+            "c": "Compound"
+        },
+        "correct_answer": "b",
+        "explanation": "An intrinsic semiconductor is pure. When it is intentionally doped with impurities to increase its conductivity, it becomes an extrinsic semiconductor."
+    },
+    {
+        "question_number": 27,
+        "question": "What electrical property measurement is used to know the polarity of a diode?",
+        "options": {
+            "a": "Capacitance",
+            "b": "Resistance",
+            "c": "Inductance"
+        },
+        "correct_answer": "b",
+        "explanation": "The polarity (anode and cathode) of a diode can be determined by measuring its resistance. It will show a low resistance when forward biased and a very high resistance when reverse biased."
+    },
+    {
+        "question_number": 28,
+        "question": "How are diodes connected to increase the overall current handling capability?",
+        "options": {
+            "a": "In series",
+            "b": "In parallel",
+            "c": "In a bridge configuration"
+        },
+        "correct_answer": "b",
+        "explanation": "Connecting diodes in parallel divides the total current among them. This allows the combination to handle a much larger total current than a single diode could."
+    },
+    {
+        "question_number": 29,
+        "question": "A Zener diode is specifically designed to operate in the:",
+        "options": {
+            "a": "Forward active region",
+            "b": "Reverse breakdown region",
+            "c": "Thermal runaway region"
+        },
+        "correct_answer": "b",
+        "explanation": "Unlike standard diodes, Zener diodes are engineered to have a precise and stable breakdown voltage when reverse biased, allowing them to operate reliably in this region for voltage regulation."
+    },
+    {
+        "question_number": 30,
+        "question": "The phenomenon where a reverse bias gives minority carriers sufficient energy to jump directly across the junction is known as:",
+        "options": {
+            "a": "Tunneling",
+            "b": "Breakdown",
+            "c": "Doping"
+        },
+        "correct_answer": "a",
+        "explanation": "This describes quantum tunneling, or the Zener effect. In a heavily doped diode, the reverse bias creates a very narrow depletion region, allowing electrons to tunnel directly from the valence band to the conduction band."
+    },
+    {
+        "question_number": 31,
+        "question": "The capacitance of a varactor diode (Cj) is inversely proportional to:",
+        "options": {
+            "a": "The applied voltage",
+            "b": "The width of the depletion region",
+            "c": "The doping concentration"
+        },
+        "correct_answer": "b",
+        "explanation": "A varactor diode acts as a capacitor. Its capacitance (Cj) depends on the width (d) of its depletion region, following the formula Cj = \u03b5A/d. Since increasing reverse voltage widens the depletion region, capacitance is inversely proportional to its width."
+    },
+    {
+        "question_number": 32,
+        "question": "When a transistor is used for amplification, it operates in the:",
+        "options": {
+            "a": "Active region",
+            "b": "Cut-off region",
+            "c": "Saturation region"
+        },
+        "correct_answer": "a",
+        "explanation": "The active region is where the transistor behaves as an amplifier. The collector current is proportional to the base current, allowing a small input signal to control a large output signal."
+    }
+]

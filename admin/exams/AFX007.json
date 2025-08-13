@@ -1,0 +1,1366 @@
+[
+    {
+      "question_number": 1,
+      "question": "The fuselage skin and flaps are usually made from which aluminum alloy?",
+      "options": {
+        "a": "7075",
+        "b": "2024",
+        "c": "7178"
+      },
+      "correct_answer": "b",
+      "explanation": "The correct answer is 2024, as this aluminum alloy is commonly used for fuselage skin and flaps due to its material properties."
+    },
+    {
+      "question_number": 2,
+      "question": "Which aluminum alloy is typically used for wing spars and beams due to its high compressive strength?",
+      "options": {
+        "a": "7055",
+        "b": "2024",
+        "c": "7175"
+      },
+      "correct_answer": "b",
+      "explanation": "The correct answer is 2024. While other alloys have high strength, 2024 is typically selected for wing spars and beams."
+    },
+    {
+      "question_number": 3,
+      "question": "For high strength requirements, aircraft parts are often assembled using:",
+      "options": {
+        "a": "RIVETS ONLY",
+        "b": "NUTS AND BOLTS",
+        "c": "ADHESIVE BONDING"
+      },
+      "correct_answer": "b",
+      "explanation": "Nuts and bolts are used for assembling aircraft parts with high strength requirements."
+    },
+    {
+      "question_number": 4,
+      "question": "What is a critical principle to follow when assembling aircraft in a repair shop compared to a factory?",
+      "options": {
+        "a": "USE INFERIOR MATERIALS AS REQUIRED",
+        "b": "ADOPT FACTORY-LIKE ASSEMBLY PLANNING",
+        "c": "ALWAYS USE ALL TYPE OF HARDWARE"
+      },
+      "correct_answer": "b",
+      "explanation": "Adopting factory-like assembly planning is a critical principle in a repair shop to ensure consistency and safety."
+    },
+    {
+      "question_number": 5,
+      "question": "For larger aircraft, which of the following items might be needed during assembly?",
+      "options": {
+        "a": "SMALL HAND TOOLS ONLY",
+        "b": "LIFTING BRIDLE WITH SPREADER BARS",
+        "c": "ONLY A SIMPLE MEASURING TAPE"
+      },
+      "correct_answer": "b",
+      "explanation": "Assembling larger aircraft requires heavy-duty equipment like a lifting bridle with spreader bars."
+    },
+    {
+      "question_number": 6,
+      "question": "Why is it important to insert bolts in the correct direction?",
+      "options": {
+        "a": "IT AVOIDS DISTURBED FLOW OF AIR",
+        "b": "IT PREVENTS INTERFERENCE WITH CONTROL SURFACES",
+        "c": "IT MAKES THEM EASIER TO REMOVE"
+      },
+      "correct_answer": "b",
+      "explanation": "Inserting bolts in the correct direction is important to prevent them from interfering with the movement of control surfaces."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the recommended safety mechanism for bolts used in control surface hinges?",
+      "options": {
+        "a": "FIBER LOCKNUTS",
+        "b": "LOCK WASHERS",
+        "c": "COTTER PINS"
+      },
+      "correct_answer": "c",
+      "explanation": "Cotter pins are the recommended safety mechanism for bolts in critical applications like control surface hinges."
+    },
+    {
+      "question_number": 8,
+      "question": "In the absence of specific instructions, how should bolts be oriented?",
+      "options": {
+        "a": "THREADED END UP",
+        "b": "BOLT HEAD UP OR FORWARD",
+        "c": "RANDOMLY"
+      },
+      "correct_answer": "b",
+      "explanation": "As a general rule, bolts should be oriented with the head up or facing forward if no specific instructions are given."
+    },
+    {
+      "question_number": 9,
+      "question": "What should be done first before assembling components?",
+      "options": {
+        "a": "LEVEL THE AIRCRAFT",
+        "b": "SUPPORTING THE STRUCTURE TO BE MOUNTED",
+        "c": "INSPECT MOUNTING AREA"
+      },
+      "correct_answer": "c",
+      "explanation": "The first step before assembling any components is to thoroughly inspect the mounting area for damage or defects."
+    },
+    {
+      "question_number": 10,
+      "question": "According to safety guidelines, what should technicians ensure when using jacks or hoists?",
+      "options": {
+        "a": "ALWAYS NOSE OF AIRCRAFT TO WIND DIRECTION",
+        "b": "THEY SHOULD LET OTHERS WATCH FROM CLOSE BY",
+        "c": "NOBODY SHOULD BE POSITIONED UNDER THE SUPPORT"
+      },
+      "correct_answer": "c",
+      "explanation": "A critical safety rule when using jacks or hoists is to ensure that no one is positioned under the suspended load."
+    },
+    {
+      "question_number": 11,
+      "question": "Which of the following components is NOT used for aircraft hoisting?",
+      "options": {
+        "a": "SPREADER BAR",
+        "b": "SLING",
+        "c": "WOODEN CRADLE"
+      },
+      "correct_answer": "c",
+      "explanation": "A wooden cradle is typically used for support on the ground, not for hoisting an aircraft."
+    },
+    {
+      "question_number": 12,
+      "question": "After the fuselage is assembled, what structure is typically used to support it during further assembly?",
+      "options": {
+        "a": "JUST THE FLOOR OF THE FACTORY",
+        "b": "ANY NEARBY EQUIPMENT",
+        "c": "A JIG OR FIXTURE"
+      },
+      "correct_answer": "c",
+      "explanation": "A jig or fixture is used to support the fuselage and maintain its alignment during further assembly."
+    },
+    {
+      "question_number": 13,
+      "question": "When removing wings, what is the very first step that should be taken?",
+      "options": {
+        "a": "REMOVE CONTROL CABLE CONNECTIONS",
+        "b": "OBSERVE SAFETY PROCEDURES",
+        "c": "LABEL AND RETAIN HARDWARE"
+      },
+      "correct_answer": "b",
+      "explanation": "The very first step before beginning any major procedure like wing removal is to observe all safety procedures."
+    },
+    {
+      "question_number": 14,
+      "question": "What should be done after disconnecting brake lines when removing landing gear?",
+      "options": {
+        "a": "DEPRESSURIZE THE HYDRAULIC SYSTEM",
+        "b": "REMOVE MOUNT HARDWARE",
+        "c": "INSPECT BRAKE LINES"
+      },
+      "correct_answer": "a",
+      "explanation": "After disconnecting brake lines, the hydraulic system must be depressurized to prevent injury or damage."
+    },
+    {
+      "question_number": 15,
+      "question": "What is one of the last steps in the assembly/installation process for wings?",
+      "options": {
+        "a": "INSPECT MOUNTING AREA",
+        "b": "ADJUST THE INCIDENCE",
+        "c": "DISCONNECT CONTROL CABLES"
+      },
+      "correct_answer": "b",
+      "explanation": "Adjusting the wing incidence is one of the final steps in the wing installation and rigging process."
+    },
+    {
+      "question_number": 16,
+      "question": "During the installation of stabilizers, what should be done after supporting the stabilizer?",
+      "options": {
+        "a": "DISCONNECT CONTROL CABLES",
+        "b": "OPEN ACCESS PANELS",
+        "c": "INSTALL MOUNT FITTINGS"
+      },
+      "correct_answer": "c",
+      "explanation": "After the stabilizer is properly supported, the next step is to install the mount fittings."
+    },
+    {
+      "question_number": 17,
+      "question": "In the landing gear assembly for low-wing airplanes, what component must be installed first?",
+      "options": {
+        "a": "WINGS",
+        "b": "EMPENNAGE",
+        "c": "LANDING GEAR"
+      },
+      "correct_answer": "c",
+      "explanation": "For low-wing airplanes, the landing gear must be installed first to support the aircraft during subsequent assembly."
+    },
+    {
+      "question_number": 18,
+      "question": "What is the purpose of using a spreader bar during aircraft hoisting?",
+      "options": {
+        "a": "TO INCREASE THE LOAD WEIGHT CAPACITY",
+        "b": "PROVIDE CLEARANCE BETWEEN THE FUSELAGE AND CABLE",
+        "c": "TO STABILIZE THE AIRCRAFT ON GROUND"
+      },
+      "correct_answer": "b",
+      "explanation": "A spreader bar is used to keep lifting cables from contacting and damaging the fuselage, providing necessary clearance."
+    },
+    {
+      "question_number": 19,
+      "question": "After inspecting the mounting area of the landing gear, what is the next step in the assembly process?",
+      "options": {
+        "a": "INSTALL THE BRAKE LINES",
+        "b": "TORQUE AND SAFETY MOUNTS",
+        "c": "SUPPORT THE LANDING GEAR"
+      },
+      "correct_answer": "c",
+      "explanation": "After inspection, the landing gear must be supported in position for installation."
+    },
+    {
+      "question_number": 20,
+      "question": "What type of supports are recommended for stabilizers to prevent damage?",
+      "options": {
+        "a": "WOODEN CRADLE SUPPORTS WITH PADDING",
+        "b": "METAL SUPPORTS WITHOUT PADDING",
+        "c": "NO SUPPORTS REQUIRED"
+      },
+      "correct_answer": "a",
+      "explanation": "To prevent damage, stabilizers should be placed on padded supports, such as wooden cradles with padding."
+    },
+    {
+      "question_number": 21,
+      "question": "Which document is issued by the FAA to formally describe an aircraft and its limitations?",
+      "options": {
+        "a": "MAINTENANCE MANUAL",
+        "b": "TYPE CERTIFICATE DATA SHEETS (TCDS)",
+        "c": "STRUCTURAL REPAIR MANUAL (SRM)"
+      },
+      "correct_answer": "b",
+      "explanation": "The Type Certificate Data Sheet (TCDS) is the FAA document that formally describes the aircraft's design and operating limitations."
+    },
+    {
+      "question_number": 22,
+      "question": "What aids in ensuring that control surfaces remain in their neutral position during rigging?",
+      "options": {
+        "a": "PROPER TORQUE SPECIFICATIONS",
+        "b": "RIG PINS OR BLOCKS",
+        "c": "SAFETY PIN"
+      },
+      "correct_answer": "b",
+      "explanation": "Rig pins or blocks are special tools used to lock control surfaces in their neutral position during the rigging process."
+    },
+    {
+      "question_number": 23,
+      "question": "Which type of hardware can be used for safetying in addition to safety wire?",
+      "options": {
+        "a": "DOWEL PINS",
+        "b": "LOCKNUTS",
+        "c": "RUBBER BANDS"
+      },
+      "correct_answer": "b",
+      "explanation": "Locknuts are a type of self-locking hardware that can be used for safetying purposes in addition to traditional safety wire."
+    },
+    {
+      "question_number": 24,
+      "question": "Which type of safety wire is indicated in the guidelines as being the proper type?",
+      "options": {
+        "a": "SINGLE TWIST ONLY",
+        "b": "DOUBLE TWIST ONLY",
+        "c": "DOUBLE OR SINGLE TWIST"
+      },
+      "correct_answer": "c",
+      "explanation": "Guidelines allow for either the double twist or single twist (pigtail) method for safety wiring, depending on the application."
+    },
+    {
+      "question_number": 25,
+      "question": "What type of document provides guidelines and procedures for maintaining or repairing an aircraft?",
+      "options": {
+        "a": "SAFETY MANUAL",
+        "b": "TYPE CERTIFICATE DATA SHEET",
+        "c": "MAINTENANCE MANUAL"
+      },
+      "correct_answer": "c",
+      "explanation": "The Maintenance Manual contains the official procedures, guidelines, and specifications for performing maintenance and repairs."
+    },
+    {
+      "question_number": 26,
+      "question": "What is the first step in the control surface rigging process?",
+      "options": {
+        "a": "MEASURE CABLE TENSION",
+        "b": "LOCK CONTROL SURFACE",
+        "c": "MAKE OPERATIONAL CHECK"
+      },
+      "correct_answer": "b",
+      "explanation": "The first step in rigging a control surface is to lock the surface in its neutral position using rig pins or blocks."
+    },
+    {
+      "question_number": 27,
+      "question": "When lifting an aircraft fuselage with a sling, what precaution should be taken?",
+      "options": {
+        "a": "USE A CHAIN INSTEAD OF WEBBING",
+        "b": "ATTACH DIRECTLY TO THE UNREINFORCED SKIN AREAS",
+        "c": "USE WELL PADDED WEBBING TO AVOID DAMAGE"
+      },
+      "correct_answer": "c",
+      "explanation": "To avoid damaging the aircraft structure, a sling made of well-padded webbing should be used when lifting a fuselage."
+    },
+    {
+      "question_number": 28,
+      "question": "What is the purpose of tapered drifts during assembly?",
+      "options": {
+        "a": "TO CUT BOLT THREADS",
+        "b": "TO HELP LINE UP BOLT HOLES ACCURATELY",
+        "c": "TO MEASURE THE LENGTH OF BOLTS"
+      },
+      "correct_answer": "b",
+      "explanation": "Tapered drifts are tools used to accurately align bolt holes in different components during assembly."
+    },
+    {
+      "question_number": 29,
+      "question": "How accurate is a properly maintained tensiometer?",
+      "options": {
+        "a": "90%",
+        "b": "95%",
+        "c": "98%"
+      },
+      "correct_answer": "c",
+      "explanation": "A properly maintained and calibrated tensiometer is expected to be 98% accurate in measuring cable tension."
+    },
+    {
+      "question_number": 30,
+      "question": "When rigging flight control systems, which tool is NOT commonly used?",
+      "options": {
+        "a": "TENSIOMETER",
+        "b": "SPIRIT LEVEL",
+        "c": "PROTRACTOR"
+      },
+      "correct_answer": "c",
+      "explanation": "While tensiometers and levels are crucial, a simple protractor is less common than specialized tools like rigging protractors or contour templates for measuring control surface travel."
+    },
+    {
+      "question_number": 31,
+      "question": "What is the purpose of a rigging fixture or contour template?",
+      "options": {
+        "a": "TO MEASURE TORQUE TUBE ANGLE",
+        "b": "TO ADJUST STOPS AS NECESSARY",
+        "c": "TO MEASURE CONTROL SURFACE TRAVEL"
+      },
+      "correct_answer": "c",
+      "explanation": "A rigging fixture or contour template is used to accurately measure the travel of a control surface."
+    },
+    {
+      "question_number": 32,
+      "question": "To level an aircraft longitudinally, which item might you use?",
+      "options": {
+        "a": "TAPE RULE",
+        "b": "SPIRIT LEVEL",
+        "c": "CLINOMETER"
+      },
+      "correct_answer": "b",
+      "explanation": "A spirit level is placed on specified longitudinal leveling points to level the aircraft from nose to tail."
+    },
+    {
+      "question_number": 33,
+      "question": "Where should a spirit level be placed for lateral leveling?",
+      "options": {
+        "a": "ON A LONGITUDINAL MEMBER",
+        "b": "ON A LATERAL MEMBER",
+        "c": "ON THE WINGS"
+      },
+      "correct_answer": "b",
+      "explanation": "For lateral (roll) leveling, a spirit level is placed on a specified lateral structural member."
+    },
+    {
+      "question_number": 34,
+      "question": "What method do some manufacturers use to level an aircraft?",
+      "options": {
+        "a": "USING A RULER",
+        "b": "USING A PLUMB BOB AND TARGET",
+        "c": "USING A TENSION GAUGE"
+      },
+      "correct_answer": "b",
+      "explanation": "Some aircraft are leveled by dropping a plumb bob from a specified point and checking its alignment with a target or grid plate."
+    },
+    {
+      "question_number": 35,
+      "question": "What indicates that an aircraft might need a symmetry check?",
+      "options": {
+        "a": "GOOD FLIGHT CHARACTERISTICS",
+        "b": "UNUSUAL FLIGHT CHARACTERISTICS",
+        "c": "NORMAL STRUCTURAL INTEGRITY"
+      },
+      "correct_answer": "b",
+      "explanation": "Unusual flight characteristics are a primary indicator that the aircraft's alignment is off and a symmetry check is needed."
+    },
+    {
+      "question_number": 36,
+      "question": "For a successful symmetry check, measurements should be taken from the vertical fin to which components?",
+      "options": {
+        "a": "THE WINGS",
+        "b": "THE HORIZONTAL STABILIZER",
+        "c": "BOTH A&B"
+      },
+      "correct_answer": "c",
+      "explanation": "A symmetry check involves measuring from points on the vertical fin to corresponding points on both the wings and the horizontal stabilizer."
+    },
+    {
+      "question_number": 37,
+      "question": "What is the first thing to check if there are reported strange flight characteristics?",
+      "options": {
+        "a": "PROPER MATERIALS",
+        "b": "SAFETY DEVICES",
+        "c": "STRUCTURAL ALIGNMENT"
+      },
+      "correct_answer": "c",
+      "explanation": "If strange flight characteristics are reported, the first thing to investigate is the aircraft's structural alignment."
+    },
+    {
+      "question_number": 38,
+      "question": "What should be checked after any major structural repairs?",
+      "options": {
+        "a": "SYMMETRY CHECK",
+        "b": "OPERATIONAL CHECK",
+        "c": "CABLE TENSION"
+      },
+      "correct_answer": "a",
+      "explanation": "A symmetry check is required after any major structural repairs to ensure the aircraft's alignment has been maintained."
+    },
+    {
+      "question_number": 39,
+      "question": "What can be a reason for misalignment noticed during a symmetry check?",
+      "options": {
+        "a": "HIGH FUEL LEVELS",
+        "b": "SEVERELY WORN TIRES",
+        "c": "STRUCTURAL DEFORMATION"
+      },
+      "correct_answer": "c",
+      "explanation": "Misalignment found during a symmetry check is often caused by structural deformation from damage or improper repairs."
+    },
+    {
+      "question_number": 40,
+      "question": "When using a plumb bob for leveling, where should it be suspended from?",
+      "options": {
+        "a": "ANY PART OF THE AIRCRAFT",
+        "b": "A SPECIFIED STRUCTURAL MEMBER",
+        "c": "THE WINGS HIGHEST POINT"
+      },
+      "correct_answer": "b",
+      "explanation": "A plumb bob must be suspended from a specific structural member as defined in the maintenance manual for accurate leveling."
+    },
+    {
+      "question_number": 41,
+      "question": "What should be done if an aircraft is found to be out of alignment?",
+      "options": {
+        "a": "ADJUST THE FUEL LOAD DISTRIBUTION",
+        "b": "INVESTIGATE AND CORRECT THE REMARK",
+        "c": "IMMEDIATELY TAKE OFF FOR A TEST FLIGHT"
+      },
+      "correct_answer": "b",
+      "explanation": "If an aircraft is found to be out of alignment, the cause must be investigated and the discrepancy corrected before flight."
+    },
+    {
+      "question_number": 42,
+      "question": "Which angle is formed between the lateral axis of an airplane and a line passing through the center of the wing?",
+      "options": {
+        "a": "ANGLE OF INCIDENCE",
+        "b": "DIHEDRAL ANGLE",
+        "c": "WASH IN ANGLE"
+      },
+      "correct_answer": "b",
+      "explanation": "The dihedral angle is the upward angle of the wings as measured from the lateral axis of the aircraft."
+    },
+    {
+      "question_number": 43,
+      "question": "How is the dihedral angle measured?",
+      "options": {
+        "a": "USING PROTRACTOR AND SPIRIT LEVEL",
+        "b": "USING DIHEDRAL BOARD AND SPIRIT LEVEL",
+        "c": "USING INCIDENCE AND DIHEDRAL BOARD"
+      },
+      "correct_answer": "b",
+      "explanation": "A dihedral board and a spirit level are the specialized tools used to accurately measure the dihedral angle of a wing."
+    },
+    {
+      "question_number": 44,
+      "question": "Eccentric bushings are used for adjusting what parameter of cantilever wings?",
+      "options": {
+        "a": "DIHEDRAL ANGLE",
+        "b": "WING SPAN",
+        "c": "ANGLE OF INCIDENCE"
+      },
+      "correct_answer": "c",
+      "explanation": "Eccentric bushings at the wing attachment points are used to make fine adjustments to the angle of incidence on cantilever wings."
+    },
+    {
+      "question_number": 45,
+      "question": "The angle of incidence increases when the :",
+      "options": {
+        "a": "FRONT STRUT OF A STRUT-BRACED AIRPLANE IS SHORTENED",
+        "b": "REAR STRUT OF A STRUT-BRACED AIRPLANE IS LENGTHENED",
+        "c": "REAR STRUT OF A STRUT-BRACED AIRPLANE IS SHORTENED"
+      },
+      "correct_answer": "c",
+      "explanation": "Shortening the rear strut of a strut-braced airplane will raise the trailing edge of the wing, thereby increasing the angle of incidence."
+    },
+    {
+      "question_number": 46,
+      "question": "What type of aircraft typically has adjustable dihedral angles?",
+      "options": {
+        "a": "CANTILEVER AIRPLANES",
+        "b": "STRUT-BRACED AIRPLANES",
+        "c": "GLIDERS"
+      },
+      "correct_answer": "b",
+      "explanation": "Strut-braced airplanes often have adjustable struts that allow for the adjustment of the dihedral angle."
+    },
+    {
+      "question_number": 47,
+      "question": "What does a symmetry check involve for an aircraft?",
+      "options": {
+        "a": "ALIGNING DISTANCES TO THE REFERENCE POINTS",
+        "b": "MEASURING DISTANCES FROM REFERENCE POINTS",
+        "c": "ADJUSTING DISTANCES TO THE REFERENCE POINTS"
+      },
+      "correct_answer": "b",
+      "explanation": "A symmetry check involves measuring the distances from reference points on the aircraft's centerline to corresponding points on the wings and tail."
+    },
+    {
+      "question_number": 48,
+      "question": "What is indicated if the forward rims of the landing gear wheels are closer together than the aft rims?",
+      "options": {
+        "a": "POSITIVE CAMBER",
+        "b": "ZERO CAMBER",
+        "c": "TOE IN"
+      },
+      "correct_answer": "c",
+      "explanation": "Toe-in is the condition where the front of the wheels are closer together than the back of the wheels."
+    },
+    {
+      "question_number": 49,
+      "question": "Which alignment is crucial for the empennage of an aircraft?",
+      "options": {
+        "a": "DIHEDRAL ANGLE ONLY",
+        "b": "ANGLE OF INCIDENCE ONLY",
+        "c": "TAIL ALIGNMENT"
+      },
+      "correct_answer": "c",
+      "explanation": "The proper alignment of the tail section, or empennage, relative to the fuselage and wings is crucial for flight stability."
+    },
+    {
+      "question_number": 50,
+      "question": "The alignment checks may NOT be necessary after:",
+      "options": {
+        "a": "MAJOR STRUCTURAL REPAIRS",
+        "b": "ROUTINE MAINTENANCE",
+        "c": "UNUSUAL FLIGHT CHARACTERISTICS"
+      },
+      "correct_answer": "b",
+      "explanation": "Alignment checks are generally not required after routine maintenance unless a specific component affecting alignment was replaced."
+    },
+    {
+      "question_number": 51,
+      "question": "What tool is typically used for checking vertical symmetry?",
+      "options": {
+        "a": "SPIRIT LEVEL",
+        "b": "MEASURING TAPE",
+        "c": "PLUMB BOB"
+      },
+      "correct_answer": "c",
+      "explanation": "A plumb bob is used to check the vertical alignment or symmetry of components like the vertical fin."
+    },
+    {
+      "question_number": 52,
+      "question": "What is 'washout' in terms of wing alignment?",
+      "options": {
+        "a": "INCREASING ANGLE OF INCIDENCE FROM ROOT TO TIP",
+        "b": "DECREASING ANGLE OF INCIDENCE FROM ROOT TO TIP",
+        "c": "CHANGING INCIDENCE ANGLES"
+      },
+      "correct_answer": "b",
+      "explanation": "Washout is a wing design where the angle of incidence decreases from the wing root to the wingtip."
+    },
+    {
+      "question_number": 53,
+      "question": "What must be checked to ensure the correct alignment of landing gear?",
+      "options": {
+        "a": "ONLY TOE-IN CONDITIONS",
+        "b": "ONLY CAMBER",
+        "c": "TOE-IN, TOE-OUT AND CAMBER"
+      },
+      "correct_answer": "c",
+      "explanation": "Correct landing gear alignment involves checking all three parameters: toe-in/toe-out, and camber."
+    },
+    {
+      "question_number": 54,
+      "question": "What is a cantilever wing?",
+      "options": {
+        "a": "A WING SUPPORTED BY STRUTS",
+        "b": "A WING SUPPORTED INTERNALLY",
+        "c": "A WING THAT HAS EXTERNAL SUPPORT"
+      },
+      "correct_answer": "b",
+      "explanation": "A cantilever wing is a design that is supported entirely by its internal structure, with no external bracing or struts."
+    },
+    {
+      "question_number": 55,
+      "question": "Tightening the landing wires of a bi-plane increases the",
+      "options": {
+        "a": "INCIDENT ANGLE",
+        "b": "DIHEDRAL ANGLE",
+        "c": "STAGGER"
+      },
+      "correct_answer": "b",
+      "explanation": "Tightening the landing wires on a biplane pulls the outer wing panels upward, increasing the dihedral angle."
+    },
+    {
+      "question_number": 56,
+      "question": "What happens when an aircraft is out of rig?",
+      "options": {
+        "a": "THE AIRCRAFT BECOMES MORE STABLE",
+        "b": "THE TOTAL DRAG INCREASES",
+        "c": "PILOT CONTROL BECOMES UNNECESSARY"
+      },
+      "correct_answer": "b",
+      "explanation": "An aircraft that is out of rig (misaligned) will experience increased drag, leading to poor performance and handling."
+    },
+    {
+      "question_number": 57,
+      "question": "Stability around the longitudinal axis of an aircraft is primarily achieved by:",
+      "options": {
+        "a": "RIGGING THE WINGS AND AILERONS CORRECTLY",
+        "b": "INCREASING THE AIRCRAFT'S WEIGHT",
+        "c": "DECREASING WING SIZE"
+      },
+      "correct_answer": "a",
+      "explanation": "Correctly rigging the wings (e.g., setting dihedral) and ailerons is the primary way to ensure stability around the longitudinal (roll) axis."
+    },
+    {
+      "question_number": 58,
+      "question": "In a monoplane, what effect does a wing with dihedral have during flight?",
+      "options": {
+        "a": "BOTH WINGS GAIN LIFT EVENLY",
+        "b": "THE LOW WING RISES WHILE THE HIGH WING LOWERS",
+        "c": "THE AIRCRAFT LOSES ALTITUDE"
+      },
+      "correct_answer": "b",
+      "explanation": "Dihedral provides lateral stability. When one wing drops, it generates more lift, causing the low wing to rise and the high wing to lower, restoring level flight."
+    },
+    {
+      "question_number": 59,
+      "question": "What is the consequence of an incorrect angle of incidence?",
+      "options": {
+        "a": "REDUCED DRAG AND GREATER SPEED",
+        "b": "INCREASED DRAG AND MISALIGNMENT OF THE FUSELAGE",
+        "c": "ENHANCED FUEL EFFICIENCY"
+      },
+      "correct_answer": "b",
+      "explanation": "An incorrect angle of incidence causes the wing to fly at an inefficient angle of attack, increasing drag and causing the fuselage to be misaligned with the relative wind."
+    },
+    {
+      "question_number": 60,
+      "question": "What term describes the process of changing the angle of incidence of a wing?",
+      "options": {
+        "a": "RIGGING",
+        "b": "BALANCING",
+        "c": "WASHING"
+      },
+      "correct_answer": "a",
+      "explanation": "Rigging is the general term for adjusting aircraft components, including changing the angle of incidence of a wing to achieve proper alignment."
+    },
+    {
+      "question_number": 61,
+      "question": "Washout in a wing is characterized by:",
+      "options": {
+        "a": "AN INCREASE IN LIFT FROM ROOT TO TIP",
+        "b": "A DECREASE IN ANGLE OF INCIDENCE FROM ROOT TO TIP",
+        "c": "BOTH AN INCREASE AND DECREASE IN LIFT"
+      },
+      "correct_answer": "b",
+      "explanation": "Washout is a deliberate decrease in the angle of incidence from the wing root to the wingtip, which helps improve stall characteristics."
+    },
+    {
+      "question_number": 62,
+      "question": "What is the meaning of 'stagger' in a biplane context?",
+      "options": {
+        "a": "THE LONGITUDINAL DIFFERENCE IN POSITIONS OF THE WINGS",
+        "b": "THE VERTICAL DISTANCE BETWEEN TWO WINGS",
+        "c": "THE OVERALL WIDTH OF THE WINGSPAN"
+      },
+      "correct_answer": "a",
+      "explanation": "Stagger refers to the longitudinal position of the upper wing relative to the lower wing on a biplane."
+    },
+    {
+      "question_number": 63,
+      "question": "When rigging a biplane, what is the first step?",
+      "options": {
+        "a": "ADJUST THE HORIZONTAL STABILIZER",
+        "b": "INSTALL THE UPPER WINGS",
+        "c": "LEVEL THE FUSELAGE"
+      },
+      "correct_answer": "c",
+      "explanation": "The first step in any rigging procedure, including for a biplane, is to properly level the fuselage."
+    },
+    {
+      "question_number": 64,
+      "question": "Decalage refers to:",
+      "options": {
+        "a": "THE OVERALL SIZE OF THE WINGS",
+        "b": "THE DIFFERENCE IN ANGLES OF INCIDENCE",
+        "c": "THE DISTANCE BETWEEN THE WINGS"
+      },
+      "correct_answer": "b",
+      "explanation": "Decalage is the difference between the angles of incidence of the upper and lower wings of a biplane."
+    },
+    {
+      "question_number": 65,
+      "question": "What should be the state of the tail brace wires during rigging?",
+      "options": {
+        "a": "COMPLETELY LOOSE",
+        "b": "ATTACHED TO THE HORIZONTAL STABILIZER BUT WITHOUT ANY TENSION",
+        "c": "CONNECTED AND TIGHTENED UNTIL SLACK IS REMOVED"
+      },
+      "correct_answer": "c",
+      "explanation": "Tail brace wires should be connected and tightened just enough to remove any slack, but not overtightened."
+    },
+    {
+      "question_number": 66,
+      "question": "The main purpose of cross-brace wires in a biplane is to:",
+      "options": {
+        "a": "MAKE THE WINGS HEAVIER",
+        "b": "SUPPORT THE CENTER SECTION LATERALLY",
+        "c": "INCREASE DRAG DURING FLIGHT"
+      },
+      "correct_answer": "b",
+      "explanation": "Cross-brace wires provide lateral support and rigidity to the center section of a biplane wing structure."
+    },
+    {
+      "question_number": 67,
+      "question": "Which method is effective for ensuring the dihedral angle is correct?",
+      "options": {
+        "a": "CHECKING WITH A BUBBLE PROTRACTOR",
+        "b": "CHECKING WITH A DIHEDRAL BOARD",
+        "c": "A & B"
+      },
+      "correct_answer": "c",
+      "explanation": "Both a bubble protractor and a dihedral board are effective and commonly used methods for checking the dihedral angle."
+    },
+    {
+      "question_number": 68,
+      "question": "When leveling an aircraft during rigging checks, what device is typically used to ensure proper leveling?",
+      "options": {
+        "a": "SPIRIT LEVEL",
+        "b": "PLUMB BOB WITH GRID PLATE",
+        "c": "LASER ALIGNMENT TOOL"
+      },
+      "correct_answer": "b",
+      "explanation": "While a spirit level is used, a plumb bob with a grid plate is another specified method for ensuring an aircraft is properly leveled."
+    },
+    {
+      "question_number": 69,
+      "question": "What is the purpose of adjusting the length of the rear struts in wing-heavy flight conditions?",
+      "options": {
+        "a": "TO DECREASE LIFT AND INCREASE DRAG",
+        "b": "TO WASH IN THE WING BY INCREASING THE ANGLE OF INCIDENCE",
+        "c": "TO REDUCE THE AIRCRAFT'S WEIGHT"
+      },
+      "correct_answer": "b",
+      "explanation": "To correct a wing-heavy condition, the rear strut is adjusted to wash in the heavy wing, which increases its angle of incidence and lift."
+    },
+    {
+      "question_number": 70,
+      "question": "How does washing out a wing affect its lift characteristics?",
+      "options": {
+        "a": "IT INCREASES LIFT AND IMPROVES STALL CHARACTERISTICS",
+        "b": "IT DECREASES LIFT AND IMPROVES STALL CHARACTERISTICS",
+        "c": "IT INCREASES LIFT BUT WORSENS STALL CHARACTERISTICS"
+      },
+      "correct_answer": "b",
+      "explanation": "Washing out a wing (decreasing its angle of incidence towards the tip) slightly decreases its overall lift but improves stall characteristics by making the wing root stall first."
+    },
+    {
+      "question_number": 71,
+      "question": "Why should rigging and alignment checks usually be performed in an enclosed hangar?",
+      "options": {
+        "a": "TO AVOID WEATHER-RELATED DAMAGE DURING CHECKS",
+        "b": "TO IMPROVE VISIBILITY FOR THE MECHANIC",
+        "c": "TO ALLOW FASTER ACCESS TO TOOLS"
+      },
+      "correct_answer": "a",
+      "explanation": "Rigging checks should be done in a hangar to prevent wind and weather from affecting the aircraft's position and the accuracy of the measurements."
+    },
+    {
+      "question_number": 72,
+      "question": "What is the primary purpose of deploying flaps during flight?",
+      "options": {
+        "a": "TO INCREASE THE AIRCRAFT'S SPEED",
+        "b": "TO DECREASE LIFT AND DRAG",
+        "c": "TO INCREASE WING CAMBER FOR GREATER LIFT AT SLOW SPEEDS"
+      },
+      "correct_answer": "c",
+      "explanation": "Flaps are deployed to increase the wing's camber, which generates more lift at slower airspeeds, particularly for takeoff and landing."
+    },
+    {
+      "question_number": 73,
+      "question": "Which leading-edge device extends forward and downward from the wing's leading edge?",
+      "options": {
+        "a": "FLAPS",
+        "b": "SLATS",
+        "c": "SPOILERS"
+      },
+      "correct_answer": "b",
+      "explanation": "Slats are leading-edge devices that extend forward and downward to improve airflow at high angles of attack."
+    },
+    {
+      "question_number": 74,
+      "question": "What is the main function of spoilers on an aircraft?",
+      "options": {
+        "a": "TO INCREASE LIFT DURING TAKEOFF",
+        "b": "TO REDUCE LIFT BY DISRUPTING AIRFLOW",
+        "c": "TO IMPROVE FUEL EFFICIENCY"
+      },
+      "correct_answer": "b",
+      "explanation": "Spoilers are deployed to disrupt the airflow over the wing, which reduces lift and increases drag."
+    },
+    {
+      "question_number": 75,
+      "question": "How do anti-servo tabs help with control surfaces?",
+      "options": {
+        "a": "THEY MOVE OPPOSITE TO THE PRIMARY CONTROL SURFACE TO REDUCE SENSITIVITY",
+        "b": "THEY HELP INCREASE THE CONTROL SURFACE'S MOVEMENT SENSITIVITY",
+        "c": "THEY LOCK THE CONTROL SURFACE IN PLACE"
+      },
+      "correct_answer": "a",
+      "explanation": "Anti-servo tabs move in the same direction as the control surface, but their effect is to increase the control feel and reduce sensitivity, preventing over-controlling."
+    },
+    {
+      "question_number": 76,
+      "question": "In a mechanical control system, what component guides the movement of control cables?",
+      "options": {
+        "a": "HYDRAULIC ACTUATORS",
+        "b": "TURNBUCKLES",
+        "c": "PULLEYS"
+      },
+      "correct_answer": "c",
+      "explanation": "Pulleys are used to guide control cables and change their direction of movement throughout the aircraft structure."
+    },
+    {
+      "question_number": 77,
+      "question": "Pattern of wear only one side of the pulley:",
+      "options": {
+        "a": "MISALIGNMENT OF CABLE",
+        "b": "MISALIGNMENT OF PULLY",
+        "c": "HIGH CABLE TENSION"
+      },
+      "correct_answer": "a",
+      "explanation": "Wear on only one side of a pulley groove indicates that the cable is misaligned with the pulley."
+    },
+    {
+      "question_number": 78,
+      "question": "What is a key advantage of fly-by-light control systems over traditional fly-by-wire systems?",
+      "options": {
+        "a": "THEY ARE MORE SUSCEPTIBLE TO ELECTROMAGNETIC INTERFERENCE (EMI)",
+        "b": "THEY USE FIBER OPTIC CABLES, REDUCING WEIGHT AND EMI SUSCEPTIBILITY",
+        "c": "THEY REQUIRE NO ELECTRICAL POWER"
+      },
+      "correct_answer": "b",
+      "explanation": "Fly-by-light systems use fiber optic cables, which are lighter and immune to electromagnetic interference (EMI), offering an advantage over fly-by-wire."
+    },
+    {
+      "question_number": 79,
+      "question": "Passing cable through pressurized aircraft bulk head :",
+      "options": {
+        "a": "FAIRLEAD",
+        "b": "PRESSURE SEALS",
+        "c": "ORIFICE"
+      },
+      "correct_answer": "b",
+      "explanation": "Pressure seals are used where control cables must pass through a pressurized bulkhead to prevent air pressure loss."
+    },
+    {
+      "question_number": 80,
+      "question": "What is the main purpose of turnbuckles in aircraft control cable systems?",
+      "options": {
+        "a": "TO GUIDE CABLES THROUGH STRUCTURES",
+        "b": "TO ADJUST CABLE TENSION AND LENGTH",
+        "c": "TO CONNECT CABLES TO CONTROL SURFACES"
+      },
+      "correct_answer": "b",
+      "explanation": "Turnbuckles are mechanical devices used to make fine adjustments to the tension and length of control cables."
+    },
+    {
+      "question_number": 81,
+      "question": "What component is used in a control system to provide minor adjustments in cable length?",
+      "options": {
+        "a": "FAIRLEADS",
+        "b": "TURNBUCKLES",
+        "c": "PULLEYS"
+      },
+      "correct_answer": "b",
+      "explanation": "Turnbuckles are the components specifically designed to allow for minor adjustments in control cable length and tension."
+    },
+    {
+      "question_number": 82,
+      "question": "Which statement about pressure seals in control cable systems is correct?",
+      "options": {
+        "a": "THEY ARE USED TO LUBRICATE PULLEYS",
+        "b": "THEY PREVENT AIR PRESSURE LOSS WHILE ALLOWING CABLE MOVEMENT",
+        "c": "THEY PERMANENTLY LOCK THE CABLES IN PLACE"
+      },
+      "correct_answer": "b",
+      "explanation": "Pressure seals are designed to allow a control cable to move freely while preventing air from leaking through a pressurized bulkhead."
+    },
+    {
+      "question_number": 83,
+      "question": "What is the primary purpose of a torque tube in an aircraft control system?",
+      "options": {
+        "a": "TO TRANSMIT HYDRAULIC FLUID",
+        "b": "TO TRANSMIT ANGULAR OR TWISTING MOTION",
+        "c": "TO SUPPORT STRUCTURAL LOADS"
+      },
+      "correct_answer": "b",
+      "explanation": "A torque tube's primary function is to transmit a twisting or angular force from one control component to another."
+    },
+    {
+      "question_number": 84,
+      "question": "Which component is mainly used in trim tab systems to actuate the trim tab cables?",
+      "options": {
+        "a": "TORQUE TUBE",
+        "b": "CABLE DRUM",
+        "c": "HYDRAULIC ACTUATOR"
+      },
+      "correct_answer": "b",
+      "explanation": "A cable drum is often used in trim tab systems to translate the rotation of the trim wheel into linear movement of the trim tab cables."
+    },
+    {
+      "question_number": 85,
+      "question": "Which material is not commonly used for aircraft control cables?",
+      "options": {
+        "a": "STAINLESS STEEL",
+        "b": "ALUMINUM ALLOY",
+        "c": "CARBON STEEL"
+      },
+      "correct_answer": "b",
+      "explanation": "Aluminum alloy is not used for control cables due to its lower strength and fatigue resistance compared to stainless or carbon steel."
+    },
+    {
+      "question_number": 86,
+      "question": "How does adding a nylon coating to a steel control cable benefit its service life?",
+      "options": {
+        "a": "IT MAKES THE CABLE STRONGER",
+        "b": "IT PROTECTS AGAINST FRICTION, DIRT, GRIT, AND VIBRATION",
+        "c": "IT INCREASES ELECTRICAL CONDUCTIVITY"
+      },
+      "correct_answer": "b",
+      "explanation": "A nylon coating protects the underlying steel cable from wear caused by friction, contaminants, and vibration, extending its service life."
+    },
+    {
+      "question_number": 87,
+      "question": "Which cable configuration is most flexible and used in primary control systems?",
+      "options": {
+        "a": "7 X 7",
+        "b": "7 X 19",
+        "c": "3 X 7"
+      },
+      "correct_answer": "b",
+      "explanation": "The 7x19 cable, made of 7 strands with 19 wires each, is the most flexible type and is used for primary flight controls that pass over pulleys."
+    },
+    {
+      "question_number": 88,
+      "question": "What is a typical diameter range for aircraft control cables?",
+      "options": {
+        "a": "1/8 INCH TO 1/2 INCH",
+        "b": "1/32 INCH TO 1/4 INCH",
+        "c": "1/16 INCH TO 3/8 INCH"
+      },
+      "correct_answer": "c",
+      "explanation": "Aircraft control cables typically range in diameter from 1/16 inch to 3/8 inch."
+    },
+    {
+      "question_number": 89,
+      "question": "Which type of control cable should be used in straight runs without pulleys?",
+      "options": {
+        "a": "FLEXIBLE CABLE",
+        "b": "NONFLEXIBLE CABLE",
+        "c": "EXTRA-FLEXIBLE CABLE"
+      },
+      "correct_answer": "b",
+      "explanation": "Nonflexible cable, such as 1x7 or 1x19, is suitable for straight runs where flexibility is not required."
+    },
+    {
+      "question_number": 90,
+      "question": "What hardware is typically used to connect and adjust control cables?",
+      "options": {
+        "a": "RIVETS AND CLAMPS",
+        "b": "TURNBUCKLES, ROD ENDS, NUTS, AND BOLTS",
+        "c": "HYDRAULIC FITTINGS"
+      },
+      "correct_answer": "b",
+      "explanation": "Control cable systems are connected and adjusted using a combination of turnbuckles, rod ends, nuts, and bolts."
+    },
+    {
+      "question_number": 91,
+      "question": "Why is it important to correctly safety all hardware during aircraft control system rigging?",
+      "options": {
+        "a": "TO PREVENT ELECTRICAL SHORT CIRCUITS",
+        "b": "TO ENSURE SMOOTH SURFACE MOVEMENT AND PREVENT DAMAGE",
+        "c": "TO IMPROVE AERODYNAMIC PERFORMANCE"
+      },
+      "correct_answer": "b",
+      "explanation": "Properly safetying hardware prevents loosening from vibration, which ensures smooth control operation and prevents damage to the system."
+    },
+    {
+      "question_number": 92,
+      "question": "What can happen if control cable tension is set too light at high temperatures?",
+      "options": {
+        "a": "THE CABLES MAY SNAP",
+        "b": "THE CABLES WILL BECOME TOO STIFF",
+        "c": "THE CABLES MIGHT SLIP OUT OF PULLEY GROOVES WHEN COOLED"
+      },
+      "correct_answer": "c",
+      "explanation": "If tension is set too low in warm conditions, the cables will become very slack when the aircraft cools, potentially allowing them to slip from pulleys."
+    },
+    {
+      "question_number": 93,
+      "question": "What component in large aircraft helps maintain constant cable tension despite temperature changes?",
+      "options": {
+        "a": "HYDRAULIC TENSIONER",
+        "b": "AUTOMATIC CABLE TENSION REGULATOR",
+        "c": "ELECTRICAL ACTUATOR"
+      },
+      "correct_answer": "b",
+      "explanation": "Automatic cable tension regulators are used in large aircraft to compensate for thermal expansion and contraction, maintaining constant cable tension."
+    },
+    {
+      "question_number": 94,
+      "question": "What is a major disadvantage of the woven splice in aircraft cable?",
+      "options": {
+        "a": "IT PRODUCES ONLY ABOUT 75% STRENGTH",
+        "b": "IT IS VERY QUICK TO APPLY",
+        "c": "IT IS SUITABLE FOR MODERN AIRCRAFT ONLY"
+      },
+      "correct_answer": "a",
+      "explanation": "The woven splice method is a major disadvantage because it only retains about 75% of the original cable strength and is not used on modern aircraft."
+    },
+    {
+      "question_number": 95,
+      "question": "Nicopress® process can be used on cables up to what diameter?",
+      "options": {
+        "a": "1/4 INCH",
+        "b": "3/8 INCH",
+        "c": "1/2 INCH"
+      },
+      "correct_answer": "b",
+      "explanation": "The Nicopress® swaging process is approved for use on aircraft cables up to 3/8 inch in diameter."
+    },
+    {
+      "question_number": 96,
+      "question": "When swaging terminals onto cable ends, what should never be done to the cable ends?",
+      "options": {
+        "a": "APPLY A PRESERVATIVE",
+        "b": "MEASURE THE LENGTH WITH MASKING TAPE",
+        "c": "SOLDER THE CABLE ENDS"
+      },
+      "correct_answer": "c",
+      "explanation": "Soldering the cable ends is prohibited because the heat can weaken the cable strands, leading to failure."
+    },
+    {
+      "question_number": 97,
+      "question": "Why is it important to follow the 'go' and 'no-go' dimensions during swaging?",
+      "options": {
+        "a": "TO ENSURE THE TERMINAL IS VISUALLY SYMMETRICAL",
+        "b": "TO AVOID DEFECTIVE AND INFERIOR SWAGING",
+        "c": "TO PREVENT CORROSION"
+      },
+      "correct_answer": "b",
+      "explanation": "Using a go/no-go gauge ensures that the terminal has been properly compressed onto the cable, preventing defective or inferior swaging."
+    },
+    {
+      "question_number": 98,
+      "question": "Which tool is used to check the proper dimension of the swaged terminal shank?",
+      "options": {
+        "a": "CALIPER",
+        "b": "MICROMETER AND SWAGING CHART",
+        "c": "RULER"
+      },
+      "correct_answer": "b",
+      "explanation": "A micrometer is used to measure the swaged terminal shank, and the dimension is then compared to a swaging chart to verify it is correct."
+    },
+    {
+      "question_number": 99,
+      "question": "What is the primary purpose of inspecting aircraft control cables regularly?",
+      "options": {
+        "a": "TO CHECK FOR WEAR, CORROSION",
+        "b": "TO VERIFY COLOR CODING",
+        "c": "TO MEASURE CABLE LENGTH ONLY"
+      },
+      "correct_answer": "a",
+      "explanation": "Regular inspection of control cables is primarily to detect signs of wear, corrosion, and broken strands."
+    },
+    {
+      "question_number": 100,
+      "question": "Which area is NOT a prime spot for corrosion in aircraft cable systems?",
+      "options": {
+        "a": "BATTERY COMPARTMENTS",
+        "b": "LAVATORIES",
+        "c": "CABIN OVERHEAD BINS"
+      },
+      "correct_answer": "c",
+      "explanation": "While corrosion can occur anywhere, battery compartments, lavatories, and wheel wells are prime spots due to chemical exposure and moisture, unlike cabin overhead bins."
+    },
+    {
+      "question_number": 101,
+      "question": "What is a critical fatigue area in control cable routing?",
+      "options": {
+        "a": "OVER A PULLEY OR FAIRLEAD",
+        "b": "INSIDE THE CABIN",
+        "c": "IN THE CARGO HOLD"
+      },
+      "correct_answer": "a",
+      "explanation": "The area where a cable passes over a pulley or through a fairlead is a critical fatigue area due to the repeated bending."
+    },
+    {
+      "question_number": 102,
+      "question": "How can you perform a basic inspection for cable chafing or broken strands?",
+      "options": {
+        "a": "VISUALLY CHECK FROM OUTSIDE ONLY",
+        "b": "RUB A RAG ALONG THE CABLE",
+        "c": "USE A MAGNET ON THE CABLE"
+      },
+      "correct_answer": "b",
+      "explanation": "Running a rag along the cable is a common method to detect broken strands, which will snag on the cloth."
+    },
+    {
+      "question_number": 103,
+      "question": "What tool is commonly used to measure control surface travel?",
+      "options": {
+        "a": "PROTRACTOR",
+        "b": "TENSIOMETER",
+        "c": "PLUMB BOB"
+      },
+      "correct_answer": "a",
+      "explanation": "A specialized aircraft protractor is the common tool used to measure the degrees of travel of a control surface."
+    },
+    {
+      "question_number": 104,
+      "question": "When checking control travel with a protractor, what must be done before taking readings?",
+      "options": {
+        "a": "APPLY LUBRICANT TO THE CONTROL SURFACE",
+        "b": "ZERO THE PROTRACTOR ON THE AIRCRAFT SURFACE",
+        "c": "ATTACH THE PROTRACTOR WITH ITS SUCTION CUP AND ALIGN ZEROES ON THE SCALES"
+      },
+      "correct_answer": "c",
+      "explanation": "Before taking a reading, the protractor must be properly attached and its scales zeroed relative to the surface."
+    },
+    {
+      "question_number": 105,
+      "question": "What is the purpose of safety wiring control system bolts and turnbuckles?",
+      "options": {
+        "a": "TO PREVENT LOOSENING DUE TO VIBRATION",
+        "b": "TO MAKE ADJUSTMENTS EASIER",
+        "c": "TO MAKE THE SYSTEM LOOK NEAT"
+      },
+      "correct_answer": "a",
+      "explanation": "Safety wiring is a critical step to prevent hardware like bolts and turnbuckles from loosening due to vibration during flight."
+    },
+    {
+      "question_number": 106,
+      "question": "In the rigging of ailerons, what device is used to lock the control yoke?",
+      "options": {
+        "a": "A SPECIAL RIGGING PIN",
+        "b": "A COTTER PIN",
+        "c": "A LOCKNUT"
+      },
+      "correct_answer": "a",
+      "explanation": "A special rigging pin is used to lock the control yoke or stick in the neutral position during aileron rigging."
+    },
+    {
+      "question_number": 107,
+      "question": "When rigging the elevator, what component should be used to ensure proper alignment?",
+      "options": {
+        "a": "CONTROL SURFACE LOCK",
+        "b": "A SPIRIT LEVEL",
+        "c": "A TAPE MEASURE"
+      },
+      "correct_answer": "a",
+      "explanation": "A control surface lock or rig pin is used to hold the elevator in the neutral position for proper alignment during rigging."
+    },
+    {
+      "question_number": 108,
+      "question": "What is a common method to hold the rudder pedals in place during rigging?",
+      "options": {
+        "a": "CLAMP THE PEDALS",
+        "b": "TIE THEM WITH STRING",
+        "c": "USE DUCT ТАРЕ"
+      },
+      "correct_answer": "a",
+      "explanation": "A special clamp or rigging pin is used to hold the rudder pedals in their neutral position during the rigging process."
+    },
+    {
+      "question_number": 109,
+      "question": "What is the first step in rigging the flaps?",
+      "options": {
+        "a": "ADJUSTING THE HEIM JOINTS",
+        "b": "INSPECTING THE TOTAL TRAVEL OF THE FLAPS",
+        "c": "CHECKING THE AILERON TORQUE TUBE"
+      },
+      "correct_answer": "b",
+      "explanation": "The first step in flap rigging is to inspect the total travel to see if any adjustments are necessary."
+    },
+    {
+      "question_number": 110,
+      "question": "When adjusting the Heim joints on the flap drive mechanism, what effect does moving the joints closer together have?",
+      "options": {
+        "a": "EXTENDS THE FLAPS",
+        "b": "RAISES THE FLAPS",
+        "c": "LOWERS THE FLAPS"
+      },
+      "correct_answer": "b",
+      "explanation": "Moving the Heim joints closer together effectively shortens the pushrod, which will raise the flaps."
+    },
+    {
+      "question_number": 111,
+      "question": "Which component is typically inspected to verify that the aileron torque tube is accurately centered within the flap torque tube?",
+      "options": {
+        "a": "THE HEIM JOINTS",
+        "b": "THE FLAP DRIVE BOLTS' PINS",
+        "c": "THE FLAP CONTROL CABLE"
+      },
+      "correct_answer": "b",
+      "explanation": "The flap drive bolts' pins are inspected to ensure proper centering and alignment of the aileron torque tube within the flap torque tube."
+    },
+    {
+      "question_number": 112,
+      "question": "What is the primary purpose of stabilizer rigging?",
+      "options": {
+        "a": "TO ADJUST THE DIHEDRAL AND ANGLE OF INCIDENCE OF THE STABILIZERS",
+        "b": "TO BALANCE THE CONTROL SURFACES",
+        "c": "TO CHECK FOR FLUTTER IN THE STABILIZERS"
+      },
+      "correct_answer": "a",
+      "explanation": "Stabilizer rigging primarily involves adjusting the dihedral and angle of incidence of the horizontal stabilizers for proper flight characteristics."
+    },
+    {
+      "question_number": 113,
+      "question": "When adjusting the trim tab, what position should the control stick be secured in?",
+      "options": {
+        "a": "FULL UP",
+        "b": "NEUTRAL",
+        "c": "EXTREME POSITION"
+      },
+      "correct_answer": "b",
+      "explanation": "The control stick must be secured in the neutral position when rigging or adjusting the corresponding trim tab."
+    },
+    {
+      "question_number": 114,
+      "question": "During trim tab adjustment, what should the travel of the trim tab measure?",
+      "options": {
+        "a": "±10°",
+        "b": "±15°",
+        "c": "EXACTLY 20°"
+      },
+      "correct_answer": "a",
+      "explanation": "The correct travel measurement for the trim tab during adjustment is typically specified as ±10° from the neutral position, but the maintenance manual should always be consulted."
+    },
+    {
+      "question_number": 115,
+      "question": "What is the primary concern if a control surface is not properly balanced?",
+      "options": {
+        "a": "INCREASED FUEL CONSUMPTION",
+        "b": "FLUTTER DURING HIGH-SPEED FLIGHT",
+        "c": "REDUCED LIFT"
+      },
+      "correct_answer": "b",
+      "explanation": "An improperly balanced control surface can lead to violent oscillations known as flutter, especially at high speeds, which can destroy the surface."
+    },
+    {
+      "question_number": 116,
+      "question": "Which type of balance involves the object's tendency to remain stationary when supported from its own center of gravity?",
+      "options": {
+        "a": "STATIC BALANCE",
+        "b": "DYNAMIC BALANCE",
+        "c": "AERODYNAMIC BALANCE"
+      },
+      "correct_answer": "a",
+      "explanation": "Static balance is the tendency of an object to remain stationary when supported from its own center of gravity."
+    },
+    {
+      "question_number": 117,
+      "question": "An upward movement of the trailing edge above the horizontal position during static balance indicates:",
+      "options": {
+        "a": "UNDERBALANCE",
+        "b": "OVERBALANCE",
+        "c": "CORRECT BALANCE"
+      },
+      "correct_answer": "b",
+      "explanation": "Overbalance is indicated when the trailing edge moves upward, meaning the weight forward of the hinge line is too great."
+    },
+    {
+      "question_number": 118,
+      "question": "Which method of control surface balancing does NOT require removal of the surface from the aircraft?",
+      "options": {
+        "a": "CALCULATION METHOD",
+        "b": "SCALE METHOD",
+        "c": "BALANCE BEAM METHOD"
+      },
+      "correct_answer": "a",
+      "explanation": "The calculation method determines the balance by calculating the moments of all added or removed components, and does not require removing the surface itself."
+    },
+    {
+      "question_number": 119,
+      "question": "What kind of material is commonly used for counterweights in larger aircraft control surfaces?",
+      "options": {
+        "a": "STEEL",
+        "b": "LEAD",
+        "c": "DEPLETED URANIUM"
+      },
+      "correct_answer": "c",
+      "explanation": "Depleted uranium is a very dense material used for counterweights in large aircraft where space is limited."
+    },
+    {
+      "question_number": 120,
+      "question": "When rebalancing a control surface, where is the weight typically placed to achieve dynamic balance?",
+      "options": {
+        "a": "NEAR THE HINGE LINE",
+        "b": "FORWARD OF THE HINGE CENTER LINE",
+        "c": "AFT OF THE HINGE CENTER LINE"
+      },
+      "correct_answer": "b",
+      "explanation": "To achieve proper balance, counterweights are placed forward of the hinge center line."
+    },
+    {
+      "question_number": 121,
+      "question": "In the scale method of balancing, what is essential to use for accurate measurement?",
+      "options": {
+        "a": "A RULER",
+        "b": "A GRADUATED SCALE IN HUNDREDTHS OF A POUND",
+        "c": "A PROTRACTOR"
+      },
+      "correct_answer": "b",
+      "explanation": "The scale method requires a finely graduated scale, typically reading in hundredths of a pound, for accurate measurements."
+    },
+    {
+      "question_number": 122,
+      "question": "What safety precautions should be observed when handling depleted uranium weights?",
+      "options": {
+        "a": "NO SPECIAL PRECAUTIONS NEEDED",
+        "b": "USE GLOVES ONLY",
+        "c": "FOLLOW SAFETY INSTRUCTIONS DUE TO RADIOACTIVITY"
+      },
+      "correct_answer": "c",
+      "explanation": "Depleted uranium is radioactive, and all safety instructions, including wearing gloves, must be followed to minimize exposure."
+    },
+    {
+      "question_number": 123,
+      "question": "During an aileron static balance test, what supports are used to hang it for balancing?",
+      "options": {
+        "a": "HORIZONTAL SUPPORTS ON A JIG",
+        "b": "KNIFE EDGES OF TWO BALANCING MANDRELS",
+        "c": "CLAMPS AND A WORKBENCH"
+      },
+      "correct_answer": "b",
+      "explanation": "For static balancing, the control surface is supported on the knife edges of two balancing mandrels inserted into the hinge attachment holes."
+    },
+    {
+      "question_number": 124,
+      "question": "If a control surface is found to be out of balance, what is the recommended action?",
+      "options": {
+        "a": "REPLACE THE ENTIRE SURFACE",
+        "b": "REBALANCE BY ADDING OR REMOVING WEIGHT AS INDICATED IN THE MANUAL",
+        "c": "ADJUST THE HINGE TENSION"
+      },
+      "correct_answer": "b",
+      "explanation": "If a control surface is out of balance, the correct action is to rebalance it by adding or removing weight according to the procedures in the aircraft maintenance manual."
+    }
+]

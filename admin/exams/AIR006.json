@@ -1,0 +1,321 @@
+[
+    {
+        "question_number": 1,
+        "question": "What are the two types of anti-collision lights mentioned in the document?",
+        "options": {
+            "a": "Landing lights and entry lights",
+            "b": "White (Strobes) & Red (rotating beacons)",
+            "c": "Logo lights and wing illumination lights"
+        },
+        "correct_answer": "b",
+        "explanation": "The two types of anti-collision lights are white strobes and red rotating beacons[cite: 2]."
+    },
+    {
+        "question_number": 2,
+        "question": "The diagram in Fig. 2.1 illustrates the angular coverage for which type of lights?",
+        "options": {
+            "a": "Wing illumination lights",
+            "b": "Rotating beacons",
+            "c": "Navigation (or position) lights"
+        },
+        "correct_answer": "c",
+        "explanation": "The diagram illustrates the angular coverage for Navigation (or position) lights[cite: 6]."
+    },
+    {
+        "question_number": 3,
+        "question": "In the diagram (Fig 2.1), what colors are represented by the numbers 1, 2, and 3 respectively?",
+        "options": {
+            "a": "Red, Green, White",
+            "b": "Green, Red, White",
+            "c": "White, Green, Red"
+        },
+        "correct_answer": "b",
+        "explanation": "The colors are green for the starboard side (1), red for the port side (2), and white for the rear (3)[cite: 7, 8, 9, 10]."
+    },
+    {
+        "question_number": 4,
+        "question": "Which lights are used as a warning that the engines are about to be started?",
+        "options": {
+            "a": "Logo Light",
+            "b": "Anti-collision",
+            "c": "Entry light"
+        },
+        "correct_answer": "b",
+        "explanation": "Anti-collision lights are used as a warning that the engines are about to be started[cite: 13]."
+    },
+    {
+        "question_number": 5,
+        "question": "The purpose of which exterior light is for in-flight ice detection?",
+        "options": {
+            "a": "Runway turnoff light",
+            "b": "Logo light",
+            "c": "Wing illumination light"
+        },
+        "correct_answer": "c",
+        "explanation": "Wing illumination lights are provided for scanning the wings and engines in flight for ice detection purposes[cite: 20]."
+    },
+    {
+        "question_number": 6,
+        "question": "According to the document, where can controls for emergency lights be found?",
+        "options": {
+            "a": "In the passenger service unit",
+            "b": "In the cargo compartment",
+            "c": "On the Flight Deck"
+        },
+        "correct_answer": "c",
+        "explanation": "The controls for various lights, including emergency lights, are found on the flight deck[cite: 38, 40]."
+    },
+    {
+        "question_number": 7,
+        "question": "Which lights are considered to be attention getters?",
+        "options": {
+            "a": "Anti-collision lights",
+            "b": "Service lights",
+            "c": "Flood lights"
+        },
+        "correct_answer": "a",
+        "explanation": "Anti-collision lights are considered as attention getters[cite: 17, 18]."
+    },
+    {
+        "question_number": 8,
+        "question": "What is the primary purpose of wing illumination lights?",
+        "options": {
+            "a": "To illuminate the company logo on the tail",
+            "b": "For scanning the wings for ice detection purposes",
+            "c": "To provide light for passengers to read"
+        },
+        "correct_answer": "b",
+        "explanation": "The purpose of wing illumination lights is for scanning the wings and engines in flight for ice detection purposes[cite: 19, 20]."
+    },
+    {
+        "question_number": 9,
+        "question": "What is the function of the master caution light system?",
+        "options": {
+            "a": "To signal that the engines are starting",
+            "b": "To inform the flight crew that a system fault annunciator has illuminated",
+            "c": "To provide general lighting for the flight deck"
+        },
+        "correct_answer": "b",
+        "explanation": "The master caution system informs the flight crew that a system fault annunciator has illuminated on various panels[cite: 23, 24]."
+    },
+    {
+        "question_number": 10,
+        "question": "Through what arc is the white rear navigation light visible?",
+        "options": {
+            "a": "110\u00b0",
+            "b": "140\u00b0",
+            "c": "70\u00b0"
+        },
+        "correct_answer": "b",
+        "explanation": "The white navigation light is visible from the rear of the aircraft through an arc of 140\u00b0[cite: 26]."
+    },
+    {
+        "question_number": 11,
+        "question": "What is the main use of runway turnoff lights?",
+        "options": {
+            "a": "To illuminate the wings for inspection",
+            "b": "To illuminate taxiway turnoffs",
+            "c": "To act as a forward-facing anti-collision light"
+        },
+        "correct_answer": "b",
+        "explanation": "Runway turnoff lights are aimed ahead and to the side of the aircraft to illuminate taxiway turnoffs[cite: 27, 28]."
+    },
+    {
+        "question_number": 12,
+        "question": "Which of the following is a type of aircraft interior light?",
+        "options": {
+            "a": "Warning lights to indicate system-operating condition",
+            "b": "Landing lights",
+            "c": "Logo lights"
+        },
+        "correct_answer": "a",
+        "explanation": "Interior lights include warning lights to indicate system-operating conditions[cite: 30]."
+    },
+    {
+        "question_number": 13,
+        "question": "The document mentions which of these signs can be found on a Passenger Service Unit?",
+        "options": {
+            "a": "Emergency Exit signs",
+            "b": "Fasten Seat Belt & No Smoking signs",
+            "c": "Welcome Aboard signs"
+        },
+        "correct_answer": "b",
+        "explanation": "The Passenger Service Unit can contain 'Fasten Seat Belt & No Smoking' signs[cite: 56]."
+    },
+    {
+        "question_number": 14,
+        "question": "What are the two types of landing lights described?",
+        "options": {
+            "a": "Rotating and Strobing",
+            "b": "Fixed and retractable",
+            "c": "Annunciator and Integral"
+        },
+        "correct_answer": "b",
+        "explanation": "The two types of landing lights described are fixed and retractable[cite: 32, 33, 34]."
+    },
+    {
+        "question_number": 15,
+        "question": "What are the two types of red anti-collision beacon lights?",
+        "options": {
+            "a": "Rotating Reflector & Rotating Lamp",
+            "b": "Fixed & Retractable",
+            "c": "Flood & Dome"
+        },
+        "correct_answer": "a",
+        "explanation": "The two types of rotating beam anti-collision light are Rotating Reflector & Rotating Lamp[cite: 36, 37]."
+    },
+    {
+        "question_number": 16,
+        "question": "Where are the main controls for exterior and interior lights typically located?",
+        "options": {
+            "a": "In the main cabin",
+            "b": "In the service compartments",
+            "c": "On the Flight Deck"
+        },
+        "correct_answer": "c",
+        "explanation": "The controls for exterior lights, interior lights, and more are found on the flight deck[cite: 38, 40]."
+    },
+    {
+        "question_number": 17,
+        "question": "Which of the following are listed as examples of flight deck lights?",
+        "options": {
+            "a": "Reading lights and service lights",
+            "b": "Emergency Lights, flood & dome light",
+            "c": "Logo lights and entry lights"
+        },
+        "correct_answer": "b",
+        "explanation": "Examples of flight deck lights include Emergency Lights, flood light, and dome light[cite: 41, 42]."
+    },
+    {
+        "question_number": 18,
+        "question": "According to the text, where are dome and floodlights used?",
+        "options": {
+            "a": "In the passenger cabin only",
+            "b": "In cargo compartments, wheel wells, and servicing compartments",
+            "c": "On the wing tips and tail"
+        },
+        "correct_answer": "b",
+        "explanation": "Dome lights and floodlights are used to provide illumination in the cargo compartments, wheel wells and servicing compartments[cite: 44]."
+    },
+    {
+        "question_number": 19,
+        "question": "What is a function of the annunciator lights mentioned in the document?",
+        "options": {
+            "a": "They automatically dim based on ambient light",
+            "b": "They have a \u201cPush to Cancel, Push to Recall\u201d function",
+            "c": "They operate only from an external power source"
+        },
+        "correct_answer": "b",
+        "explanation": "The annunciators have a \u201cPush to Cancel, Push to Recall\u201d function[cite: 49]."
+    },
+    {
+        "question_number": 20,
+        "question": "In wedge lighting, what is used to prevent light from escaping the outer wedge 'B'?",
+        "options": {
+            "a": "A reflective coating",
+            "b": "A magnifying lens",
+            "c": "Non-reflective black paint"
+        },
+        "correct_answer": "a",
+        "explanation": "While non-reflective black paint *can* be used in some lighting designs to absorb stray light, a reflective coating is more commonly used in wedge lighting to direct light towards the desired area.  Light escaping into wedge 'B' is reflected back into the main light path by a highly reflective material, preventing it from escaping.  A magnifying lens would not serve this purpose."
+    },
+    {
+        "question_number": 21,
+        "question": "What is one type of light that can be found on a passenger service unit?",
+        "options": {
+            "a": "Landing light switch",
+            "b": "Reading Lighting",
+            "c": "Wing illumination light"
+        },
+        "correct_answer": "b",
+        "explanation": "Reading Lighting can be found on a passenger service unit[cite: 55, 56]."
+    },
+    {
+        "question_number": 22,
+        "question": "What are the three switch positions for the flight deck emergency lighting system?",
+        "options": {
+            "a": "High, Low, Off",
+            "b": "Auto, Manual, Test",
+            "c": "Armed, Off, & On"
+        },
+        "correct_answer": "c",
+        "explanation": "The three switch positions for the flight deck emergency lighting system are Armed, Off, & On[cite: 57, 58]."
+    },
+    {
+        "question_number": 23,
+        "question": "What is a key characteristic of self-illuminating emergency lights mentioned in the text?",
+        "options": {
+            "a": "They have a scrap life of 5 years because they contain mildly radioactive Tritium gas",
+            "b": "They are powered by the main aircraft battery",
+            "c": "They must be replaced after every flight"
+        },
+        "correct_answer": "a",
+        "explanation": "Self-illuminating emergency lights containing mildly radioactive Tritium gas usually have a scrap life of 5 years[cite: 60, 62]."
+    },
+    {
+        "question_number": 24,
+        "question": "What is the primary purpose of floor proximity lighting?",
+        "options": {
+            "a": "To provide aesthetic lighting for the cabin",
+            "b": "To provide visual guidance for evacuation when the cabin is obscured by smoke",
+            "c": "To illuminate the floor during normal boarding and deplaning"
+        },
+        "correct_answer": "b",
+        "explanation": "Floor proximity lighting provides visual guidance for cabin evacuation when all sources of cabin lighting above four feet are obscured by smoke[cite: 63, 64]."
+    },
+    {
+        "question_number": 25,
+        "question": "Interior lighting is used to provide illumination for instruments, cockpits, and what other area?",
+        "options": {
+            "a": "Cargo bays",
+            "b": "Wheel wells",
+            "c": "Cabins and other sections occupied by crewmembers and passengers"
+        },
+        "correct_answer": "c",
+        "explanation": "Interior lighting provides illumination for instruments, cockpits, cabins, and other sections occupied by crewmembers and passengers[cite: 66]."
+    },
+    {
+        "question_number": 26,
+        "question": "Where does the emergency lighting system get its power from?",
+        "options": {
+            "a": "A 6v battery",
+            "b": "The main aircraft generators",
+            "c": "An external power unit"
+        },
+        "correct_answer": "a",
+        "explanation": "The emergency lighting system gets its power from a 6v battery[cite: 68, 69]."
+    },
+    {
+        "question_number": 27,
+        "question": "Red warning lights on the instrument panel indicate the existence of what?",
+        "options": {
+            "a": "Unsafe conditions",
+            "b": "Abnormal conditions",
+            "c": "Safe conditions"
+        },
+        "correct_answer": "a",
+        "explanation": "Red warning lights in the instrument panel indicate the existence of unsafe conditions[cite: 70, 71]."
+    },
+    {
+        "question_number": 28,
+        "question": "A clear (white) light with a divergence of \u00b1 70 degrees on either side of the aircraft centerline is the:",
+        "options": {
+            "a": "Landing light",
+            "b": "Rear position light",
+            "c": "Logo light"
+        },
+        "correct_answer": "b",
+        "explanation": "The rear position light is a clear (white) light with a divergence of \u00b1 70 degrees either side of the aircraft centerline[cite: 74, 76]."
+    },
+    {
+        "question_number": 29,
+        "question": "Anti-collision lights are used in conjunction with which other lights?",
+        "options": {
+            "a": "Master warning lights",
+            "b": "Wing inspection lights",
+            "c": "Navigation lights"
+        },
+        "correct_answer": "c",
+        "explanation": "Anti-collision lights are used in conjunction with the navigation lights[cite: 78, 81]."
+    }
+]

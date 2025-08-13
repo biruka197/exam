@@ -1,0 +1,1205 @@
+{
+  "exam_title": "Attitude Indication System - Module 6",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Power Sources",
+      "difficulty": "Easy",
+      "question": "What are the two primary methods used to spin a gyroscope in aircraft instruments?",
+      "options": {
+        "a": "Hydraulic and Pneumatic",
+        "b": "Pneumatic and Electric",
+        "c": "Electric and Magnetic"
+      },
+      "correct_answer": "b",
+     "explanation": "A gyro is a spinning wheel that can be spun in two ways: pneumatically or electrically. [cite: 50, 51, 52, 53]"
+    },
+    {
+      "question_number": 2,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Easy",
+      "question": "Which component can be used in a simple pneumatic system to create low pressure for gyros without an air pump?",
+      "options": {
+        "a": "A venturi",
+        "b": "A wet pump",
+        "c": "A dry pump"
+      },
+      "correct_answer": "a",
+     "explanation": "A venturi can be used to create the low pressure (suction) needed to spin gyros, offering a low-cost and simple system that doesn't require an air pump. [cite: 61, 62, 65]"
+    },
+    {
+      "question_number": 3,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Medium",
+      "question": "What is a key difference between wet and dry air pumps used for gyroscopic instruments?",
+      "options": {
+        "a": "Wet pumps use engine oil for lubrication, while dry pumps have self-lubricating carbon vanes.",
+        "b": "Dry pumps are heavier and can only produce suction.",
+        "c": "Wet pumps are primarily used for positive pressure systems at high altitudes."
+      },
+      "correct_answer": "a",
+     "explanation": "Wet pumps have steel vanes that are lubricated by engine oil, whereas modern dry pumps use vanes made of a special carbon compound for self-lubrication. [cite: 78, 79, 89]"
+    },
+    {
+      "question_number": 4,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Electric Systems",
+      "difficulty": "Easy",
+      "question": "What is a major advantage of electric-driven gyro systems over vacuum-driven ones, especially at high altitudes?",
+      "options": {
+        "a": "They are less susceptible to contamination by dirt.",
+        "b": "They maintain a constant rotor speed, which is unaffected by the lower air pressure at high altitudes.",
+        "c": "They are lighter due to the absence of heavy motors."
+      },
+      "correct_answer": "b",
+      "explanation": "A key disadvantage of vacuum-driven gyros is that the lower air pressure at high altitudes decreases the vacuum, leading to a reduction in rotor speed and gyroscopic stability.Electric gyros overcome this. [cite: 96, 97, 98, 99, 105]"
+    },
+    {
+      "question_number": 5,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Electric Systems",
+      "difficulty": "Medium",
+      "question": "What type of electric motor is commonly used in electric gyros, and what is its typical operating voltage and frequency?",
+      "options": {
+        "a": "A brushed DC motor at 28 V DC.",
+        "b": "A squirrel-cage induction motor at 115 V, 400 Hz AC.",
+        "c": "A stepper motor at 24 V, 60 Hz AC."
+      },
+      "correct_answer": "b",
+     "explanation": "Electric gyros often use a squirrel-cage induction motor, which is typically powered by 115 V, 400 Hz, 3-phase AC, allowing for greater rotor speeds. [cite: 107, 109, 110]"
+    },
+    {
+      "question_number": 6,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "What are the two fundamental properties of a spinning gyroscope?",
+      "options": {
+        "a": "Rigidity and Precession",
+        "b": "Spin and Tilt",
+        "c": "Real Drift and Apparent Drift"
+      },
+      "correct_answer": "a",
+     "explanation": "A gyroscope exhibits two important fundamental properties when its rotor is spinning: rigidity and precession. [cite: 136, 137, 138, 139]"
+    },
+    {
+      "question_number": 7,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Rigidity",
+      "difficulty": "Easy",
+      "question": "What is gyroscopic rigidity?",
+      "options": {
+        "a": "The tendency of a gyro to precess 90 degrees to an applied force.",
+        "b": "The property that resists any force tending to change the plane of rotation.",
+        "c": "The apparent drifting of a gyro due to the Earth's rotation."
+      },
+      "correct_answer": "b",
+     "explanation": "Rigidity is defined as the property of a gyroscope which resists any force tending to change the plane of rotation of its rotor. [cite: 143]"
+    },
+    {
+      "question_number": 8,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Rigidity",
+      "difficulty": "Medium",
+      "question": "Which of the following factors does gyroscopic rigidity depend on?",
+      "options": {
+        "a": "Weight, angular velocity, and radius of gyration.",
+        "b": "Only the strength of the applied force.",
+        "c": "Bearing friction and gimbal balance only."
+      },
+      "correct_answer": "a",
+     "explanation": "The rigidity of a gyroscope depends on several design factors, including the weight of the rotor, its angular velocity, and its radius of gyration. [cite: 144, 145, 146, 147]"
+    },
+    {
+      "question_number": 9,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Precession",
+      "difficulty": "Easy",
+      "question": "When a force is applied to a spinning gyroscope, the resulting motion occurs at a point 90 degrees away in the direction of rotation. What is this phenomenon called?",
+      "options": {
+        "a": "Gimbal Lock",
+        "b": "Rigidity",
+        "c": "Precession"
+      },
+      "correct_answer": "c",
+     "explanation": "Precession is the angular change in the direction of the plane of rotation that results from an applied force, with the change occurring at a point 90˚ away in the direction of rotation. [cite: 152, 153]"
+    },
+    {
+      "question_number": 10,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Precession",
+      "difficulty": "Medium",
+      "question": "Which gyroscopic flight instrument primarily utilizes the principle of precession for its operation?",
+      "options": {
+        "a": "Heading and attitude indicators",
+        "b": "Turn-and-bank indicators",
+        "c": "Vertical speed indicators"
+      },
+      "correct_answer": "b",
+     "explanation": "The property of precession is utilized in turn-and-bank indicators to measure the rate of turn. [cite: 158]"
+    },
+    {
+      "question_number": 11,
+      "lesson": "2",
+      "topic": "Gyroscope Limitations",
+      "subtopic": "Drift",
+      "difficulty": "Easy",
+      "question": "What is the term for the apparent veering or drifting of a gyroscope caused by the Earth's rotation?",
+      "options": {
+        "a": "Real Drift",
+        "b": "Gimbal Error",
+        "c": "Apparent Drift"
+      },
+      "correct_answer": "c",
+     "explanation": "Apparent drift is the phenomenon where a gyroscope appears to veer or drift due to the rotation of the Earth. [cite: 164, 165]"
+    },
+    {
+      "question_number": 12,
+      "lesson": "2",
+      "topic": "Gyroscope Limitations",
+      "subtopic": "Drift",
+      "difficulty": "Medium",
+      "question": "What causes 'real drift' in a gyroscope?",
+      "options": {
+        "a": "The Earth's rotation relative to the fixed position of the gyro in space.",
+        "b": "Imperfections such as bearing friction and gimbal unbalance.",
+        "c": "The alignment of two gimbal rings, causing a loss of a degree of freedom."
+      },
+      "correct_answer": "b",
+     "explanation": "Real drift is caused by imperfections within the gyroscope itself, such as bearing friction and unbalance in the gimbals, which lead to unwanted precession. [cite: 167, 168, 169]"
+    },
+    {
+      "question_number": 13,
+      "lesson": "2",
+      "topic": "Gyroscope Limitations",
+      "subtopic": "Gimbal Lock",
+      "difficulty": "Medium",
+      "question": "What is 'gimbal lock' in a gyroscope?",
+      "options": {
+        "a": "A mechanism that cages the gyro for transport.",
+        "b": "A condition where the spin axis becomes coincident with another gimbal axis, causing a loss of a degree of freedom.",
+        "c": "An error caused by the gimbals not being mutually at right angles."
+      },
+      "correct_answer": "b",
+     "explanation": "Gimbal lock occurs when the spin axis of the gyroscope becomes coincident with one of the other axes, effectively losing a degree of freedom. [cite: 172, 173]"
+    },
+    {
+      "question_number": 14,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Gyro Horizon",
+      "difficulty": "Easy",
+      "question": "What two primary pieces of information does a gyro horizon (attitude indicator) provide to the pilot?",
+      "options": {
+        "a": "Airspeed and altitude",
+        "b": "Rate of turn and slip/skid",
+        "c": "Pitch and roll attitude"
+      },
+      "correct_answer": "c",
+     "explanation": "The gyro horizon is an instrument that shows the aircraft's pitch and roll attitude relative to the horizon. [cite: 219]"
+    },
+    {
+      "question_number": 15,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Gyro Horizon",
+      "difficulty": "Medium",
+      "question": "To prevent gimbal lock in the pitch axis, a typical gyro horizon has what freedom of movement limits?",
+      "options": {
+        "a": "360˚ roll and 85˚ pitch",
+        "b": "90˚ roll and 90˚ pitch",
+        "c": "360˚ roll and 360˚ pitch"
+      },
+      "correct_answer": "a",
+     "explanation": "A gyro horizon is designed with gimbal freedom of 360˚ in roll and up to 85˚ in pitch to prevent gimbal lock in the pitch axis during normal flight maneuvers. [cite: 193, 194]"
+    },
+    {
+      "question_number": 16,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Standby Gyro Horizon",
+      "difficulty": "Easy",
+      "question": "In modern aircraft with integrated flight systems, what is the typical role of the conventional gyro horizon?",
+      "options": {
+        "a": "It has been completely replaced and is no longer present.",
+        "b": "It is the primary instrument for attitude information.",
+        "c": "It is relegated to the role of a standby attitude indicator."
+      },
+      "correct_answer": "c",
+     "explanation": "In modern aircraft with integrated flight systems like AHRS, the traditional gyro horizon is now used as a standby attitude indicator. [cite: 209, 222]"
+    },
+    {
+      "question_number": 17,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "AHRS",
+      "difficulty": "Medium",
+      "question": "What does the acronym AHRS stand for in modern avionics?",
+      "options": {
+        "a": "Altitude and Heading Reference System",
+        "b": "Attitude and Heading Reference System",
+        "c": "Automated Horizon Reference System"
+      },
+      "correct_answer": "b",
+     "explanation": "AHRS stands for Attitude and Heading Reference Systems, which are found in modern aircraft. [cite: 216]"
+    },
+    {
+      "question_number": 18,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "AHRS",
+      "difficulty": "Hard",
+      "question": "AHRS combines data from multiple sources to provide attitude and heading information. Which of the following is NOT listed as a component of an AHRS?",
+      "options": {
+        "a": "MEMS, GPS, and magnetometer",
+        "b": "Digital air data and accelerometers",
+        "c": "Pneumatic wet pumps and venturi systems"
+      },
+      "correct_answer": "c",
+      "explanation": "AHRS combines modern technologies like MEMS (Micro-Electro-Mechanical Systems), GPS, magnetometers, accelerometers, and digital air data.Pneumatic systems are characteristic of older, separate instruments. [cite: 217]"
+    },
+    {
+      "question_number": 19,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "System Overview",
+      "difficulty": "Easy",
+      "question": "In a vertical gyro system, where are the pitch and roll indicating elements controlled from?",
+      "options": {
+        "a": "A remotely located vertical gyro unit.",
+        "b": "A small gyro located directly inside the indicator.",
+        "c": "The aircraft's primary flight computer."
+      },
+      "correct_answer": "a",
+     "explanation": "In a vertical gyro system, the pitch and roll indicating elements on the cockpit display are electrically controlled from a remotely located vertical gyro unit. [cite: 231, 308]"
+    },
+    {
+      "question_number": 20,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Function",
+      "difficulty": "Medium",
+      "question": "A vertical gyro is an electrically driven gyro that spins about which axis to supply reference for the AFCS and flight instruments?",
+      "options": {
+        "a": "A horizontal axis",
+        "b": "A vertical axis",
+        "c": "A canted axis"
+      },
+      "correct_answer": "b",
+     "explanation": "A Vertical Gyro is an electrically driven gyro that spins about a vertical axis and supplies pitch and roll reference information. [cite: 232, 234]"
+    },
+    {
+      "question_number": 21,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "Why are vertical gyro units pressure sealed?",
+      "options": {
+        "a": "To allow them to operate underwater.",
+        "b": "To protect internal components from dirt, moisture, and pressure variations.",
+        "c": "To increase the rotor speed."
+      },
+      "correct_answer": "b",
+     "explanation": "The vertical gyro unit is pressure sealed to protect its precision components from environmental factors like dirt, moisture, and changes in atmospheric pressure. [cite: 247, 248]"
+    },
+    {
+      "question_number": 22,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Operation",
+      "difficulty": "Hard",
+      "question": "What is the function of the pitch and roll erection cutoff switches in a vertical gyro system?",
+      "options": {
+        "a": "They completely disable the gyro during takeoff and landing.",
+        "b": "They prevent acceleration and turning errors from being introduced into the erection system.",
+        "c": "They provide a fast-erection capability when pulled by the pilot."
+      },
+      "correct_answer": "b",
+     "explanation": "The roll erection cutoff switch disables roll erection during turns, and the pitch erection cutoff switch prevents acceleration errors during takeoff, landing, and longitudinal accelerations. [cite: 251, 253]"
+    },
+    {
+      "question_number": 23,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "What component does a Vertical Gyro (VG) use to transmit roll and pitch data to the cockpit indicator?",
+      "options": {
+        "a": "Pneumatic lines",
+        "b": "Synchros (selsyns)",
+        "c": "Fiber optic cables"
+      },
+      "correct_answer": "b",
+     "explanation": "A Vertical Gyro uses synchros to convert the mechanical position of the gimbals into electrical signals that represent roll and pitch, which are then sent to the indicator. [cite: 310, 239]"
+    },
+    {
+      "question_number": 24,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Maintenance",
+      "difficulty": "Easy",
+      "question": "What precaution must be taken before removing a gyroscope from its mounting?",
+      "options": {
+        "a": "The aircraft must be perfectly level.",
+        "b": "The gyro rotor must be allowed to come to a complete rest.",
+        "c": "The electrical connector must be cooled with compressed air."
+      },
+      "correct_answer": "b",
+     "explanation": "A gyroscope should not be removed from its seating position until its rotor has come to rest, which typically takes about 3 minutes after switching off the power. [cite: 286, 287, 305]"
+    },
+    {
+      "question_number": 25,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Medium",
+      "question": "A turn-and-bank indicator is a 'rate gyroscope'. How many gimbals does it typically have?",
+      "options": {
+        "a": "Three gimbal rings",
+        "b": "Two gimbal rings",
+        "c": "One gimbal ring"
+      },
+      "correct_answer": "c",
+     "explanation": "A turn-and-bank indicator is a rate gyroscope that uses only one gimbal ring, restricting its movement to a single axis. [cite: 324, 325, 328]"
+    },
+    {
+      "question_number": 26,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Medium",
+      "question": "Why does a turn-and-bank indicator not require an erection mechanism?",
+      "options": {
+        "a": "Because it spins at a very high speed.",
+        "b": "Because it is perfectly balanced and not subject to drift.",
+        "c": "Because it is centered by a control spring and measures rate of turn, not absolute attitude."
+      },
+      "correct_answer": "c",
+      "explanation": "A turn-and-bank indicator has no erection mechanism; the gyroscope is centered by a control spring when no turn is occurring.Its function is to measure the rate of turn through precession, not maintain a fixed orientation in space. [cite: 337, 338]"
+    },
+    {
+      "question_number": 27,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Slip Indicator",
+      "difficulty": "Easy",
+      "question": "The ball in a curved, liquid-filled glass tube on a turn indicator is used to show what?",
+      "options": {
+        "a": "The rate of turn.",
+        "b": "The accuracy of the bank for a coordinated turn.",
+        "c": "The pitch attitude of the aircraft."
+      },
+      "correct_answer": "b",
+     "explanation": "The ball-type bank indicator provides an indication for correct banking for a particular rate of turn by balancing gravitational and centrifugal forces. [cite: 344, 348]"
+    },
+    {
+      "question_number": 28,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn Coordinator",
+      "difficulty": "Medium",
+      "question": "What is the key design difference between a turn coordinator and a turn-and-slip indicator?",
+      "options": {
+        "a": "The turn coordinator's gyroscope is canted upwards at 30 degrees.",
+        "b": "The turn coordinator uses a pneumatic gyro, while the turn-and-slip uses an electric one.",
+        "c": "The turn coordinator does not have a slip indicator ball."
+      },
+      "correct_answer": "a",
+     "explanation": "In a turn coordinator, the gyro is canted upwards by 30°, which makes it sensitive to banking (roll) as well as to turning (yaw). [cite: 354, 356]"
+    },
+    {
+      "question_number": 29,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn Coordinator",
+      "difficulty": "Medium",
+      "question": "Why is a turn coordinator able to provide an earlier warning of a departure from straight-and-level flight compared to a turn-and-slip indicator?",
+      "options": {
+        "a": "Because it spins at a much higher RPM.",
+        "b": "Because its sensitivity to roll provides an immediate indication when the aircraft starts to bank, which must happen to initiate a turn.",
+        "c": "Because it is directly linked to the ailerons."
+      },
+      "correct_answer": "b",
+     "explanation": "Since an aircraft must roll to turn, the turn coordinator's sensitivity to banking gives the earliest possible warning of a departure from straight-and-level flight. [cite: 356, 357, 358]"
+    },
+    {
+      "question_number": 30,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "What is the purpose of the piston and dashpot mechanism in a turn-and-bank indicator?",
+      "options": {
+        "a": "To spin the gyroscope.",
+        "b": "To provide damping and prevent oscillations of the needle.",
+        "c": "To adjust the sensitivity of the rate spring."
+      },
+      "correct_answer": "b",
+     "explanation": "A damping system, often a piston linked to the gimbal ring moving in a cylinder (dashpot), is used to provide 'dead beat' indications and damp out oscillations. [cite: 378, 379]"
+    },
+    {
+      "question_number": 31,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "A rate gyro is the fundamental component of which flight instrument?",
+      "options": {
+        "a": "Attitude Indicator",
+        "b": "Directional Gyro",
+        "c": "Turn-and-bank indicator"
+      },
+      "correct_answer": "c",
+     "explanation": "The rate gyro is the fundamental component of a turn-and-bank indicator, where it is used to indicate the rate of change of an angle with time. [cite: 414, 415]"
+    },
+    {
+      "question_number": 32,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "In a rate gyro, what is considered the 'input' and what is considered the 'output'?",
+      "options": {
+        "a": "Input is gimbal angle; output is rate of turn.",
+        "b": "Input is rate of turn; output is gimbal angle.",
+        "c": "Input is AC power; output is DC power."
+      },
+      "correct_answer": "b",
+     "explanation": "For a rate gyro, the input is the rate of turn applied to the instrument, and the output is the resulting gimbal angle as it precesses against a restraining spring. [cite: 421, 422]"
+    },
+    {
+      "question_number": 33,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Types",
+      "difficulty": "Hard",
+      "question": "What is a primary difference between a standard rate gyro and a Rate Integrating Gyro (RIG)?",
+      "options": {
+        "a": "A rate gyro is restrained by a spring and lightly damped, while a RIG is un-restrained but heavily damped.",
+        "b": "A rate gyro measures angle in degrees, while a RIG measures rate in degrees per second.",
+        "c": "A RIG is used in turn coordinators, while a standard rate gyro is used in Inertial Measurement Units."
+      },
+      "correct_answer": "a",
+      "explanation": "Rate gyros are restrained by a spring and are lightly damped to measure 'degree per second'.In contrast, Rate Integrating Gyros (RIGs) are un-restrained, heavily damped, and their output is an angle. [cite: 428, 429, 431, 432]"
+    },
+    {
+      "question_number": 34,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Application",
+      "difficulty": "Medium",
+      "question": "In modern avionics, a set of three rate gyros is often used as a key component in what system?",
+      "options": {
+        "a": "A positive pressure pneumatic system.",
+        "b": "An Inertial Measurement Unit (IMU).",
+        "c": "A standby attitude indicator."
+      },
+      "correct_answer": "b",
+     "explanation": "Three rate gyros (pitch, roll, and yaw) are used to detect rotation in three axes and are a key component of Inertial Measurement Units (IMUs). [cite: 435, 437, 443]"
+    },
+    {
+      "question_number": 35,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Medium",
+      "question": "What is a disadvantage of a venturi-based suction system for powering gyros?",
+      "options": {
+        "a": "It requires significant electrical power.",
+        "b": "It is very heavy and complex.",
+        "c": "The suction produced fluctuates with airspeed or altitude."
+      },
+      "correct_answer": "c",
+     "explanation": "A significant drawback of using a venturi is that the amount of suction it creates is dependent on the aircraft's airspeed and the air density (altitude), leading to fluctuations. [cite: 67]"
+    },
+    {
+      "question_number": 36,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Medium",
+      "question": "Which type of pneumatic system is considered better for high altitude flight?",
+      "options": {
+        "a": "A twin-engine positive pressure system.",
+        "b": "A venturi suction system.",
+        "c": "A single-engine wet-pump vacuum system."
+      },
+      "correct_answer": "a",
+     "explanation": "A twin-engine positive pressure system is noted as being better for high altitude flight. [cite: 93, 94]"
+    },
+    {
+      "question_number": 37,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "System Redundancy",
+      "difficulty": "Medium",
+      "question": "Why might an aircraft system combine vacuum-driven indicators with electric-driven ones?",
+      "options": {
+        "a": "To save weight.",
+        "b": "To provide redundancy in case one power source fails.",
+        "c": "To increase the RPM of all gyros."
+      },
+      "correct_answer": "b",
+     "explanation": "Combining vacuum-driven indicators with electric-driven ones provides redundancy, ensuring that the pilot will still have attitude information if either the vacuum system or a part of the electrical system fails. [cite: 112, 113]"
+    },
+    {
+      "question_number": 38,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "A gyroscope is defined as a rotor that has three degrees of freedom. What are they?",
+      "options": {
+        "a": "Roll, Pitch, and Yaw",
+        "b": "Spinning, Tilting, and Veering",
+        "c": "Rigidity, Precession, and Drift"
+      },
+      "correct_answer": "b",
+     "explanation": "A gyroscope is a rotor with three degrees of freedom: spinning, tilting, and veering. [cite: 131, 132, 133, 134]"
+    },
+    {
+      "question_number": 39,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Precession",
+      "difficulty": "Hard",
+      "question": "The rate of precession depends on three factors. Which of the following is NOT one of them?",
+      "options": {
+        "a": "Strength and direction of the applied force.",
+        "b": "Angular velocity of the rotor.",
+        "c": "Ambient air temperature."
+      },
+      "correct_answer": "c",
+      "explanation": "The rate of precession depends on the strength and direction of the applied force, the moment of inertia of the rotor, and the angular velocity of the rotor.Ambient temperature is not a direct factor. [cite: 154, 155, 156, 157]"
+    },
+    {
+      "question_number": 40,
+      "lesson": "2",
+      "topic": "Gyroscope Limitations",
+      "subtopic": "Gimbal Error",
+      "difficulty": "Medium",
+      "question": "'Gimbal error' is particularly relevant to which type of gyros?",
+      "options": {
+        "a": "Vertical-axis gyros",
+        "b": "Horizontal-axis gyros",
+        "c": "Solid-state gyros"
+      },
+      "correct_answer": "b",
+     "explanation": "Gimbal error, which occurs when gimbal rings are not mutually at right angles, is particularly relevant to horizontal-axis gyros. [cite: 175, 176]"
+    },
+    {
+      "question_number": 41,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Gyro Horizon",
+      "difficulty": "Medium",
+      "question": "What is the typical rotational speed of an electric gyro horizon motor?",
+      "options": {
+        "a": "4,500 rpm",
+        "b": "10,000 rpm",
+        "c": "21,000 rpm"
+      },
+      "correct_answer": "c",
+     "explanation": "The small squirrel cage electric motor in an electric gyro horizon turns at approximately 21,000 rpm. [cite: 200, 202]"
+    },
+    {
+      "question_number": 42,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Standby Gyro Horizon",
+      "difficulty": "Medium",
+      "question": "What is the function of the 'PULL TO CAGE' knob on a standby attitude indicator?",
+      "options": {
+        "a": "It adjusts the brightness of the display.",
+        "b": "It provides a fast-erection facility by caging the gyro.",
+        "c": "It switches the power source from AC to DC."
+      },
+      "correct_answer": "b",
+     "explanation": "Pulling the 'PULL TO CAGE' knob cages the gyro, which provides a fast-erection facility to quickly align the instrument. [cite: 213, 214]"
+    },
+    {
+      "question_number": 43,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "System Overview",
+      "difficulty": "Medium",
+      "question": "A vertical gyro unit provides reference for which two aircraft axes?",
+      "options": {
+        "a": "Vertical and longitudinal axes",
+        "b": "Longitudinal (roll) and lateral (pitch) axes",
+        "c": "Lateral (pitch) and vertical (yaw) axes"
+      },
+      "correct_answer": "b",
+     "explanation": "A vertical gyro supplies reference for the aircraft's roll (aileron) and pitch (elevator) axes. [cite: 234]"
+    },
+    {
+      "question_number": 44,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What is placed inside a sealed vertical gyro unit to absorb any residual moisture?",
+      "options": {
+        "a": "An oil separator",
+        "b": "A carbon filter",
+        "c": "A dehydrator (silica-gel)"
+      },
+      "correct_answer": "c",
+     "explanation": "To protect the internal components, the sealed unit contains a dehydrator, typically using silica-gel, to absorb moisture. [cite: 249]"
+    },
+    {
+      "question_number": 45,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "In a remote vertical gyro system, what is the purpose of the Instrument Amplifier?",
+      "options": {
+        "a": "To amplify the power going to the gyro spin motor.",
+        "b": "To amplify the error signals coming from the synchros to drive the servomotors in the indicator.",
+        "c": "To amplify the pilot's voice commands for the autopilot."
+      },
+      "correct_answer": "b",
+     "explanation": "The Instrument Amplifier's role is to amplify the weak electrical error signals from the vertical gyro's synchros, making them strong enough to drive the servomotors in the attitude indicator. [cite: 270, 271, 272]"
+    },
+    {
+      "question_number": 46,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Attitude Indicator",
+      "difficulty": "Medium",
+      "question": "On a modern attitude indicator driven by a vertical gyro system, what do the command bars represent?",
+      "options": {
+        "a": "The current pitch and roll of the aircraft.",
+        "b": "The limits of the gyro's gimbals.",
+        "c": "The attitude the aircraft should assume, as directed by a flight director."
+      },
+      "correct_answer": "c",
+     "explanation": "Command bars are part of a flight director system and are displayed on the attitude indicator to tell the pilot the attitude they need to assume to follow a desired flight path. [cite: 277]"
+    },
+    {
+      "question_number": 47,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Medium",
+      "question": "The rotor speed for a turn-and-bank indicator is typically lower than an attitude indicator. What is a common speed range?",
+      "options": {
+        "a": "20,000 - 24,000 rev./min",
+        "b": "10,000 - 12,000 rev./min",
+        "c": "4,000 - 4,500 rev./min"
+      },
+      "correct_answer": "c",
+     "explanation": "It is unnecessary for the rotor of a turn-and-bank indicator to turn at a high speed; a constant speed of 4,000-4,500 rev./min is typical. [cite: 339, 340, 341]"
+    },
+    {
+      "question_number": 48,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Slip Indicator",
+      "difficulty": "Medium",
+      "question": "In a 'slipping turn' to the left, where would the ball in the slip indicator be?",
+      "options": {
+        "a": "Centered between the lines.",
+        "b": "To the left side of the tube (inside the turn).",
+        "c": "To the right side of the tube (outside the turn)."
+      },
+      "correct_answer": "b",
+      "explanation": "In a slipping turn, the aircraft is banked too much for the rate of turn, and gravity pulls the ball to the inside of the turn.For a left turn, the ball would be to the left. [cite: 360]"
+    },
+    {
+      "question_number": 49,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Slip Indicator",
+      "difficulty": "Medium",
+      "question": "In a 'skidding turn' to the left, where would the ball in the slip indicator be?",
+      "options": {
+        "a": "Centered between the lines.",
+        "b": "To the left side of the tube (inside the turn).",
+        "c": "To the right side of the tube (outside the turn)."
+      },
+      "correct_answer": "c",
+      "explanation": "In a skidding turn, the rate of turn is too great for the angle of bank, and centrifugal force pushes the ball to the outside of the turn.For a left turn, the ball would be to the right. [cite: 360]"
+    },
+    {
+      "question_number": 50,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn Coordinator",
+      "difficulty": "Easy",
+      "question": "What information does a turn coordinator explicitly state it does NOT provide?",
+      "options": {
+        "a": "NO SLIP INFORMATION",
+        "b": "NO YAW INFORMATION",
+        "c": "NO PITCH INFORMATION"
+      },
+      "correct_answer": "c",
+     "explanation": "The face of the turn coordinator is often marked with 'NO PITCH INFORMATION' to remind the pilot that it only indicates roll and yaw, not the aircraft's pitch attitude. [cite: 366]"
+    },
+    {
+      "question_number": 51,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "What is the purpose of the rate spring adjusting screw on a turn-and-bank indicator?",
+      "options": {
+        "a": "To adjust the damping of the needle.",
+        "b": "To adjust the sensitivity of the gyroscope.",
+        "c": "To set the rotor speed."
+      },
+      "correct_answer": "b",
+     "explanation": "The rate spring adjusting screw allows for the adjustment of the gyroscope's sensitivity by altering the tension of the spring that resists precession. [cite: 383, 384]"
+    },
+    {
+      "question_number": 52,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "A rate gyro is a single-degree-of-freedom gyro. How many gimbal rings does it have?",
+      "options": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three"
+      },
+      "correct_answer": "a",
+     "explanation": "A rate gyro indicates the rate of change of an angle and has only one gimbal ring, giving it one degree of freedom (in addition to the spin axis). [cite: 415, 416]"
+    },
+    {
+      "question_number": 53,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "In a modern rate gyro, what component tracks the movement of the gimbal to produce an electrical output signal?",
+      "options": {
+        "a": "A torque generator",
+        "b": "An output pickoff",
+        "c": "A viscous damping mechanism"
+      },
+      "correct_answer": "b",
+     "explanation": "An output pickoff requires AC excitation and is used to track the movement of the gimbal, converting the mechanical rotation into an electrical signal. [cite: 424, 425]"
+    },
+    {
+      "question_number": 54,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Types",
+      "difficulty": "Hard",
+      "question": "How is the output of a Rate Integrating Gyro (RIG) typically expressed?",
+      "options": {
+        "a": "Degrees per second",
+        "b": "Revolutions per minute",
+        "c": "Millivolts per degree (angle)"
+      },
+      "correct_answer": "c",
+     "explanation": "Unlike a standard rate gyro which outputs 'degree per second', a Rate Integrating Gyro (RIG) has a built-in integrator and outputs the angle, often expressed as millivolts per degree. [cite: 430, 433, 434]"
+    },
+    {
+      "question_number": 55,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Easy",
+      "question": "What are the two ways of producing airflow in a gyro pneumatic system?",
+      "options": {
+        "a": "Inlet and Outlet",
+        "b": "Suction and Pressure",
+        "c": "Wet and Dry"
+      },
+      "correct_answer": "b",
+     "explanation": "Pneumatic gyro systems produce the required airflow using either suction (vacuum) or positive pressure. [cite: 57, 58, 59]"
+    },
+    {
+      "question_number": 56,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Electric Systems",
+      "difficulty": "Easy",
+      "question": "Besides the common 115V AC, what other voltage can be used for some gyroscopic instruments like turn-and-bank indicators?",
+      "options": {
+        "a": "240V AC",
+        "b": "12V DC",
+        "c": "28V DC"
+      },
+      "correct_answer": "c",
+     "explanation": "While many electric gyros use 115V, 400 Hz AC, some instruments, particularly turn-and-bank indicators, operate on 28V DC. [cite: 108, 121]"
+    },
+    {
+      "question_number": 57,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Rigidity",
+      "difficulty": "Medium",
+      "question": "Which two instruments primarily rely on the gyroscopic property of rigidity?",
+      "options": {
+        "a": "Turn-and-bank indicator and vertical speed indicator",
+        "b": "Heading and attitude indicators",
+        "c": "Altimeter and airspeed indicator"
+      },
+      "correct_answer": "b",
+     "explanation": "The property of rigidity, or inertia in space, is utilized in heading indicators (directional gyros) and attitude indicators (gyro horizons). [cite: 149]"
+    },
+    {
+      "question_number": 58,
+      "lesson": "2",
+      "topic": "Gyroscope Limitations",
+      "subtopic": "Drift",
+      "difficulty": "Medium",
+      "question": "How is unwanted precession, or 'real drift', minimized in a gyroscope?",
+      "options": {
+        "a": "By increasing the rotor speed.",
+        "b": "Through precision engineering techniques in design and construction.",
+        "c": "By using a heavy damping mechanism."
+      },
+      "correct_answer": "b",
+     "explanation": "Real drift caused by imperfections is minimized by applying precision engineering techniques to the design and construction of the gyroscope. [cite: 170]"
+    },
+    {
+      "question_number": 59,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Gyro Horizon",
+      "difficulty": "Easy",
+      "question": "An electric gyro horizon eliminates the need for several components found in vacuum systems. Which component is NOT eliminated?",
+      "options": {
+        "a": "Air filters, regulators, and plumbing lines",
+        "b": "The gyro rotor",
+        "c": "The vacuum pump"
+      },
+      "correct_answer": "b",
+     "explanation": "While an electric gyro eliminates the need for the pneumatic power source components (pumps, lines, filters), it still requires a gyro rotor, which in this case is the armature of the electric motor. [cite: 200, 203]"
+    },
+    {
+      "question_number": 60,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "In a remote vertical gyro system, what components are responsible for moving the horizon bar and roll pointer in the attitude indicator?",
+      "options": {
+        "a": "Direct mechanical linkages to the gyro.",
+        "b": "Pneumatic actuators.",
+        "c": "Separate pitch and roll servomotors."
+      },
+      "correct_answer": "c",
+     "explanation": "The attitude indicator has a horizon bar and roll pointer that are driven by separate pitch and roll servomotors, which respond to the amplified signals from the vertical gyro's synchros. [cite: 275]"
+    },
+    {
+      "question_number": 61,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Hard",
+      "question": "The scales on turn-and-bank indicators are calibrated to standard rates. A 'rate 2' turn corresponds to what rate of turn?",
+      "options": {
+        "a": "180° per minute",
+        "b": "360° per minute",
+        "c": "540° per minute"
+      },
+      "correct_answer": "b",
+     "explanation": "The scales are classified by numbers, where a rate 2 corresponds to a turn rate of 360° per minute (a standard 2-minute turn). [cite: 333, 334]"
+    },
+    {
+      "question_number": 62,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn Coordinator",
+      "difficulty": "Medium",
+      "question": "The gyroscope in a turn coordinator is often a DC motor, but it can also be an AC brushless motor powered by what component?",
+      "options": {
+        "a": "A direct connection to the aircraft's 115V AC bus.",
+        "b": "A solid-state inverter housed within the instrument case.",
+        "c": "A small pneumatic turbine."
+      },
+      "correct_answer": "b",
+     "explanation": "When an AC motor is used in a turn coordinator, the constant frequency power is supplied from a solid-state inverter housed inside the instrument itself. [cite: 363, 365]"
+    },
+    {
+      "question_number": 63,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Application",
+      "difficulty": "Easy",
+      "question": "How many rate gyros are needed to detect rotation about the pitch, roll, and yaw axes respectively?",
+      "options": {
+        "a": "One for all three axes.",
+        "b": "Two, one for pitch/roll and one for yaw.",
+        "c": "Three, one for each axis."
+      },
+      "correct_answer": "c",
+     "explanation": "Three separate rate gyros are used to detect rotation in the three aircraft axes: a pitch rate gyro, a roll rate gyro, and a yaw rate gyro. [cite: 437, 444]"
+    },
+    {
+      "question_number": 64,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Instruments",
+      "difficulty": "Easy",
+      "question": "Which of the following are the three basic flight instruments that use gyroscopes?",
+      "options": {
+        "a": "Airspeed Indicator, Altimeter, Vertical Speed Indicator",
+        "b": "Gyro Horizon, Directional Gyro, Turn-and-Bank Indicator",
+        "c": "Magnetic Compass, Attitude Indicator, GPS"
+      },
+      "correct_answer": "b",
+     "explanation": "The presentation identifies three key instruments that use gyroscopes: the gyro horizon (attitude indicator), the directional gyro (heading indicator), and the turn-and-bank indicator. [cite: 39, 40, 41, 42, 117, 124]"
+    },
+    {
+      "question_number": 65,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Medium",
+      "question": "What is the typical suction requirement for a gyro horizon and directional gyro in a pneumatic system?",
+      "options": {
+        "a": "2 in Hg",
+        "b": "4 in Hg",
+        "c": "6 in Hg"
+      },
+      "correct_answer": "b",
+     "explanation": "A suction of approximately 4 inches of mercury (in Hg) is required for the operation of a gyro horizon and directional gyros. [cite: 63]"
+    },
+    {
+      "question_number": 66,
+      "lesson": "2",
+      "topic": "Gyroscope Properties",
+      "subtopic": "Angular Momentum",
+      "difficulty": "Hard",
+      "question": "The behavior of a gyroscope is based on the principle of conservation of angular momentum. How is angular momentum calculated?",
+      "options": {
+        "a": "Mass times velocity (mv)",
+        "b": "Moment of inertia times angular velocity (Iω)",
+        "c": "Force times distance (Fd)"
+      },
+      "correct_answer": "b",
+     "explanation": "The principle behind gyroscopic properties is the conservation of angular momentum, which is the product of the moment of inertia (I) and the angular velocity (ω). [cite: 140, 141]"
+    },
+    {
+      "question_number": 67,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "AHRS",
+      "difficulty": "Medium",
+      "question": "What technology, which involves creating gyros and accelerometers on a microchip, is a key part of modern AHRS?",
+      "options": {
+        "a": "Vacuum Tube technology",
+        "b": "MEMS (Micro-Electro-Mechanical Systems)",
+        "c": "Synchro and Selsyn technology"
+      },
+      "correct_answer": "b",
+     "explanation": "Modern Attitude and Heading Reference Systems (AHRS) utilize MEMS technology, which combines sensors like gyros and accelerometers into a single chip. [cite: 217]"
+    },
+    {
+      "question_number": 68,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT listed as a main component or circuit within a vertical gyro unit?",
+      "options": {
+        "a": "Erection system, Synchros, and Pendulum",
+        "b": "Gyro flag warning circuitry and undervoltage monitor",
+        "c": "A servomotor to drive the horizon bar"
+      },
+      "correct_answer": "c",
+      "explanation": "The vertical gyro unit contains the erection system, synchros, pendulum, and various monitoring circuits.The servomotor that drives the horizon bar is located in the separate attitude indicator, not the VG unit itself. [cite: 256, 275]"
+    },
+    {
+      "question_number": 69,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Maintenance",
+      "difficulty": "Easy",
+      "question": "After switching off power to a vertical gyro system, how long should you wait before removing the unit?",
+      "options": {
+        "a": "30 seconds",
+        "b": "1 minute",
+        "c": "3 minutes"
+      },
+      "correct_answer": "c",
+     "explanation": "It is recommended to wait for 3 minutes after switching off the power to allow the gyro rotor to come to a complete stop before removal. [cite: 287, 314]"
+    },
+    {
+      "question_number": 70,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Medium",
+      "question": "In the gravity-weight method of bank indication, what two forces act on the weight to move the pointer?",
+      "options": {
+        "a": "Lift and Drag",
+        "b": "Thrust and Weight",
+        "c": "Gravitational force and Centrifugal force"
+      },
+      "correct_answer": "c",
+     "explanation": "Both the gravity-weight method and the ball-type method of bank indication work by balancing gravitational force (weight) and centrifugal force during a turn. [cite: 345, 350, 352]"
+    },
+    {
+      "question_number": 71,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Slip Indicator",
+      "difficulty": "Easy",
+      "question": "In a perfectly coordinated turn, where will the ball in the slip indicator be positioned?",
+      "options": {
+        "a": "At the far left",
+        "b": "Centered",
+        "c": "At the far right"
+      },
+      "correct_answer": "b",
+     "explanation": "In a coordinated turn, the centrifugal force perfectly balances the horizontal component of lift, and the ball remains centered in the tube. [cite: 360]"
+    },
+    {
+      "question_number": 72,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Types",
+      "difficulty": "Hard",
+      "question": "A Rate Integrating Gyro (RIG) is a component of what advanced navigation system?",
+      "options": {
+        "a": "Vertical Gyro System",
+        "b": "Inertial Measurement Unit (as part of an INS)",
+        "c": "Turn Coordinator System"
+      },
+      "correct_answer": "b",
+     "explanation": "The Rate Integrating Gyro (RIG) is a component of an Inertial Measurement Unit (IMU), which is part of an Inertial Navigation System (INS). [cite: 417, 418, 435]"
+    },
+    {
+      "question_number": 73,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Pneumatic Systems",
+      "difficulty": "Easy",
+      "question": "Which type of air pump has almost completely replaced wet pumps in modern aircraft?",
+      "options": {
+        "a": "Venturi pumps",
+        "b": "Dry air pumps",
+        "c": "Pressure pumps"
+      },
+      "correct_answer": "b",
+     "explanation": "Dry air pumps have almost completely replaced the older wet pump systems. [cite: 85]"
+    },
+    {
+      "question_number": 74,
+      "lesson": "1",
+      "topic": "General Function & Layout",
+      "subtopic": "Electric Systems",
+      "difficulty": "Medium",
+      "question": "What is a disadvantage of vacuum-driven gyros related to system integrity?",
+      "options": {
+        "a": "They spin too fast.",
+        "b": "They are susceptible to contamination by corrosion and dirt particles.",
+        "c": "They require a redundant electrical system."
+      },
+      "correct_answer": "b",
+     "explanation": "One of the listed disadvantages of vacuum-driven gyro systems is their potential for contamination by corrosion and dirt particles within the plumbing lines. [cite: 102]"
+    },
+    {
+      "question_number": 75,
+      "lesson": "2",
+      "topic": "Gyroscope Instrument and Properties",
+      "subtopic": "Rigidity",
+      "difficulty": "Medium",
+      "question": "If all other factors are equal, a heavier gyro rotor will have ______ a lighter one.",
+      "options": {
+        "a": "less rigidity than",
+        "b": "the same rigidity as",
+        "c": "more rigidity than"
+      },
+      "correct_answer": "c",
+      "explanation": "Gyroscopic rigidity depends on several factors, including the weight (mass) of the rotor.A heavier rotor contributes to greater rigidity. [cite: 144, 145]"
+    },
+    {
+      "question_number": 76,
+      "lesson": "3",
+      "topic": "Gyroscopic Flight Instruments",
+      "subtopic": "Gyro Horizon",
+      "difficulty": "Easy",
+      "question": "In a direct-reading gyro horizon, the miniature aircraft symbol is fixed to what component?",
+      "options": {
+        "a": "The inner gimbal",
+        "b": "The outer gimbal",
+        "c": "The instrument case"
+      },
+      "correct_answer": "c",
+     "explanation": "The miniature aircraft symbol is fixed to the case of the instrument, so it moves with the actual aircraft, while the horizon bar remains stable due to the gyro's rigidity. [cite: 228]"
+    },
+    {
+      "question_number": 77,
+      "lesson": "4",
+      "topic": "Vertical Gyro System",
+      "subtopic": "Operation",
+      "difficulty": "Hard",
+      "question": "What is the power supply typically used for a vertical gyro unit's spin motor and torque motors?",
+      "options": {
+        "a": "28 VDC",
+        "b": "115 VAC, 400-Hz, single-phase",
+        "c": "24 VAC, 60-Hz, three-phase"
+      },
+      "correct_answer": "b",
+      "explanation": "The power supply for the vertical gyro is typically 115 VAC, 400-Hz, single-phase.The gyro spin motor and torque motors then operate as split-phase motors powered by electronics inside the gyro. [cite: 243, 244]"
+    },
+    {
+      "question_number": 78,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Turn-and-Bank Indicator",
+      "difficulty": "Medium",
+      "question": "A turn-and-bank indicator is described as a 'single axis gyroscope'. What does this mean?",
+      "options": {
+        "a": "It can only detect turns around the aircraft's vertical axis.",
+        "b": "It has one gimbal, and its movement is restrained to measure rotation about one input axis.",
+        "c": "It only requires a single power source."
+      },
+      "correct_answer": "b",
+     "explanation": "It is referred to as a single axis gyroscope because it has one gimbal ring and its movement is restrained (by a spring), allowing it to measure the rate of turn about a single input axis. [cite: 325, 326, 327, 328]"
+    },
+    {
+      "question_number": 79,
+      "lesson": "5",
+      "topic": "Turn Indicators",
+      "subtopic": "Components",
+      "difficulty": "Medium",
+      "question": "What liquid is commonly used in the ball-type slip indicator tube?",
+      "options": {
+        "a": "Water",
+        "b": "Mercury",
+        "c": "White spirit"
+      },
+      "correct_answer": "c",
+     "explanation": "The liquid used in the glass tube of the slip indicator is typically white spirit. [cite: 389]"
+    },
+    {
+      "question_number": 80,
+      "lesson": "6",
+      "topic": "Rate Gyros",
+      "subtopic": "Operation",
+      "difficulty": "Easy",
+      "question": "What is the primary function of a rate gyro?",
+      "options": {
+        "a": "To indicate a fixed direction in space.",
+        "b": "To indicate the rate of change of an angle with time.",
+        "c": "To indicate the aircraft's pitch and roll attitude."
+      },
+      "correct_answer": "b",
+     "explanation": "A rate gyro's purpose is to indicate the rate of change of an angle with time, such as the rate of turn in degrees per second. [cite: 415]"
+    }
+  ]
+}

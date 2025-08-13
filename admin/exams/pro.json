@@ -1,0 +1,255 @@
+[
+  {
+    "question_number": 1,
+    "question": "The pitch is the distance, in inches, that a propeller would move forward in a medium that allowed no slip.",
+    "options": {
+      "a": "Actual",
+      "b": "Geometric",
+      "c": "Effective"
+    },
+    "correct_answer": "b",
+    "explanation": "Geometric pitch is the theoretical distance a propeller would move forward in one revolution with no slip, as it is based on the blade angle and design."
+  },
+  {
+    "question_number": 2,
+    "question": "What operational force causes the greatest stress on a propeller?",
+    "options": {
+      "a": "Aerodynamic twisting moment",
+      "b": "Centrifugal force",
+      "c": "Thrust bending force"
+    },
+    "correct_answer": "b",
+    "explanation": "Centrifugal force, due to the high rotational speed of the propeller, causes the greatest stress on the propeller blades, as it acts to pull the blades outward."
+  },
+  {
+    "question_number": 3,
+    "question": "When the flyweights are tilted outward, the governor is said to be in what condition?",
+    "options": {
+      "a": "On speed",
+      "b": "Over speed",
+      "c": "Under speed"
+    },
+    "correct_answer": "b",
+    "explanation": "When the flyweights tilt outward in a propeller governor, it indicates an over speed condition, as the centrifugal force increases with higher RPM, prompting the governor to adjust the blade angle to reduce speed."
+  },
+  {
+    "question_number": 4,
+    "question": "Blade stations are measured, in inches, from the _______ of the _______",
+    "options": {
+      "a": "Tip, blade",
+      "b": "Root, blade",
+      "c": "Center, hub"
+    },
+    "correct_answer": "b",
+    "explanation": "Blade stations are measured from the root of the blade, where it attaches to the hub, to specific points along the blade length, typically in inches."
+  },
+  {
+    "question_number": 7,
+    "question": "What is the effect of ice formation on a propeller during flight?",
+    "options": {
+      "a": "Decrease engine power and propeller efficiency loss",
+      "b": "Decreases thrust and causes excessive vibration",
+      "c": "Increases stall speed and propeller noise level"
+    },
+    "correct_answer": "b",
+    "explanation": "Ice formation on a propeller reduces thrust by altering the blade's aerodynamic shape and causes excessive vibration due to uneven ice buildup, which can unbalance the propeller."
+  },
+  {
+    "question_number": 8,
+    "question": "Torque bending force tries to bend the propeller blades in the _______ direction of propeller rotation.",
+    "options": {
+      "a": "Opposite",
+      "b": "Same",
+      "c": "Perpendicular to"
+    },
+    "correct_answer": "a",
+    "explanation": "Torque bending force attempts to bend the propeller blades opposite to the direction of rotation, as it resists the rotational motion driven by the engine."
+  },
+  {
+    "question_number": 9,
+    "question": "Which component of a constant-speed propeller system senses propeller shaft RPM?",
+    "options": {
+      "a": "Tachometer generator",
+      "b": "Electronic unit",
+      "c": "Propeller Governor"
+    },
+    "correct_answer": "c",
+    "explanation": "The propeller governor senses propeller shaft RPM through its flyweight mechanism, adjusting blade angle to maintain constant speed."
+  },
+  {
+    "question_number": 10,
+    "question": "If the governor senses an overspeed condition, the propeller blade angle should",
+    "options": {
+      "a": "Unchanged",
+      "b": "Increases",
+      "c": "Decreases"
+    },
+    "correct_answer": "b",
+    "explanation": "In an overspeed condition, the governor increases the propeller blade angle (pitch) to increase load and reduce RPM to the desired level."
+  },
+  {
+    "question_number": 11,
+    "question": "On a given propeller blade, the blade angle nearest the hub will be the",
+    "options": {
+      "a": "Highest",
+      "b": "Zero",
+      "c": "Lowest"
+    },
+    "correct_answer": "a",
+    "explanation": "The blade angle is highest near the hub due to the propeller's twist, which decreases toward the tip to optimize aerodynamic efficiency across varying blade speeds."
+  },
+  {
+    "question_number": 12,
+    "question": "Angle of attack is the angle between chord line and",
+    "options": {
+      "a": "Engine shaft axes",
+      "b": "Relative wind",
+      "c": "Plane of rotation"
+    },
+    "correct_answer": "b",
+    "explanation": "The angle of attack is the angle between the propeller blade's chord line and the relative wind, which determines the aerodynamic force generated."
+  },
+  {
+    "question_number": 13,
+    "question": "A blade angle of fixed-pitch climb propeller in comparison with pitch angle of a cruise propeller is",
+    "options": {
+      "a": "Lower",
+      "b": "Equal",
+      "c": "Higher"
+    },
+    "correct_answer": "a",
+    "explanation": "A fixed-pitch climb propeller has a lower blade angle compared to a cruise propeller, optimizing for higher thrust at lower speeds during climb."
+  },
+  {
+    "question_number": 14,
+    "question": "Thrust bending force tries to bend the tip of a propeller blade",
+    "options": {
+      "a": "Rearward of plane of rotation",
+      "b": "Opposite to propeller rotation",
+      "c": "Forward of plane of rotation"
+    },
+    "correct_answer": "c",
+    "explanation": "Thrust bending force tries to bend the propeller blade tip forward of the plane of rotation, as thrust pulls the blade in the direction of aircraft motion."
+  },
+  {
+    "question_number": 15,
+    "question": "The flat surface of a propeller blade is called the _______ of the blade.",
+    "options": {
+      "a": "Back",
+      "b": "Face",
+      "c": "Chord"
+    },
+    "correct_answer": "a",
+    "explanation": "The flat surface of a propeller blade is called the back, which faces the rear of the aircraft, while the curved surface (face) generates lift."
+  },
+  {
+    "question_number": 16,
+    "question": "Centrifugal Twisting Moment is a force that tends to:",
+    "options": {
+      "a": "Feather the propeller blades",
+      "b": "Decrease the propeller blade angle",
+      "c": "Increase the propeller blade angle"
+    },
+    "correct_answer": "a",
+    "explanation": "Centrifugal twisting moment tends to feather the propeller blades, aligning them with the airflow to reduce drag, typically used in engine failure scenarios."
+  },
+  {
+    "question_number": 17,
+    "question": "During thrust reversing, what will be the position of the propeller blade in relation with blade angle?",
+    "options": {
+      "a": "Negative, leading edge pointing backward",
+      "b": "Zero, leading edge pointing along rotation",
+      "c": "Positive, leading edge pointing forward"
+    },
+    "correct_answer": "a",
+    "explanation": "During thrust reversing, the propeller blade angle is negative, with the leading edge pointing backward to direct airflow forward, producing reverse thrust."
+  },
+  {
+    "question_number": 18,
+    "question": "How is the anti-icing fluid ejected from the slinger ring on a propeller?",
+    "options": {
+      "a": "By pump pressure",
+      "b": "By centripetal force",
+      "c": "By centrifugal force"
+    },
+    "correct_answer": "c",
+    "explanation": "Anti-icing fluid is ejected from the slinger ring by centrifugal force, which propels the fluid outward due to the propeller's rotation."
+  },
+  {
+    "question_number": 19,
+    "question": "What is the purpose of metal tipping along the leading edge of a wooden propeller?",
+    "options": {
+      "a": "For anti-icing",
+      "b": "For balancing",
+      "c": "For protection"
+    },
+    "correct_answer": "c",
+    "explanation": "Metal tipping on the leading edge of a wooden propeller is used for protection, shielding the blade from damage due to debris or erosion."
+  },
+  {
+    "question_number": 20,
+    "question": "A device used to measure blade angle while the propeller is on the airplane or on the work bench.",
+    "options": {
+      "a": "Universal protractor",
+      "b": "Bench protractor",
+      "c": "Propeller tracking"
+    },
+    "correct_answer": "a",
+    "explanation": "A universal protractor is used to measure the blade angle of a propeller, whether on the aircraft or a workbench, due to its versatility and precision."
+  },
+  {
+    "question_number": 21,
+    "question": "When the flyweights are tilted inward, this condition of the governor is known as:",
+    "options": {
+      "a": "Under speed",
+      "b": "Over speed",
+      "c": "On speed"
+    },
+    "correct_answer": "a",
+    "explanation": "When the flyweights tilt inward, the governor is in an under speed condition, indicating lower RPM, prompting the governor to decrease blade angle to increase speed."
+  },
+  {
+    "question_number": 22,
+    "question": "The actual distance a propeller moves forward through the air during one revolution is known as the",
+    "options": {
+      "a": "Effective pitch",
+      "b": "Geometric pitch",
+      "c": "Relative pitch"
+    },
+    "correct_answer": "a",
+    "explanation": "Effective pitch is the actual distance a propeller moves forward through the air in one revolution, accounting for slip."
+  },
+  {
+    "question_number": 23,
+    "question": "Propeller blade angle is the angle between the chord of the propeller blade and the",
+    "options": {
+      "a": "Vertical plane",
+      "b": "Plane of rotation",
+      "c": "Relative wind"
+    },
+    "correct_answer": "b",
+    "explanation": "Propeller blade angle is the angle between the chord of the blade and the plane of rotation, defining the blade's pitch."
+  },
+  {
+    "question_number": 24,
+    "question": "Which system sets all governors of a multi-engine aircraft propeller at exactly the same RPM with a master governor?",
+    "options": {
+      "a": "Synchrophasing",
+      "b": "Auto feathering",
+      "c": "Synchronization"
+    },
+    "correct_answer": "c",
+    "explanation": "Synchronization ensures all propellers in a multi-engine aircraft operate at the same RPM, using a master governor to align them."
+  },
+  {
+    "question_number": 25,
+    "question": "The operational force that tends to bend the propeller blades forward at the tip?",
+    "options": {
+      "a": "Centrifugal-twisting force",
+      "b": "Torque-bending force",
+      "c": "Thrust-bending force"
+    },
+    "correct_answer": "c",
+    "explanation": "Thrust-bending force tends to bend the propeller blades forward at the tip, as thrust pulls the blade in the direction of aircraft motion."
+  }
+]

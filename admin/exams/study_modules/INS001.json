@@ -1,0 +1,2105 @@
+{
+  "exam_title": "Electronics and Electrical Engineering - Module 1",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "1.1",
+      "topic": "Historical Background",
+      "subtopic": "Early Instruments",
+      "difficulty": "Easy",
+      "question": "Which of the following instruments was present on the Wright Flyer?",
+      "options": {
+        "a": "Artificial Horizon",
+        "b": "Engine Tachometer",
+        "c": "Altimeter"
+      },
+      "correct_answer": "b",
+      "explanation": "The Wright Flyer had very basic instruments which included an engine tachometer, an anemometer, and a stopwatch[cite: 34, 35, 36, 37]. The artificial horizon [cite: 96] and altimeter [cite: 92] are more advanced flight instruments developed later."
+    },
+    {
+      "question_number": 2,
+      "lesson": "1.1",
+      "topic": "Historical Background",
+      "subtopic": "WWI Instruments",
+      "difficulty": "Easy",
+      "question": "Which instrument was used in WWI aircraft to measure the engine's revolutions per minute?",
+      "options": {
+        "a": "Altimeter",
+        "b": "Anemometer",
+        "c": "Tachometer"
+      },
+      "correct_answer": "c",
+      "explanation": "A Tachometer, or RPM Gauge, was used in WWI aircraft to measure the engine's revolutions per minute[cite: 51]. An altimeter measures altitude [cite: 47], and an anemometer measures wind speed[cite: 36]."
+    },
+    {
+      "question_number": 3,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements and Standards",
+      "subtopic": "Instrument Classification",
+      "difficulty": "Easy",
+      "question": "Instruments used for controlling the aircraft's flight attitude, like the altimeter and airspeed indicator, belong to which group?",
+      "options": {
+        "a": "Flight Instruments",
+        "b": "Navigation Instruments",
+        "c": "Power plant instruments"
+      },
+      "correct_answer": "a",
+      "explanation": "Flight instruments are used to control the aircraft's flight attitude; examples include the altimeter and airspeed indicator[cite: 90, 91, 92, 93]. Navigation instruments guide the aircraft along a course [cite: 100, 101], and power plant instruments monitor engine parameters[cite: 107, 108]."
+    },
+    {
+      "question_number": 4,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements and Standards",
+      "subtopic": "Instrument Classification",
+      "difficulty": "Easy",
+      "question": "An Exhaust Gas Temperature (EGT) indicator is an example of which instrument classification?",
+      "options": {
+        "a": "Flight Instrument",
+        "b": "Navigation Instrument",
+        "c": "Power plant Instrument"
+      },
+      "correct_answer": "c",
+      "explanation": "Power plant instruments are designed to measure operating parameters of the engine, such as the Exhaust Gas Temperature (EGT)[cite: 107, 108, 116, 123]. Flight instruments relate to attitude control [cite: 91], and navigation instruments are for course guidance[cite: 101]."
+    },
+    {
+      "question_number": 5,
+      "lesson": "1.2",
+      "topic": "Instrument Elements",
+      "subtopic": "Function of Elements",
+      "difficulty": "Medium",
+      "question": "Which element of an instrument detects a change in the value of a physical quantity?",
+      "options": {
+        "a": "Indicating Element",
+        "b": "Measuring Element",
+        "c": "Detecting Element"
+      },
+      "correct_answer": "c",
+      "explanation": "The detecting element is responsible for detecting changes in the value of the physical quantity being presented to it[cite: 130, 131]. The measuring element then measures this value [cite: 132], and the indicating element displays it[cite: 137, 138]."
+    },
+    {
+      "question_number": 6,
+      "lesson": "1.2",
+      "topic": "Instrument Mechanisms",
+      "subtopic": "Temperature Compensation",
+      "difficulty": "Medium",
+      "question": "Why are some aircraft instruments hermetically sealed?",
+      "options": {
+        "a": "To prevent unauthorized tampering with the instrument",
+        "b": "To protect sensitive electrical circuits and prevent errors in pressurized aircraft",
+        "c": "To make the instrument lighter and more compact"
+      },
+      "correct_answer": "b",
+      "explanation": "In pressurized aircraft, instrument cases are sealed to withstand external pressure differences and protect sensitive electrical circuits from the environment, often by being filled with inert gases[cite: 160, 161, 162]. This prevents measurement errors and damage[cite: 172]."
+    },
+    {
+      "question_number": 7,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Color Coding",
+      "difficulty": "Easy",
+      "question": "On an instrument dial, what does a green arc typically represent?",
+      "options": {
+        "a": "Normal operating range",
+        "b": "Maximum and minimum limits",
+        "c": "Precautionary range"
+      },
+      "correct_answer": "a",
+      "explanation": "A green arc indicates the normal operating range for a parameter[cite: 203]. A red radial line indicates maximum/minimum limits [cite: 201], and a yellow arc indicates a precautionary range[cite: 202]."
+    },
+    {
+      "question_number": 8,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Display Technology",
+      "difficulty": "Medium",
+      "question": "Which display technology uses a layer of liquid crystal material between two plates to show information?",
+      "options": {
+        "a": "Light Emitting Diode (LED)",
+        "b": "Liquid-Crystal Display (LCD)",
+        "c": "Cathode Ray Tube (CRT)"
+      },
+      "correct_answer": "b",
+      "explanation": "A Liquid-Crystal Display (LCD) functions by having a liquid crystal layer between two plates, as shown in the diagram[cite: 215]. LEDs are semiconductor devices that emit light[cite: 217], and CRTs use electron beams, a different technology not detailed for this application."
+    },
+    {
+      "question_number": 9,
+      "lesson": "1.3",
+      "topic": "Instrument Layout",
+      "subtopic": "Basic T",
+      "difficulty": "Medium",
+      "question": "What is the standard arrangement of flight instruments known as the 'Basic T' grouping?",
+      "options": {
+        "a": "A random assortment of six critical instruments",
+        "b": "A T-shaped layout with Airspeed, Attitude Indicator, Altimeter, and Heading Indicator",
+        "c": "A vertical stack of all power plant instruments"
+      },
+      "correct_answer": "b",
+      "explanation": "The 'Basic T' is a specific arrangement where the attitude indicator is in the center, flanked by the airspeed indicator on the left and the altimeter on the right, with the heading indicator below it, forming a 'T' shape[cite: 226]. The 'Basic Six' is a related but different layout [cite: 224], and power plant instruments are grouped separately[cite: 86]."
+    },
+    {
+      "question_number": 10,
+      "lesson": "2.1",
+      "topic": "Pressure Measuring Instruments",
+      "subtopic": "Types of Pressure",
+      "difficulty": "Easy",
+      "question": "Which type of pressure is defined as the difference between the pressure of a system and the atmospheric pressure?",
+      "options": {
+        "a": "Absolute Pressure",
+        "b": "Differential Pressure",
+        "c": "Gauge Pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "Gauge pressure is the difference between an absolute pressure and the local atmospheric pressure[cite: 386, 403]. Absolute pressure is measured relative to a vacuum [cite: 383, 384], and differential pressure is the difference between two points in a system[cite: 387, 388]."
+    },
+    {
+      "question_number": 11,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Bourdon Tube",
+      "difficulty": "Medium",
+      "question": "Which pressure-sensing element is typically used for measuring very high pressures, such as in hydraulic or oxygen systems?",
+      "options": {
+        "a": "Diaphragm",
+        "b": "Bourdon Tube",
+        "c": "Aneroid Capsule"
+      },
+      "correct_answer": "b",
+      "explanation": "The Bourdon tube is specifically suited for measuring very high pressure[cite: 419, 450, 503, 565]. Diaphragms [cite: 427, 457] and Aneroid capsules [cite: 436, 486] are used for measuring lower pressures."
+    },
+    {
+      "question_number": 12,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Capsule and Aneroid",
+      "difficulty": "Medium",
+      "question": "What is an aneroid?",
+      "options": {
+        "a": "A single, flat diaphragm used for differential pressure",
+        "b": "A long, corrugated tube that measures gauge pressure",
+        "c": "A sealed, evacuated capsule made of two diaphragms, sensitive to absolute pressure changes"
+      },
+      "correct_answer": "c",
+      "explanation": "An aneroid is a sealed capsule, often evacuated of air, created by joining two diaphragms at their edges[cite: 436, 487, 568]. It is used to measure absolute pressure and is a key component in altimeters. A single diaphragm measures low pressure [cite: 457], and a long corrugated tube describes bellows[cite: 442]."
+    },
+    {
+      "question_number": 13,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Diaphragm",
+      "difficulty": "Easy",
+      "question": "What is the purpose of the corrugations on a diaphragm used in a pressure instrument?",
+      "options": {
+        "a": "To make the diaphragm stronger and resist pressure",
+        "b": "To permit larger deflection for a given pressure change",
+        "c": "To help cool the instrument during operation"
+      },
+      "correct_answer": "b",
+      "explanation": "The corrugations on a diaphragm are designed to increase its flexibility, which permits a larger and more easily measurable deflection when exposed to pressure changes[cite: 426, 575]. Their purpose is not for strength or cooling."
+    },
+    {
+      "question_number": 14,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Engine Pressure Ratio (EPR)",
+      "difficulty": "Hard",
+      "question": "What does an Engine Pressure Ratio (EPR) indication system measure?",
+      "options": {
+        "a": "The absolute pressure inside the engine's intake manifold",
+        "b": "The ratio of the total exhaust pressure to the pressure of the ram air",
+        "c": "The pressure of the oil inside the engine's lubrication system"
+      },
+      "correct_answer": "b",
+      "explanation": "EPR is a primary indicator of thrust in many turbine engines and is calculated by comparing the turbine discharge pressure (total exhaust pressure) to the compressor inlet pressure (ram air pressure)[cite: 597, 615]. Manifold pressure is for reciprocating engines [cite: 611], and oil pressure is a separate measurement[cite: 606]."
+    },
+    {
+      "question_number": 15,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Manifold Pressure Gauge",
+      "difficulty": "Medium",
+      "question": "A manifold pressure gauge is a critical instrument for which type of engine?",
+      "options": {
+        "a": "Gas turbine engines",
+        "b": "Reciprocating engines",
+        "c": "Turboprop engines"
+      },
+      "correct_answer": "b",
+      "explanation": "The manifold pressure gauge indicates the absolute pressure in the intake manifold of a reciprocating engine and is a primary measure of its power output[cite: 125, 611]. Gas turbine engines use EPR or %RPM [cite: 615, 1054], and turboprop engines use a torque indicator[cite: 128]."
+    },
+    {
+      "question_number": 16,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Thermocouples",
+      "difficulty": "Medium",
+      "question": "A thermocouple, used for measuring high temperatures like EGT, operates based on what principle?",
+      "options": {
+        "a": "The change in electrical resistance of a metal as temperature changes",
+        "b": "The physical expansion and contraction of a bimetallic strip",
+        "c": "The generation of a small voltage (EMF) when the junction of two dissimilar metals is heated"
+      },
+      "correct_answer": "c",
+      "explanation": "A thermocouple consists of two unlike metals joined at two junctions. When one junction is heated relative to the other, a voltage is produced that is proportional to the temperature difference[cite: 710, 711, 712, 727]. The change in resistance is the principle of a resistance thermometer [cite: 687], and the expansion of a bimetallic strip is used in non-electrical gauges[cite: 666, 667]."
+    },
+    {
+      "question_number": 17,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Ratiometer",
+      "difficulty": "Hard",
+      "question": "What is the primary advantage of a ratiometer electrical resistance thermometer over a Wheatstone bridge type?",
+      "options": {
+        "a": "It is simpler and has fewer components",
+        "b": "It can measure much higher temperatures",
+        "c": "It is less affected by fluctuations in the supply voltage"
+      },
+      "correct_answer": "c",
+      "explanation": "The ratiometer is designed to be more stable and accurate because it measures a ratio of current flows, making its readings largely independent of variations in the system's supply voltage, which can cause errors in a simple Wheatstone bridge circuit[cite: 696, 697, 698, 804]. Thermocouples are used for higher temperatures[cite: 713]."
+    },
+    {
+      "question_number": 18,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "Total Air Temperature (TAT)",
+      "difficulty": "Medium",
+      "question": "What is Total Air Temperature (TAT)?",
+      "options": {
+        "a": "The temperature of the air inside the cabin",
+        "b": "The static (ambient) air temperature plus the temperature rise from air compression at high speed",
+        "c": "The average temperature of the aircraft's skin"
+      },
+      "correct_answer": "b",
+      "explanation": "Total Air Temperature (TAT) is the static air temperature (SAT) plus any rise in temperature, known as 'ram rise,' which is caused by the high-speed movement of the aircraft through the air[cite: 762, 763, 797]. It is measured by a specialized TAT probe, not by cabin or skin sensors."
+    },
+    {
+      "question_number": 19,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "EGT/TIT Indication",
+      "difficulty": "Medium",
+      "question": "How is the Exhaust Gas Temperature (EGT) or Turbine Inlet Temperature (TIT) typically measured in a gas turbine engine?",
+      "options": {
+        "a": "With a single, highly accurate resistance thermometer at the exhaust",
+        "b": "With several thermocouples placed around the engine's perimeter, whose readings are averaged",
+        "c": "With a bimetallic probe that changes color based on heat"
+      },
+      "correct_answer": "b",
+      "explanation": "To get a representative temperature of the hot gases, which is crucial for engine health, several thermocouples are installed in parallel around the perimeter of the turbine section. The system then averages their outputs to provide a single EGT or TIT reading[cite: 738, 791]. A single probe would not account for temperature variations across the engine diameter."
+    },
+    {
+      "question_number": 20,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Capacitance Systems",
+      "difficulty": "Medium",
+      "question": "How does a capacitance-type fuel quantity gauging system measure the amount of fuel?",
+      "options": {
+        "a": "By using a float to measure the fuel level and change a resistor",
+        "b": "By measuring the change in capacitance of probes as the ratio of fuel to air changes",
+        "c": "By weighing the fuel tank with strain gauges"
+      },
+      "correct_answer": "b",
+      "explanation": "Capacitance systems work because the fuel and air in the tank act as the dielectric material between the plates of capacitor probes. As the fuel level changes, the overall dielectric constant changes, which alters the capacitance, and this change is measured to indicate fuel quantity[cite: 853, 859, 1014]. Float systems use a variable resistor[cite: 840], and strain gauges are not the principle used here."
+    },
+    {
+      "question_number": 21,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Capacitance System Compensator",
+      "difficulty": "Hard",
+      "question": "What is the purpose of a compensator unit in a capacitance-type fuel quantity system?",
+      "options": {
+        "a": "To average the readings from all the fuel tank probes",
+        "b": "To correct for errors caused by changes in fuel temperature and density",
+        "c": "To provide a backup reading if the main probes fail"
+      },
+      "correct_answer": "b",
+      "explanation": "A compensator is a capacitor unit that is always immersed in fuel. It detects changes in the fuel's dielectric constant due to temperature variations, which also affect density. The system uses this information to modify the reading, ensuring the gauge accurately indicates fuel mass (weight), not just volume[cite: 877, 878, 879, 1015, 1028]."
+    },
+    {
+      "question_number": 22,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Oil Quantity",
+      "difficulty": "Medium",
+      "question": "Modern oil quantity transmitters often use what type of sensor technology?",
+      "options": {
+        "a": "A series of bimetallic strips that bend with temperature",
+        "b": "A small Bourdon tube that measures oil pressure",
+        "c": "A floating magnet that moves along a tube, opening or closing a series of reed switches"
+      },
+      "correct_answer": "c",
+      "explanation": "A common type of oil quantity transmitter uses a float containing a magnet. As the oil level changes, the float moves, and the magnet actuates a series of reed switches connected to resistors, which provides an electrical signal corresponding to the oil level[cite: 940, 941, 1021]. The other options describe temperature or pressure sensors, not quantity."
+    },
+    {
+      "question_number": 23,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Mass vs. Volume Flow",
+      "difficulty": "Medium",
+      "question": "A simple pressure gauge placed at the fuel injectors, calibrated in gal/hr, is primarily measuring what?",
+      "options": {
+        "a": "Fuel mass flow, corrected for temperature",
+        "b": "Fuel pressure, which is used to infer volume flow",
+        "c": "The viscosity of the fuel"
+      },
+      "correct_answer": "b",
+      "explanation": "In simple systems, a pressure gauge monitors fuel pressure at the injectors and is calibrated to display an estimated flow rate in volume units (e.g., gal/hr)[cite: 972, 973]. This system infers flow from pressure and can be inaccurate if an injector is clogged, as pressure might rise while actual flow decreases[cite: 974, 975]. True mass flow meters are more complex[cite: 986]."
+    },
+    {
+      "question_number": 24,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Vane-Type Meter",
+      "difficulty": "Medium",
+      "question": "What does a vane-type fuel flow meter directly measure?",
+      "options": {
+        "a": "The mass of the fuel flowing through it",
+        "b": "The temperature of the fuel",
+        "c": "The volume of the fuel flowing through it"
+      },
+      "correct_answer": "c",
+      "explanation": "A vane-type flow meter, as depicted in the diagram, uses the force of flowing fuel to displace a measuring vane against a hairspring. The amount of displacement is proportional to the rate of fuel volume passing through the meter[cite: 979, 1023, 1032]. It does not directly measure mass, which would require compensation for density/temperature changes."
+    },
+    {
+      "question_number": 25,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Tachometers",
+      "difficulty": "Easy",
+      "question": "On a gas turbine engine, what does the tachometer typically indicate?",
+      "options": {
+        "a": "Engine crankshaft speed in RPM",
+        "b": "The speed of the compressor section(s) as a percentage of maximum RPM",
+        "c": "The speed of the propeller in knots"
+      },
+      "correct_answer": "b",
+      "explanation": "For gas turbine engines, tachometers monitor the speed of the compressor sections and are calibrated in percentage of RPM (%RPM)[cite: 1041, 1054, 1055]. This allows for standardized operation across different engine types. Crankshaft speed is for reciprocating engines[cite: 1049, 1053], and propeller speed is related but distinct from the core engine speed indication."
+    },
+    {
+      "question_number": 26,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Electrical Tachometer",
+      "difficulty": "Medium",
+      "question": "How does a common electrical tachometer system function?",
+      "options": {
+        "a": "It uses a proximity sensor to count gear teeth and calculate speed",
+        "b": "It uses an AC generator on the engine whose frequency output is proportional to engine speed",
+        "c": "It uses a Bourdon tube connected to the engine's oil pump"
+      },
+      "correct_answer": "b",
+      "explanation": "A common electrical tachometer system consists of a small three-phase AC generator attached to the engine, which produces a frequency directly proportional to the engine's speed. This signal drives a synchronous motor in the cockpit indicator[cite: 1075, 1076, 1077, 1078, 1217]. Tacho probes may count teeth[cite: 1094], but the generator/motor system is a primary type. A Bourdon tube measures pressure, not speed."
+    },
+    {
+      "question_number": 27,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Synchroscope",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a synchroscope on a multi-engine aircraft?",
+      "options": {
+        "a": "To indicate the aircraft's magnetic heading",
+        "b": "To provide a visual indication of whether two or more engines are running at the same speed",
+        "c": "To measure the engine vibration levels"
+      },
+      "correct_answer": "b",
+      "explanation": "A synchroscope is an instrument that shows if two or more engines are synchronized, meaning they are rotating at the same RPM. It typically compares the RPM of a 'slave' engine to a 'master' engine and indicates if the slave is running 'slow' or 'fast'[cite: 1101, 1105, 1106, 1220]. A compass indicates heading, and a vibration monitor measures vibration."
+    },
+    {
+      "question_number": 28,
+      "lesson": "5.2",
+      "topic": "Vibration Measurement",
+      "subtopic": "Vibration Sensors",
+      "difficulty": "Medium",
+      "question": "Which type of vibration pickup is a self-generating sensor that uses a permanent magnet and a coil of wire?",
+      "options": {
+        "a": "Piezoelectric accelerometer",
+        "b": "Velocity pickup",
+        "c": "Tacho probe"
+      },
+      "correct_answer": "b",
+      "explanation": "A velocity pickup is a self-generating sensor that consists of a coil of wire and a permanent magnet. Relative motion between them, caused by vibration, induces a current whose voltage is proportional to the vibration velocity[cite: 1120, 1124, 1125, 1126, 1127]. A piezoelectric accelerometer uses a crystal that generates a charge under stress from acceleration[cite: 1121, 1133, 1134]. A tacho probe measures rotational speed[cite: 1094]."
+    },
+    {
+      "question_number": 29,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Proximity Sensors",
+      "difficulty": "Medium",
+      "question": "A proximity sensor is often used to detect the position of components like landing gear. What is its principle of operation?",
+      "options": {
+        "a": "It makes physical contact with the component to close a switch",
+        "b": "It uses a magnetic field to measure the nearness of a metal target without physical contact",
+        "c": "It uses a light beam that is interrupted by the component"
+      },
+      "correct_answer": "b",
+      "explanation": "Proximity sensing is a non-contact method that uses a sensor to generate a magnetic field. When a metal target (like part of the landing gear) moves close to it, the field's characteristics (inductance) change, and this change is detected to signal the target's position[cite: 1152, 1153, 1154, 1161]. Contact-type switches are a different method[cite: 1168]."
+    },
+    {
+      "question_number": 30,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "Angle of Attack (AOA)",
+      "difficulty": "Medium",
+      "question": "What does an Angle of Attack (AOA) indicating system measure?",
+      "options": {
+        "a": "The aircraft's pitch angle relative to the ground",
+        "b": "The angle between the wing chord centerline and the relative wind",
+        "c": "The angle of the airflow relative to the fuselage centerline"
+      },
+      "correct_answer": "b",
+      "explanation": "The Angle of Attack (AOA) is specifically defined as the angle formed between the chord line of the wing and the direction of the oncoming air, or relative wind[cite: 1180]. Stall occurs when this angle becomes too great. Pitch angle is the aircraft's orientation to the horizon, which is different. Sensors detect local AOA, which is then corrected for display[cite: 1194, 1209]."
+    },
+    {
+      "question_number": 31,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "Warning Types",
+      "difficulty": "Medium",
+      "question": "In many modern aircraft, what physical warning is given to the pilot to signal an impending stall?",
+      "options": {
+        "a": "A loud siren that sounds in the cockpit",
+        "b": "A visual 'STALL' message on the primary flight display",
+        "c": "A stick shaker that physically vibrates the control yoke"
+      },
+      "correct_answer": "c",
+      "explanation": "A stick shaker is a common tactile warning device that vibrates the control column to alert the pilot of an impending stall condition, as detected by the AOA system[cite: 1210]. In some aircraft, a stick pusher may even automatically push the nose down[cite: 1211]. While visual messages also exist, the stick shaker provides an unmistakable physical cue."
+    },
+    {
+      "question_number": 32,
+      "lesson": "1.2",
+      "topic": "Instrument Classification",
+      "subtopic": "Navigation Instruments",
+      "difficulty": "Easy",
+      "question": "A clock and instruments that use radio signals for location finding are part of which instrument group?",
+      "options": {
+        "a": "Power Plant Instruments",
+        "b": "Flight Instruments",
+        "c": "Navigation Instruments"
+      },
+      "correct_answer": "c",
+      "explanation": "Navigation instruments provide information used by the pilot to guide the aircraft along a course, and this group includes clocks, compasses, and instruments using radio waves for location[cite: 100, 101, 102, 104, 105]. Power plant instruments monitor the engine [cite: 107], and flight instruments are for attitude control[cite: 91]."
+    },
+    {
+      "question_number": 33,
+      "lesson": "1.2",
+      "topic": "Instrument Elements",
+      "subtopic": "Instrument Systems",
+      "difficulty": "Medium",
+      "question": "An instrument system where the sensor is located remotely from the indicator in the cockpit is known as what type of system?",
+      "options": {
+        "a": "Direct-sensing instrument system",
+        "b": "Remote-sensing instrument system",
+        "c": "Mechanical-sensing instrument system"
+      },
+      "correct_answer": "b",
+      "explanation": "A remote-sensing instrument system is one where the sensor and indication elements are separated, which is very common in modern aircraft[cite: 143]. A direct-sensing system has the sensor and indication combined in a single unit[cite: 143, 177]."
+    },
+    {
+      "question_number": 34,
+      "lesson": "1.4",
+      "topic": "Synchro Systems",
+      "subtopic": "DC Selsyn System",
+      "difficulty": "Medium",
+      "question": "In a DC selsyn remote indicating system, what does the transmitter consist of?",
+      "options": {
+        "a": "A permanent magnet and three stator coils",
+        "b": "A circular resistance winding with a rotating contact arm",
+        "c": "A sealed aneroid capsule connected to a potentiometer"
+      },
+      "correct_answer": "b",
+      "explanation": "The transmitter in a DC selsyn system is a circular resistor with a rotating contact arm. The position of this arm, often moved by a float or mechanical linkage, determines the voltages sent to the indicator's coils[cite: 544, 546]. The indicator contains the permanent magnet and stator coils[cite: 546, 548]."
+    },
+    {
+      "question_number": 35,
+      "lesson": "1.4",
+      "topic": "Synchro Systems",
+      "subtopic": "AC Synchro System (Magnesyn)",
+      "difficulty": "Hard",
+      "question": "What is the key component that rotates inside both the transmitting and indicating magnesyn of an AC synchro system?",
+      "options": {
+        "a": "An electromagnet powered by DC",
+        "b": "A permanent magnet",
+        "c": "A soft iron core with no magnetism"
+      },
+      "correct_answer": "b",
+      "explanation": "The AC magnesyn system uses a permanent magnet as the rotor in both the transmitter and the indicator. The transmitter's magnet is rotated by a mechanical input, which induces voltages in the toroidal winding that are sent to the indicator, causing its magnet to align with the same position[cite: 555, 562]."
+    },
+    {
+      "question_number": 36,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "ASI Markings",
+      "difficulty": "Easy",
+      "question": "On an Airspeed Indicator (ASI), what does the red line at the top of the scale signify?",
+      "options": {
+        "a": "Normal operating speed range",
+        "b": "The flap operating range",
+        "c": "Never exceed speed (VNE)"
+      },
+      "correct_answer": "c",
+      "explanation": "The red line on an ASI indicates the never exceed speed (VNE)[cite: 276]. Operating above this speed is prohibited as it may cause structural damage[cite: 277, 278]. The green arc is the normal operating range [cite: 271], and the white arc is the flap operating range[cite: 270]."
+    },
+    {
+      "question_number": 37,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Bellows",
+      "difficulty": "Medium",
+      "question": "Which pressure-sensing element is described as a long, corrugated metal tube, often used to measure differential pressure?",
+      "options": {
+        "a": "Capsule",
+        "b": "Bourdon Tube",
+        "c": "Bellows"
+      },
+      "correct_answer": "c",
+      "explanation": "Bellows are accordion-like corrugated structures used to measure gauge, absolute, or differential pressures and are more suited for larger pressure changes than a diaphragm[cite: 442, 491, 492, 518, 569]. A capsule is two diaphragms joined together [cite: 432, 567], and a Bourdon tube is a curved tube for high pressure[cite: 420]."
+    },
+    {
+      "question_number": 38,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Bimetallic Thermometer",
+      "difficulty": "Easy",
+      "question": "A bimetallic thermometer works because it is made of two dissimilar metals bonded together that have different what?",
+      "options": {
+        "a": "Electrical resistances",
+        "b": "Rates of thermal expansion",
+        "c": "Magnetic properties"
+      },
+      "correct_answer": "b",
+      "explanation": "A bimetallic strip is made of two metals with different rates of thermal expansion. When heated, the strip bends because one metal expands more than the other, and this movement can be used to drive a pointer[cite: 666, 667]. Electrical resistance is the principle of a resistance thermometer[cite: 687]."
+    },
+    {
+      "question_number": 39,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Thermocouple Leads",
+      "difficulty": "Hard",
+      "question": "Why is it critical that the leads connecting a thermocouple sensor to its indicator be made of specific materials?",
+      "options": {
+        "a": "To prevent the wires from melting at high temperatures",
+        "b": "Because the leads form the 'cold junction' of the circuit and their resistance is part of the calibration",
+        "c": "To ensure the signal is not affected by the aircraft's magnetic field"
+      },
+      "correct_answer": "b",
+      "explanation": "The indicator end of the leads forms the 'cold junction' of the thermocouple circuit. The system is calibrated for a specific total resistance, so the leads must be made of the correct material (e.g., iron/constantan or chromel/alumel) and their length cannot be altered without recalibration[cite: 715, 722, 723, 726, 788]."
+    },
+    {
+      "question_number": 40,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Fuel Measurement Units",
+      "difficulty": "Medium",
+      "question": "Why is fuel quantity on large aircraft typically measured in terms of mass (weight) rather than volume?",
+      "options": {
+        "a": "Because measuring mass is mechanically simpler than measuring volume",
+        "b": "Because the power an engine develops depends on the energy in the fuel, which relates directly to mass, not volume",
+        "c": "Because it is an international standard that has no scientific basis"
+      },
+      "correct_answer": "b",
+      "explanation": "The energy content of fuel, and therefore the power an engine can produce and the aircraft's range, is directly related to its mass, not its volume. Since fuel volume changes with temperature but its mass does not, measuring mass provides a much more accurate indication of available energy and flight endurance[cite: 820, 821]."
+    },
+    {
+      "question_number": 41,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Drip Sticks",
+      "difficulty": "Easy",
+      "question": "What is the purpose of a 'drip stick' in a large aircraft's fuel tank?",
+      "options": {
+        "a": "To add a special anti-fungal additive to the fuel",
+        "b": "To provide a mechanical, visual way to cross-check the fuel quantity when electrical power is off",
+        "c": "To drain water contamination from the bottom of the fuel tank"
+      },
+      "correct_answer": "b",
+      "explanation": "Drip sticks are mechanical gauges mounted in fuel tanks that can be used to physically check the fuel level, especially as a cross-check for the electronic gauges or when the aircraft is unpowered[cite: 891, 892, 893, 1016]. They are not used for additives or draining water."
+    },
+    {
+      "question_number": 42,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Thermal Dispersion Sensor",
+      "difficulty": "Hard",
+      "question": "How does a thermal dispersion fuel flow sensor with no moving parts operate?",
+      "options": {
+        "a": "It uses a small turbine that spins at a rate proportional to fuel flow",
+        "b": "It measures the pressure drop across an orifice in the fuel line",
+        "c": "It measures how much a heated element is cooled by the passing fuel flow"
+      },
+      "correct_answer": "c",
+      "explanation": "Thermal dispersion technology uses two temperature detectors (RTDs). One is heated to a temperature above the fuel, and the other measures the actual fuel temperature. As fuel flows past, it cools the heated element. The temperature difference between the two RTDs is inversely proportional to the mass flow rate of the fuel[cite: 1006, 1007, 1008, 1009, 1010]."
+    },
+    {
+      "question_number": 43,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Landing Gear Indication",
+      "difficulty": "Easy",
+      "question": "What does a GREEN light typically indicate for a landing gear position system?",
+      "options": {
+        "a": "The landing gear is in transit between up and down",
+        "b": "The landing gear is down and locked",
+        "c": "There is a disagreement between the gear lever position and the gear position"
+      },
+      "correct_answer": "b",
+      "explanation": "For landing gear indication systems, a GREEN light signifies that the corresponding gear is in the down and locked position, safe for landing[cite: 1173]. A RED light indicates a disagreement between the lever and gear positions[cite: 1174], and no light or an intermediate light may indicate the gear is in transit."
+    },
+    {
+      "question_number": 44,
+      "lesson": "1.3",
+      "topic": "Instrument Layout",
+      "subtopic": "Power Plant Instruments",
+      "difficulty": "Easy",
+      "question": "Where are power-plant instruments typically grouped in the cockpit, and why?",
+      "options": {
+        "a": "On the left side, to be seen only by the pilot",
+        "b": "In the center of the cockpit, to be readily seen by both crew members",
+        "c": "On the overhead panel, to save space"
+      },
+      "correct_answer": "b",
+      "explanation": "Power-plant instruments are usually grouped together in the center of the instrument panel so they can be easily seen by both the pilot and copilot to minimize confusion[cite: 86, 228, 229]. Their layout often corresponds to the engine positions on the aircraft[cite: 230]."
+    },
+    {
+      "question_number": 45,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Fuel Pressure Indication",
+      "difficulty": "Medium",
+      "question": "Why is a remote-sensing system preferred for fuel pressure indication?",
+      "options": {
+        "a": "Because it is more accurate than a direct-reading gauge",
+        "b": "Because running a line with flammable fuel into the cockpit is undesirable",
+        "c": "Because direct-reading gauges cannot measure low pressures"
+      },
+      "correct_answer": "b",
+      "explanation": "For safety reasons, it is undesirable to run fuel lines directly into the cockpit. Therefore, a remote-sensing system, where a transmitter at the engine sends an electrical signal to an indicator in the cockpit, is preferred for measuring fuel pressure[cite: 609, 610, 622]."
+    },
+    {
+      "question_number": 46,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements",
+      "subtopic": "Vibration",
+      "difficulty": "Easy",
+      "question": "What is a key requirement for instrument panels regarding vibration?",
+      "options": {
+        "a": "They must be completely rigid and transmit all engine vibration to the instruments.",
+        "b": "The vibration characteristics must not seriously impair the accuracy of or damage the instruments.",
+        "c": "They must be made of soft rubber to absorb all vibration."
+      },
+      "correct_answer": "b",
+      "explanation": "The requirement states that instrument panels must be designed such that their vibration characteristics do not seriously impair the accuracy of the instruments or cause damage to them[cite: 88]. This implies controlled damping, not complete rigidity or total absorption."
+    },
+    {
+      "question_number": 47,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Qualitative Displays",
+      "difficulty": "Medium",
+      "question": "An engine synchronizing indicator that shows 'SLOW' or 'FAST' but not a precise RPM number is an example of what type of display?",
+      "options": {
+        "a": "Quantitative Display",
+        "b": "Digital Display",
+        "c": "Qualitative Display"
+      },
+      "correct_answer": "c",
+      "explanation": "A qualitative display indicates the state or rate of change of a parameter (e.g., 'fast', 'slow', 'on', 'off') rather than its exact numerical value[cite: 181, 205]. The engine synchronizer is a classic example[cite: 206]. A quantitative display shows a specific numerical value[cite: 182]."
+    },
+    {
+      "question_number": 48,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "TAT Probe Heating",
+      "difficulty": "Medium",
+      "question": "How is a Total Air Temperature (TAT) probe prevented from icing up without affecting its reading?",
+      "options": {
+        "a": "TAT probes are not heated, as it would always make the reading incorrect.",
+        "b": "The probe is heated internally, but it is constructed so the heating element does not affect the sensor element's resistance.",
+        "c": "The probe is coated with a special chemical that prevents ice formation."
+      },
+      "correct_answer": "b",
+      "explanation": "TAT probes are heated for anti-icing purposes. They are carefully designed so that the internal heater can function without influencing the resistance and accuracy of the separate sensing element that actually measures the air temperature[cite: 765]. The statement that they cannot be heated is false[cite: 809]."
+    },
+    {
+      "question_number": 49,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Mechanical Tachometer",
+      "difficulty": "Medium",
+      "question": "A mechanical tachometer that uses a spinning permanent magnet and a drag cup works based on what principle?",
+      "options": {
+        "a": "Magnetic attraction and repulsion",
+        "b": "The generation of eddy currents",
+        "c": "Centrifugal force acting on flyweights"
+      },
+      "correct_answer": "b",
+      "explanation": "In a magnetic drag cup tachometer, a permanent magnet is rotated by a flexible drive shaft from the engine. This spinning magnet induces eddy currents in a nearby aluminum or copper cup. The interaction of the magnetic fields creates a torque that tries to drag the cup along, and this motion, restrained by a hairspring, indicates the RPM[cite: 1067, 1068, 1069]. A different type of mechanical tachometer uses flyweights."
+    },
+    {
+      "question_number": 50,
+      "lesson": "5.2",
+      "topic": "Vibration Measurement",
+      "subtopic": "Piezoelectric Accelerometer",
+      "difficulty": "Hard",
+      "question": "What does a piezoelectric accelerometer directly measure?",
+      "options": {
+        "a": "The velocity of the vibration",
+        "b": "The acceleration of the vibration",
+        "c": "The displacement of the vibrating component"
+      },
+      "correct_answer": "b",
+      "explanation": "A piezoelectric accelerometer works when the acceleration of the engine is transmitted to a seismic mass inside the unit, which exerts a proportional force on a piezoelectric crystal. This stress on the crystal generates an electrical charge that corresponds to the acceleration[cite: 1121, 1132, 1133, 1134, 1221]. A velocity pickup measures velocity[cite: 1120]."
+    },
+    {
+      "question_number": 51,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "ASI Markings",
+      "difficulty": "Medium",
+      "question": "What does the white arc on an Airspeed Indicator (ASI) represent?",
+      "options": {
+        "a": "The caution range, for smooth air only.",
+        "b": "The flap operating range.",
+        "c": "The normal operating range."
+      },
+      "correct_answer": "b",
+      "explanation": "The white arc on an ASI specifically indicates the full flap operating range, from the power-off stalling speed with flaps and gear down (VSO) to the maximum flap extended speed (VFE)[cite: 270]. The yellow arc is the caution range [cite: 273], and the green arc is the normal operating range[cite: 271]."
+    },
+    {
+      "question_number": 52,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Suction Gauge",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a suction or vacuum gauge on an aircraft?",
+      "options": {
+        "a": "To measure cabin pressure differential.",
+        "b": "To indicate the pressure in the hydraulic system.",
+        "c": "To monitor the pressure available to operate vacuum-driven gyroscopic instruments."
+      },
+      "correct_answer": "c",
+      "explanation": "A suction gauge indicates how much less pressure exists in the vacuum system compared to the atmosphere. This is critical for monitoring the health of vacuum systems that are used to spin the gyros in instruments like the attitude and heading indicators on some aircraft[cite: 601, 617, 618]."
+    },
+    {
+      "question_number": 53,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Torque Pressure Indicator",
+      "difficulty": "Medium",
+      "question": "A torque pressure indication system is used to measure the power output of which type of engine?",
+      "options": {
+        "a": "Reciprocating piston engine",
+        "b": "Turboprop engine",
+        "c": "Turbojet engine"
+      },
+      "correct_answer": "b",
+      "explanation": "A torque indicator, which may use a pressure-based system to function, measures the amount of torque being delivered to the propeller shaft and is the primary instrument for setting power on a turboprop engine[cite: 128, 594, 614]. Turbojets use EPR or %RPM [cite: 127], and reciprocating engines use Manifold Pressure and RPM[cite: 125]."
+    },
+    {
+      "question_number": 54,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Fuel Totalizer",
+      "difficulty": "Medium",
+      "question": "What is a primary function of a fuel totalizer on a high-performance aircraft?",
+      "options": {
+        "a": "To measure the temperature of the fuel in each tank.",
+        "b": "To electronically calculate and display fuel used, fuel remaining, and flight time remaining.",
+        "c": "To control the transfer of fuel between different tanks."
+      },
+      "correct_answer": "b",
+      "explanation": "A fuel totalizer is an electronic computer that takes the fuel flow rate and calculates various useful data points for flight management, such as total fuel consumed, total fuel remaining, and the available flight time or range at the current consumption rate[cite: 992, 993, 994, 995]. It's an information display, not a fuel management control unit."
+    },
+    {
+      "question_number": 55,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Pressure Switches",
+      "difficulty": "Easy",
+      "question": "What is the function of an engine oil pressure warning switch?",
+      "options": {
+        "a": "To display the exact oil pressure value on a gauge.",
+        "b": "To open or close an electrical circuit when pressure goes above or below a preset limit.",
+        "c": "To regulate the oil pressure in the engine."
+      },
+      "correct_answer": "b",
+      "explanation": "A pressure warning switch is not an indicating instrument; its purpose is to simply monitor if a pressure is 'too high' or 'too low' and to open or close a circuit (e.g., to turn on a warning light) when a specific pressure threshold is crossed[cite: 1137, 1138, 1225, 1238]. A pressure gauge displays the actual value."
+    },
+    {
+      "question_number": 56,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "AOA Sensors",
+      "difficulty": "Medium",
+      "question": "A slotted probe type of Angle of Attack (AOA) sensor is a common type of airstream direction detector. How is it described in the material?",
+      "options": {
+        "a": "It has a small vane that aligns with the airflow, like a weather vane.",
+        "b": "It is a probe with slots that measures differential pressure to determine airflow angle.",
+        "c": "It uses a simple reed that vibrates in the airflow to create a sound."
+      },
+      "correct_answer": "b",
+      "explanation": "The material shows a diagram of the internal structure of a slotted probe airstream direction detector, which is one of the main types of AOA sensors used in modern systems[cite: 1201, 1204, 1229]. The other main type is the probe and vane sensor[cite: 1201]. The reed type is a much simpler stall warning device, not a true AOA indicator[cite: 1184]."
+    },
+    {
+      "question_number": 57,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements",
+      "subtopic": "Grouping",
+      "difficulty": "Medium",
+      "question": "According to the requirements for instrument grouping, how should all flight instruments be arranged on the panel?",
+      "options": {
+        "a": "Grouped together on the co-pilot's side.",
+        "b": "Grouped symmetrically on the vertical plane of the pilot's vision.",
+        "c": "Interspersed with power-plant instruments for easy cross-referencing."
+      },
+      "correct_answer": "b",
+      "explanation": "The requirements state that all flight instruments should be grouped on the instrument panel symmetrically about the vertical plane of vision of the pilot to ensure they are plainly visible and can be read easily[cite: 84, 85]. Power-plant instruments are grouped separately[cite: 86]."
+    },
+    {
+      "question_number": 58,
+      "lesson": "1.3",
+      "topic": "Instrument Mounting",
+      "subtopic": "Mounting Types",
+      "difficulty": "Easy",
+      "question": "What are the two common methods of mounting instruments to an instrument panel shown in the presentation?",
+      "options": {
+        "a": "Welding and gluing",
+        "b": "Front mounted and rear mounted",
+        "c": "Flange mounting and clamp mounting"
+      },
+      "correct_answer": "c",
+      "explanation": "The presentation explicitly lists and illustrates flange mounting and clamp mounting as two typical methods for securing instruments to the panel[cite: 233, 234, 284, 318, 319]. Front and rear mounted are variations of flange mounting, not separate primary methods."
+    },
+    {
+      "question_number": 59,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Diaphragm Applications",
+      "difficulty": "Medium",
+      "question": "A diaphragm is a suitable pressure sensing element for which of the following instruments?",
+      "options": {
+        "a": "High-pressure hydraulic gauge",
+        "b": "Vertical Speed Indicator (VSI)",
+        "c": "Engine tachometer"
+      },
+      "correct_answer": "b",
+      "explanation": "Diaphragms are used to measure low pressure changes and are found in instruments like the Vertical Speed Indicator (VSI) and airspeed indicators[cite: 427, 428, 457, 509]. High-pressure hydraulic gauges use a Bourdon tube [cite: 454], and a tachometer measures rotation, not pressure[cite: 1051]."
+    },
+    {
+      "question_number": 60,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "CHT Measurement",
+      "difficulty": "Medium",
+      "question": "For measuring Cylinder Head Temperature (CHT), where is the thermocouple hot junction typically placed?",
+      "options": {
+        "a": "On the coolest cylinder to provide a baseline reading.",
+        "b": "Inside the engine's oil sump.",
+        "c": "On the hottest running cylinder, often using a gasket-type thermocouple under a spark plug."
+      },
+      "correct_answer": "c",
+      "explanation": "CHT is measured at the hottest cylinder to provide the most critical temperature information for preventing engine damage[cite: 792]. The sensor is often a gasket-type thermocouple installed under a spark plug or a bayonet-type inserted into a well in the cylinder head[cite: 730, 732]."
+    },
+    {
+      "question_number": 61,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "DC Electrical Gauges",
+      "difficulty": "Medium",
+      "question": "In a simple DC electrical fuel gauge, a float arm moves a wiper across what component inside the tank transmitter?",
+      "options": {
+        "a": "A variable capacitor",
+        "b": "A variable resistor (rheostat)",
+        "c": "A small DC generator"
+      },
+      "correct_answer": "b",
+      "explanation": "In a DC electrical resistance-type gauge, the transmitter in the tank consists of a float connected to a wiper arm that moves across a variable resistor. The change in resistance alters the current flow to the ratiometer-type indicator in the cockpit, which then displays the fuel level[cite: 840, 901, 1029]."
+    },
+    {
+      "question_number": 62,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Water Quantity",
+      "difficulty": "Medium",
+      "question": "The potable water quantity indication system described for the B737 uses what type of sensor in the water tank?",
+      "options": {
+        "a": "A float-type sensor with a series of reed switches",
+        "b": "A copper mesh capacitance-type sensor",
+        "c": "A sight glass that is monitored by a camera"
+      },
+      "correct_answer": "b",
+      "explanation": "The B737's water quantity system uses a copper mesh capacitance-type sensor. The water quantity transmitter then converts the capacitance input into a DC voltage to drive the indicators[cite: 949, 955, 956, 1022]. The float/reed switch system is described for oil quantity[cite: 940]."
+    },
+    {
+      "question_number": 63,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Director Displays",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a 'director display,' such as a flight director?",
+      "options": {
+        "a": "To show the current state of the aircraft, such as its altitude and airspeed.",
+        "b": "To show the pilot what control inputs to make (e.g., 'fly up', 'bank right') to achieve a desired flight path.",
+        "c": "To display a map of the surrounding terrain."
+      },
+      "correct_answer": "b",
+      "explanation": "A director display, like the command bars on a flight director, provides directives to the pilot, such as 'fly down' or 'bank right'[cite: 207, 208, 209]. The pilot's task is to maneuver the aircraft to make its symbolic element match the directive element[cite: 211]. It shows what to do, rather than just what the aircraft is doing."
+    },
+    {
+      "question_number": 64,
+      "lesson": "1.3",
+      "topic": "Instrument Illumination",
+      "subtopic": "Wedge Lighting",
+      "difficulty": "Hard",
+      "question": "Which type of instrument illumination uses a lamp and two wedges of glass or plastic to spread light evenly across the dial plate without glare?",
+      "options": {
+        "a": "Pillar lighting",
+        "b": "Bridge lighting",
+        "c": "Wedge lighting"
+      },
+      "correct_answer": "c",
+      "explanation": "Wedge lighting uses a lamp that shines light into an 'inner wedge', which is then reflected multiple times within an 'outer wedge' before illuminating the dial plate from the side. This provides even, non-glaring illumination[cite: 239, 285, 291]. Pillar and bridge lighting are other methods not detailed with this mechanism."
+    },
+    {
+      "question_number": 65,
+      "lesson": "2.1",
+      "topic": "Pressure Measurement",
+      "subtopic": "Standard Atmosphere",
+      "difficulty": "Easy",
+      "question": "What is the value of standard sea-level pressure in pounds per square inch (PSI)?",
+      "options": {
+        "a": "10.50 PSI",
+        "b": "29.92 PSI",
+        "c": "14.70 PSI"
+      },
+      "correct_answer": "c",
+      "explanation": "Standard sea-level pressure is defined as 14.70 pounds per square inch (PSI)[cite: 376, 402]. 29.92 is the value in inches of mercury (inHg)[cite: 375]."
+    },
+    {
+      "question_number": 66,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "B737 FQIS",
+      "difficulty": "Medium",
+      "question": "In the Boeing 737 Fuel Quantity Indication System (FQIS), what is the function of the Fuel Quantity Processor Unit (FQPU)?",
+      "options": {
+        "a": "It physically pumps fuel between the tanks to maintain balance.",
+        "b": "It receives signals from the tank units and compensators to calculate fuel weight and send it to the displays.",
+        "c": "It is a mechanical indicator located on the refueling panel."
+      },
+      "correct_answer": "b",
+      "explanation": "The Fuel Quantity Processor Unit (FQPU) is the computer for the fuel system. It sends excitation signals to the tank probes and compensators, receives their return signals, calculates the total fuel weight in each tank, and then sends this data to the cockpit displays and flight management computer[cite: 917, 918, 919, 1018]."
+    },
+    {
+      "question_number": 67,
+      "lesson": "1.2",
+      "topic": "Instrument Handling",
+      "subtopic": "Storage",
+      "difficulty": "Easy",
+      "question": "What is a key requirement for the storage of aircraft instruments?",
+      "options": {
+        "a": "They should be stored in a warm, humid environment to prevent seals from drying out.",
+        "b": "They can be stored indefinitely without any checks.",
+        "c": "They should be stored in a dry, clean, well-ventilated area, and storage time limits should be observed."
+      },
+      "correct_answer": "c",
+      "explanation": "Proper storage requires a dry, even-temperature, clean, and well-ventilated environment[cite: 242]. It is also critical that the storage limiting period recommended by the manufacturer is not exceeded[cite: 244]."
+    },
+    {
+      "question_number": 68,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "ASI Markings",
+      "difficulty": "Medium",
+      "question": "The caution range on an ASI, where flight should only occur in smooth air, is marked by what color?",
+      "options": {
+        "a": "A green arc",
+        "b": "A yellow arc",
+        "c": "A red arc"
+      },
+      "correct_answer": "b",
+      "explanation": "The yellow arc represents the caution range[cite: 202, 273, 288]. Flight in this range should be conducted with caution and only in smooth air[cite: 274, 275]. The green arc is the normal operating range [cite: 203], and a red arc or line indicates a prohibited range or speed[cite: 201, 204]."
+    },
+    {
+      "question_number": 69,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Tacho Probes",
+      "difficulty": "Medium",
+      "question": "What is a key feature of modern tacho probes used for measuring engine speed?",
+      "options": {
+        "a": "They use a complex system of gears and flyweights.",
+        "b": "They have no moving parts and are sealed units.",
+        "c": "They must be lubricated daily."
+      },
+      "correct_answer": "b",
+      "explanation": "Modern tacho probes are described as having no moving parts and being sealed units that protrude into the engine's compressor section to sense speed, often electronically[cite: 1094, 1095, 1096, 1219]. This makes them very reliable and low-maintenance compared to older mechanical systems."
+    },
+    {
+      "question_number": 70,
+      "lesson": "1.2",
+      "topic": "Instrument Installation",
+      "subtopic": "Transmitter Removal",
+      "difficulty": "Easy",
+      "question": "When removing a pressure transmitter, what is a crucial first step for safety?",
+      "options": {
+        "a": "Clean the outside of the transmitter.",
+        "b": "Depressurize the system.",
+        "c": "Order a replacement part."
+      },
+      "correct_answer": "b",
+      "explanation": "Before performing maintenance like removing a transmitter, the system it is connected to must be depressurized to prevent injury or damage from high-pressure fluid release[cite: 253, 261]. Opening associated circuit breakers is also a key safety step[cite: 254]."
+    },
+    {
+      "question_number": 71,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Device Comparison",
+      "difficulty": "Medium",
+      "question": "Which pressure sensing element is functionally different from the others because it uses a curved tube instead of flexible membranes?",
+      "options": {
+        "a": "Diaphragm",
+        "b": "Capsule",
+        "c": "Bourdon Tube"
+      },
+      "correct_answer": "c",
+      "explanation": "The Bourdon tube is distinct because it consists of a curved metal tube that attempts to straighten under pressure. Diaphragms, capsules, aneroids, and bellows are all based on the principle of flexible components or membranes that expand and contract with pressure changes[cite: 525, 526]."
+    },
+    {
+      "question_number": 72,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Measurement Types",
+      "difficulty": "Easy",
+      "question": "Which of the following is a non-electrical method of temperature indication?",
+      "options": {
+        "a": "Thermocouple indicator",
+        "b": "Ratiometer indicator",
+        "c": "Bimetallic thermometer"
+      },
+      "correct_answer": "c",
+      "explanation": "A bimetallic thermometer is a non-electrical indicator that works on the principle of differential thermal expansion of two joined metals[cite: 665, 666, 784]. Thermocouples [cite: 682] and ratiometers [cite: 681] are both types of electrical temperature indicators[cite: 679]."
+    },
+    {
+      "question_number": 73,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Direct Reading Gauges",
+      "difficulty": "Easy",
+      "question": "A fuel gauge consisting of a float connected to a rod that rises and falls within a calibrated cylinder is an example of what?",
+      "options": {
+        "a": "A capacitance fuel quantity system",
+        "b": "A direct reading fuel gauge",
+        "c": "A remote DC electrical gauge"
+      },
+      "correct_answer": "b",
+      "explanation": "A float with an indicating rod, or a float moving in a calibrated cylinder, are both examples of direct reading gauges, where the quantity can be observed directly without electrical transmission[cite: 824, 827, 834, 1248]. Capacitance [cite: 845] and remote DC electrical [cite: 839] systems transmit a signal to a remote indicator."
+    },
+    {
+      "question_number": 74,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Capacitance System Advantages",
+      "difficulty": "Medium",
+      "question": "What is a significant advantage of a capacitance fuel quantity system?",
+      "options": {
+        "a": "It has no moving parts in the tank, increasing reliability.",
+        "b": "It is much cheaper to manufacture than float-type systems.",
+        "c": "It does not require electrical power to operate."
+      },
+      "correct_answer": "a",
+      "explanation": "A key advantage of capacitance-type fuel quantity transmitters is that they have no moving parts, unlike float-based systems. This lack of mechanical components generally leads to higher reliability and lower maintenance[cite: 846, 1014]."
+    },
+    {
+      "question_number": 75,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "Reed Type",
+      "difficulty": "Easy",
+      "question": "How does a simple reed-type stall warning device work?",
+      "options": {
+        "a": "It uses a sensor to measure AOA and sends a signal to an electronic horn.",
+        "b": "It uses a heated probe to detect a change in airflow.",
+        "c": "Air flowing over a slot near the wing's leading edge creates a vacuum that vibrates a reed, producing an audible tone."
+      },
+      "correct_answer": "c",
+      "explanation": "The reed-type stall warning is a simple aerodynamic/acoustic device. As the AOA increases towards a stall, the stagnation point moves, creating suction at an opening in the wing's leading edge. This suction draws air out past a reed, causing it to vibrate and produce an audible warning sound[cite: 1184, 1185, 1186, 1187, 1228]."
+    },
+    {
+      "question_number": 76,
+      "lesson": "1.1",
+      "topic": "Historical Background",
+      "subtopic": "Instrument Evolution",
+      "difficulty": "Easy",
+      "question": "How did the instrumentation in World War I aircraft differ from the Wright Flyer?",
+      "options": {
+        "a": "WWI aircraft had no instruments, relying only on visual cues.",
+        "b": "WWI aircraft had more basic instruments, like an altimeter and airspeed indicator, in addition to engine monitoring.",
+        "c": "WWI aircraft had advanced glass cockpit displays similar to modern jets."
+      },
+      "correct_answer": "b",
+      "explanation": "While the Wright Flyer had only an engine tachometer, anemometer, and stopwatch [cite: 34], WWI aircraft had a broader set of basic mechanical instruments for both flight and engine monitoring, including an altimeter, airspeed indicator, compass, and oil pressure gauge[cite: 44, 45, 46]. They were still very limited and often unreliable compared to modern systems[cite: 56]."
+    },
+    {
+      "question_number": 77,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements",
+      "subtopic": "Standards",
+      "difficulty": "Easy",
+      "question": "What is a primary purpose of having established standards for aircraft instruments?",
+      "options": {
+        "a": "To ensure all instruments are made by the same manufacturer.",
+        "b": "To ensure conformity, quality, and reliability for their intended function.",
+        "c": "To make instruments more expensive and complex."
+      },
+      "correct_answer": "b",
+      "explanation": "The purpose of instrument standards and specifications is to ensure conformity with production processes, set a standard for product quality, and ensure the instrument will be reliable when performing its intended function[cite: 69, 70, 71, 72, 165]."
+    },
+    {
+      "question_number": 78,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Digital Displays",
+      "difficulty": "Medium",
+      "question": "An altimeter that shows the altitude with numbers in a window, like '25,000', is an example of what kind of display?",
+      "options": {
+        "a": "A qualitative display",
+        "b": "A circular scale display",
+        "c": "A digital/counter display"
+      },
+      "correct_answer": "c",
+      "explanation": "A display that presents the exact numerical value using digits in a window is known as a digital or counter display[cite: 197]. While this can be combined with a circular scale (pointer), the numerical counter itself is the digital display element."
+    },
+    {
+      "question_number": 79,
+      "lesson": "2.1",
+      "topic": "Pressure Measurement",
+      "subtopic": "Units",
+      "difficulty": "Easy",
+      "question": "What is the SI unit for pressure?",
+      "options": {
+        "a": "Pounds per square inch (PSI)",
+        "b": "Pascal (Pa)",
+        "c": "Atmosphere (atm)"
+      },
+      "correct_answer": "b",
+      "explanation": "The SI (International System of Units) unit for pressure is the Pascal (Pa), which is defined as one Newton per square meter[cite: 352, 392, 401]. PSI, atm, and bar are other commonly used but non-SI units[cite: 353, 354, 356]."
+    },
+    {
+      "question_number": 80,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Ratiometer Applications",
+      "difficulty": "Medium",
+      "question": "A ratiometer electrical resistance thermometer is often used to measure which of the following, where accuracy is important?",
+      "options": {
+        "a": "Exhaust Gas Temperature (EGT)",
+        "b": "Engine oil temperature",
+        "c": "Hydraulic fluid pressure"
+      },
+      "correct_answer": "b",
+      "explanation": "Ratiometer indicators, due to their stability and accuracy, are typically used for measuring parameters like engine oil temperature, outside air temperature, and carburetor air temperature[cite: 703, 704, 705, 795]. EGT is usually measured with thermocouples due to the very high temperatures involved[cite: 713]. Hydraulic pressure is measured by a pressure instrument, not a thermometer."
+    },
+    {
+      "question_number": 81,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "RPM Units",
+      "difficulty": "Easy",
+      "question": "What is the advantage of using '%RPM' instead of actual RPM for turbine engine indication?",
+      "options": {
+        "a": "It allows for more precise control at low RPMs.",
+        "b": "It allows different engine types to be operated on the same basis of comparison and with similar procedures.",
+        "c": "It is a requirement for mechanical tachometers only."
+      },
+      "correct_answer": "b",
+      "explanation": "Using percentage RPM allows for standardization. Different turbine engines have different maximum RPM values, but an indication of 90% RPM means the same thing in terms of operational state for all of them. This allows for similar operating procedures and basis for comparison[cite: 1041, 1042, 1043, 1233]."
+    },
+    {
+      "question_number": 82,
+      "lesson": "1.3",
+      "topic": "Instrument Layout",
+      "subtopic": "Basic Six",
+      "difficulty": "Medium",
+      "question": "Which of these instruments is part of the 'Basic Six' flight instrument group but is NOT part of the 'Basic T'?",
+      "options": {
+        "a": "Attitude Indicator (Gyro Horizon)",
+        "b": "Altimeter",
+        "c": "Vertical Speed Indicator (VSI)"
+      },
+      "correct_answer": "c",
+      "explanation": "The 'Basic T' consists of the Attitude Indicator, Airspeed Indicator, Altimeter, and Course/Heading Indicator[cite: 226]. The 'Basic Six' includes those four plus the Turn Coordinator and the Vertical Speed Indicator (VSI)[cite: 224]. Therefore, the VSI is part of the 'Six' but outside the primary 'T'."
+    },
+    {
+      "question_number": 83,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Oil Pressure",
+      "difficulty": "Easy",
+      "question": "Which power-plant instrument is considered one of the most important for monitoring engine health?",
+      "options": {
+        "a": "Fuel flow indicator",
+        "b": "Engine oil pressure indicator",
+        "c": "Tachometer"
+      },
+      "correct_answer": "b",
+      "explanation": "The oil pressure indicator is often considered the most important engine instrument because a loss of oil pressure can indicate imminent catastrophic engine failure, requiring immediate action[cite: 52, 606, 621]. While fuel flow and tachometer are critical for performance management, oil pressure is a primary indicator of engine health."
+    },
+    {
+      "question_number": 84,
+      "lesson": "1.2",
+      "topic": "Instrument Elements",
+      "subtopic": "Coupling Element",
+      "difficulty": "Medium",
+      "question": "In an instrument mechanism, what is the role of the coupling element?",
+      "options": {
+        "a": "To detect the initial physical change.",
+        "b": "To display the final reading on a dial.",
+        "c": "To magnify and transmit the small displacements from the measuring element."
+      },
+      "correct_answer": "c",
+      "explanation": "The coupling element is the linkage (levers, gears, etc.) that takes the small physical movement from the measuring element (like a diaphragm or Bourdon tube) and magnifies it to move the pointer on the indicating element[cite: 135, 136]. The detecting element senses the change [cite: 131], and the indicating element displays it[cite: 137]."
+    },
+    {
+      "question_number": 85,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Mass Flow Measurement",
+      "difficulty": "Hard",
+      "question": "In a mass flow measurement system that uses an impeller and a turbine, what does the system measure to determine mass flow?",
+      "options": {
+        "a": "The speed at which the impeller rotates.",
+        "b": "The temperature increase of the fuel after passing the turbine.",
+        "c": "The amount of twisting force (torque) required to stop the turbine's rotation relative to the impeller."
+      },
+      "correct_answer": "c",
+      "explanation": "This type of mass flow meter imparts a swirl to the fuel with an impeller. A downstream turbine removes the swirl. The amount of torque needed to keep the turbine from rotating is proportional to the mass flow rate of the fuel. This twisting force is measured to provide the indication[cite: 1024]."
+    },
+    {
+      "question_number": 86,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Head-Up Display (HUD)",
+      "difficulty": "Easy",
+      "question": "What is a Head-Up Display (HUD)?",
+      "options": {
+        "a": "A display mounted on the overhead panel.",
+        "b": "A display that projects key flight information onto a transparent screen in the pilot's forward field of view.",
+        "c": "A handheld display used by the co-pilot for navigation."
+      },
+      "correct_answer": "b",
+      "explanation": "A Head-Up Display (HUD) projects important information, such as airspeed, altitude, and attitude, onto a transparent screen (combiner) positioned in the pilot's line of sight. This allows the pilot to monitor key data without looking down at the instrument panel[cite: 212, 213, 282]."
+    },
+    {
+      "question_number": 87,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Capsule Types",
+      "difficulty": "Medium",
+      "question": "What is the difference between a pressure capsule and an aneroid capsule?",
+      "options": {
+        "a": "There is no difference; the terms are interchangeable.",
+        "b": "A pressure capsule is open to a pressure source, while an aneroid is a sealed, usually evacuated, capsule.",
+        "c": "A pressure capsule is made of metal, while an aneroid is made of plastic."
+      },
+      "correct_answer": "b",
+      "explanation": "While both are made of two diaphragms joined together [cite: 432], a pressure capsule is open and connects to a pressure source, while an aneroid is a sealed capsule (from the Greek 'a-neros' meaning 'without liquid' or in this context, 'without air') that is evacuated to measure absolute pressure[cite: 433, 436, 437, 487, 568]."
+    },
+    {
+      "question_number": 88,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Bourdon Tube Thermometer",
+      "difficulty": "Medium",
+      "question": "How can a Bourdon tube, normally a pressure-sensing device, be used to measure temperature?",
+      "options": {
+        "a": "The tube itself changes resistance with temperature.",
+        "b": "A bimetallic strip is attached to the end of the tube.",
+        "c": "The tube is connected to a sealed bulb filled with a volatile liquid that creates pressure as it heats up."
+      },
+      "correct_answer": "c",
+      "explanation": "A Bourdon tube can be part of a non-electrical temperature indicator. It is connected via a capillary tube to a sensing bulb filled with a volatile liquid. As the bulb is heated, the liquid vaporizes, creating pressure that is transmitted to the Bourdon tube, causing it to straighten and move the indicator[cite: 669, 670]."
+    },
+    {
+      "question_number": 89,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Landing Gear Disagreement",
+      "difficulty": "Easy",
+      "question": "In a typical landing gear position indicating system, what does a RED light signify?",
+      "options": {
+        "a": "The landing gear is down and locked.",
+        "b": "The landing gear is up and locked.",
+        "c": "There is a disagreement between the position of the landing gear and the position of the control lever."
+      },
+      "correct_answer": "c",
+      "explanation": "A red light in the landing gear indicator typically illuminates when the gear is in transit or when the position of the gear does not match the position selected by the landing gear lever, indicating an unsafe or transient condition[cite: 1174]. Green indicates gear down and locked[cite: 1173]."
+    },
+    {
+      "question_number": 90,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Dual Indicators",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a dual indicator display?",
+      "options": {
+        "a": "To provide the same information to both the pilot and co-pilot simultaneously.",
+        "b": "To show two different quantities of one system, or the same quantity for two different systems, in a single instrument case.",
+        "c": "To have a primary and a backup pointer on the same dial in case one fails."
+      },
+      "correct_answer": "b",
+      "explanation": "Dual indicators are designed to save panel space by displaying multiple pieces of information in one unit. This can include showing two different quantities for one system (e.g., oil pressure and oil temperature), or the same quantity for two different systems (e.g., oil pressure for two engines)[cite: 198, 199]."
+    },
+    {
+      "question_number": 91,
+      "lesson": "2.1",
+      "topic": "Pressure Measurement",
+      "subtopic": "Pressure Types",
+      "difficulty": "Medium",
+      "question": "Which type of pressure measurement is taken relative to a perfect vacuum?",
+      "options": {
+        "a": "Gauge Pressure",
+        "b": "Differential Pressure",
+        "c": "Absolute Pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "Absolute pressure is measured relative to a perfect vacuum (zero pressure)[cite: 383, 444]. Gauge pressure is measured relative to the surrounding atmospheric pressure [cite: 385, 443], and differential pressure is the difference between two pressure points[cite: 387, 445]."
+    },
+    {
+      "question_number": 92,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "EGT Thermocouple Materials",
+      "difficulty": "Hard",
+      "question": "What pair of metals is commonly used for thermocouples in an Exhaust Gas Temperature (EGT) system?",
+      "options": {
+        "a": "Copper and Steel",
+        "b": "Iron and Constantan",
+        "c": "Chromel and Alumel"
+      },
+      "correct_answer": "c",
+      "explanation": "For the high temperatures found in a turbine engine's exhaust, thermocouples are typically made from Chromel and Alumel[cite: 715, 741]. Iron and Constantan are used for the lower temperatures of a CHT (Cylinder Head Temperature) gauge[cite: 715]."
+    },
+    {
+      "question_number": 93,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Cessna 172 System",
+      "difficulty": "Medium",
+      "question": "The fuel quantity indication system in a light aircraft like the Cessna 172 typically uses what kind of transmitter?",
+      "options": {
+        "a": "A capacitance-type transmitter",
+        "b": "A float-type variable resistance transmitter",
+        "c": "A series of drip sticks"
+      },
+      "correct_answer": "b",
+      "explanation": "Light aircraft like the Cessna 172 commonly use a simple and robust fuel quantity system consisting of a float-type variable resistance transmitter in each tank that sends a signal to a resistance-type indicator in the cockpit[cite: 900, 901, 1017]. Capacitance systems are more common on larger aircraft[cite: 1018]."
+    },
+    {
+      "question_number": 94,
+      "lesson": "5.2",
+      "topic": "Vibration Measurement",
+      "subtopic": "AVM System",
+      "difficulty": "Easy",
+      "question": "An Airborne Vibration Monitor (AVM) system consists of which three main components?",
+      "options": {
+        "a": "A sensor, a transmitter, and a receiver",
+        "b": "A pickup unit, an amplifier, and an indicator",
+        "c": "A gyroscope, a computer, and a display"
+      },
+      "correct_answer": "b",
+      "explanation": "A typical engine vibration monitoring system consists of a vibration pickup unit (the sensor mounted on the engine), an amplifier to condition the signal, and an indicator in the cockpit to display the vibration level[cite: 1111, 1112, 1113, 1114]."
+    },
+    {
+      "question_number": 95,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Scale Types",
+      "difficulty": "Medium",
+      "question": "A tachometer dial where the space between 0 RPM and 1000 RPM is compressed, and the space in the normal operating range is expanded, is an example of what type of scale?",
+      "options": {
+        "a": "A linear scale",
+        "b": "A non-linear scale",
+        "c": "A digital scale"
+      },
+      "correct_answer": "b",
+      "explanation": "A non-linear scale is one where the graduations are not evenly spaced. This is often done to increase readability in the most critical range of operation[cite: 187]. A linear scale has evenly spaced markings[cite: 187], and a digital scale uses numbers instead of a pointer and markings."
+    },
+    {
+      "question_number": 96,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Diaphragm Material",
+      "difficulty": "Easy",
+      "question": "What is a diaphragm in an aircraft instrument?",
+      "options": {
+        "a": "A glass window on the front of the gauge.",
+        "b": "A thin, corrugated circular metal disc.",
+        "c": "A rubber seal to keep moisture out."
+      },
+      "correct_answer": "b",
+      "explanation": "A diaphragm is described as a thin, corrugated, circular metal disc that is flexible and deflects with changes in pressure[cite: 424, 458, 566]."
+    },
+    {
+      "question_number": 97,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "B737 FQIS Probes",
+      "difficulty": "Medium",
+      "question": "In the B737 capacitance fuel system, why are multiple tank units (probes) installed in each large wing tank?",
+      "options": {
+        "a": "To provide redundancy; if one fails, the others take over.",
+        "b": "To account for the unusual shape of the tank and changing aircraft attitudes, providing an accurate average quantity.",
+        "c": "Each probe measures a different type of fuel."
+      },
+      "correct_answer": "b",
+      "explanation": "Multiple capacitance probes are installed from the top to the bottom of large, irregularly shaped tanks and are wired in parallel[cite: 848, 849, 850]. This ensures that as the fuel sloshes or the aircraft maneuvers, the total capacitance of all the probes provides a consistent and accurate measurement of the total fuel quantity[cite: 855, 856]."
+    },
+    {
+      "question_number": 98,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "Stick Pusher",
+      "difficulty": "Medium",
+      "question": "In addition to a stick shaker, some aircraft are equipped with a stick pusher. What is its function?",
+      "options": {
+        "a": "It makes the control yoke harder to pull back as the aircraft approaches a stall.",
+        "b": "It automatically pushes the control yoke forward to lower the aircraft's nose and prevent a full stall.",
+        "c": "It is a button on the control yoke that the pilot pushes to acknowledge the stall warning."
+      },
+      "correct_answer": "b",
+      "explanation": "A stick pusher is an automated safety system that, upon detecting an impending stall that the pilot has not corrected, will automatically push the control yoke forward. This action lowers the aircraft's nose, reduces the angle of attack, and helps the aircraft recover from the pre-stall condition[cite: 1211, 1212]."
+    },
+    {
+      "question_number": 99,
+      "lesson": "1.3",
+      "topic": "Instrument Illumination",
+      "subtopic": "Lighting Requirements",
+      "difficulty": "Easy",
+      "question": "What is the general requirement for instrument illumination in a cockpit?",
+      "options": {
+        "a": "Instruments must be as brightly lit as possible at all times.",
+        "b": "There must be sufficient illumination to read them easily, but without causing glare in the pilot's eyes.",
+        "c": "Only the primary flight instruments need to be illuminated."
+      },
+      "correct_answer": "b",
+      "explanation": "The requirement for instrument lighting is a balance: there must be sufficient illumination for the instruments to be read easily, but it must not be so bright that it creates glare that could distract the pilot or impair their vision[cite: 83]."
+    },
+    {
+      "question_number": 100,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Bourdon Tube Operation",
+      "difficulty": "Medium",
+      "question": "What happens to a Bourdon tube when pressure is applied to its input?",
+      "options": {
+        "a": "It coils up more tightly.",
+        "b": "It attempts to straighten out.",
+        "c": "It vibrates at a specific frequency."
+      },
+      "correct_answer": "b",
+      "explanation": "A Bourdon tube is a curved, hollow tube that is fixed at one end. When pressure is applied internally, the force on the walls causes the tube to try to straighten. This movement is then transmitted through linkages to move the instrument's pointer[cite: 421, 452]."
+    },
+    {
+      "question_number": 101,
+      "lesson": "1.2",
+      "topic": "Instrument Classification",
+      "subtopic": "Alternative Grouping",
+      "difficulty": "Medium",
+      "question": "Besides grouping by job function (Flight, Navigation, Power Plant), what is the other way to classify instruments mentioned in the presentation?",
+      "options": {
+        "a": "By the manufacturer of the instrument.",
+        "b": "By the principle on which they operate.",
+        "c": "By the age of the aircraft."
+      },
+      "correct_answer": "b",
+      "explanation": "The presentation outlines two ways of grouping instruments: according to the job they perform [cite: 296, 307] and according to the principle on which they work[cite: 297, 312]. The second method includes categories like pressure instruments, temperature instruments, and gyroscopic instruments[cite: 313, 314, 315]."
+    },
+    {
+      "question_number": 102,
+      "lesson": "1.2",
+      "topic": "Instrument Elements",
+      "subtopic": "Indicating Element",
+      "difficulty": "Easy",
+      "question": "Which instrument element uses a pointer and a scale to exhibit the value of the measured quantity?",
+      "options": {
+        "a": "Detecting Element",
+        "b": "Measuring Element",
+        "c": "Indicating Element"
+      },
+      "correct_answer": "c",
+      "explanation": "The indicating element is the final stage, which displays the measured value to the pilot, typically through the relative positions of a pointer (or index) and a calibrated scale[cite: 137, 138]."
+    },
+    {
+      "question_number": 103,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Wheatstone Bridge",
+      "difficulty": "Medium",
+      "question": "An electrical resistance thermometer often uses what type of circuit to measure the resistance of the heat-sensitive element?",
+      "options": {
+        "a": "A ratiometer circuit",
+        "b": "A Wheatstone bridge circuit",
+        "c": "A thermocouple circuit"
+      },
+      "correct_answer": "b",
+      "explanation": "Electrical resistance thermometers work on the principle that the resistance of a metal (like nickel wire) changes with temperature. The indicator often contains a Wheatstone bridge circuit, which is a classic circuit for accurately measuring an unknown electrical resistance[cite: 680, 686, 689]."
+    },
+    {
+      "question_number": 104,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Pressure-Based Flow Indication",
+      "difficulty": "Hard",
+      "question": "What is a major potential inaccuracy of a fuel flow indicator that works by measuring fuel pressure?",
+      "options": {
+        "a": "It reads incorrectly at high altitudes.",
+        "b": "A clogged injector can cause a high pressure reading, leading to a falsely high flow indication.",
+        "c": "It is not affected by inaccuracies."
+      },
+      "correct_answer": "b",
+      "explanation": "If a fuel flow system is based only on pressure, a partial or full clog in a fuel injector will restrict flow. This restriction will cause the pressure upstream of the clog to increase. The instrument will sense this higher pressure and incorrectly indicate a higher flow rate, when in fact the actual flow rate has been reduced[cite: 974, 975]."
+    },
+    {
+      "question_number": 105,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Helicopter Tachometer",
+      "difficulty": "Medium",
+      "question": "In a helicopter, a dual tachometer is often used to display what two parameters?",
+      "options": {
+        "a": "The speed of the two main rotor blades.",
+        "b": "The ground speed and the air speed.",
+        "c": "The engine RPM and the main rotor shaft RPM."
+      },
+      "correct_answer": "c",
+      "explanation": "Helicopters use a dual tachometer to separately indicate the engine RPM and the main rotor RPM[cite: 1056, 1090]. Comparing the two readings is critical because it can provide information about the condition of the clutch that connects the engine to the rotor system[cite: 1091]."
+    },
+    {
+      "question_number": 106,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "LED Displays",
+      "difficulty": "Medium",
+      "question": "A dot-matrix LED display is often used for what purpose in a power plant instrument group?",
+      "options": {
+        "a": "To create the round dial of the gauge.",
+        "b": "To provide digital readouts of values.",
+        "c": "To illuminate the entire instrument panel."
+      },
+      "correct_answer": "b",
+      "explanation": "The presentation shows an example of a B737-400 power plant instrument group that uses both standard LED annunciators and dot-matrix displays to show numerical values, such as the 'MAN SET' numbers[cite: 221]. They are used for displaying alphanumeric information, not for creating analog dials."
+    },
+    {
+      "question_number": 107,
+      "lesson": "1.2",
+      "topic": "Instrument Requirements",
+      "subtopic": "Airworthiness Control",
+      "difficulty": "Easy",
+      "question": "The formulation and control of airworthiness requirements for aircraft instruments are established by which entities?",
+      "options": {
+        "a": "The airline that operates the aircraft.",
+        "b": "The individual pilot of the aircraft.",
+        "c": "Government departments in the countries of design, manufacture, and registration."
+      },
+      "correct_answer": "c",
+      "explanation": "Airworthiness requirements and standards are legally established by government departments or other constituted bodies in the countries of design origin, manufacture, and registration of the aircraft[cite: 63, 64, 65, 66, 67, 164]."
+    },
+    {
+      "question_number": 108,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Aneroid Applications",
+      "difficulty": "Medium",
+      "question": "An aneroid capsule is a critical component in which of the following flight instruments?",
+      "options": {
+        "a": "Altimeter",
+        "b": "Magnetic Compass",
+        "c": "Engine Oil Pressure Gauge"
+      },
+      "correct_answer": "a",
+      "explanation": "An aneroid, being a sealed capsule that expands and contracts with changes in atmospheric pressure, is the primary sensing element in a barometric altimeter[cite: 434, 468, 489, 517]. A magnetic compass uses the Earth's magnetic field, and an oil pressure gauge uses a Bourdon tube or other pressure sensor."
+    },
+    {
+      "question_number": 109,
+      "lesson": "3.1",
+      "topic": "Temperature Measuring Instruments",
+      "subtopic": "Thermocouple Junctions",
+      "difficulty": "Medium",
+      "question": "A thermocouple circuit has a 'hot junction' and a 'cold junction'. Where is the hot junction located?",
+      "options": {
+        "a": "Inside the indicator in the cockpit.",
+        "b": "At the point where the temperature is being measured.",
+        "c": "At a special connector halfway along the wires."
+      },
+      "correct_answer": "b",
+      "explanation": "The 'hot junction' is the end of the thermocouple that is placed at the location where the temperature measurement is desired, such as in the engine's exhaust stream or on a cylinder head[cite: 718]. The 'cold junction' is the reference junction, typically located at the terminals of the indicating instrument[cite: 718, 726]."
+    },
+    {
+      "question_number": 110,
+      "lesson": "1.4",
+      "topic": "Synchro Systems",
+      "subtopic": "Purpose",
+      "difficulty": "Easy",
+      "question": "What is the fundamental purpose of synchro systems in aircraft instrumentation?",
+      "options": {
+        "a": "To generate electrical power for the instruments.",
+        "b": "To enable remote reading of instruments.",
+        "c": "To amplify the brightness of instrument displays."
+      },
+      "correct_answer": "b",
+      "explanation": "Synchro systems are fundamental to remote reading instrument systems. They accurately transmit the position of a sensor (transmitter) to a remote indicator in the cockpit using electrical signals[cite: 31, 535, 540]."
+    },
+    {
+      "question_number": 111,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Fuel Summation Unit",
+      "difficulty": "Medium",
+      "question": "What is the function of a fuel summation unit on a large aircraft?",
+      "options": {
+        "a": "It is another name for the refueling nozzle.",
+        "b": "It adds the quantities from all individual tank indicators to provide a total fuel onboard value.",
+        "c": "It is a manual calculator used by the pilot for fuel planning."
+      },
+      "correct_answer": "b",
+      "explanation": "A fuel summation unit is an electronic component that adds the fuel quantities from all the individual tank indicators. This total fuel value is then used by the flight crew and the flight management computer for performance calculations[cite: 885, 886, 887, 888]."
+    },
+    {
+      "question_number": 112,
+      "lesson": "1.2",
+      "topic": "Instrument Classification",
+      "subtopic": "Power Plant Instruments",
+      "difficulty": "Easy",
+      "question": "A torque indicator on a turboprop is what type of instrument?",
+      "options": {
+        "a": "Flight Instrument",
+        "b": "Navigation Instrument",
+        "c": "Power plant Instrument"
+      },
+      "correct_answer": "c",
+      "explanation": "A torque indicator measures the power output of a turboprop engine, so it is classified as a power plant instrument[cite: 107, 128]. Flight instruments are for attitude control [cite: 91], and navigation instruments are for course guidance[cite: 101]."
+    },
+    {
+      "question_number": 113,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "Dual Thermocouples",
+      "difficulty": "Hard",
+      "question": "What is the purpose of using dual thermocouples in an EGT system?",
+      "options": {
+        "a": "To get an average temperature between the inside and outside of the engine.",
+        "b": "To provide two electrically independent circuits for dual system reliability.",
+        "c": "To allow the probe to measure both temperature and pressure simultaneously."
+      },
+      "correct_answer": "b",
+      "explanation": "A dual thermocouple probe contains two electrically independent junctions. This provides redundancy. One circuit can be used to send signals to the cockpit indicator, while the second circuit provides signals to other systems like engine monitoring and control units, ensuring dual system reliability[cite: 747, 748, 749, 750]."
+    },
+    {
+      "question_number": 114,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Position Switch Types",
+      "difficulty": "Medium",
+      "question": "Besides non-contact proximity sensors, what other type of sensor is mentioned for detecting the position of components like the landing gear lever?",
+      "options": {
+        "a": "Ultrasonic sensors",
+        "b": "Contact type position switches",
+        "c": "Infrared sensors"
+      },
+      "correct_answer": "b",
+      "explanation": "The material states that in addition to non-contact proximity sensors [cite: 1226], contact type position switches are also used for position indication, providing examples like landing gear control lever position switches and throttle switches[cite: 1168, 1169, 1170, 1226]."
+    },
+    {
+      "question_number": 115,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Color Coding",
+      "difficulty": "Easy",
+      "question": "A red radial line on a pressure gauge would indicate what?",
+      "options": {
+        "a": "The normal operating pressure.",
+        "b": "The ideal pressure for takeoff.",
+        "c": "A maximum or minimum operating limit."
+      },
+      "correct_answer": "c",
+      "explanation": "A RED radial line is used to mark maximum and minimum limits for a parameter, such as pressure or speed. Operating beyond this line is typically prohibited[cite: 201]."
+    },
+    {
+      "question_number": 116,
+      "lesson": "2.1",
+      "topic": "Pressure Measurement",
+      "subtopic": "Pressure Types",
+      "difficulty": "Medium",
+      "question": "An airspeed indicator works by measuring which type of pressure?",
+      "options": {
+        "a": "Absolute Pressure",
+        "b": "Differential Pressure",
+        "c": "Gauge Pressure"
+      },
+      "correct_answer": "b",
+      "explanation": "An airspeed indicator measures the difference between the total pressure captured by the pitot tube and the static pressure from the static port. This difference in pressure between two points is known as differential pressure[cite: 387, 388]. The instrument's diaphragm responds to this pressure difference[cite: 147]."
+    },
+    {
+      "question_number": 117,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "EPR Application",
+      "difficulty": "Medium",
+      "question": "An Engine Pressure Ratio (EPR) gauge is the primary thrust indicator for what kind of engine?",
+      "options": {
+        "a": "Reciprocating piston engines",
+        "b": "Turboprop engines",
+        "c": "Gas Turbine Engines (Turbojets/Turbofans)"
+      },
+      "correct_answer": "c",
+      "explanation": "Engine Pressure Ratio (EPR) is used to indicate the power developed in Gas Turbine Engines (GTEs)[cite: 598, 615]. Reciprocating engines use manifold pressure [cite: 611], and turboprops use torque[cite: 614]."
+    },
+    {
+      "question_number": 118,
+      "lesson": "3.1",
+      "topic": "Temperature Measurement",
+      "subtopic": "Instrument Sealing",
+      "difficulty": "Medium",
+      "question": "Why would an electrical moving-coil type temperature instrument need compensation?",
+      "options": {
+        "a": "Because the magnetic field weakens over time.",
+        "b": "Because temperature changes can affect the resistance of the coils, leading to indication errors.",
+        "c": "Because the pointer can stick in cold weather."
+      },
+      "correct_answer": "b",
+      "explanation": "Electrical moving-coil instruments depend on electric current, which is governed by the resistance in the circuit. Changes in ambient temperature can alter the resistance of the instrument's internal wiring, which would cause indication errors. To counter this, compensation methods, such as using a thermistor, are employed[cite: 155, 156, 157, 158]."
+    },
+    {
+      "question_number": 119,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Capacitance System Principle",
+      "difficulty": "Hard",
+      "question": "In a capacitance fuel probe, what serves as the dielectric material?",
+      "options": {
+        "a": "A ceramic insulator between the plates.",
+        "b": "A vacuum sealed between the plates.",
+        "c": "The fuel and the air (or vapor) in the tank."
+      },
+      "correct_answer": "c",
+      "explanation": "The principle of the capacitance system is that the material between the capacitor plates (the dielectric) changes as the fuel level changes. The dielectric is composed of a combination of fuel and the air/vapor above it. Since fuel and air have different dielectric constants, the overall capacitance of the probe changes with the fuel level[cite: 859, 861, 862, 863, 864, 1014]."
+    },
+    {
+      "question_number": 120,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Oil Quantity Sensor",
+      "difficulty": "Medium",
+      "question": "What is a magnetic reed switch, as used in an oil quantity sensor?",
+      "options": {
+        "a": "A switch that is closed by the pressure of the oil.",
+        "b": "A switch with two contacts that are normally open and close when a magnetic field is near.",
+        "c": "A switch that senses the temperature of the oil."
+      },
+      "correct_answer": "b",
+      "explanation": "A magnetic reed switch consists of two contacts sealed in a small tube. The contacts are normally open (not touching). When a magnet (like one in the oil level float) comes near, it causes the contacts to attract and close the circuit[cite: 941, 942]. This principle is used to detect the float's position."
+    },
+    {
+      "question_number": 121,
+      "lesson": "5.4",
+      "topic": "Stall Warning Systems",
+      "subtopic": "AOA Indication",
+      "difficulty": "Medium",
+      "question": "How is the information from an Angle of Attack (AOA) sensor typically displayed to the pilot on a modern aircraft?",
+      "options": {
+        "a": "On a dedicated mechanical gauge calibrated in degrees.",
+        "b": "As an indication on the primary flight display (PFD).",
+        "c": "It is not displayed directly, but only triggers a warning horn."
+      },
+      "correct_answer": "b",
+      "explanation": "On modern glass cockpit aircraft, the AOA information is sent to the Air Data Computer (ADC), corrected for errors, and then displayed to the pilot on the Primary Flight Display (PFD)[cite: 1207, 1208, 1209]. While it can also drive a warning system, it is displayed visually."
+    },
+    {
+      "question_number": 122,
+      "lesson": "1.3",
+      "topic": "Instrument Layout",
+      "subtopic": "Power Plant Layout",
+      "difficulty": "Medium",
+      "question": "How are the individual gauges for a multi-engine aircraft's power plant instruments often arranged?",
+      "options": {
+        "a": "Stacked vertically, with engine 1 on top, engine 2 below, and so on.",
+        "b": "In an arrangement that corresponds to the physical layout of the engines on the aircraft.",
+        "c": "Alphabetically by the name of the instrument."
+      },
+      "correct_answer": "b",
+      "explanation": "The instruments for multi-engine aircraft are typically arranged to correspond to the engine positions as seen from a top-down (plan) view. For example, on a four-engine jet, the instruments for engine 1 (far left) will be on the far left of the instrument group, followed by 2, 3, and 4[cite: 230]."
+    },
+    {
+      "question_number": 123,
+      "lesson": "1.2",
+      "topic": "Instrument Installation",
+      "subtopic": "Transmitter Installation",
+      "difficulty": "Medium",
+      "question": "What is a critical step to perform after installing a new pressure transmitter and before flight?",
+      "options": {
+        "a": "Paint the transmitter to match the engine color.",
+        "b": "Do an installation test of the system.",
+        "c": "Run the engine at maximum power for 10 minutes."
+      },
+      "correct_answer": "b",
+      "explanation": "After installing a new component like a pressure transmitter, which involves steps like torquing and safety wiring, it is essential to perform an installation or operational test of the system to ensure it is functioning correctly and providing accurate readings before the aircraft is returned to service[cite: 266]."
+    },
+    {
+      "question_number": 124,
+      "lesson": "3.2",
+      "topic": "Temperature Instruments",
+      "subtopic": "TAT vs SAT",
+      "difficulty": "Hard",
+      "question": "How is Static Air Temperature (SAT) determined from the Total Air Temperature (TAT) measurement?",
+      "options": {
+        "a": "SAT is always 10 degrees cooler than TAT.",
+        "b": "SAT is determined by applying a correction factor to the TAT reading to account for ram rise.",
+        "c": "TAT and SAT are the same value, so no correction is needed."
+      },
+      "correct_answer": "b",
+      "explanation": "Total Air Temperature (TAT) is the temperature measured by the probe, which includes the temperature increase from air compression (ram rise)[cite: 763, 797]. To find the true ambient air temperature, or Static Air Temperature (SAT), a correction factor, which is dependent on airspeed/Mach number, must be applied to the TAT reading[cite: 798]."
+    },
+    {
+      "question_number": 125,
+      "lesson": "5.1",
+      "topic": "Mechanical Movement Instruments",
+      "subtopic": "Electrical Tachometer Principle",
+      "difficulty": "Medium",
+      "question": "In an electrical tachometer using an AC generator and a synchronous motor, what property of the AC generator's output varies with engine speed?",
+      "options": {
+        "a": "Voltage",
+        "b": "Frequency",
+        "c": "Phase"
+      },
+      "correct_answer": "b",
+      "explanation": "In this type of tachometer system, the AC generator's output frequency is directly proportional to the engine RPM[cite: 1077, 1218]. The synchronous motor in the indicator is designed to rotate at a speed that matches this frequency, thus replicating the engine's speed at the instrument."
+    },
+    {
+      "question_number": 126,
+      "lesson": "1.2",
+      "topic": "Instrument Classification",
+      "subtopic": "Flight Instruments",
+      "difficulty": "Easy",
+      "question": "Which of the following is considered a flight instrument?",
+      "options": {
+        "a": "Fuel Quantity Indicator",
+        "b": "Artificial Horizon",
+        "c": "Oil Temperature Indicator"
+      },
+      "correct_answer": "b",
+      "explanation": "Flight instruments are used for controlling the aircraft's flight attitude. The artificial horizon is a primary attitude instrument[cite: 91, 96]. Fuel quantity [cite: 114] and oil temperature [cite: 116] are power plant instruments."
+    },
+    {
+      "question_number": 127,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "ASI Markings",
+      "difficulty": "Medium",
+      "question": "On an Airspeed Indicator, Vso represents the low-speed end of which colored arc?",
+      "options": {
+        "a": "The green arc",
+        "b": "The yellow arc",
+        "c": "The white arc"
+      },
+      "correct_answer": "c",
+      "explanation": "Vso is the stalling speed in the landing configuration (flaps and gear down). This speed marks the beginning (low-speed end) of the white arc, which represents the full flap operating range[cite: 270]."
+    },
+    {
+      "question_number": 128,
+      "lesson": "2.3",
+      "topic": "Pressure Instruments",
+      "subtopic": "Manifold Pressure Reading",
+      "difficulty": "Medium",
+      "question": "What type of pressure does a manifold pressure gauge indicate?",
+      "options": {
+        "a": "Gauge pressure",
+        "b": "Differential pressure",
+        "c": "Absolute pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "A manifold pressure gauge on a reciprocating engine indicates the absolute pressure within the engine's intake manifold[cite: 611, 623]. This is because the power output is related to the absolute density of the fuel-air charge being drawn into the cylinders."
+    },
+    {
+      "question_number": 129,
+      "lesson": "3.1",
+      "topic": "Temperature Measurement",
+      "subtopic": "Thermistor",
+      "difficulty": "Medium",
+      "question": "A thermistor, or thermo-resistor, is sometimes used for what purpose in an instrument circuit?",
+      "options": {
+        "a": "To generate a voltage for a thermocouple.",
+        "b": "To provide temperature compensation.",
+        "c": "To heat the instrument in cold weather."
+      },
+      "correct_answer": "b",
+      "explanation": "A thermistor is a resistor whose resistance changes significantly with temperature. It is utilized in some instrument circuits as a method of compensating for temperature variations that could otherwise cause indication errors[cite: 157, 158]."
+    },
+    {
+      "question_number": 130,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Turbine Flow Sensor",
+      "difficulty": "Medium",
+      "question": "A modern fuel flow sensor that uses a small turbine often employs what type of transducer to generate a digital output?",
+      "options": {
+        "a": "A Hall-effect transducer",
+        "b": "A Bourdon tube transducer",
+        "c": "A bimetallic transducer"
+      },
+      "correct_answer": "a",
+      "explanation": "The presentation shows an example of a turbine fuel flow sensor that uses a Hall-effect transducer. As the turbine with small magnets on its blades spins, it generates pulses in the Hall-effect sensor, and the frequency of these pulses is proportional to the flow rate[cite: 1001, 1025]."
+    },
+    {
+      "question_number": 131,
+      "lesson": "1.3",
+      "topic": "Instrument Layout",
+      "subtopic": "Basic T Instruments",
+      "difficulty": "Easy",
+      "question": "Which four instruments form the 'Basic T' layout?",
+      "options": {
+        "a": "Airspeed, Altimeter, VSI, Turn Coordinator",
+        "b": "Airspeed, Attitude Indicator, Altimeter, Heading Indicator",
+        "c": "Tachometer, Oil Pressure, Oil Temp, Fuel Quantity"
+      },
+      "correct_answer": "b",
+      "explanation": "The 'Basic T' grouping consists of the Airspeed Indicator, Attitude Indicator (Gyro Horizon), Altimeter, and the Heading/Course Indicator[cite: 226, 283, 290]. These are the four most essential instruments for attitude and basic path control."
+    },
+    {
+      "question_number": 132,
+      "lesson": "1.4",
+      "topic": "Synchro Systems",
+      "subtopic": "DC Selsyn Indicator",
+      "difficulty": "Medium",
+      "question": "In a DC Selsyn system, the indicator component consists of a permanent magnet pointer surrounded by what?",
+      "options": {
+        "a": "A circular variable resistor.",
+        "b": "Three stator coils connected in a star or 'Y' shape.",
+        "c": "An aneroid capsule."
+      },
+      "correct_answer": "b",
+      "explanation": "The indicator for a DC Selsyn system contains a permanent magnet attached to a pointer. This magnet is surrounded by three coils arranged 120 degrees apart. The varying currents sent from the transmitter create a resultant magnetic field in these coils, which the pointer magnet aligns with[cite: 546]."
+    },
+    {
+      "question_number": 133,
+      "lesson": "2.2",
+      "topic": "Pressure-Sensing Elements",
+      "subtopic": "Device Summary",
+      "difficulty": "Easy",
+      "question": "What are the four primary 'dry type' mechanical pressure measuring devices listed?",
+      "options": {
+        "a": "Pitot tube, Static port, Venturi, Orifice",
+        "b": "Bourdon tube, Diaphragm, Capsule, Bellows",
+        "c": "Mercury manometer, Water manometer, Alcohol manometer, Oil manometer"
+      },
+      "correct_answer": "b",
+      "explanation": "The presentation lists the primary dry type measuring devices used in aircraft as the Bourdon tube, Diaphragm, Capsule, and Bellows[cite: 406, 407, 408, 409, 410]. Wet type manometers are generally restricted to ground testing[cite: 411]."
+    },
+    {
+      "question_number": 134,
+      "lesson": "3.1",
+      "topic": "Temperature Measurement",
+      "subtopic": "Thermocouple Types",
+      "difficulty": "Easy",
+      "question": "What are the two types of thermocouple hot junctions shown for CHT measurement?",
+      "options": {
+        "a": "Probe and Vane types",
+        "b": "Gasket and Bayonet types",
+        "c": "Slotted and Drilled types"
+      },
+      "correct_answer": "b",
+      "explanation": "The material shows two common physical forms for the hot junction of a thermocouple used for applications like CHT: the gasket type (which fits under a spark plug) and the bayonet type (which inserts into a well)[cite: 730, 787, 808]."
+    },
+    {
+      "question_number": 135,
+      "lesson": "4.1",
+      "topic": "Fluid Quantity Instruments",
+      "subtopic": "Direct Reading Mechanical",
+      "difficulty": "Medium",
+      "question": "A direct reading fuel gauge with a mechanical linkage and a pointer magnet is used to display quantity on a dial. How is the motion transferred from the tank to the dial?",
+      "options": {
+        "a": "Through an electrical wire.",
+        "b": "Through a flexible drive shaft.",
+        "c": "Through magnetic coupling, with no direct connection through the instrument case."
+      },
+      "correct_answer": "c",
+      "explanation": "The diagram for this type of gauge shows a float and mechanical linkage inside the tank that rotates a magnet. This magnet is on the other side of a sealed barrier from a 'pointer magnet' attached to the instrument needle. The magnets are coupled, so as the internal magnet rotates, the pointer magnet follows it, moving the needle without any physical penetration of the gauge housing[cite: 836, 837]."
+    },
+    {
+      "question_number": 136,
+      "lesson": "4.2",
+      "topic": "Fluid Flow Instruments",
+      "subtopic": "Vane Meter Components",
+      "difficulty": "Medium",
+      "question": "In a vane-type fuel flow meter, what component provides the restoring force that opposes the force of the fuel on the measuring vane?",
+      "options": {
+        "a": "A damper vane",
+        "b": "A hairspring",
+        "c": "A relief valve"
+      },
+      "correct_answer": "b",
+      "explanation": "In this instrument, fuel flow pushes against a measuring vane, causing it to rotate. This rotation is opposed by a calibrated hairspring. The vane comes to rest when the force from the fuel flow is balanced by the restoring force of the hairspring. The amount of rotation is therefore proportional to the flow rate[cite: 979]."
+    },
+    {
+      "question_number": 137,
+      "lesson": "5.3",
+      "topic": "Position and Warning Systems",
+      "subtopic": "Proximity Sensor Target",
+      "difficulty": "Easy",
+      "question": "A proximity sensor works by detecting a change in its magnetic field. What material must the 'target' be made of for this to work?",
+      "options": {
+        "a": "Plastic",
+        "b": "Steel or another ferrous metal",
+        "c": "Rubber"
+      },
+      "correct_answer": "b",
+      "explanation": "The proximity sensing system described measures the distance of a steel target to its sensitive surface[cite: 1153]. As a metal target is moved near the sensor, it changes the sensor's inductance, which is how the position is detected[cite: 1161]."
+    },
+    {
+      "question_number": 138,
+      "lesson": "1.1",
+      "topic": "Historical Background",
+      "subtopic": "WWI Instruments",
+      "difficulty": "Medium",
+      "question": "Which instrument from the WWI era measured the rate at which the aircraft was climbing or descending?",
+      "options": {
+        "a": "Altimeter",
+        "b": "Airspeed Indicator",
+        "c": "Climb/Descent Indicator (Variometer)"
+      },
+      "correct_answer": "c",
+      "explanation": "The Climb/Descent Indicator, also known as a Variometer, was used in WWI aircraft to show if the aircraft was climbing or descending and at what rate[cite: 55]. An altimeter shows altitude [cite: 47], and an airspeed indicator shows speed through the air[cite: 48]."
+    },
+    {
+      "question_number": 139,
+      "lesson": "1.2",
+      "topic": "Instrument Sealing",
+      "subtopic": "Purpose",
+      "difficulty": "Medium",
+      "question": "Why must instrument cases be sealed in a pressurized aircraft?",
+      "options": {
+        "a": "To keep the instruments warm at high altitudes.",
+        "b": "To withstand the pressure differential between the cabin and the outside atmosphere.",
+        "c": "To make them waterproof in case of a water landing."
+      },
+      "correct_answer": "b",
+      "explanation": "In a pressurized aircraft, the internal cabin pressure is much higher than the atmospheric pressure at its flying altitude. Instrument cases must be sealed to withstand this external pressure difference to prevent case damage and measurement errors[cite: 160, 161, 172]."
+    },
+    {
+      "question_number": 140,
+      "lesson": "1.3",
+      "topic": "Instrument Displays",
+      "subtopic": "Display Technology",
+      "difficulty": "Medium",
+      "question": "Which display technology is based on a semiconductor diode that emits light when current flows through it?",
+      "options": {
+        "a": "Liquid-Crystal Display (LCD)",
+        "b": "Light Emitting Diode (LED)",
+        "c": "Head-Up Display (HUD)"
+      },
+      "correct_answer": "b",
+      "explanation": "A Light Emitting Diode (LED) is a semiconductor device that produces light when an electric current is passed through it[cite: 217]. LCDs work by modulating light with liquid crystals [cite: 215], and HUDs are a projection system[cite: 213]."
+    }
+  ]
+}

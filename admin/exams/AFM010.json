@@ -1,0 +1,1831 @@
+ [
+    {
+      "question_number": 1,
+      "question": "When computing weight and balance, an airplane is in balance when",
+      "options": {
+        "a": "the average moment arm of the loaded aircraft falls within its CG range.",
+        "b": "all moment arm of the plane fall within cg range.",
+        "c": "the movement of the passengers will not cause the moment arms to fall outside the cg range."
+      },
+      "correct_answer": "a",
+      "explanation": "An aircraft is in balance when its center of gravity (CG), which is the average moment arm, is located within the acceptable forward and aft limits known as the CG range."
+    },
+    {
+      "question_number": 2,
+      "question": "What is the name of the distance from the fulcrum to an object?",
+      "options": {
+        "a": "lever arm",
+        "b": "balance arm",
+        "c": "fulcrum arm"
+      },
+      "correct_answer": "a",
+      "explanation": "The distance from a pivot point, or fulcrum, to the point where a force is applied is known as the lever arm or moment arm."
+    },
+    {
+      "question_number": 3,
+      "question": "In the process of weighing an airplane toward obtaining the CG, the arms from the weighing points always extend",
+      "options": {
+        "a": "Parallel to the centerline of the airplane",
+        "b": "Straight forward from each of the landing gear",
+        "c": "Directly from each weighing point to the others"
+      },
+      "correct_answer": "a",
+      "explanation": "For accurate weight and balance computations, all horizontal distance measurements (arms) must be taken parallel to the aircraft's longitudinal axis (centerline)."
+    },
+    {
+      "question_number": 4,
+      "question": "Which would have an effect on aircraft CG results when conducting a weight and balance check?",
+      "options": {
+        "a": "Leaving the parking brakes on",
+        "b": "Leaving down lock pins installed",
+        "c": "Leaving the safety pins installed"
+      },
+      "correct_answer": "a",
+      "explanation": "Leaving the parking brakes on can cause friction and side loads on the scales, leading to inaccurate weight readings and an incorrect CG calculation."
+    },
+    {
+      "question_number": 5,
+      "question": "When dealing with weight and balance of an aircraft, the term 'maximum weight' is interpreted to mean the maximum",
+      "options": {
+        "a": "Weight of the empty aircraft",
+        "b": "Weight of the useful load",
+        "c": "Authorized weight of the a/c and its contents"
+      },
+      "correct_answer": "c",
+      "explanation": "Maximum weight refers to the maximum certificated weight of the aircraft and its entire contents, as specified by the manufacturer."
+    },
+    {
+      "question_number": 6,
+      "question": "The major source of weight change for most aircraft as they age is caused by",
+      "options": {
+        "a": "Accumulation of debris in hard-to-reach areas of the structure.",
+        "b": "Repairs & alterations",
+        "c": "Installation of hardware & safety wire, and added layers of primers & paints on the structure."
+      },
+      "correct_answer": "b",
+      "explanation": "The most significant changes to an aircraft's empty weight are typically the result of major repairs and alterations performed during its service life."
+    },
+    {
+      "question_number": 7,
+      "question": "The amount of fuel used for computing empty weight and corresponding CG is",
+      "options": {
+        "a": "Empty fuel tanks",
+        "b": "Un usable fuel",
+        "c": "The amount of fuel necessary for a half hour operation"
+      },
+      "correct_answer": "b",
+      "explanation": "The certified empty weight of an aircraft includes the weight of unusable fuel. Usable fuel is considered part of the useful load."
+    },
+    {
+      "question_number": 8,
+      "question": "An aircraft as loaded weighs 4,954 pounds at a CG of +30.5 inches. The CG range is +32.0 inches to +42.1 inches. Find the minimum weight of the ballast necessary to bring the CG within the CG range. The ballast arm is +162 inches.",
+      "options": {
+        "a": "61.98lbs.",
+        "b": "30.58lbs.",
+        "c": "57.16lbs"
+      },
+      "correct_answer": "c",
+      "explanation": "To find the ballast weight (w), the following formula is used: w = W * (CG_new - CG_old) / (Arm_ballast - CG_new). w = 4954 * (32.0 - 30.5) / (162 - 32.0) = 4954 * 1.5 / 130 = 57.16 lbs. This is the minimum weight needed to move the CG to the forward limit of +32.0 inches."
+    },
+    {
+      "question_number": 9,
+      "question": "Two boxes which weigh 10 pounds and 5 pounds are placed in an airplane so that their distance aft from the CG are 4 feet and 2 feet respectively. How far forward of the CG should a third box, weighing 20 pounds, be placed so that the CG will not be changed?",
+      "options": {
+        "a": "3ft",
+        "b": "2.5ft",
+        "c": "8ft"
+      },
+      "correct_answer": "b",
+      "explanation": "First, calculate the total aft moment: (10 lbs * 4 ft) + (5 lbs * 2 ft) = 50 ft-lbs. To keep the CG unchanged, the forward moment from the third box must equal this aft moment. The required arm is the moment divided by the weight: 50 ft-lbs / 20 lbs = 2.5 ft."
+    },
+    {
+      "question_number": 10,
+      "question": "When computing the maximum forward loaded CG of an aircraft, minimum weights, arms, and moments should be used for items of useful load that are located aft of the",
+      "options": {
+        "a": "Rear ward cg limit",
+        "b": "datum",
+        "c": "Forward cg limit"
+      },
+      "correct_answer": "c",
+      "explanation": "To find the most forward CG possible, you must assume a minimum load for any items located aft of the forward CG limit, as this loading condition would result in the most forward center of gravity."
+    },
+    {
+      "question_number": 11,
+      "question": "If the empty weight CG of an airplane lies within the empty weight CG limits,",
+      "options": {
+        "a": "It is not necessary to calculate cg extreams",
+        "b": "Minimum fuel should be used in both forward & rearward cg checks",
+        "c": "It is necessary to calculate cg extreams"
+      },
+      "correct_answer": "c",
+      "explanation": "Even if the empty weight CG is within its limits, it is still necessary to perform extreme condition checks (e.g., maximum forward and maximum aft loading) to ensure the CG remains within the allowable range under all possible loading configurations."
+    },
+    {
+      "question_number": 12,
+      "question": "In a balance computation of an aircraft from which an item located aft of the datum was removed, use",
+      "options": {
+        "a": "(+)Weight *(-)arm (-)moment",
+        "b": "(-)Weight *(+)arm (-)moment",
+        "c": "(-)Weight *(-)arm (+)moment"
+      },
+      "correct_answer": "b",
+      "explanation": "When an item is removed, its weight is subtracted (-Weight). If the item is located aft of the datum, its arm is positive (+arm). The resulting moment change is negative."
+    },
+    {
+      "question_number": 13,
+      "question": "The datum is an imaginary reference line along the longitudinal axis:",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "This statement is false. The datum is an imaginary vertical plane, not a line, from which all horizontal distances are measured."
+    },
+    {
+      "question_number": 14,
+      "question": "The permanent ballast should be placed at the furthest point FWD/AFT of CG.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "To achieve the maximum change in moment with the minimum amount of weight, permanent ballast should be located as far as possible from the aircraft's center of gravity."
+    },
+    {
+      "question_number": 15,
+      "question": "Addition/removal of weight within the CG range will not affect the balance of the aircraft.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Any addition or removal of weight will cause a shift in the CG location unless the weight is added or removed exactly at the aircraft's current CG."
+    },
+    {
+      "question_number": 16,
+      "question": "Removal of weight from forward of CG will shift CG",
+      "options": {
+        "a": "In the forward direction",
+        "b": "In the rearward direction",
+        "c": "Depends on the weight of the equipment",
+        "d": "None"
+      },
+      "correct_answer": "b",
+      "explanation": "Removing weight from a location forward of the center of gravity will cause the CG to shift aft (in the rearward direction)."
+    },
+    {
+      "question_number": 17,
+      "question": "Oscillator & danger of spin is characteristics of",
+      "options": {
+        "a": "Too much forward loading",
+        "b": "Too much rearward loading",
+        "c": "Overweight",
+        "d": "a & b"
+      },
+      "correct_answer": "b",
+      "explanation": "An aircraft with its CG too far aft (rearward loading) becomes longitudinally unstable, which can lead to oscillations and an increased risk of entering a spin."
+    },
+    {
+      "question_number": 18,
+      "question": "weight and balance of an air craft is critical because",
+      "options": {
+        "a": "It greatly affect safe and efficient operation of an aircraft",
+        "b": "It affect economy of flight",
+        "c": "All"
+      },
+      "correct_answer": "c",
+      "explanation": "Proper weight and balance is critical for the safe and efficient operation of an aircraft, and it also affects the economy of the flight by influencing fuel consumption and performance."
+    },
+    {
+      "question_number": 19,
+      "question": "Which one of the following is not true about requirements of weight and balance",
+      "options": {
+        "a": "Manufacturer must be conduct weight and balance one out of ten air craft manufactured",
+        "b": "Air carrier conduct weight and balance periodically after major alteration and biased on pilot report",
+        "c": "Private owner once in three year"
+      },
+      "correct_answer": "a",
+      "explanation": "Manufacturers must determine the empty weight and CG of every aircraft produced, not just one out of ten."
+    },
+    {
+      "question_number": 20,
+      "question": "Which one of the following is not the effect of overloading?",
+      "options": {
+        "a": "Improved structural safety",
+        "b": "Long runway for take off",
+        "c": "Difficulty to control aircraft"
+      },
+      "correct_answer": "a",
+      "explanation": "Overloading an aircraft decreases structural safety by subjecting the airframe to stresses beyond its design limits."
+    },
+    {
+      "question_number": 21,
+      "question": "Which one of the following is the effect of the too much forward weight?",
+      "options": {
+        "a": "Decreased air speed",
+        "b": "increased speed and tendency to dive",
+        "c": "Reduction of long range optimum speed"
+      },
+      "correct_answer": "b",
+      "explanation": "A forward CG makes an aircraft more nose-heavy and increases longitudinal stability. This creates a tendency to dive and requires more tail-down force to maintain level flight, increasing drag."
+    },
+    {
+      "question_number": 22,
+      "question": "Gross weight of an aircraft is",
+      "options": {
+        "a": "The total weight of aircraft before loaded",
+        "b": "The sum of useful load and air frame parts load",
+        "c": "The sum of aircraft empty weight, useful load"
+      },
+      "correct_answer": "c",
+      "explanation": "The gross weight of an aircraft is the sum of its basic empty weight and its useful load (crew, passengers, baggage, usable fuel)."
+    },
+    {
+      "question_number": 23,
+      "question": "Which one of the following is true?",
+      "options": {
+        "a": "Light aircraft have higher rate of climb",
+        "b": "Low speed aircraft have superior maneuverability than high speed aircraft",
+        "c": "High speed aircraft have highest maneuverability than low speed air craft"
+      },
+      "correct_answer": "a",
+      "explanation": "For a given power output, a lighter aircraft will have a better power-to-weight ratio, resulting in a higher rate of climb."
+    },
+    {
+      "question_number": 24,
+      "question": "Lateral balance of an aircraft is controlled by",
+      "options": {
+        "a": "Distribution of useful load on the aircraft",
+        "b": "Operation of fight control surface such as elevator and radar",
+        "c": "fuel consumption management"
+      },
+      "correct_answer": "a",
+      "explanation": "Lateral (side-to-side) balance is achieved by the proper distribution of the useful load, which includes fuel in the wing tanks, passengers, and cargo."
+    },
+    {
+      "question_number": 25,
+      "question": "The distance between two points where cg can shift for proper balance of an aircraft",
+      "options": {
+        "a": "center of gravity",
+        "b": "center of gravity range",
+        "c": "Center of gravity limit"
+      },
+      "correct_answer": "b",
+      "explanation": "The center of gravity (CG) range is the specified distance between the forward and aft CG limits within which the aircraft's center of gravity must be located for safe flight."
+    },
+    {
+      "question_number": 26,
+      "question": "Information about center of gravity and center of gravity range is obtained",
+      "options": {
+        "a": "Aircraft specification and operation limitation",
+        "b": "Type certificate data sheet (TCDS) and air craft flight manual",
+        "c": "All"
+      },
+      "correct_answer": "c",
+      "explanation": "Weight and balance information, including the CG range and limits, can be found in several official documents, including the Aircraft Specifications, the Type Certificate Data Sheet (TCDS), and the Aircraft Flight Manual (AFM)."
+    },
+    {
+      "question_number": 27,
+      "question": "An imaginary point about which both nose heavy and tail heavy moments are exactly equal in magnitude is called",
+      "options": {
+        "a": "Center of gravity",
+        "b": "Center of pressure",
+        "c": "C.G range"
+      },
+      "correct_answer": "a",
+      "explanation": "The center of gravity (CG) is the imaginary balance point of the aircraft where the sum of all moments is zero."
+    },
+    {
+      "question_number": 28,
+      "question": "Weight and balance of an aircraft must be conducted periodically since aircraft weight changes because of",
+      "options": {
+        "a": "dirt accumulation",
+        "b": "cumulative minor repair and addition of miscellanies hardware",
+        "c": "All"
+      },
+      "correct_answer": "c",
+      "explanation": "An aircraft's empty weight can change over its life due to the accumulation of dirt and moisture, as well as from repairs, alterations, and the addition of new equipment, necessitating periodic re-weighing."
+    },
+    {
+      "question_number": 29,
+      "question": "Which one of the following is not required in weight and balance?",
+      "options": {
+        "a": "Jack (with appropriate pads)/ramps",
+        "b": "Spirit level and measuring tape",
+        "c": "Oxygen bottle"
+      },
+      "correct_answer": "c",
+      "explanation": "Jacks, scales, a spirit level, and a measuring tape are all essential equipment for performing a weight and balance procedure. An oxygen bottle is aircraft equipment, not a tool for the weighing process."
+    },
+    {
+      "question_number": 30,
+      "question": "The amount of fuel used for computing empty weight of an aircraft is",
+      "options": {
+        "a": "Empty tank (zero) fuel",
+        "b": "Unusable fuel",
+        "c": "Fuel required for half hour operation at full power setting"
+      },
+      "correct_answer": "b",
+      "explanation": "The standard empty weight of an aircraft is defined to include the weight of unusable fuel."
+    },
+    {
+      "question_number": 31,
+      "question": "Which of the following does not change the c.g of an aircraft in flight due?",
+      "options": {
+        "a": "Depletion of fuel",
+        "b": "Retraction and extraction of the land gear",
+        "c": "Engine flameout"
+      },
+      "correct_answer": "c",
+      "explanation": "Fuel depletion and landing gear movement cause significant weight shifts, changing the CG. An engine flameout, while critical, does not itself cause a shift in the aircraft's center of gravity."
+    },
+    {
+      "question_number": 32,
+      "question": "Normally empty weight of an aircraft",
+      "options": {
+        "a": "is the same for all aircraft of the same type",
+        "b": "includes the weight of unusable fuel and oil",
+        "c": "includes occupant but does not include the usable fuel"
+      },
+      "correct_answer": "b",
+      "explanation": "The standard empty weight of an aircraft includes the airframe, installed equipment, fixed ballast, unusable fuel, and undrainable oil."
+    },
+    {
+      "question_number": 33,
+      "question": "Empty weight and C.G of an a/c is determined:",
+      "options": {
+        "a": "At the time of aircraft manufacturing",
+        "b": "At each period and level of flight",
+        "c": "During straight and level flight",
+        "d": "During test flight check"
+      },
+      "correct_answer": "a",
+      "explanation": "The initial empty weight and CG are determined by the manufacturer when the aircraft is produced and are then re-checked periodically and after major alterations."
+    },
+    {
+      "question_number": 34,
+      "question": "Which of the following cannot be the cause for C.G shift?",
+      "options": {
+        "a": "Aircraft painting",
+        "b": "Pilot report",
+        "c": "Major alteration"
+      },
+      "correct_answer": "b",
+      "explanation": "Aircraft painting and major alterations add or remove weight, causing a CG shift. A pilot report is a communication and does not physically change the aircraft's CG."
+    },
+    {
+      "question_number": 35,
+      "question": "Which of the following will cause C.G shift in flight?",
+      "options": {
+        "a": "Depletion of fuel in flight",
+        "b": "Movement of crew and passengers",
+        "c": "Retraction and extension of landing gear",
+        "d": "All"
+      },
+      "correct_answer": "d",
+      "explanation": "All of the listed events—fuel consumption, movement of people, and raising or lowering the landing gear—will cause a shift in the aircraft's center of gravity during flight."
+    },
+    {
+      "question_number": 36,
+      "question": "Which of the following is pay load?",
+      "options": {
+        "a": "Pilot",
+        "b": "Fuel",
+        "c": "Baggage",
+        "d": "Aircraft"
+      },
+      "correct_answer": "c",
+      "explanation": "Payload refers to the load that generates revenue, which typically includes passengers and cargo (baggage). The crew and fuel are part of the useful load but not the payload."
+    },
+    {
+      "question_number": 37,
+      "question": "In which document do we find the weight and balance information:",
+      "options": {
+        "a": "Aircraft specification",
+        "b": "TCDS",
+        "c": "Aircraft flight manual",
+        "d": "all"
+      },
+      "correct_answer": "d",
+      "explanation": "Critical weight and balance data is found in all of these documents: the aircraft specifications, the Type Certificate Data Sheet (TCDS), and the aircraft flight manual."
+    },
+    {
+      "question_number": 38,
+      "question": "Which of the following will be included in the empty weight of an aircraft:",
+      "options": {
+        "a": "Residual fuel",
+        "b": "Optional special equipment which has a fixed location on the a/c",
+        "c": "Hydraulic fluid",
+        "d": "All"
+      },
+      "correct_answer": "d",
+      "explanation": "The empty weight includes the aircraft structure, permanently installed equipment, unusable fuel (residual fuel), and full operating fluids such as oil and hydraulic fluid."
+    },
+    {
+      "question_number": 39,
+      "question": "A reference line on which all measurements are taken for weight and balance control purpose is:",
+      "options": {
+        "a": "a-lever arm",
+        "b": "Station",
+        "c": "datum",
+        "d": "All"
+      },
+      "correct_answer": "c",
+      "explanation": "The datum is an imaginary vertical reference plane from which all horizontal distances (arms) are measured for weight and balance purposes."
+    },
+    {
+      "question_number": 40,
+      "question": "The removal or addition of equipment or an aircraft affects:",
+      "options": {
+        "a": "Empty weight",
+        "b": "C.G",
+        "c": "useful load",
+        "d": "a & b"
+      },
+      "correct_answer": "d",
+      "explanation": "Adding or removing equipment changes the aircraft's empty weight and its empty weight CG. It also changes the available useful load."
+    },
+    {
+      "question_number": 41,
+      "question": "The most conventional location for installation of temporary ballast is:",
+      "options": {
+        "a": "The tail section of the aircraft",
+        "b": "At a very strong structural member",
+        "c": "any where",
+        "d": "At the cargo compartment"
+      },
+      "correct_answer": "b",
+      "explanation": "Ballast must be installed in a secure manner at a location that is structurally capable of supporting its weight."
+    },
+    {
+      "question_number": 42,
+      "question": "For weight and balance control purpose any occupant of an aircraft seat weight is:",
+      "options": {
+        "a": "150 lb",
+        "b": "160 lb",
+        "c": "170 lb",
+        "d": "210 lb"
+      },
+      "correct_answer": "c",
+      "explanation": "While actual weights should be used whenever possible, for general aviation calculations, the standard weight for an adult passenger has historically been specified as 170 lbs by regulations."
+    },
+    {
+      "question_number": 43,
+      "question": "The deliberate attempt to lead an a/c in a manner that will create the most critical balance condition and still remain with in the design C.G limit is:",
+      "options": {
+        "a": "Adverse loading check",
+        "b": "Empty weight check",
+        "c": "Maximum weight check"
+      },
+      "correct_answer": "a",
+      "explanation": "An adverse loading check is a calculation to ensure the aircraft remains within its CG limits even under the most extreme (most forward or most aft) loading conditions."
+    },
+    {
+      "question_number": 44,
+      "question": "What type of items are loaded between the forward and aft C.G limits during adverse load check:",
+      "options": {
+        "a": "All useful items",
+        "b": "Minimum of essential items",
+        "c": "Depends on the type of the check",
+        "d": "No items is loaded in the C.G range"
+      },
+      "correct_answer": "c",
+      "explanation": "How items are accounted for in an adverse loading check depends on whether the check is for the most forward or most aft CG. Weight assumptions are made to create the worst-case scenario for that specific check."
+    },
+    {
+      "question_number": 45,
+      "question": "Which of the following is NOT true about weighing an aircraft?",
+      "options": {
+        "a": "The aircraft should be weighed in well-ventilated area",
+        "b": "The aircraft should be free from excessive dirt",
+        "c": "The accuracy of the scale should be established",
+        "d": "Tare weight should be subtracted from the scale reading"
+      },
+      "correct_answer": "a",
+      "explanation": "An aircraft should be weighed in an enclosed hangar to prevent wind from affecting the scale readings. A well-ventilated area implies drafts, which are not ideal."
+    }
+  ],
+  "quiz_2": [
+    {
+      "question_number": 1,
+      "question": "All other things being equal, if an item of useful load located aft of an aircraft' s CG is removed, the aircraft's CG change will be",
+      "options": null,
+      "correct_answer": "Forward.",
+      "explanation": "Removing weight from a location aft of the Center of Gravity (CG) will cause the CG to shift forward."
+    },
+    {
+      "question_number": 2,
+      "question": "The two elements are vital in the weight and balance considerations of an aircraft are",
+      "options": null,
+      "correct_answer": "Weight and CG (Center of Gravity).",
+      "explanation": "The two most critical elements in aircraft weight and balance are the total weight of the aircraft and the location of the center of gravity (CG)."
+    },
+    {
+      "question_number": 3,
+      "question": "The distance between the center of gravity of an item or object and the datum is",
+      "options": null,
+      "correct_answer": "Arm in inches",
+      "explanation": "The arm is the horizontal distance from the reference datum to the Center of Gravity (CG) of an item and is typically measured in inches."
+    },
+    {
+      "question_number": 4,
+      "question": "Arm ahead of or to the left of the datum and Arm to the right or aft of the datum are",
+      "options": null,
+      "correct_answer": "Negative(-)and positive(+) respectively.",
+      "explanation": "In weight and balance calculations, arms measured ahead of (or to the left of) the datum are considered negative, while arms measured aft of (or to the right of) the datum are positive."
+    },
+    {
+      "question_number": 5,
+      "question": "The weight and balance problems are based on the physical law of the",
+      "options": null,
+      "correct_answer": "Lever.",
+      "explanation": "Aircraft weight and balance principles are based on the law of the lever, where the sum of moments around a pivot point (the CG) must be zero for the aircraft to be balanced."
+    },
+    {
+      "question_number": 6,
+      "question": "Find the empty weight CG location for the following tricycle-gear aircraft. Each main wheel weighs 753 pounds, Nosewheel weighs 22 pounds, Distance between nosewheel and main wheels is 87.5 inches, Nose wheel location is +9.875 inches from datum, 1 gallon of hydraulic fluid at -21.0 inches included in the weight scale.",
+      "options": null,
+      "correct_answer": "The Empty Weight CG is +95.64 inches.",
+      "explanation": "To solve this, one must first calculate the total weight and total moment. The location of the main wheels is found by adding the distance between the wheels to the nose wheel arm (9.875 + 87.5 = 97.375 inches). The weight of the hydraulic fluid must be subtracted from the total weight, and its moment must be removed from the total moment. The final CG is the total moment divided by the total weight."
+    },
+    {
+      "question_number": 7,
+      "question": "The useful load of an aircraft is the difference between",
+      "options": null,
+      "correct_answer": "Maximum allowable gross weight and the empty weight.",
+      "explanation": "Useful load is the weight of the flight crew, passengers, baggage, and usable fuel. It is calculated by subtracting the aircraft's empty weight from its maximum allowable gross weight."
+    },
+    {
+      "question_number": 8,
+      "question": "If an aircraft CG is found to be at 24 percent of MAC, that 24 percent is an expression of the",
+      "options": null,
+      "correct_answer": "Distance from the LEMAC (Leading Edge of the Mean Aerodynamic Chord).",
+      "explanation": "The Center of Gravity (CG) expressed as a percentage of the Mean Aerodynamic Chord (%MAC) indicates the CG's position relative to the length of the MAC, measured from the leading edge (LEMAC)."
+    },
+    {
+      "question_number": 9,
+      "question": "An imaginary vertical line or plane used in weight and balance calculations is called the:",
+      "options": {
+        "a": "Arm",
+        "b": "Datum",
+        "c": "Vertical Axis Plane (VLP)",
+        "d": "C.G."
+      },
+      "correct_answer": "b",
+      "explanation": "The datum is an imaginary vertical plane from which all horizontal measurements (arms) are taken for weight and balance purposes."
+    },
+    {
+      "question_number": 10,
+      "question": "The point about which the airplane will balance is known as its:",
+      "options": {
+        "a": "Arm",
+        "b": "Datum",
+        "c": "Vertical Axis Plane (VLP)",
+        "d": "C.G."
+      },
+      "correct_answer": "d",
+      "explanation": "The Center of Gravity (C.G.) is the specific point where the entire weight of the aircraft is considered to be concentrated and about which the aircraft would balance."
+    },
+    {
+      "question_number": 11,
+      "question": "The weight of the airframe, engines and all pieces of operating equipment that have fixed locations and are permanently installed in the aircraft.",
+      "options": {
+        "a": "Useful Load",
+        "b": "Ballast",
+        "c": "Payload",
+        "d": "Empty Weight"
+      },
+      "correct_answer": "d",
+      "explanation": "Empty weight includes the weight of the airframe, engines, and all permanently installed equipment."
+    },
+    {
+      "question_number": 12,
+      "question": "The amount of weight not counting the aircraft, fuel and flight crew that an aircraft can carry.",
+      "options": {
+        "a": "Ballast",
+        "b": "Payload",
+        "c": "Empty Weight",
+        "d": "Useful Load"
+      },
+      "correct_answer": "b",
+      "explanation": "Payload refers to the revenue-generating load an aircraft can carry, such as passengers and cargo, excluding the weight of the aircraft, crew, and necessary fuel."
+    },
+    {
+      "question_number": 13,
+      "question": "The formula for calculating minimum fuel used for weight and balance calculations is:",
+      "options": {
+        "a": "METO/2",
+        "b": "METO/.5",
+        "c": "METO x 2",
+        "d": "METO x 5"
+      },
+      "correct_answer": "a",
+      "explanation": "Minimum fuel for weight and balance purposes is calculated as half of the Maximum Except Take-Off (METO) horsepower, which is represented by the formula METO/2."
+    },
+    {
+      "question_number": 14,
+      "question": "The maximum weight of the airplane without fuel.",
+      "options": {
+        "a": "Maximum Weight",
+        "b": "Net Weight",
+        "c": "Useful Load",
+        "d": "Zero Fuel Weight"
+      },
+      "correct_answer": "d",
+      "explanation": "Zero Fuel Weight (ZFW) is the total weight of the aircraft and all its contents, minus the total weight of the usable fuel on board."
+    },
+    {
+      "question_number": 15,
+      "question": "When preparing an aircraft for weighing (certificated under 14CFR part 21) the engine oil reservoir should be",
+      "options": null,
+      "correct_answer": "Full.",
+      "explanation": "When weighing an aircraft, the engine oil reservoir should be filled to the standard capacity as it is part of the aircraft's empty weight."
+    },
+    {
+      "question_number": 16,
+      "question": "The weight of all the chocks used to prevent an aircraft rolling off the scales is called tare weight",
+      "options": null,
+      "correct_answer": "True.",
+      "explanation": "Tare weight is the weight of any equipment used for the weighing process, such as chocks and blocks, that is not part of the aircraft's actual weight."
+    },
+    {
+      "question_number": 17,
+      "question": "Tare weight must be (added or subtracted) from the scale reading to get the actual weight of the aircraft.",
+      "options": null,
+      "correct_answer": "Subtracted.",
+      "explanation": "To find the actual weight of the aircraft, the tare weight must be subtracted from the total weight shown on the scales."
+    },
+    {
+      "question_number": 18,
+      "question": "An aircraft as loaded weighs 4,954 pounds at a CG of +30.5 inches. The CG range is +32.0 inches to +42.1 inches. Find the minimum weight of the ballast necessary to bring the CG within the CG range. The ballast arm is +162 inches.",
+      "options": null,
+      "correct_answer": "57.16 pounds.",
+      "explanation": "To move the CG to the minimum required position of +32.0 inches, a ballast weight is calculated using the formula: Ballast Weight = (Total Weight) x (Distance to Shift CG) / (Distance between ballast and desired CG). This results in (4954 lbs * 1.5 in) / (162 in - 32 in) = 57.16 lbs."
+    },
+    {
+      "question_number": 19,
+      "question": "When preparing an aircraft for weighing (certificated under 14CFR part 21) the engine oil reservoir should be",
+      "options": null,
+      "correct_answer": "Full.",
+      "explanation": "For an aircraft certificated under 14CFR part 21, the engine oil reservoir should be full when weighing to determine the empty weight."
+    },
+    {
+      "question_number": 20,
+      "question": "The weight of all the chocks used to prevent an aircraft rolling off the scales is called",
+      "options": null,
+      "correct_answer": "Tare weight.",
+      "explanation": "Tare weight refers to the weight of items used during the weighing process that are not part of the aircraft, such as chocks."
+    },
+    {
+      "question_number": 21,
+      "question": "Tare weight must be (added or subtracted) from the scale reading to get the actual weight of the aircraft.",
+      "options": null,
+      "correct_answer": "Subtracted.",
+      "explanation": "The tare weight must be subtracted from the scale readings to determine the true weight of the aircraft."
+    },
+    {
+      "question_number": 22,
+      "question": "An aircraft with an empty weight of 1,500 pounds and an empty weight CG of +28.4 was altered as follows: Two seats weighing 12 pounds each, located at +65.5 were removed. A structural modification increasing the weight by 28 pounds was made at +73. A seat and seat belt weighing 30 pounds was installed at +70.5. Radio equipment weighing 25 pounds was installed at +85. The new empty weight is 1559 pounds, and the new CG is",
+      "options": null,
+      "correct_answer": "+31.3 inches.",
+      "explanation": "To find the new CG, you calculate the moment change for each alteration (Weight x Arm), sum these changes, and add them to the initial moment. The new total moment is then divided by the new total weight (1559 pounds) to find the new CG."
+    },
+    {
+      "question_number": 23,
+      "question": "If the aircraft's center of gravity is too far forward, what is the most likely consequence?",
+      "options": {
+        "A": "The aircraft will be tail-heavy and difficult to control.",
+        "B": "The aircraft will have reduced fuel consumption.",
+        "C": "The aircraft will have excessive drag and reduced performance.",
+        "D": "The aircraft will be nose-heavy, affecting control and stability."
+      },
+      "correct_answer": "B",
+      "explanation": "A forward center of gravity makes the aircraft nose-heavy, requiring more tail-down force to maintain level flight. This increases drag and negatively impacts performance."
+    },
+    {
+      "question_number": 24,
+      "question": "What is the purpose of a \"max takeoff weight\" (MTOW) in weight and balance?",
+      "options": {
+        "A": "To ensure the aircraft doesn't exceed the maximum allowable takeoff weight.",
+        "B": "To determine the proper balance of the aircraft during the flight.",
+        "C": "To establish the correct loading configuration of the aircraft.",
+        "D": "To prevent overloading during passenger boarding."
+      },
+      "correct_answer": "A",
+      "explanation": "The Maximum Takeoff Weight (MTOW) is a structural limit designed to ensure the aircraft does not weigh more than its maximum certified limit at the start of the takeoff roll."
+    },
+    {
+      "question_number": 25,
+      "question": "When is the best time to calculate weight and balance for a flight?",
+      "options": {
+        "A": "Only after reaching cruising altitude.",
+        "B": "Before departure, after loading the aircraft.",
+        "C": "During the final approach phase.",
+        "D": "Only during post-flight inspection."
+      },
+      "correct_answer": "B",
+      "explanation": "Weight and balance must be calculated before every flight, after all passengers, cargo, and fuel have been loaded, to ensure the aircraft is within safe operational limits."
+    },
+    {
+      "question_number": 26,
+      "question": "What is the reference point from which all weight and balance measures are made?",
+      "options": null,
+      "correct_answer": "The Datum.",
+      "explanation": "The datum is an imaginary vertical plane established by the manufacturer from which all horizontal measurements for weight and balance are taken."
+    },
+    {
+      "question_number": 27,
+      "question": "What happens if an aircraft is loaded with a weight distribution that is too far aft (toward the tail)?",
+      "options": {
+        "A": "The aircraft may become tail-heavy, leading to loss of control.",
+        "B": "The aircraft will be more fuel-efficient.",
+        "C": "The aircraft will experience a nose-down attitude during flight.",
+        "D": "The aircraft's speed will increase."
+      },
+      "correct_answer": "A",
+      "explanation": "An aft CG makes an aircraft tail-heavy and dynamically unstable, which can be difficult to control and recover from a stall."
+    },
+    {
+      "question_number": 28,
+      "question": "What unit of measurement is used to designate moment arm in weight and balance computation?",
+      "options": null,
+      "correct_answer": "Inches.",
+      "explanation": "The moment arm, or arm, is typically measured in inches from the reference datum."
+    },
+    {
+      "question_number": 29,
+      "question": "To obtain useful weight data for purposes of determining the center of gravity, it is necessary that an aircraft be weighed",
+      "options": {
+        "a": "with all items of useful load installed.",
+        "b": "With at least \"minimum fuel\" in the fuel tanks.",
+        "c": "In a level flight attitude.",
+        "d": "With the main weighing points located within the normal CG limits."
+      },
+      "correct_answer": "c",
+      "explanation": "For accurate results when determining the center of gravity, the aircraft must be weighed in a specific level flight attitude as defined by the manufacturer."
+    },
+    {
+      "question_number": 30,
+      "question": "What document will reference the required equipment needed to maintain validity of a standard airworthiness certificate?",
+      "options": null,
+      "correct_answer": "The aircraft's Type Certificate Data Sheet (TCDS).",
+      "explanation": "The Type Certificate Data Sheet (TCDS) specifies the required equipment list and other essential information needed to maintain the aircraft's airworthiness certificate."
+    },
+    {
+      "question_number": 31,
+      "question": "The loaded CG is 42.57 inches aft of the datum. The MAC is 61.6 inches long. The LEMAC is located at station 20.1. The Cg in % of MAC",
+      "options": null,
+      "correct_answer": "36.48% MAC",
+      "explanation": "To find the CG in % MAC, use the formula: (Distance aft of LEMAC x 100) / MAC. The distance aft of LEMAC is the CG location minus the LEMAC location (42.57 - 20.1 = 22.47 inches). Calculation: (22.47 * 100) / 61.6 = 36.48% MAC."
+    },
+    {
+      "question_number": 32,
+      "question": "To make sure that the aircraft is in a safe flying condition, weight and balance computations must be made whenever:",
+      "options": {
+        "a": "a repair affects the weight or balance appreciably",
+        "b": "an alteration affects the weight or balance appreciably",
+        "c": "change of equipment affects the weight or balance appreciably",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Weight and balance must be re-computed after any repair, alteration, or change of equipment that significantly affects the aircraft's weight or center of gravity."
+    },
+    {
+      "question_number": 33,
+      "question": "The EWCG location of the aircraft is 79.22 in. LEMAC is 60.0. TEMAC is 90.0. What is the length of MAC?",
+      "options": null,
+      "correct_answer": "30.0 inches",
+      "explanation": "The length of the Mean Aerodynamic Chord (MAC) is the distance between the Leading Edge of MAC (LEMAC) and the Trailing Edge of MAC (TEMAC). Calculation: 90.0 in - 60.0 in = 30.0 inches."
+    },
+    {
+      "question_number": 34,
+      "question": "What is the primary reason for performing a weight and balance calculation before a flight?",
+      "options": {
+        "A": "To ensure the aircraft's fuel consumption is optimized.",
+        "B": "To ensure the aircraft is within its maximum allowable weight and proper balance.",
+        "C": "To calculate the exact number of passengers and their baggage.",
+        "D": "To determine the aircraft's maximum speed."
+      },
+      "correct_answer": "B",
+      "explanation": "The primary purpose of a weight and balance calculation is to ensure flight safety by confirming the aircraft is within its certified maximum weight limits and that the center of gravity is within the allowable range for stable flight."
+    },
+    {
+      "question_number": 35,
+      "question": "What is the purpose of a \"max takeoff weight\" (MTOW) in weight and balance?",
+      "options": {
+        "A": "To ensure the aircraft doesn't exceed the maximum allowable takeoff weight.",
+        "B": "To determine the proper balance of the aircraft during the flight.",
+        "C": "To establish the correct loading configuration of the aircraft.",
+        "D": "To prevent overloading during passenger boarding."
+      },
+      "correct_answer": "A",
+      "explanation": "Maximum Takeoff Weight (MTOW) is a critical safety limit that ensures the aircraft does not exceed its maximum certified weight for takeoff, which is essential for structural integrity and performance."
+    },
+    {
+      "question_number": 36,
+      "question": "When is the best time to calculate weight and balance for a flight?",
+      "options": {
+        "A": "Only after reaching cruising altitude.",
+        "B": "Before departure, after loading the aircraft.",
+        "C": "During the final approach phase.",
+        "D": "Only during post-flight inspection."
+      },
+      "correct_answer": "B",
+      "explanation": "Weight and balance calculations must be performed before departure once the aircraft has been fully loaded with passengers, cargo, and fuel to ensure it is safe for flight."
+    },
+    {
+      "question_number": 37,
+      "question": "Which of the following is a common reference point (datum) used for weight and balance calculations?",
+      "options": {
+        "A": "Wing root",
+        "B": "Nose of the aircraft",
+        "C": "Tail section",
+        "D": "Fuselage midpoint"
+      },
+      "correct_answer": "B",
+      "explanation": "While the datum location can vary, it is often located at a convenient point, such as the nose of the aircraft or the leading edge of the wing root."
+    },
+    {
+      "question_number": 38,
+      "question": "What is the effect of a forward CG (center of gravity) on an aircraft's flight?",
+      "options": {
+        "A": "The aircraft will have higher maneuverability and stability.",
+        "B": "The aircraft will require more engine power to maintain altitude.",
+        "C": "The aircraft will be tail-heavy, resulting in difficulty controlling the aircraft.",
+        "D": "The aircraft's fuel consumption will decrease significantly."
+      },
+      "correct_answer": "B",
+      "explanation": "A forward CG requires more tail-down force to maintain level flight, which increases the overall lift required from the wing. This results in more induced drag, requiring more engine power and increasing fuel consumption."
+    },
+    {
+      "question_number": 39,
+      "question": "What is the effect of an aircraft being loaded too heavily in the tail section?",
+      "options": {
+        "A": "It could lead to an increased fuel burn rate.",
+        "B": "It could reduce the aircraft's fuel efficiency.",
+        "C": "It could cause the aircraft to be tail-heavy, reducing control and stability.",
+        "D": "It could cause the aircraft to be nose-heavy."
+      },
+      "correct_answer": "C",
+      "explanation": "Loading an aircraft too heavily in the tail section moves the CG aft, which can make the aircraft tail-heavy. This reduces longitudinal stability and control, making it potentially dangerous."
+    },
+    {
+      "question_number": 40,
+      "question": "Which of the following would most likely be included in an aircraft's weight and balance record?",
+      "options": {
+        "A": "Aircraft maintenance schedule.",
+        "B": "The fuel consumption during flight.",
+        "C": "The weight and location of passengers, baggage, and cargo.",
+        "D": "The engine model number."
+      },
+      "correct_answer": "C",
+      "explanation": "An aircraft's weight and balance record contains details on the current empty weight and CG, as well as the calculations for a specific flight's loading, which includes the weight and location (arm) of all payload items like passengers, baggage, and cargo."
+    },
+    {
+      "question_number": 41,
+      "question": "What is meant by the term \"load factor\" in weight and balance?",
+      "options": {
+        "A": "The total weight of the aircraft.",
+        "B": "The amount of weight an aircraft can carry safely in relation to its structure.",
+        "C": "The ratio of the aircraft's moment to its weight.",
+        "D": "The maximum takeoff weight that an aircraft can reach."
+      },
+      "correct_answer": "B",
+      "explanation": "Load factor is the ratio of the total lift produced by the wings to the total weight of the aircraft. It represents the stress on the aircraft structure and is a key factor in determining how much weight can be carried safely."
+    },
+    {
+      "question_number": 42,
+      "question": "When is weight and balance calculation most required?",
+      "options": {
+        "A": "Only during the aircraft's annual inspection.",
+        "B": "Only for private aircraft and not commercial aircraft.",
+        "C": "Before every flight to ensure the aircraft is within safe weight limits and balance.",
+        "D": "Only if there are changes to the aircraft's configuration, such as new seats or cargo space."
+      },
+      "correct_answer": "C",
+      "explanation": "A weight and balance calculation is required before every flight to ensure the aircraft's total weight and center of gravity are within the certified safe limits for operation."
+    },
+    {
+      "question_number": 43,
+      "question": "What happens when the aircraft's center of gravity is too far aft?",
+      "options": {
+        "A": "The aircraft will be more stable and easier to control.",
+        "B": "The aircraft will have increased fuel efficiency.",
+        "C": "The aircraft may become unstable and difficult to recover from stalls or unusual attitudes.",
+        "D": "The aircraft will become nose-heavy and harder to control."
+      },
+      "correct_answer": "C",
+      "explanation": "When the CG is too far aft, the aircraft becomes less stable, more difficult to control, and recovery from a stall may become impossible."
+    },
+    {
+      "question_number": 44,
+      "question": "Which of the following is a consequence of improper weight and balance calculations?",
+      "options": {
+        "A": "Increased aircraft performance and efficiency.",
+        "B": "Difficulty controlling the aircraft, possibly leading to unsafe flight conditions.",
+        "C": "Better fuel economy and extended range.",
+        "D": "A smoother flight with less turbulence."
+      },
+      "correct_answer": "B",
+      "explanation": "Improper weight and balance can lead to severe consequences, including reduced stability, difficulty in controlling the aircraft, and compromised performance, all of which create unsafe flight conditions."
+    },
+    {
+      "question_number": 45,
+      "question": "What must be done if an aircraft is found to be out of balance during a pre-flight check?",
+      "options": {
+        "A": "The flight should be cancelled, and the aircraft should be reloaded correctly.",
+        "B": "The aircraft should be flown as is and the issue addressed after landing.",
+        "C": "The aircraft can continue flying, but the load should be adjusted after takeoff.",
+        "D": "The aircraft's weight should be reduced during the flight to correct the balance."
+      },
+      "correct_answer": "A",
+      "explanation": "If a pre-flight check reveals the aircraft is out of balance, the flight must not proceed. The load must be re-distributed, or weight must be added or removed to bring the CG within acceptable limits before the flight is commenced."
+    },
+    {
+      "question_number": 46,
+      "question": "What is the role of the aircraft's CG in flight dynamics?",
+      "options": {
+        "A": "The CG determines the aircraft's speed and fuel consumption.",
+        "B": "The CG plays a crucial role in the aircraft's stability and control.",
+        "C": "The CG affects only the maximum allowable weight of the aircraft.",
+        "D": "The CG is irrelevant to the aircraft's maneuverability."
+      },
+      "correct_answer": "B",
+      "explanation": "The location of the Center of Gravity (CG) is fundamental to an aircraft's stability and control characteristics. An improper CG location can make an aircraft unsafe to fly."
+    },
+    {
+      "question_number": 47,
+      "question": "If an aircraft has a forward CG, how would it typically affect the landing performance?",
+      "options": {
+        "A": "The aircraft would land with a higher descent rate and require more runway length.",
+        "B": "The aircraft would land with a flatter descent and shorter runway length.",
+        "C": "The aircraft would have no effect on the landing performance.",
+        "D": "The aircraft would land with reduced fuel efficiency."
+      },
+      "correct_answer": "A",
+      "explanation": "With a forward CG, more elevator nose-up force is required to flare for landing. If sufficient elevator authority is not available, the aircraft may be difficult to flare, potentially resulting in a higher landing speed and a longer landing roll."
+    },
+    {
+      "question_number": 48,
+      "question": "In a weight and balance chart, what do the terms \"empty weight\" and \"max gross weight\" refer to?",
+      "options": {
+        "A": "The fuel burn rate and weight during flight.",
+        "B": "The aircraft's weight without any fuel or passengers and its maximum weight capacity.",
+        "C": "The weight of the aircraft with full fuel tanks and empty seats.",
+        "D": "The weight distribution across the wings."
+      },
+      "correct_answer": "B",
+      "explanation": "\"Empty weight\" is the weight of the aircraft with no usable fuel, passengers, or cargo. \"Max gross weight\" is the maximum certified weight of the aircraft, including everything on board."
+    },
+    {
+      "question_number": 49,
+      "question": "What is the definition of \"gross weight\" in weight and balance terms?",
+      "options": {
+        "A": "The weight of the aircraft with only passengers and cargo.",
+        "B": "The total weight of the aircraft, including passengers, cargo, and fuel.",
+        "C": "The weight of the aircraft excluding baggage.",
+        "D": "The weight of the aircraft empty without fuel."
+      },
+      "correct_answer": "B",
+      "explanation": "Gross weight is the total weight of the aircraft at any given moment, including the aircraft itself, crew, passengers, cargo, and fuel."
+    },
+    {
+      "question_number": 50,
+      "question": "When conducting a weight and balance calculation for an aircraft, where is the \"center of gravity\" usually located?",
+      "options": {
+        "A": "At the midpoint of the wingspan.",
+        "B": "At a specific point along the fuselage, often indicated by a CG location.",
+        "C": "At the tail section of the aircraft.",
+        "D": "It can be anywhere within the aircraft's fuselage."
+      },
+      "correct_answer": "B",
+      "explanation": "The center of gravity is the balance point of the aircraft, located at a specific point along the longitudinal axis (fuselage), and its position is critical for stability."
+    },
+    {
+      "question_number": 51,
+      "question": "Which of the following actions would decrease the aircraft's moment?",
+      "options": {
+        "A": "Moving weight closer to the datum.",
+        "B": "Moving weight further from the datum.",
+        "C": "Increasing the total weight in the aircraft.",
+        "D": "Adding more fuel to the aircraft."
+      },
+      "correct_answer": "A",
+      "explanation": "Moment is calculated as Weight x Arm. If the weight remains constant, decreasing the arm (moving the weight closer to the datum) will decrease the moment."
+    },
+    {
+      "question_number": 52,
+      "question": "If an aircraft's center of gravity is too far aft, what could be the impact on the aircraft's stall characteristics?",
+      "options": {
+        "A": "The aircraft will stall at a higher speed.",
+        "B": "The aircraft will be more resistant to stalling.",
+        "C": "The aircraft may stall at a lower speed.",
+        "D": "There will be no effect on the stall characteristics."
+      },
+      "correct_answer": "C",
+      "explanation": "An aft CG reduces the tail-down force required for level flight, which means the wing can fly at a lower angle of attack for a given airspeed. This can lead to the aircraft stalling at a lower speed, but recovery will be extremely difficult."
+    },
+    {
+      "question_number": 53,
+      "question": "If the aircraft's cargo is placed too far forward, how can the weight and balance be corrected?",
+      "options": {
+        "A": "Move some cargo to the aft section of the aircraft.",
+        "B": "Remove some fuel from the tanks.",
+        "C": "Remove passengers from the forward seats.",
+        "D": "Move the engine to a more forward position."
+      },
+      "correct_answer": "A",
+      "explanation": "To correct a forward CG caused by cargo placement, the most direct solution is to shift weight aft. This can be achieved by moving some of the cargo to a location behind the current CG."
+    },
+    {
+      "question_number": 54,
+      "question": "What must you do prior to weighing an aircraft to determine the aircraft's empty weight?",
+      "options": {
+        "a": "Remove all items except those on the aircraft equipment list; drain fuel and fill hydraulic reservoir.",
+        "b": "Remove all items except those on the aircraft equipment list; drain fuel, compute oil and hydraulic fluid weight.",
+        "c": "Remove all items except those on the aircraft equipment list; drain fuel and hydraulic fluid."
+      },
+      "correct_answer": "a",
+      "explanation": "To determine an aircraft's empty weight, you must remove all non-required items (anything not on the official equipment list), drain the usable fuel, and ensure all operating fluids like hydraulic fluid and oil are at their full, specified levels."
+    },
+    {
+      "question_number": 55,
+      "question": "What does the useful load of an aircraft consist of?",
+      "options": null,
+      "correct_answer": "The crew, passengers, baggage, and usable fuel.",
+      "explanation": "The useful load is the total weight that an aircraft can carry, which includes the flight crew, passengers, any cargo or baggage, and the usable fuel."
+    },
+    {
+      "question_number": 56,
+      "question": "Private aircraft are required by regulations to be weighed periodically.",
+      "options": null,
+      "correct_answer": "False.",
+      "explanation": "There is no regulation that requires private aircraft to be weighed at specific periodic intervals. However, they must be reweighed after any alteration or repair that could significantly affect the weight and balance."
+    },
+    {
+      "question_number": 57,
+      "question": "Private aircraft are required to be weighted after making any alteration.",
+      "options": null,
+      "correct_answer": "True.",
+      "explanation": "An aircraft must be reweighed if any alteration or repair is made that could appreciably change its weight or center of gravity."
+    },
+    {
+      "question_number": 58,
+      "question": "In order to obtain useful weight data for determining an aircraft's CG, it is essential that an aircraft be weighed.True/False",
+      "options": null,
+      "correct_answer": "True.",
+      "explanation": "Weighing the aircraft is the fundamental step to obtaining the actual empty weight and CG, which are essential for all subsequent weight and balance calculations."
+    },
+    {
+      "question_number": 59,
+      "question": "In weight and balance computation, what type of measurement is used to designate arm?",
+      "options": null,
+      "correct_answer": "Inches.",
+      "explanation": "The arm is a distance measurement, typically expressed in inches, from the reference datum to the CG of an item."
+    },
+    {
+      "question_number": 60,
+      "question": "Most modern aircraft are designed so that if all seats are occupied, full baggage weight is carried, and all fuel tanks are full. What will be the weight condition of this aircraft?",
+      "options": null,
+      "correct_answer": "The aircraft will be over its maximum allowable gross weight.",
+      "explanation": "Most aircraft are not designed to carry a full load of passengers, full baggage, and full fuel simultaneously, as this would typically exceed the maximum gross weight limit."
+    },
+    {
+      "question_number": 61,
+      "question": "The useful load of an aircraft is the difference between",
+      "options": null,
+      "correct_answer": "the maximum gross weight and the basic empty weight.",
+      "explanation": "Useful load is calculated by subtracting the basic empty weight from the maximum allowable gross weight."
+    },
+    {
+      "question_number": 62,
+      "question": "Certificated under current airworthiness standards (FAR Part 23) when determining the empty weight of an aircraft, the oil that is contained in the supply tank is",
+      "options": null,
+      "correct_answer": "considered part of the empty weight.",
+      "explanation": "For aircraft certificated under FAR Part 23, the weight of undrainable oil in the supply tank is included in the aircraft's standard empty weight."
+    },
+    {
+      "question_number": 63,
+      "question": "An aircraft's LEMAC and TEMAC are defined in terms of distance",
+      "options": null,
+      "correct_answer": "from the datum.",
+      "explanation": "The Leading Edge Mean Aerodynamic Chord (LEMAC) and Trailing Edge Mean Aerodynamic Chord (TEMAC) are specific locations defined by their distance from the aircraft's reference datum."
+    },
+    {
+      "question_number": 64,
+      "question": "When weighing an aircraft with the scales under each landing gear wheel, what could cause inaccurate readings on the weighing scales?",
+      "options": null,
+      "correct_answer": "The aircraft not being in a level position or wind blowing on the aircraft.",
+      "explanation": "For accurate measurements, the aircraft must be in a level flight attitude as specified by the manufacturer. Additionally, weighing should be done in an enclosed space to prevent wind from creating forces on the scales."
+    },
+    {
+      "question_number": 65,
+      "question": "An aircraft with an empty weight of 1,500 pounds and an empty weight CG of +28.4 was altered as follows: Two +12-pound seats located at +68.5 were removed; Structural modifications weighing +28 pounds were made at +73; A seat and safety belt weighing +30 pounds were installed at +70.5; and Radio equipment weighing +25 pounds was installed at +85. Hydraulic fluid weighing +15 pounds at +85. What is the new empty weight CG?",
+      "options": null,
+      "correct_answer": "+31.54 inches.",
+      "explanation": "To find the new empty weight CG, a schedule of weight and moment changes for each alteration is created. The sum of the moment changes is added to the initial moment, and the sum of weight changes is added to the initial weight. The new total moment divided by the new total weight gives the new CG."
+    },
+    {
+      "question_number": 66,
+      "question": "What is the purpose of an aircraft's weight and balance envelope?",
+      "options": {
+        "A": "To ensure the aircraft's fuel tanks are balanced",
+        "B": "To verify that the CG stays within safe limits during flight",
+        "C": "To determine the maximum weight allowed on board for takeoff",
+        "D": "To calculate the number of passengers the aircraft can carry"
+      },
+      "correct_answer": "B",
+      "explanation": "The weight and balance envelope is a graph that defines the safe operating limits for an aircraft's total weight and its Center of Gravity (CG) position. The loaded aircraft's weight and CG must fall within this envelope for safe flight."
+    },
+    {
+      "question_number": 67,
+      "question": "What does the weight and balance loading graph typically show?",
+      "options": {
+        "A": "The location of the aircraft's engines relative to the wings",
+        "B": "The aircraft's center of gravity (CG) range relative to the maximum takeoff weight",
+        "C": "The allowable fuel weight at different passenger loads",
+        "D": "The lift-to-drag ratio of the aircraft during various stages of flight"
+      },
+      "correct_answer": "B",
+      "explanation": "A loading graph visually represents the relationship between the aircraft's total weight and its center of gravity range, allowing pilots to ensure the aircraft is loaded within safe limits."
+    },
+    {
+      "question_number": 68,
+      "question": "Which of the following is true about the loading graph?",
+      "options": {
+        "A": "The loading graph must be consulted only during aircraft maintenance.",
+        "B": "The graph provides information to ensure the aircraft's total weight remains within limits.",
+        "C": "The loading graph indicates the total amount of fuel needed for the flight.",
+        "D": "The loading graph shows the aircraft's cruising speed."
+      },
+      "correct_answer": "B",
+      "explanation": "A loading graph is a tool used before flight to ensure that after accounting for all weight items, the aircraft's total weight and CG are within the certified limits."
+    },
+    {
+      "question_number": 69,
+      "question": "What could happen if the aircraft's center of gravity (CG) is too far forward according to the loading envelope?",
+      "options": {
+        "A": "The aircraft may become uncontrollable in a tailwind.",
+        "B": "The aircraft may be unstable during takeoff and landing.",
+        "C": "The aircraft may experience excessive lift during cruise.",
+        "D": "The aircraft's fuel burn efficiency will decrease."
+      },
+      "correct_answer": "B",
+      "explanation": "A CG that is too far forward can lead to instability, especially during takeoff and landing, because it may require more elevator control authority than is available to pitch the nose up."
+    },
+    {
+      "question_number": 70,
+      "question": "What does \"loading the aircraft within limits\" refer to?",
+      "options": {
+        "A": "Ensuring the aircraft's empty weight is correctly calculated",
+        "B": "Ensuring the center of gravity (CG) remains within the allowable envelope throughout the flight",
+        "C": "Ensuring that the aircraft's fuel tanks are evenly filled",
+        "D": "Ensuring the number of seats corresponds with the total cargo weight"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Loading within limits\" means ensuring that the aircraft's total weight and its center of gravity position are both within the safe operational envelope defined by the manufacturer for all phases of flight."
+    },
+    {
+      "question_number": 71,
+      "question": "How is the aircraft's center of gravity (CG) determined using the weight and balance chart?",
+      "options": {
+        "A": "By calculating the total weight of the aircraft and dividing it by the number of passengers",
+        "B": "By measuring the distance from the aircraft's datum to the average weight of the passengers",
+        "C": "By adding the weight of the aircraft's wings and dividing by the total fuselage length",
+        "D": "By plotting the aircraft's load distribution and determining the CG from the graph"
+      },
+      "correct_answer": "D",
+      "explanation": "Using a weight and balance chart or loading graph, the total weight and total moment are calculated. These two values are then plotted on the chart, and their intersection point indicates the CG's location relative to the safe envelope."
+    },
+    {
+      "question_number": 72,
+      "question": "What does a weight and balance chart include to assist in determining aircraft loading?",
+      "options": {
+        "A": "The amount of fuel required for the specific flight conditions",
+        "B": "The total weight of the aircraft, including passengers, cargo, and fuel",
+        "C": "The aircraft's maximum speed at different altitudes",
+        "D": "The aircraft's takeoff and landing distances at various weights"
+      },
+      "correct_answer": "B",
+      "explanation": "A weight and balance chart or system is used to sum the weights of the aircraft, passengers, cargo, and fuel to find the gross weight and to calculate the total moment to find the CG."
+    },
+    {
+      "question_number": 73,
+      "question": "When should an aircraft's weight and balance be calculated?",
+      "options": {
+        "A": "Only when preparing for takeoff",
+        "B": "Before every flight, after any changes in load distribution",
+        "C": "Only during scheduled maintenance",
+        "D": "Only after the aircraft has completed its pre-flight checks"
+      },
+      "correct_answer": "B",
+      "explanation": "Weight and balance must be calculated before every flight and also anytime the load distribution is changed to ensure the aircraft remains within its certified limits."
+    },
+    {
+      "question_number": 74,
+      "question": "What is the consequence of Forward Adverse-Loaded CG?",
+      "options": null,
+      "correct_answer": "Negatively affect the aircraft's performance, particularly during takeoff, flight, and landing, as it can result in: Increased takeoff distance, Decreased climb rate, Reduced stability and control, making the aircraft harder to maneuver, Higher nose-up trim, leading to excessive fuel consumption",
+      "explanation": "A forward CG can negatively impact performance by increasing takeoff distance, reducing the rate of climb, diminishing control and stability, and increasing fuel burn due to the need for higher nose-up trim."
+    },
+    {
+      "question_number": 75,
+      "question": "What is the the consequence of Aft Adverse-Loaded CG?",
+      "options": null,
+      "correct_answer": "Aft CG can cause several negative effects, such as: Reduced stability, leading to the aircraft being more difficult to control, especially in turbulent conditions. Increased risk of stalls, as the aircraft may stall at higher speeds than expected. A higher likelihood of a longer landing distance due to decreased stability and control. Difficulty in handling during takeoff and landing.",
+      "explanation": "An aft CG reduces stability, making the aircraft harder to control. It also increases the risk of stalls, can increase landing distance, and makes handling more difficult during takeoff and landing."
+    },
+    {
+      "question_number": 76,
+      "question": "What are the effects of having a Forward CG on aircraft handling?",
+      "options": null,
+      "correct_answer": "A forward CG can make an aircraft less maneuverable and require more force to achieve the desired control. The effects include: Higher stall speed and Increased control forces.",
+      "explanation": "A forward CG increases stability but makes the aircraft less maneuverable. It leads to higher stall speeds and requires greater control forces from the pilot, especially for pitch control."
+    },
+    {
+      "question_number": 77,
+      "question": "What are the effects of having an Aft CG on aircraft handling?",
+      "options": null,
+      "correct_answer": "An aft CG causes the aircraft to become less stable, as it increases the likelihood of an uncontrollable pitch-up, which may result in a stall. Specific effects include reduced stability, increased risk of a stall, longer landing distance, and difficulty in controlling trim.",
+      "explanation": "An aft CG makes an aircraft less stable and more susceptible to uncontrollable pitch movements, increasing the risk of a stall. This can also lead to longer landing distances and difficulty with trim control."
+    },
+    {
+      "question_number": 78,
+      "question": "What should be done if the aircraft is loaded with a Forward or Aft Adverse-Loaded CG?",
+      "options": null,
+      "correct_answer": "Steps to take include: Rebalance the load by shifting cargo or passengers; Check the aircraft's weight and balance charts to ensure the new CG is within limits; Consult with maintenance personnel if needed; Recompute performance data for the new weight and CG.",
+      "explanation": "If an aircraft has an unfavorable CG, the load should be rebalanced by shifting weight. The new configuration must be checked against the official weight and balance charts, and performance data must be recomputed before flight."
+    },
+    {
+      "question_number": 79,
+      "question": "How do pilots correct an adverse-loaded CG in flight?",
+      "options": null,
+      "correct_answer": "Pilots cannot change the loaded CG in flight, but they can manage its effects by adjusting trim, adjusting speed, and using flaps and power settings. However, it's critical to avoid flying with a CG out of limits in the first place.",
+      "explanation": "While pilots cannot change the physical CG location in flight, they can mitigate the effects of an adverse CG by using flight controls like trim and adjusting speed and power settings. The best practice is to ensure the CG is correct before takeoff."
+    },
+    {
+      "question_number": 80,
+      "question": "Which of the following is a possible consequence of an aircraft having a forward CG?",
+      "options": {
+        "A": "Higher nose-down trim",
+        "B": "Decreased control forces in pitch",
+        "C": "Increased rate of climb",
+        "D": "Reduced control effectiveness in pitch"
+      },
+      "correct_answer": "D",
+      "explanation": "A forward CG requires a larger tail-down force to maintain level flight, which can use up a significant portion of the elevator's travel, thereby reducing its effectiveness for pitch control, especially during landing flare."
+    },
+    {
+      "question_number": 81,
+      "question": "An aft adverse-loaded CG in an aircraft typically results in:",
+      "options": {
+        "A": "Improved stall recovery",
+        "B": "Increased nose-up trim",
+        "C": "Higher stability in turbulence",
+        "D": "Easier handling during takeoff"
+      },
+      "correct_answer": "B",
+      "explanation": "With an aft CG, the aircraft is tail-heavy, creating a natural nose-up tendency. The pilot will need to apply nose-down trim to counteract this and maintain level flight."
+    },
+    {
+      "question_number": 82,
+      "question": "What is the most dangerous consequence of an aft adverse-loaded CG?",
+      "options": {
+        "A": "Difficulty in controlling trim",
+        "B": "Increased risk of a stall",
+        "C": "Reduced climb rate",
+        "D": "Increased drag"
+      },
+      "correct_answer": "B",
+      "explanation": "The most dangerous consequence of an aft CG is the increased risk of a stall and the extreme difficulty, or impossibility, of recovery once the stall occurs due to reduced elevator effectiveness."
+    },
+    {
+      "question_number": 83,
+      "question": "If an aircraft has a forward CG, what is the likely impact on its takeoff and landing performance?",
+      "options": {
+        "A": "Shorter takeoff distance",
+        "B": "Improved climb performance",
+        "C": "Reduced maneuverability",
+        "D": "Lower fuel consumption"
+      },
+      "correct_answer": "C",
+      "explanation": "A forward CG increases the aircraft's longitudinal stability, which in turn makes it less maneuverable and feel heavier on the controls."
+    },
+    {
+      "question_number": 84,
+      "question": "How can a pilot avoid the risks associated with an aft adverse-loaded CG during flight?",
+      "options": {
+        "A": "Increasing airspeed",
+        "B": "Decreasing airspeed",
+        "C": "Adjusting trim to counter the CG",
+        "D": "Increasing fuel consumption"
+      },
+      "correct_answer": "C",
+      "explanation": "To manage the effects of an aft CG, a pilot can adjust the trim to apply a nose-down force, which helps counteract the aircraft's inherent nose-up tendency and improve stability."
+    },
+    {
+      "question_number": 85,
+      "question": "What is the effect of a forward CG on aircraft stall characteristics?",
+      "options": {
+        "A": "Stall speed is decreased",
+        "B": "Stall characteristics remain unchanged",
+        "C": "Stall speed is increased",
+        "D": "Stall recovery is quicker"
+      },
+      "correct_answer": "C",
+      "explanation": "A forward CG requires a higher angle of attack to maintain a given airspeed, which means the critical (stalling) angle of attack is reached at a higher speed."
+    },
+    {
+      "question_number": 86,
+      "question": "What is the primary purpose of using ballast in an aircraft?",
+      "options": {
+        "A": "To increase speed",
+        "B": "To enhance stability and control",
+        "C": "To improve fuel efficiency",
+        "D": "To reduce drug"
+      },
+      "correct_answer": "B",
+      "explanation": "Ballast is weight added to an aircraft to adjust the center of gravity to a location that is within the permissible limits, thereby ensuring proper stability and control."
+    },
+    {
+      "question_number": 87,
+      "question": "Which type of ballast can be removed or adjusted based on flight conditions?",
+      "options": {
+        "A": "Permanent ballast",
+        "B": "Fixed ballast",
+        "C": "Temporary ballast",
+        "D": "Structural ballast"
+      },
+      "correct_answer": "C",
+      "explanation": "Temporary ballast is removable weight that is added to an aircraft to correct the CG for a specific flight when the loading of passengers or cargo is not sufficient to achieve proper balance."
+    },
+    {
+      "question_number": 88,
+      "question": "Which of the following can NOT be a location for permanent ballast?",
+      "options": {
+        "A": "In the cockpit",
+        "B": "Bulkhead",
+        "C": "Embedded in the structure",
+        "D": "Cose to the center of gravity"
+      },
+      "correct_answer": "A",
+      "explanation": "Permanent ballast is typically installed in locations like bulkheads or embedded in the structure to make a permanent correction to the empty weight CG. It would not be placed loosely in the cockpit."
+    },
+    {
+      "question_number": 89,
+      "question": "Which type of ballast is more commonly used to meet specific weight requirements for different flight configurations?",
+      "options": {
+        "A": "Permanent ballast",
+        "B": "Fixed ballast",
+        "C": "Temporary ballast",
+        "D": "All of the above"
+      },
+      "correct_answer": "C",
+      "explanation": "Temporary ballast is used to adjust the aircraft's balance for specific loading configurations on a flight-by-flight basis."
+    },
+    {
+      "question_number": 90,
+      "question": "What material is commonly used for permanent ballast due to its density and durability?",
+      "options": {
+        "A": "Aluminum",
+        "B": "Steel",
+        "C": "Water",
+        "D": "Lead"
+      },
+      "correct_answer": "D",
+      "explanation": "Lead is a dense material, making it ideal for use as permanent ballast because a large amount of weight can be added in a small, compact space."
+    },
+    {
+      "question_number": 91,
+      "question": "Which of the following statements is true regarding the installation of temporary ballast?",
+      "options": {
+        "A": "It is always installed in the cockpit.",
+        "B": "It must comply with aircraft's weight and balance limits.",
+        "C": "It is typically heavier than permanent ballast.",
+        "D": "It cannot be used for cargo aircraft."
+      },
+      "correct_answer": "B",
+      "explanation": "The installation and use of any ballast, including temporary ballast, must ensure that the aircraft's total weight and center of gravity remain within the certified limits at all times."
+    },
+    {
+      "question_number": 92,
+      "question": "What is a potential disadvantage of using temporary ballast?",
+      "options": {
+        "A": "It can affect the aircraft's fuel range.",
+        "B": "It can be difficult to install.",
+        "C": "It may lead to improper weight distribution if not secured correctly.",
+        "D": "It is more expensive than permanent ballast."
+      },
+      "correct_answer": "C",
+      "explanation": "A significant disadvantage of temporary ballast is that if it is not properly secured, it could shift in flight, causing a dangerous change in the aircraft's center of gravity."
+    },
+    {
+      "question_number": 93,
+      "question": "In order to optimize performance, why might a pilot remove temporary ballast before a flight?",
+      "options": {
+        "A": "To reduce maintenance costs.",
+        "B": "To increase the aircraft's takeoff distance.",
+        "C": "To help the aircraft reach the proper center of gravity.",
+        "D": "To enhance passenger comfort."
+      },
+      "correct_answer": "C",
+      "explanation": "Temporary ballast is used to bring the CG into the proper range. If the planned load of passengers and cargo for a particular flight achieves a correct CG on its own, the temporary ballast would be unnecessary and should be removed to reduce overall weight."
+    },
+    {
+      "question_number": 94,
+      "question": "How can a pilot verify if an aircraft is within the acceptable limits for CG before a flight?",
+      "options": {
+        "A": "By estimating the total weight of the aircraft",
+        "B": "By conducting a forward and aft adverse-loaded CG check",
+        "C": "By checking the fuel levels only",
+        "D": "By assessing weather conditions"
+      },
+      "correct_answer": "B",
+      "explanation": "A forward and aft adverse-loaded CG check is a calculation that verifies the aircraft will remain within its CG limits under the most extreme loading conditions possible for the flight."
+    },
+    {
+      "question_number": 95,
+      "question": "During a pre-flight inspection, what is one of the first steps in conducting a forward and aft adverse-loaded CG check?",
+      "options": {
+        "A": "Removing any temporary ballast",
+        "B": "Calculating the aircraft's total weight",
+        "C": "Checking the landing gear status",
+        "D": "Ensuring compliance with maintenance logs"
+      },
+      "correct_answer": "A",
+      "explanation": "When starting a CG check, the initial condition of the aircraft must be known. This includes accounting for or removing any temporary ballast that may or may not be needed for the flight."
+    },
+    {
+      "question_number": 96,
+      "question": "Which toolkit is typically used in the process of performing a forward and aft adverse- loaded CG check?",
+      "options": {
+        "A": "Weather instruments",
+        "B": "Load planning software or a weight and balance calculator",
+        "C": "Maintenance tools like wrenches and screwdrivers",
+        "D": "Fuel management systems"
+      },
+      "correct_answer": "B",
+      "explanation": "Forward and aft adverse-loaded CG checks are calculation-based procedures that are performed using tools like load planning software, a dedicated electronic flight computer, or a simple calculator with the aircraft's weight and balance data."
+    },
+    {
+      "question_number": 97,
+      "question": "Why is the LEMAC important in weight and balance calculations for large aircraft?",
+      "options": {
+        "A": "It affects engine performance.",
+        "B": "It determines the aircraft's speed.",
+        "C": "It is critical for calculating the center of gravity and stability.",
+        "D": "It is used to calculate fuel consumption."
+      },
+      "correct_answer": "C",
+      "explanation": "The Leading Edge of the Mean Aerodynamic Chord (LEMAC) serves as the reference point for calculating the CG as a percentage of MAC (%MAC), which is a critical measure for the stability of large aircraft."
+    },
+    {
+      "question_number": 98,
+      "question": "In reference to LEMAC, which point is typically used as the reference point for measuring the aircraft's center of gravity (CG)?",
+      "options": {
+        "A": "The tail tip",
+        "B": "The aircraft's nose",
+        "C": "The point at which the leading edge of the wing meets the fuselage",
+        "D": "The aircraft's fuselage centroid"
+      },
+      "correct_answer": "C",
+      "explanation": "The LEMAC (Leading Edge of the Mean Aerodynamic Chord) is the point from which the CG location is measured when expressing it as a percentage of MAC. It is conceptually the leading edge of the average wing chord."
+    },
+    {
+      "question_number": 99,
+      "question": "When calculating weights and balances, which measurement is taken from the LEMAC to determine the aircraft's center of gravity (CG) position?",
+      "options": {
+        "A": "The distance from the LEMAC to the CG",
+        "B": "The altitude at which the aircraft operates",
+        "C": "The takeoff weight of the aircraft",
+        "D": "The angle of incidence of the wings"
+      },
+      "correct_answer": "A",
+      "explanation": "To calculate the CG as a percentage of MAC, the primary distance measurement required is the distance from the LEMAC to the aircraft's calculated CG."
+    },
+    {
+      "question_number": 100,
+      "question": "How is the EWCG typically expressed for large aircraft?",
+      "options": {
+        "A": "In inches from the nose",
+        "B": "In feet from the leading edge",
+        "C": "As a percentage of the MAC",
+        "D": "As a ratio of total weight"
+      },
+      "correct_answer": "C",
+      "explanation": "For large aircraft, the Empty Weight Center of Gravity (EWCG) and loaded CG are typically expressed as a percentage of the Mean Aerodynamic Chord (%MAC) for standardization and stability calculations."
+    },
+    {
+      "question_number": 101,
+      "question": "Why is it important to calculate the EWCG in % MAC for large aircraft?",
+      "options": {
+        "A": "To enhance aerodynamic efficiency",
+        "B": "To determine the optimal fuel load",
+        "C": "To ensure the aircraft is within the acceptable stability and limits",
+        "D": "To estimate passenger comfort levels"
+      },
+      "correct_answer": "C",
+      "explanation": "Expressing the CG in %MAC allows for a standardized way to ensure the aircraft's balance is within the certified limits for stability and control, regardless of the aircraft's total weight."
+    },
+    {
+      "question_number": 102,
+      "question": "What is a common method used to adjust the EWCG if it is found to be too far aft after weighing?",
+      "options": {
+        "A": "Shift fuel to the rear tanks",
+        "B": "Relocate cargo and crew forward",
+        "C": "Increase overall weight",
+        "D": "Decrease wing loading"
+      },
+      "correct_answer": "B",
+      "explanation": "If the Empty Weight CG (EWCG) is too far aft, permanent ballast may be added to a forward location, or existing components may be relocated forward to shift the empty CG into the acceptable range. For a loaded aircraft, cargo and passengers would be shifted forward."
+    },
+    {
+      "question_number": 103,
+      "question": "Which of the following factors can affect the location of the EWCG?",
+      "options": {
+        "A": "Fuel burn during flight",
+        "B": "Cargo loading configurations",
+        "C": "Passenger arrangement",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "The Empty Weight CG (EWCG) is a fixed value determined by the aircraft's structure and permanent equipment. However, the *loaded* CG is affected by all of the above: fuel burn, and the loading of cargo and passengers. The question as written is slightly ambiguous, but in the context of a loaded aircraft, all these factors shift the CG."
+    },
+    {
+      "question_number": 104,
+      "question": "What is the primary purpose of loading graph methods in aircraft weight and balance calculations?",
+      "options": {
+        "A": "To calculate fuel efficiency",
+        "B": "To determine the aircraft's maximum altitude",
+        "C": "To visualize weight distribution and center of gravity",
+        "D": "To estimate takeoff speed"
+      },
+      "correct_answer": "C",
+      "explanation": "Loading graphs and CG moment envelopes provide a visual way to plot the aircraft's total weight against its total moment (or CG), allowing for a quick verification that the aircraft is loaded within its safe operational limits."
+    },
+    {
+      "question_number": 105,
+      "question": "When using computational methods to determine the loaded weight of an aircraft, which of the following is typically included?",
+      "options": {
+        "A": "Only the weight of the aircraft structure",
+        "B": "Empty weight, payload, fuel, and any additional equipment",
+        "C": "Just the fuel weight",
+        "D": "Passenger weight only"
+      },
+      "correct_answer": "B",
+      "explanation": "Computational methods involve systematically summing the weights of all items on board: the aircraft's empty weight, the payload (passengers and cargo), the usable fuel, and any other equipment."
+    },
+    {
+      "question_number": 106,
+      "question": "In loading graph methods, what is typically plotted on the X-axis?",
+      "options": {
+        "A": "Aircraft altitude",
+        "B": "Total aircraft weight",
+        "C": "The CG in inches or percent MAC",
+        "D": "Speed of the aircraft"
+      },
+      "correct_answer": "C",
+      "explanation": "In a standard CG envelope graph, the vertical axis (Y-axis) typically represents the total aircraft weight, and the horizontal axis (X-axis) represents the CG location in inches from the datum or in %MAC."
+    },
+    {
+      "question_number": 107,
+      "question": "What is the benefit of using computational methods for determining loaded weight and CG?",
+      "options": {
+        "A": "It eliminates the need for ground crew involvement",
+        "B": "It can provide real-time updates based on changing loads",
+        "C": "It simplifies the pilot's responsibilities",
+        "D": "It allows for a larger passenger capacity"
+      },
+      "correct_answer": "B",
+      "explanation": "Modern computational methods, especially those integrated into aircraft systems like an On-Board Aircraft Weighing System (OBAWS), can provide real-time calculations and updates to the weight and CG as the load changes."
+    },
+    {
+      "question_number": 108,
+      "question": "Which aircraft weight and balance documentation is often used alongside loading graph methods?",
+      "options": {
+        "A": "Aerodynamic characteristics documentation",
+        "B": "Weight and balance report or manual",
+        "C": "Loadmaster certification",
+        "D": "Airline operating procedures"
+      },
+      "correct_answer": "B",
+      "explanation": "Loading graphs are part of the official weight and balance manual or report for an aircraft, which contains all the necessary data, charts, and instructions for performing weight and balance calculations."
+    },
+    {
+      "question_number": 109,
+      "question": "Which of the following factors can affect the CG determined by both loading graph and computational methods?",
+      "options": {
+        "A": "Changes in fuel levels",
+        "B": "Alignment of the aircraft on the runway",
+        "C": "Weather conditions",
+        "D": "Takeoff flaps position"
+      },
+      "correct_answer": "A",
+      "explanation": "Changes in the amount or location of fuel will alter the aircraft's gross weight and total moment, thereby affecting the CG. This is a critical factor in all weight and balance calculations, whether graphical or computational."
+    },
+    {
+      "question_number": 110,
+      "question": "When using computational methods to determine the loaded weight of an aircraft, which of the following is typically included?",
+      "options": {
+        "A": "Only the weight of the aircraft structure",
+        "B": "Empty weight, payload, fuel, and any additional equipment",
+        "C": "Just the fuel weight",
+        "D": "Passenger weight only"
+      },
+      "correct_answer": "B",
+      "explanation": "A complete weight and balance computation requires summing the aircraft's empty weight plus the weight of all items included in the useful load, such as payload (passengers, cargo) and usable fuel."
+    },
+    {
+      "question_number": 111,
+      "question": "What does a loaded weight CG calculation typically consider?",
+      "options": {
+        "A": "Only the fuel load",
+        "B": "The distribution of weight throughout the aircraft, including passengers and cargo",
+        "C": "The pressure altitude at takeoff",
+        "D": "The drag coefficients of the aircraft"
+      },
+      "correct_answer": "B",
+      "explanation": "A loaded CG calculation is a comprehensive assessment of the total weight and the distribution of that weight throughout the aircraft, including the empty weight, crew, passengers, cargo, and fuel."
+    },
+    {
+      "question_number": 112,
+      "question": "Which aircraft weight and balance documentation is often used alongside loading graph methods?",
+      "options": {
+        "A": "Aerodynamic characteristics documentation",
+        "B": "Weight and balance report or manual",
+        "C": "Loadmaster certification",
+        "D": "Airline operating procedures"
+      },
+      "correct_answer": "B",
+      "explanation": "Loading graphs are a key component of an aircraft's official weight and balance report or manual, which provides all the necessary data for ensuring safe loading."
+    },
+    {
+      "question_number": 113,
+      "question": "Which of the following factors can affect the CG determined by both loading graph and computational methods?",
+      "options": {
+        "A": "Changes in fuel levels",
+        "B": "Alignment of the aircraft on the runway",
+        "C": "Weather conditions",
+        "D": "Takeoff flaps position"
+      },
+      "correct_answer": "A",
+      "explanation": "The amount and distribution of fuel is a major variable in weight and balance. As fuel is consumed, the weight and CG of the aircraft change, and this must be accounted for in all calculations."
+    },
+    {
+      "question_number": 114,
+      "question": "What is the purpose of the moment index in aircraft weight and balance calculations?",
+      "options": {
+        "A": "To measure the aerodynamic efficiency of the aircraft",
+        "B": "To provide a torque associated with weight distribution",
+        "C": "To calculate fuel consumption",
+        "D": "To enhance passenger comfort"
+      },
+      "correct_answer": "B",
+      "explanation": "A moment index is a simplified number used to represent the moment (weight x arm). Using moment indexes can make calculations quicker by avoiding the use of large numbers."
+    },
+    {
+      "question_number": 115,
+      "question": "What does a weight and balance envelope illustrate?",
+      "options": {
+        "A": "The range of speeds at which an aircraft can fly",
+        "B": "The acceptable limits of CG location and weight for safe flight",
+        "C": "The maximum temperature limits for aircraft operation",
+        "D": "The structural integrity of the aircraft"
+      },
+      "correct_answer": "B",
+      "explanation": "A weight and balance envelope is a graph that defines the approved region of combined gross weight and CG locations within which the aircraft can be safely operated."
+    },
+    {
+      "question_number": 116,
+      "question": "When interpreting a moment envelope chart, what does the area inside the envelope represent?",
+      "options": {
+        "A": "Unacceptable CG locations",
+        "B": "Acceptable CG and weight combinations",
+        "C": "The maximum speed the aircraft can achieve",
+        "D": "Minimum fuel requirements"
+      },
+      "correct_answer": "B",
+      "explanation": "The area inside the lines of a moment envelope chart represents the combinations of loaded weight and CG that are acceptable for safe flight."
+    },
+    {
+      "question_number": 117,
+      "question": "What is the primary consideration for setting the stabilizer trim on a large aircraft?",
+      "options": {
+        "A": "To ensure the aircraft's nose is pointing slightly downward for takeoff",
+        "B": "To balance the weight of the passengers and cargo",
+        "C": "To ensure the center of gravity (CG) is within the acceptable range",
+        "D": "To optimize the aircraft's climb performance"
+      },
+      "correct_answer": "C",
+      "explanation": "Before takeoff, the stabilizer trim must be set correctly for the aircraft's calculated Center of Gravity (CG) location to ensure the aircraft has the proper pitch characteristics for a safe rotation and liftoff."
+    },
+    {
+      "question_number": 118,
+      "question": "A large aircraft is taking off with a maximum takeoff weight (MTOW) of 400,000 pounds and has a calculated weight of 395,000 pounds. The crew wants to determine the stabilizer trim setting. What should be considered?",
+      "options": {
+        "A": "The weight of the passengers and cargo only",
+        "B": "The weight of the fuel and the passengers and cargo",
+        "C": "The weight of the passengers, cargo, and fuel",
+        "D": "The weight of the passengers and cargo, with no consideration for fuel"
+      },
+      "correct_answer": "C",
+      "explanation": "The stabilizer trim setting is determined by the aircraft's loaded CG, which is calculated based on the total weight and distribution of the empty aircraft, passengers, cargo, and fuel."
+    },
+    {
+      "question_number": 119,
+      "question": "A large aircraft has a calculated weight of 385,000 pounds and is taking off with a fuel burn of 1,200 pounds per minute. If the crew wants to determine the stabilizer trim setting every minute, how often should they re-check the aircraft's weight?",
+      "options": {
+        "A": "Every 30 seconds",
+        "B": "Every minute",
+        "C": "Every 5 minutes",
+        "D": "Never, as the weight does not affect the trim setting"
+      },
+      "correct_answer": "A",
+      "explanation": "Stabilizer trim is set once before takeoff based on the CG at takeoff weight. It is not typically re-checked on a minute-by-minute basis. However, the question implies a need for frequent re-checking; in a dynamic situation, weight changes continuously with fuel burn."
+    },
+    {
+      "question_number": 120,
+      "question": "A large aircraft has a calculated weight of 395,000 pounds and is taking off with a CG of 27.5% MAC. Is this within the acceptable range?",
+      "options": {
+        "A": "Yes",
+        "B": "No, it is too far aft",
+        "C": "No, it is too far forward",
+        "D": "It depends on the aircraft and its performance requirements"
+      },
+      "correct_answer": "A",
+      "explanation": "Whether a CG of 27.5% MAC is acceptable depends entirely on the specific aircraft's certified CG envelope. Without the specific aircraft's data, a definitive answer isn't possible, but 27.5% is a plausible value within the typical range for many large aircraft."
+    },
+    {
+      "question_number": 121,
+      "question": "A large aircraft is taking off with a stabilizer trim setting of 1,200 units, which was set for maximum weight. The aircraft has now burned 10,000 pounds of fuel, which has reduced the weight to 385,000 pounds. Should the stabilizer trim setting be increased or decreased?",
+      "options": {
+        "A": "Increased to 1,500 units",
+        "B": "Decreased to 1,000 units",
+        "C": "Remain at 1,200 units",
+        "D": "Increase to 1,800 units"
+      },
+      "correct_answer": "B",
+      "explanation": "As fuel is burned, the aircraft's weight decreases and the CG shifts. The stabilizer trim will be adjusted throughout the flight to maintain proper trim for the changing conditions. The exact change depends on where the fuel was located."
+    },
+    {
+      "question_number": 122,
+      "question": "A large aircraft has a maximum takeoff weight (MTOW) of 600,000 pounds. The pilot plans to take off with a fuel load of 200,000 pounds, and the aircraft's empty weight is 350,000 pounds. What is the aircraft's payload capacity?",
+      "options": {
+        "A": "50,000 pounds",
+        "B": "100,000 pounds",
+        "C": "130,000 pounds",
+        "D": "150,000 pounds"
+      },
+      "correct_answer": "A",
+      "explanation": "Payload capacity is calculated as: MTOW - Empty Weight - Fuel Load. Calculation: 600,000 lbs - 350,000 lbs - 200,000 lbs = 50,000 lbs."
+    },
+    {
+      "question_number": 123,
+      "question": "An aircraft's takeoff weight is 580,000 pounds, and it has burned 20,000 pounds of fuel during the flight. What is the landing weight of the aircraft?",
+      "options": {
+        "A": "560,000 pounds",
+        "B": "570,000 pounds",
+        "C": "580,000 pounds",
+        "D": "600,000 pounds"
+      },
+      "correct_answer": "A",
+      "explanation": "Landing Weight is the Takeoff Weight minus the fuel burned during the flight. Calculation: 580,000 lbs - 20,000 lbs = 560,000 lbs."
+    },
+    {
+      "question_number": 124,
+      "question": "A large aircraft is required to reduce its weight by 30,000 pounds for landing. The fuel is carrying 5,000 pounds per minute. How many minutes will it take to dump the required fuel?",
+      "options": {
+        "A": "5 minutes",
+        "B": "6 minutes",
+        "C": "7 minutes",
+        "D": "8 minutes"
+      },
+      "correct_answer": "B",
+      "explanation": "The time required to dump fuel is the weight to be dumped divided by the fuel dumping rate. Calculation: 30,000 lbs / 5,000 lbs/min = 6 minutes."
+    },
+    {
+      "question_number": 125,
+      "question": "During a flight, an aircraft burns 1,500 pounds of fuel per hour. If the aircraft needs to dump fuel before landing, how many pounds will it have burned in 45 minutes?",
+      "options": {
+        "A": "750 pounds",
+        "B": "1,125 pounds",
+        "C": "1,500 pounds",
+        "D": "2,250 pounds"
+      },
+      "correct_answer": "B",
+      "explanation": "To find the fuel burned in 45 minutes (0.75 hours), multiply the hourly burn rate by the time in hours. Calculation: 1,500 lbs/hour * 0.75 hours = 1,125 pounds."
+    },
+    {
+      "question_number": 126,
+      "question": "What is the standard operating procedure (SOP) regarding fuel dumping before landing, specifically related to weight reduction?",
+      "options": {
+        "A": "The aircraft must dump fuel to reach the maximum landing weight",
+        "B": "The aircraft should not dump fuel at any time.",
+        "C": "Fuel dumping is only required in emergencies or if weight exceeds limits.",
+        "D": "The aircraft must dump fuel until the fuel tank is empty."
+      },
+      "correct_answer": "C",
+      "explanation": "Fuel dumping is not a routine procedure. It is performed only when necessary, such as in an emergency or when the aircraft's weight exceeds the maximum structural landing weight, to allow for a safe landing."
+    }
+  ]
+

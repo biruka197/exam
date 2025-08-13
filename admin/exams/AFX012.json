@@ -1,0 +1,233 @@
+[
+    {
+        "question_number": 1,
+        "question": "The type of nut which is classified under loose fit is_________?",
+        "options": {
+            "A": "Class-1 fit",
+            "B": "Class-2 fit",
+            "C": "Class-3 fit"
+        },
+        "correct_answer": "A",
+        "explanation": "Class 1 fit is for loose-fitting threads, used where quick and easy assembly and disassembly is desired, such as on castellated nuts."
+    },
+    {
+        "question_number": 2,
+        "question": "The type of nut which is classified under close fit is_________?",
+        "options": {
+            "A": "Class-1 fit",
+            "B": "Class-2 fit",
+            "C": "Class-3 fit"
+        },
+        "correct_answer": "C",
+        "explanation": "Class 3 fit is a close tolerance fit, used in applications requiring a secure and snug connection with minimal play, common for standard aircraft hardware."
+    },
+    {
+        "question_number": 3,
+        "question": "The type of nut which is classified under medium fit is_________?",
+        "options": {
+            "A": "Class-1 fit",
+            "B": "Class-2 fit",
+            "C": "Class-3 fit"
+        },
+        "correct_answer": "B",
+        "explanation": "Class 2 fit is considered a medium or free fit, representing a standard commercial-grade tolerance that allows for easy assembly with some looseness."
+    },
+    {
+        "question_number": 4,
+        "question": "Fairleads should never deflect the alignment of a cable more than _____ from a straight line?",
+        "options": {
+            "A": "15\u00b0",
+            "B": "10\u00b0",
+            "C": "3\u00b0"
+        },
+        "correct_answer": "C",
+        "explanation": "To prevent excessive wear on the cable and the fairlead itself, the deflection angle of a cable passing through a fairlead should not exceed 3 degrees."
+    },
+    {
+        "question_number": 5,
+        "question": "Before using hoists to lift a component be sure the weight of the component to be lifted?",
+        "options": {
+            "A": "should not exceeded lifting capacity",
+            "B": "is known and verified",
+            "C": "is evenly distributed on the sling"
+        },
+        "correct_answer": "A",
+        "explanation": "The most critical safety check before lifting any component is to ensure its weight does not exceed the rated lifting capacity of the hoist to prevent catastrophic failure."
+    },
+    {
+        "question_number": 6,
+        "question": "What is the first procedure in Stabilizers disassembly?",
+        "options": {
+            "A": "Observe Safety procedure",
+            "B": "Remove fairings and access panels",
+            "C": "Disconnect control cables"
+        },
+        "correct_answer": "A",
+        "explanation": "For any maintenance task, including disassembly, the first and most important step is to review and observe all safety procedures specified in the aircraft maintenance manual."
+    },
+    {
+        "question_number": 7,
+        "question": "Which one or the following tool is used to measure tightness of a bolt or nut?",
+        "options": {
+            "A": "Torque wrench",
+            "B": "Tensiometer",
+            "C": "Micrometer"
+        },
+        "correct_answer": "A",
+        "explanation": "A torque wrench is a specialized tool used to apply a precise amount of rotational force (torque) to a fastener, which is the standard method for measuring its tightness."
+    },
+    {
+        "question_number": 8,
+        "question": "Aircraft maintenance manual give?",
+        "options": {
+            "A": "Assembly and disassembly procedure",
+            "B": "Pilot operating instructions",
+            "C": "Part numbers only"
+        },
+        "correct_answer": "A",
+        "explanation": "The Aircraft Maintenance Manual (AMM) contains detailed, official procedures for the inspection, servicing, assembly, and disassembly of aircraft structures and systems."
+    },
+    {
+        "question_number": 9,
+        "question": "Which document provide the right procedure for assembly and disassembly of aircraft parts?",
+        "options": {
+            "A": "Aircraft Maintenance manual",
+            "B": "Advisory Circulars",
+            "C": "IPC (illustrated part catalog)"
+        },
+        "correct_answer": "A",
+        "explanation": "The Aircraft Maintenance Manual (AMM) is the authoritative document that provides the correct, approved procedures for assembling and disassembling aircraft parts."
+    },
+    {
+        "question_number": 10,
+        "question": "The aircraft is leveled in which axis's?",
+        "options": {
+            "A": "Laterally and Vertical",
+            "B": "Vertical and Longitudinally",
+            "C": "Laterally and Longitudinally"
+        },
+        "correct_answer": "C",
+        "explanation": "For rigging and alignment checks, an aircraft must be leveled along its lateral (wingtip-to-wingtip) and longitudinal (nose-to-tail) axes to establish a proper reference datum."
+    },
+    {
+        "question_number": 11,
+        "question": "What tool is typically used for measuring control surface deflection?",
+        "options": {
+            "A": "Standard protractor",
+            "B": "Universal propeller protractor",
+            "C": "Tensiometer"
+        },
+        "correct_answer": "B",
+        "explanation": "A universal propeller protractor is a precision instrument designed to accurately measure angles, making it the ideal tool for checking control surface deflection angles."
+    },
+    {
+        "question_number": 12,
+        "question": "Which of the following is the longitudinal difference in the position of the wings of the bi-plane?",
+        "options": {
+            "A": "Stagger",
+            "B": "Decalage",
+            "C": "Camber"
+        },
+        "correct_answer": "A",
+        "explanation": "Stagger is the aerodynamic design term for the longitudinal (fore-and-aft) offset between the upper and lower wings of a biplane."
+    },
+    {
+        "question_number": 13,
+        "question": "What must be done to the aircraft before checking the position or angle of the main component?",
+        "options": {
+            "A": "Jacked and leveled",
+            "B": "Defueled and cleaned",
+            "C": "Controls locked in neutral"
+        },
+        "correct_answer": "A",
+        "explanation": "Before any rigging checks, the aircraft must be properly raised on jacks and leveled both longitudinally and laterally to ensure all measurements are accurate."
+    },
+    {
+        "question_number": 14,
+        "question": "What device is incorporated in large aircraft control cable systems to automatically maintain a given cable tension?",
+        "options": {
+            "A": "Tension Regulators",
+            "B": "Turnbuckles",
+            "C": "Cable Dampers"
+        },
+        "correct_answer": "A",
+        "explanation": "Tension regulators are mechanical devices that automatically adjust for changes in cable length due to thermal expansion and contraction, maintaining constant cable tension."
+    },
+    {
+        "question_number": 15,
+        "question": "What tool is used to measure cable tension?",
+        "options": {
+            "A": "Tensiometer",
+            "B": "Torque wrench",
+            "C": "Dynamometer"
+        },
+        "correct_answer": "A",
+        "explanation": "A tensiometer is the specific calibrated tool designed to accurately measure the tension of aircraft control cables."
+    },
+    {
+        "question_number": 16,
+        "question": "What is a common method to inspect a cable for broken strands?",
+        "options": {
+            "A": "by rubbing a rag along the cable",
+            "B": "by using a magnifying glass only",
+            "C": "by listening for a humming sound"
+        },
+        "correct_answer": "A",
+        "explanation": "Running a cloth rag along the length of a cable is a common tactile inspection technique; any broken wire strands will snag the material, indicating a potential problem area."
+    },
+    {
+        "question_number": 17,
+        "question": "Which one of the following flight control system uses fiber optic cables rather than wires to transmit the control signals?",
+        "options": {
+            "A": "Fly by light",
+            "B": "Mechanical",
+            "C": "Fly by wire"
+        },
+        "correct_answer": "A",
+        "explanation": "Fly-by-light systems use fiber optic cables to transmit control signals as pulses of light, making them immune to electromagnetic interference (EMI)."
+    },
+    {
+        "question_number": 18,
+        "question": "Which one of the following flight control system use a cable-operated control system, the cockpit controls are connected to the control surfaces with high-strength steel cable and pulley?",
+        "options": {
+            "A": "Fly by light",
+            "B": "Mechanical",
+            "C": "Fly by wire"
+        },
+        "correct_answer": "B",
+        "explanation": "A conventional mechanical flight control system uses a physical connection of cables, pulleys, and pushrods to link the pilot's controls directly to the flight control surfaces."
+    },
+    {
+        "question_number": 19,
+        "question": "Which one of the following flight control system has the significant drawback of being susceptible to electromagnetic interference (EMI)?",
+        "options": {
+            "A": "Fly by light",
+            "B": "Mechanical",
+            "C": "Fly by wire"
+        },
+        "correct_answer": "C",
+        "explanation": "Fly-by-wire systems transmit control inputs via electrical signals, which makes them vulnerable to electromagnetic interference (EMI), requiring extensive shielding and design safeguards."
+    },
+    {
+        "question_number": 20,
+        "question": "What is one of the last steps in rigging the Elevator?",
+        "options": {
+            "A": "cable tension is adjusted",
+            "B": "travel is measured",
+            "C": "control yoke is locked"
+        },
+        "correct_answer": "B",
+        "explanation": "After all rigging adjustments are made and tensions are set, a final critical step is to measure the control surface's range of travel to ensure it operates within specified limits."
+    },
+    {
+        "question_number": 21,
+        "question": "When a control surface is mounted on a balance stand, what does a downward travel of the trailing edge below the horizontal position indicate?",
+        "options": {
+            "A": "Underbalance",
+            "B": "Overbalance",
+            "C": "Neutral balance"
+        },
+        "correct_answer": "B",
+        "explanation": "A downward travel of the trailing edge indicates a tail-heavy condition. This is known as overbalance, where the mass behind the hinge line is greater than the mass in front of it."
+    }
+]

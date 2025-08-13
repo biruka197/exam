@@ -1,0 +1,396 @@
+[
+  {
+    "question_number": 1,
+    "question": "The figure below indicates a __________ class lever.",
+    "options": {
+      "a": "1st",
+      "b": "2nd",
+      "c": "3rd"
+    },
+    "correct_answer": "a",
+    "explanation": "The image displays a first-class lever, where the fulcrum is positioned between the effort and the load."
+  },
+  {
+    "question_number": 2,
+    "question": "A first class lever is to be used to lift a 500-lb weight. The distance from the weight to the fulcrum is 12 inches and from the fulcrum to the applied effort is 60 inches. How much force is required to lift the weight? & what is the mechanical advantage respectively?",
+    "options": {
+      "a": "100lb & 2",
+      "b": "200lb & 5",
+      "c": "100lb & 5"
+    },
+    "correct_answer": "c",
+    "explanation": "Force balance: Effort x 60 inches = 500 lb x 12 inches, so Effort = 100 lb. Mechanical Advantage = Load / Effort = 500 / 100 = 5."
+  },
+  {
+    "question_number": 3,
+    "question": "Which of the following is not true?",
+    "options": {
+      "a": "A single fixed pulley is a first-class lever with equal arms",
+      "b": "advantage of a single fixed pulley is to change the direction of the force",
+      "c": "the mechanical advantage of a single pulley is 2"
+    },
+    "correct_answer": "c",
+    "explanation": "The mechanical advantage of a single fixed pulley is 1, as it only changes the direction of the force, it does not multiply the force."
+  },
+  {
+    "question_number": 4,
+    "question": "A Boeing 747 weighing 450,000 pounds needs to be raised 4 feet in the air so maintenance can be done on the landing gear. How much potential energy does the airplane possess because of this raised position?",
+    "options": {
+      "a": "450,000 ft-lb",
+      "b": "1,800,000 ft-lb",
+      "c": "1,800ft-lb."
+    },
+    "correct_answer": "b",
+    "explanation": "Potential Energy = Weight x Height = 450,000 lb x 4 ft = 1,800,000 ft-lb."
+  },
+  {
+    "question_number": 5,
+    "question": "A device used to measure the relative density of liquids is:",
+    "options": {
+      "a": "Hydrometer",
+      "b": "Densitometer",
+      "c": "Thermometer"
+    },
+    "correct_answer": "a",
+    "explanation": "A hydrometer is an instrument used for measuring the relative density (or specific gravity) of liquids."
+  },
+  {
+    "question_number": 6,
+    "question": "Measure of the resistance to flow (of liquids) is:",
+    "options": {
+      "a": "Density",
+      "b": "Viscosity",
+      "c": "Specific gravity"
+    },
+    "correct_answer": "b",
+    "explanation": "Viscosity is a measure of a fluid's resistance to flow."
+  },
+    {
+    "question_number": 7,
+    "question": "the smallest unit of substance that exhibits the physical and chemical properties of the substance is:",
+    "options": {
+      "a": "atom",
+      "b": "molecule",
+      "c": "electron"
+    },
+    "correct_answer": "b",
+    "explanation": "A molecule is the smallest particle of a substance that retains the chemical and physical properties of the substance and is composed of two or more atoms."
+  },
+  {
+    "question_number": 8,
+    "question": "the process by which a solid changes directly into a gas is called",
+    "options": {
+      "a": "sublimation",
+      "b": "evaporation",
+      "c": "freezing"
+    },
+    "correct_answer": "a",
+    "explanation": "Sublimation is the phase transition of a substance directly from the solid to the gas state."
+  },
+  {
+    "question_number": 9,
+    "question": "one of the following is a derived physical quantity:",
+    "options": {
+      "a": "mass",
+      "b": "length",
+      "c": "weight"
+    },
+    "correct_answer": "c",
+    "explanation": "Weight is a derived quantity, as it is the product of mass (a fundamental quantity) and gravitational acceleration (Weight = mass x g)."
+  },
+  {
+    "question_number": 10,
+    "question": "which one of the following is a vector quantity",
+    "options": {
+      "a": "speed",
+      "b": "distance",
+      "c": "velocity"
+    },
+    "correct_answer": "c",
+    "explanation": "Velocity is a vector quantity because it has both magnitude (speed) and direction."
+  },
+  {
+    "question_number": 11,
+    "question": "An aircraft suspended from its CG would have:",
+    "options": {
+      "a": "A nose down tendency",
+      "b": "A tail down tendency",
+      "c": "No tendency to rotate in either a nose-up or nose-down attitude"
+    },
+    "correct_answer": "c",
+    "explanation": "The Center of Gravity (CG) is the point where the aircraft's weight is balanced. Suspending it from this point results in no rotational tendency."
+  },
+  {
+    "question_number": 12,
+    "question": "When a sheet metal of an airplane is assembled using a rivet, the rivet experiences",
+    "options": {
+      "a": "Compression stress",
+      "b": "Shear stress",
+      "c": "Tensile stress"
+    },
+    "correct_answer": "b",
+    "explanation": "Rivets are designed to withstand shear stress, which is the force that tends to cause parts to slide past one another."
+  },
+  {
+    "question_number": 13,
+    "question": "An Air Force F-15 fighter is cruising at 400 mph. The pilot advances the throttles to full after burner and accelerates to 1,200 mph in 20 seconds. What is the average acceleration in mph/s?",
+    "options": {
+      "a": "40 mph/s",
+      "b": "80 mph/s",
+      "c": "100 mph/s"
+    },
+    "correct_answer": "a",
+    "explanation": "Acceleration = (Final Velocity - Initial Velocity) / Time = (1200 mph - 400 mph) / 20 s = 800 mph / 20 s = 40 mph/s."
+  },
+  {
+    "question_number": 14,
+    "question": "Newton's first law is also called :",
+    "options": {
+      "a": "action and reaction",
+      "b": "The law of inertia",
+      "c": "Law of gravitation"
+    },
+    "correct_answer": "b",
+    "explanation": "Newton's first law of motion states that an object will remain at rest or in uniform motion unless acted upon by an external force. This property of an object to resist changes in its state of motion is called inertia."
+  },
+  {
+    "question_number": 15,
+    "question": "What power would be needed, to raise the GE-90 turbofan engine into position to install it on a Boeing 777-300 airplane? The engine weighs 19,000 lb, and it must be lifted 4 ft in 2 minutes.",
+    "options": {
+      "a": "19,000 ft-lb/min",
+      "b": "38,000 ft-lb/min",
+      "c": "36,000 ft-lb/min"
+    },
+    "correct_answer": "b",
+    "explanation": "Work = Force x Distance = 19,000 lb x 4 ft = 76,000 ft-lb. Power = Work / Time = 76,000 ft-lb / 2 min = 38,000 ft-lb/min."
+  },
+  {
+    "question_number": 16,
+    "question": "An aircraft with a gross weight of 79,600 lb is towed over a concrete ramp. What force must be exerted by the towing vehicle to keep the airplane rolling after once set in motion? (The value of \"μ\" for rubber tires on concrete is about 0.02.)",
+    "options": {
+      "a": "1,590 lb",
+      "b": "1,592 lb",
+      "c": "15,920"
+    },
+    "correct_answer": "b",
+    "explanation": "Force of rolling friction = Coefficient of friction (μ) x Normal Force (Weight) = 0.02 x 79,600 lb = 1,592 lb."
+  },
+  {
+    "question_number": 17,
+    "question": "the energy associated with kinetic energy of the molecule is called",
+    "options": {
+      "a": "heat energy",
+      "b": "potential energy",
+      "c": "critical energy"
+    },
+    "correct_answer": "a",
+    "explanation": "Heat energy (or thermal energy) is the total kinetic energy of the atoms or molecules in a substance."
+  },
+  {
+    "question_number": 18,
+    "question": "the process by which heat is transferred by movement of a heated fluid is called",
+    "options": {
+      "a": "convection",
+      "b": "conduction"
+    },
+    "correct_answer": "a",
+    "explanation": "Convection is the transfer of heat through fluids (liquids or gases) by the movement of the heated fluid itself."
+  },
+  {
+    "question_number": 19,
+    "question": "the point at which all molecular movement will cease",
+    "options": {
+      "a": "absolute zero",
+      "b": "freezing point",
+      "c": "absolute stop"
+    },
+    "correct_answer": "a",
+    "explanation": "Absolute zero (0 Kelvin or -273.15°C) is the theoretical temperature at which all molecular motion ceases."
+  },
+  {
+    "question_number": 20,
+    "question": "Quantity of heat required to rise the temperature of the body by 1° is",
+    "options": {
+      "a": "Heat capacity",
+      "b": "Specific heat capacity",
+      "c": "Specific density"
+    },
+    "correct_answer": "a",
+    "explanation": "Heat capacity is the amount of heat needed to raise the temperature of an entire object by one degree. Specific heat capacity is per unit mass."
+  },
+  {
+    "question_number": 21,
+    "question": "IF both the temperature and the volume of a gas in a confined container is doubled, then the pressure of the gas will",
+    "options": {
+      "a": "also doubled",
+      "b": "be reduced to one -half its original value",
+      "c": "remain the same"
+    },
+    "correct_answer": "c",
+    "explanation": "According to the combined gas law (P1V1/T1 = P2V2/T2), if both V and T are doubled, the effects cancel out (P2 = P1 * (V1/2V1) * (2T1/T1) = P1), so the pressure remains the same."
+  },
+  {
+    "question_number": 22,
+    "question": "A boy drops a stone from a bridge. If it takes 3s for the stone to hit the water beneath, how high above the water is the bridge? Ignore air friction.",
+    "options": {
+      "a": "24m",
+      "b": "44m",
+      "c": "52m"
+    },
+    "correct_answer": "b",
+    "explanation": "Using the formula for distance d = (1/2)gt², d = 0.5 * 9.8 m/s² * (3s)² = 44.1m."
+  },
+  {
+    "question_number": 23,
+    "question": "Commonly known as law of inertia",
+    "options": {
+      "a": "Newton's first law",
+      "b": "Newton's second law",
+      "c": "Newton's third law"
+    },
+    "correct_answer": "a",
+    "explanation": "Newton's first law is also known as the law of inertia."
+  },
+  {
+    "question_number": 24,
+    "question": "Suppose you prefer to live in the moon than earth",
+    "options": {
+      "a": "Your mass will be the same but different weight",
+      "b": "Your mass will decrease but same weight",
+      "c": "Your mass will increase but same weight"
+    },
+    "correct_answer": "a",
+    "explanation": "Mass is the amount of matter in an object and is constant. Weight is the force of gravity on that mass (mass x g) and changes depending on the gravitational field."
+  },
+  {
+    "question_number": 25,
+    "question": "10 km/hr equals to",
+    "options": {
+      "a": "2.8 m/s",
+      "b": "3.6 m/s",
+      "c": "10m/s"
+    },
+    "correct_answer": "a",
+    "explanation": "10 km/hr * (1000 m/1 km) * (1 hr/3600 s) ≈ 2.78 m/s."
+  },
+  {
+    "question_number": 26,
+    "question": "It is the product of an object mass with its velocity",
+    "options": {
+      "a": "Acceleration",
+      "b": "Momentum",
+      "c": "Force"
+    },
+    "correct_answer": "b",
+    "explanation": "Momentum is defined as the product of mass and velocity (p = mv)."
+  },
+  {
+    "question_number": 27,
+    "question": "If two or more bodies interact, the momentum after interaction is equal to the momentum before interaction",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correct_answer": "a",
+    "explanation": "This statement describes the law of conservation of momentum, which is a fundamental principle in physics."
+  },
+  {
+    "question_number": 28,
+    "question": "A 3 kg object is dropped from 4m height. How fast is it going just before it hits the ground?",
+    "options": {
+      "a": "8.85m/s",
+      "b": "12m/s",
+      "c": "34m/s"
+    },
+    "correct_answer": "a",
+    "explanation": "Using v² = 2gd, v = sqrt(2 * 9.8 m/s² * 4m) ≈ 8.85 m/s."
+  },
+  {
+    "question_number": 29,
+    "question": "Which of the following is a second class lever",
+    "options": {
+      "a": "Crowbar",
+      "b": "Shear",
+      "c": "Wheel barrow"
+    },
+    "correct_answer": "c",
+    "explanation": "A wheelbarrow is a second-class lever because the load (contents) is between the fulcrum (the wheel) and the effort (the handles)."
+  },
+  {
+    "question_number": 30,
+    "question": "One of the following simple machines is used to change direction",
+    "options": {
+      "a": "Pulley",
+      "b": "Lever",
+      "c": "Inclined plane"
+    },
+    "correct_answer": "a",
+    "explanation": "A single fixed pulley is commonly used to change the direction of an applied force."
+  },
+  {
+    "question_number": 31,
+    "question": "Which of the following is composed of derived quantity?",
+    "options": {
+      "a": "Length and Mass",
+      "b": "Volume and Pressure",
+      "c": "Current and Temperature"
+    },
+    "correct_answer": "b",
+    "explanation": "Volume (length cubed) and Pressure (force per unit area) are derived from fundamental quantities. Length, Mass, Current, and Temperature are fundamental quantities."
+  },
+  {
+    "question_number": 32,
+    "question": "Which of the following is a false statement?",
+    "options": {
+      "a": "Scalar quantities have both magnitude and direction",
+      "b": "Length of vector is proportional to the magnitude of the vector quantity",
+      "c": "The resultant vector is an arrow with its tail at the tail of the 1st and it's tip at the tip of the last vector"
+    },
+    "correct_answer": "a",
+    "explanation": "The statement is false because scalar quantities have only magnitude, while vector quantities have both magnitude and direction."
+  },
+  {
+    "question_number": 33,
+    "question": "Physical characteristics of matter include",
+    "options": {
+      "a": "mass, weight, volume, and density",
+      "b": "odor, shape, texture, and hardness",
+      "c": "All of the above"
+    },
+    "correct_answer": "c",
+    "explanation": "All listed items are physical characteristics of matter."
+  },
+  {
+    "question_number": 34,
+    "question": "Uniform Motion has",
+    "options": {
+      "a": "constant acceleration",
+      "b": "zero acceleration",
+      "c": "zero velocity"
+    },
+    "correct_answer": "b",
+    "explanation": "Uniform motion means constant velocity. Since acceleration is the rate of change of velocity, constant velocity implies zero acceleration."
+  },
+  {
+    "question_number": 35,
+    "question": "Which of the following friction requires the greatest force to overcome it?",
+    "options": {
+      "a": "Dynamic friction",
+      "b": "Static friction",
+      "c": "Rolling friction"
+    },
+    "correct_answer": "b",
+    "explanation": "Static friction is the force that must be overcome to initiate motion between two surfaces, and it is generally greater than the kinetic (dynamic) or rolling friction for the same surfaces. "
+  },
+  {
+    "question_number": 36,
+    "question": "Which of Newton's laws relates to the formula: Force = mass * acceleration?",
+    "options": {
+      "a": "1st",
+      "b": "2nd",
+      "c": "3rd"
+    },
+    "correct_answer": "b",
+    "explanation": "Newton's Second Law of Motion is mathematically stated as F=ma, where F is force, m is mass, and a is acceleration. "
+  }
+]

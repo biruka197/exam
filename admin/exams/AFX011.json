@@ -1,0 +1,266 @@
+[
+    {
+        "question_number": 1,
+        "question": "Where can you find the procedures for the assembly and disassembly of an aircraft?",
+        "options": {
+            "A": "Aircraft Maintenance Manual (AMM)",
+            "B": "Type Certificate Data Sheet (TCDS)",
+            "C": "Pilot's Operating Handbook (POH)"
+        },
+        "correct_answer": "A",
+        "explanation": "The Aircraft Maintenance Manual (AMM) contains the manufacturer's detailed, step-by-step procedures for maintenance tasks, including the assembly and disassembly of the airframe and its components."
+    },
+    {
+        "question_number": 2,
+        "question": "Where can pertinent information for rigging an aircraft's control surfaces be found?",
+        "options": {
+            "A": "The aircraft's logbook",
+            "B": "The Type Certificate Data Sheet (TCDS)",
+            "C": "A generic aviation guide"
+        },
+        "correct_answer": "B",
+        "explanation": "The Type Certificate Data Sheet (TCDS) specifies the required control surface movements, cable tensions, and other pertinent data necessary for correct aircraft rigging."
+    },
+    {
+        "question_number": 3,
+        "question": "What is a major advantage of a 'fly-by-light' control system?",
+        "options": {
+            "A": "It is significantly lighter than traditional systems.",
+            "B": "It uses heavy-gauge steel cables for reliability.",
+            "C": "It is a purely mechanical system."
+        },
+        "correct_answer": "A",
+        "explanation": "Fly-by-light systems use fiber optic cables to transmit signals, which are significantly lighter than the metal wiring or hydraulic lines used in fly-by-wire or traditional mechanical control systems."
+    },
+    {
+        "question_number": 5,
+        "question": "What are two critical factors that must be considered when jacking an aircraft?",
+        "options": {
+            "A": "The time of day and hangar temperature.",
+            "B": "The specific jacking points and the jack load limits.",
+            "C": "The brand of the jack and the hangar floor cleanliness."
+        },
+        "correct_answer": "B",
+        "explanation": "To prevent structural damage, it is crucial to use the manufacturer-specified jacking points on the airframe and to ensure the jacks can support the aircraft's weight without exceeding their load limits."
+    },
+    {
+        "question_number": 6,
+        "question": "What is the typical orientation of a control surface that is in an 'underbalance' condition?",
+        "options": {
+            "A": "Trailing edge up, nose down.",
+            "B": "Perfectly streamlined with the fixed surface.",
+            "C": "Trailing edge down, nose up."
+        },
+        "correct_answer": "C",
+        "explanation": "An underbalanced (tail-heavy) condition on a control surface will cause its trailing edge to droop downward and its leading edge (nose) to point up when unsupported."
+    },
+    {
+        "question_number": 7,
+        "question": "What is the first procedure to follow before beginning a wing assembly?",
+        "options": {
+            "A": "Gather all required tools.",
+            "B": "Observe all safety procedures.",
+            "C": "Immediately attach the control cables."
+        },
+        "correct_answer": "B",
+        "explanation": "Safety is the paramount concern in any maintenance task. Observing all specified safety procedures is the first and most important step before commencing complex work like wing assembly."
+    },
+    {
+        "question_number": 8,
+        "question": "Which of the following is considered a primary flight control surface?",
+        "options": {
+            "A": "Flaps",
+            "B": "Elevator",
+            "C": "Trim tabs"
+        },
+        "correct_answer": "B",
+        "explanation": "The primary flight controls, which control the aircraft's rotation about its three axes, are the ailerons, elevator (or stabilator), and rudder."
+    },
+    {
+        "question_number": 9,
+        "question": "What control surface is found on the trailing edge of the vertical stabilizer?",
+        "options": {
+            "A": "Aileron",
+            "B": "Rudder",
+            "C": "Elevator"
+        },
+        "correct_answer": "B",
+        "explanation": "The rudder is the movable control surface attached to the trailing edge of the vertical stabilizer and is used to control yaw."
+    },
+    {
+        "question_number": 10,
+        "question": "What is the primary aerodynamic effect of extending the flaps?",
+        "options": {
+            "A": "To decrease the wing's surface area.",
+            "B": "To increase the wing's camber.",
+            "C": "To increase the aircraft's roll rate."
+        },
+        "correct_answer": "B",
+        "explanation": "Extending flaps increases the wing's camber (curvature) and, in many cases, its area. This increases the lift coefficient, allowing the aircraft to fly at lower speeds, which is ideal for takeoff and landing."
+    },
+    {
+        "question_number": 11,
+        "question": "What specialized tool is used to measure the angle of incidence of a wing?",
+        "options": {
+            "A": "A standard protractor",
+            "B": "An incidence board",
+            "C": "A torque wrench"
+        },
+        "correct_answer": "B",
+        "explanation": "An incidence board, also known as a rigging board, is a specialized tool used with a spirit level or inclinometer to accurately measure a wing's angle of incidence relative to the aircraft's longitudinal axis."
+    },
+    {
+        "question_number": 12,
+        "question": "Why is the dynamic balance of control surfaces critical?",
+        "options": {
+            "A": "It ensures the aircraft's paint is applied evenly.",
+            "B": "It prevents control surface flutter during flight.",
+            "C": "It primarily affects the aircraft's ground handling."
+        },
+        "correct_answer": "B",
+        "explanation": "Proper dynamic balancing of control surfaces is crucial for preventing flutter, a dangerous and potentially destructive aerodynamic vibration that can occur during flight."
+    },
+    {
+        "question_number": 13,
+        "question": "What is the main function of pulleys in a cable-operated flight control system?",
+        "options": {
+            "A": "To adjust the tension of the cables.",
+            "B": "To change the direction of cable movement.",
+            "C": "To terminate the end of a cable."
+        },
+        "correct_answer": "B",
+        "explanation": "Pulleys are used to guide control cables around obstructions and to change the direction of their movement, allowing control inputs to be transmitted from the cockpit to the control surfaces."
+    },
+    {
+        "question_number": 14,
+        "question": "What is the purpose of a turnbuckle in a flight control cable system?",
+        "options": {
+            "A": "To secure the cable to a control horn.",
+            "B": "To allow for the adjustment of cable tension.",
+            "C": "To change the direction of cable travel."
+        },
+        "correct_answer": "B",
+        "explanation": "A turnbuckle is a threaded mechanical fitting that is installed in a cable assembly to allow for precise adjustments to the cable's tension, which is essential for proper flight control rigging."
+    },
+    {
+        "question_number": 15,
+        "question": "What is the function of a swaged terminal on a control cable?",
+        "options": {
+            "A": "To allow for quick disconnection of the cable.",
+            "B": "To carry the tensile load and connect the cable to other fittings.",
+            "C": "To provide a point for lubrication."
+        },
+        "correct_answer": "B",
+        "explanation": "A swaged terminal is a fitting permanently attached to the end of a cable. It is designed to carry the full tensile load of the cable and provide a means of connecting it to other components like a turnbuckle or actuator."
+    },
+    {
+        "question_number": 16,
+        "question": "What is the primary function of a tension regulator in a large aircraft's control cable system?",
+        "options": {
+            "A": "To provide over-tension protection during maneuvers.",
+            "B": "To automatically maintain correct cable tension during temperature changes.",
+            "C": "To indicate when a cable needs to be replaced."
+        },
+        "correct_answer": "B",
+        "explanation": "Tension regulators are spring-loaded devices that automatically compensate for the expansion and contraction of long control cables and the airframe due to ambient temperature changes, ensuring tension remains within limits."
+    },
+    {
+        "question_number": 18,
+        "question": "Where would you find the authoritative specifications for control cable travel distances?",
+        "options": {
+            "A": "In a pilot's blog.",
+            "B": "In the Type Certificate Data Sheet (TCDS) or Maintenance Manual.",
+            "C": "By measuring the travel on a similar aircraft."
+        },
+        "correct_answer": "B",
+        "explanation": "The Type Certificate Data Sheet (TCDS) and the Aircraft Maintenance Manual (AMM) contain the specific, FAA-approved specifications for a particular aircraft model, including the required travel distances for flight control surfaces."
+    },
+    {
+        "question_number": 19,
+        "question": "What simple tool is often used to establish a true vertical reference line when leveling an aircraft?",
+        "options": {
+            "A": "A torque wrench",
+            "B": "A plumb bob",
+            "C": "A micrometer"
+        },
+        "correct_answer": "B",
+        "explanation": "A plumb bob, which consists of a weight suspended from a string, is used to establish a true vertical line. It is used with scales or reference points on the airframe to ensure the aircraft is properly leveled for rigging."
+    },
+    {
+        "question_number": 20,
+        "question": "What is the purpose of performing a symmetry check on an aircraft?",
+        "options": {
+            "A": "To check the engine oil levels.",
+            "B": "To ensure the wing and tail surfaces are correctly aligned with the fuselage.",
+            "C": "To verify the tire pressure is equal on both main wheels."
+        },
+        "correct_answer": "B",
+        "explanation": "A symmetry check is a measurement procedure used to verify that the airframe is not twisted and that the wings and tail surfaces are correctly and symmetrically aligned with the fuselage centerline."
+    },
+    {
+        "question_number": 21,
+        "question": "What is the term for the upward angle of an aircraft's wings from the horizontal, which contributes to lateral stability?",
+        "options": {
+            "A": "Dihedral",
+            "B": "Angle of Incidence",
+            "C": "Angle of Attack"
+        },
+        "correct_answer": "A",
+        "explanation": "Dihedral is the upward angle of the wings from the horizontal axis. It is a key design feature that contributes to the aircraft's inherent lateral (roll) stability."
+    },
+    {
+        "question_number": 22,
+        "question": "Under what circumstances is a hoist required for lifting aircraft components?",
+        "options": {
+            "A": "When the component's weight exceeds safe manual lifting limits.",
+            "B": "Only for lifting the entire aircraft off the ground.",
+            "C": "When jacking points are inaccessible."
+        },
+        "correct_answer": "A",
+        "explanation": "A hoist is a mechanical lifting device used for heavy components like engines, propellers, or wings, when their weight exceeds what can be safely and precisely handled by maintenance personnel."
+    },
+    {
+        "question_number": 23,
+        "question": "What must typically be done to an aircraft before making critical flight control rigging adjustments?",
+        "options": {
+            "A": "The aircraft must be properly jacked and leveled.",
+            "B": "The fuel tanks must be completely empty.",
+            "C": "The aircraft must be outside in direct sunlight."
+        },
+        "correct_answer": "A",
+        "explanation": "To ensure accurate rigging measurements and adjustments, the aircraft must be placed in a specific rigging configuration, which typically involves jacking it to remove weight from the tires and leveling it both longitudinally and laterally."
+    },
+    {
+        "question_number": 24,
+        "question": "Which two angles are fundamental to the correct alignment and rigging of an aircraft's wing?",
+        "options": {
+            "A": "Pitch angle and yaw angle.",
+            "B": "Dihedral and angle of incidence.",
+            "C": "Bank angle and roll angle."
+        },
+        "correct_answer": "B",
+        "explanation": "The dihedral angle (the wing's upward angle) and the angle of incidence (the angle at which the wing is fixed to the fuselage) are critical, built-in design parameters that are checked during major aircraft alignment procedures."
+    },
+    {
+        "question_number": 25,
+        "question": "Which of the following would NOT be considered part of a formal aircraft symmetry check?",
+        "options": {
+            "A": "Measuring from the fuselage centerline to the wing tips.",
+            "B": "Checking the alignment of the vertical stabilizer to the wings.",
+            "C": "A simple visual check of a single component's condition."
+        },
+        "correct_answer": "C",
+        "explanation": "A formal symmetry check involves taking precise measurements between specified points on the airframe to check for structural alignment. A simple visual inspection of one component is part of general maintenance but not the symmetry check itself."
+    },
+    {
+        "question_number": 26,
+        "question": "Where can a mechanic find authoritative information on the specific location of major components like jacking or leveling points?",
+        "options": {
+            "A": "On an online aviation forum.",
+            "B": "In the Type Certificate Data Sheet (TCDS) or Aircraft Maintenance Manual (AMM).",
+            "C": "In the Pilot's Operating Handbook (POH)."
+        },
+        "correct_answer": "B",
+        "explanation": "The Aircraft Maintenance Manual (AMM) is the primary source for maintenance procedures, including the specific location of jacking pads, leveling points, and other major components. The TCDS may also contain this information."
+    }
+]

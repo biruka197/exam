@@ -1,0 +1,1250 @@
+{
+  "exam_title": "Aircraft Electrical System",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Parallel Operation of Generators",
+      "difficulty": "Medium",
+      "question": "In parallel operation of generators Equalizer circuit operates by",
+      "options": {
+        "a": "Increasing the output of low generator and decreasing the output of high generator until they are equal",
+        "b": "Decreasing the output of the high generator until it is equal to the low generator",
+        "c": "Increasing the output of low generator until it is equal to the high generator"
+      },
+      "correct_answer": "a",
+      "explanation": "In parallel operation of generators, the Equalizer circuit operates by increasing the output of the low generator and decreasing the output of the high generator until they are equal."
+    },
+    {
+      "question_number": 2,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Three-phase AC Generation",
+      "difficulty": "Easy",
+      "question": "Which of the following is false about three phase AC generation",
+      "options": {
+        "a": "The phase difference is 120º",
+        "b": "All the armature wires are spaced 120º with each other",
+        "c": "The phase difference is 90º"
+      },
+      "correct_answer": "c",
+      "explanation": "The false statement about three-phase AC generation is that the phase difference is 90º. The correct phase difference is 120º."
+    },
+    {
+      "question_number": 3,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Electrical Loads",
+      "difficulty": "Easy",
+      "question": "What is intermittent load",
+      "options": {
+        "a": "loads supplied from non-essential bus",
+        "b": "operated for two minutes or less and are then turned off",
+        "c": "operated continuously during flight"
+      },
+      "correct_answer": "b",
+      "explanation": "An intermittent load is a load that is operated only when needed, such as landing gear or flaps. [cite: 615]"
+    },
+    {
+      "question_number": 4,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Control & Protection Devices",
+      "difficulty": "Easy",
+      "question": "_____ consists of a low melting point fusible element or link, enclosed in a glass or ceramic casing",
+      "options": {
+        "a": "Circuit breaker",
+        "b": "Fuse",
+        "c": "Switch"
+      },
+      "correct_answer": "b",
+      "explanation": "A Fuse consists of a low melting point fusible element or link, enclosed in a glass or ceramic casing. [cite: 1669]"
+    },
+    {
+      "question_number": 5,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "_____ Lights are intended to provide side and forward lighting during taxi and when turning off the runway",
+      "options": {
+        "a": "Runway turnoff",
+        "b": "Landing",
+        "c": "Anti-collusion"
+      },
+      "correct_answer": "a",
+      "explanation": "Runway turnoff lights are intended to provide side and forward lighting during taxi and when turning off the runway. [cite: 1785]"
+    },
+    {
+      "question_number": 6,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "_____ lights is to provide the necessary illumination for cargo handling and for performing all service activities",
+      "options": {
+        "a": "Taxi and service",
+        "b": "Logo light",
+        "c": "cargo and service compartment"
+      },
+      "correct_answer": "c",
+      "explanation": "Cargo and service compartment lights provide the necessary illumination for cargo handling and for performing all service activities. [cite: 1752]"
+    },
+    {
+      "question_number": 7,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What is the purpose of wing illumination light?",
+      "options": {
+        "a": "protects ice formation",
+        "b": "use the wing lights to inspect the wings and slats for any ice accretion",
+        "c": "it is an illumination for aircraft logo"
+      },
+      "correct_answer": "b",
+      "explanation": "The purpose of wing illumination lights is to inspect the wings and slats for any ice accretion. [cite: 1794, 1795]"
+    },
+    {
+      "question_number": 8,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Construction and Operation",
+      "difficulty": "Medium",
+      "question": "Which power production is large scale with regard to armature and field design?",
+      "options": {
+        "a": "stationary field and rotating armature",
+        "b": "stationary armature and stationary field",
+        "c": "stationary armature and rotating field"
+      },
+      "correct_answer": "c",
+      "explanation": "For large-scale power production, a stationary armature and rotating field design is used because it allows for higher speeds and easier insulation of the high voltage windings. [cite: 1583]"
+    },
+    {
+      "question_number": 9,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Three-phase AC Generation",
+      "difficulty": "Easy",
+      "question": "What is phase voltage Value in star winding?",
+      "options": {
+        "a": "Voltage measured between neutral and one phase",
+        "b": "Voltage measured between neutral and neutral",
+        "c": "Voltage measured between two phases"
+      },
+      "correct_answer": "a",
+      "explanation": "In a star winding, the phase voltage is the voltage measured between neutral and one phase."
+    },
+    {
+      "question_number": 10,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Requirements",
+      "subtopic": "Power Distribution",
+      "difficulty": "Medium",
+      "question": "Which bus power system is available in modern aircraft",
+      "options": {
+        "a": "Split parallel bus",
+        "b": "Split bus",
+        "c": "Parallel bus"
+      },
+      "correct_answer": "b",
+      "explanation": "Modern aircraft often use a split bus system to isolate different electrical systems for redundancy and fault tolerance."
+    },
+    {
+      "question_number": 11,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Requirements",
+      "subtopic": "General Requirements",
+      "difficulty": "Easy",
+      "question": "Which of the following is not true about power distribution requirements",
+      "options": {
+        "a": "Free from in its effects on other parts of the aircraft",
+        "b": "Protected from damage",
+        "c": "produces maximum possibility for electrical shock"
+      },
+      "correct_answer": "c",
+      "explanation": "A primary requirement of aircraft electrical systems is to be designed to prevent electrical shock hazards. [cite: 1711]"
+    },
+    {
+      "question_number": 12,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Modern Electrical Power Generation",
+      "difficulty": "Easy",
+      "question": "IDG (integrated drive generator) consisits of",
+      "options": {
+        "a": "Constant speed drive(CSD) and generator",
+        "b": "TRU and generator",
+        "c": "CSD and TRU"
+      },
+      "correct_answer": "a",
+      "explanation": "An IDG (Integrated Drive Generator) consists of a Constant Speed Drive (CSD) and a generator integrated into a single unit. [cite: 1536]"
+    },
+    {
+      "question_number": 13,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Generator Principles",
+      "difficulty": "Medium",
+      "question": "Decreasing the current in the field coil of a DC generator will",
+      "options": {
+        "a": "Decrease the output",
+        "b": "Increase the output",
+        "c": "Increase the output frequency"
+      },
+      "correct_answer": "a",
+      "explanation": "The output voltage of a DC generator is directly proportional to the strength of the magnetic field, which is controlled by the field current. Decreasing the field current weakens the magnetic field and thus decreases the output voltage."
+    },
+    {
+      "question_number": 14,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Conversion Devices",
+      "difficulty": "Hard",
+      "question": "What happens if a transformer is used at a frequency higher than that for which it was designed,",
+      "options": {
+        "a": "there is no hazard at all",
+        "b": "the primary current will be reduced",
+        "c": "There is a risk of excessive heat generation at the primary windings and subsequent burn out."
+      },
+      "correct_answer": "b",
+      "explanation": "If a transformer is used at a frequency higher than its design frequency, the inductive reactance of the primary winding will increase, leading to a reduction in primary current."
+    },
+    {
+      "question_number": 15,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Modern Electrical Power Generation",
+      "difficulty": "Easy",
+      "question": "Which unit takes the variable speed output from engine and hydro-mechanically produces a constant output RPM",
+      "options": {
+        "a": "BPCU(bus power control unit)",
+        "b": "GCU (generator control unit)",
+        "c": "CSD (constant speed drive)"
+      },
+      "correct_answer": "c",
+      "explanation": "The CSD (constant speed drive) is the unit that takes the variable speed output from the engine and hydro-mechanically produces a constant output RPM to drive the generator at a constant speed. [cite: 1537]"
+    },
+    {
+      "question_number": 16,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Requirements",
+      "subtopic": "Load Management",
+      "difficulty": "Easy",
+      "question": "_____ loads are those which can be isolated in an in-flight emergency for load shedding purposes, and are connected to D.C. and A.C. busbars, as appropriate, supplied from a generator",
+      "options": {
+        "a": "Essential",
+        "b": "Non-Essential",
+        "c": "Vital"
+      },
+      "correct_answer": "b",
+      "explanation": "Non-Essential loads are those which can be isolated in an in-flight emergency for load shedding purposes. [cite: 167]"
+    },
+    {
+      "question_number": 17,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Requirements",
+      "subtopic": "Voltage and Frequency Standards",
+      "difficulty": "Easy",
+      "question": "What is the advantage of using AC power on aircraft?",
+      "options": {
+        "a": "Large power demand on aircraft is satisfied",
+        "b": "both can be answers",
+        "c": "less cost of transmission"
+      },
+      "correct_answer": "b",
+      "explanation": "The advantages of using AC power on aircraft are that it can meet the large power demand of modern aircraft and allows for more efficient power transmission at higher voltages, reducing wire weight."
+    },
+    {
+      "question_number": 18,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Conversion Devices",
+      "difficulty": "Easy",
+      "question": "What kind of circuits do you expect in the TRU unit",
+      "options": {
+        "a": "Inverter and rectifier",
+        "b": "Converter and transformer",
+        "c": "Transformer and rectifier"
+      },
+      "correct_answer": "c",
+      "explanation": "In a TRU (Transformer Rectifier Unit), you can expect to find Transformer and rectifier circuits to convert AC power to DC power. [cite: 1009]"
+    },
+    {
+      "question_number": 19,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which exterior lights are considered as attention getters?",
+      "options": {
+        "a": "Strobe light",
+        "b": "Position light",
+        "c": "Service light"
+      },
+      "correct_answer": "a",
+      "explanation": "Strobe lights are the exterior lights that are considered attention getters due to their high intensity flashing. [cite: 1789]"
+    },
+    {
+      "question_number": 20,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Taxi lights are found mostly on",
+      "options": {
+        "a": "on wing tip",
+        "b": "nose landing gear strut of aircraft",
+        "c": "the tail"
+      },
+      "correct_answer": "b",
+      "explanation": "Taxi lights are mostly found on the nose landing gear strut of the aircraft to illuminate the area directly in front of the aircraft for ground maneuvering. [cite: 1756]"
+    },
+    {
+      "question_number": 21,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What are the two types of anti-collision lights mentioned in the document?",
+      "options": {
+        "a": "Landing lights and entry lights",
+        "b": "White (Strobes) & Red (rotating beacons)",
+        "c": "Logo lights and wing illumination lights"
+      },
+      "correct_answer": "b",
+      "explanation": "The two types of anti-collision lights are white strobes and red rotating beacons. [cite: 1787]"
+    },
+    {
+      "question_number": 22,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Medium",
+      "question": "The diagram in Fig. 2.1 illustrates the angular coverage for which type of lights?",
+      "options": {
+        "a": "Wing illumination lights",
+        "b": "Rotating beacons",
+        "c": "Navigation (or position) lights"
+      },
+      "correct_answer": "c",
+      "explanation": "The diagram illustrates the angular coverage for Navigation (or position) lights. [cite: 1775]"
+    },
+    {
+      "question_number": 23,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "In the diagram (Fig 2.1), what colors are represented by the numbers 1, 2, and 3 respectively?",
+      "options": {
+        "a": "Red, Green, White",
+        "b": "Green, Red, White",
+        "c": "White, Green, Red"
+      },
+      "correct_answer": "b",
+      "explanation": "The colors are green for the starboard side (1), red for the port side (2), and white for the rear (3). [cite: 1776, 1777, 1778, 1779, 1780]"
+    },
+    {
+      "question_number": 24,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which lights are used as a warning that the engines are about to be started?",
+      "options": {
+        "a": "Logo Light",
+        "b": "Anti-collision",
+        "c": "Entry light"
+      },
+      "correct_answer": "b",
+      "explanation": "Anti-collision lights are used as a warning that the engines are about to be started. [cite: 1788]"
+    },
+    {
+      "question_number": 25,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "The purpose of which exterior light is for in-flight ice detection?",
+      "options": {
+        "a": "Runway turnoff light",
+        "b": "Logo light",
+        "c": "Wing illumination light"
+      },
+      "correct_answer": "c",
+      "explanation": "Wing illumination lights are provided for scanning the wings and engines in flight for ice detection purposes. [cite: 1794, 1795]"
+    },
+    {
+      "question_number": 26,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "According to the document, where can controls for emergency lights be found?",
+      "options": {
+        "a": "In the passenger service unit",
+        "b": "In the cargo compartment",
+        "c": "On the Flight Deck"
+      },
+      "correct_answer": "c",
+      "explanation": "The controls for various lights, including emergency lights, are found on the flight deck. [cite: 1808]"
+    },
+    {
+      "question_number": 27,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which lights are considered to be \"attention getters\"?",
+      "options": {
+        "a": "Anti-collision lights",
+        "b": "Service lights",
+        "c": "Flood lights"
+      },
+      "correct_answer": "a",
+      "explanation": "Anti-collision lights are considered as attention getters. [cite: 1786]"
+    },
+    {
+      "question_number": 28,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What is the primary purpose of wing illumination lights?",
+      "options": {
+        "a": "To illuminate the company logo on the tail",
+        "b": "For scanning the wings for ice detection purposes",
+        "c": "To provide light for passengers to read"
+      },
+      "correct_answer": "b",
+      "explanation": "The purpose of wing illumination lights is for scanning the wings and engines in flight for ice detection purposes. [cite: 1794, 1795]"
+    },
+    {
+      "question_number": 29,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Medium",
+      "question": "What is the function of the master caution light system?",
+      "options": {
+        "a": "To signal that the engines are starting",
+        "b": "To inform the flight crew that a system fault annunciator has illuminated",
+        "c": "To provide general lighting for the flight deck"
+      },
+      "correct_answer": "b",
+      "explanation": "The master caution system informs the flight crew that a system fault annunciator has illuminated on various panels. [cite: 1817, 1818]"
+    },
+    {
+      "question_number": 30,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Medium",
+      "question": "Through what arc is the white rear navigation light visible?",
+      "options": {
+        "a": "110°",
+        "b": "140°",
+        "c": "70°"
+      },
+      "correct_answer": "b",
+      "explanation": "The white navigation light is visible from the rear of the aircraft through an arc of 140°. [cite: 1775]"
+    },
+    {
+      "question_number": 31,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What is the main use of runway turnoff lights?",
+      "options": {
+        "a": "To illuminate the wings for inspection",
+        "b": "To illuminate taxiway turnoffs",
+        "c": "To act as a forward-facing anti-collision light"
+      },
+      "correct_answer": "b",
+      "explanation": "Runway turnoff lights are aimed ahead and to the side of the aircraft to illuminate taxiway turnoffs. [cite: 1761, 1785]"
+    },
+    {
+      "question_number": 32,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Which of the following is a type of aircraft interior light?",
+      "options": {
+        "a": "Warning lights to indicate system-operating condition",
+        "b": "Landing lights",
+        "c": "Logo lights"
+      },
+      "correct_answer": "a",
+      "explanation": "Interior lights include warning lights to indicate system-operating conditions. [cite: 1766]"
+    },
+    {
+      "question_number": 33,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "The document mentions which of these signs can be found on a Passenger Service Unit?",
+      "options": {
+        "a": "Emergency Exit signs",
+        "b": "Fasten Seat Belt & No Smoking signs",
+        "c": "\"Welcome Aboard\" signs"
+      },
+      "correct_answer": "b",
+      "explanation": "The Passenger Service Unit can contain 'Fasten Seat Belt & No Smoking' signs. [cite: 1827]"
+    },
+    {
+      "question_number": 34,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What are the two types of landing lights described?",
+      "options": {
+        "a": "Rotating and Strobing",
+        "b": "Fixed and retractable",
+        "c": "Annunciator and Integral"
+      },
+      "correct_answer": "b",
+      "explanation": "The two types of landing lights described are fixed and retractable. [cite: 1783]"
+    },
+    {
+      "question_number": 35,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What are the two types of red anti-collision beacon lights?",
+      "options": {
+        "a": "Rotating Reflector & Rotating Lamp",
+        "b": "Fixed & Retractable",
+        "c": "Flood & Dome"
+      },
+      "correct_answer": "a",
+      "explanation": "The two types of rotating beam anti-collision light are Rotating Reflector & Rotating Lamp."
+    },
+    {
+      "question_number": 36,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Where are the main controls for exterior and interior lights typically located?",
+      "options": {
+        "a": "In the main cabin",
+        "b": "In the service compartments",
+        "c": "On the Flight Deck"
+      },
+      "correct_answer": "c",
+      "explanation": "The controls for exterior lights, interior lights, and more are found on the flight deck. [cite: 1808]"
+    },
+    {
+      "question_number": 37,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Which of the following are listed as examples of flight deck lights?",
+      "options": {
+        "a": "Reading lights and service lights",
+        "b": "Emergency Lights, flood & dome light",
+        "c": "Logo lights and entry lights"
+      },
+      "correct_answer": "b",
+      "explanation": "Examples of flight deck lights include Emergency Lights, flood light, and dome light. [cite: 1813]"
+    },
+    {
+      "question_number": 38,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "According to the text, where are dome and floodlights used?",
+      "options": {
+        "a": "In the passenger cabin only",
+        "b": "In cargo compartments, wheel wells, and servicing compartments",
+        "c": "On the wing tips and tail"
+      },
+      "correct_answer": "b",
+      "explanation": "Dome lights and floodlights are used to provide illumination in the cargo compartments, wheel wells and servicing compartments. [cite: 1752]"
+    },
+    {
+      "question_number": 39,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Medium",
+      "question": "What is a function of the annunciator lights mentioned in the document?",
+      "options": {
+        "a": "They automatically dim based on ambient light",
+        "b": "They have a “Push to Cancel, Push to Recall” function",
+        "c": "They operate only from an external power source"
+      },
+      "correct_answer": "b",
+      "explanation": "The annunciators have a “Push to Cancel, Push to Recall” function. [cite: 1819]"
+    },
+    {
+      "question_number": 40,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Hard",
+      "question": "In wedge lighting, what is used to prevent light from escaping the outer wedge 'B'?",
+      "options": {
+        "a": "A reflective coating",
+        "b": "A magnifying lens",
+        "c": "Non-reflective black paint"
+      },
+      "correct_answer": "c",
+      "explanation": "In wedge lighting, light escaping into wedge 'B' is prevented from further escape by non-reflective black paint."
+    },
+    {
+      "question_number": 41,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "What is one type of light that can be found on a passenger service unit?",
+      "options": {
+        "a": "Landing light switch",
+        "b": "Reading Lighting",
+        "c": "Wing illumination light"
+      },
+      "correct_answer": "b",
+      "explanation": "Reading Lighting can be found on a passenger service unit. [cite: 1826]"
+    },
+    {
+      "question_number": 42,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Emergency Lighting",
+      "difficulty": "Easy",
+      "question": "What are the three switch positions for the flight deck emergency lighting system?",
+      "options": {
+        "a": "High, Low, Off",
+        "b": "Auto, Manual, Test",
+        "c": "Armed, Off, & On"
+      },
+      "correct_answer": "c",
+      "explanation": "The three switch positions for the flight deck emergency lighting system are Armed, Off, & On. [cite: 1833]"
+    },
+    {
+      "question_number": 43,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Emergency Lighting",
+      "difficulty": "Medium",
+      "question": "What is a key characteristic of self-illuminating emergency lights mentioned in the text?",
+      "options": {
+        "a": "They have a scrap life of 5 years because they contain mildly radioactive Tritium gas",
+        "b": "They are powered by the main aircraft battery",
+        "c": "They must be replaced after every flight"
+      },
+      "correct_answer": "a",
+      "explanation": "Self-illuminating emergency lights containing mildly radioactive Tritium gas usually have a scrap life of 5 years."
+    },
+    {
+      "question_number": 44,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Emergency Lighting",
+      "difficulty": "Easy",
+      "question": "What is the primary purpose of floor proximity lighting?",
+      "options": {
+        "a": "To provide aesthetic lighting for the cabin",
+        "b": "To provide visual guidance for evacuation when the cabin is obscured by smoke",
+        "c": "To illuminate the floor during normal boarding and deplaning"
+      },
+      "correct_answer": "b",
+      "explanation": "Floor proximity lighting provides visual guidance for cabin evacuation when all sources of cabin lighting above four feet are obscured by smoke."
+    },
+    {
+      "question_number": 45,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Interior lighting is used to provide illumination for instruments, cockpits, and what other area?",
+      "options": {
+        "a": "Cargo bays",
+        "b": "Wheel wells",
+        "c": "Cabins and other sections occupied by crewmembers and passengers"
+      },
+      "correct_answer": "c",
+      "explanation": "Interior lighting provides illumination for instruments, cockpits, cabins, and other sections occupied by crewmembers and passengers. [cite: 1752]"
+    },
+    {
+      "question_number": 46,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Emergency Lighting",
+      "difficulty": "Medium",
+      "question": "Where does the emergency lighting system get its power from?",
+      "options": {
+        "a": "A 6v battery",
+        "b": "The main aircraft generators",
+        "c": "An external power unit"
+      },
+      "correct_answer": "a",
+      "explanation": "The emergency lighting system gets its power from a 6v battery. [cite: 1830]"
+    },
+    {
+      "question_number": 47,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Red warning lights on the instrument panel indicate the existence of what?",
+      "options": {
+        "a": "Unsafe conditions",
+        "b": "Abnormal conditions",
+        "c": "Safe conditions"
+      },
+      "correct_answer": "a",
+      "explanation": "Red warning lights in the instrument panel indicate the existence of unsafe conditions."
+    },
+    {
+      "question_number": 48,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Medium",
+      "question": "A clear (white) light with a divergence of ± 70 degrees on either side of the aircraft centerline is the:",
+      "options": {
+        "a": "Landing light",
+        "b": "Rear position light",
+        "c": "Logo light"
+      },
+      "correct_answer": "b",
+      "explanation": "The rear position light is a clear (white) light with a divergence of ± 70 degrees either side of the aircraft centerline. [cite: 1775]"
+    },
+    {
+      "question_number": 49,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Anti-collision lights are used in conjunction with which other lights?",
+      "options": {
+        "a": "Master warning lights",
+        "b": "Wing inspection lights",
+        "c": "Navigation lights"
+      },
+      "correct_answer": "c",
+      "explanation": "Anti-collision lights are used in conjunction with the navigation lights. [cite: 1755]"
+    },
+    {
+      "question_number": 50,
+      "lesson": "3",
+      "topic": "Lead Acid Battery",
+      "subtopic": "Chemical Action",
+      "difficulty": "Medium",
+      "question": "While a lead-acid battery discharges, what happens to the electrolyte?",
+      "options": {
+        "a": "The electrolyte will change into H₂O",
+        "b": "The negative plate will be changed to P₂O",
+        "c": "Only the Positive plate will change to S₂O"
+      },
+      "correct_answer": "a",
+      "explanation": "During the discharge of a lead-acid battery, the sulfuric acid in the electrolyte is consumed, and water (H₂O) is produced, decreasing the specific gravity of the electrolyte. [cite: 1379, 1380]"
+    },
+    {
+      "question_number": 51,
+      "lesson": "3",
+      "topic": "Nickel Cadmium (NiCad) Battery",
+      "subtopic": "Construction and Operation",
+      "difficulty": "Easy",
+      "question": "Which of the following is true about a NiCad Battery?",
+      "options": {
+        "a": "The electrolyte is KOH (Potassium Hydroxide)",
+        "b": "The state of charge of the battery can be easily determined by specific gravity",
+        "c": "The electrolyte is a solution of SO₄H₂O"
+      },
+      "correct_answer": "a",
+      "explanation": "The electrolyte in a Nickel-Cadmium (NiCad) battery is a solution of Potassium Hydroxide (KOH) and distilled water. [cite: 1480]"
+    },
+    {
+      "question_number": 52,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Power Sources",
+      "difficulty": "Easy",
+      "question": "The primary electrical power source of an aircraft is:",
+      "options": {
+        "a": "Generator",
+        "b": "Battery",
+        "c": "Motor"
+      },
+      "correct_answer": "a",
+      "explanation": "Generators (or alternators) are the primary source of electrical power on an aircraft when the engines are running. The battery is a secondary or emergency power source. [cite: 81]"
+    },
+    {
+      "question_number": 53,
+      "lesson": "3",
+      "topic": "Battery Fundamentals",
+      "subtopic": "Basic Battery Theory",
+      "difficulty": "Easy",
+      "question": "In which component of a battery does the electrochemical reaction take place?",
+      "options": {
+        "a": "Electrode",
+        "b": "Vent Cap",
+        "c": "Electrolyte"
+      },
+      "correct_answer": "a",
+      "explanation": "The electrochemical reaction, which converts chemical energy to electrical energy, occurs at the surface of the electrodes (plates). [cite: 1206]"
+    },
+    {
+      "question_number": 54,
+      "lesson": "3",
+      "topic": "Battery Fundamentals",
+      "subtopic": "Basic Battery Theory",
+      "difficulty": "Easy",
+      "question": "What is the conductive medium that provides a path for the movement of ions (current flow) between the positive and negative plates of a cell?",
+      "options": {
+        "a": "Conductive wire",
+        "b": "Vent Cap",
+        "c": "Electrolyte"
+      },
+      "correct_answer": "c",
+      "explanation": "The electrolyte is the chemical medium that allows for the flow of ions between the battery's positive and negative plates. [cite: 1229]"
+    },
+    {
+      "question_number": 55,
+      "lesson": "3",
+      "topic": "Lead Acid Battery",
+      "subtopic": "Construction and Chemical Action",
+      "difficulty": "Easy",
+      "question": "The positive electrode of a charged lead-acid battery is made of:",
+      "options": {
+        "a": "PbO₂ (Lead Peroxide)",
+        "b": "Pb (Sponge Lead)",
+        "c": "PbSO₄ (Lead Sulfate)"
+      },
+      "correct_answer": "a",
+      "explanation": "The positive plate of a fully charged lead-acid battery is made of lead peroxide (PbO₂). [cite: 1347]"
+    },
+    {
+      "question_number": 56,
+      "lesson": "3",
+      "topic": "Lead Acid Battery",
+      "subtopic": "Maintenance Practice",
+      "difficulty": "Easy",
+      "question": "When connecting a battery on an aircraft:",
+      "options": {
+        "a": "Connect the positive terminal first.",
+        "b": "Connect the negative terminal first.",
+        "c": "Connect the Positive terminal last."
+      },
+      "correct_answer": "a",
+      "explanation": "To prevent accidental shorting of the battery to the airframe (ground), the positive (ungrounded) terminal should be connected first and disconnected last. [cite: 1439]"
+    },
+    {
+      "question_number": 57,
+      "lesson": "3",
+      "topic": "Lead Acid Battery",
+      "subtopic": "Capacity Testing",
+      "difficulty": "Easy",
+      "question": "A battery quoted at 40AH at the 1 hr rate will provide 40 Amps continuously for how many hours?",
+      "options": {
+        "a": "Three",
+        "b": "Two",
+        "c": "One"
+      },
+      "correct_answer": "c",
+      "explanation": "An Ampere-Hour (AH) rating indicates the battery's capacity. A 40AH rating means the battery can supply 40 amps for one hour. [cite: 1411]"
+    },
+    {
+      "question_number": 58,
+      "lesson": "2",
+      "topic": "Generators",
+      "subtopic": "Generator Theory",
+      "difficulty": "Easy",
+      "question": "What is the function of a generator?",
+      "options": {
+        "a": "To convert mechanical energy into electrical energy",
+        "b": "To convert electrical energy into mechanical energy",
+        "c": "To create mechanical energy"
+      },
+      "correct_answer": "a",
+      "explanation": "A generator is a machine that converts mechanical energy (from the engine's rotation) into electrical energy. [cite: 1565]"
+    },
+    {
+      "question_number": 59,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What is the function of the commutator in a DC generator?",
+      "options": {
+        "a": "To convert AC to DC",
+        "b": "To convert DC to AC",
+        "c": "To amplify DC"
+      },
+      "correct_answer": "a",
+      "explanation": "The commutator is a mechanical rectifier that collects the AC voltage generated in the armature coils and converts it to DC voltage at the output brushes. [cite: 1559]"
+    },
+    {
+      "question_number": 60,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Requirements",
+      "subtopic": "Voltage and Frequency Standards",
+      "difficulty": "Easy",
+      "question": "Which term describes the number of cycles of AC per second?",
+      "options": {
+        "a": "Phase",
+        "b": "Frequency",
+        "c": "Period"
+      },
+      "correct_answer": "b",
+      "explanation": "Frequency, measured in Hertz (Hz), is defined as the number of cycles of an alternating current waveform that occur in one second. [cite: 135]"
+    },
+    {
+      "question_number": 61,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What part of a DC generator is used to conduct the current from the armature winding to the external circuit?",
+      "options": {
+        "a": "Armature coil",
+        "b": "Brush",
+        "c": "Slip ring"
+      },
+      "correct_answer": "b",
+      "explanation": "Brushes are conductive blocks that ride on the commutator segments to carry the generated current from the rotating armature to the stationary external circuit. [cite: 1560]"
+    },
+    {
+      "question_number": 62,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Voltage Regulation",
+      "difficulty": "Medium",
+      "question": "What type of voltage regulator employs contact points to rapidly switch a resistor in and out of the generator's field circuit?",
+      "options": {
+        "a": "Carbon pile",
+        "b": "Vibrating",
+        "c": "Solid state type"
+      },
+      "correct_answer": "b",
+      "explanation": "A vibrating-type voltage regulator uses a relay with contact points that open and close to control the resistance in the field circuit, thereby regulating voltage."
+    },
+    {
+      "question_number": 63,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "Which parts of a DC generator are integrated and form a single rotating assembly?",
+      "options": {
+        "a": "Armature and commutator",
+        "b": "Field frame and Armature",
+        "c": "Brush holder and commutator"
+      },
+      "correct_answer": "a",
+      "explanation": "The armature windings and the commutator segments are both mounted on the same shaft and rotate together as a single unit. [cite: 1551]"
+    },
+    {
+      "question_number": 64,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "How can armature reaction in a DC generator be reduced?",
+      "options": {
+        "a": "Interpoles",
+        "b": "Compensating windings",
+        "c": "Both"
+      },
+      "correct_answer": "c",
+      "explanation": "Both interpoles (or commutating poles) and compensating windings are used to counteract the effects of armature reaction, which is the distortion of the main magnetic field."
+    },
+    {
+      "question_number": 65,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Generator Control",
+      "difficulty": "Easy",
+      "question": "Which generator control device maintains a constant terminal voltage?",
+      "options": {
+        "a": "Voltage regulator",
+        "b": "Current limiter",
+        "c": "Reverse current cutout relay"
+      },
+      "correct_answer": "a",
+      "explanation": "The primary function of a voltage regulator is to maintain the generator's output voltage at a constant, predetermined level under varying load conditions. [cite: 1014]"
+    },
+    {
+      "question_number": 66,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "When is a lap winding used in a DC generator armature?",
+      "options": {
+        "a": "For low voltage and high current applications",
+        "b": "For low current and high voltage applications",
+        "c": "It is suitable for both high and low voltage"
+      },
+      "correct_answer": "a",
+      "explanation": "Lap windings have multiple parallel paths, making them suitable for high-current, low-voltage applications. [cite: 1553]"
+    },
+    {
+      "question_number": 67,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Types of DC Generators",
+      "difficulty": "Easy",
+      "question": "In a shunt-wound DC generator, how are the armature and field coils connected to the external circuit?",
+      "options": {
+        "a": "Parallel",
+        "b": "Series",
+        "c": "Parallel and series"
+      },
+      "correct_answer": "a",
+      "explanation": "In a shunt-wound generator, the field winding is connected in parallel (or shunt) with the armature winding."
+    },
+    {
+      "question_number": 68,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Modern Electrical Power Generation",
+      "difficulty": "Easy",
+      "question": "What is the combination of an alternator (AC generator) and a constant speed drive unit called?",
+      "options": {
+        "a": "Integrated Drive Generator (IDG)",
+        "b": "DC generator",
+        "c": "Ram Air Turbine"
+      },
+      "correct_answer": "a",
+      "explanation": "An Integrated Drive Generator (IDG) is a single unit that combines an AC generator with a Constant Speed Drive (CSD) to produce constant frequency AC power. [cite: 1536]"
+    },
+    {
+      "question_number": 69,
+      "lesson": "1",
+      "topic": "Aircraft Electrical System Components",
+      "subtopic": "Conversion Devices",
+      "difficulty": "Easy",
+      "question": "What electrical device on an aircraft converts alternating current to direct current?",
+      "options": {
+        "a": "Ram air turbine",
+        "b": "Inverter",
+        "c": "Transformer Rectifier Unit (TRU)"
+      },
+      "correct_answer": "c",
+      "explanation": "A Transformer Rectifier Unit (TRU) uses a transformer to step down AC voltage and a rectifier to convert it to DC voltage. An inverter performs the opposite function (DC to AC). [cite: 1009]"
+    },
+    {
+      "question_number": 70,
+      "lesson": "2",
+      "topic": "DC Alternator",
+      "subtopic": "Voltage Regulation",
+      "difficulty": "Easy",
+      "question": "Which type of voltage regulator is typically found in modern aircraft?",
+      "options": {
+        "a": "Vibrator",
+        "b": "Carbon pile",
+        "c": "Solid state type"
+      },
+      "correct_answer": "c",
+      "explanation": "Modern aircraft utilize solid-state voltage regulators because they are more reliable, lighter, and have no moving parts compared to older vibrator or carbon-pile types. [cite: 1584]"
+    },
+    {
+      "question_number": 71,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "Which of the following is the rotating part of a DC generator?",
+      "options": {
+        "a": "Armature",
+        "b": "Magnetic Field",
+        "c": "Yoke"
+      },
+      "correct_answer": "a",
+      "explanation": "The armature, which consists of the windings and the commutator, is the rotating component in a typical DC generator. [cite: 1560]"
+    },
+    {
+      "question_number": 72,
+      "lesson": "2",
+      "topic": "DC Alternator",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "Which of the following is the rotating part of a large aircraft AC generator (alternator)?",
+      "options": {
+        "a": "Armature",
+        "b": "Field",
+        "c": "Brush"
+      },
+      "correct_answer": "b",
+      "explanation": "In most large aircraft alternators, the magnetic field winding rotates (rotating field), and the armature (stator) is stationary. This allows for the direct connection of the high-current output without using brushes. [cite: 1583]"
+    },
+    {
+      "question_number": 73,
+      "lesson": "2",
+      "topic": "AC Alternator",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "Which type of alternator rotor is used for low or medium speed applications?",
+      "options": {
+        "a": "Salient pole",
+        "b": "Cylindrical",
+        "c": "Turbine"
+      },
+      "correct_answer": "a",
+      "explanation": "Salient pole rotors have protruding field poles and are used in low to medium-speed alternators, such as those driven by reciprocating engines."
+    },
+    {
+      "question_number": 74,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Generator Principles",
+      "difficulty": "Medium",
+      "question": "From where does a self-excited generator initially get its field power to start the generation process?",
+      "options": {
+        "a": "A separate generator",
+        "b": "Residual magnetism",
+        "c": "The aircraft battery"
+      },
+      "correct_answer": "b",
+      "explanation": "A self-excited generator relies on the small amount of residual magnetism remaining in the field poles to produce an initial small voltage, which then builds up the field strength."
+    },
+    {
+      "question_number": 75,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Voltage Regulation",
+      "difficulty": "Easy",
+      "question": "For voltage regulation in a generator, which of the following is typically varied?",
+      "options": {
+        "a": "RPM",
+        "b": "Field strength",
+        "c": "Number of coils"
+      },
+      "correct_answer": "b",
+      "explanation": "Voltage regulators control the generator's output voltage by varying the current sent to the field winding, which in turn changes the strength of the magnetic field. [cite: 1014]"
+    },
+    {
+      "question_number": 76,
+      "lesson": "2",
+      "topic": "DC Generator",
+      "subtopic": "Generator Control",
+      "difficulty": "Easy",
+      "question": "Which device disconnects the generator from the battery when the generator's voltage is lower than the battery's voltage?",
+      "options": {
+        "a": "Voltage regulator",
+        "b": "Reverse current cut-out relay",
+        "c": "Current limiter"
+      },
+      "correct_answer": "b",
+      "explanation": "A reverse current cutout relay prevents the battery from discharging back through the generator by opening the circuit when the generator voltage drops below the battery voltage. [cite: 1586]"
+    },
+    {
+      "question_number": 77,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which light is used as a warning at engine start?",
+      "options": {
+        "a": "Logo light",
+        "b": "Anti-collision",
+        "c": "Navigation light"
+      },
+      "correct_answer": "b",
+      "explanation": "The anti-collision lights (rotating beacons or strobes) are turned on before engine start to warn ground personnel. [cite: 1788]"
+    },
+    {
+      "question_number": 78,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which light is used to permit observation of icing and general conditions of areas like the wing leading edge in flight?",
+      "options": {
+        "a": "Wing illumination",
+        "b": "Landing light",
+        "c": "Navigation light"
+      },
+      "correct_answer": "a",
+      "explanation": "Wing illumination lights (also called wing scan or ice inspection lights) are used to visually inspect the wing surfaces for ice accretion during flight. [cite: 1794, 1795]"
+    },
+    {
+      "question_number": 79,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "What is the function of navigation lights?",
+      "options": {
+        "a": "To mark the extremities of an aircraft and give position reference.",
+        "b": "For forward and lateral illumination.",
+        "c": "For ice inspection."
+      },
+      "correct_answer": "a",
+      "explanation": "Navigation lights are used to determine the relative position and direction of an aircraft at night by marking its wingtips and tail. [cite: 1755]"
+    },
+    {
+      "question_number": 80,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "Interior Lighting",
+      "difficulty": "Easy",
+      "question": "Which light is specifically used for ground maintenance?",
+      "options": {
+        "a": "Landing light",
+        "b": "Service light",
+        "c": "Navigation light"
+      },
+      "correct_answer": "b",
+      "explanation": "Service lights are located in areas like wheel wells and equipment bays to provide illumination for maintenance crews on the ground. [cite: 1752]"
+    },
+    {
+      "question_number": 81,
+      "lesson": "2",
+      "topic": "Aircraft Lighting",
+      "subtopic": "External Lights",
+      "difficulty": "Easy",
+      "question": "Which light is used when the aircraft is moving on the ground, such as during towing or taxiing?",
+      "options": {
+        "a": "Taxiing light",
+        "b": "Landing light",
+        "c": "Anti-collision light"
+      },
+      "correct_answer": "a",
+      "explanation": "Taxi lights provide illumination for the path ahead of the aircraft during ground movement. [cite: 1756]"
+    },
+    {
+      "question_number": 82,
+      "lesson": "1",
+      "topic": "Aircraft Systems",
+      "subtopic": "Air Conditioning",
+      "difficulty": "Easy",
+      "question": "Which one of the following is not a source for an aircraft's air conditioning system?",
+      "options": {
+        "a": "Engine bleed air",
+        "b": "APU bleed air",
+        "c": "Oxygen air"
+      },
+      "correct_answer": "c",
+      "explanation": "Air conditioning systems use bleed air from the main engines or the APU, or fresh air from a ground cart, not the emergency oxygen supply. [cite: 97, 100]"
+    },
+    {
+      "question_number": 83,
+      "lesson": "1",
+      "topic": "Aircraft Systems",
+      "subtopic": "Air Conditioning",
+      "difficulty": "Easy",
+      "question": "Which of the following is not a purpose of an air conditioning system?",
+      "options": {
+        "a": "Create vacuum",
+        "b": "Heating air",
+        "c": "Cooling air"
+      },
+      "correct_answer": "a",
+      "explanation": "Air conditioning systems are designed to heat, cool, and pressurize the cabin air, not to create a vacuum. [cite: 100]"
+    }
+  ]
+}

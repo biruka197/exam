@@ -1,0 +1,805 @@
+{
+  "exam_title": "Pitot-Static Instruments - Module 5",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "1",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Atmosphere and Barometry",
+      "difficulty": "Easy",
+      "question": "What is the standard sea level temperature according to the International Standard Atmosphere (ISA)?",
+      "options": {
+        "a": "-56.5°C",
+        "b": "0°C",
+        "c": "15°C",
+        "d": "25°C"
+      },
+      "correct_answer": "c",
+      "explanation": "The standard sea level temperature is defined as 15°C (59°F). -56.5°C is the standard temperature after the tropopause."
+    },
+    {
+      "question_number": 2,
+      "lesson": "1",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Atmosphere and Barometry",
+      "difficulty": "Easy",
+      "question": "Which of the following is equivalent to the standard sea level pressure of 1013.25 mbar?",
+      "options": {
+        "a": "14.7 in Hg",
+        "b": "29.921 in Hg",
+        "c": "1013.25 lbf/in2",
+        "d": "28.00 in Hg"
+      },
+      "correct_answer": "b",
+      "explanation": "Standard sea level pressure is 1013.25 mbar, which is equal to 29.921 inches of mercury (in Hg) and 14.7 pounds per square inch (lbf/in2)."
+    },
+    {
+      "question_number": 3,
+      "lesson": "1",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Atmosphere and Barometry",
+      "difficulty": "Medium",
+      "question": "What is the standard temperature lapse rate in the troposphere?",
+      "options": {
+        "a": "1.98°C increase for every 1,000 ft increase",
+        "b": "1.98°C decrease for every 1,000 ft increase",
+        "c": "2.50°C decrease for every 1,000 ft increase",
+        "d": "Temperature is constant in the troposphere"
+      },
+      "correct_answer": "b",
+      "explanation": "The standard atmosphere model assumes a temperature decrease (lapse rate) of 1.98°C for every 1,000 feet of altitude increase up to the tropopause."
+    },
+    {
+      "question_number": 4,
+      "lesson": "1",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Atmosphere and Barometry",
+      "difficulty": "Medium",
+      "question": "According to the principle of a mercury barometer where the space above the mercury is a vacuum, how is atmospheric pressure (p1) calculated?",
+      "options": {
+        "a": "p1 = H / ρ",
+        "b": "p1 = p2 - Hρ",
+        "c": "p1 = Hρ",
+        "d": "p1 = ρ / H"
+      },
+      "correct_answer": "c",
+      "explanation": "In a mercury barometer with a vacuum at the top (p2 = 0), the atmospheric pressure (p1 or patm) is calculated by the formula p1 = Hρ, where H is the height of the mercury column and ρ is the density of mercury."
+    },
+    {
+      "question_number": 5,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Layout",
+      "difficulty": "Easy",
+      "question": "What are the three primary flight instruments that receive information from a basic pitot-static system?",
+      "options": {
+        "a": "Attitude Indicator, Heading Indicator, Turn Coordinator",
+        "b": "Altimeter, Airspeed Indicator, Vertical Speed Indicator",
+        "c": "Altimeter, Tachometer, Temperature Gauge",
+        "d": "Airspeed Indicator, Fuel Gauge, Oil Pressure Gauge"
+      },
+      "correct_answer": "b",
+      "explanation": "A pitot-static system gathers and distributes air pressure for the altimeter, airspeed indicator, and vertical speed indicator."
+    },
+    {
+      "question_number": 6,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Layout",
+      "difficulty": "Medium",
+      "question": "The pitot tube provides pressure to which instrument(s)?",
+      "options": {
+        "a": "Altimeter only",
+        "b": "Vertical Speed Indicator only",
+        "c": "Airspeed Indicator only",
+        "d": "Altimeter, Airspeed Indicator, and Vertical Speed Indicator"
+      },
+      "correct_answer": "c",
+      "explanation": "The pitot line, which carries total pressure from the pitot tube, is connected only to the airspeed indicator. The altimeter and vertical speed indicator are connected to the static line only."
+    },
+    {
+      "question_number": 7,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Principles",
+      "difficulty": "Medium",
+      "question": "What is the formula for the total pressure (pt) measured at the stagnation point of a pitot tube?",
+      "options": {
+        "a": "pt = p - 1/2 ρV^2",
+        "b": "pt = 1/2 ρV^2",
+        "c": "pt = p",
+        "d": "pt = p + 1/2 ρV^2"
+      },
+      "correct_answer": "d",
+      "explanation": "Total pressure (pt), also known as pitot pressure, is the sum of the static pressure (p) and the dynamic pressure (1/2 ρV^2)."
+    },
+    {
+      "question_number": 8,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Layout",
+      "difficulty": "Hard",
+      "question": "What is the required alternate source of static air for a pressurized aircraft if the primary static ports become blocked?",
+      "options": {
+        "a": "Cockpit air",
+        "b": "An alternate source located outside the aircraft",
+        "c": "Air from the engine bleed system",
+        "d": "Ram air from the pitot tube"
+      },
+      "correct_answer": "b",
+      "explanation": "For pressurized aircraft, the alternate static source must be located outside the aircraft. Using cockpit air is the method for unpressurized airplanes."
+    },
+    {
+      "question_number": 9,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Layout",
+      "difficulty": "Medium",
+      "question": "Why are static ports typically installed on opposite sides of the fuselage and interconnected with Y-plumbing?",
+      "options": {
+        "a": "To provide redundancy in case one port is damaged",
+        "b": "To measure the pressure difference between the two sides",
+        "c": "To minimize dynamic pressure effects due to yawing",
+        "d": "To make installation and maintenance easier"
+      },
+      "correct_answer": "c",
+      "explanation": "Placing static ports on both sides of the fuselage and interconnecting them helps to average the pressure and minimize errors caused by dynamic pressure effects during maneuvers like yawing or sideslip."
+    },
+    {
+      "question_number": 10,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Pitot-Static Probes",
+      "difficulty": "Medium",
+      "question": "What is the purpose of baffles inside a pitot-static probe?",
+      "options": {
+        "a": "To heat the probe and prevent icing",
+        "b": "To drain water from the probe",
+        "c": "To prevent the entry of foreign matter",
+        "d": "To separate pitot and static pressure chambers"
+      },
+      "correct_answer": "c",
+      "explanation": "Baffles are installed within pitot-static probes to act as barriers, preventing foreign matter such as insects or debris from entering and causing blockages."
+    },
+    {
+      "question_number": 11,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Pitot-Static Probes",
+      "difficulty": "Medium",
+      "question": "How is water that enters the pitot-static system typically removed?",
+      "options": {
+        "a": "It is boiled off by the probe heating system",
+        "b": "Through drain holes in the probes and drain traps in the pipelines",
+        "c": "By using desiccants located in the lines",
+        "d": "It is allowed to collect in the instruments"
+      },
+      "correct_answer": "b",
+      "explanation": "The system is designed to eliminate water through drain holes in the probes and by collecting it in drain traps or valves located in the pipelines to prevent blockage and instrument damage."
+    },
+    {
+      "question_number": 12,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Hard",
+      "question": "If a pitot tube and its drain hole become completely blocked during a climb, what will the airspeed indicator show?",
+      "options": {
+        "a": "A decrease in airspeed",
+        "b": "The airspeed will drop to zero",
+        "c": "A constant airspeed",
+        "d": "An increase in airspeed"
+      },
+      "correct_answer": "d",
+      "explanation": "With a fully blocked pitot tube, the trapped air pressure acts like an altimeter. As the aircraft climbs, the static pressure decreases, creating a larger pressure differential and causing the airspeed indicator to show an increase in speed, even if the actual airspeed is constant."
+    },
+    {
+      "question_number": 13,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "What is 'Position Error' in a pitot-static system?",
+      "options": {
+        "a": "An error caused by incorrect installation angle of the pitot tube",
+        "b": "An error caused by the compression of air in the pitot tube at high speeds",
+        "c": "An error where the local static pressure differs from the freestream static pressure",
+        "d": "An error due to time lag in pressure reaching the instruments"
+      },
+      "correct_answer": "c",
+      "explanation": "Position error (PE) is the error that arises because the local static pressure measured at the static port's location is different from the true, undisturbed freestream static pressure due to airflow around the aircraft."
+    },
+    {
+      "question_number": 14,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Pitot-Static Probes",
+      "difficulty": "Easy",
+      "question": "What is the relationship between the length of pitot-static pipelines and their required diameter?",
+      "options": {
+        "a": "Longer lines require a smaller diameter",
+        "b": "Longer lines require a larger diameter",
+        "c": "Diameter is independent of the line length",
+        "d": "Diameter must always beAdvantageously exactly 1/4 inch"
+      },
+      "correct_answer": "b",
+      "explanation": "To avoid significant pressure drop and time lag in the system, longer pipelines must have a larger diameter to ensure pressure changes are transmitted efficiently."
+    },
+    {
+      "question_number": 15,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Easy",
+      "question": "What is the primary sensing element inside a conventional altimeter?",
+      "options": {
+        "a": "A diaphragm",
+        "b": "A bimetallic strip",
+        "c": "A stack of aneroid capsules",
+        "d": "A mercury-filled tube"
+      },
+      "correct_answer": "c",
+      "explanation": "A conventional altimeter operates by measuring the expansion and contraction of one or more sealed, flexible aneroid capsules as the outside static pressure changes with altitude."
+    },
+    {
+      "question_number": 16,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "What is the definition of 'Pressure Altitude'?",
+      "options": {
+        "a": "The aircraft's actual height above Mean Sea Level (MSL)",
+        "b": "The altitude displayed on the altimeter",
+        "c": "The aircraft's height above the terrain directly below it",
+        "d": "The elevation above a standard datum where pressure is 29.92\" Hg"
+      },
+      "correct_answer": "d",
+      "explanation": "Pressure altitude is the height measured above the standard datum plane, which is a theoretical level where atmospheric pressure is equal to 29.92 inches of mercury (1013.25 mbar)."
+    },
+    {
+      "question_number": 17,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "What does the 'QNH' altimeter setting represent?",
+      "options": {
+        "a": "Setting the altimeter to read zero on the airfield",
+        "b": "Setting the standard pressure of 29.92\" Hg",
+        "c": "Setting the altimeter to read the airfield's elevation above sea level",
+        "d": "Setting the altimeter to read pressure altitude"
+      },
+      "correct_answer": "c",
+      "explanation": "The QNH setting adjusts the altimeter's barometric scale so that it indicates the airfield's height above mean sea-level upon landing or take-off."
+    },
+    {
+      "question_number": 18,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Easy",
+      "question": "Above the transition altitude (18,000 ft in the U.S.), what pressure setting must be set on the altimeter?",
+      "options": {
+        "a": "The local QNH",
+        "b": "The local QFE",
+        "c": "29.92 inHg (1013.25 hPa)",
+        "d": "0.00 inHg"
+      },
+      "correct_answer": "c",
+      "explanation": "When flying at or above the transition altitude, all aircraft must set their altimeters to the standard pressure setting of 29.92 inHg or 1013.25 hPa. This ensures all aircraft are using a common datum for vertical separation, and altitudes are referred to as Flight Levels."
+    },
+    {
+      "question_number": 19,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Hard",
+      "question": "What is the function of the bimetallic element within an altimeter's mechanism?",
+      "options": {
+        "a": "To compensate for the non-linear relationship between pressure and altitude",
+        "b": "To compensate for temperature changes",
+        "c": "To move the pointers on the dial",
+        "d": "To dampen the movement of the aneroid capsule"
+      },
+      "correct_answer": "b",
+      "explanation": "A bimetal element or compensator is included in the altimeter's construction to automatically adjust the mechanism for errors caused by temperature changes affecting the instrument's components."
+    },
+    {
+      "question_number": 20,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "An aircraft is flying at 32,000 ft pressure altitude. What is its flight level?",
+      "options": {
+        "a": "FL32",
+        "b": "FL32000",
+        "c": "FL320",
+        "d": "FL180"
+      },
+      "correct_answer": "c",
+      "explanation": "A flight level is the pressure altitude in hundreds of feet. Therefore, 32,000 feet is expressed as Flight Level 320 (FL320)."
+    },
+    {
+      "question_number": 21,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Airspeed Indicator",
+      "difficulty": "Easy",
+      "question": "An airspeed indicator measures the difference between which two pressures?",
+      "options": {
+        "a": "Static pressure and cabin pressure",
+        "b": "Pitot pressure and static pressure",
+        "c": "Pitot pressure and cabin pressure",
+        "d": "Dynamic pressure and cabin pressure"
+      },
+      "correct_answer": "b",
+      "explanation": "The airspeed indicator is a differential pressure gauge that measures the difference between total pressure (pitot) from the pitot tube and static pressure from the static port. This difference is dynamic pressure."
+    },
+    {
+      "question_number": 22,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Airspeed Indicator",
+      "difficulty": "Medium",
+      "question": "Which type of airspeed is Indicated Airspeed (IAS) corrected for position and instrument error?",
+      "options": {
+        "a": "True Airspeed (TAS)",
+        "b": "Equivalent Airspeed (EAS)",
+        "c": "Ground Speed (GS)",
+        "d": "Calibrated Airspeed (CAS)"
+      },
+      "correct_answer": "d",
+      "explanation": "Calibrated Airspeed (CAS) is obtained by correcting Indicated Airspeed (IAS) for position error of the pitot-static pickups and any instrument error."
+    },
+    {
+      "question_number": 23,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Airspeed Indicator",
+      "difficulty": "Hard",
+      "question": "Which airspeed is most important for aircraft handling, aerodynamic loads, and stalling?",
+      "options": {
+        "a": "Indicated Airspeed (IAS)",
+        "b": "True Airspeed (TAS)",
+        "c": "Equivalent Eirspeed (EAS)",
+        "d": "Ground Speed (GS)"
+      },
+      "correct_answer": "c",
+      "explanation": "Equivalent Airspeed (EAS) is calibrated airspeed corrected for compressibility effects. It is particularly useful for predicting aircraft handling, aerodynamic loads, and stalling because it is directly related to the actual dynamic pressure the aircraft is experiencing."
+    },
+    {
+      "question_number": 24,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Airspeed Indicator",
+      "difficulty": "Medium",
+      "question": "True Airspeed (TAS) is Calibrated Airspeed (CAS) corrected for what factors?",
+      "options": {
+        "a": "Wind and compressibility",
+        "b": "Instrument error only",
+        "c": "Altitude and non-standard temperature",
+        "d": "Position error only"
+      },
+      "correct_answer": "c",
+      "explanation": "True Airspeed (TAS) is the actual speed of the aircraft through the airmass. It is calculated by correcting Calibrated Airspeed (CAS) for the effects of air density, which varies with altitude and non-standard temperature."
+    },
+    {
+      "question_number": 25,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Mach Meter",
+      "difficulty": "Medium",
+      "question": "What is the critical Mach number (Mcrit)?",
+      "options": {
+        "a": "The speed at which the aircraft breaks the sound barrier",
+        "b": "The maximum allowable speed for an aircraft, where airflow over some parts first reaches the speed of sound",
+        "c": "The speed of sound at sea level",
+        "d": "The minimum speed required for takeoff"
+      },
+      "correct_answer": "b",
+      "explanation": "The critical Mach number (Mcrit) is the maximum speed an aircraft is certified for, representing the point where shockwaves begin to form on parts of the aircraft as the local airflow reaches the speed of sound, which can affect flight controls."
+    },
+    {
+      "question_number": 26,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Mach Meter",
+      "difficulty": "Hard",
+      "question": "A Machmeter is essentially an airspeed indicator that incorporates an additional sensing element. What does this additional element sense?",
+      "options": {
+        "a": "Temperature",
+        "b": "Angle of Attack",
+        "c": "Altitude",
+        "d": "Humidity"
+      },
+      "correct_answer": "c",
+      "explanation": "A Machmeter combines an airspeed capsule with an altitude-sensing diaphragm (aneroid). This allows it to determine the ratio of the aircraft's true airspeed to the local speed of sound, as the speed of sound changes with altitude."
+    },
+    {
+      "question_number": 27,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Mach Meter",
+      "difficulty": "Medium",
+      "question": "Why is a subsonic True Airspeed that is safe at sea level potentially dangerous at high altitude?",
+      "options": {
+        "a": "Because the Indicated Airspeed will be much higher",
+        "b": "Because the speed of sound decreases with altitude, the aircraft could exceed its critical Mach number",
+        "c": "Because the engines produce less thrust at high altitude",
+        "d": "Because the air is too thin to provide adequate lift"
+      },
+      "correct_answer": "b",
+      "explanation": "The speed of sound is dependent on temperature, which generally decreases with altitude. Therefore, a certain True Airspeed represents a higher Mach number at high altitude than at sea level. This could cause the aircraft to exceed its critical Mach number (Mcrit), leading to dangerous aerodynamic effects like shockwaves."
+    },
+    {
+      "question_number": 28,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Easy",
+      "question": "The Vertical Speed Indicator (VSI) indicates the rate of altitude change by measuring the rate of change of which pressure?",
+      "options": {
+        "a": "Pitot pressure",
+        "b": "Dynamic pressure",
+        "c": "Static pressure",
+        "d": "Cabin pressure"
+      },
+      "correct_answer": "c",
+      "explanation": "The VSI is a sensitive differential pressure gauge that operates solely on the change of static pressure. It compares the current static pressure inside its diaphragm with the trapped, slightly delayed static pressure in the case."
+    },
+    {
+      "question_number": 29,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Medium",
+      "question": "In a conventional VSI, what component creates the time delay that allows for the measurement of a pressure differential?",
+      "options": {
+        "a": "A dashpot piston",
+        "b": "A bimetallic compensator",
+        "c": "An aneroid capsule",
+        "d": "A restricted passage or metering unit"
+      },
+      "correct_answer": "d",
+      "explanation": "A conventional VSI uses a calibrated leak, also known as a restricted passage, capillary, or metering unit, to allow static pressure to slowly enter or exit the instrument case. This creates a time lag and a pressure differential between the case and the diaphragm, which is proportional to the rate of climb or descent."
+    },
+    {
+      "question_number": 30,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Hard",
+      "question": "The primary advantage of an Instantaneous Vertical Speed Indicator (IVSI) over a conventional VSI?",
+      "options": {
+        "a": "It is lighter and smaller",
+        "b": "It does not require a static pressure source",
+        "c": "It uses an accelerometer-driven dashpot to reduce time lag",
+        "d": "It is more accurate at very high altitudes"
+      },
+      "correct_answer": "c",
+      "explanation": "The IVSI reduces the inherent time lag of a conventional VSI by incorporating a dashpot piston mechanism, which is essentially an accelerometer. This provides a more immediate indication of vertical speed changes."
+    },
+    {
+      "question_number": 31,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Hard",
+      "question": "If a VSI indicates less than the actual vertical speed during a climb, what is a possible fault?",
+      "options": {
+        "a": "The static line is obstructed",
+        "b": "The hand is not balanced",
+        "c": "There is a leak in the inner body (diaphragm)",
+        "d": "The dashpots are faulty"
+      },
+      "correct_answer": "c",
+      "explanation": "A leak in the inner body or diaphragm would allow the pressure differential between the diaphragm and the case to equalize too quickly, resulting in an indication that is less than the actual rate of climb or descent."
+    },
+    {
+      "question_number": 32,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Medium",
+      "question": "How do digital flight instrument systems calculate the rate of climb?",
+      "options": {
+        "a": "Using a mechanical dashpot and digital display",
+        "b": "By measuring the rate of change of pitot pressure",
+        "c": "Using an aneroid or solid-state pressure sensor and a digital clock",
+        "d": "By measuring the angle of the aircraft's pitch"
+      },
+      "correct_answer": "c",
+      "explanation": "In digital systems like those with an Air Data Computer (ADC), the rate of climb is calculated by a computer. It uses a pressure sensor to measure the change in static pressure over a precise time interval measured by a digital clock, replacing the need for a mechanical calibrated orifice."
+    },
+    {
+      "question_number": 33,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Easy",
+      "question": "What is the primary function of an Air Data Computer (ADC)?",
+      "options": {
+        "a": "To physically house the flight instruments in the cockpit",
+        "b": "To heat the pitot-static probes",
+        "c": "To act as a central unit that processes pressure data and sends electrical signals to instruments",
+        "d": "To control the aircraft's autopilot system directly"
+      },
+      "correct_answer": "c",
+      "explanation": "An ADC is a central computer that receives pitot and static pressure inputs, calculates various air data parameters (like altitude, airspeed, etc.), and transmits this information electrically or digitally to the flight displays and other aircraft systems."
+    },
+    {
+      "question_number": 34,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Medium",
+      "question": "In an aircraft equipped with a Central Air Data Computer (CADC) system, where are the primary pressure-sensing units located?",
+      "options": {
+        "a": "Within each individual cockpit indicator (altimeter, ASI, etc.)",
+        "b": "Directly inside the pitot-static probes",
+        "c": "Within the CADC unit itself",
+        "d": "In the aircraft's tail section"
+      },
+      "correct_answer": "c",
+      "explanation": "A key feature of a CADC system is that the pressure sensors (transducers) are located inside the central computer unit. The cockpit indicators are merely displays that receive and show the processed data from the CADC."
+    },
+    {
+      "question_number": 35,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Hard",
+      "question": "In addition to pitot and static pressures, what other critical input does a modern ADC use to calculate True Airspeed (TAS)?",
+      "options": {
+        "a": "Angle of Attack (AOA)",
+        "b": "Cabin pressure",
+        "c": "Total Air Temperature (TAT)",
+        "d": "Engine RPM"
+      },
+      "correct_answer": "c",
+      "explanation": "To accurately calculate True Airspeed (TAS) and Static Air Temperature (SAT), the ADC requires an input from a Total Air Temperature (TAT) probe. This temperature data is essential for correcting for air density variations."
+    },
+    {
+      "question_number": 36,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Medium",
+      "question": "What technology is often used in modern CADC pressure transducers to convert pressure into an electrical signal?",
+      "options": {
+        "a": "Aneroid capsules connected to a potentiometer",
+        "b": "A servomotor and lead screw mechanism",
+        "c": "A silicon diaphragm with piezoelectric elements",
+        "d": "A mercury-based U-tube manometer"
+      },
+      "correct_answer": "c",
+      "explanation": "Some modern Central Air Data Computers (CADCs) use solid-state pressure transducers. These often consist of a silicon diaphragm containing piezoelectric elements, whose electrical resistance changes as the diaphragm is strained by pressure, producing a corresponding voltage signal."
+    },
+    {
+      "question_number": 37,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Hard",
+      "question": "In a non-digital ADC, how are compensations for non-linearities (e.g., the pressure/altitude relationship) typically achieved?",
+      "options": {
+        "a": "Through software algorithms",
+        "b": "Using precision resistors and capacitors",
+        "c": "By manually adjusting the instruments",
+        "d": "Using mechanically profiled cams and cam followers"
+      },
+      "correct_answer": "d",
+      "explanation": "Older, non-digital (analog) ADCs used complex mechanical systems, such as precisely shaped cams and followers, to compensate for the non-linear relationship between pressure and altitude and the square-law relationship in airspeed calculations."
+    },
+    {
+      "question_number": 38,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Medium",
+      "question": "According to the provided B767 maintenance procedures, is a leak test required after removing and reinstalling an ADC?",
+      "options": {
+        "a": "Yes, a full system leak test is always required",
+        "b": "No, because ADCs use quick-disconnect connectors",
+        "c": "Only if the EICAS shows a fault message",
+        "d": "Yes, but only for the static line"
+      },
+      "correct_answer": "b",
+      "explanation": "The note in the maintenance procedure states that because the ADCs have quick-disconnect connectors, a leak test is not necessary when you replace or reconnect the component."
+    },
+    {
+      "question_number": 39,
+      "lesson": "2",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Requirements",
+      "difficulty": "Medium",
+      "question": "What is a mandatory requirement for a pitot heat indication system?",
+      "options": {
+        "a": "It must display the temperature of the pitot tube",
+        "b": "It must provide an indication when the system is not operating correctly",
+        "c": "It must automatically turn on in icing conditions",
+        "d": "It must be powered by the aircraft's AC electrical system"
+      },
+      "correct_answer": "b",
+      "explanation": "Pitot heat indication systems are required to show the flight crew when the heater is turned on and also provide an indication if the system is not functioning correctly, ensuring the crew is aware of a potential failure."
+    },
+    {
+      "question_number": 40,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "What does setting the 'QFE' on an altimeter achieve?",
+      "options": {
+        "a": "It makes the altimeter read the airfield's height above sea-level",
+        "b": "It makes the altimeter read zero on the airfield",
+        "c": "It sets the altimeter to standard pressure",
+        "d": "It makes the altimeter indicate pressure altitude"
+      },
+      "correct_answer": "b",
+      "explanation": "QFE is the altimeter setting that corresponds to the atmospheric pressure at a specific airfield. When QFE is set, the altimeter will indicate a height of zero when the aircraft is on the ground at that airfield."
+    },
+    {
+      "question_number": 41,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "What is the function of the Kollsman window on a conventional altimeter?",
+      "options": {
+        "a": "To display the true airspeed",
+        "b": "To show the current vertical speed",
+        "c": "To set and display the barometric pressure reference",
+        "d": "To indicate if the instrument has failed"
+      },
+      "correct_answer": "c",
+      "explanation": "The Kollsman window is a small adjustable window on the face of the altimeter that allows the pilot to set the reference barometric pressure (e.g., QNH or standard pressure) using a setting knob. The instrument then measures altitude relative to this set pressure."
+    },
+    {
+      "question_number": 42,
+      "lesson": "5",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Airspeed Indicator",
+      "difficulty": "Hard",
+      "question": "At what condition does Indicated Airspeed (IAS) equal True Airspeed (TAS)?",
+      "options": {
+        "a": "At any altitude, as long as there is no wind",
+        "b": "Only above the transition altitude",
+        "c": "At sea level under International Standard Atmosphere (ISA) conditions",
+        "d": "IAS never equals TAS"
+      },
+      "correct_answer": "c",
+      "explanation": "Indicated Airspeed (IAS) is equal to True Airspeed (TAS) only under the specific conditions of sea level at standard atmospheric pressure (1013.2 mb) and temperature (15°C). At any other altitude or temperature, air density changes cause TAS to differ from IAS."
+    },
+    {
+      "question_number": 43,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "System Errors",
+      "difficulty": "Medium",
+      "question": "A compressibility error in the pitot tube causes the instrument to read:",
+      "options": {
+        "a": "Lower than actual speed at high altitudes",
+        "b": "Higher than actual speed at high altitudes",
+        "c": "The correct speed regardless of altitude",
+        "d": "Lower than actual speed at low altitudes"
+      },
+      "correct_answer": "b",
+      "explanation": "Compressibility error arises at high speeds when the impact pressure causes air to compress in the pitot tube. This results in a higher pressure being sensed than would be by ram effect alone, leading to a higher-than-actual airspeed reading, which is accounted for in EAS calculation."
+    },
+    {
+      "question_number": 44,
+      "lesson": "4",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Altimeters",
+      "difficulty": "Medium",
+      "question": "The term 'Height' in aviation altimetry refers to the elevation above what reference?",
+      "options": {
+        "a": "Mean Sea Level (MSL)",
+        "b": "The standard datum plane (29.92\" Hg)",
+        "c": "A ground reference point, such as an airfield",
+        "d": "The center of the Earth"
+      },
+      "correct_answer": "c",
+      "explanation": "In altimetry, 'Height' is defined as the elevation above a specified ground reference point, most commonly an airfield (as with a QFE setting)."
+    },
+    {
+      "question_number": 45,
+      "lesson": "7",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Vertical Speed Indicator (VSI)",
+      "difficulty": "Medium",
+      "question": "What units are typically displayed on a Vertical Speed Indicator dial?",
+      "options": {
+        "a": "Knots",
+        "b": "Feet",
+        "c": "Meters per second",
+        "d": "Hundreds or thousands of feet per minute"
+      },
+      "correct_answer": "d",
+      "explanation": "The VSI is calibrated to display the rate of climb or descent in hundreds or thousands of feet per minute."
+    },
+    {
+      "question_number": 46,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Medium",
+      "question": "In a digital air data system, which computer provides the altitude signal to the flight recorder?",
+      "options": {
+        "a": "The Flight Management Computer (FMC)",
+        "b": "The pilot's altimeter, if not in reset mode",
+        "c": "The autopilot computer",
+        "d": "The copilot's altimeter"
+      },
+      "correct_answer": "b",
+      "explanation": "According to the provided system diagram, the pilot's altimeter provides the altitude encoding signal to the flight recorder/locator when it is operating normally (not in reset mode)."
+    },
+    {
+      "question_number": 47,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Medium",
+      "question": "Where is the Static Air Temperature (SAT) typically displayed to the flight crew in a modern aircraft with an ADC?",
+      "options": {
+        "a": "On the primary flight display (PFD/EADI)",
+        "b": "On a dedicated SAT gauge",
+        "c": "On the Flight Management Computer (FMC) CDU",
+        "d": "It is not displayed to the crew"
+      },
+      "correct_answer": "c",
+      "explanation": "While the ADC calculates SAT from the TAT probe data, the value is typically available for viewing on a page of the Flight Management Computer's Control Display Unit (CDU), such as the progress page."
+    },
+    {
+      "question_number": 48,
+      "lesson": "1",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Atmosphere and Barometry",
+      "difficulty": "Easy",
+      "question": "Which is the lowest layer of the Earth's atmosphere, where most weather occurs?",
+      "options": {
+        "a": "Stratosphere",
+        "b": "Ionosphere",
+        "c": "Troposphere",
+        "d": "Exosphere"
+      },
+      "correct_answer": "c",
+      "explanation": "The troposphere is the lowest layer of the atmosphere, extending up to about 28,000 feet at the poles and higher at the equator."
+    },
+    {
+      "question_number": 49,
+      "lesson": "3",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Pitot-Static Probes",
+      "difficulty": "Medium",
+      "question": "What type of piping material is specified for pitot-static pipelines?",
+      "options": {
+        "a": "Flexible plastic tubing",
+        "b": "Seamless and corrosion-resistant metal",
+        "c": "Braided steel hose",
+        "d": "Copper tubing"
+      },
+      "correct_answer": "b",
+      "explanation": "Pipelines for pitot-static systems should be made of seamless and corrosion-resistant metal, such as light alloy or tungum, to ensure durability and prevent leaks."
+    },
+    {
+      "question_number": 50,
+      "lesson": "8",
+      "topic": "Pitot-Static Instruments",
+      "subtopic": "Air Data System (ADC)",
+      "difficulty": "Hard",
+      "question": "If an EICAS message 'OVERSPEED' appears and the warning light is on, and an operational test of the ADC is normal, what is the next logical troubleshooting step?",
+      "options": {
+        "a": "Replace the pitot tube",
+        "b": "Replace the ADC",
+        "c": "Perform a leak check of the static system",
+        "d": "Examine the associated wiring for a short to ground"
+      },
+      "correct_answer": "b",
+      "explanation": "The troubleshooting procedure suggests that after a good operational test, the next step is to replace the suspected ADC. If the problem persists after replacing the ADC, then the wiring should be examined."
+    }
+  ]
+}

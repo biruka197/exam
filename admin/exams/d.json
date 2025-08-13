@@ -1,0 +1,333 @@
+[
+    {
+      "question_number": 1,
+      "question": "Drag is increased so as to",
+      "options": {
+        "a": "Slow the aircraft to a safe speed for landing",
+        "b": "Decrease turbulence",
+        "c": "Accelerate the aircraft to a safe speed for landing"
+      },
+      "correct_answer": "a",
+      "explanation": "Drag is increased to slow the aircraft to a safe speed for landing, reducing airspeed for a controlled descent."
+    },
+    {
+      "question_number": 2,
+      "question": "Which of the following controls the pitch of an aircraft?",
+      "options": {
+        "a": "Flaps",
+        "b": "Elevator",
+        "c": "Spoiler"
+      },
+      "correct_answer": "b",
+      "explanation": "The elevator, located on the tail, controls pitch by adjusting the aircraft’s nose up or down."
+    },
+    {
+      "question_number": 3,
+      "question": "The combination of ailerons and elevators is called",
+      "options": {
+        "a": "Alevon",
+        "b": "Spoiler",
+        "c": "Elevon",
+        "d": "Rudder"
+      },
+      "correct_answer": "c",
+      "explanation": "Elevons combine the functions of ailerons (roll) and elevators (pitch), often used in tailless aircraft."
+    },
+    {
+      "question_number": 4,
+      "question": "The term canard is used to describe the __________ configuration of an aircraft.",
+      "options": {
+        "a": "Seating",
+        "b": "Wing",
+        "c": "Flap",
+        "d": "Engine"
+      },
+      "correct_answer": "b",
+      "explanation": "A canard is a wing configuration with a small forewing ahead of the main wing for stability and control."
+    },
+    {
+      "question_number": 5,
+      "question": "Which of the following is not a secondary control?",
+      "options": {
+        "a": "Slats",
+        "b": "Ailerons",
+        "c": "Spoilers"
+      },
+      "correct_answer": "b",
+      "explanation": "Ailerons are primary controls for roll, while slats and spoilers are secondary controls for lift and drag."
+    },
+    {
+      "question_number": 6,
+      "question": "What is the rotation about longitudinal axis called?",
+      "options": {
+        "a": "Roll",
+        "b": "Pitch",
+        "c": "Yaw"
+      },
+      "correct_answer": "a",
+      "explanation": "Rotation about the longitudinal axis (nose to tail) is called roll, controlled by ailerons."
+    },
+    {
+      "question_number": 7,
+      "question": "The rudder is a part of",
+      "options": {
+        "a": "Undercarriage",
+        "b": "Empennage",
+        "c": "APU"
+      },
+      "correct_answer": "b",
+      "explanation": "The rudder, part of the empennage, is mounted on the vertical stabilizer to control yaw."
+    },
+    {
+      "question_number": 8,
+      "question": "Why are flaps deflected downwards?",
+      "options": {
+        "a": "To decrease lift",
+        "b": "To increase the effective curvature of the wing",
+        "c": "To decrease the effective curvature of the wing"
+      },
+      "correct_answer": "b",
+      "explanation": "Flaps deflected downwards increase wing curvature, enhancing lift for takeoff and landing."
+    },
+    {
+      "question_number": 9,
+      "question": "Which of the following axes passes from wingtip to wingtip through an aircraft?",
+      "options": {
+        "a": "Vertical axis",
+        "b": "Transverse axis",
+        "c": "Longitudinal axis"
+      },
+      "correct_answer": "b",
+      "explanation": "The transverse axis runs wingtip to wingtip, with rotation about it called pitch."
+    },
+    {
+      "question_number": 10,
+      "question": "Airbrakes are used to increase",
+      "options": {
+        "a": "Lift",
+        "b": "Drag",
+        "c": "Pitch"
+      },
+      "correct_answer": "b",
+      "explanation": "Airbrakes increase drag to slow the aircraft, typically used during descent or landing."
+    },
+    {
+      "question_number": 11,
+      "question": "What happens if an aircraft yaws about its center of gravity?",
+      "options": {
+        "a": "A sideslip angle arises",
+        "b": "Aircraft will crash",
+        "c": "Aircraft will start descending"
+      },
+      "correct_answer": "a",
+      "explanation": "Yawing creates a sideslip angle, misaligning the aircraft’s direction with its velocity vector."
+    },
+    {
+      "question_number": 12,
+      "question": "The equilibrium roll angle is known as",
+      "options": {
+        "a": "Roll angle",
+        "b": "Angle of incidence",
+        "c": "Zero bank angle"
+      },
+      "correct_answer": "c",
+      "explanation": "Zero bank angle, or wings level, is the equilibrium state with no roll."
+    },
+    {
+      "question_number": 13,
+      "question": "Control systems adjust the orientation of a vehicle about its",
+      "options": {
+        "a": "Pitch",
+        "b": "Centre of gravity",
+        "c": "Centre of mass"
+      },
+      "correct_answer": "b",
+      "explanation": "Control systems adjust orientation around the center of gravity for pitch, roll, and yaw."
+    },
+    {
+      "question_number": 14,
+      "question": "What are the major sources of change in the aerodynamic forces and moments applied to an aircraft?",
+      "options": {
+        "a": "Angle of attack of the wing and the angle of attack of the vertical tail",
+        "b": "Angle of attack of the wing and the angle of incidence",
+        "c": "Angle of incidence and the angle of attack of the vertical tail"
+      },
+      "correct_answer": "a",
+      "explanation": "Aerodynamic forces change primarily due to the wing’s angle of attack and the vertical tail’s angle of attack."
+    },
+    {
+      "question_number": 15,
+      "question": "Angle of attack of the vertical tail is also known as",
+      "options": {
+        "a": "Sideslip angle",
+        "b": "Critical angle",
+        "c": "Zero bank angle"
+      },
+      "correct_answer": "a",
+      "explanation": "The vertical tail’s angle of attack is called the sideslip angle, often denoted as beta."
+    },
+    {
+      "question_number": 16,
+      "question": "Excessive dihedral can produce",
+      "options": {
+        "a": "Dutch roll",
+        "b": "Thrust",
+        "c": "Pitch"
+      },
+      "correct_answer": "a",
+      "explanation": "Excessive dihedral can cause Dutch roll, a combined yaw-roll oscillation."
+    },
+    {
+      "question_number": 17,
+      "question": "Which control surface is primarily used for spin recovery?",
+      "options": {
+        "a": "Rudder",
+        "b": "Elevator",
+        "c": "Aileron"
+      },
+      "correct_answer": "a",
+      "explanation": "The rudder is used to counter yaw and stop rotation during spin recovery."
+    },
+    {
+      "question_number": 18,
+      "question": "Which of the following is correct?",
+      "options": {
+        "a": "Wake of a canard can stall the engine",
+        "b": "Wake will increase engine efficiency",
+        "c": "Wake will increase engine thrust"
+      },
+      "correct_answer": "a",
+      "explanation": "A canard’s wake can disrupt airflow to the engine, potentially causing a stall."
+    },
+    {
+      "question_number": 19,
+      "question": "Supersonic wave drag can be reduced by using",
+      "options": {
+        "a": "Area rule",
+        "b": "Drag ruling",
+        "c": "Lift augmentation"
+      },
+      "correct_answer": "a",
+      "explanation": "Area rule minimizes cross-sectional area changes to reduce supersonic wave drag."
+    },
+    {
+      "question_number": 20,
+      "question": "For typical gliding flight, thrust will be",
+      "options": {
+        "a": "Zero",
+        "b": "Equal to the lift",
+        "c": "Always same as drag"
+      },
+      "correct_answer": "a",
+      "explanation": "In gliding flight, there is no thrust; the aircraft descends using gravity."
+    },
+    {
+      "question_number": 21,
+      "question": "The tangent of glide angle is",
+      "options": {
+        "a": "Equals to drag to lift ratio",
+        "b": "Lift to drag ratio",
+        "c": "Inverse of thrust"
+      },
+      "correct_answer": "a",
+      "explanation": "The glide angle’s tangent equals the drag-to-lift ratio, determining glide efficiency."
+    },
+    {
+      "question_number": 22,
+      "question": "Which of the following is correct for steady level flight?",
+      "options": {
+        "a": "T=D",
+        "b": "T>D",
+        "c": "L>W"
+      },
+      "correct_answer": "a",
+      "explanation": "In steady level flight, thrust equals drag, and lift equals weight."
+    },
+    {
+      "question_number": 23,
+      "question": "________ is the quality of the response of an aircraft to the pilot's commands during maneuvers.",
+      "options": {
+        "a": "Stability",
+        "b": "Controllability",
+        "c": "Maneuverability"
+      },
+      "correct_answer": "b",
+      "explanation": "Controllability describes how well an aircraft responds to pilot inputs during maneuvers."
+    },
+    {
+      "question_number": 24,
+      "question": "Airbrakes are used to increase",
+      "options": {
+        "a": "Lift",
+        "b": "Drag",
+        "c": "Pitch"
+      },
+      "correct_answer": "b",
+      "explanation": "Airbrakes increase drag to slow the aircraft, aiding in descent or landing."
+    },
+    {
+      "question_number": 25,
+      "question": "Which of the following is not a part of flight control systems?",
+      "options": {
+        "a": "Ailerons",
+        "b": "Elevators",
+        "c": "Radars"
+      },
+      "correct_answer": "c",
+      "explanation": "Radars are for navigation or detection, not flight control, unlike ailerons and elevators."
+    },
+    {
+      "question_number": 26,
+      "question": "An aircraft adjusts the lift generated by the wings when it pitches nose up or down by adjusting the angle of attack.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Pitching adjusts the angle of attack, altering wing lift accordingly."
+    },
+    {
+      "question_number": 27,
+      "question": "Aircrafts are streamlined from nose to tail to reduce",
+      "options": {
+        "a": "Turbulence",
+        "b": "Thrust",
+        "c": "Drag"
+      },
+      "correct_answer": "c",
+      "explanation": "Streamlining reduces drag, improving airspeed and fuel efficiency."
+    },
+    {
+      "question_number": 28,
+      "question": "Wing loading is the ratio of",
+      "options": {
+        "a": "Weight of the aircraft and the reference area of wing",
+        "b": "Reference area of wing and power of engine",
+        "c": "Lift to drag"
+      },
+      "correct_answer": "a",
+      "explanation": "Wing loading is aircraft weight divided by wing area, affecting performance."
+    },
+    {
+      "question_number": 29,
+      "question": "Which of the following is true about ruddervator?",
+      "options": {
+        "a": "Works on butterfly tail",
+        "b": "When elevator function- one up the other down",
+        "c": "When rudder function-both up and down"
+      },
+      "correct_answer": "a",
+      "explanation": "A ruddervator, used on V-tail aircraft, combines rudder and elevator functions."
+    },
+    {
+      "question_number": 30,
+      "question": "_______ stability is rarely achieved in practice.",
+      "options": {
+        "a": "Dead-beat",
+        "b": "Positive dynamic stability",
+        "c": "Negative dynamic stability"
+      },
+      "correct_answer": "a",
+      "explanation": "Dead-beat stability, with perfect oscillation damping, is impractical in real aircraft."
+    }
+  ]

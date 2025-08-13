@@ -1,0 +1,527 @@
+[
+    {
+        "question_number": 1,
+        "question": "Cables can be checked for broken wire, by passing a lint free rag over the cable.",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "A",
+        "explanation": "This is a common and accepted method. A lint-free rag passed over the cable will snag on any broken wire strands, making them easy to detect."
+    },
+    {
+        "question_number": 2,
+        "question": "The purpose of rigging is :",
+        "options": {
+            "A": "Stability",
+            "B": "Fuel economy",
+            "C": "Good flight characteristics"
+        },
+        "correct_answer": "C",
+        "explanation": "Proper rigging ensures the aircraft has the desired stability, control response, and overall performance, which are all components of good flight characteristics."
+    },
+    {
+        "question_number": 3,
+        "question": "A turnbuckle or a splice in cable control system must not be closer to the fairlead more than 2\".",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "correct_answer": "A",
+        "explanation": "This clearance is required as a standard practice to prevent the turnbuckle or splice from fouling or jamming on the fairlead during cable movement."
+    },
+    {
+        "question_number": 4,
+        "question": "The importance of weight and balance is to maintain :",
+        "options": {
+            "A": "Safety of the a/c",
+            "B": "Efficiency of the aircraft",
+            "C": "Fuel economy"
+        },
+        "correct_answer": "A",
+        "explanation": "While efficiency and fuel economy are benefits, the primary and most critical reason for maintaining proper weight and balance is to ensure the safety of the aircraft by keeping it stable and controllable."
+    },
+    {
+        "question_number": 5,
+        "question": "Rigging of fixed surfaces is performed during?",
+        "options": {
+            "A": "Manufacturing",
+            "B": "Major assembly",
+            "C": "Pilot report"
+        },
+        "correct_answer": "A",
+        "explanation": "The initial and fundamental rigging of fixed surfaces, like setting wing incidence and dihedral, is performed as part of the aircraft's manufacturing and major assembly process."
+    },
+    {
+        "question_number": 6,
+        "question": "Which type of cable is most widely used for a/c primary control surfaces?",
+        "options": {
+            "A": "7x19",
+            "B": "7x7",
+            "C": "19x19"
+        },
+        "correct_answer": "A",
+        "explanation": "The 7x19 cable, made of 7 strands with 19 wires each, is extra-flexible and is the standard choice for primary flight controls that require movement over pulleys."
+    },
+    {
+        "question_number": 7,
+        "question": "Long control surfaces like flaps are driven by:",
+        "options": {
+            "A": "Electric motor",
+            "B": "Hydraulic motor/screw jack/",
+            "C": "Torque tube"
+        },
+        "correct_answer": "B",
+        "explanation": "While all options can be involved, hydraulic motors driving screw jacks are a very common method for actuating large or long control surfaces like flaps on many aircraft."
+    },
+    {
+        "question_number": 8,
+        "question": "Fairlead do not deflect cable more than",
+        "options": {
+            "A": "2\u00b0",
+            "B": "3\u00b0",
+            "C": "4\u00b0"
+        },
+        "correct_answer": "B",
+        "explanation": "A fairlead is designed only to guide a cable, not to change its direction. The maximum allowable deflection is 3 degrees to prevent excessive rubbing and wear on the cable."
+    },
+    {
+        "question_number": 9,
+        "question": "which cable is extra-flexible",
+        "options": {
+            "A": "7x19",
+            "B": "7x7",
+            "C": "7x2"
+        },
+        "correct_answer": "A",
+        "explanation": "The 7x19 cable is considered extra-flexible because it is constructed of 7 strands, each with 19 individual wires, allowing it to bend easily over pulleys."
+    },
+    {
+        "question_number": 10,
+        "question": "Which of the following adjustment is done on landing gear?",
+        "options": {
+            "A": "Camber in/camber out",
+            "B": "Tricycle",
+            "C": "dihedral"
+        },
+        "correct_answer": "A",
+        "explanation": "Landing gear rigging adjustments commonly include setting the wheel camber (vertical tilt) and toe-in/toe-out to ensure proper tracking and even tire wear."
+    },
+    {
+        "question_number": 11,
+        "question": "Which of the following tool is used for symmetry check?",
+        "options": {
+            "A": "Spirit level",
+            "B": "Plumb bob & target",
+            "C": "Surveyor transit"
+        },
+        "correct_answer": "B",
+        "explanation": "A plumb bob and target are commonly used to check aircraft symmetry by dropping reference points from corresponding locations on each side of the aircraft to the floor and measuring the distances."
+    },
+    {
+        "question_number": 12,
+        "question": "Which one of the following is not considered in rigging of wing?",
+        "options": {
+            "A": "Angle of incidence",
+            "B": "Angle of attack",
+            "C": "Dihedral"
+        },
+        "correct_answer": "B",
+        "explanation": "Angle of attack is the dynamic angle between the wing and the relative wind, which changes in flight. Angle of incidence and dihedral are fixed geometric angles set during rigging."
+    },
+    {
+        "question_number": 13,
+        "question": "A worn cable or pulley may be an indication of",
+        "options": {
+            "A": "Two tight cable rigging",
+            "B": "Too loose cable rigging",
+            "C": "A & b"
+        },
+        "correct_answer": "C",
+        "explanation": "Both overly tight cables (causing high friction) and overly loose cables (allowing jumping and chafing) can lead to premature wear on cables and pulleys."
+    },
+    {
+        "question_number": 14,
+        "question": "The first step in preparation of rigging",
+        "options": {
+            "A": "Providing the required tool",
+            "B": "Estimating the manpower",
+            "C": "Locating the correct manual"
+        },
+        "correct_answer": "C",
+        "explanation": "The absolute first step before starting any maintenance or rigging task is to locate and consult the correct aircraft maintenance manual to ensure all procedures are followed correctly."
+    },
+    {
+        "question_number": 15,
+        "question": "Longer takeoff run is typical characteristics of",
+        "options": {
+            "A": "Too much forward loading",
+            "B": "Too much rearward loading",
+            "C": "Overloading"
+        },
+        "correct_answer": "A",
+        "explanation": "An excessively forward center of gravity (CG) requires greater elevator downforce to lift the nose for takeoff, which increases drag and results in a longer takeoff run."
+    },
+    {
+        "question_number": 16,
+        "question": "Change in direction of a control cable accomplished by:",
+        "options": {
+            "A": "Air leads",
+            "B": "turnbuckles",
+            "C": "Pulleys"
+        },
+        "correct_answer": "C",
+        "explanation": "Pulleys are used in cable control systems to guide the cable and change its direction of travel with minimal friction."
+    },
+    {
+        "question_number": 17,
+        "question": "Wash in",
+        "options": {
+            "A": "Increase lift",
+            "B": "Decrease lift",
+            "C": "Not determined"
+        },
+        "correct_answer": "A",
+        "explanation": "Wash-in refers to an increase in the angle of incidence towards the wingtip, which causes that portion of the wing to generate more lift."
+    },
+    {
+        "question_number": 18,
+        "question": "What is smallest cable size that may be used in aircraft primary flight control system?",
+        "options": {
+            "A": "1/8\"",
+            "B": "3/4\"",
+            "C": "5/32\""
+        },
+        "correct_answer": "A",
+        "explanation": "According to standard aviation practices and regulations, the minimum diameter for a cable used in a primary flight control system is 1/8 inch."
+    },
+    {
+        "question_number": 19,
+        "question": "Which one of the following is not important of rigging",
+        "options": {
+            "A": "To obtain correct cable tension",
+            "B": "Set the range of control surface travel",
+            "C": "Provide space for control"
+        },
+        "correct_answer": "C",
+        "explanation": "Setting correct cable tension and control surface travel are primary objectives of rigging. 'Providing space for control' is a design and manufacturing consideration, not a rigging adjustment."
+    },
+    {
+        "question_number": 20,
+        "question": "If all instrument issued by the swaging tool manufacturer are followed when swaging a cable terminal, the resultant swaging terminal strength should be",
+        "options": {
+            "A": "The full rated strength of the cable",
+            "B": "80%",
+            "C": "70%"
+        },
+        "correct_answer": "A",
+        "explanation": "A correctly performed swage using the proper tools and procedures creates a terminal fitting that is designed to hold the full rated breaking strength of the cable itself."
+    },
+    {
+        "question_number": 21,
+        "question": "Which come lastly in rigging processes?",
+        "options": {
+            "A": "Adjust cable tension",
+            "B": "Operational check",
+            "C": "Measure cable tension"
+        },
+        "correct_answer": "B",
+        "explanation": "After all adjustments are made, including setting and measuring cable tension, a full operational check of the controls is performed as the final step to verify proper function and travel."
+    },
+    {
+        "question_number": 22,
+        "question": "When inspecting a control cable turnbuckle for proper installation determine that :",
+        "options": {
+            "A": "No more than three threats are exposed on either side of the turnbuckle barrel",
+            "B": "The terminal end threads are visible through the hole in barrel",
+            "C": "The wire ends are wrapped a minimum of four turns around the terminal end hanks"
+        },
+        "correct_answer": "A",
+        "explanation": "A primary inspection criterion for a properly installed turnbuckle is to ensure that no more than three threads are exposed on either end of the barrel, which confirms sufficient thread engagement."
+    },
+    {
+        "question_number": 23,
+        "question": "The tension regulator in flight control system is used :",
+        "options": {
+            "A": "To increase the cable tension in cold weather",
+            "B": "To provide a means of cable tension change in flight",
+            "C": "To maintain cable tension within the limit in all conditions"
+        },
+        "correct_answer": "C",
+        "explanation": "A tension regulator automatically compensates for changes in cable length due to temperature variations, maintaining the correct cable tension within limits across all operating conditions."
+    },
+    {
+        "question_number": 24,
+        "question": "The universal propeller protractor is used to measure:",
+        "options": {
+            "A": "Propeller track",
+            "B": "Degrees of control surface travel",
+            "C": "Aspect ratio of the wing"
+        },
+        "correct_answer": "B",
+        "explanation": "A universal propeller protractor is a precision angle-measuring device used to accurately measure the travel or deflection of flight control surfaces in degrees."
+    },
+    {
+        "question_number": 25,
+        "question": "Which of the following tool is not used to measure control surface travel",
+        "options": {
+            "A": "Universal propeller protractor",
+            "B": "Cable taster",
+            "C": "Rigging fixture"
+        },
+        "correct_answer": "B",
+        "explanation": "A universal propeller protractor and rigging fixtures are used to measure travel. A 'cable taster' is not a standard tool; if it means 'cable tensiometer', that tool measures tension, not travel."
+    },
+    {
+        "question_number": 26,
+        "question": "Other than manufacturers maintenance manual what other document could be used to primary control surface deflection for an improved aircraft that is resembled after shipment?",
+        "options": {
+            "A": "Aircraft type certificate data sheet",
+            "B": "Improved aircraft maintenance manual",
+            "C": "Airworthiness certificate"
+        },
+        "correct_answer": "A",
+        "explanation": "The Aircraft Type Certificate Data Sheet (TCDS) is a formal document that lists the official specifications and limitations for an aircraft type, including the required deflections for primary control surfaces."
+    },
+    {
+        "question_number": 27,
+        "question": "Wash-in the left wing of a monoplane for purpose of rigging corrections after flight test will have what effect on the lift and drag of that wing?",
+        "options": {
+            "A": "Both drug and lift will decrease due to decreased angle of attack",
+            "B": "Both drag and lift will increase due to increased angle of attack",
+            "C": "The drug will decreased due to the effect of the lift increased"
+        },
+        "correct_answer": "B",
+        "explanation": "Wash-in increases the angle of incidence of the wing section. This results in a higher local angle of attack, which increases both lift and the associated induced drag on that wing."
+    },
+    {
+        "question_number": 28,
+        "question": "the correct dihedral angle can be determined by",
+        "options": {
+            "A": "Measuring the angular setting of each wing at the rear spare with bubble protractor",
+            "B": "Placing the straight edge and bubble protractor across the spar while the air plane is in flying position",
+            "C": "Using a dihedral board and bubble level along the front spar of each wing"
+        },
+        "correct_answer": "C",
+        "explanation": "The standard method is to level the aircraft and use a specially made dihedral board and a bubble level, placing them at the specified location on the wing spar to measure the angle."
+    },
+    {
+        "question_number": 29,
+        "question": "In which of the following document or information is neither mandatory nor specific to the aircraft?",
+        "options": {
+            "A": "Maintenance manual",
+            "B": "IPC (illustrated part catalog)",
+            "C": "Advisory circular"
+        },
+        "correct_answer": "C",
+        "explanation": "Advisory Circulars (ACs) are issued by aviation authorities to provide guidance and acceptable methods of compliance, but they are not regulatory or mandatory and are not specific to a single aircraft."
+    },
+    {
+        "question_number": 30,
+        "question": "which one of the following is not true about assembly",
+        "options": {
+            "A": "If no direction is specified ,install bolt with heads down or backward",
+            "B": "Be sure that correct hardware is used",
+            "C": "Use only the correct type of safe tying mechanisms"
+        },
+        "correct_answer": "A",
+        "explanation": "Standard aviation practice is to install bolts with the head oriented up, forward, or outboard whenever possible. This statement describes the opposite and is therefore not true."
+    },
+    {
+        "question_number": 31,
+        "question": "which one of the following is assembly tool",
+        "options": {
+            "A": "Cable tension meter",
+            "B": "Drift and line up punches",
+            "C": "Universal propeller protractor"
+        },
+        "correct_answer": "B",
+        "explanation": "Drift and lineup punches are tools used during assembly to align holes in different parts before a bolt or rivet is inserted. The other tools are for measurement and rigging checks."
+    },
+    {
+        "question_number": 32,
+        "question": "when inspecting a control cable turnbuckle for proper installation determine that",
+        "options": {
+            "A": "No more than four trade are exposed on either side of the turnbuckle barrel",
+            "B": "The terminal end thread are visible through the safety hole in the barrel",
+            "C": "No cable splice or fitting comes with in 2\u201d of cable component"
+        },
+        "correct_answer": "B",
+        "explanation": "To verify sufficient thread engagement, you must ensure the cable terminal's threads are visible through the inspection hole (also called a witness hole) in the turnbuckle barrel."
+    },
+    {
+        "question_number": 33,
+        "question": "changes in direction of control cable is done by the used of?",
+        "options": {
+            "A": "pulley",
+            "B": "Turnbuckle",
+            "C": "Fair lead"
+        },
+        "correct_answer": "A",
+        "explanation": "Pulleys are specifically designed to allow a control cable to make significant changes in direction with minimal friction. Fairleads only guide cables through small angles (<3 degrees)."
+    },
+    {
+        "question_number": 34,
+        "question": "if the travel of an airplanes control is correct but the cable are rigged exceptionally tight, what probable effect will this have when flying the airplane",
+        "options": {
+            "A": "The airplane will tend to fall of one wing",
+            "B": "The airplane will be heavy on the control",
+            "C": "The pilot will be unable to fly the air plane heads off"
+        },
+        "correct_answer": "B",
+        "explanation": "Excessively tight control cables increase the friction throughout the system (at pulleys, fairleads, etc.), which requires more pilot effort and makes the controls feel stiff and heavy."
+    },
+    {
+        "question_number": 35,
+        "question": "a universal propeller protractor used to measure the degree aileron travel should be zeroed",
+        "options": {
+            "A": "With the aileron in the neutral position",
+            "B": "With the aileron in the down position",
+            "C": "When the air craft is in level flight altitude"
+        },
+        "correct_answer": "A",
+        "explanation": "The neutral (or faired) position of the control surface serves as the zero-degree reference point from which upward and downward travel is measured."
+    },
+    {
+        "question_number": 36,
+        "question": "Which should be accomplished before jacking an aircraft",
+        "options": {
+            "A": "Install critical stress panel or plates",
+            "B": "Determine that the fuel tanks are empty",
+            "C": "Make sure the air craft is leveled laterally"
+        },
+        "correct_answer": "A",
+        "explanation": "Before jacking, the aircraft maintenance manual must be consulted. It may specify the installation of stress panels or jury struts to distribute loads and prevent structural damage to the airframe."
+    },
+    {
+        "question_number": 37,
+        "question": "Which of the following is the longitudinal difference in the position of the wings of the bi-plane",
+        "options": {
+            "A": "Stagger",
+            "B": "Decalage",
+            "C": "Camber"
+        },
+        "correct_answer": "A",
+        "explanation": "Stagger is a rigging term for biplanes that describes the longitudinal (fore-and-aft) position of the upper wing relative to the lower wing."
+    },
+    {
+        "question_number": 38,
+        "question": "Which one of the following are used to transmit force and permit a change in the direction of the forces",
+        "options": {
+            "A": "Bell crank",
+            "B": "Pulley",
+            "C": "Turnbuckle"
+        },
+        "correct_answer": "A",
+        "explanation": "A bellcrank is a type of pivoting lever used in control systems to change the direction of motion and transmit force, for example from a pushrod to a cable."
+    },
+    {
+        "question_number": 39,
+        "question": "Which of the following is not correct during hoisting?",
+        "options": {
+            "A": "Limit load should not be exceeded",
+            "B": "We can hoist in any point",
+            "C": "If sling passes below wing, it should be padded"
+        },
+        "correct_answer": "B",
+        "explanation": "Aircraft must only be hoisted using the manufacturer-specified, structurally reinforced hoisting points. Using any other point can cause severe structural damage."
+    },
+    {
+        "question_number": 40,
+        "question": "Which of the following is false about flexible cables?",
+        "options": {
+            "A": "7 strands and 7 wires",
+            "B": "Should not be used where flexing requirements are extreme",
+            "C": "They are used for trim tabs"
+        },
+        "correct_answer": "B",
+        "explanation": "This statement is poorly phrased but the intended false statement. Flexible (7x7) cable is used for moderate flexing. While it's true that extra-flexible (7x19) cable is used for extreme flexing, the absolute nature of the statement makes it the most likely incorrect option in a multiple choice test."
+    },
+    {
+        "question_number": 41,
+        "question": "Thimble-eye terminal cables have how much percent of cable strength?",
+        "options": {
+            "A": "75",
+            "B": "80",
+            "C": "60"
+        },
+        "correct_answer": "A",
+        "explanation": "A hand-woven splice around a thimble, known as a thimble-eye terminal, is rated to retain approximately 75% of the original cable's breaking strength."
+    },
+    {
+        "question_number": 42,
+        "question": "In the cockpit, the pilot pushes the control column forward and to the left, the right aileron",
+        "options": {
+            "A": "Moves upward and elevator downward",
+            "B": "Moves upward and elevator upward",
+            "C": "Moves downward and elevator downward"
+        },
+        "correct_answer": "C",
+        "explanation": "Pushing the control column forward moves the elevator downward. Pushing the column to the left moves the left aileron up and the right aileron down. Therefore, the right aileron moves downward and the elevator moves downward."
+    },
+    {
+        "question_number": 43,
+        "question": "is used for particular aircraft as dihedral board control surface travel",
+        "options": {
+            "A": "Universal propeller protractor",
+            "B": "Rigging fixture",
+            "C": "Cable tensiometer"
+        },
+        "correct_answer": "B",
+        "explanation": "A rigging fixture is a special tool, often custom-built for a specific aircraft model, designed to hold a component in the correct position or to check a specific angle like dihedral."
+    },
+    {
+        "question_number": 44,
+        "question": "Which of the following aircraft conditions is done during dihedral adjustment?",
+        "options": {
+            "A": "The aircraft will be in flight position & using dihedral board",
+            "B": "The aircraft will be in level position & using dihedral board",
+            "C": "Using dihedral board and string adjustment"
+        },
+        "correct_answer": "B",
+        "explanation": "To accurately check or adjust the dihedral angle, the aircraft must first be placed in a level flight attitude (leveled longitudinally and laterally). Then, a dihedral board and level are used to measure the wing angle."
+    },
+    {
+        "question_number": 45,
+        "question": "Which of the following devices is used to measure control surface travel",
+        "options": {
+            "A": "Universal propeller protractor",
+            "B": "Rigging pins",
+            "C": "Center head protractor"
+        },
+        "correct_answer": "A",
+        "explanation": "A universal propeller protractor is a precision instrument specifically designed for accurately measuring angles, making it the standard tool for measuring control surface travel in degrees."
+    },
+    {
+        "question_number": 46,
+        "question": "While using universal propeller protractor, the aircraft control surface must be",
+        "options": {
+            "A": "Downward position",
+            "B": "Neutral position",
+            "C": "Upward position"
+        },
+        "correct_answer": "B",
+        "explanation": "When measuring control surface travel, the measurement begins from the neutral or faired position, which serves as the zero-degree reference point."
+    },
+    {
+        "question_number": 47,
+        "question": "Which one of the following is the main objective of rigging control surface?",
+        "options": {
+            "A": "To obtain correct cable tension",
+            "B": "To provide synchronization between control surfaces and control column",
+            "C": "both"
+        },
+        "correct_answer": "C",
+        "explanation": "The main objectives of rigging include obtaining the correct cable tension for proper feel, and ensuring the control surfaces are synchronized and travel through their correct range relative to cockpit inputs."
+    },
+    {
+        "question_number": 48,
+        "question": "Which should come first?",
+        "options": {
+            "A": "Measure control surface travel",
+            "B": "Adjust cable tension as necessary"
+        },
+        "correct_answer": "A",
+        "explanation": "In a typical rigging sequence, the control surface travel range is set first using stops or pushrod adjustments. After the travel is confirmed to be correct, the cable tension is adjusted to specification."
+    }
+]

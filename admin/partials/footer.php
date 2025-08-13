@@ -35,12 +35,38 @@
 
     const dropArea = document.getElementById('drop-area'), fileInput = document.getElementById('file-input'), fileNameDisplay = document.getElementById('file-name');
     if (dropArea) {
+        const handleFileSelection = (files) => {
+            if (fileNameDisplay) {
+                if (files && files.length > 1) {
+                    fileNameDisplay.textContent = `Selected: ${files.length} files`;
+                } else if (files && files.length === 1) {
+                    fileNameDisplay.textContent = `Selected: ${files[0].name}`;
+                } else {
+                    fileNameDisplay.textContent = '';
+                }
+            }
+        };
+
         dropArea.addEventListener('click', () => fileInput.click());
-        fileInput.addEventListener('change', () => { if (fileInput.files.length > 0) fileNameDisplay.textContent = `Selected: ${fileInput.files[0].name}`; });
-        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(e => dropArea.addEventListener(e, t => { t.preventDefault(); t.stopPropagation(); }, false));
-        ['dragenter', 'dragover'].forEach(e => dropArea.addEventListener(e, () => dropArea.classList.add('highlight'), false));
-        ['dragleave', 'drop'].forEach(e => dropArea.addEventListener(e, () => dropArea.classList.remove('highlight'), false));
-        dropArea.addEventListener('drop', e => { fileInput.files = e.dataTransfer.files; fileNameDisplay.textContent = `Selected: ${fileInput.files[0].name}`; }, false);
+        fileInput.addEventListener('change', () => {
+            handleFileSelection(fileInput.files);
+        });
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, e => {
+                e.preventDefault();
+                e.stopPropagation();
+            }, false);
+        });
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, () => dropArea.classList.add('highlight'), false);
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, () => dropArea.classList.remove('highlight'), false);
+        });
+        dropArea.addEventListener('drop', e => {
+            fileInput.files = e.dataTransfer.files;
+            handleFileSelection(fileInput.files);
+        }, false);
     }
 
     const modal = document.getElementById('edit-modal');

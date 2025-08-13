@@ -1,0 +1,365 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is the definition of electricity?",
+    "options": {
+      "a": "Flow of electrons",
+      "b": "Force between charges",
+      "c": "Movement of protons"
+    },
+    "correct_answer": "a",
+    "explanation": "Electricity is defined as the flow of electrons through a conductor."
+  },
+  {
+    "question_number": 2,
+    "question": "What is the definition of electricity?",
+    "options": {
+      "a": "Energy from heat",
+      "b": "Flow of electric charge",
+      "c": "Magnetic field strength"
+    },
+    "correct_answer": "b",
+    "explanation": "Electricity is the flow of electric charge, typically carried by electrons."
+  },
+  {
+    "question_number": 3,
+    "question": "What is the electrolyte of a NiCd battery?",
+    "options": {
+      "a": "H2SO4",
+      "b": "KOH",
+      "c": "NaCl"
+    },
+    "correct_answer": "b",
+    "explanation": "The electrolyte in a NiCd (Nickel-Cadmium) battery is Potassium Hydroxide (KOH)."
+  },
+  {
+    "question_number": 4,
+    "question": "How is current (I) in a series circuit?",
+    "options": {
+      "a": "I1 ≠ I2",
+      "b": "I1 = I2 = ...",
+      "c": "I1 + I2 = 0"
+    },
+    "correct_answer": "b",
+    "explanation": "In a series circuit, the current (I) is the same through all components, so I1 = I2 = ..."
+  },
+  {
+    "question_number": 5,
+    "question": "How is inductance calculated in parallel?",
+    "options": {
+      "a": "Lt = L1 + L2",
+      "b": "1/Lt = 1/L1 + 1/L2 + ...",
+      "c": "Lt = 1/(L1 + L2)"
+    },
+    "correct_answer": "b",
+    "explanation": "The total inductance (Lt) in parallel is calculated as the reciprocal of the sum of the reciprocals of individual inductances."
+  },
+  {
+    "question_number": 6,
+    "question": "What is the unit of inductance?",
+    "options": {
+      "a": "Ohm",
+      "b": "Henry",
+      "c": "Farad"
+    },
+    "correct_answer": "b",
+    "explanation": "The unit of inductance is the Henry (H)."
+  },
+  {
+    "question_number": 7,
+    "question": "What is current measured in?",
+    "options": {
+      "a": "Coulomb",
+      "b": "Volt",
+      "c": "Watt"
+    },
+    "correct_answer": "a",
+    "explanation": "Current is the rate of flow of charge, measured in Coulombs."
+  },
+  {
+    "question_number": 8,
+    "question": "What does one coulomb equal?",
+    "options": {
+      "a": "Ampere-second",
+      "b": "Volt-second",
+      "c": "Ohm-second"
+    },
+    "correct_answer": "a",
+    "explanation": "One coulomb is equivalent to one ampere-second."
+  },
+  {
+    "question_number": 9,
+    "question": "What are free electrons associated with?",
+    "options": {
+      "a": "Conductors",
+      "b": "Insulators",
+      "c": "Capacitors"
+    },
+    "correct_answer": "a",
+    "explanation": "Free electrons are associated with conductors, allowing the flow of electric current."
+  },
+  {
+    "question_number": 10,
+    "question": "How does resistance change with temperature for pure metal?",
+    "options": {
+      "a": "Decreases",
+      "b": "Increases",
+      "c": "Remains constant"
+    },
+    "correct_answer": "b",
+    "explanation": "For pure metals, resistance increases with an increase in temperature due to increased electron scattering."
+  },
+  {
+    "question_number": 11,
+    "question": "How does resistance change with temperature for electrolytes and semiconductors?",
+    "options": {
+      "a": "Increases",
+      "b": "Decreases",
+      "c": "Stays the same"
+    },
+    "correct_answer": "b",
+    "explanation": "For electrolytes and semiconductors, resistance decreases with an increase in temperature due to increased charge carrier mobility."
+  },
+  {
+    "question_number": 12,
+    "question": "What indicates a negative coefficient of resistance?",
+    "options": {
+      "a": "Resistance increases with temperature",
+      "b": "Resistance decreases with temperature",
+      "c": "Resistance is zero"
+    },
+    "correct_answer": "b",
+    "explanation": "A negative coefficient of resistance indicates that resistance decreases as temperature increases."
+  },
+  {
+    "question_number": 13,
+    "question": "Which law relates to electromagnetic induction?",
+    "options": {
+      "a": "Ohm's Law",
+      "b": "Faraday's Law",
+      "c": "Coulomb's Law"
+    },
+    "correct_answer": "b",
+    "explanation": "Faraday's Law describes the principle of electromagnetic induction."
+  },
+  {
+    "question_number": 14,
+    "question": "Which law describes the force between charges?",
+    "options": {
+      "a": "Faraday's Law",
+      "b": "Coulomb's Law",
+      "c": "Ohm's Law"
+    },
+    "correct_answer": "b",
+    "explanation": "Coulomb's Law describes the force between electric charges."
+  },
+  {
+    "question_number": 15,
+    "question": "What is the relationship between current and resistance according to Ohm's Law?",
+    "options": {
+      "a": "Current ∝ 1/resistance",
+      "b": "Current ∝ resistance",
+      "c": "Current = resistance"
+    },
+    "correct_answer": "b",
+    "explanation": "Ohm's Law states that current is directly proportional to resistance when voltage is constant."
+  },
+  {
+    "question_number": 16,
+    "question": "What happens to EMF when the number of coils increases?",
+    "options": {
+      "a": "Decreases",
+      "b": "Increases",
+      "c": "Remains unchanged"
+    },
+    "correct_answer": "b",
+    "explanation": "An increase in the number of coils increases the electromotive force (EMF) in a coil."
+  },
+  {
+    "question_number": 17,
+    "question": "What does joining two inductors together increase?",
+    "options": {
+      "a": "Capacitance",
+      "b": "Mutual induction",
+      "c": "Resistance"
+    },
+    "correct_answer": "b",
+    "explanation": "Joining two inductors increases mutual induction between them."
+  },
+  {
+    "question_number": 18,
+    "question": "What does the thumb indicate in the right-hand rule?",
+    "options": {
+      "a": "Wire motion",
+      "b": "Magnetic field",
+      "c": "Current direction"
+    },
+    "correct_answer": "a",
+    "explanation": "In the right-hand rule, the thumb indicates the direction of wire motion or force."
+  },
+  {
+    "question_number": 19,
+    "question": "What is the definition of resistivity?",
+    "options": {
+      "a": "Resistance per unit length",
+      "b": "Current per unit area",
+      "c": "Voltage per unit charge"
+    },
+    "correct_answer": "a",
+    "explanation": "Resistivity is the measure of a material's resistance per unit length and cross-sectional area."
+  },
+  {
+    "question_number": 20,
+    "question": "What particle has no charge?",
+    "options": {
+      "a": "Proton",
+      "b": "Neutron",
+      "c": "Electron"
+    },
+    "correct_answer": "b",
+    "explanation": "A neutron is a subatomic particle with no electric charge."
+  },
+  {
+    "question_number": 21,
+    "question": "What does atomic number represent?",
+    "options": {
+      "a": "Number of neutrons",
+      "b": "Number of protons",
+      "c": "Total number of particles"
+    },
+    "correct_answer": "b",
+    "explanation": "The atomic number represents the number of protons in an atom's nucleus."
+  },
+  {
+    "question_number": 22,
+    "question": "What is atomic mass?",
+    "options": {
+      "a": "Number of protons",
+      "b": "Atomic number + neutrons",
+      "c": "Number of electrons"
+    },
+    "correct_answer": "b",
+    "explanation": "Atomic mass is the sum of the atomic number (protons) and the number of neutrons."
+  },
+  {
+    "question_number": 23,
+    "question": "What does a positive sign indicate in current direction?",
+    "options": {
+      "a": "Current moves away",
+      "b": "Current moves toward",
+      "c": "No current flow"
+    },
+    "correct_answer": "a",
+    "explanation": "A positive sign conventionally indicates the direction in which current moves away from the source."
+  },
+  {
+    "question_number": 24,
+    "question": "What surrounds a magnet?",
+    "options": {
+      "a": "Electric field",
+      "b": "Magnetic field",
+      "c": "Gravitational field"
+    },
+    "correct_answer": "b",
+    "explanation": "A magnet is surrounded by a magnetic field."
+  },
+  {
+    "question_number": 25,
+    "question": "What is static electricity?",
+    "options": {
+      "a": "Flowing charge",
+      "b": "Stationary charge",
+      "c": "Induced charge"
+    },
+    "correct_answer": "b",
+    "explanation": "Static electricity refers to the accumulation of stationary electric charges."
+  },
+  {
+    "question_number": 26,
+    "question": "What is used for recent at night?",
+    "options": {
+      "a": "Magnesium ion",
+      "b": "Sodium ion",
+      "c": "Potassium ion"
+    },
+    "correct_answer": "a",
+    "explanation": "Magnesium ions are used in some applications for lighting at night, such as flares."
+  },
+  {
+    "question_number": 27,
+    "question": "What is mutual inductance?",
+    "options": {
+      "a": "Interaction between two coils",
+      "b": "Resistance of a coil",
+      "c": "Capacitance of a circuit"
+    },
+    "correct_answer": "a",
+    "explanation": "Mutual inductance is the interaction between two coils that affects the magnetic flux."
+  },
+  {
+    "question_number": 28,
+    "question": "What is noted about electricity?",
+    "options": {
+      "a": "Two types",
+      "b": "Infinite sources",
+      "c": "No applications"
+    },
+    "correct_answer": "a",
+    "explanation": "Electricity is noted to have two types: static and current electricity."
+  },
+  {
+    "question_number": 29,
+    "question": "What produces a large amount of power?",
+    "options": {
+      "a": "Ohm's Law theorem",
+      "b": "Faraday's Law",
+      "c": "Coulomb's Law"
+    },
+    "correct_answer": "a",
+    "explanation": "Ohm's Law theorem is associated with power production in electrical circuits."
+  },
+  {
+    "question_number": 30,
+    "question": "What is renewable in terms of control?",
+    "options": {
+      "a": "Current",
+      "b": "Voltage",
+      "c": "Power"
+    },
+    "correct_answer": "a",
+    "explanation": "Renewable control can refer to managing current in sustainable energy systems."
+  },
+  {
+    "question_number": 31,
+    "question": "Where is power generation used with magnets?",
+    "options": {
+      "a": "Aircraft",
+      "b": "Ships",
+      "c": "Cars"
+    },
+    "correct_answer": "a",
+    "explanation": "Power generation using magnets is utilized in aircraft systems."
+  },
+  {
+    "question_number": 32,
+    "question": "What creates potential interteam bonding?",
+    "options": {
+      "a": "Magnetic field",
+      "b": "Electric field",
+      "c": "Gravitational field"
+    },
+    "correct_answer": "a",
+    "explanation": "A magnetic field can create potential for interteam (intermolecular) bonding in certain contexts."
+  },
+  {
+    "question_number": 33,
+    "question": "What is the specific gravity range for a NiCd battery electrolyte?",
+    "options": {
+      "a": "1.20 - 1.30",
+      "b": "1.40 - 1.300",
+      "c": "1.50 - 1.60"
+    },
+    "correct_answer": "b",
+    "explanation": "The specific gravity range for a NiCd battery electrolyte is typically 1.40 to 1.300."
+  }
+]

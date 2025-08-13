@@ -1,0 +1,2105 @@
+{
+  "exam_title": "Electronics and Electrical Engineering - Module 1",
+  "questions": [
+    {
+      "question_number": 1,
+      "lesson": "1",
+      "topic": "Generators and Motors",
+      "subtopic": "Introduction",
+      "difficulty": "Easy",
+      "question": "Which electrical machine converts mechanical energy into electrical energy?",
+      "options": {
+        "a": "Motor",
+        "b": "Generator",
+        "c": "Transformer"
+      },
+      "correct_answer": "b",
+      "explanation": "A generator is defined as a machine that converts mechanical energy to electrical energy[cite: 23]."
+    },
+    {
+      "question_number": 2,
+      "lesson": "1",
+      "topic": "Generators and Motors",
+      "subtopic": "Introduction",
+      "difficulty": "Easy",
+      "question": "What is the primary function of an electric motor?",
+      "options": {
+        "a": "To convert mechanical energy to electrical energy",
+        "b": "To convert electrical energy to mechanical energy",
+        "c": "To convert AC to DC"
+      },
+      "correct_answer": "b",
+      "explanation": "A motor is defined as a machine that converts electrical energy to mechanical energy[cite: 24, 454, 455]."
+    },
+    {
+      "question_number": 3,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "The operation of a generator is based on which principle?",
+      "options": {
+        "a": "Electromagnetic Force",
+        "b": "Photoelectric Effect",
+        "c": "Electro-Magnetic Induction"
+      },
+      "correct_answer": "c",
+      "explanation": "The principle of operation for a generator is Electro-Magnetic Induction, as described by Faraday's law[cite: 86, 87]."
+    },
+    {
+      "question_number": 4,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "According to Faraday's law, the magnitude of the induced EMF is equal to what?",
+      "options": {
+        "a": "The rate of change of magnetic flux linkage",
+        "b": "The strength of the magnetic field",
+        "c": "The speed of the conductor"
+      },
+      "correct_answer": "a",
+      "explanation": "Faraday's law states that the magnitude of the induced emf is equal to the rate of change of flux linkage, represented by the formula e = -dΦ/dt[cite: 88, 89]."
+    },
+    {
+      "question_number": 5,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Easy",
+      "question": "What are the two essential components required for a generator to operate?",
+      "options": {
+        "a": "A battery and a switch",
+        "b": "A magnetic field and a conductor",
+        "c": "A commutator and a rectifier"
+      },
+      "correct_answer": "b",
+      "explanation": "The main parts required for generation are a magnetic field and a conductor (or conductors) that moves to cut the magnetic flux[cite: 93, 94, 95]."
+    },
+    {
+      "question_number": 6,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "What is the function of a commutator in a DC generator?",
+      "options": {
+        "a": "To convert mechanical energy to electrical energy",
+        "b": "To reverse the external connection to the armature as the current reverses",
+        "c": "To transfer current from a stationary unit to a rotating unit"
+      },
+      "correct_answer": "b",
+      "explanation": "A commutator is a rotary electrical switch that periodically reverses the current direction between the rotor and the external circuit, a process called commutation[cite: 155, 243]."
+    },
+    {
+      "question_number": 7,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Drawbacks",
+      "difficulty": "Medium",
+      "question": "What is the main drawback of a simple DC generator with a single coil?",
+      "options": {
+        "a": "It produces a very low voltage",
+        "b": "It produces a pulsating DC output",
+        "c": "It requires a very strong magnetic field"
+      },
+      "correct_answer": "b",
+      "explanation": "A simple DC generator produces a pulsating DC which is not satisfactory for most practical applications, like communication equipment[cite: 198]."
+    },
+    {
+      "question_number": 8,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Drawbacks",
+      "difficulty": "Easy",
+      "question": "How can the pulsation or ripple in the output voltage of a DC generator be reduced?",
+      "options": {
+        "a": "By increasing the rotation speed",
+        "b": "By using a weaker magnet",
+        "c": "By increasing the number of armature coils and poles"
+      },
+      "correct_answer": "c",
+      "explanation": "To eliminate the drawback of pulsating DC, methods include using more armature coils and more poles[cite: 200, 201, 202, 221]."
+    },
+    {
+      "question_number": 9,
+      "lesson": "1",
+      "topic": "AC vs DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "What is the key difference between a simple AC generator and a simple DC generator in terms of construction?",
+      "options": {
+        "a": "AC generators use electromagnets, while DC generators use permanent magnets.",
+        "b": "AC generators use slip rings, while DC generators use a split-ring commutator.",
+        "c": "AC generators have a stationary armature, while DC generators have a rotating armature."
+      },
+      "correct_answer": "b",
+      "explanation": "The primary constructional difference is that a simple AC generator uses slip rings to connect to the external circuit [cite: 116], while a simple DC generator uses a split-ring commutator to reverse the connection and produce pulsating DC[cite: 153, 185, 187]."
+    },
+    {
+      "question_number": 10,
+      "lesson": "1",
+      "topic": "AC Generators (Alternators)",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "In most aircraft alternators, which part rotates and which part is stationary?",
+      "options": {
+        "a": "Rotating armature and stationary field",
+        "b": "Rotating field and stationary armature",
+        "c": "Both armature and field rotate"
+      },
+      "correct_answer": "b",
+      "explanation": "Most aircraft alternators are constructed with a rotating field and a stationary armature. This is a major difference from DC generators which typically have a rotating armature and stationary field[cite: 387, 389, 394]."
+    },
+    {
+      "question_number": 11,
+      "lesson": "1",
+      "topic": "AC Generators (Alternators)",
+      "subtopic": "Advantages",
+      "difficulty": "Easy",
+      "question": "Which of the following is an advantage of using AC power on aircraft?",
+      "options": {
+        "a": "It is easier to generate at low speeds",
+        "b": "It eliminates the need for batteries",
+        "c": "It saves space and weight"
+      },
+      "correct_answer": "c",
+      "explanation": "Advantages of using AC power on aircraft include saving space and weight, improved transmission efficiency, and minimized commutation problems[cite: 366, 367, 369, 370]."
+    },
+    {
+      "question_number": 12,
+      "lesson": "1",
+      "topic": "DC Motors",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "The tendency of a force to produce rotation in a motor is called what?",
+      "options": {
+        "a": "Inertia",
+        "b": "Torque",
+        "c": "EMF"
+      },
+      "correct_answer": "b",
+      "explanation": "Torque is defined as the tendency of a force to produce rotation. In a motor, the interaction of magnetic fields develops a torque that rotates the armature[cite: 479, 512]."
+    },
+    {
+      "question_number": 13,
+      "lesson": "1",
+      "topic": "DC Motors",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "Which rule is used to determine the direction of rotation of a conductor in a DC motor?",
+      "options": {
+        "a": "Right-Hand Motor Rule",
+        "b": "Left-Hand Generator Rule",
+        "c": "Faraday's Rule"
+      },
+      "correct_answer": "a",
+      "explanation": "The direction of rotation of the current-carrying conductor in a magnetic field is determined by the Right-hand motor rule[cite: 542, 548]."
+    },
+    {
+      "question_number": 14,
+      "lesson": "1",
+      "topic": "DC Motors",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Hard",
+      "question": "The torque developed in a DC motor does NOT depend on which of the following factors?",
+      "options": {
+        "a": "The strength of the magnetic field",
+        "b": "The material of the brushes",
+        "c": "The number of turns in the coil"
+      },
+      "correct_answer": "b",
+      "explanation": "The torque developed in a motor depends on the strength of the magnetic field, the number of turns in the coil (loop), and the position of the coil in the field[cite: 528, 529, 530, 532]."
+    },
+    {
+      "question_number": 15,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "What creates the rotation in an AC induction motor?",
+      "options": {
+        "a": "A commutator reversing the current",
+        "b": "A rotating magnetic field produced by the stator",
+        "c": "A permanent magnet attached to the rotor"
+      },
+      "correct_answer": "b",
+      "explanation": "The basic working principle of an AC motor is that an alternating current in the stator windings produces a rotating magnetic field, which then induces a current in the rotor, causing it to rotate[cite: 563, 564]."
+    },
+    {
+      "question_number": 16,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "In an electrical machine, what is the term for the stationary part?",
+      "options": {
+        "a": "Rotor",
+        "b": "Armature",
+        "c": "Stator"
+      },
+      "correct_answer": "c",
+      "explanation": "The stator is the stationary part of an electrical machine[cite: 240]."
+    },
+    {
+      "question_number": 17,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What is the term for the rotating part of an electrical machine?",
+      "options": {
+        "a": "Stator",
+        "b": "Rotor",
+        "c": "Field frame"
+      },
+      "correct_answer": "b",
+      "explanation": "The rotor is the rotating part of an electrical machine[cite: 239]."
+    },
+    {
+      "question_number": 18,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "Which component in a DC generator is described as the 'power producing component'?",
+      "options": {
+        "a": "The Field",
+        "b": "The Armature",
+        "c": "The Brush Rigging"
+      },
+      "correct_answer": "b",
+      "explanation": "The armature is defined as the power-producing component in an electrical machine, and it can be either the rotor or the stator[cite: 241]."
+    },
+    {
+      "question_number": 19,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "The brushes in a DC generator are typically made of what material?",
+      "options": {
+        "a": "Copper and zinc",
+        "b": "Aluminum and steel",
+        "c": "Carbon and graphite compounds"
+      },
+      "correct_answer": "c",
+      "explanation": "Brushes are described as blocks of carbon and graphite compounds. Special types are used for aircraft to reduce arcing at high altitudes[cite: 326]."
+    },
+    {
+      "question_number": 20,
+      "lesson": "1",
+      "topic": "AC Generators (Alternators)",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "For light aircraft, the AC output of the alternator is often converted to DC using what component?",
+      "options": {
+        "a": "A split-ring commutator",
+        "b": "A three-phase full wave rectifier",
+        "c": "A voltage inverter"
+      },
+      "correct_answer": "b",
+      "explanation": "In alternator systems for light aircraft, the AC output is rectified using a three-phase full wave rectifier to supply DC power[cite: 429]."
+    },
+    {
+      "question_number": 21,
+      "lesson": "1",
+      "topic": "AC Generators (Alternators)",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "In a three-phase aircraft alternator, the stator windings are spaced how many degrees apart?",
+      "options": {
+        "a": "90°",
+        "b": "120°",
+        "c": "180°"
+      },
+      "correct_answer": "b",
+      "explanation": "A three-phase aircraft alternator has three single windings on the stator, which are spaced 120° apart[cite: 415, 416, 417]."
+    },
+    {
+      "question_number": 22,
+      "lesson": "1",
+      "topic": "DC Motors",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What are the two main parts of a DC motor?",
+      "options": {
+        "a": "Stator and Commutator",
+        "b": "Armature and Field Frame",
+        "c": "Brushes and Bearings"
+      },
+      "correct_answer": "b",
+      "explanation": "A DC motor has two main parts: the rotating part, which is the armature, and the stationary part, which is the field frame[cite: 472, 473, 474]."
+    },
+    {
+      "question_number": 23,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "Which type of AC motor rotates at the same speed as the stator field and is used for precision applications?",
+      "options": {
+        "a": "Induction Motor",
+        "b": "Asynchronous Motor",
+        "c": "Synchronous Motor"
+      },
+      "correct_answer": "c",
+      "explanation": "Synchronous motors are characterized by the rotor rotating at the same speed as the stator field. They are common in precision applications like timing[cite: 642, 647]."
+    },
+    {
+      "question_number": 24,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "What is another name for an induction motor?",
+      "options": {
+        "a": "Synchronous Motor",
+        "b": "Asynchronous Motor",
+        "c": "Commutator Motor"
+      },
+      "correct_answer": "b",
+      "explanation": "Induction motors are also known as Asynchronous motors[cite: 643]."
+    },
+    {
+      "question_number": 25,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "Which type of AC motor is most commonly used in industrial environments for applications like compressors and pumps?",
+      "options": {
+        "a": "Single-phase induction motor",
+        "b": "Synchronous motor",
+        "c": "Three-phase induction motor"
+      },
+      "correct_answer": "c",
+      "explanation": "Three-phase induction motors are used in industrial environments and are known for their durability and efficiency in applications such as compressors, conveyors, and pumps[cite: 652, 653]."
+    },
+    {
+      "question_number": 26,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "What rule helps determine the direction of current flow in a generator conductor?",
+      "options": {
+        "a": "Right-Hand Motor Rule",
+        "b": "Left-Hand Generator Rule",
+        "c": "Corkscrew Rule"
+      },
+      "correct_answer": "b",
+      "explanation": "The Generator Left Hand Rule is used to determine the direction of current flow in the conductor due to induced EMF[cite: 102, 103]."
+    },
+    {
+      "question_number": 27,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "The armature assembly in a DC generator consists of a laminated soft iron core, coils, and what other key component?",
+      "options": {
+        "a": "Field Winding",
+        "b": "Commutator",
+        "c": "Pole Shoe"
+      },
+      "correct_answer": "b",
+      "explanation": "The armature assembly consists of a laminated soft iron core mounted on a steel shaft, the commutator, and associated mechanical parts[cite: 287]."
+    },
+    {
+      "question_number": 28,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What is the purpose of the field frame in a DC generator?",
+      "options": {
+        "a": "To rotate the armature",
+        "b": "To support the field poles and form the magnetic circuit",
+        "c": "To cool the generator"
+      },
+      "correct_answer": "b",
+      "explanation": "The field frame, or ring, is a high-quality magnetic iron or steel housing that supports the field poles and forms the magnetic circuit[cite: 303]."
+    },
+    {
+      "question_number": 29,
+      "lesson": "1",
+      "topic": "AC Generators (Alternators)",
+      "subtopic": "Control",
+      "difficulty": "Hard",
+      "question": "How is the output voltage of an aircraft alternator kept steady under varying loads?",
+      "options": {
+        "a": "By changing the rotation speed of the engine",
+        "b": "By using a voltage regulator to vary the field excitation current",
+        "c": "By rectifying the output using diodes"
+      },
+      "correct_answer": "b",
+      "explanation": "A voltage regulator is used to vary the field strength to provide a steady output. It achieves this by varying the field excitation current according to load requirements[cite: 395, 396]."
+    },
+    {
+      "question_number": 30,
+      "lesson": "1",
+      "topic": "DC Motors",
+      "subtopic": "Principle of Operation",
+      "difficulty": "Medium",
+      "question": "In a DC motor, what happens when current flows through a conductor placed in a magnetic field?",
+      "options": {
+        "a": "The conductor heats up and emits light",
+        "b": "The magnetic field is cancelled out",
+        "c": "The two magnetic fields interact and develop a force"
+      },
+      "correct_answer": "c",
+      "explanation": "When a current-carrying conductor is placed between the poles of a magnet, the magnetic field from the conductor and the main magnet interact to develop a force, which creates torque[cite: 484]."
+    },
+    {
+      "question_number": 31,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Advantages",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT an advantage of AC motors?",
+      "options": {
+        "a": "Simple design",
+        "b": "High maintenance",
+        "c": "High efficiency"
+      },
+      "correct_answer": "b",
+      "explanation": "Advantages of AC motors include simple design, low maintenance, high efficiency, and being reliable and cost-effective[cite: 654, 655, 656, 657, 658]."
+    },
+    {
+      "question_number": 32,
+      "lesson": "1",
+      "topic": "Generators and Motors",
+      "subtopic": "Aircraft Systems",
+      "difficulty": "Easy",
+      "question": "What is the purpose of generators mounted on an aircraft engine?",
+      "options": {
+        "a": "To help cool the engine during flight",
+        "b": "To supply electrical energy for all aircraft electrical and electronic equipment",
+        "c": "To provide hydraulic pressure for the flight controls"
+      },
+      "correct_answer": "b",
+      "explanation": "The electrical energy required for the operation of all aircraft electrical and electronic equipment is supplied by generators mounted on the aircraft engine[cite: 71]."
+    },
+    {
+      "question_number": 33,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Power Sources",
+      "difficulty": "Easy",
+      "question": "Besides a DC generator, what is another common source of DC power on an aircraft?",
+      "options": {
+        "a": "An inverter",
+        "b": "A battery",
+        "c": "The APU"
+      },
+      "correct_answer": "b",
+      "explanation": "Direct current (DC) can be produced by a battery or a DC generator[cite: 67, 68, 69]. Aircraft DC power sources include both batteries and electrical generators[cite: 73, 79, 81]."
+    },
+    {
+      "question_number": 34,
+      "lesson": "1",
+      "topic": "DC Generators",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "What component holds the armature coils in place within the slots of the armature core?",
+      "options": {
+        "a": "Steel wedges",
+        "b": "Nonmetallic wedges",
+        "c": "Copper segments"
+      },
+      "correct_answer": "b",
+      "explanation": "The armature coils are held in place by nonmetallic wedges that are placed in the slots of the armature[cite: 288]."
+    },
+    {
+      "question_number": 35,
+      "lesson": "1",
+      "topic": "AC Motors",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "Single-phase induction motors, often used in homes for fans and refrigerators, frequently use what component for starting?",
+      "options": {
+        "a": "A resistor",
+        "b": "An inductor",
+        "c": "A capacitor"
+      },
+      "correct_answer": "c",
+      "explanation": "Single-phase induction motors, used in household appliances, often use a capacitor for starting[cite: 650, 651]."
+    },
+    {
+      "question_number": 36,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "Which of the following materials is a common semiconductor?",
+      "options": {
+        "a": "Copper",
+        "b": "Silicon",
+        "c": "Glass"
+      },
+      "correct_answer": "b",
+      "explanation": "Common types of semiconductor materials include Silicon, Germanium, Selenium, and Gallium[cite: 733]."
+    },
+    {
+      "question_number": 37,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Doping",
+      "difficulty": "Medium",
+      "question": "What is the process of adding impurity atoms to a pure semiconductor crystal called?",
+      "options": {
+        "a": "Ionization",
+        "b": "Doping",
+        "c": "Annealing"
+      },
+      "correct_answer": "b",
+      "explanation": "The process of adding foreign atoms (impurities) to semiconductor crystals to modify their properties is referred to as doping[cite: 743, 844]."
+    },
+    {
+      "question_number": 38,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "If a semiconductor is doped with an impurity that increases the number of free electrons, what type of semiconductor is created?",
+      "options": {
+        "a": "P-type",
+        "b": "N-type",
+        "c": "Intrinsic"
+      },
+      "correct_answer": "b",
+      "explanation": "When an impurity increases the number of free electrons, the doped semiconductor is a negative or N-type semiconductor[cite: 852]."
+    },
+    {
+      "question_number": 39,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "If a semiconductor is doped with an impurity that creates more holes, what type of semiconductor is it?",
+      "options": {
+        "a": "N-type",
+        "b": "Intrinsic",
+        "c": "P-type"
+      },
+      "correct_answer": "c",
+      "explanation": "When an impurity reduces the number of free electrons, causing more holes, it creates a positive or P-type semiconductor[cite: 853]."
+    },
+    {
+      "question_number": 40,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Charge Carriers",
+      "difficulty": "Easy",
+      "question": "In a P-type semiconductor, what are the majority charge carriers?",
+      "options": {
+        "a": "Electrons",
+        "b": "Holes",
+        "c": "Ions"
+      },
+      "correct_answer": "b",
+      "explanation": "In P-type semiconductors, holes are considered the majority carriers, while electrons are the minority carriers[cite: 906, 907]."
+    },
+    {
+      "question_number": 41,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Charge Carriers",
+      "difficulty": "Easy",
+      "question": "In an N-type semiconductor, what are the majority charge carriers?",
+      "options": {
+        "a": "Holes",
+        "b": "Protons",
+        "c": "Electrons"
+      },
+      "correct_answer": "c",
+      "explanation": "In N-type semiconductors, electrons are in surplus and are the majority carriers, while holes are the minority carriers[cite: 901, 904, 905]."
+    },
+    {
+      "question_number": 42,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "PN Junction",
+      "difficulty": "Medium",
+      "question": "What is the region near a PN junction that has no free charge carriers called?",
+      "options": {
+        "a": "The barrier zone",
+        "b": "The depletion region",
+        "c": "The neutral zone"
+      },
+      "correct_answer": "b",
+      "explanation": "With no externally applied potential, electrons from the N-type material cross into the P-type region and fill some holes. This forms a region with no free charge carriers called the depletion region[cite: 1038, 923]."
+    },
+    {
+      "question_number": 43,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "Biasing",
+      "difficulty": "Medium",
+      "question": "When a diode is 'forward-biased', what is the state of the depletion region and current flow?",
+      "options": {
+        "a": "The depletion region widens and no current flows.",
+        "b": "The depletion region shrinks and current flows.",
+        "c": "The depletion region is unchanged and a small current flows."
+      },
+      "correct_answer": "b",
+      "explanation": "Under forward-bias, the applied voltage pushes holes and electrons toward the junction, causing the depletion zone to shrink in size and allowing current to flow[cite: 941, 942, 944]."
+    },
+    {
+      "question_number": 44,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "Biasing",
+      "difficulty": "Medium",
+      "question": "How is a diode 'reverse-biased'?",
+      "options": {
+        "a": "The P-side is made more positive than the N-side.",
+        "b": "The N-side is made more positive than the P-side.",
+        "c": "No voltage is applied across the diode."
+      },
+      "correct_answer": "b",
+      "explanation": "A diode is in 'reverse-bias' when the n-side is made more positive than the p-side. This pulls charge carriers away from the junction and stops the flow of current[cite: 1020, 957, 958]."
+    },
+    {
+      "question_number": 45,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What are the names of the two terminals of a conventional diode?",
+      "options": {
+        "a": "Source and Drain",
+        "b": "Emitter and Collector",
+        "c": "Anode and Cathode"
+      },
+      "correct_answer": "c",
+      "explanation": "The terminal on the P-type side of a diode is called the anode, and the terminal on the N-type side is called the cathode[cite: 1035, 1036]."
+    },
+    {
+      "question_number": 46,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "What is a primary application of a conventional diode?",
+      "options": {
+        "a": "To amplify a signal",
+        "b": "To act as an AC to DC converter (rectifier)",
+        "c": "To store memory"
+      },
+      "correct_answer": "b",
+      "explanation": "Diodes can be used for several functions, including as an AC to DC converter, which is also known as a rectifier[cite: 1081]."
+    },
+    {
+      "question_number": 47,
+      "lesson": "2",
+      "topic": "Zener Diodes",
+      "subtopic": "Characteristics",
+      "difficulty": "Medium",
+      "question": "How does a Zener diode differ from a conventional diode in its construction?",
+      "options": {
+        "a": "It is made from a different semiconductor material.",
+        "b": "It has four layers instead of two.",
+        "c": "It is more heavily doped."
+      },
+      "correct_answer": "c",
+      "explanation": "A Zener diode is heavily doped compared to an ordinary PN junction diode, which results in a very narrow depletion region[cite: 1085, 1090]."
+    },
+    {
+      "question_number": 48,
+      "lesson": "2",
+      "topic": "Zener Diodes",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "In which region is a Zener diode designed to operate for its primary application?",
+      "options": {
+        "a": "Forward bias region",
+        "b": "Reverse bias breakdown region",
+        "c": "Cutoff region"
+      },
+      "correct_answer": "b",
+      "explanation": "A Zener diode is specifically designed to operate in the reverse bias breakdown region, where the voltage across it remains constant[cite: 1091, 1093]."
+    },
+    {
+      "question_number": 49,
+      "lesson": "2",
+      "topic": "Zener Diodes",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "What is the most common application of a Zener diode?",
+      "options": {
+        "a": "As a current amplifier",
+        "b": "As a voltage regulator",
+        "c": "As a light emitter"
+      },
+      "correct_answer": "b",
+      "explanation": "Because the Zener voltage (Vz) remains fairly constant, this property makes it ideal for use as a voltage regulator[cite: 1103, 1104]."
+    },
+    {
+      "question_number": 50,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "What are the two types of Bipolar Junction Transistors (BJT)?",
+      "options": {
+        "a": "P-type and N-type",
+        "b": "JFET and MOSFET",
+        "c": "NPN and PNP"
+      },
+      "correct_answer": "c",
+      "explanation": "A BJT has two types: NPN and PNP[cite: 1117]."
+    },
+    {
+      "question_number": 51,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "Which of the three regions in a BJT is very lightly doped and controls the flow of current carriers?",
+      "options": {
+        "a": "Emitter",
+        "b": "Base",
+        "c": "Collector"
+      },
+      "correct_answer": "b",
+      "explanation": "The Base (B) is the middle region, it is very lightly doped, and it controls the flow of current carriers[cite: 1118]."
+    },
+    {
+      "question_number": 52,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "For a BJT to operate as an amplifier in the 'Active Region', how must its junctions be biased?",
+      "options": {
+        "a": "Both junctions forward-biased",
+        "b": "Both junctions reverse-biased",
+        "c": "Base-Emitter junction forward-biased and Collector-Base junction reverse-biased"
+      },
+      "correct_answer": "c",
+      "explanation": "In the Active Region, the Base-Emitter (B-E) junction is forward biased and the Collector-Base (C-B) junction is reverse biased. This allows the transistor to act as an amplifier[cite: 1129]."
+    },
+    {
+      "question_number": 53,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Configurations",
+      "difficulty": "Hard",
+      "question": "Which BJT configuration is characterized by high input impedance, very low output impedance, and a voltage gain of approximately one?",
+      "options": {
+        "a": "Common-Emitter",
+        "b": "Common-Base",
+        "c": "Common-Collector (Emitter-Follower)"
+      },
+      "correct_answer": "c",
+      "explanation": "The Common-Collector configuration, also known as an Emitter-Follower, has high input impedance, very low output impedance, unity voltage gain, and high current gain. It is often used as a buffer[cite: 1134, 1135, 1138]."
+    },
+    {
+      "question_number": 54,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Configurations",
+      "difficulty": "Medium",
+      "question": "Which BJT configuration is most commonly used as a voltage amplifier?",
+      "options": {
+        "a": "Common-Collector",
+        "b": "Common-Emitter",
+        "c": "Common-Base"
+      },
+      "correct_answer": "b",
+      "explanation": "The Common-Emitter configuration has high voltage and current gain and is mostly used as a voltage amplifier[cite: 1132]."
+    },
+    {
+      "question_number": 55,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "Besides amplification, what is another primary application of a BJT?",
+      "options": {
+        "a": "As a voltage reference",
+        "b": "As a light source",
+        "c": "As a switch"
+      },
+      "correct_answer": "c",
+      "explanation": "A transistor can be used as a voltage-controlled switch. If the base-emitter junction is reverse-biased, no current flows, and the transistor is 'off'. This is how computers use transistors[cite: 1141, 1142]."
+    },
+    {
+      "question_number": 56,
+      "lesson": "2",
+      "topic": "Thyristors (SCR)",
+      "subtopic": "Construction",
+      "difficulty": "Easy",
+      "question": "How many layers does a thyristor (SCR) have?",
+      "options": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four"
+      },
+      "correct_answer": "c",
+      "explanation": "A thyristor is a four-layer, three-PN junction device[cite: 1151]. The Silicon Controlled Rectifier (SCR) is also a four-layer device[cite: 1164]."
+    },
+    {
+      "question_number": 57,
+      "lesson": "2",
+      "topic": "Thyristors (SCR)",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "How is an SCR turned ON?",
+      "options": {
+        "a": "By applying a reverse voltage to the anode",
+        "b": "By applying a positive current pulse to the gate",
+        "c": "By heating the device"
+      },
+      "correct_answer": "b",
+      "explanation": "An SCR is turned ON when it is forward biased and a positive pulse of current (a trigger) is applied to the gate terminal[cite: 1153, 1170]."
+    },
+    {
+      "question_number": 58,
+      "lesson": "2",
+      "topic": "Thyristors (SCR)",
+      "subtopic": "Operation",
+      "difficulty": "Hard",
+      "question": "Once an SCR is triggered 'ON', what condition must be met for it to remain latched 'ON' even if the gate current is removed?",
+      "options": {
+        "a": "The anode current must be greater than the holding current",
+        "b": "The gate voltage must remain positive",
+        "c": "The ambient temperature must stay constant"
+      },
+      "correct_answer": "a",
+      "explanation": "Once triggered ON, an SCR will be latched ON, continuing to conduct even if the gate current is no longer applied, provided the anode current is above the latching current. To maintain conduction, the anode current must be greater than the holding current[cite: 1159, 1160]."
+    },
+    {
+      "question_number": 59,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "Which photosensitive device converts light energy directly into DC electrical energy?",
+      "options": {
+        "a": "Photoresistor",
+        "b": "Photovoltaic cell (Solar cell)",
+        "c": "Light Emitting Diode (LED)"
+      },
+      "correct_answer": "b",
+      "explanation": "Photovoltaic cells, also known as solar cells, are devices that convert light energy directly into DC electrical energy (voltage or current)[cite: 1184, 1187]."
+    },
+    {
+      "question_number": 60,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "What is the characteristic behavior of a photoresistor (LDR)?",
+      "options": {
+        "a": "Its resistance increases with increasing light intensity.",
+        "b": "It generates a voltage proportional to light intensity.",
+        "c": "Its resistance decreases with increasing light intensity."
+      },
+      "correct_answer": "c",
+      "explanation": "A photoresistor, or light-dependent resistor (LDR), is a component whose electrical resistance decreases with increasing incident light intensity[cite: 1194, 1198]."
+    },
+    {
+      "question_number": 61,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "Which device is a light-sensitive transistor, often constructed with a large, unconnected base region exposed to light?",
+      "options": {
+        "a": "Photodiode",
+        "b": "Phototransistor",
+        "c": "Photovoltaic cell"
+      },
+      "correct_answer": "b",
+      "explanation": "A phototransistor is a light-sensitive transistor, typically a bipolar NPN transistor with its large base region electrically unconnected and exposed to light through a transparent casing[cite: 1214, 1215]."
+    },
+    {
+      "question_number": 62,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Light Sources",
+      "difficulty": "Medium",
+      "question": "How does a Light Emitting Diode (LED) produce light?",
+      "options": {
+        "a": "Through incandescence, like a light bulb filament",
+        "b": "Through the recombination of electrons and holes at the p-n junction",
+        "c": "By reflecting ambient light"
+      },
+      "correct_answer": "b",
+      "explanation": "LEDs are p-n diodes where the recombination of electrons and holes at the junction yields a photon. When an electron moves to a lower energy level, it emits energy in the form of a photon (light)[cite: 1225, 1226]."
+    },
+    {
+      "question_number": 63,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Light Sources",
+      "difficulty": "Medium",
+      "question": "In a Liquid Crystal Display (LCD), what is used to control whether light passes through the pixel or not?",
+      "options": {
+        "a": "A magnetic field",
+        "b": "An electric field",
+        "c": "The temperature of the crystal"
+      },
+      "correct_answer": "b",
+      "explanation": "A property of liquid crystals is that they can be reoriented by an electric field. This reorientation controls whether polarized light can pass through the second polarizing filter, thus turning a pixel on or off[cite: 1241, 1245]."
+    },
+    {
+      "question_number": 64,
+      "lesson": "2",
+      "topic": "Electronics Fundamentals",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "Which of the following is an application of electronics in aircraft?",
+      "options": {
+        "a": "Engine fuel",
+        "b": "Tire pressure monitoring",
+        "c": "Aircraft Communication systems (HF, VHF, SATCOM)"
+      },
+      "correct_answer": "c",
+      "explanation": "Applications of electronics in aircraft include communication systems like HF, VHF, and SATCOM, as well as digital systems, control systems like autopilot, and fire detection systems[cite: 697, 698, 702, 703]."
+    },
+    {
+      "question_number": 65,
+      "lesson": "2",
+      "topic": "Energy Band Theory",
+      "subtopic": "Material Types",
+      "difficulty": "Medium",
+      "question": "According to the energy band theory, what is the main difference between an insulator and a conductor?",
+      "options": {
+        "a": "Conductors have a very large energy gap, while insulators have none.",
+        "b": "Insulators have a large energy gap, while the bands in conductors overlap.",
+        "c": "Insulators and conductors have a similar small energy gap."
+      },
+      "correct_answer": "b",
+      "explanation": "Insulators have a large forbidden energy gap, making it difficult for electrons to move to the conduction band. In conductors (metals), the valence and conduction bands overlap, allowing electrons to move freely[cite: 755, 756, 805, 808]."
+    },
+    {
+      "question_number": 66,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Doping",
+      "difficulty": "Medium",
+      "question": "An impurity atom with 5 valence electrons, like Arsenic, when added to a semiconductor is called what?",
+      "options": {
+        "a": "An acceptor impurity",
+        "b": "A trivalent impurity",
+        "c": "A donor impurity"
+      },
+      "correct_answer": "c",
+      "explanation": "An impurity with 5 valence electrons is called a pentavalent impurity. Since it donates one electron to the doped material, it is also called a donor impurity[cite: 862, 863, 864]."
+    },
+    {
+      "question_number": 67,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Doping",
+      "difficulty": "Medium",
+      "question": "An impurity atom with 3 valence electrons, like Indium, when added to a semiconductor is called what?",
+      "options": {
+        "a": "An acceptor impurity",
+        "b": "A donor impurity",
+        "c": "A pentavalent impurity"
+      },
+      "correct_answer": "a",
+      "explanation": "Impurities that have only 3 valence electrons are called trivalent impurities. Since they can accept an electron to complete a bond, they are also called acceptor impurities[cite: 883, 884]."
+    },
+    {
+      "question_number": 68,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "PN Junction",
+      "difficulty": "Medium",
+      "question": "What prevents further diffusion of charge carriers across a PN junction once the depletion region is formed?",
+      "options": {
+        "a": "An opposing electric field, or barrier voltage",
+        "b": "The high temperature of the junction",
+        "c": "The physical separation of the materials"
+      },
+      "correct_answer": "a",
+      "explanation": "The charged ions left behind create an electric field across the junction, known as the barrier voltage, which opposes and eventually stops further diffusion[cite: 933, 934]."
+    },
+    {
+      "question_number": 69,
+      "lesson": "2",
+      "topic": "Diodes",
+      "subtopic": "Characteristics",
+      "difficulty": "Easy",
+      "question": "A diode is also called a unidirectional device because it:",
+      "options": {
+        "a": "Only works with DC current",
+        "b": "Allows the flow of current in only one direction",
+        "c": "Has only one terminal"
+      },
+      "correct_answer": "b",
+      "explanation": "A diode allows the flow of current in one direction and is therefore also called a unidirectional device[cite: 987]."
+    },
+    {
+      "question_number": 70,
+      "lesson": "2",
+      "topic": "Zener Diodes",
+      "subtopic": "Operation",
+      "difficulty": "Hard",
+      "question": "What is the name for the effect where minority carriers in a reverse-biased Zener diode gain enough energy to jump directly between bands, causing current flow?",
+      "options": {
+        "a": "Avalanche effect",
+        "b": "Tunneling",
+        "c": "Zener effect"
+      },
+      "correct_answer": "b",
+      "explanation": "In a reverse-biased Zener diode, minority carriers can gain sufficient energy to jump directly between the conduction and valence bands across the narrow junction. This action is called tunneling[cite: 1097, 1098]."
+    },
+    {
+      "question_number": 71,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "When a BJT is in the 'Saturation Region', how are its junctions biased?",
+      "options": {
+        "a": "Both junctions are reverse-biased",
+        "b": "Both the B-E and C-B junctions are forward-biased",
+        "c": "The B-E junction is reverse-biased and the C-B junction is forward-biased"
+      },
+      "correct_answer": "b",
+      "explanation": "In the Saturation Region, both the Base-Emitter (B-E) junction and the Collector-Base (C-B) junction are forward biased. In this state, the collector current reaches its maximum and is independent of the base current[cite: 1129]."
+    },
+    {
+      "question_number": 72,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Configurations",
+      "difficulty": "Hard",
+      "question": "Which BJT configuration is characterized by low input impedance, high output impedance, and a current gain of less than 1?",
+      "options": {
+        "a": "Common-Emitter",
+        "b": "Common-Base",
+        "c": "Common-Collector"
+      },
+      "correct_answer": "b",
+      "explanation": "The Common-Base configuration is characterized by low input impedance, high output impedance, a current gain of less than 1, and very high voltage gain[cite: 1136, 1138]."
+    },
+    {
+      "question_number": 73,
+      "lesson": "2",
+      "topic": "Thyristors (SCR)",
+      "subtopic": "Ratings",
+      "difficulty": "Medium",
+      "question": "What is the 'Holding Current' (IH) of an SCR?",
+      "options": {
+        "a": "The minimum gate current required to turn the SCR on",
+        "b": "The maximum anode current the SCR can handle",
+        "c": "The value of anode current below which the SCR switches off"
+      },
+      "correct_answer": "c",
+      "explanation": "Holding current, IH, is the value of anode current below which the SCR switches from the forward-conduction region to the forward-blocking region (i.e., it turns off)[cite: 1176]."
+    },
+    {
+      "question_number": 74,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "Which device would be most suitable for use in a camera light meter or a solar street lamp?",
+      "options": {
+        "a": "A Zener diode",
+        "b": "A photoresistor",
+        "c": "An SCR"
+      },
+      "correct_answer": "b",
+      "explanation": "Photoresistors are used in light-sensitive detector circuits such as camera light meters and solar street lamps[cite: 1200]."
+    },
+    {
+      "question_number": 75,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Types",
+      "difficulty": "Medium",
+      "question": "Which light detector is essentially a p-n diode designed to operate in reverse bias, where the reverse current is proportional to the light intensity?",
+      "options": {
+        "a": "Phototransistor",
+        "b": "Photodiode",
+        "c": "Photoresistor"
+      },
+      "correct_answer": "b",
+      "explanation": "A photodiode is designed to operate in reverse bias. When light falls on the junction, a reverse current flows that is proportional to the illuminance[cite: 1205, 1207, 1208]."
+    },
+    {
+      "question_number": 76,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Applications",
+      "difficulty": "Medium",
+      "question": "Phototransistors and photodiodes are often used in which of the following applications?",
+      "options": {
+        "a": "High-power rectifiers",
+        "b": "Voltage regulation circuits",
+        "c": "TV remote controls and fiber optics"
+      },
+      "correct_answer": "c",
+      "explanation": "Phototransistors are used in applications like TV type remote controls and fiber optics. Photodiodes are also used in TV remote controls and for fiber optic communications[cite: 1213, 1221]."
+    },
+    {
+      "question_number": 77,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Light Sources",
+      "difficulty": "Medium",
+      "question": "What is an advantage of using LCDs over Cathode Ray Tubes (CRTs) for displays?",
+      "options": {
+        "a": "They have a wider viewing angle",
+        "b": "They produce brighter colors",
+        "c": "They are thinner, lighter, and draw less power"
+      },
+      "correct_answer": "c",
+      "explanation": "LCDs are common because they offer advantages over other technologies like CRTs; they are thinner and lighter and draw much less power[cite: 1248, 1249]."
+    },
+    {
+      "question_number": 78,
+      "lesson": "2",
+      "topic": "Electronics Fundamentals",
+      "subtopic": "Advancement",
+      "difficulty": "Easy",
+      "question": "Analog electronics process which type of signals?",
+      "options": {
+        "a": "Discrete signals",
+        "b": "Continuously varying signals",
+        "c": "Binary signals"
+      },
+      "correct_answer": "b",
+      "explanation": "Analog electronics process continuously varying analog signals, while digital electronics process discrete digital signals[cite: 710, 720]."
+    },
+    {
+      "question_number": 79,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "A perfect semiconductor crystal with no impurities is called what?",
+      "options": {
+        "a": "An extrinsic semiconductor",
+        "b": "An intrinsic semiconductor",
+        "c": "A doped semiconductor"
+      },
+      "correct_answer": "b",
+      "explanation": "The term 'intrinsic semiconductor' is given to a perfect or pure semiconductor crystal with no impurities[cite: 835, 834]."
+    },
+    {
+      "question_number": 80,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Energy Band Theory",
+      "difficulty": "Medium",
+      "question": "In the energy band theory of solids, which band contains the valence electrons?",
+      "options": {
+        "a": "Conduction band",
+        "b": "Forbidden band",
+        "c": "Valence band"
+      },
+      "correct_answer": "c",
+      "explanation": "The energy bands in solids include the conduction band (upper band, free electrons), the forbidden band (energy gap), and the valence band, which is the last band containing valence electrons[cite: 763, 765, 767, 769, 770]."
+    },
+    {
+      "question_number": 81,
+      "lesson": "2",
+      "topic": "Thyristors (SCR)",
+      "subtopic": "Operation",
+      "difficulty": "Medium",
+      "question": "How is an SCR typically turned OFF?",
+      "options": {
+        "a": "By applying a negative pulse to the gate",
+        "b": "By reversing the polarity of the gate current",
+        "c": "By anode current interruption or forced commutation"
+      },
+      "correct_answer": "c",
+      "explanation": "An SCR is turned OFF by two basic methods: anode current interruption or forced commutation, which involves reducing the anode current below the holding value[cite: 1171]."
+    },
+    {
+      "question_number": 82,
+      "lesson": "2",
+      "topic": "Bipolar Junction Transistors (BJT)",
+      "subtopic": "Construction",
+      "difficulty": "Medium",
+      "question": "Which region of a BJT is heavily doped and 'emits' current carriers?",
+      "options": {
+        "a": "Base",
+        "b": "Collector",
+        "c": "Emitter"
+      },
+      "correct_answer": "c",
+      "explanation": "The Emitter (E) region is heavily doped and is responsible for 'emitting' or giving off the current carriers[cite: 1118]."
+    },
+    {
+      "question_number": 83,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Applications",
+      "difficulty": "Easy",
+      "question": "Laser diodes are commonly used in which applications?",
+      "options": {
+        "a": "General purpose lighting",
+        "b": "Laser printers and fiber-optic systems",
+        "c": "Voltage regulation"
+      },
+      "correct_answer": "b",
+      "explanation": "Laser diodes are used in applications such as laser printers and fiber-optic systems[cite: 1252]."
+    },
+    {
+      "question_number": 84,
+      "lesson": "2",
+      "topic": "Photosensitive Devices",
+      "subtopic": "Light Sources",
+      "difficulty": "Medium",
+      "question": "For an LED to emit light, how must it be biased?",
+      "options": {
+        "a": "Reverse-biased",
+        "b": "Forward-biased",
+        "c": "No bias is required"
+      },
+      "correct_answer": "b",
+      "explanation": "Generally, light source devices like LEDs emit light when they are forward-biased, allowing current to flow and recombination to occur[cite: 1224, 1227]."
+    },
+    {
+      "question_number": 85,
+      "lesson": "2",
+      "topic": "Semiconductors",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "Electronics is a branch of engineering that deals with the design and application of what?",
+      "options": {
+        "a": "Mechanical gears and levers",
+        "b": "Electronic devices",
+        "c": "Hydraulic systems"
+      },
+      "correct_answer": "b",
+      "explanation": "Electronics is defined as a branch of engineering that deals with the design and application of electronic devices[cite: 674]."
+    },
+    {
+      "question_number": 86,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Easy",
+      "question": "Which number system uses only the digits 0 and 1?",
+      "options": {
+        "a": "Decimal",
+        "b": "Octal",
+        "c": "Binary"
+      },
+      "correct_answer": "c",
+      "explanation": "The Binary number system uses two digits, 0 and 1, and is also called the base 2 number system[cite: 1272]."
+    },
+    {
+      "question_number": 87,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Medium",
+      "question": "What is the decimal equivalent of the binary number 10101₂?",
+      "options": {
+        "a": "11",
+        "b": "21",
+        "c": "42"
+      },
+      "correct_answer": "b",
+      "explanation": "10101₂ = (1 * 2⁴) + (0 * 2³) + (1 * 2²) + (0 * 2¹) + (1 * 2⁰) = 16 + 0 + 4 + 0 + 1 = 21₁₀[cite: 1275]."
+    },
+    {
+      "question_number": 88,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Easy",
+      "question": "The Hexadecimal number system uses base 16. What digits and letters does it use?",
+      "options": {
+        "a": "0-9, A-G",
+        "b": "0-9, A-F",
+        "c": "0-7, A-H"
+      },
+      "correct_answer": "b",
+      "explanation": "The Hexadecimal number system uses 10 digits (0-9) and 6 letters (A, B, C, D, E, F) to represent values[cite: 1280]."
+    },
+    {
+      "question_number": 89,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Medium",
+      "question": "Using the shortcut method, what is the octal equivalent of the binary number 10101₂?",
+      "options": {
+        "a": "51₈",
+        "b": "25₈",
+        "c": "32₈"
+      },
+      "correct_answer": "b",
+      "explanation": "To convert binary to octal, group the binary digits in threes from the right (010 101). Convert each group to an octal digit: 010₂ = 2₈ and 101₂ = 5₈. The result is 25₈[cite: 1302, 1303, 1305]."
+    },
+    {
+      "question_number": 90,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Complements",
+      "difficulty": "Medium",
+      "question": "What is the 2's complement of a binary number?",
+      "options": {
+        "a": "The number with all bits inverted.",
+        "b": "The 1's complement minus 1.",
+        "c": "The 1's complement plus 1."
+      },
+      "correct_answer": "c",
+      "explanation": "The 2's complement is formed by inverting the digits of the original binary number (finding the 1's complement) and then adding 1 to the result[cite: 1335, 1337]."
+    },
+    {
+      "question_number": 91,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Codes",
+      "difficulty": "Easy",
+      "question": "In digital systems, what is BCD?",
+      "options": {
+        "a": "Binary Coded Decimal",
+        "b": "Basic Computer Digit",
+        "c": "Binary Conversion Data"
+      },
+      "correct_answer": "a",
+      "explanation": "BCD stands for Binary Coded Decimal, which is a way to express each decimal digit with a 4-bit binary code[cite: 1354, 1355]."
+    },
+    {
+      "question_number": 92,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Codes",
+      "difficulty": "Medium",
+      "question": "What is the BCD representation of the decimal number 37?",
+      "options": {
+        "a": "00110111",
+        "b": "100101",
+        "c": "0011 0111"
+      },
+      "correct_answer": "a",
+      "explanation": "In BCD, each decimal digit is represented by its 4-bit binary equivalent. 3 is 0011 and 7 is 0111. Therefore, 37 is 00110111 in BCD[cite: 1355, 1393]."
+    },
+    {
+      "question_number": 93,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "What is a logic gate?",
+      "options": {
+        "a": "A mechanical switch that controls current",
+        "b": "An elementary building block of a digital circuit",
+        "c": "A storage device for a single bit"
+      },
+      "correct_answer": "b",
+      "explanation": "A logic gate is an elementary building block of a digital circuit or system. It's an electronic circuit with one or more inputs and only one output that performs a logical operation[cite: 1396, 1397]."
+    },
+    {
+      "question_number": 94,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "AND Gate",
+      "difficulty": "Medium",
+      "question": "When does a 2-input AND gate produce a HIGH (1) output?",
+      "options": {
+        "a": "Only when both inputs are HIGH (1)",
+        "b": "When at least one input is HIGH (1)",
+        "c": "Only when both inputs are LOW (0)"
+      },
+      "correct_answer": "a",
+      "explanation": "An AND gate produces a high output only when all of its inputs are high[cite: 1428]."
+    },
+    {
+      "question_number": 95,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "OR Gate",
+      "difficulty": "Medium",
+      "question": "When does a 2-input OR gate produce a HIGH (1) output?",
+      "options": {
+        "a": "Only when both inputs are HIGH (1)",
+        "b": "When at least one of the inputs is HIGH (1)",
+        "c": "Only when both inputs are LOW (0)"
+      },
+      "correct_answer": "b",
+      "explanation": "An OR gate produces a logical 1 output if at least one of its inputs is 1[cite: 1432]."
+    },
+    {
+      "question_number": 96,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "NOT Gate",
+      "difficulty": "Easy",
+      "question": "What is the function of a NOT gate (inverter)?",
+      "options": {
+        "a": "It has two outputs that are the opposite of each other",
+        "b": "It inverts the input digital signal",
+        "c": "It passes the input signal unchanged"
+      },
+      "correct_answer": "b",
+      "explanation": "A NOT gate, also called an inverter, is a single-input, single-output gate that only inverts (negates) the input digital signal[cite: 1436]."
+    },
+    {
+      "question_number": 97,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "NAND Gate",
+      "difficulty": "Medium",
+      "question": "When does a 2-input NAND gate produce a LOW (0) output?",
+      "options": {
+        "a": "When at least one input is LOW (0)",
+        "b": "Only when both inputs are LOW (0)",
+        "c": "Only when both inputs are HIGH (1)"
+      },
+      "correct_answer": "c",
+      "explanation": "A NAND gate has an output that is low only if all its inputs are at a logical high level[cite: 1442]."
+    },
+    {
+      "question_number": 98,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "NOR Gate",
+      "difficulty": "Medium",
+      "question": "When does a 2-input NOR gate produce a HIGH (1) output?",
+      "options": {
+        "a": "Only when both inputs are LOW (0)",
+        "b": "When at least one input is HIGH (1)",
+        "c": "Only when both inputs are HIGH (1)"
+      },
+      "correct_answer": "a",
+      "explanation": "A NOR gate has a high output only if all of its inputs are low[cite: 1445]."
+    },
+    {
+      "question_number": 99,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Universal Gates",
+      "difficulty": "Easy",
+      "question": "Why are NAND and NOR gates called 'universal gates'?",
+      "options": {
+        "a": "They are used in all countries around the world",
+        "b": "They can be used to realize any logical function",
+        "c": "They are the simplest gates to manufacture"
+      },
+      "correct_answer": "b",
+      "explanation": "NAND and NOR gates are considered universal gates because any logical function can be realized just by using these gates[cite: 1447, 1448]."
+    },
+    {
+      "question_number": 100,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "XOR Gate",
+      "difficulty": "Medium",
+      "question": "A 2-input XOR (Exclusive-OR) gate produces a HIGH (1) output when:",
+      "options": {
+        "a": "The inputs are the same",
+        "b": "The inputs are different",
+        "c": "Both inputs are HIGH (1)"
+      },
+      "correct_answer": "b",
+      "explanation": "An XOR gate produces a HIGH output only when its inputs are different (one is HIGH, the other is LOW). The logical expression is X = A'B + AB'[cite: 1454]."
+    },
+    {
+      "question_number": 101,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "XNOR Gate",
+      "difficulty": "Medium",
+      "question": "A 2-input XNOR (Exclusive-NOR) gate produces a HIGH (1) output when:",
+      "options": {
+        "a": "The inputs are different",
+        "b": "At least one input is HIGH (1)",
+        "c": "The inputs are the same"
+      },
+      "correct_answer": "c",
+      "explanation": "An XNOR gate performs an inverted XOR operation. It produces a HIGH output when its inputs are the same (both HIGH or both LOW). The logical expression is X = AB + A'B'[cite: 1457]."
+    },
+    {
+      "question_number": 102,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Easy",
+      "question": "What is the term for the physical parts of a computer system?",
+      "options": {
+        "a": "Software",
+        "b": "Hardware",
+        "c": "Firmware"
+      },
+      "correct_answer": "b",
+      "explanation": "Hardware refers to the physical parts of a computer system[cite: 1469]."
+    },
+    {
+      "question_number": 103,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Easy",
+      "question": "Which component is considered the 'brain' of the computer?",
+      "options": {
+        "a": "RAM",
+        "b": "Hard Drive",
+        "c": "CPU"
+      },
+      "correct_answer": "c",
+      "explanation": "The CPU (Central Processing Unit) is the brain of the computer[cite: 1472]."
+    },
+    {
+      "question_number": 104,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Data Representation",
+      "difficulty": "Easy",
+      "question": "What is a group of eight bits called?",
+      "options": {
+        "a": "Nibble",
+        "b": "Word",
+        "c": "Byte"
+      },
+      "correct_answer": "c",
+      "explanation": "A byte is a group of eight bits. A nibble is a group of four bits[cite: 1507]."
+    },
+    {
+      "question_number": 105,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Memory",
+      "difficulty": "Medium",
+      "question": "What is the main difference between RAM and ROM?",
+      "options": {
+        "a": "RAM is magnetic, while ROM is optical.",
+        "b": "RAM is volatile, while ROM is non-volatile.",
+        "c": "RAM is slower than ROM."
+      },
+      "correct_answer": "b",
+      "explanation": "RAM (Random Access Memory) is volatile, meaning it loses its data when power is turned off. ROM (Read Only Memory) is non-volatile, meaning it retains its data even without power[cite: 1534]."
+    },
+    {
+      "question_number": 106,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Memory",
+      "difficulty": "Medium",
+      "question": "Which type of RAM is faster and does not need to be power refreshed?",
+      "options": {
+        "a": "DRAM",
+        "b": "SRAM",
+        "c": "PROM"
+      },
+      "correct_answer": "b",
+      "explanation": "SRAM (Static RAM) is faster than DRAM, does not need to be power refreshed, and is used in cache memory. DRAM (Dynamic RAM) is slower and must be refreshed after each read operation[cite: 1536]."
+    },
+    {
+      "question_number": 107,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "CPU",
+      "difficulty": "Easy",
+      "question": "What part of the CPU performs arithmetic and logical operations?",
+      "options": {
+        "a": "Control Unit",
+        "b": "Register",
+        "c": "ALU"
+      },
+      "correct_answer": "c",
+      "explanation": "The ALU (Arithmetic and Logical Unit) performs arithmetic operations (like addition) and logical operations (like AND, OR, NOT)[cite: 1541, 1544]."
+    },
+    {
+      "question_number": 108,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Bus System",
+      "difficulty": "Easy",
+      "question": "What is a bus in a computer system?",
+      "options": {
+        "a": "A software program for transferring data",
+        "b": "A collection of wires for data transmission between computer parts",
+        "c": "A port for connecting peripherals"
+      },
+      "correct_answer": "b",
+      "explanation": "A bus is a collection of wires through which data is transmitted from one part of a computer to another[cite: 1478]."
+    },
+    {
+      "question_number": 109,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Medium",
+      "question": "What is the function of a compiler?",
+      "options": {
+        "a": "To convert Assembly Language to Machine Language",
+        "b": "To convert a High Level Language to Machine Language",
+        "c": "To execute a program line by line"
+      },
+      "correct_answer": "b",
+      "explanation": "A compiler converts a High Level Language (HLL) program into Machine Level Language (MLL) by reading the entire source program at once[cite: 1501]."
+    },
+    {
+      "question_number": 110,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Microprocessors",
+      "difficulty": "Easy",
+      "question": "What is a microprocessor?",
+      "options": {
+        "a": "A complete computer system on a single chip",
+        "b": "A CPU (ALU, registers, control circuits) on a silicon chip",
+        "c": "A type of volatile memory"
+      },
+      "correct_answer": "b",
+      "explanation": "A microprocessor is a silicon chip that includes the ALU, register circuits, and control circuits; it is essentially a CPU on a chip[cite: 1504]."
+    },
+    {
+      "question_number": 111,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Fundamentals",
+      "difficulty": "Medium",
+      "question": "What is the triboelectric effect?",
+      "options": {
+        "a": "The generation of electricity from heat",
+        "b": "The creation of static electricity when certain materials are rubbed together",
+        "c": "The flow of electricity through a vacuum"
+      },
+      "correct_answer": "b",
+      "explanation": "The triboelectric effect is the process that creates static electricity when one material is rubbed with another. The triboelectric scale shows how readily materials create this charge[cite: 1555]."
+    },
+    {
+      "question_number": 112,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Protection",
+      "difficulty": "Easy",
+      "question": "Which of the following is a special precaution that must be taken when handling electrostatic sensitive devices (ESD)?",
+      "options": {
+        "a": "Wearing clean cotton gloves",
+        "b": "Using magnetic tools",
+        "c": "Wearing a wrist strap connected to ground"
+      },
+      "correct_answer": "c",
+      "explanation": "Special precautions must be taken when handling ESD, including using wrist/heel straps, static dissipative mats, and grounded test equipment to prevent static discharge[cite: 1560]."
+    },
+    {
+      "question_number": 113,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Materials",
+      "difficulty": "Medium",
+      "question": "Which of the following is considered a static dissipative material used for protecting ESDs?",
+      "options": {
+        "a": "Cardboard",
+        "b": "Metal foil",
+        "c": "A cheaper form of conductive material"
+      },
+      "correct_answer": "c",
+      "explanation": "There are three main classes of materials for protecting ESDs: conductive (like metal foils), anti-static (like cotton), and static dissipative, which is described as a cheaper form of conductive material[cite: 1557, 1558, 1559]."
+    },
+    {
+      "question_number": 114,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Medium",
+      "question": "What is the decimal equivalent of the hexadecimal number C9₁₆?",
+      "options": {
+        "a": "129",
+        "b": "201",
+        "c": "199"
+      },
+      "correct_answer": "b",
+      "explanation": "C in hexadecimal is 12. So, C9₁₆ = (12 * 16¹) + (9 * 16⁰) = 192 + 9 = 201₁₀[cite: 1281, 1393]."
+    },
+    {
+      "question_number": 115,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Arithmetic",
+      "difficulty": "Medium",
+      "question": "What is the result of the binary addition 1011 + 0110?",
+      "options": {
+        "a": "11001",
+        "b": "10001",
+        "c": "1111"
+      },
+      "correct_answer": "b",
+      "explanation": "Starting from the right: 1+0=1. 1+1=0 carry 1. 0+1+carry 1=0 carry 1. 1+0+carry 1=0 carry 1. The result is 10001. The binary addition rules are shown in the document[cite: 1320, 1321, 1322]."
+    },
+    {
+      "question_number": 116,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Complements",
+      "difficulty": "Medium",
+      "question": "What is the 1's complement of the binary number 10110?",
+      "options": {
+        "a": "01001",
+        "b": "01010",
+        "c": "10111"
+      },
+      "correct_answer": "a",
+      "explanation": "The 1's complement is found by inverting each bit of the original number, changing all 1s to 0s and all 0s to 1s. So, 10110 becomes 01001[cite: 1333]."
+    },
+    {
+      "question_number": 117,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Complements",
+      "difficulty": "Medium",
+      "question": "What is the 2's complement of the binary number 10110?",
+      "options": {
+        "a": "01001",
+        "b": "01010",
+        "c": "10111"
+      },
+      "correct_answer": "b",
+      "explanation": "First, find the 1's complement by inverting the bits: 10110 becomes 01001. Then, add 1 to the result: 01001 + 1 = 01010. 2's complement = 1's complement + 1[cite: 1335, 1337, 1393]."
+    },
+    {
+      "question_number": 118,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Binary Codes",
+      "difficulty": "Easy",
+      "question": "Which alphanumeric code is a 7-bit code based on the English alphabet and is commonly used worldwide?",
+      "options": {
+        "a": "EBCDIC",
+        "b": "BCDIC",
+        "c": "ASCII"
+      },
+      "correct_answer": "c",
+      "explanation": "ASCII (American Standard Code for Information Interchange) is a 7-bit code based on the English alphabet and is more commonly used worldwide compared to EBCDIC[cite: 1379, 1381, 1382, 1384]."
+    },
+    {
+      "question_number": 119,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Fundamentals",
+      "difficulty": "Easy",
+      "question": "What tool is used to show the function of a logic gate by listing the output for all possible input combinations?",
+      "options": {
+        "a": "A flow chart",
+        "b": "A truth table",
+        "c": "A circuit diagram"
+      },
+      "correct_answer": "b",
+      "explanation": "Truth tables are used to help show the function of a logic gate. They list the output of a circuit for all possible combinations of its inputs[cite: 1420, 1421]."
+    },
+    {
+      "question_number": 120,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Applications",
+      "difficulty": "Medium",
+      "question": "XOR and XNOR gates are extensively used in which type of digital circuits?",
+      "options": {
+        "a": "Oscillators and clocks",
+        "b": "Parity generators and checking units",
+        "c": "Voltage amplifiers"
+      },
+      "correct_answer": "b",
+      "explanation": "Exclusive-OR and Exclusive-NOR gates are used in the generation of parity generator and checking units[cite: 1458, 1461]."
+    },
+    {
+      "question_number": 121,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Easy",
+      "question": "What is a peripheral device?",
+      "options": {
+        "a": "The central processing unit",
+        "b": "The main memory of the computer",
+        "c": "An input/output device connected to the computer"
+      },
+      "correct_answer": "c",
+      "explanation": "Peripherals are the input/output devices that are connected to the computer[cite: 1477]."
+    },
+    {
+      "question_number": 122,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Medium",
+      "question": "What does 'access time' for a memory unit refer to?",
+      "options": {
+        "a": "The time it takes to boot up the computer",
+        "b": "The time interval between calling for information and it being delivered",
+        "c": "The time it takes to install a software program"
+      },
+      "correct_answer": "b",
+      "explanation": "Access time is the time interval required to communicate with a memory unit, specifically the time between the instant the arithmetic unit calls for information and the instant it is delivered[cite: 1481]."
+    },
+    {
+      "question_number": 123,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Memory",
+      "difficulty": "Easy",
+      "question": "Which of the following is a type of optical memory?",
+      "options": {
+        "a": "Magnetic Hard Disk",
+        "b": "CD-ROM",
+        "c": "RAM"
+      },
+      "correct_answer": "b",
+      "explanation": "The document shows CD-ROM as an example of optical memory, distinct from magnetic memory (hard disk, floppy disk) and solid-state memory (RAM, ROM)[cite: 1530, 1532, 1533]."
+    },
+    {
+      "question_number": 124,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Memory",
+      "difficulty": "Medium",
+      "question": "How are different memory locations identified by the CPU?",
+      "options": {
+        "a": "By their physical position on the chip",
+        "b": "By a unique address",
+        "c": "By the type of data they store"
+      },
+      "correct_answer": "b",
+      "explanation": "Every memory location is identified by a unique address, which allows the CPU to access specific locations for reading or writing data[cite: 1529, 1538]."
+    },
+    {
+      "question_number": 125,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "CPU",
+      "difficulty": "Easy",
+      "question": "Which part of the CPU coordinates all internal operations and controls the ALU and registers?",
+      "options": {
+        "a": "ALU",
+        "b": "Program Counter",
+        "c": "Control Unit"
+      },
+      "correct_answer": "c",
+      "explanation": "The Control Unit coordinates the internal operation of the computer, controls the operation of the ALU and registers, and contains the clock for timing pulses[cite: 1545]."
+    },
+    {
+      "question_number": 126,
+      "lesson": "4",
+      "topic": "Computer Languages",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "What language is written using mnemonics like ADD, SUB, and STA?",
+      "options": {
+        "a": "Machine Language",
+        "b": "Assembly Language",
+        "c": "High Level Language"
+      },
+      "correct_answer": "b",
+      "explanation": "Assembly Language Programs (ALP) are written using mnemonics, which are English-like instructions such as ADD, SUB, and STA[cite: 1499, 1549]."
+    },
+    {
+      "question_number": 127,
+      "lesson": "4",
+      "topic": "Computer Applications",
+      "subtopic": "Aircraft",
+      "difficulty": "Medium",
+      "question": "In aircraft, a computer like the Flight Management Computer (FMC) that allows for pilot input is an example of what kind of computer?",
+      "options": {
+        "a": "Reference Computer",
+        "b": "Storage Computer",
+        "c": "Interactive Computer"
+      },
+      "correct_answer": "c",
+      "explanation": "The Flight Management Computer (FMC) is given as an example of an Interactive Computer, one of the types of computers found on aircraft[cite: 1510]."
+    },
+    {
+      "question_number": 128,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Fundamentals",
+      "difficulty": "Medium",
+      "question": "According to the document, which of these materials is likely to have a positive charge on the triboelectric scale?",
+      "options": {
+        "a": "Polyester",
+        "b": "Dry human skin",
+        "c": "Polyethylene"
+      },
+      "correct_answer": "b",
+      "explanation": "The triboelectric scale shows materials that readily create static electricity. Positive materials include glass, air, and dry human skin, while negative materials include polyester and polyethylene[cite: 1555, 1556]."
+    },
+    {
+      "question_number": 129,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Protection",
+      "difficulty": "Easy",
+      "question": "What is the purpose of using anti-static packaging for electronic components?",
+      "options": {
+        "a": "To protect them from physical damage during shipping",
+        "b": "To protect them from damage due to electrostatic discharge",
+        "c": "To keep them clean from dust"
+      },
+      "correct_answer": "b",
+      "explanation": "Special precautions for handling ESD sensitive devices include using anti-static packaging to protect them from electrostatic discharge[cite: 1560]."
+    },
+    {
+      "question_number": 130,
+      "lesson": "5",
+      "topic": "ESD",
+      "subtopic": "Environment",
+      "difficulty": "Medium",
+      "question": "Electrostatic voltages can be generated in typical working situations. Which material is noted for producing large amounts of static charge?",
+      "options": {
+        "a": "Natural fibers like cotton",
+        "b": "Synthetic materials",
+        "c": "Metals like copper"
+      },
+      "correct_answer": "b",
+      "explanation": "Synthetic materials are noted to produce large amounts of static charge, leading to electrostatic voltages in the working environment[cite: 1555, 1561]."
+    },
+    {
+      "question_number": 131,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Hard",
+      "question": "What is the correct procedure to convert a number from octal to hexadecimal?",
+      "options": {
+        "a": "Convert from octal to binary, then from binary to hexadecimal.",
+        "b": "Convert from octal to decimal, then from decimal to hexadecimal.",
+        "c": "Both A and B are valid methods."
+      },
+      "correct_answer": "c",
+      "explanation": "The document outlines two methods. The general method is to convert the original number to decimal, then convert the decimal number to the new base[cite: 1298, 1299]. It also provides shortcut methods, including octal to binary and binary to hexadecimal, which can be combined[cite: 1306, 1310]."
+    },
+    {
+      "question_number": 132,
+      "lesson": "3",
+      "topic": "Digital Electronics",
+      "subtopic": "Number Systems",
+      "difficulty": "Easy",
+      "question": "The value of each digit in a number is determined by the digit itself, its position, and what other factor?",
+      "options": {
+        "a": "The time of day",
+        "b": "The base (radix) of the number system",
+        "c": "The temperature"
+      },
+      "correct_answer": "b",
+      "explanation": "The value of each digit in a number can be determined using the digit, the position of the digit, and the base (or radix) of the number system[cite: 1267]."
+    },
+    {
+      "question_number": 133,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Logic Levels",
+      "difficulty": "Easy",
+      "question": "In most logic gates, what approximate voltage level represents a LOW state (logic '0')?",
+      "options": {
+        "a": "0 Volts",
+        "b": "+5 Volts",
+        "c": "-5 Volts"
+      },
+      "correct_answer": "a",
+      "explanation": "In most logic gates, the low state is approximately zero volts (0 V), while the high state is approximately five volts positive (+5 V)[cite: 1408]."
+    },
+    {
+      "question_number": 134,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Applications",
+      "difficulty": "Medium",
+      "question": "An AND gate can be used as an 'Enable' or 'Inhibit' gate. What does this mean?",
+      "options": {
+        "a": "It can enable or inhibit the power supply to the circuit.",
+        "b": "It can allow or disallow data to pass through a channel.",
+        "c": "It can invert or not invert the signal."
+      },
+      "correct_answer": "b",
+      "explanation": "AND gate applications include use as an Enable gate (allowance of data through a channel) or as an Inhibit gate (disallowance of data through a channel)[cite: 1431]."
+    },
+    {
+      "question_number": 135,
+      "lesson": "3",
+      "topic": "Logic Gates",
+      "subtopic": "Derived Gates",
+      "difficulty": "Easy",
+      "question": "A NAND gate is a combination of which two basic logic gates?",
+      "options": {
+        "a": "NOT and OR",
+        "b": "AND and OR",
+        "c": "AND and NOT"
+      },
+      "correct_answer": "c",
+      "explanation": "A NAND gate is a derived logic gate that is a combination of an AND gate followed by a NOT gate[cite: 1439]."
+    },
+    {
+      "question_number": 136,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "CPU",
+      "difficulty": "Easy",
+      "question": "What is the purpose of registers within the CPU?",
+      "options": {
+        "a": "To provide long-term storage",
+        "b": "To act as temporary storage units",
+        "c": "To coordinate the operation of the system"
+      },
+      "correct_answer": "b",
+      "explanation": "Registers are temporary storage units located within the CPU[cite: 1543]."
+    },
+    {
+      "question_number": 137,
+      "lesson": "4",
+      "topic": "Computer Structure",
+      "subtopic": "Memory",
+      "difficulty": "Hard",
+      "question": "A memory module has 3 address bits. How many unique memory locations can it address?",
+      "options": {
+        "a": "3",
+        "b": "6",
+        "c": "8"
+      },
+      "correct_answer": "c",
+      "explanation": "The number of addressable locations is 2 raised to the power of the number of address bits. With 3 address bits, a memory can address 2³ = 8 locations (from 0 to 7)[cite: 1539]."
+    },
+    {
+      "question_number": 138,
+      "lesson": "4",
+      "topic": "Computer Applications",
+      "subtopic": "Aircraft",
+      "difficulty": "Medium",
+      "question": "The EICAS (Engine Indication and Crew Alerting System) is an example of what type of aircraft computer?",
+      "options": {
+        "a": "Controlling Computer",
+        "b": "Informational Computer",
+        "c": "Reference Computer"
+      },
+      "correct_answer": "b",
+      "explanation": "EICAS is provided as an example of an Informational Computer used in aircraft[cite: 1514]."
+    },
+    {
+      "question_number": 139,
+      "lesson": "4",
+      "topic": "Computer Fundamentals",
+      "subtopic": "Terminology",
+      "difficulty": "Medium",
+      "question": "What is the difference between a microcomputer and a microprocessor?",
+      "options": {
+        "a": "There is no difference; the terms are interchangeable.",
+        "b": "A microprocessor is just the CPU on a chip, while a microcomputer includes memory and I/O as well.",
+        "c": "A microcomputer is smaller than a microprocessor."
+      },
+      "correct_answer": "b",
+      "explanation": "A microprocessor is the CPU on a chip (ALU, registers, control circuits). A microcomputer is a computer with a microprocessor as its CPU, and it also includes memory, I/O, etc.[cite: 1503, 1504]."
+    },
+    {
+      "question_number": 140,
+      "lesson": "4",
+      "topic": "Computer Languages",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "Which level of computer language consists of binary instructions that the computer can obey directly?",
+      "options": {
+        "a": "Assembly Language",
+        "b": "High Level Language",
+        "c": "Machine Language"
+      },
+      "correct_answer": "c",
+      "explanation": "Machine language (or machine code) is a list of instructions in binary form that can be loaded into the computer's memory for the computer to obey directly[cite: 1490, 1549]."
+    }
+  ]
+}

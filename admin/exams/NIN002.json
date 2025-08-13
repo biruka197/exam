@@ -1,0 +1,222 @@
+[
+    {
+        "question_number": 1,
+        "question": "Total Air Temperature is used by ADC (Air Data Computer) to calculate",
+        "options": {
+            "A": "Total air temperature (TAT)",
+            "B": "Total air temperature (TAT), static air temperature (SAT)",
+            "C": "Total air temperature (TAT), static air temperature (SAT), and true airspeed (TAS)"
+        },
+        "correct_answer": "C",
+        "explanation": "The Air Data Computer (ADC) uses Total Air Temperature (TAT) to calculate TAT, Static Air Temperature (SAT), and True Airspeed (TAS), as TAT accounts for the temperature rise due to air compression, enabling accurate airspeed and temperature calculations."
+    },
+    {
+        "question_number": 2,
+        "question": "What could be the reason for altimeter error?",
+        "options": {
+            "A": "Variation in temperature and pressure",
+            "B": "Variation in pressure",
+            "C": "Variation in temperature"
+        },
+        "correct_answer": "A",
+        "explanation": "Altimeter errors can result from variations in both temperature and pressure, as these affect atmospheric density and pressure, which the altimeter relies on to determine altitude."
+    },
+    {
+        "question_number": 3,
+        "question": "What is the speed indication presented on the airspeed indicator relative to?",
+        "options": {
+            "A": "Relative to a mass suspended on the aircraft's CG limit",
+            "B": "Relative to the ground",
+            "C": "Relative to the surrounding air molecules"
+        },
+        "correct_answer": "C",
+        "explanation": "The airspeed indicator measures speed relative to the surrounding air molecules, using the difference between pitot and static pressures to calculate indicated airspeed."
+    },
+    {
+        "question_number": 4,
+        "question": "Which of the following is not correct about Digital Air Data Computer (DADC)?",
+        "options": {
+            "A": "Outputs from the DADC are electric to drive servo motors",
+            "B": "A DADC usually receives its data in analog form",
+            "C": "All pressures and temperatures captured by sensors for air data calculations are fed into the DADC"
+        },
+        "correct_answer": "A",
+        "explanation": "DADC outputs are typically digital signals for display and system integration, not specifically to drive servo motors, which is more characteristic of analog systems."
+    },
+    {
+        "question_number": 5,
+        "question": "Which of the following is not correct about the pipeline of pitot-static system?",
+        "options": {
+            "A": "It is seamless and corrosion-resistant metal",
+            "B": "The chosen diameter of pipelines is related to the distance from the pressure sources to the instruments",
+            "C": "The chosen diameter of pipelines is related to the amount of pressure that goes to the instruments"
+        },
+        "correct_answer": "C",
+        "explanation": "The diameter of pitot-static pipelines is chosen based on the distance from the pressure sources to the instruments to minimize lag and ensure accuracy, not directly the amount of pressure."
+    },
+    {
+        "question_number": 6,
+        "question": "The standard sea-level pressure is ___________ lbf/in²",
+        "options": {
+            "A": "14.7",
+            "B": "15.3",
+            "C": "13.1"
+        },
+        "correct_answer": "A",
+        "explanation": "The standard sea-level pressure is 14.7 lbf/in² (pounds per square inch), equivalent to 29.92 inches of mercury or 1013.25 hPa."
+    },
+    {
+        "question_number": 7,
+        "question": "Altitude in terms of the distance above a certain point is",
+        "options": {
+            "A": "Height",
+            "B": "Absolute altitude",
+            "C": "Pressure altitude"
+        },
+        "correct_answer": "A",
+        "explanation": "Altitude measured as the distance above a certain point, such as terrain or sea level, is referred to as height, often used interchangeably with absolute altitude in specific contexts."
+    },
+    {
+        "question_number": 8,
+        "question": "During operation of an aircraft, which of the following primary flight instruments remains unaffected by position error (PE)?",
+        "options": {
+            "A": "Altimeter indicators",
+            "B": "Airspeed indicators",
+            "C": "Vertical speed indicators"
+        },
+        "correct_answer": "C",
+        "explanation": "Vertical speed indicators are unaffected by position error, as they rely solely on the rate of change of static pressure, whereas airspeed indicators and altimeters can be affected by improper static port placement."
+    },
+    {
+        "question_number": 9,
+        "question": "To prevent the entry of water and other foreign matter, the pitot pressure tube is provided with",
+        "options": {
+            "A": "Heater",
+            "B": "Baffles",
+            "C": "Cover cap"
+        },
+        "correct_answer": "B",
+        "explanation": "Baffles are used in pitot pressure tubes to prevent water and foreign matter from entering, while heaters prevent icing and cover caps are used when the aircraft is on the ground."
+    },
+    {
+        "question_number": 10,
+        "question": "What greatly affects the atmospheric pressure change with a change in altitude?",
+        "options": {
+            "A": "The size of the planet Earth",
+            "B": "The amount of mass of molecules of air",
+            "C": "The gravitational effect of the Earth"
+        },
+        "correct_answer": "C",
+        "explanation": "The gravitational effect of the Earth causes atmospheric pressure to decrease with altitude, as the density and mass of air molecules diminish under reduced gravitational influence."
+    },
+    {
+        "question_number": 11,
+        "question": "Vertical Speed Indicator is designed to indicate the rate of altitude change from the change of",
+        "options": {
+            "A": "Pitot pressure alone",
+            "B": "Static pressure and pitot pressure",
+            "C": "Static pressure alone"
+        },
+        "correct_answer": "C",
+        "explanation": "The Vertical Speed Indicator (VSI) measures the rate of altitude change by detecting changes in static pressure alone, using a calibrated vent to compare pressure differences."
+    },
+    {
+        "question_number": 12,
+        "question": "Under standard sea-level conditions, temperature is",
+        "options": {
+            "A": "15 Degree Celsius",
+            "B": "13 Degree Celsius",
+            "C": "14 Degree Celsius"
+        },
+        "correct_answer": "A",
+        "explanation": "Under standard sea-level conditions, the temperature is defined as 15°C (59°F) in the International Standard Atmosphere (ISA)."
+    },
+    {
+        "question_number": 13,
+        "question": "Central Air Data Computers (CADC) were developed to",
+        "options": {
+            "A": "Maximize the 'plumbing' arrangements of pitot-static systems",
+            "B": "Minimize the 'plumbing' arrangements of pitot-static systems",
+            "C": "Maximize the weight of pitot-static systems"
+        },
+        "correct_answer": "B",
+        "explanation": "Central Air Data Computers (CADC) were developed to minimize the 'plumbing' (tubing) required for pitot-static systems by centralizing data processing, reducing complexity and weight."
+    },
+    {
+        "question_number": 14,
+        "question": "At greater heights, the atmosphere is divided into further layers which, from the stratopause upwards, are termed as __________, __________, and __________",
+        "options": {
+            "A": "Ionosphere, Ozonosphere, and Exosphere",
+            "B": "Ozonosphere, Ionosphere, and Exosphere",
+            "C": "Exosphere, Ozonosphere, and Ionosphere"
+        },
+        "correct_answer": "B",
+        "explanation": "From the stratopause upwards, the atmospheric layers are the Ozonosphere (ozone layer within the stratosphere), Ionosphere (where charged particles are ionized), and Exosphere (the outermost layer)."
+    },
+    {
+        "question_number": 15,
+        "question": "What is the purpose of the Total Air Temperature (TAT) probe sensor? It senses temperature of",
+        "options": {
+            "A": "Air flow over the atmosphere and changes to digital signal",
+            "B": "An engine and changes to an analog electrical signal",
+            "C": "Air flow over the airplane and changes to an analog"
+        },
+        "correct_answer": "A",
+        "explanation": "The Total Air Temperature (TAT) probe senses the temperature of the airflow over the aircraft, accounting for compression effects, and converts it to a digital signal for use by the Air Data Computer."
+    },
+    {
+        "question_number": 16,
+        "question": "Which one of the following statements is true?",
+        "options": {
+            "A": "There is no need for cabin pressurization for large aircraft",
+            "B": "On a pressurized aircraft, there is no difference between the outside air and the cabin air",
+            "C": "On a pressurized aircraft, there is a difference between the outside air and the cabin air"
+        },
+        "correct_answer": "C",
+        "explanation": "On a pressurized aircraft, there is a significant difference between the outside air (low pressure at high altitudes) and the cabin air (maintained at a higher pressure for passenger comfort)."
+    },
+    {
+        "question_number": 17,
+        "question": "What type of pressure sensing and transmission element is used in some types of CADC altitude and airspeed transducers?",
+        "options": {
+            "A": "No sensing element is used on this type CADC",
+            "B": "Mechanical diaphragm containing capsule elements",
+            "C": "Silicon diaphragm containing piezoelectric elements"
+        },
+        "correct_answer": "C",
+        "explanation": "Some CADC altitude and airspeed transducers use silicon diaphragms with piezoelectric elements to convert pressure changes into electrical signals for accurate data processing."
+    },
+    {
+        "question_number": 18,
+        "question": "Which of the following is not the correct procedure for Pitot probe inspection procedure?",
+        "options": {
+            "A": "Open heater CBs before inspection",
+            "B": "Make sure the inner and outer surface of the probe tip is smooth and rounded",
+            "C": "No problem if nicks are on the leading edge of the Pitot probe and even Pitot probe axis"
+        },
+        "correct_answer": "C",
+        "explanation": "Nicks or damage on the leading edge or axis of the pitot probe can disrupt airflow and cause inaccurate readings, so this is not a correct inspection procedure."
+    },
+    {
+        "question_number": 19,
+        "question": "Ram air pressure from the aircraft's pitot tube is directed into",
+        "options": {
+            "A": "A diaphragm and instrument case",
+            "B": "Analog airspeed instrument case",
+            "C": "A diaphragm in an analog airspeed instrument case"
+        },
+        "correct_answer": "C",
+        "explanation": "Ram air pressure from the pitot tube is directed into a diaphragm in an analog airspeed instrument case, where it is compared with static pressure to calculate airspeed."
+    },
+    {
+        "question_number": 20,
+        "question": "Which of the following is not correct?",
+        "options": {
+            "A": "The static tube is open at its forward end but has a series of small holes drilled circumferentially",
+            "B": "The static tube is closed at its forward end but has a series of small holes drilled circumferentially",
+            "C": "The pitot tube is open at its forward end to receive the total air pressure resulting from the aircraft's forward movement"
+        },
+        "correct_answer": "A",
+        "explanation": "The static tube is closed at its forward end with small holes drilled circumferentially to measure static pressure, while the pitot tube is open at its forward end. Option A is incorrect as it states the static tube is open at its forward end."
+    }
+]

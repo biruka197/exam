@@ -17,12 +17,12 @@ foreach($courses_raw as $course) {
                 <input type="text" id="course_name" name="course" required>
             </div>
             <div class="form-group">
-                <label for="file-input">Exam File (JSON):</label>
+                <label for="file-input">Exam File(s) (JSON):</label>
                 <div id="drop-area">
-                    <p>Drag & drop your .json file here, or click to select file.</p>
+                    <p>Drag & drop your .json file(s) here, or click to select file(s).</p>
                     <p id="file-name"></p>
                 </div>
-                <input type="file" id="file-input" name="exam_file" accept=".json" required>
+                <input type="file" id="file-input" name="exam_file[]" accept=".json" required multiple>
             </div>
             <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Add Course</button>
         </form>

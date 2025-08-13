@@ -1,0 +1,1146 @@
+[
+    {
+        "question_number": 1,
+        "question": "What is the typical forward voltage drop across a standard silicon diode when it is conducting?",
+        "options": {
+            "a": "0.3V",
+            "b": "0.7V",
+            "c": "1.1V"
+        },
+        "correct_answer": "b",
+        "explanation": "The 0.7V value represents the typical forward voltage drop required to overcome the potential barrier of a silicon P-N junction. 0.3V is the characteristic voltage for a germanium diode, while 1.1V is closer to the bandgap energy of silicon, not its forward voltage drop."
+    },
+    {
+        "question_number": 2,
+        "question": "Based on their electrical conductivity, diodes are fundamentally classified as what type of devices?",
+        "options": {
+            "a": "Conductors",
+            "b": "Semi-conductors",
+            "c": "Insulators"
+        },
+        "correct_answer": "b",
+        "explanation": "Diodes are made from semiconductor materials like silicon or germanium. Their ability to be 'doped' allows their conductivity to be precisely controlled, falling between that of a conductor and an insulator, which is essential for their function."
+    },
+    {
+        "question_number": 3,
+        "question": "To enable conduction in a silicon junction diode, the forward bias voltage must typically exceed:",
+        "options": {
+            "a": "The peak inverse voltage.",
+            "b": "The Zener breakdown voltage.",
+            "c": "The potential barrier of approximately 0.7V."
+        },
+        "correct_answer": "c",
+        "explanation": "A silicon diode begins to conduct significantly only when the forward bias voltage is sufficient to overcome the internal potential barrier (or depletion region), which is approximately 0.7V. Peak inverse voltage and Zener voltage relate to reverse-bias conditions."
+    },
+    {
+        "question_number": 4,
+        "question": "If a pure semiconductor is doped with a pentavalent impurity (having 5 valence electrons), what type of material is created?",
+        "options": {
+            "a": "An N-type material",
+            "b": "A P-type material",
+            "c": "An intrinsic semiconductor"
+        },
+        "correct_answer": "a",
+        "explanation": "Pentavalent (5-electron) atoms donate a free electron to the semiconductor lattice, creating an excess of negative charge carriers (electrons). This results in an N-type (Negative-type) material. Doping with trivalent (3-electron) atoms creates P-type material."
+    },
+    {
+        "question_number": 5,
+        "question": "What is the primary function of a Zener diode in a power supply circuit?",
+        "options": {
+            "a": "To amplify the output current.",
+            "b": "To rectify the AC input to DC.",
+            "c": "To maintain a constant output voltage."
+        },
+        "correct_answer": "c",
+        "explanation": "A Zener diode is designed to operate in its reverse breakdown region, where it maintains a nearly constant voltage across its terminals despite changes in current. This property makes it ideal for use as a voltage regulator."
+    },
+    {
+        "question_number": 6,
+        "question": "In the structure of an NPN bipolar junction transistor, the P-type silicon represents which region?",
+        "options": {
+            "a": "The emitter",
+            "b": "The base",
+            "c": "The collector"
+        },
+        "correct_answer": "b",
+        "explanation": "In an NPN transistor, the structure consists of a thin layer of P-type material (the base) sandwiched between two layers of N-type material (the emitter and collector). This thin base controls the current flow between emitter and collector."
+    },
+    {
+        "question_number": 7,
+        "question": "In a PNP transistor, what is the direction of conventional current flow within the device?",
+        "options": {
+            "a": "From emitter to base",
+            "b": "From collector to base",
+            "c": "From base to emitter"
+        },
+        "correct_answer": "a",
+        "explanation": "The arrow on the transistor symbol indicates the direction of conventional current. In a PNP transistor, the arrow points from the P-type emitter to the N-type base, indicating that conventional current flows from emitter to base and on to the collector."
+    },
+    {
+        "question_number": 8,
+        "question": "For a bipolar junction transistor (BJT) to operate as an amplifier in the active region, how must the emitter-base (EB) junction be biased?",
+        "options": {
+            "a": "Forward-biased",
+            "b": "Reverse-biased",
+            "c": "Unbiased (zero bias)"
+        },
+        "correct_answer": "a",
+        "explanation": "For a BJT to function as an amplifier (in the active region), the emitter-base junction must be forward-biased to allow charge carriers to be injected into the base, while the collector-base junction must be reverse-biased to collect these carriers."
+    },
+    {
+        "question_number": 9,
+        "question": "For an NPN transistor to conduct and operate in the active region, the collector must be:",
+        "options": {
+            "a": "More negative than the emitter.",
+            "b": "At the same potential as the base.",
+            "c": "More positive than the emitter."
+        },
+        "correct_answer": "c",
+        "explanation": "In an NPN transistor, the collector-base junction must be reverse-biased for active region operation. This requires the collector to be more positive than the base, and since the base is more positive than the emitter (forward-biased EB junction), the collector must also be significantly more positive than the emitter."
+    },
+    {
+        "question_number": 10,
+        "question": "A bipolar junction transistor (BJT) is a versatile component that can be used as both:",
+        "options": {
+            "a": "A rectifier and a resistor.",
+            "b": "An amplifier and a switch.",
+            "c": "A capacitor and an inductor."
+        },
+        "correct_answer": "b",
+        "explanation": "A BJT's two primary modes of operation are as an amplifier (in the active region, where output current is a magnified version of the input current) and as a switch (operating between the cutoff 'off' state and the saturation 'on' state)."
+    },
+    {
+        "question_number": 11,
+        "question": "When an NPN transistor is operating in the active region, from which terminal do the majority charge carriers (electrons) exit the transistor and flow into the external circuit?",
+        "options": {
+            "a": "Base",
+            "b": "Collector",
+            "c": "Emitter"
+        },
+        "correct_answer": "b",
+        "explanation": "In an NPN transistor operating in the active region, electrons are emitted from the emitter, cross the base, and are collected by the collector terminal.  These electrons then exit the transistor via the collector terminal and flow into the external circuit."
+    },
+    {
+        "question_number": 12,
+        "question": "The arrow on the schematic symbol for a bipolar junction transistor indicates the direction of:",
+        "options": {
+            "a": "Electron flow in the emitter.",
+            "b": "Conventional current flow.",
+            "c": "The magnetic field."
+        },
+        "correct_answer": "b",
+        "explanation": "By convention, the arrow on the emitter of a BJT symbol always points in the direction of conventional current flow. For an NPN transistor, it points away from the base; for a PNP, it points toward the base."
+    },
+    {
+        "question_number": 13,
+        "question": "In an NPN transistor biased in the active region, what is the typical voltage relationship?",
+        "options": {
+            "a": "The collector is more positive than the base.",
+            "b": "The emitter is more positive than the base.",
+            "c": "The collector and base are at the same potential."
+        },
+        "correct_answer": "a",
+        "explanation": "Active region operation requires the emitter-base junction to be forward-biased (Vb > Ve) and the collector-base junction to be reverse-biased (Vc > Vb). Therefore, the collector must be at a higher positive potential than the base."
+    },
+    {
+        "question_number": 14,
+        "question": "When a transistor is driven into saturation, what is its characteristic resistance?",
+        "options": {
+            "a": "Very high resistance",
+            "b": "Infinite resistance",
+            "c": "Very low resistance"
+        },
+        "correct_answer": "c",
+        "explanation": "In saturation, the transistor is fully 'on,' and both junctions are forward-biased. It acts like a closed switch, offering very low resistance to current flow between the collector and emitter."
+    },
+    {
+        "question_number": 15,
+        "question": "Which equation correctly describes the relationship between emitter, base, and collector currents in a BJT?",
+        "options": {
+            "a": "Ic = Ie + Ib",
+            "b": "Ib = Ie - Ic",
+            "c": "Ie = Ib + Ic"
+        },
+        "correct_answer": "c",
+        "explanation": "Based on Kirchhoff's Current Law, the current flowing into the emitter terminal (Ie) is the sum of the currents flowing out of the collector (Ic) and base (Ib) terminals. Thus, Ie = Ib + Ic."
+    },
+    {
+        "question_number": 16,
+        "question": "What type of electrical power is typically required to operate a Desynn remote indicating system?",
+        "options": {
+            "a": "28V DC",
+            "b": "115V, 400 Hz AC",
+            "c": "230V, 50 Hz AC"
+        },
+        "correct_answer": "a",
+        "explanation": "Desynn systems are a type of DC selsyn system used for remote position indication (e.g., flaps, landing gear). They operate on the aircraft's standard 28V DC power."
+    },
+    {
+        "question_number": 17,
+        "question": "A P-type semiconductor is created by doping with an impurity that has how many electrons in its outermost shell?",
+        "options": {
+            "a": "3 electrons (trivalent)",
+            "b": "4 electrons (tetravalent)",
+            "c": "5 electrons (pentavalent)"
+        },
+        "correct_answer": "a",
+        "explanation": "Doping with a trivalent impurity (3 valence electrons) like Boron creates a 'hole' or an absence of an electron in the crystal lattice. This hole acts as a positive charge carrier, resulting in a P-type (Positive-type) semiconductor."
+    },
+    {
+        "question_number": 18,
+        "question": "Synchro indicator systems are specifically used when the output indication needs to:",
+        "options": {
+            "a": "Move at a rate proportional to the input rate.",
+            "b": "Move to a fixed position regardless of input.",
+            "c": "Lag the input by a constant 90-degree phase shift."
+        },
+        "correct_answer": "a",
+        "explanation": "Synchro systems excel at transmitting angular position information remotely. The indicator (receiver) will accurately follow the movement and rate of the generator (transmitter), ensuring the displayed rate matches the input rate."
+    },
+    {
+        "question_number": 19,
+        "question": "The process of 'doping,' which involves introducing impurities into a semiconductor crystal, is fundamentally a:",
+        "options": {
+            "a": "Mechanical reaction",
+            "b": "Chemical process",
+            "c": "Nuclear reaction"
+        },
+        "correct_answer": "b",
+        "explanation": "Doping is a precise chemical process where controlled amounts of impurity atoms are introduced into the semiconductor's crystal lattice to change its electrical properties. It does not involve mechanical force or changes to the atomic nucleus."
+    },
+    {
+        "question_number": 20,
+        "question": "In a synchro remote indicating system, where is the synchro generator (transmitter) typically located?",
+        "options": {
+            "a": "Inside the cockpit instrument panel.",
+            "b": "Near the physical quantity being measured.",
+            "c": "At the central aircraft power distribution bus."
+        },
+        "correct_answer": "b",
+        "explanation": "The synchro generator (or transmitter, TX) is the sensing unit. It must be located at the source of the mechanical movement it is measuring, such as on a flight control surface or engine component."
+    },
+    {
+        "question_number": 21,
+        "question": "A semiconductor diode is considered forward-biased when:",
+        "options": {
+            "a": "The anode is negative and the cathode is positive.",
+            "b": "The anode is positive and the cathode is negative.",
+            "c": "Both anode and cathode are connected to the positive terminal."
+        },
+        "correct_answer": "b",
+        "explanation": "Forward bias occurs when a potential is applied that opposes the diode's internal potential barrier. This is achieved by connecting the positive terminal to the anode (P-type side) and the negative terminal to the cathode (N-type side)."
+    },
+    {
+        "question_number": 22,
+        "question": "Which biasing condition is responsible for the flow of minority carrier current in a diode?",
+        "options": {
+            "a": "Forward bias",
+            "b": "Reverse bias",
+            "c": "Zero bias"
+        },
+        "correct_answer": "b",
+        "explanation": "Under reverse bias, the majority carriers are pulled away from the junction. However, the applied voltage aids the flow of minority carriers (electrons in the P-side, holes in the N-side), resulting in a very small leakage current."
+    },
+    {
+        "question_number": 23,
+        "question": "How does a Zener diode primarily differ from a standard conventional diode?",
+        "options": {
+            "a": "It is designed to operate continuously in the reverse-bias breakdown region.",
+            "b": "It has a much higher forward voltage drop.",
+            "c": "It cannot be used for rectification."
+        },
+        "correct_answer": "a",
+        "explanation": "While a standard diode would be destroyed by reverse breakdown, a Zener diode is specifically manufactured with a precise, non-destructive breakdown voltage, allowing it to conduct in reverse bias for voltage regulation purposes."
+    },
+    {
+        "question_number": 24,
+        "question": "In a bipolar junction transistor, the base current is typically:",
+        "options": {
+            "a": "Much larger than the collector current.",
+            "b": "Much smaller than the collector current.",
+            "c": "Equal to the emitter current."
+        },
+        "correct_answer": "b",
+        "explanation": "The function of a BJT is amplification, where a small base current controls a much larger collector current. The ratio of collector current to base current is the transistor's gain (beta or hfe), which is typically much greater than 1."
+    },
+    {
+        "question_number": 25,
+        "question": "Which semiconductor device is specifically designed to generate a photocurrent when exposed to light?",
+        "options": {
+            "a": "LED",
+            "b": "Photodiode",
+            "c": "Varactor diode"
+        },
+        "correct_answer": "b",
+        "explanation": "A photodiode is designed to convert light energy into electrical current. When photons strike its P-N junction, they create electron-hole pairs, resulting in a current proportional to the light intensity. An LED does the opposite, converting current to light."
+    },
+    {
+        "question_number": 26,
+        "question": "When a semiconductor diode is properly forward-biased, what is its primary characteristic?",
+        "options": {
+            "a": "It exhibits very high resistance.",
+            "b": "It allows current to flow easily.",
+            "c": "Its internal capacitance increases significantly."
+        },
+        "correct_answer": "b",
+        "explanation": "A forward-biased diode acts like a closed switch. The applied voltage overcomes the potential barrier, narrowing the depletion region and allowing majority charge carriers to flow across the junction with very little resistance."
+    },
+    {
+        "question_number": 27,
+        "question": "Which of the following is an advantage, not a disadvantage, of a doped semiconductor?",
+        "options": {
+            "a": "Its conductivity is fixed and cannot be changed.",
+            "b": "It operates identically at all temperatures.",
+            "c": "Its conductivity can be precisely controlled by the doping level."
+        },
+        "correct_answer": "c",
+        "explanation": "The primary advantage of doping is that it allows manufacturers to 'tune' the electrical properties of a semiconductor. By controlling the type and amount of impurity, the material's conductivity can be set to a desired level for a specific application."
+    },
+    {
+        "question_number": 28,
+        "question": "How is a Zener diode normally connected in a circuit for voltage regulation?",
+        "options": {
+            "a": "In reverse bias, parallel with the load.",
+            "b": "In forward bias, in series with the load.",
+            "c": "In reverse bias, in series with the load."
+        },
+        "correct_answer": "a",
+        "explanation": "For voltage regulation, a Zener diode is connected in reverse bias (cathode to the more positive side) and in parallel with the load. This configuration allows it to maintain its fixed Zener voltage across the load."
+    },
+    {
+        "question_number": 29,
+        "question": "A standard crystal diode is fundamentally composed of:",
+        "options": {
+            "a": "A single P-N junction.",
+            "b": "Two back-to-back P-N junctions.",
+            "c": "A layer of insulating material between two conductors."
+        },
+        "correct_answer": "a",
+        "explanation": "The simplest and most common diode, often called a crystal or rectifier diode, consists of a single junction formed between a piece of P-type semiconductor and a piece of N-type semiconductor. A BJT has two junctions."
+    },
+    {
+        "question_number": 30,
+        "question": "If the arrow on a diode's schematic symbol points towards the bar, and the arrow side is made positive with respect to the bar side, the diode is:",
+        "options": {
+            "a": "Forward-biased",
+            "b": "Reverse-biased",
+            "c": "Zener-breakdown biased"
+        },
+        "correct_answer": "a",
+        "explanation": "The arrow side of the symbol represents the anode (P-type), and the bar side represents the cathode (N-type). Connecting positive to the anode and negative to the cathode constitutes forward bias."
+    },
+    {
+        "question_number": 31,
+        "question": "The forward voltage drop across a typical silicon diode is approximately:",
+        "options": {
+            "a": "0.1V",
+            "b": "0.7V",
+            "c": "2.5V"
+        },
+        "correct_answer": "b",
+        "explanation": "This is a fundamental characteristic. A silicon diode requires approximately 0.7V of forward bias to overcome its internal potential barrier and begin conducting significant current."
+    },
+    {
+        "question_number": 32,
+        "question": "The most common application for a standard crystal diode is as a:",
+        "options": {
+            "a": "Voltage regulator",
+            "b": "Rectifier",
+            "c": "Variable capacitor"
+        },
+        "correct_answer": "b",
+        "explanation": "A standard diode's ability to allow current to flow in only one direction makes it ideal for rectification, the process of converting alternating current (AC) to direct current (DC)."
+    },
+    {
+        "question_number": 33,
+        "question": "What is the primary cause of leakage current in a reverse-biased crystal diode?",
+        "options": {
+            "a": "Majority carriers",
+            "b": "Minority carriers",
+            "c": "Junction capacitance"
+        },
+        "correct_answer": "b",
+        "explanation": "Under reverse bias, the small number of thermally generated minority carriers (electrons on the P-side, holes on the N-side) are pushed across the junction by the applied field, creating a small reverse leakage current."
+    },
+    {
+        "question_number": 34,
+        "question": "How does the reverse leakage current in a crystal diode change as its temperature increases?",
+        "options": {
+            "a": "It remains the same.",
+            "b": "It decreases.",
+            "c": "It increases."
+        },
+        "correct_answer": "c",
+        "explanation": "Increased temperature provides more thermal energy, which generates more minority carriers within the semiconductor material. This leads to a significant increase in the reverse leakage current."
+    },
+    {
+        "question_number": 35,
+        "question": "If the doping concentration of a crystal diode is increased, how is its reverse breakdown voltage affected?",
+        "options": {
+            "a": "It remains the same.",
+            "b": "It increases.",
+            "c": "It decreases."
+        },
+        "correct_answer": "c",
+        "explanation": "Higher doping levels create a narrower depletion region. A narrower region means a stronger electric field for a given voltage, so the voltage required to cause breakdown (avalanche or Zener effect) is lower."
+    },
+    {
+        "question_number": 36,
+        "question": "When a large amount of current is flowing through a crystal diode, the diode is operating under:",
+        "options": {
+            "a": "Forward bias",
+            "b": "Reverse bias",
+            "c": "Breakdown condition"
+        },
+        "correct_answer": "a",
+        "explanation": "Significant current flow is the defining characteristic of a forward-biased diode, which acts as a low-resistance path. Reverse bias allows only a tiny leakage current, while breakdown is a specific reverse-bias condition."
+    },
+    {
+        "question_number": 37,
+        "question": "A Zener diode is structurally composed of:",
+        "options": {
+            "a": "A single P-N junction.",
+            "b": "Two P-N junctions.",
+            "c": "Three P-N junctions."
+        },
+        "correct_answer": "a",
+        "explanation": "Like a standard diode, a Zener diode is a two-terminal device made from a single P-N junction. The key difference is the much higher doping level used to achieve a specific reverse breakdown voltage."
+    },
+    {
+        "question_number": 38,
+        "question": "What is the most common application of a Zener diode?",
+        "options": {
+            "a": "As an amplifier",
+            "b": "As a voltage regulator",
+            "c": "As an oscillator"
+        },
+        "correct_answer": "b",
+        "explanation": "Zener diodes are almost exclusively used for voltage regulation. Their ability to maintain a constant voltage during reverse breakdown makes them perfect for creating stable voltage references in power supplies and other circuits."
+    },
+    {
+        "question_number": 39,
+        "question": "How does the doping level of a Zener diode's junction compare to that of a standard rectifier diode?",
+        "options": {
+            "a": "It is much less.",
+            "b": "It is about the same.",
+            "c": "It is much more heavily doped."
+        },
+        "correct_answer": "c",
+        "explanation": "Zener diodes are heavily doped to create a very thin depletion region. This allows the Zener effect (a quantum tunneling phenomenon) to occur at a specific, low reverse voltage, which is essential for its function as a voltage regulator."
+    },
+    {
+        "question_number": 40,
+        "question": "In its intended application, a Zener diode is almost always connected in:",
+        "options": {
+            "a": "Reverse bias",
+            "b": "Forward bias",
+            "c": "Series with the AC source"
+        },
+        "correct_answer": "a",
+        "explanation": "The unique voltage-regulating property of a Zener diode only manifests when it is operated in its reverse breakdown region. Therefore, it is always connected in reverse bias (cathode to positive, anode to negative)."
+    },
+    {
+        "question_number": 41,
+        "question": "In the breakdown region, a Zener diode primarily acts as a:",
+        "options": {
+            "a": "Constant voltage source",
+            "b": "Constant current source",
+            "c": "Constant resistance source"
+        },
+        "correct_answer": "a",
+        "explanation": "Once the reverse voltage reaches the Zener voltage (Vz), the diode will conduct whatever current is necessary to maintain that specific voltage across its terminals, effectively behaving like a constant voltage source."
+    },
+    {
+        "question_number": 42,
+        "question": "Under forward bias, a diode behaves most like a(n):",
+        "options": {
+            "a": "Open switch",
+            "b": "Closed switch",
+            "c": "Capacitor"
+        },
+        "correct_answer": "b",
+        "explanation": "Forward biasing a diode allows a large current to flow with very little resistance, which is analogous to the behavior of a closed (or 'on') switch in a circuit."
+    },
+    {
+        "question_number": 43,
+        "question": "In which operating mode is a transistor when both its base-emitter and collector-base junctions are forward-biased?",
+        "options": {
+            "a": "Active mode",
+            "b": "Cut-off mode",
+            "c": "Saturation mode"
+        },
+        "correct_answer": "c",
+        "explanation": "Saturation mode occurs when both junctions are forward-biased. In this state, the transistor is fully 'on' and acts like a closed switch, allowing maximum current to flow from collector to emitter."
+    },
+    {
+        "question_number": 44,
+        "question": "Which terminal of a Silicon-Controlled Rectifier (SCR) is used to trigger it into conduction?",
+        "options": {
+            "a": "Anode",
+            "b": "Cathode",
+            "c": "Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "An SCR is a latching switch. It remains off until a small positive voltage pulse is applied to the gate terminal, which triggers it into the 'on' or conducting state between its anode and cathode."
+    },
+    {
+        "question_number": 45,
+        "question": "A Thyristor, or SCR, is a semiconductor device consisting of how many layers?",
+        "options": {
+            "a": "Two (P-N)",
+            "b": "Three (P-N-P)",
+            "c": "Four (P-N-P-N)"
+        },
+        "correct_answer": "c",
+        "explanation": "A thyristor (SCR) has a more complex structure than a diode or BJT. It consists of four alternating layers of P-type and N-type material (P-N-P-N), which gives it its unique latching characteristic."
+    },
+    {
+        "question_number": 46,
+        "question": "When the positive terminal of a power source is connected to P-type material and the negative terminal to N-type material, the junction is said to be:",
+        "options": {
+            "a": "Forward-biased",
+            "b": "Reverse-biased",
+            "c": "Unbiased"
+        },
+        "correct_answer": "a",
+        "explanation": "This connection opposes the internal potential barrier of the P-N junction, allowing majority carriers to flow across it. This is the definition of forward bias."
+    },
+    {
+        "question_number": 47,
+        "question": "An NPN transistor will turn on when which junction is forward-biased?",
+        "options": {
+            "a": "Collector-Base junction",
+            "b": "Base-Emitter junction",
+            "c": "Collector-Emitter junction"
+        },
+        "correct_answer": "b",
+        "explanation": "Forward biasing the Base-Emitter junction (making the base about 0.7V more positive than the emitter) is the crucial first step to turn on an NPN transistor and allow current to flow."
+    },
+    {
+        "question_number": 48,
+        "question": "The depletion region of a P-N junction is characterized by a lack of:",
+        "options": {
+            "a": "Doping atoms",
+            "b": "Free charge carriers",
+            "c": "Covalent bonds"
+        },
+        "correct_answer": "b",
+        "explanation": "The depletion region forms at the junction as electrons from the N-side and holes from the P-side combine and neutralize each other. This leaves a region that is depleted of mobile or free charge carriers."
+    },
+    {
+        "question_number": 49,
+        "question": "What are the three terminals of a Field-Effect Transistor (FET)?",
+        "options": {
+            "a": "Anode, Cathode, Gate",
+            "b": "Emitter, Base, Collector",
+            "c": "Drain, Source, Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "Unlike a BJT (Emitter, Base, Collector), a FET's terminals are named for their function in controlling a channel of current: the Source (where carriers originate), the Drain (where they are collected), and the Gate (which controls the channel)."
+    },
+    {
+        "question_number": 50,
+        "question": "To turn on an NPN transistor, its Base-Emitter junction must be:",
+        "options": {
+            "a": "Forward-biased",
+            "b": "Reverse-biased",
+            "c": "In breakdown"
+        },
+        "correct_answer": "a",
+        "explanation": "Applying a forward bias voltage (typically ~0.7V for silicon) to the Base-Emitter junction is the fundamental action required to initiate the flow of charge carriers and turn the transistor on."
+    },
+    {
+        "question_number": 51,
+        "question": "A standard diode has how many terminals?",
+        "options": {
+            "a": "Two",
+            "b": "Three",
+            "c": "Four"
+        },
+        "correct_answer": "a",
+        "explanation": "A standard diode is a two-terminal device. The terminals are called the anode and the cathode."
+    },
+    {
+        "question_number": 52,
+        "question": "In an NPN transistor, the material used for the base region is:",
+        "options": {
+            "a": "N-type",
+            "b": "P-type",
+            "c": "Intrinsic"
+        },
+        "correct_answer": "b",
+        "explanation": "The name NPN describes the structure: an N-type emitter, a P-type base, and an N-type collector. The base is the thin layer of oppositely doped material."
+    },
+    {
+        "question_number": 53,
+        "question": "A photoresistor, which changes resistance based on light intensity, is also known as a(n):",
+        "options": {
+            "a": "LED",
+            "b": "LDR (Light Dependent Resistor)",
+            "c": "Varistor"
+        },
+        "correct_answer": "b",
+        "explanation": "LDR, or Light Dependent Resistor, is the common name for a photoresistor. Its resistance decreases as the intensity of light falling on it increases."
+    },
+    {
+        "question_number": 54,
+        "question": "A thyristor (SCR) is a three-terminal device. What are the terminals?",
+        "options": {
+            "a": "Drain, Source, Gate",
+            "b": "Emitter, Base, Collector",
+            "c": "Anode, Cathode, Gate"
+        },
+        "correct_answer": "c",
+        "explanation": "An SCR's terminals are the Anode and Cathode, which are the main current-carrying terminals, and the Gate, which is the control terminal used to trigger the device into conduction."
+    },
+    {
+        "question_number": 55,
+        "question": "A Zener diode is used as a voltage stabilizer when it is operated in which region?",
+        "options": {
+            "a": "Forward-biased region",
+            "b": "Reverse-biased breakdown region",
+            "c": "Saturation region"
+        },
+        "correct_answer": "b",
+        "explanation": "The key characteristic of a Zener diode is its constant voltage drop when operated in its reverse breakdown region. This stable voltage makes it ideal for use as a voltage stabilizer or regulator."
+    },
+    {
+        "question_number": 56,
+        "question": "Which solid-state device is often used as a high-speed switch to replace older electromechanical relays?",
+        "options": {
+            "a": "Diode",
+            "b": "Thyristor (SCR)",
+            "c": "Thermistor"
+        },
+        "correct_answer": "b",
+        "explanation": "Thyristors (and other related solid-state relays) offer much faster switching speeds, no moving parts (which means greater reliability and longevity), and silent operation compared to mechanical relays, making them ideal replacements in many applications."
+    },
+    {
+        "question_number": 57,
+        "question": "A Field-Effect Transistor (FET) is considered to be a:",
+        "options": {
+            "a": "Voltage-operated device",
+            "b": "Current-operated device",
+            "c": "Power-operated device"
+        },
+        "correct_answer": "a",
+        "explanation": "A FET's operation is controlled by the voltage applied to its gate terminal. This voltage creates an electric field that modulates the conductivity of the channel, hence it is a voltage-operated device. A BJT, in contrast, is a current-operated device."
+    },
+    {
+        "question_number": 58,
+        "question": "A thermistor is a type of resistor whose resistance value is highly sensitive to:",
+        "options": {
+            "a": "Light",
+            "b": "Voltage",
+            "c": "Temperature"
+        },
+        "correct_answer": "c",
+        "explanation": "The name 'thermistor' is a portmanteau of 'thermal' and 'resistor'. These components are specifically designed to exhibit a large, predictable change in resistance in response to changes in temperature, making them useful as temperature sensors."
+    },
+    {
+        "question_number": 59,
+        "question": "Which type of diode is specifically designed to emit photons when forward-biased?",
+        "options": {
+            "a": "Zener diode",
+            "b": "Schottky diode",
+            "c": "LED (Light Emitting Diode)"
+        },
+        "correct_answer": "c",
+        "explanation": "An LED is designed so that when charge carriers (electrons and holes) recombine at the P-N junction under forward bias, they release energy in the form of photons of light."
+    },
+    {
+        "question_number": 60,
+        "question": "Which of the following relationships for BJT currents is correct?",
+        "options": {
+            "a": "Ic = Ie - Ib",
+            "b": "Ie = Ic - Ib",
+            "c": "Ib = Ie + Ic"
+        },
+        "correct_answer": "a",
+        "explanation": "This is a rearrangement of the fundamental BJT current equation, Ie = Ic + Ib. By subtracting the small base current (Ib) from the total emitter current (Ie), you get the collector current (Ic)."
+    },
+    {
+        "question_number": 61,
+        "question": "In a PNP transistor, the arrow on the schematic points from the emitter to the base, indicating the direction of:",
+        "options": {
+            "a": "Conventional current flow",
+            "b": "Electron flow",
+            "c": "Hole depletion"
+        },
+        "correct_answer": "a",
+        "explanation": "The arrow on any BJT symbol, whether NPN or PNP, always indicates the direction of conventional current flow for the emitter-base junction. In a PNP, this is from the P-type Emitter to the N-type Base."
+    },
+    {
+        "question_number": 62,
+        "question": "An ideal diode, when reverse-biased, acts as a(n) ________, and when forward-biased, acts as a(n) ________.",
+        "options": {
+            "a": "open switch; closed switch",
+            "b": "closed switch; open switch",
+            "c": "resistor; capacitor"
+        },
+        "correct_answer": "a",
+        "explanation": "Ideally, a reverse-biased diode blocks all current, behaving like an open switch (infinite resistance). A forward-biased diode allows all current to pass with no voltage drop, behaving like a closed switch (zero resistance)."
+    },
+    {
+        "question_number": 63,
+        "question": "A Zener diode is a component designed to provide a:",
+        "options": {
+            "a": "Constant current supply",
+            "b": "Constant voltage level",
+            "c": "Variable resistance"
+        },
+        "correct_answer": "b",
+        "explanation": "The primary application of a Zener diode is to act as a voltage reference or regulator. It achieves this by maintaining a constant voltage across itself when operated in its reverse breakdown region."
+    },
+    {
+        "question_number": 64,
+        "question": "In which material is the valence band closest to the conduction band, allowing for easy electron flow?",
+        "options": {
+            "a": "Insulators",
+            "b": "Semiconductors",
+            "c": "Conductors"
+        },
+        "correct_answer": "c",
+        "explanation": "In conductors, the valence and conduction bands overlap, meaning there is no energy gap (bandgap). This allows electrons to move freely with very little applied energy, resulting in high conductivity."
+    },
+    {
+        "question_number": 65,
+        "question": "What is the purpose of doping a semiconductor material?",
+        "options": {
+            "a": "To increase its resistance and decrease current flow.",
+            "b": "To alter its electrical properties and control conductivity.",
+            "c": "To make it a perfect insulator."
+        },
+        "correct_answer": "b",
+        "explanation": "Doping introduces impurity atoms into the intrinsic semiconductor lattice. This process creates an abundance of either free electrons (N-type) or holes (P-type), thereby increasing and controlling the material's conductivity for use in electronic devices."
+    },
+    {
+        "question_number": 66,
+        "question": "To operate a BJT in the active region for amplification, how must its junctions be biased?",
+        "options": {
+            "a": "EB junction reverse-biased, CB junction forward-biased",
+            "b": "EB junction forward-biased, CB junction reverse-biased",
+            "c": "Both junctions forward-biased"
+        },
+        "correct_answer": "b",
+        "explanation": "This is the standard biasing for amplification. The forward-biased emitter-base (EB) junction allows carriers to be injected into the base, and the reverse-biased collector-base (CB) junction efficiently collects them, resulting in current amplification."
+    },
+    {
+        "question_number": 67,
+        "question": "What is the defining characteristic of operation in the saturation mode for a BJT?",
+        "options": {
+            "a": "Both Base-Emitter and Collector-Base junctions are reverse-biased.",
+            "b": "The Base-Emitter junction is forward-biased and the Collector-Base is reverse-biased.",
+            "c": "Both Base-Emitter and Collector-Base junctions are forward-biased."
+        },
+        "correct_answer": "c",
+        "explanation": "When a transistor is in saturation, it is fully 'on'. This state is achieved when sufficient base current causes both the base-emitter and the collector-base junctions to become forward-biased, making it act like a closed switch."
+    },
+    {
+        "question_number": 68,
+        "question": "In electronics, the term 'forbidden gap' or 'bandgap' is largest in which type of material?",
+        "options": {
+            "a": "Conductors",
+            "b": "Insulators",
+            "c": "Semiconductors"
+        },
+        "correct_answer": "b",
+        "explanation": "Insulators have a very large energy bandgap between the valence and conduction bands. This makes it extremely difficult for electrons to jump to the conduction band, which is why they are poor conductors of electricity."
+    },
+    {
+        "question_number": 69,
+        "question": "A P-N junction diode is reverse-biased when:",
+        "options": {
+            "a": "The P-type region is connected to a positive terminal and the N-type to a negative terminal.",
+            "b": "The P-type region is connected to a negative terminal and the N-type to a positive terminal.",
+            "c": "Both regions are connected to ground."
+        },
+        "correct_answer": "b",
+        "explanation": "This connection polarity aids the internal potential barrier, widening the depletion region and preventing the flow of majority carriers. This is the definition of reverse bias."
+    },
+    {
+        "question_number": 70,
+        "question": "A Field-Effect Transistor (FET) is controlled by the electric field and is therefore known as a:",
+        "options": {
+            "a": "Current-operated device",
+            "b": "Voltage-operated device",
+            "c": "Power-controlled device"
+        },
+        "correct_answer": "b",
+        "explanation": "The current flow between the source and drain in a FET is controlled by the voltage applied to the gate. This voltage creates an electric field that modulates the channel's conductivity. Hence, it is a voltage-operated device."
+    },
+    {
+        "question_number": 71,
+        "question": "A Zener diode is specifically designed to operate reliably in which condition?",
+        "options": {
+            "a": "Below its forward breakover voltage.",
+            "b": "In its reverse breakdown region.",
+            "c": "Only at zero bias."
+        },
+        "correct_answer": "b",
+        "explanation": "Unlike conventional diodes, Zener diodes are manufactured to have a precise and stable voltage drop when they are reverse-biased into their breakdown region. This is their intended mode of operation for voltage regulation."
+    },
+    {
+        "question_number": 72,
+        "question": "If the reverse bias voltage across a diode is increased significantly beyond its rating, what happens to the load current?",
+        "options": {
+            "a": "It increases rapidly in the reverse direction.",
+            "b": "It drops to absolute zero.",
+            "c": "It reverses and flows in the forward direction."
+        },
+        "correct_answer": "a",
+        "explanation": "When the reverse voltage exceeds the breakdown voltage, a large current begins to flow rapidly in the reverse direction due to avalanche or Zener effects. For a standard diode, this is typically a destructive event."
+    },
+    {
+        "question_number": 73,
+        "question": "When comparing a phototransistor to a photodiode, the phototransistor typically offers:",
+        "options": {
+            "a": "A much faster response to changes in light.",
+            "b": "Built-in amplification, providing higher current for a given light level.",
+            "c": "Lower sensitivity to light."
+        },
+        "correct_answer": "b",
+        "explanation": "A phototransistor is essentially a photodiode combined with an amplifying transistor in one package. The small photocurrent generated by the light is amplified, resulting in a much larger output current, making it more sensitive than a photodiode alone."
+    },
+    {
+        "question_number": 74,
+        "question": "In a common collector (emitter-follower) amplifier configuration, what is the phase relationship between the input and output signals?",
+        "options": {
+            "a": "They are in phase (0\u00b0 shift).",
+            "b": "They are 180\u00b0 out of phase.",
+            "c": "They are 90\u00b0 out of phase."
+        },
+        "correct_answer": "a",
+        "explanation": "The common collector, or emitter-follower, configuration is known for having a voltage gain close to 1 and having its output voltage signal in phase with its input voltage signal. The output 'follows' the input."
+    },
+    {
+        "question_number": 75,
+        "question": "In a properly biased NPN transistor, what is the voltage relationship between the collector and the base?",
+        "options": {
+            "a": "The collector is more positive than the base.",
+            "b": "The collector is more negative than the base.",
+            "c": "The collector is at the same potential as the base."
+        },
+        "correct_answer": "a",
+        "explanation": "For operation in the active region, the collector-base junction must be reverse-biased. In an NPN transistor, this means the N-type collector must be at a higher (more positive) potential than the P-type base."
+    },
+    {
+        "question_number": 76,
+        "question": "Which of the following is a core component of an Electronic Instrument System (EIS) and is not considered a separate, external system?",
+        "options": {
+            "a": "Electronic Flight Instrument System (EFIS)",
+            "b": "Air Data Computer (ADC)",
+            "c": "Global Positioning System (GPS)"
+        },
+        "correct_answer": "b",
+        "explanation": "The Air Data Computer (ADC) is an integral part of the EIS. It processes data from pitot-static sensors to compute critical parameters like airspeed, altitude, and vertical speed, which are then fed to the display systems (EFIS)."
+    },
+    {
+        "question_number": 77,
+        "question": "Which of these is a critical engine parameter displayed on the EICAS, but is not a component of the Electronic Flight Instrument System (EFIS) display itself?",
+        "options": {
+            "a": "Exhaust Gas Temperature (EGT)",
+            "b": "Electronic Attitude Director Indicator (EADI)",
+            "c": "Electronic Horizontal Situation Indicator (EHSI)"
+        },
+        "correct_answer": "a",
+        "explanation": "EGT is a vital engine parameter displayed on the Engine Indicating and Crew Alerting System (EICAS). EADI and EHSI are the primary display components of the EFIS, which shows flight and navigation data, not engine data."
+    },
+    {
+        "question_number": 78,
+        "question": "Which component of an EFIS is used to display course, bearing, and distance information for navigation?",
+        "options": {
+            "a": "EADI (Electronic Attitude Director Indicator)",
+            "b": "EHSI (Electronic Horizontal Situation Indicator)",
+            "c": "EGT (Exhaust Gas Temperature) indicator"
+        },
+        "correct_answer": "b",
+        "explanation": "The EHSI provides a comprehensive navigational display, integrating information from various sources (like VOR, GPS, FMS) to show the aircraft's position relative to its planned course, waypoints, and navaids in a map-like format."
+    },
+    {
+        "question_number": 79,
+        "question": "On which display system would you find primary engine parameters, warnings, and alerts?",
+        "options": {
+            "a": "EADI",
+            "b": "EHSI",
+            "c": "EICAS"
+        },
+        "correct_answer": "c",
+        "explanation": "EICAS stands for Engine Indicating and Crew Alerting System. Its specific purpose is to monitor and display all engine parameters and to alert the crew to any system malfunctions or abnormal conditions."
+    },
+    {
+        "question_number": 80,
+        "question": "How many display units are typically used by an ECAM (Electronic Centralized Aircraft Monitor) system?",
+        "options": {
+            "a": "One",
+            "b": "Two",
+            "c": "Three"
+        },
+        "correct_answer": "b",
+        "explanation": "A typical Airbus ECAM system uses two displays. The upper display (Engine/Warning Display) shows primary engine data and warnings, while the lower display (System/Status Display) shows synoptic diagrams of aircraft systems and status messages."
+    },
+    {
+        "question_number": 81,
+        "question": "Why is knowledge of digital electronics critical for modern aircraft technicians?",
+        "options": {
+            "a": "Because all aircraft systems are still purely analog.",
+            "b": "Because major systems like flight control and navigation are heavily reliant on digital electronics.",
+            "c": "Because pilots no longer need to understand the systems."
+        },
+        "correct_answer": "b",
+        "explanation": "Modern aircraft utilize complex integrated digital systems (avionics) for flight control (fly-by-wire), navigation, communication, and systems monitoring. Technicians must understand digital principles to troubleshoot and maintain these interconnected systems."
+    },
+    {
+        "question_number": 82,
+        "question": "For the critical take-off phase, where should the most important flight instruments be located?",
+        "options": {
+            "a": "On the overhead panel",
+            "b": "In the pilot's primary field of view on the front instrument panel",
+            "c": "On the center pedestal"
+        },
+        "correct_answer": "b",
+        "explanation": "Ergonomic design principles dictate that the most critical instruments for flight (the 'basic T') must be located directly in the pilot's primary line of sight on the main instrument panel to allow for quick and easy monitoring without excessive head movement."
+    },
+    {
+        "question_number": 83,
+        "question": "Why are modern aircraft instrument panels sloped forward?",
+        "options": {
+            "a": "To make them harder for the technician to access.",
+            "b": "To reduce glare and improve the pilot's viewing angle.",
+            "c": "To fit more instruments in the same space."
+        },
+        "correct_answer": "b",
+        "explanation": "Sloping the instrument panel helps to minimize reflections and glare from sunlight or cockpit lighting on the instrument faces. It also aligns the displays more perpendicularly to the pilot's line of sight, reducing parallax error and improving readability."
+    },
+    {
+        "question_number": 84,
+        "question": "Which of the following is typically a standalone instrument and not part of the basic T-grouping of flight instruments?",
+        "options": {
+            "a": "Airspeed indicator",
+            "b": "Attitude indicator",
+            "c": "Fuel quantity indicator"
+        },
+        "correct_answer": "c",
+        "explanation": "The basic T-grouping consists of the airspeed indicator, attitude indicator, altimeter, and directional indicator. Fuel quantity indicators are vital but are typically located outside this central T-scan area."
+    },
+    {
+        "question_number": 85,
+        "question": "Which flight instrument provides the pilot with direct information about the aircraft's pitch and roll attitude?",
+        "options": {
+            "a": "Directional indicator (Heading)",
+            "b": "Gyro horizon indicator (Attitude indicator)",
+            "c": "Turn and bank indicator"
+        },
+        "correct_answer": "b",
+        "explanation": "The attitude indicator, also known as the artificial horizon or gyro horizon, is the only instrument that gives a direct, immediate indication of the aircraft's orientation (pitch and roll) relative to the Earth's horizon."
+    },
+    {
+        "question_number": 86,
+        "question": "What is a primary advantage of digital electronic systems over analog systems in an aircraft?",
+        "options": {
+            "a": "They are less precise and store less information.",
+            "b": "They can easily process and store vast amounts of information in digital form.",
+            "c": "They are immune to electromagnetic interference."
+        },
+        "correct_answer": "b",
+        "explanation": "Digital systems excel at handling large quantities of data with high precision. They allow for complex calculations, data storage (for maintenance and flight analysis), and integration between various aircraft systems, which is far more difficult with analog electronics."
+    },
+    {
+        "question_number": 87,
+        "question": "What is the largest number that can be represented by a 5-digit hexadecimal number?",
+        "options": {
+            "a": "65,536",
+            "b": "1,048,575",
+            "c": "FFFFF"
+        },
+        "correct_answer": "c",
+        "explanation": "In hexadecimal (base 16), the largest single digit is F. Therefore, the largest 5-digit number is FFFFF. Its decimal equivalent is 1,048,575, but FFFFF is the correct representation in hexadecimal."
+    },
+    {
+        "question_number": 88,
+        "question": "What is the binary equivalent of the decimal number 32?",
+        "options": {
+            "a": "11111",
+            "b": "100000",
+            "c": "100001"
+        },
+        "correct_answer": "b",
+        "explanation": "In the binary system, place values are powers of 2 (..., 32, 16, 8, 4, 2, 1). The decimal number 32 is exactly 1 * 32, so it is represented as 100000 in binary. 11111 is decimal 31."
+    },
+    {
+        "question_number": 89,
+        "question": "What are the octal (base 8) and hexadecimal (base 16) equivalents of the binary number 11000011.1111?",
+        "options": {
+            "a": "(303.74)\u2088 and (C3.F)\u2081\u2086",
+            "b": "(603.17)\u2088 and (C3.F)\u2081\u2086",
+            "c": "(303.17)\u2088 and (B3.E)\u2081\u2086"
+        },
+        "correct_answer": "a",
+        "explanation": "For octal, group binary digits in threes: (110 000 011 . 111 100) -> (603.74). For hexadecimal, group in fours: (1100 0011 . 1111) -> (C3.F). Rechecking the provided answer image indicates (303.74)8 and (C3.F)16 might have a typo in the octal conversion. Let's re-convert the provided correct answer: Binary 11000011 is (303) in octal. Binary .1111 is (.74) in octal. Hex 1100 is C, Hex 0011 is 3, Hex 1111 is F. So the correct conversion is (303.74)\u2088 and (C3.F)\u2081\u2086."
+    },
+    {
+        "question_number": 90,
+        "question": "How many bits are used in standard ASCII coding for alphanumeric characters?",
+        "options": {
+            "a": "4 bits",
+            "b": "7 bits",
+            "c": "16 bits"
+        },
+        "correct_answer": "b",
+        "explanation": "The original standard ASCII (American Standard Code for Information Interchange) uses a 7-bit code, which allows for 128 unique characters (letters, numbers, symbols). Extended ASCII uses 8 bits (1 byte), and Unicode uses 16 bits or more for broader language support."
+    },
+    {
+        "question_number": 91,
+        "question": "The capacitance of a varactor diode is:",
+        "options": {
+            "a": "Directly proportional to the reverse bias voltage.",
+            "b": "Inversely proportional to the reverse bias voltage.",
+            "c": "Unaffected by the reverse bias voltage."
+        },
+        "correct_answer": "b",
+        "explanation": "A varactor (or varicap) diode is used as a voltage-controlled capacitor. Increasing the reverse bias voltage widens the depletion region, which acts as the dielectric. A wider dielectric results in lower capacitance, hence the inverse relationship."
+    },
+    {
+        "question_number": 92,
+        "question": "When a small positive-going voltage is applied to the base of a normally biased NPN common-emitter amplifier, what is the effect on the collector voltage?",
+        "options": {
+            "a": "The collector voltage goes more positive.",
+            "b": "The collector voltage goes less positive (more negative).",
+            "c": "The collector voltage remains unchanged."
+        },
+        "correct_answer": "b",
+        "explanation": "A common-emitter amplifier is an inverting amplifier. A positive-going signal on the base increases the base and collector currents. The increased collector current causes a larger voltage drop across the collector resistor, making the collector voltage (Vc = Vcc - Ic*Rc) go down, or less positive."
+    },
+    {
+        "question_number": 93,
+        "question": "A successful thyristor can be used as a high-speed switch, but under specific conditions it can also function as a(n):",
+        "options": {
+            "a": "Amplifier",
+            "b": "Inverter",
+            "c": "Oscillator"
+        },
+        "correct_answer": "a",
+        "explanation": "While its primary role is switching, a thyristor exhibits high gain characteristics. A very small gate current can control a very large anode current, which is the principle of amplification. However, it's a non-linear amplification used more for control than for audio signals."
+    },
+    {
+        "question_number": 94,
+        "question": "For a P-N junction diode to be reverse-biased, the anode (P-type) must be connected to the ________ terminal and the cathode (N-type) to the ________ terminal of the power source.",
+        "options": {
+            "a": "positive; negative",
+            "b": "negative; positive",
+            "c": "positive; positive"
+        },
+        "correct_answer": "b",
+        "explanation": "Reverse bias is achieved by applying a voltage that reinforces the internal potential barrier. This requires connecting the P-type anode to the negative terminal and the N-type cathode to the positive terminal, pulling majority carriers away from the junction."
+    },
+    {
+        "question_number": 95,
+        "question": "A thyristor is a _______ terminal device made from _______ layers of semiconductor material.",
+        "options": {
+            "a": "2 terminals, 3 layers",
+            "b": "3 terminals, 4 layers",
+            "c": "4 terminals, 4 layers"
+        },
+        "correct_answer": "b",
+        "explanation": "The most common thyristor, the SCR (Silicon-Controlled Rectifier), has three terminals (Anode, Cathode, Gate) and is constructed from four alternating semiconductor layers (P-N-P-N)."
+    },
+    {
+        "question_number": 96,
+        "question": "The forward bias on a P-N junction:",
+        "options": {
+            "a": "Increases the width of the depletion region.",
+            "b": "Decreases the width of the depletion region.",
+            "c": "Has no effect on the depletion region."
+        },
+        "correct_answer": "b",
+        "explanation": "A forward bias voltage opposes the natural potential barrier at the junction, pushing majority carriers (electrons and holes) towards the junction. This reduces the width of the charge-depleted region, allowing current to flow more easily."
+    },
+    {
+        "question_number": 97,
+        "question": "In a BJT, the emitter is generally the most heavily doped region to:",
+        "options": {
+            "a": "Ensure a large number of charge carriers are injected into the base.",
+            "b": "Dissipate the maximum amount of heat.",
+            "c": "Have the highest possible reverse breakdown voltage."
+        },
+        "correct_answer": "a",
+        "explanation": "The emitter's function is to 'emit' or inject charge carriers into the base. Heavy doping ensures a very high concentration of these carriers, maximizing the transistor's efficiency and current gain (beta)."
+    },
+    {
+        "question_number": 98,
+        "question": "A Light Dependent Resistor (LDR) is a type of:",
+        "options": {
+            "a": "Variable resistor controlled by voltage.",
+            "b": "Fixed resistor with high power rating.",
+            "c": "Variable resistor whose resistance changes with light intensity."
+        },
+        "correct_answer": "c",
+        "explanation": "An LDR, also called a photoresistor, is made of a semiconductor material whose conductivity is sensitive to light. Its resistance decreases significantly when exposed to higher levels of light."
+    },
+    {
+        "question_number": 99,
+        "question": "Which of the following best describes the function of a thyristor?",
+        "options": {
+            "a": "A light-sensitive switch.",
+            "b": "A fast, solid-state switch for controlling DC power.",
+            "c": "A device for regulating voltage."
+        },
+        "correct_answer": "b",
+        "explanation": "A thyristor (like an SCR) is fundamentally a latching switch. Once triggered by its gate, it turns on and allows a large current to flow, making it ideal for controlling DC motors, heaters, and other power applications. It is not typically used for voltage regulation."
+    },
+    {
+        "question_number": 100,
+        "question": "The relationship Ic = \u03b2 * Ib is fundamental to the operation of a BJT in which region?",
+        "options": {
+            "a": "Active region",
+            "b": "Cutoff region",
+            "c": "Saturation region"
+        },
+        "correct_answer": "a",
+        "explanation": "This equation defines the current gain (\u03b2 or beta) of a transistor and is only valid in the active region, where the transistor acts as an amplifier. In cutoff, Ic is zero. In saturation, Ic is at its maximum and is no longer controlled by Ib."
+    },
+    {
+        "question_number": 101,
+        "question": "The arrow on a transistor symbol is always on which lead?",
+        "options": {
+            "a": "The Collector",
+            "b": "The Base",
+            "c": "The Emitter"
+        },
+        "correct_answer": "c",
+        "explanation": "The arrow is always placed on the emitter lead in the schematic symbol for a BJT. It indicates the direction of conventional current flow and distinguishes between NPN (arrow out) and PNP (arrow in) types."
+    },
+    {
+        "question_number": 102,
+        "question": "In an NPN common-emitter amplifier, an increase in base current will cause the emitter current to:",
+        "options": {
+            "a": "Increase",
+            "b": "Decrease",
+            "c": "Remain constant"
+        },
+        "correct_answer": "a",
+        "explanation": "Since Ie = Ib + Ic, and an increase in base current (Ib) causes a much larger increase in collector current (Ic), the total emitter current (Ie) must also increase."
+    },
+    {
+        "question_number": 103,
+        "question": "Compared to a photodiode, a phototransistor is:",
+        "options": {
+            "a": "Less sensitive but faster.",
+            "b": "More sensitive but slower.",
+            "c": "Equally sensitive and equally fast."
+        },
+        "correct_answer": "b",
+        "explanation": "The internal amplification of a phototransistor makes it much more sensitive to light than a photodiode. However, this amplification process adds capacitance and complexity, making its response time to changes in light slower than that of a photodiode."
+    },
+    {
+        "question_number": 104,
+        "question": "Which component of an Electronic Flight Instrument System (EFIS) primarily displays attitude and flight director information?",
+        "options": {
+            "a": "EHSI (Electronic Horizontal Situation Indicator)",
+            "b": "EADI (Electronic Attitude Director Indicator)",
+            "c": "EICAS (Engine Indicating and Crew Alerting System)"
+        },
+        "correct_answer": "b",
+        "explanation": "The EADI's main purpose is to replace the traditional artificial horizon. It displays the aircraft's attitude (pitch and roll) and integrates flight director commands (e.g., from the autopilot) to guide the pilot."
+    }
+]

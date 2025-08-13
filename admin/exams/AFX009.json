@@ -1,0 +1,167 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is a critical safety procedure to perform on the hydraulic system before conducting maintenance on the landing gear?",
+    "options": {
+      "A": "Depressurize the hydraulic system.",
+      "B": "Ensure the hydraulic fluid is at the maximum level.",
+      "C": "Heat the hydraulic fluid to operating temperature."
+    },
+    "correct_answer": "A",
+    "explanation": "Depressurizing the hydraulic system is a crucial safety step to prevent accidental retraction or extension of the landing gear during maintenance, which could cause serious injury or damage[cite: 8]."
+  },
+  {
+    "question_number": 2,
+    "question": "Where can the specific locations for leveling an aircraft be found?",
+    "options": {
+      "A": "The aircraft's logbook.",
+      "B": "The Type Certificate Data Sheet (TCDS).",
+      "C": "The pilot's pre-flight checklist."
+    },
+    "correct_answer": "B",
+    "explanation": "The Type Certificate Data Sheet (TCDS) for a specific aircraft model provides authoritative information, including the location of leveling points required for maintenance and rigging procedures[cite: 11]."
+  },
+  {
+    "question_number": 6,
+    "question": "Which primary control surface manages the aircraft's movement around its lateral axis?",
+    "options": {
+      "A": "Ailerons",
+      "B": "Rudder",
+      "C": "Elevator"
+    },
+    "correct_answer": "C",
+    "explanation": "The elevator, typically located on the horizontal stabilizer, controls the aircraft's pitch (nose up or down), which is movement about the lateral or wingtip-to-wingtip axis[cite: 26, 27]."
+  },
+  {
+    "question_number": 8,
+    "question": "What is the absolute first step before beginning any maintenance procedure on a stabilizer?",
+    "options": {
+      "A": "Observe all safety precautions.",
+      "B": "Gather all necessary tools.",
+      "C": "Document the intended work in the logbook."
+    },
+    "correct_answer": "A",
+    "explanation": "Prior to any physical work, the first and most important procedure is to observe and adhere to all specified safety precautions to ensure a safe working environment[cite: 31]."
+  },
+  {
+    "question_number": 9,
+    "question": "Which device is designed to increase a wing's camber and, as a result, its lift?",
+    "options": {
+      "A": "Spoiler",
+      "B": "Flap",
+      "C": "Slat"
+    },
+    "correct_answer": "B",
+    "explanation": "Flaps are hinged surfaces on the trailing edge of the wings that, when extended, increase the wing's camber, which in turn generates more lift at lower airspeeds[cite: 33, 34]."
+  },
+  {
+    "question_number": 10,
+    "question": "What safety device is typically used on a drilled shank bolt in conjunction with a castellated nut?",
+    "options": {
+      "A": "Lock washer",
+      "B": "Safety wire",
+      "C": "Cotter pin"
+    },
+    "correct_answer": "C",
+    "explanation": "A cotter pin is inserted through the slots of a castellated nut and the hole in the bolt's shank to physically prevent the nut from rotating and loosening[cite: 36, 37]."
+  },
+  {
+    "question_number": 16,
+    "question": "Which component in a control cable system is used to make adjustments to cable tension?",
+    "options": {
+      "A": "Turnbuckle",
+      "B": "Pulley",
+      "C": "Fairlead"
+    },
+    "correct_answer": "A",
+    "explanation": "A turnbuckle is a mechanical fitting that can be rotated to lengthen or shorten, thereby increasing or decreasing the tension in a cable to meet specifications[cite: 48, 50]."
+  },
+  {
+    "question_number": 17,
+    "question": "What is the correct tool for measuring the amount of tension in an aircraft's control cable?",
+    "options": {
+      "A": "A micrometer",
+      "B": "A tensiometer",
+      "C": "A torque wrench"
+    },
+    "correct_answer": "B",
+    "explanation": "A tensiometer is a specialized gauge designed specifically to measure the tension of a cable, ensuring it is within the aircraft manufacturer's specified range for proper flight control response[cite: 51, 52]."
+  },
+  {
+    "question_number": 18,
+    "question": "Which type of aircraft control system is particularly susceptible to Electromagnetic Interference (EMI)?",
+    "options": {
+      "A": "Hydraulic",
+      "B": "Mechanical",
+      "C": "Fly-by-wire"
+    },
+    "correct_answer": "C",
+    "explanation": "Fly-by-wire systems use electrical signals to transmit pilot inputs to the flight controls. These electronic systems can be susceptible to interference from electromagnetic sources if not properly shielded[cite: 53, 55]."
+  },
+  {
+    "question_number": 23,
+    "question": "Which component is used to guide control cables and change their direction of movement?",
+    "options": {
+      "A": "A fairlead",
+      "B": "A bellcrank",
+      "C": "A pulley"
+    },
+    "correct_answer": "C",
+    "explanation": "Pulleys are grooved wheels used in flight control systems to change the routing direction of a cable with minimal friction[cite: 72, 74]."
+  },
+  {
+    "question_number": 24,
+    "question": "What is the term for the vertical distance and relative alignment between the leading edges of a biplane's wings?",
+    "options": {
+      "A": "Stagger",
+      "B": "Gap",
+      "C": "Dihedral"
+    },
+    "correct_answer": "A",
+    "explanation": "Stagger describes the longitudinal positioning of one wing of a biplane ahead of the other. The note 'Hagu' is likely a misspelling of Stagger[cite: 75, 76]."
+  },
+  {
+    "question_number": 25,
+    "question": "What is the first step in the process of rigging an aircraft's control surfaces?",
+    "options": {
+      "A": "Adjust all turnbuckles.",
+      "B": "Lock the control column and pedals in their neutral position.",
+      "C": "Disconnect the control cables from the surfaces."
+    },
+    "correct_answer": "B",
+    "explanation": "Before making any adjustments, the control column, wheel, and rudder pedals must be locked in their neutral position to establish a fixed reference for the entire flight control system[cite: 77, 78, 80]."
+  },
+  {
+    "question_number": 26,
+    "question": "What is a primary safety consideration when lifting an aircraft with a hoist?",
+    "options": {
+      "A": "Attaching the hoist to the strongest-looking part of the airframe.",
+      "B": "Ensuring the hoist has been recently painted.",
+      "C": "Not exceeding the specified maximum load limit."
+    },
+    "correct_answer": "C",
+    "explanation": "The most critical consideration is to ensure the weight of the aircraft does not exceed the maximum certified load of the hoist and the aircraft's lifting points to prevent catastrophic failure[cite: 92, 93]."
+  },
+  {
+    "question_number": 27,
+    "question": "What are the two most important factors to consider when preparing to jack an aircraft?",
+    "options": {
+      "A": "The time of day and humidity.",
+      "B": "Using the correct jacking points and observing load limits.",
+      "C": "The brand of the jack and the color of the aircraft."
+    },
+    "correct_answer": "B",
+    "explanation": "For safety and to prevent structural damage, it is essential to use only the manufacturer-specified jacking points and to never exceed the posted load limits for those points[cite: 94, 96]."
+  },
+  {
+    "question_number": 32,
+    "question": "What component in a control cable system automatically compensates for temperature changes to maintain correct tension?",
+    "options": {
+      "A": "A turnbuckle",
+      "B": "A tension regulator",
+      "C": "A bellcrank"
+    },
+    "correct_answer": "B",
+    "explanation": "A tension regulator is designed to automatically expand or contract to maintain a constant tension in the control cables as the aircraft structure and cables change size due to varying temperatures[cite: 112, 117]."
+  }
+]
